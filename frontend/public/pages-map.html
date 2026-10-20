@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>词峰 WORDPEAK · 页面功能与关系图 · UI 设计说明书</title>
+<meta name="description" content="词峰 21 个页面的功能、数据、入口出口与关系图，给 UI 设计用的功能底稿。"/>
+<style>
+:root{
+  --paper:#F7F5F0; --paper-2:#F1EEE7; --paper-3:#EAE6DD;
+  --surface:#FFFFFF; --ink:#203653; --ink-2:#56657C; --ink-3:#66738A; --ink-4:#7E8A9B;
+  --line:rgba(32,54,83,.12); --line-2:rgba(32,54,83,.2);
+  --navy:#2C4568; --accent:#3D5A85; --accent-2:#5B6FC4; --gold:#8F6B2A; --gold-2:#C9A45C;
+  --gold-soft:#F3E8D2; --teal:#2F7F83; --rose:#A05A5A; --system:#66738A;
+  --serif:"Songti SC","STZhongsong","Times New Roman",Georgia,serif;
+  --sans:"Inter","PingFang SC","Microsoft YaHei",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono","SFMono-Regular",Consolas,"Cascadia Code",monospace;
+  --shadow:0 18px 50px rgba(32,54,83,.08);
+  --r:18px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; color:var(--ink); font-family:var(--sans); font-size:14px; line-height:1.65;
+  background:
+    radial-gradient(900px 520px at 8% -6%, rgba(143,107,42,.07), transparent 62%),
+    radial-gradient(820px 520px at 102% 16%, rgba(61,90,133,.07), transparent 60%),
+    radial-gradient(700px 500px at 50% 104%, rgba(47,127,131,.04), transparent 60%),
+    var(--paper);
+  -webkit-font-smoothing:antialiased;
+}
+body::after{
+  content:''; position:fixed; inset:0; z-index:999; pointer-events:none; opacity:.026;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.86' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+a{color:var(--accent); text-decoration:none}
+a:hover{text-decoration:underline}
+code{font-family:var(--mono); font-size:.92em; color:var(--accent); background:rgba(61,90,133,.07); padding:1px 5px; border-radius:4px; white-space:nowrap}
+.shell{max-width:1580px; margin:0 auto; display:flex}
+.sidebar{
+  width:266px; flex:0 0 266px; position:sticky; top:0; height:100vh; overflow-y:auto;
+  padding:26px 18px 32px; border-right:1px solid var(--line);
+  background:rgba(247,245,240,.88); backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px); z-index:20;
+}
+.side-brand{display:flex; align-items:center; gap:9px; padding:4px 8px 18px; border-bottom:1px solid var(--line)}
+.side-star{width:26px;height:26px;color:var(--gold); display:flex;align-items:center;justify-content:center}
+.side-brand b{font-family:var(--serif); font-size:19px; font-weight:600; letter-spacing:.08em}
+.side-brand em{font-style:normal; font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; color:var(--gold); display:block; margin-top:1px}
+.side-nav{display:flex; flex-direction:column; gap:2px; padding:14px 0}
+.side-label{font-family:var(--mono); font-size:9px; letter-spacing:.18em; color:var(--gold); padding:16px 10px 6px; text-transform:uppercase}
+.side-nav a{display:flex; align-items:center; gap:8px; padding:7px 10px; border-radius:9px; color:var(--ink-2); font-size:12.5px; transition:.16s}
+.side-nav a:hover{background:rgba(255,255,255,.7); color:var(--ink); text-decoration:none}
+.side-nav a.active{background:var(--surface); color:var(--ink); box-shadow:0 2px 12px rgba(32,54,83,.06); font-weight:600}
+.side-nav a i{margin-left:auto; font-style:normal; font-family:var(--mono); font-size:9.5px; color:var(--ink-4)}
+.side-dot{width:7px;height:7px;border-radius:50%; background:var(--g,var(--accent)); flex-shrink:0}
+.side-foot{margin-top:22px; padding:14px 10px 0; border-top:1px solid var(--line); font-family:var(--mono); font-size:9px; line-height:1.8; color:var(--ink-4); letter-spacing:.06em}
+.main{flex:1; min-width:0; padding:0 58px 90px}
+.masthead{padding:54px 0 36px; border-bottom:1px solid var(--line); position:relative}
+.brand-row{display:flex; align-items:center; gap:12px; margin-bottom:30px; flex-wrap:wrap}
+.brand-star{width:38px;height:38px;border-radius:50%; background:linear-gradient(145deg,#FBF3E1,#EAD3A1); display:flex;align-items:center;justify-content:center; color:#8F6B2A; font-size:18px; box-shadow:0 8px 22px rgba(143,107,42,.16); border:1px solid rgba(143,107,42,.25)}
+.brand-name{font-family:var(--serif); font-size:20px; font-weight:600; letter-spacing:.08em}
+.brand-name em{font-style:normal; font-family:var(--mono); font-size:9px; letter-spacing:.24em; color:var(--gold); margin-left:8px}
+.brand-kicker{margin-left:auto; font-family:var(--mono); font-size:9px; letter-spacing:.2em; color:var(--ink-4)}
+h1{font-family:var(--serif); font-weight:600; font-size:clamp(42px,5.2vw,68px); line-height:1.12; letter-spacing:.01em; margin:0 0 18px; color:var(--ink)}
+h1 .accent{color:var(--accent)}
+.mast-lead{font-size:15px; color:var(--ink-2); max-width:760px; line-height:1.85; margin:0 0 24px}
+.mast-actions{display:flex; gap:10px; flex-wrap:wrap; align-items:center}
+.btn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line-2); border-radius:999px; padding:10px 18px; font-size:12px; font-family:inherit; cursor:pointer; background:var(--surface); color:var(--ink); transition:.18s; text-decoration:none}
+.btn:hover{transform:translateY(-1px); border-color:var(--gold); text-decoration:none}
+.btn.primary{background:linear-gradient(135deg,#2C4568,#3D5A85); border-color:transparent; color:#fff; box-shadow:0 6px 18px rgba(44,69,104,.2)}
+.btn.ghost{background:transparent}
+.mast-stats{display:flex; gap:30px; flex-wrap:wrap; margin-top:34px; padding-top:22px; border-top:1px solid var(--line)}
+.mast-stat{display:flex; flex-direction:column; gap:2px}
+.mast-stat b{font-family:var(--serif); font-size:27px; font-weight:600; line-height:1; color:var(--ink)}
+.mast-stat span{font-family:var(--mono); font-size:8.5px; letter-spacing:.16em; color:var(--ink-4)}
+.section{margin-top:58px; scroll-margin-top:20px}
+.sec-kicker{font-family:var(--mono); font-size:9px; letter-spacing:.24em; color:var(--gold); margin-bottom:10px}
+.sec-head{display:flex; align-items:flex-end; justify-content:space-between; gap:20px; flex-wrap:wrap; margin-bottom:20px}
+.sec-head h2{font-family:var(--serif); font-weight:600; font-size:clamp(26px,3vw,36px); line-height:1.2; margin:0; letter-spacing:.02em}
+.sec-head p{margin:0; color:var(--ink-2); font-size:13px; max-width:620px}
+.sec-lead{color:var(--ink-2); font-size:13.5px; line-height:1.85; max-width:820px; margin:0 0 22px}
+.note-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-top:18px}
+.note-card{background:rgba(255,255,255,.66); border:1px solid var(--line); border-radius:14px; padding:16px 17px}
+.note-card b{display:block; font-size:12.5px; margin-bottom:5px}
+.note-card p{margin:0; font-size:11.5px; line-height:1.7; color:var(--ink-3)}
+.note-card .n{font-family:var(--mono); font-size:9px; color:var(--gold); letter-spacing:.14em; margin-bottom:8px}
+.map-panel{background:#08111F; border-radius:26px; padding:22px; box-shadow:0 28px 70px rgba(8,17,31,.22); position:relative; overflow:hidden; color:#F7F5F0}
+.map-panel::before{content:''; position:absolute; inset:0; background:radial-gradient(700px 400px at 18% 0%,rgba(34,211,238,.11),transparent 60%),radial-gradient(600px 420px at 90% 90%,rgba(143,107,42,.14),transparent 60%); pointer-events:none}
+.map-head{position:relative; display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; margin-bottom:12px}
+.map-head .k{font-family:var(--mono); font-size:9px; letter-spacing:.22em; color:#D6B681}
+.map-head h3{font-family:var(--serif); font-size:22px; font-weight:600; margin:4px 0 0}
+.map-head p{margin:0; color:#9FB0C6; font-size:11.5px; line-height:1.7; max-width:520px}
+.map-scroll{position:relative; overflow-x:auto; overflow-y:hidden; border-radius:16px}
+.map-scroll svg{display:block; width:100%; min-width:980px; height:auto}
+.map-legend{display:flex; gap:18px; flex-wrap:wrap; padding:14px 6px 2px; position:relative; font-family:var(--mono); font-size:9px; letter-spacing:.08em; color:#9FB0C6}
+.map-legend span{display:inline-flex; align-items:center; gap:7px}
+.lg-line{width:24px;height:2px;border-radius:2px;background:#8FA8C8; display:inline-block}
+.lg-line.gold{background:#D6B681}
+.lg-line.dash{background:repeating-linear-gradient(90deg,#8FA8C8 0 5px,transparent 5px 9px)}
+.lg-box{width:10px;height:10px;border:1px solid #8FA8C8;border-radius:3px;display:inline-block}
+.journey-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:14px}
+.journey{background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:18px 19px; box-shadow:0 8px 24px rgba(32,54,83,.04)}
+.journey .j-top{display:flex; gap:10px; align-items:baseline}
+.journey .j-n{font-family:var(--mono); font-size:9px; color:var(--gold); letter-spacing:.14em}
+.journey h3{font-family:var(--serif); font-size:17px; font-weight:600; margin:0 0 8px}
+.journey .j-steps{display:flex; flex-wrap:wrap; gap:5px; margin:10px 0}
+.journey .j-steps span{font-size:10.5px; padding:3px 9px; border-radius:999px; background:var(--paper); border:1px solid var(--line); color:var(--ink-2)}
+.journey .j-steps span::after{content:'→'; margin-left:9px; color:var(--gold); font-family:var(--mono); font-size:9px}
+.journey .j-steps span:last-child::after{content:''}
+.journey p{margin:8px 0 0; font-size:11.5px; color:var(--ink-3); line-height:1.7}
+.journey .j-data{margin-top:9px; font-family:var(--mono); font-size:9px; color:var(--gold); letter-spacing:.06em}
+.filterbar{position:sticky; top:0; z-index:16; display:flex; align-items:center; gap:9px; flex-wrap:wrap; padding:13px 0; margin:18px 0 6px; background:rgba(247,245,240,.93); backdrop-filter:blur(14px); border-bottom:1px solid var(--line)}
+.filterbar input{height:38px; width:260px; max-width:100%; border:1px solid var(--line-2); border-radius:999px; background:var(--surface); color:var(--ink); padding:0 15px; font-family:inherit; font-size:12px; outline:none}
+.filterbar input:focus{border-color:var(--accent); box-shadow:0 0 0 3px rgba(61,90,133,.1)}
+.fbtn{border:1px solid var(--line); background:transparent; color:var(--ink-2); border-radius:999px; padding:6px 12px; font-size:11px; cursor:pointer; font-family:inherit; transition:.16s; display:inline-flex; align-items:center; gap:6px}
+.fbtn:hover{border-color:var(--line-2); color:var(--ink)}
+.fbtn.active{background:var(--navy); color:#fff; border-color:var(--navy)}
+.fbtn .cnt{font-family:var(--mono); font-size:8.5px; opacity:.65}
+.filter-count{margin-left:auto; font-family:var(--mono); font-size:9.5px; color:var(--ink-4); letter-spacing:.08em}
+.page-group{margin-top:34px; scroll-margin-top:74px}
+.group-head{display:flex; align-items:flex-end; gap:12px; flex-wrap:wrap; padding-bottom:12px; border-bottom:1px solid var(--line); margin-bottom:16px}
+.group-dot{width:9px;height:9px;border-radius:50%;background:var(--g); box-shadow:0 0 0 4px color-mix(in srgb,var(--g) 12%,transparent); flex-shrink:0; margin-bottom:7px}
+.group-head h2{font-family:var(--serif); font-size:25px; font-weight:600; margin:0; letter-spacing:.03em}
+.group-head p{margin:0 0 2px; color:var(--ink-3); font-size:11.5px}
+.group-head .g-count{margin-left:auto; font-family:var(--mono); font-size:9px; color:var(--ink-4); letter-spacing:.1em}
+.page-grid{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; align-items:start}
+.page-card{position:relative; background:var(--surface); border:1px solid var(--line); border-radius:var(--r); padding:24px 23px 20px; box-shadow:0 10px 30px rgba(32,54,83,.045); scroll-margin-top:78px; overflow:hidden}
+.page-card::before{content:''; position:absolute; left:0; right:0; top:0; height:3px; background:var(--g); opacity:.72}
+.page-card[hidden]{display:none}
+.pc-top{display:flex; align-items:center; gap:8px; margin-bottom:10px; flex-wrap:wrap}
+.pc-index{font-family:var(--mono); font-size:9px; letter-spacing:.14em; color:var(--ink-4)}
+.pc-badge{font-size:9px; padding:2px 8px; border-radius:999px; background:color-mix(in srgb,var(--g) 10%,transparent); color:color-mix(in srgb,var(--g) 80%,#203653); border:1px solid color-mix(in srgb,var(--g) 22%,transparent)}
+.pc-view{margin-left:auto; font-family:var(--mono); font-size:9px; color:var(--ink-4); letter-spacing:.04em}
+.pc-title{font-family:var(--serif); font-size:26px; font-weight:600; line-height:1.25; margin:0 0 2px; letter-spacing:.03em}
+.pc-latin{font-family:var(--mono); font-size:8.5px; letter-spacing:.2em; color:var(--gold); margin-bottom:9px}
+.pc-role{font-size:12.5px; line-height:1.75; color:var(--ink-2); margin:0 0 13px}
+.pc-meta{display:flex; gap:6px; flex-wrap:wrap; margin-bottom:4px}
+.pc-meta span{font-family:var(--mono); font-size:9px; padding:3px 8px; border-radius:5px; background:var(--paper); border:1px solid var(--line); color:var(--ink-3)}
+.pc-meta span.mode{color:var(--accent); border-color:rgba(61,90,133,.2); background:rgba(61,90,133,.05)}
+.pc-h{font-family:var(--mono); font-size:8.5px; letter-spacing:.18em; color:var(--gold); margin:16px 0 7px; padding-top:12px; border-top:1px solid var(--line)}
+.pc-list{margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:5px}
+.pc-list li{position:relative; padding-left:14px; font-size:12px; line-height:1.65; color:var(--ink-2)}
+.pc-list li::before{content:'—'; position:absolute; left:0; top:0; color:var(--gold-2); font-family:var(--mono); font-size:10px}
+.pc-data{display:flex; flex-wrap:wrap; gap:5px}
+.data-chip{font-family:var(--mono); font-size:9px; padding:3px 7px; border-radius:5px; background:rgba(61,90,133,.055); border:1px solid rgba(61,90,133,.12); color:var(--ink-2); line-height:1.5}
+.pc-io{display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:9px}
+.io-box{background:var(--paper); border:1px solid var(--line); border-radius:10px; padding:9px 10px}
+.io-box b{display:block; font-family:var(--mono); font-size:8px; letter-spacing:.14em; color:var(--gold); margin-bottom:4px; font-weight:500}
+.io-box ul{margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:2px}
+.io-box li{font-size:10.5px; color:var(--ink-3); line-height:1.5}
+.io-box li::before{content:'↳'; color:var(--gold-2); margin-right:4px; font-size:9px}
+.pc-note{margin-top:12px; padding:11px 13px; border-radius:10px; border-left:2px solid var(--gold); background:linear-gradient(135deg,rgba(143,107,42,.055),rgba(61,90,133,.035))}
+.pc-note b{display:block; font-family:var(--mono); font-size:8px; letter-spacing:.14em; color:var(--gold); margin-bottom:4px; font-weight:500}
+.pc-note ul{margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:3px}
+.pc-note li{font-size:10.5px; line-height:1.6; color:var(--ink-2)}
+.pc-note li::before{content:'✦'; color:var(--gold-2); margin-right:5px; font-size:8px}
+.pc-states{margin-top:11px; font-family:var(--mono); font-size:8.5px; color:var(--ink-4); letter-spacing:.03em; line-height:1.6}
+.pc-states b{color:var(--ink-3); font-weight:500}
+.empty-filter{display:none; padding:40px 20px; text-align:center; color:var(--ink-3); font-size:13px; border:1px dashed var(--line-2); border-radius:14px; margin-top:16px}
+.table-wrap{overflow-x:auto; border:1px solid var(--line); border-radius:14px; background:rgba(255,255,255,.65)}
+table{width:100%; border-collapse:collapse; font-size:11.5px}
+th{text-align:left; font-family:var(--mono); font-weight:500; font-size:8.5px; letter-spacing:.14em; color:var(--gold); padding:11px 14px; border-bottom:1px solid var(--line); background:rgba(247,245,240,.8)}
+td{padding:11px 14px; border-bottom:1px solid var(--line); vertical-align:top; color:var(--ink-2); line-height:1.6}
+tr:last-child td{border-bottom:0}
+td b{color:var(--ink); font-weight:600}
+td code{font-size:9.5px}
+.token-grid{display:grid; grid-template-columns:repeat(5,1fr); gap:10px}
+.swatch{border:1px solid var(--line); border-radius:12px; overflow:hidden; background:var(--surface)}
+.swatch .c{height:56px}
+.swatch .t{padding:8px 10px; font-family:var(--mono); font-size:8.5px; color:var(--ink-3); line-height:1.5}
+.swatch .t b{display:block; color:var(--ink); font-size:10px}
+.type-spec{display:grid; grid-template-columns:1.2fr .8fr .8fr; gap:14px; margin-top:14px}
+.type-box{border:1px solid var(--line); border-radius:12px; padding:14px 16px; background:var(--surface)}
+.type-box .label{font-family:var(--mono); font-size:8px; letter-spacing:.14em; color:var(--gold); margin-bottom:8px}
+.type-serif{font-family:var(--serif); font-size:28px; line-height:1.3}
+.type-body{font-size:12.5px; line-height:1.8; color:var(--ink-2)}
+.type-mono{font-family:var(--mono); font-size:10px; line-height:1.8; color:var(--ink-3); letter-spacing:.06em}
+.check-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:10px}
+.check{display:flex; gap:9px; align-items:flex-start; background:rgba(255,255,255,.6); border:1px solid var(--line); border-radius:11px; padding:11px 13px}
+.check i{width:14px;height:14px;border:1px solid var(--line-2);border-radius:4px;flex-shrink:0;margin-top:2px; background:var(--surface); position:relative}
+.check i::after{content:'✓'; position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:var(--gold); font-size:10px; font-style:normal}
+.check p{margin:0; font-size:11.5px; color:var(--ink-2); line-height:1.65}
+.check b{color:var(--ink)}
+.dont-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:8px 18px; margin-top:12px}
+.dont{font-size:11.5px; color:var(--ink-2); line-height:1.6}
+.dont::before{content:'✕'; color:var(--rose); font-family:var(--mono); margin-right:7px; font-size:9px}
+.footer{margin-top:66px; padding-top:22px; border-top:1px solid var(--line); display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; font-family:var(--mono); font-size:9px; letter-spacing:.08em; color:var(--ink-4)}
+.footer b{color:var(--gold); font-weight:500}
+@media(max-width:1200px){
+  .page-grid{grid-template-columns:1fr}
+  .main{padding:0 34px 70px}
+  .sidebar{width:236px; flex-basis:236px}
+  .note-grid{grid-template-columns:1fr}
+  .journey-grid{grid-template-columns:1fr}
+}
+@media(max-width:900px){
+  .sidebar{display:none}
+  .shell{display:block}
+  .main{padding:0 22px 60px}
+  .masthead{padding-top:34px}
+  .brand-kicker{display:none}
+  .token-grid{grid-template-columns:repeat(2,1fr)}
+  .type-spec{grid-template-columns:1fr}
+  .check-grid,.dont-grid{grid-template-columns:1fr}
+  .pc-io{grid-template-columns:1fr}
+}
+@media(max-width:560px){
+  .main{padding:0 14px 50px}
+  h1{font-size:30px; line-height:1.3; letter-spacing:0}
+  .masthead{padding-top:28px}
+  .mast-lead{font-size:13px}
+  .mast-stat b{font-size:23px}
+  .filterbar input{width:100%}
+  .filter-count{margin-left:0}
+  .mast-stats{gap:18px}
+  .pc-title{font-size:23px}
+  .page-card{padding:20px 17px 17px}
+}
+@supports not (background:color-mix(in srgb,red 10%,transparent)){
+  .group-dot{box-shadow:none}
+  .pc-badge{background:rgba(61,90,133,.08)}
+}
+@media print{
+  body{background:#fff}
+  body::after{display:none}
+  .sidebar,.filterbar,.mast-actions{display:none}
+  .shell{display:block; max-width:none}
+  .main{padding:0}
+  .page-grid{grid-template-columns:1fr 1fr; gap:10px}
+  .page-card{break-inside:avoid; box-shadow:none; border:1px solid #ddd}
+  .map-panel{break-inside:avoid; box-shadow:none}
+  .map-scroll{overflow:visible}
+  .map-scroll svg{min-width:0; width:100%}
+  .journey{break-inside:avoid; box-shadow:none}
+  a{color:inherit}
+}
+@media(prefers-reduced-motion:reduce){
+  *{scroll-behavior:auto !important; transition:none !important; animation:none !important}
+}
+</style>
+</head>
+<body>
+<div class="shell">
+
+<aside class="sidebar">
+  <div class="side-brand">
+    <span class="side-star">✦</span>
+    <div><b>词峰</b><em>WORDPEAK</em></div>
+  </div>
+  <nav class="side-nav">
+    <a href="#overview">00 / 阅读说明</a>
+    <a href="#map">01 / 页面关系图</a>
+    <a href="#journeys">02 / 主路径</a>
+    <div class="side-label">页面功能 · 21</div>
+    <a href="#pages"><span class="side-dot" style="--g:var(--gold)"></span>全部页面<i>21</i></a>
+    <a href="#group-entry" style="--g:#8F6B2A"><span class="side-dot"></span>入口与总览<i>2</i></a><a href="#group-vocab" style="--g:#5B6FC4"><span class="side-dot"></span>词汇宇宙<i>5</i></a><a href="#group-loop" style="--g:#2F7F83"><span class="side-dot"></span>学习与复习<i>4</i></a><a href="#group-skills" style="--g:#3D5A85"><span class="side-dot"></span>技能训练<i>7</i></a><a href="#group-library" style="--g:#9A6B3F"><span class="side-dot"></span>书库<i>2</i></a><a href="#group-system" style="--g:#66738A"><span class="side-dot"></span>系统<i>1</i></a>
+    <div class="side-label">设计底稿</div>
+    <a href="#shared">03 / 共享组件</a>
+    <a href="#data">04 / 数据模型</a>
+    <a href="#design">05 / 设计系统</a>
+    <a href="#checklist">06 / UI 清单</a>
+  </nav>
+  <div class="side-foot">
+    词峰 WORDPEAK · v2.0<br/>
+    页面功能与关系图<br/>
+    以当前代码为准 · 2026-10-20
+  </div>
+</aside>
+
+<main class="main">
+
+<header class="masthead" id="top">
+  <div class="brand-row">
+    <span class="brand-star">✦</span>
+    <span class="brand-name">词峰 <em>WORDPEAK</em></span>
+    <span class="brand-kicker">UI DESIGN BRIEF · 2026-10-20 · V2.0</span>
+  </div>
+  <h1>每个页面在做什么，<br/><span class="accent">它们如何连成一个宇宙。</span></h1>
+  <p class="mast-lead">
+    给 UI 设计用的功能底稿：21 个视图、6 个功能域、8 个主导航入口。先看关系图，再看主路径，最后逐页设计。
+    每张页面卡包含：定位、核心功能、数据与状态、入口与出口、UI 提示。功能以当前代码为准，不是营销文案。
+  </p>
+  <div class="mast-actions">
+    <button class="btn primary" onclick="window.print()">打印 / 导出 PDF</button>
+    <a class="btn" href="#map">先看关系图 ↓</a>
+    <a class="btn ghost" href="#pages">跳到页面清单</a>
+  </div>
+  <div class="mast-stats">
+    <div class="mast-stat"><b>21</b><span>PAGES / 页面</span></div>
+    <div class="mast-stat"><b>6</b><span>DOMAINS / 功能域</span></div>
+    <div class="mast-stat"><b>8</b><span>PRIMARY TABS / 主导航</span></div>
+    <div class="mast-stat"><b>4</b><span>SURFACES / 表面模式</span></div>
+  </div>
+</header>
+
+
+<section class="section" id="overview">
+  <div class="sec-kicker">00 · HOW TO USE</div>
+  <div class="sec-head">
+    <h2>这份文档怎么用</h2>
+    <p>不是页面清单，是 UI 设计的功能底稿。先建立全局关系，再进入单页。</p>
+  </div>
+  <p class="sec-lead">
+    词峰不是「二十个独立页面」，而是一个连续的学习宇宙：观星台是总控，词汇圣殿是中心空间，技能舱是训练场，书库是长内容，暗物质区把一切结果收回来。
+    设计任何一页之前，先回答它在哪条路径上、上游是谁、下游把数据交给谁。
+  </p>
+  <div class="note-grid">
+    <div class="note-card"><div class="n">STEP 01</div><b>先看关系图</b><p>搞清楚 8 个主导航、工具菜单、全局复习层和数据核心的关系。不要从单页开始画。</p></div>
+    <div class="note-card"><div class="n">STEP 02</div><b>再走主路径</b><p>新用户、每日 15 分钟、输入、输出、读书、错题修复——每条路径决定页面的主 CTA 与空态。</p></div>
+    <div class="note-card"><div class="n">STEP 03</div><b>最后逐页设计</b><p>每张卡有定位 / 功能 / 数据 / 入口出口 / UI 提示。先画 Operate 的任务流，再决定 Experience 的表达。</p></div>
+  </div>
+</section>
+
+
+<section class="section" id="map">
+  <div class="sec-kicker">01 · PAGE RELATION MAP</div>
+  <div class="sec-head">
+    <h2>页面关系图</h2>
+    <p>实线 = 主导航 / 主通路；虚线 = 深链与跨页跳转；金色 = 数据与结果回写。</p>
+  </div>
+  <div class="map-panel">
+    <div class="map-head">
+      <div><div class="k">THE WORDPEAK MAP</div><h3>一个宇宙，不是二十个页面</h3></div>
+      <p>中间是数据核心与观星台；左侧是学习闭环，右侧是词汇宇宙，底部是技能训练与书库；暗物质区把六类结果收回来，再深链回练。</p>
+    </div>
+    <div class="map-scroll">
+<svg viewBox="0 0 1240 820" role="img" aria-label="词峰页面关系图">
+  <defs>
+    <pattern id="mgrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="rgba(255,255,255,.045)" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="mcore" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#152E4A"/><stop offset="1" stop-color="#0B1A2C"/>
+    </linearGradient>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#8FA8C8"/>
+    </marker>
+    <marker id="arg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#D6B681"/>
+    </marker>
+    <marker id="ard" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#7C8FA8"/>
+    </marker>
+  </defs>
+  <rect width="1240" height="820" fill="#08111F"/>
+  <rect width="1240" height="820" fill="url(#mgrid)"/>
+  <style>
+    .mcluster{fill:rgba(255,255,255,.018);stroke:rgba(255,255,255,.09);stroke-width:1;stroke-dasharray:3 6;rx:18}
+    .mlabel{font-family:"JetBrains Mono",Consolas,monospace;font-size:9px;letter-spacing:.18em;fill:#D6B681}
+    .msub{font-family:"Inter","PingFang SC",sans-serif;font-size:10px;fill:#7C8FA8}
+    .mnode{fill:#0F1D31;stroke:#2C4568;stroke-width:1.1;rx:11}
+    .mnode.core{fill:url(#mcore);stroke:#D6B681;stroke-width:1.4;rx:18}
+    .mnode.ghost{fill:rgba(15,29,49,.5);stroke:#334D6E;stroke-dasharray:3 5}
+    .mtitle{font-family:"Songti SC","Times New Roman",Georgia,serif;font-size:15px;font-weight:600;fill:#F7F5F0}
+    .mtitle.core{font-size:24px;fill:#FFFFFF}
+    .mlatin{font-family:"JetBrains Mono",Consolas,monospace;font-size:7.5px;letter-spacing:.14em;fill:#8FA8C8}
+    .mnote{font-family:"Inter","PingFang SC",sans-serif;font-size:9.5px;fill:#9FB0C6}
+    .mnote.core{fill:#D6B681;font-size:10px}
+    .medge{fill:none;stroke:#8FA8C8;stroke-width:1.5}
+    .medge.gold{stroke:#D6B681}
+    .medge.dash{stroke:#7C8FA8;stroke-dasharray:4 6;stroke-width:1.2}
+    .mlabel-edge{font-family:"JetBrains Mono",Consolas,monospace;font-size:7.5px;letter-spacing:.08em;fill:#7C8FA8}
+  </style>
+
+  <!-- clusters -->
+  <rect class="mcluster" x="34" y="118" width="282" height="384"/>
+  <text class="mlabel" x="52" y="142">LEARNING LOOP</text>
+  <text class="msub" x="52" y="157">学习与复习</text>
+
+  <rect class="mcluster" x="812" y="82" width="330" height="410"/>
+  <text class="mlabel" x="830" y="106">VOCAB UNIVERSE</text>
+  <text class="msub" x="830" y="121">词汇宇宙</text>
+
+  <rect class="mcluster" x="34" y="522" width="282" height="192"/>
+  <text class="mlabel" x="52" y="546">LIBRARY</text>
+  <text class="msub" x="52" y="561">书库</text>
+
+  <rect class="mcluster" x="336" y="578" width="874" height="168"/>
+  <text class="mlabel" x="354" y="602">SKILL ARENA</text>
+  <text class="msub" x="354" y="617">技能训练 · 结果统一回写</text>
+
+  <!-- site -->
+  <g transform="translate(510,30)">
+    <rect class="mnode" width="220" height="60"/>
+    <text class="mtitle" x="110" y="25" text-anchor="middle">官网首页</text>
+    <text class="mlatin" x="110" y="41" text-anchor="middle">SITE / WORDPEAK</text>
+    <text class="mnote" x="110" y="54" text-anchor="middle">开场 → 进入宇宙</text>
+  </g>
+
+  <!-- core -->
+  <g transform="translate(450,286)">
+    <rect class="mnode core" width="340" height="116"/>
+    <text class="mlatin" x="170" y="26" text-anchor="middle">THE OBSERVATORY</text>
+    <text class="mtitle core" x="170" y="56" text-anchor="middle">观星台 · 数据核心</text>
+    <text class="mnote core" x="170" y="76" text-anchor="middle">words · states · stats · plan</text>
+    <text class="mnote" x="170" y="94" text-anchor="middle">今天学什么 / 我走到哪 / 哪里弱</text>
+  </g>
+
+  <!-- learning -->
+  <g transform="translate(72,178)">
+    <rect class="mnode" width="206" height="58"/>
+    <text class="mtitle" x="103" y="24" text-anchor="middle">学习舱</text>
+    <text class="mlatin" x="103" y="39" text-anchor="middle">LEARNING POD</text>
+    <text class="mnote" x="103" y="51" text-anchor="middle">编码 → 回忆 → 巩固</text>
+  </g>
+  <g transform="translate(72,248)">
+    <rect class="mnode" width="206" height="58"/>
+    <text class="mtitle" x="103" y="24" text-anchor="middle">记忆工坊</text>
+    <text class="mlatin" x="103" y="39" text-anchor="middle">MNEMONIC FORGE</text>
+    <text class="mnote" x="103" y="51" text-anchor="middle">四法 + 我的遗忘曲线</text>
+  </g>
+  <g transform="translate(72,318)">
+    <rect class="mnode" width="206" height="58"/>
+    <text class="mtitle" x="103" y="24" text-anchor="middle">技巧库</text>
+    <text class="mlatin" x="103" y="39" text-anchor="middle">FIELD NOTES</text>
+    <text class="mnote" x="103" y="51" text-anchor="middle">学一条 → 去练一条</text>
+  </g>
+  <g transform="translate(72,388)">
+    <rect class="mnode ghost" width="206" height="58"/>
+    <text class="mtitle" x="103" y="24" text-anchor="middle">复习 / 挑战</text>
+    <text class="mlatin" x="103" y="39" text-anchor="middle">REVIEW OVERLAY</text>
+    <text class="mnote" x="103" y="51" text-anchor="middle">全局 FSRS 交互层</text>
+  </g>
+
+  <!-- word panel -->
+  <g transform="translate(354,162)">
+    <rect class="mnode" width="212" height="58"/>
+    <text class="mtitle" x="106" y="24" text-anchor="middle">词档案</text>
+    <text class="mlatin" x="106" y="39" text-anchor="middle">WORD PANEL</text>
+    <text class="mnote" x="106" y="51" text-anchor="middle">点星解封 · 跨页复用</text>
+  </g>
+
+  <!-- vocabulary -->
+  <g transform="translate(842,120)">
+    <rect class="mnode" width="238" height="56"/>
+    <text class="mtitle" x="119" y="23" text-anchor="middle">词汇圣殿</text>
+    <text class="mlatin" x="119" y="38" text-anchor="middle">WORD GALAXY</text>
+    <text class="mnote" x="119" y="49" text-anchor="middle">40 族 3D 星图</text>
+  </g>
+  <g transform="translate(842,188)">
+    <rect class="mnode" width="238" height="56"/>
+    <text class="mtitle" x="119" y="23" text-anchor="middle">词汇网络</text>
+    <text class="mlatin" x="119" y="38" text-anchor="middle">STELLAR NET</text>
+    <text class="mnote" x="119" y="49" text-anchor="middle">共现图谱 · 自由探索</text>
+  </g>
+  <g transform="translate(842,256)">
+    <rect class="mnode" width="238" height="56"/>
+    <text class="mtitle" x="119" y="23" text-anchor="middle">词根群星</text>
+    <text class="mlatin" x="119" y="38" text-anchor="middle">ROOT FAMILIES</text>
+    <text class="mnote" x="119" y="49" text-anchor="middle">40 族 · 故事 / 分叉 / 星墙</text>
+  </g>
+  <g transform="translate(842,324)">
+    <rect class="mnode" width="238" height="56"/>
+    <text class="mtitle" x="119" y="23" text-anchor="middle">收藏夹</text>
+    <text class="mlatin" x="119" y="38" text-anchor="middle">COLLECTIONS</text>
+    <text class="mnote" x="119" y="49" text-anchor="middle">跨族组织 · 导出</text>
+  </g>
+  <g transform="translate(842,392)">
+    <rect class="mnode" width="238" height="56"/>
+    <text class="mtitle" x="119" y="23" text-anchor="middle">全量词库</text>
+    <text class="mlatin" x="119" y="38" text-anchor="middle">FULL LEXICON</text>
+    <text class="mnote" x="119" y="49" text-anchor="middle">3.6 万词 · 查得到</text>
+  </g>
+
+  <!-- library -->
+  <g transform="translate(72,570)">
+    <rect class="mnode" width="206" height="56"/>
+    <text class="mtitle" x="103" y="23" text-anchor="middle">轨道书库</text>
+    <text class="mlatin" x="103" y="38" text-anchor="middle">ORBITAL LIBRARY</text>
+    <text class="mnote" x="103" y="49" text-anchor="middle">3D 书架 + 当前阅读</text>
+  </g>
+  <g transform="translate(72,638)">
+    <rect class="mnode" width="206" height="56"/>
+    <text class="mtitle" x="103" y="23" text-anchor="middle">夜读舱</text>
+    <text class="mlatin" x="103" y="38" text-anchor="middle">READING POD</text>
+    <text class="mnote" x="103" y="49" text-anchor="middle">翻页书 · 点词 · 测题</text>
+  </g>
+
+  <!-- skills -->
+  <g transform="translate(354,640)">
+    <rect class="mnode" width="104" height="50"/><text class="mtitle" x="52" y="22" text-anchor="middle">发音</text><text class="mlatin" x="52" y="38" text-anchor="middle">PHONETICS</text>
+  </g>
+  <g transform="translate(468,640)">
+    <rect class="mnode" width="104" height="50"/><text class="mtitle" x="52" y="22" text-anchor="middle">听力</text><text class="mlatin" x="52" y="38" text-anchor="middle">LISTENING</text>
+  </g>
+  <g transform="translate(582,640)">
+    <rect class="mnode" width="104" height="50"/><text class="mtitle" x="52" y="22" text-anchor="middle">口语</text><text class="mlatin" x="52" y="38" text-anchor="middle">SPEAKING</text>
+  </g>
+  <g transform="translate(696,640)">
+    <rect class="mnode" width="104" height="50"/><text class="mtitle" x="52" y="22" text-anchor="middle">语法</text><text class="mlatin" x="52" y="38" text-anchor="middle">GRAMMAR</text>
+  </g>
+  <g transform="translate(810,640)">
+    <rect class="mnode" width="104" height="50"/><text class="mtitle" x="52" y="22" text-anchor="middle">阅读</text><text class="mlatin" x="52" y="38" text-anchor="middle">READING</text>
+  </g>
+  <g transform="translate(924,640)">
+    <rect class="mnode" width="104" height="50"/><text class="mtitle" x="52" y="22" text-anchor="middle">写作</text><text class="mlatin" x="52" y="38" text-anchor="middle">WRITING</text>
+  </g>
+  <g transform="translate(1038,640)">
+    <rect class="mnode" width="104" height="50"/><text class="mtitle" x="52" y="22" text-anchor="middle">日记</text><text class="mlatin" x="52" y="38" text-anchor="middle">DIARY</text>
+  </g>
+
+  <!-- mistakes -->
+  <g transform="translate(760,700)">
+    <rect class="mnode ghost" width="230" height="50"/>
+    <text class="mtitle" x="115" y="21" text-anchor="middle">暗物质区</text>
+    <text class="mlatin" x="115" y="36" text-anchor="middle">MISTAKES · DARK MATTER</text>
+    <text class="mnote" x="115" y="46" text-anchor="middle">六模块错题聚合 → 深链回练</text>
+  </g>
+
+  <!-- sidebar global -->
+  <g transform="translate(30,30)">
+    <rect class="mnode ghost" width="176" height="56"/>
+    <text class="mtitle" x="88" y="22" text-anchor="middle">设置</text>
+    <text class="mlatin" x="88" y="36" text-anchor="middle">SETTINGS</text>
+    <text class="mnote" x="88" y="48" text-anchor="middle">全局偏好 / 数据管理</text>
+  </g>
+
+  <!-- edges -->
+  <path class="medge gold" d="M620 90 L620 286" marker-end="url(#arg)"/>
+  <text class="mlabel-edge" x="632" y="190">进入宇宙</text>
+
+  <path class="medge" d="M450 330 C370 320 320 250 278 215" marker-end="url(#ar)"/>
+  <path class="medge" d="M450 350 C370 350 330 295 278 280" marker-end="url(#ar)"/>
+  <path class="medge dash" d="M450 375 C370 385 330 420 278 420" marker-end="url(#ard)"/>
+  <text class="mlabel-edge" x="332" y="242">plan / 新词</text>
+  <text class="mlabel-edge" x="350" y="350">复习 / 挑战</text>
+
+  <path class="medge" d="M566 286 C566 250 540 232 566 220" marker-end="url(#ar)"/>
+  <path class="medge" d="M566 162 L842 148" marker-end="url(#ar)"/>
+  <text class="mlabel-edge" x="700" y="146">点星解封</text>
+  <path class="medge dash" d="M566 220 C700 260 760 276 842 284" marker-end="url(#ard)"/>
+  <path class="medge dash" d="M566 220 C700 310 760 344 842 350" marker-end="url(#ard)"/>
+  <text class="mlabel-edge" x="676" y="318">词根 / 收藏</text>
+
+  <path class="medge" d="M450 390 C330 470 260 520 210 570" marker-end="url(#ar)"/>
+  <text class="mlabel-edge" x="292" y="500">去读书</text>
+  <path class="medge gold" d="M175 626 L175 638" marker-end="url(#arg)"/>
+
+  <path class="medge" d="M620 402 C620 500 500 590 458 640" marker-end="url(#ar)"/>
+  <text class="mlabel-edge" x="520" y="520">八条主入口</text>
+  <path class="medge dash" d="M800 690 C900 690 980 690 1000 690" marker-end="url(#ard)"/>
+  <path class="medge dash" d="M760 725 C600 760 560 740 520 690" marker-end="url(#ard)"/>
+  <text class="mlabel-edge" x="600" y="760">结果回写 / 深链</text>
+  <path class="medge gold" d="M1000 690 C1120 650 1120 520 1010 448" marker-end="url(#arg)"/>
+  <text class="mlabel-edge" x="1110" y="560">stats / mistakes</text>
+
+  <path class="medge dash" d="M206 58 C300 120 360 220 450 300" marker-end="url(#ard)"/>
+  <text class="mlabel-edge" x="280" y="120">全局偏好</text>
+
+  <path class="medge dash" d="M278 342 C320 342 330 342 354 342" marker-end="url(#ard)"/>
+  <path class="medge dash" d="M278 214 C310 214 330 200 354 196" marker-end="url(#ard)"/>
+</svg>
+</div>
+    <div class="map-legend">
+      <span><i class="lg-line"></i>主导航 / 主通路</span>
+      <span><i class="lg-line dash"></i>深链 / 跨页</span>
+      <span><i class="lg-line gold"></i>数据 / 结果回写</span>
+      <span><i class="lg-box"></i>页面 / 全局层</span>
+      <span>虚线框 = 全局覆盖层 / 聚合页</span>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="journeys">
+  <div class="sec-kicker">02 · MAIN JOURNEYS</div>
+  <div class="sec-head">
+    <h2>八条主路径</h2>
+    <p>UI 设计的真正单位是「用户要走完的一条路」，不是单个页面。</p>
+  </div>
+  <div class="journey-grid">
+<div class="journey">
+  <div class="j-top"><span class="j-n">JOURNEY 01</span></div>
+  <h3>新用户第一次进入</h3>
+  <div class="j-steps"><span>官网开场</span><span>进入宇宙</span><span>观星台</span><span>新手首课 / 今日航线</span><span>学习舱</span><span>复习</span></div>
+  <p>先给一个可完成的 5 分钟动作，再展示全貌。</p>
+  <div class="j-data">首课完成 → states / stats 更新</div>
+</div>
+<div class="journey">
+  <div class="j-top"><span class="j-n">JOURNEY 02</span></div>
+  <h3>每日 15 分钟</h3>
+  <div class="j-steps"><span>观星台</span><span>今日航线</span><span>学习舱新词</span><span>复习到期</span><span>回观星台</span></div>
+  <p>一条不会做错的默认路径；卡住时永远能回到观星台。</p>
+  <div class="j-data">review results → FSRS → stats</div>
+</div>
+<div class="journey">
+  <div class="j-top"><span class="j-n">JOURNEY 03</span></div>
+  <h3>词汇深挖</h3>
+  <div class="j-steps"><span>词汇圣殿</span><span>点星开词档案</span><span>加入复习 / 收藏 / 看词根</span></div>
+  <p>从「看到一颗星」到「带走一个词」不超过两次点击。</p>
+  <div class="j-data">learnWord / collections → states</div>
+</div>
+<div class="journey">
+  <div class="j-top"><span class="j-n">JOURNEY 04</span></div>
+  <h3>输入训练</h3>
+  <div class="j-steps"><span>回声谷或阅读号</span><span>选语料</span><span>精听 / 精读</span><span>点词进复习</span><span>结算</span></div>
+  <p>输入页的核心是「听顺 / 读懂」，不是完成题量。</p>
+  <div class="j-data">listening / reading results → stats / mistakes</div>
+</div>
+<div class="journey">
+  <div class="j-top"><span class="j-n">JOURNEY 05</span></div>
+  <h3>输出训练</h3>
+  <div class="j-steps"><span>口语竞技场或写作工坊</span><span>选语料 / 抽目标词</span><span>录音 / 写作</span><span>AI 反馈</span><span>暗物质区</span></div>
+  <p>输出必须先给具体反馈，再谈分数。</p>
+  <div class="j-data">speaking / writing results → stats / mistakes</div>
+</div>
+<div class="journey">
+  <div class="j-top"><span class="j-n">JOURNEY 06</span></div>
+  <h3>读书闭环</h3>
+  <div class="j-steps"><span>轨道书库</span><span>双击书脊</span><span>夜读舱翻页</span><span>点词卡</span><span>加入复习</span><span>回书库</span></div>
+  <p>书是长内容，词卡是旁注；不要让工具打断阅读。</p>
+  <div class="j-data">read marks + learnWord → library / states</div>
+</div>
+<div class="journey">
+  <div class="j-top"><span class="j-n">JOURNEY 07</span></div>
+  <h3>错题修复</h3>
+  <div class="j-steps"><span>暗物质区</span><span>选 tab</span><span>深链到具体条目</span><span>重做</span><span>结果回写</span></div>
+  <p>深链必须落到「这一题 / 这一篇 / 这个词」，不是模块首页。</p>
+  <div class="j-data">grammar / passage / writing results → stats</div>
+</div>
+<div class="journey">
+  <div class="j-top"><span class="j-n">JOURNEY 08</span></div>
+  <h3>词汇研究 / 自由探索</h3>
+  <div class="j-steps"><span>词汇网络</span><span>词根群星</span><span>收藏夹</span><span>全量词库</span></div>
+  <p>允许无目的游荡；搜索结果要能迅速收束成行动。</p>
+  <div class="j-data">network / collections / lexicon → 词卡</div>
+</div></div>
+</section>
+
+
+<section class="section" id="pages">
+  <div class="sec-kicker">03 · PAGE BY PAGE</div>
+  <div class="sec-head">
+    <h2>21 个页面，逐页拆开</h2>
+    <p>每张卡是一页的设计底稿。搜索功能、数据、入口，或按功能域筛选。</p>
+  </div>
+  <div class="filterbar">
+    <input id="pageSearch" type="search" placeholder="搜索页面 / 功能 / 数据 / 入口…" aria-label="搜索页面"/>
+    <button class="fbtn active" data-group="all" aria-pressed="true">全部 <span class="cnt">21</span></button><button class="fbtn" data-group="entry" aria-pressed="false">入口与总览 <span class="cnt">2</span></button><button class="fbtn" data-group="vocab" aria-pressed="false">词汇宇宙 <span class="cnt">5</span></button><button class="fbtn" data-group="loop" aria-pressed="false">学习与复习 <span class="cnt">4</span></button><button class="fbtn" data-group="skills" aria-pressed="false">技能训练 <span class="cnt">7</span></button><button class="fbtn" data-group="library" aria-pressed="false">书库 <span class="cnt">2</span></button><button class="fbtn" data-group="system" aria-pressed="false">系统 <span class="cnt">1</span></button>
+    <span class="filter-count" id="filterCount">显示 21 / 21</span>
+  </div>
+  <div class="empty-filter" id="emptyFilter">没有匹配的页面。换个关键词，或点「全部」。</div>
+  
+<section class="page-group" id="group-entry" data-group="entry">
+  <div class="group-head" style="--g:#8F6B2A">
+    <span class="group-dot"></span>
+    <h2>入口与总览</h2>
+    <p>品牌第一幕与个人学习总控</p>
+    <span class="g-count">2 PAGES</span>
+  </div>
+  <div class="page-grid">
+<article class="page-card" id="page-site" data-group="entry" data-search="官网首页 site / wordpeak site 品牌第一幕。用一场电影式 3d 开场讲清「每个单词都是一颗星」的隐喻，再把人送进学习宇宙。 双场景开场：3d 词之心塔 + 轨道词星球；约 4 秒自动进入首页，随时可「跳过开场」。 全幅 hero：品牌主张「让每个单词，成为你的星辰」、真实词数、进入宇宙主 cta。 六大训练舱入口：发音 / 听力 / 口语 / 语法 / 阅读 / 写作，大图卡直达对应领地。 学习航线：快闪 / 标准 / 远征三种模式，展示时长与站点，一键启程。 核心功能与方法论浅色区、真实统计页脚（词数 / 词根 / 语料 / 书）。 主题循环、快速搜索、进入应用；会话内只播一次开场。 store.words store.stats store.passages store.grammar store.books store.session sessionstorage 开场标记 站点默认落点 导航品牌「词峰」点击 直达 / 进入我的宇宙 → dashboard 词汇星系 → galaxy 轨道书库 → bookshelf 训练舱 → 各技能页 个人中心 → settings 首屏只允许一个论点与一个主 cta；开场是仪式，但不能挡住进入。 3d 是主角，dom 文案压在左侧暗部；webgl 失败必须回退 css 星空，不出现空白。 减少动态 / 低端机 / 移动端要有降级路径；开场只播一次，回站直接进首页。 开场播放 / 跳过 / 减少动态 / webgl 降级 / 资源加载" style="--g:#8F6B2A">
+  <div class="pc-top">
+    <span class="pc-index">01 / 21</span>
+    <span class="pc-badge">入口与总览</span>
+    <span class="pc-view">view: site</span>
+  </div>
+  <h3 class="pc-title">官网首页</h3>
+  <div class="pc-latin">SITE / WORDPEAK</div>
+  <p class="pc-role">品牌第一幕。用一场电影式 3D 开场讲清「每个单词都是一颗星」的隐喻，再把人送进学习宇宙。</p>
+  <div class="pc-meta"><span class="mode">Persuade</span><span>拨盘 7 / 5 / 4</span></div>
+
+  <div class="pc-h">核心功能 / WHAT IT DOES</div>
+  <ul class="pc-list"><li>双场景开场：3D 词之心塔 + 轨道词星球；约 4 秒自动进入首页，随时可「跳过开场」。</li><li>全幅 Hero：品牌主张「让每个单词，成为你的星辰」、真实词数、进入宇宙主 CTA。</li><li>六大训练舱入口：发音 / 听力 / 口语 / 语法 / 阅读 / 写作，大图卡直达对应领地。</li><li>学习航线：快闪 / 标准 / 远征三种模式，展示时长与站点，一键启程。</li><li>核心功能与方法论浅色区、真实统计页脚（词数 / 词根 / 语料 / 书）。</li><li>主题循环、快速搜索、进入应用；会话内只播一次开场。</li></ul>
+
+  <div class="pc-h">数据与状态 / DATA</div>
+  <div class="pc-data"><span class="data-chip">store.words</span><span class="data-chip">store.stats</span><span class="data-chip">store.passages</span><span class="data-chip">store.grammar</span><span class="data-chip">store.books</span><span class="data-chip">store.session</span><span class="data-chip">sessionStorage 开场标记</span></div>
+
+  <div class="pc-h">入口 / 出口 / NAVIGATION</div>
+  <div class="pc-io">
+    <div class="io-box"><b>ENTRY · 从哪来</b><ul><li>站点默认落点</li><li>导航品牌「词峰」点击</li><li>直达 /</li></ul></div>
+    <div class="io-box"><b>EXIT · 到哪去</b><ul><li>进入我的宇宙 → dashboard</li><li>词汇星系 → galaxy</li><li>轨道书库 → bookshelf</li><li>训练舱 → 各技能页</li><li>个人中心 → settings</li></ul></div>
+  </div>
+
+  <div class="pc-note"><b>UI DESIGN NOTES · 设计提示</b><ul><li>首屏只允许一个论点与一个主 CTA；开场是仪式，但不能挡住进入。</li><li>3D 是主角，DOM 文案压在左侧暗部；WebGL 失败必须回退 CSS 星空，不出现空白。</li><li>减少动态 / 低端机 / 移动端要有降级路径；开场只播一次，回站直接进首页。</li></ul></div>
+  <div class="pc-states"><b>状态：</b>开场播放 / 跳过 / 减少动态 / WebGL 降级 / 资源加载</div>
+</article>
+<article class="page-card" id="page-dashboard" data-group="entry" data-search="观星台 the observatory dashboard 个人学习总控台。一屏回答：今天学什么、我已经走到哪、哪里最弱、下一步点哪里。 问候 + 实时时钟 + 学习摘要 + 连续天数；hero 主 cta「继续航线 / 按推荐启程」。 今日航线：新词 / 复习 / 补弱三节点，来自档案 + 到期队列 + 弱项。 三条学习模式：快闪 5 分钟 / 标准 / 远征；推荐档按时段与进度决定。 你的天空（星图速写）+ 星轨（7 站坚持），一人一份的成长证据。 新手首课入口（3d 房间 + 目标选择）；智能提示卡（到期 / 连胜 / 告急 / 新号）。 三数字磁贴：已点亮 / 真正掌握率 / 今日到期；今日一策（推荐 api + 中文理由）。 画像区：星系五态分布、模块正确率、词汇量增长、记忆强度五桶、全年热力图。 每日任务 / 成就墙、近 n 天练习量、最弱词根、推荐模块、英语书单 rail。 周报弹窗：本周 streak / 掌握 / 新学 / 出勤 / 弱项，可导出 png。 api.stats api.activity(365) api.recommend store.plan store.profile store.states/words store.books/tips store.session 启动恢复会话 / 自动游客号 导航「总览」 快捷键 d 学习航线结束返回 learn / galaxy / review writing 各技能模块 family / tips / bookshelf settings 周报 png 数据密度高，但必须分组：先「今天做什么」，再「我怎么样」，最后「去哪里」。 新号隐藏全零图表（分布 / 正确率 / 增长 / 强度 / 最弱根），先给行动，不给一墙零。 operate 表面：装饰让位给数字；hero 允许一件 3d 天体仪作为身份锚点。 骨架加载 / 新用户零态 / 无到期 / 无活跃度 / 统计失败 / 周报弹窗" style="--g:#8F6B2A">
+  <div class="pc-top">
+    <span class="pc-index">02 / 21</span>
+    <span class="pc-badge">入口与总览</span>
+    <span class="pc-view">view: dashboard</span>
+  </div>
+  <h3 class="pc-title">观星台</h3>
+  <div class="pc-latin">THE OBSERVATORY</div>
+  <p class="pc-role">个人学习总控台。一屏回答：今天学什么、我已经走到哪、哪里最弱、下一步点哪里。</p>
+  <div class="pc-meta"><span class="mode">Operate</span><span>拨盘 4 / 4 / 6</span></div>
+
+  <div class="pc-h">核心功能 / WHAT IT DOES</div>
+  <ul class="pc-list"><li>问候 + 实时时钟 + 学习摘要 + 连续天数；Hero 主 CTA「继续航线 / 按推荐启程」。</li><li>今日航线：新词 / 复习 / 补弱三节点，来自档案 + 到期队列 + 弱项。</li><li>三条学习模式：快闪 5 分钟 / 标准 / 远征；推荐档按时段与进度决定。</li><li>你的天空（星图速写）+ 星轨（7 站坚持），一人一份的成长证据。</li><li>新手首课入口（3D 房间 + 目标选择）；智能提示卡（到期 / 连胜 / 告急 / 新号）。</li><li>三数字磁贴：已点亮 / 真正掌握率 / 今日到期；今日一策（推荐 API + 中文理由）。</li><li>画像区：星系五态分布、模块正确率、词汇量增长、记忆强度五桶、全年热力图。</li><li>每日任务 / 成就墙、近 N 天练习量、最弱词根、推荐模块、英语书单 rail。</li><li>周报弹窗：本周 streak / 掌握 / 新学 / 出勤 / 弱项，可导出 PNG。</li></ul>
+
+  <div class="pc-h">数据与状态 / DATA</div>
+  <div class="pc-data"><span class="data-chip">api.stats</span><span class="data-chip">api.activity(365)</span><span class="data-chip">api.recommend</span><span class="data-chip">store.plan</span><span class="data-chip">store.profile</span><span class="data-chip">store.states/words</span><span class="data-chip">store.books/tips</span><span class="data-chip">store.session</span></div>
+
+  <div class="pc-h">入口 / 出口 / NAVIGATION</div>
+  <div class="pc-io">
+    <div class="io-box"><b>ENTRY · 从哪来</b><ul><li>启动恢复会话 / 自动游客号</li><li>导航「总览」</li><li>快捷键 d</li><li>学习航线结束返回</li></ul></div>
+    <div class="io-box"><b>EXIT · 到哪去</b><ul><li>learn / galaxy / review</li><li>writing</li><li>各技能模块</li><li>family / tips / bookshelf</li><li>settings</li><li>周报 PNG</li></ul></div>
+  </div>
+
+  <div class="pc-note"><b>UI DESIGN NOTES · 设计提示</b><ul><li>数据密度高，但必须分组：先「今天做什么」，再「我怎么样」，最后「去哪里」。</li><li>新号隐藏全零图表（分布 / 正确率 / 增长 / 强度 / 最弱根），先给行动，不给一墙零。</li><li>Operate 表面：装饰让位给数字；Hero 允许一件 3D 天体仪作为身份锚点。</li></ul></div>
+  <div class="pc-states"><b>状态：</b>骨架加载 / 新用户零态 / 无到期 / 无活跃度 / 统计失败 / 周报弹窗</div>
+</article></div>
+</section>
+<section class="page-group" id="group-vocab" data-group="vocab">
+  <div class="group-head" style="--g:#5B6FC4">
+    <span class="group-dot"></span>
+    <h2>词汇宇宙</h2>
+    <p>词、词根、网络、收藏与全量词库</p>
+    <span class="g-count">5 PAGES</span>
+  </div>
+  <div class="page-grid">
+<article class="page-card" id="page-galaxy" data-group="vocab" data-search="词汇圣殿 word galaxy galaxy 整个产品的中心空间。40 个词根家族悬在 3d 宇宙里，学习记录决定哪颗星发光；点星解封词档案。 3d 星图：40 词根家族、词星 / 鸟群、hdri 展厅、创世纪开场、滚动航行、拖拽自由漫游。 hud：已点亮 / 总数 / 待复习、五态图例（濒临遗忘 / 待复习 / 未学 / 学习中 / 已掌握）。 「只看已点亮」聚焦已学词；航路刻度 4+ 幕可点跳转；「继续航行」接回航路。 点星打开 wordpanel：音标 / 朗读 / 词源 / 例句联动 / 同族词 / 记忆状态 / 收藏 / 加入复习 / 分享链接。 双击词根锁定单族；光标斥开鸟群；例句滚动联动 3d 高亮。 终幕「我的星座」：已学星连成金线、生成命名、导出星图、返航再巡。 今日挑战 / 复习全屏层；#/word/&lt;id&gt; 深链直接落词。 store.words/states/stats store.rootstories store.selectedwordid engine 事件（wv:flightjump / wordlit / learnfocus / exportstarmap） 无直接 api，数据由 store 统一加载 导航「词汇」 dashboard 进入圣殿 任何词 / 词根深链 family / collections / mistakes #/word/&lt;id&gt; wordpanel → learn / review / collect / family 复习 / 挑战 overlay 切去其他领地 experience 表面：3d 就是内容，hud 必须克制；除场景外不再叠装饰。 画布恒深空，hud 无论主题都按深底亮字设计；移动端触控与窄屏 hud 要单独排。 词档案是「档案馆」而不是普通侧栏；关闭 / 分享 / 收藏 / 复习路径要一眼可见。 构建中遮罩 / 词库空 / webgl 降级 / 开场与终幕 / 词卡打开" style="--g:#5B6FC4">
+  <div class="pc-top">
+    <span class="pc-index">03 / 21</span>
+    <span class="pc-badge">词汇宇宙</span>
+    <span class="pc-view">view: galaxy</span>
+  </div>
+  <h3 class="pc-title">词汇圣殿</h3>
+  <div class="pc-latin">WORD GALAXY</div>
+  <p class="pc-role">整个产品的中心空间。40 个词根家族悬在 3D 宇宙里，学习记录决定哪颗星发光；点星解封词档案。</p>
+  <div class="pc-meta"><span class="mode">Experience</span><span>拨盘 8 / 7 / 3</span></div>
+
+  <div class="pc-h">核心功能 / WHAT IT DOES</div>
+  <ul class="pc-list"><li>3D 星图：40 词根家族、词星 / 鸟群、HDRI 展厅、创世纪开场、滚动航行、拖拽自由漫游。</li><li>HUD：已点亮 / 总数 / 待复习、五态图例（濒临遗忘 / 待复习 / 未学 / 学习中 / 已掌握）。</li><li>「只看已点亮」聚焦已学词；航路刻度 4+ 幕可点跳转；「继续航行」接回航路。</li><li>点星打开 WordPanel：音标 / 朗读 / 词源 / 例句联动 / 同族词 / 记忆状态 / 收藏 / 加入复习 / 分享链接。</li><li>双击词根锁定单族；光标斥开鸟群；例句滚动联动 3D 高亮。</li><li>终幕「我的星座」：已学星连成金线、生成命名、导出星图、返航再巡。</li><li>今日挑战 / 复习全屏层；#/word/&lt;id&gt; 深链直接落词。</li></ul>
+
+  <div class="pc-h">数据与状态 / DATA</div>
+  <div class="pc-data"><span class="data-chip">store.words/states/stats</span><span class="data-chip">store.rootStories</span><span class="data-chip">store.selectedWordId</span><span class="data-chip">engine 事件（wv:flightJump / wordLit / learnFocus / exportStarmap）</span><span class="data-chip">无直接 API，数据由 store 统一加载</span></div>
+
+  <div class="pc-h">入口 / 出口 / NAVIGATION</div>
+  <div class="pc-io">
+    <div class="io-box"><b>ENTRY · 从哪来</b><ul><li>导航「词汇」</li><li>dashboard 进入圣殿</li><li>任何词 / 词根深链</li><li>family / collections / mistakes</li><li>#/word/&lt;id&gt;</li></ul></div>
+    <div class="io-box"><b>EXIT · 到哪去</b><ul><li>WordPanel → learn / review / collect / family</li><li>复习 / 挑战 overlay</li><li>切去其他领地</li></ul></div>
+  </div>
+
+  <div class="pc-note"><b>UI DESIGN NOTES · 设计提示</b><ul><li>Experience 表面：3D 就是内容，HUD 必须克制；除场景外不再叠装饰。</li><li>画布恒深空，HUD 无论主题都按深底亮字设计；移动端触控与窄屏 HUD 要单独排。</li><li>词档案是「档案馆」而不是普通侧栏；关闭 / 分享 / 收藏 / 复习路径要一眼可见。</li></ul></div>
+  <div class="pc-states"><b>状态：</b>构建中遮罩 / 词库空 / WebGL 降级 / 开场与终幕 / 词卡打开</div>
+</article>
+<article class="page-card" id="page-network" data-group="vocab" data-search="词汇网络 stellar net network 全库词共现图谱。回答「为什么这些词会一起出现」，把学习压力转成好奇心的自由探索。 力导向图：词节点 + 跨族共现边；注入记忆状态着色。 搜索英文 / 中文 / 词根；三态过滤：全部 / 已学 / 未学。 点节点高亮其词根家族并打开 wordpanel；拖拽 / 缩放 / 悬停。 「怎么练才有效」方法条；空态与加载态。 store.network（60 秒内存复用） store.words store.selectedwordid store.loadnetwork 工具菜单 → 词汇网络 快捷键 n wordpanel → galaxy / learn / review / collect 词根群星 family 其他领地 图是主角，筛选器与搜索必须轻、贴边、可收起，不能压住图。 节点状态不能只靠颜色，配合图例、hover 卡与家族标签。 移动端要给列表 / 简化图 fallback，不能把整张力导向图硬塞进 390px。 图谱加载 / 空网络 / 搜索无命中 / 词卡打开" style="--g:#5B6FC4">
+  <div class="pc-top">
+    <span class="pc-index">04 / 21</span>
+    <span class="pc-badge">词汇宇宙</span>
+    <span class="pc-view">view: network</span>
+  </div>
+  <h3 class="pc-title">词汇网络</h3>
+  <div class="pc-latin">STELLAR NET</div>
+  <p class="pc-role">全库词共现图谱。回答「为什么这些词会一起出现」，把学习压力转成好奇心的自由探索。</p>
+  <div class="pc-meta"><span class="mode">Experience / Explore</span><span>拨盘 7 / 5 / 4</span></div>
+
+  <div class="pc-h">核心功能 / WHAT IT DOES</div>
+  <ul class="pc-list"><li>力导向图：词节点 + 跨族共现边；注入记忆状态着色。</li><li>搜索英文 / 中文 / 词根；三态过滤：全部 / 已学 / 未学。</li><li>点节点高亮其词根家族并打开 WordPanel；拖拽 / 缩放 / 悬停。</li><li>「怎么练才有效」方法条；空态与加载态。</li></ul>
+
+  <div class="pc-h">数据与状态 / DATA</div>
+  <div class="pc-data"><span class="data-chip">store.network（60 秒内存复用）</span><span class="data-chip">store.words</span><span class="data-chip">store.selectedWordId</span><span class="data-chip">store.loadNetwork</span></div>
+
+  <div class="pc-h">入口 / 出口 / NAVIGATION</div>
+  <div class="pc-io">
+    <div class="io-box"><b>ENTRY · 从哪来</b><ul><li>工具菜单 → 词汇网络</li><li>快捷键 n</li></ul></div>
+    <div class="io-box"><b>EXIT · 到哪去</b><ul><li>WordPanel → galaxy / learn / review / collect</li><li>词根群星 family</li><li>其他领地</li></ul></div>
+  </div>
+
+  <div class="pc-note"><b>UI DESIGN NOTES · 设计提示</b><ul><li>图是主角，筛选器与搜索必须轻、贴边、可收起，不能压住图。</li><li>节点状态不能只靠颜色，配合图例、hover 卡与家族标签。</li><li>移动端要给列表 / 简化图 fallback，不能把整张力导向图硬塞进 390px。</li></ul></div>
+  <div class="pc-states"><b>状态：</b>图谱加载 / 空网络 / 搜索无命中 / 词卡打开</div>
+</article>
+<article class="page-card" id="page-family" data-group="vocab" data-search="词根群星 root families family 40 个词根星座的索引与详情。从「一个根」理解「一串词」，并看见自己的掌握情况。 词根索引：搜索词根 / 含义 / 词；每张卡有星墙（五态）、词数、已掌握数。 详情：家族星图头卡、全部词卡、词源故事、同族分化树、易混辨析口诀。 词卡点击回星系；「复习整族」把已学词拉进复习；「词根记忆法」给方法。 从来源页进入时提供「返回原页」；索引态与详情态两种页头。 store.words/states store.rootstories store.currentroot store.fromview store.tips 工具菜单 → 词根群星 快捷键 f galaxy 双击词根 lab / network / wordpanel galaxy 单词 review 整族 返回来源页 learn / tips 星座 / 树 / 星墙是这套页面的视觉语言；不要退化成普通卡片网格。 词源故事是 read 表面：行宽 30–45 汉字，正文不发光、不流光。 星墙的五态必须和圣殿 / 暗物质区同一套颜色与语义。 索引空 / 搜索无命中 / 详情加载 / 家族复习" style="--g:#5B6FC4">
+  <div class="pc-top">
+    <span class="pc-index">05 / 21</span>
+    <span class="pc-badge">词汇宇宙</span>
+    <span class="pc-view">view: family</span>
+  </div>
+  <h3 class="pc-title">词根群星</h3>
+  <div class="pc-latin">ROOT FAMILIES</div>
+  <p class="pc-role">40 个词根星座的索引与详情。从「一个根」理解「一串词」，并看见自己的掌握情况。</p>
+  <div class="pc-meta"><span class="mode">Read / Operate</span><span>拨盘 5 / 3 / 4</span></div>
+
+  <div class="pc-h">核心功能 / WHAT IT DOES</div>
+  <ul class="pc-list"><li>词根索引：搜索词根 / 含义 / 词；每张卡有星墙（五态）、词数、已掌握数。</li><li>详情：家族星图头卡、全部词卡、词源故事、同族分化树、易混辨析口诀。</li><li>词卡点击回星系；「复习整族」把已学词拉进复习；「词根记忆法」给方法。</li><li>从来源页进入时提供「返回原页」；索引态与详情态两种页头。</li></ul>
+
+  <div class="pc-h">数据与状态 / DATA</div>
+  <div class="pc-data"><span class="data-chip">store.words/states</span><span class="data-chip">store.rootStories</span><span class="data-chip">store.currentRoot</span><span class="data-chip">store.fromView</span><span class="data-chip">store.tips</span></div>
+
+  <div class="pc-h">入口 / 出口 / NAVIGATION</div>
+  <div class="pc-io">
+    <div class="io-box"><b>ENTRY · 从哪来</b><ul><li>工具菜单 → 词根群星</li><li>快捷键 f</li><li>galaxy 双击词根</li><li>lab / network / WordPanel</li></ul></div>
+    <div class="io-box"><b>EXIT · 到哪去</b><ul><li>galaxy 单词</li><li>review 整族</li><li>返回来源页</li><li>learn / tips</li></ul></div>
+  </div>
+
+  <div class="pc-note"><b>UI DESIGN NOTES · 设计提示</b><ul><li>星座 / 树 / 星墙是这套页面的视觉语言；不要退化成普通卡片网格。</li><li>词源故事是 Read 表面：行宽 30–45 汉字，正文不发光、不流光。</li><li>星墙的五态必须和圣殿 / 暗物质区同一套颜色与语义。</li></ul></div>
+  <div class="pc-states"><b>状态：</b>索引空 / 搜索无命中 / 详情加载 / 家族复习</div>
+</article>
+<article class="page-card" id="page-collections" data-group="vocab" data-search="收藏夹 collections collections 跨词根家族组织生词：cet-6 重点、外刊高频、我的最爱。把词从宇宙里收进自己的册页。 收藏夹列表：新建 / 删除 / 颜色 / 词数 / 夹内星墙（已学 / 待复习 / 未学）。 打开夹：词卡按学习状态优先级排序（快忘了 &gt; 待复习 &gt; 学习中 &gt; 已掌握 &gt; 未学）。 移除词、复习整夹、导出 csv / anki / json。 空态引导去圣殿选词；删除二次确认；夹内页头与列表页头两种状态。 store.collections store.collectionwords store.currentcollectionid store.states load / create / delete / open / add / remove / export 工具菜单 → 收藏夹 快捷键 c wordpanel 「收藏」 galaxy 单词 review 整夹 返回收藏夹列表 收藏夹是「册页」不是文件夹：星墙先给成色，再给词数。 删除 / 移出是破坏性操作，确认文案要说清影响多少个词。 夹内列表要有状态徽章与批量复习入口。 未登录 / 无收藏夹 / 空夹 / 夹内列表 / 删除确认" style="--g:#5B6FC4">
+  <div class="pc-top">
+    <span class="pc-index">06 / 21</span>
+    <span class="pc-badge">词汇宇宙</span>
+    <span class="pc-view">view: collections</span>
+  </div>
+  <h3 class="pc-title">收藏夹</h3>
+  <div class="pc-latin">COLLECTIONS</div>
+  <p class="pc-role">跨词根家族组织生词：CET-6 重点、外刊高频、我的最爱。把词从宇宙里收进自己的册页。</p>
+  <div class="pc-meta"><span class="mode">Operate</span><span>拨盘 4 / 3 / 5</span></div>
+
+  <div class="pc-h">核心功能 / WHAT IT DOES</div>
+  <ul class="pc-list"><li>收藏夹列表：新建 / 删除 / 颜色 / 词数 / 夹内星墙（已学 / 待复习 / 未学）。</li><li>打开夹：词卡按学习状态优先级排序（快忘了 &gt; 待复习 &gt; 学习中 &gt; 已掌握 &gt; 未学）。</li><li>移除词、复习整夹、导出 CSV / Anki / JSON。</li><li>空态引导去圣殿选词；删除二次确认；夹内页头与列表页头两种状态。</li></ul>
+
+  <div class="pc-h">数据与状态 / DATA</div>
+  <div class="pc-data"><span class="data-chip">store.collections</span><span class="data-chip">store.collectionWords</span><span class="data-chip">store.currentCollectionId</span><span class="data-chip">store.states</span><span class="data-chip">load / create / delete / open / add / remove / export</span></div>
+
+  <div class="pc-h">入口 / 出口 / NAVIGATION</div>
+  <div class="pc-io">
+    <div class="io-box"><b>ENTRY · 从哪来</b><ul><li>工具菜单 → 收藏夹</li><li>快捷键 c</li><li>WordPanel 「收藏」</li></ul></div>
+    <div class="io-box"><b>EXIT · 到哪去</b><ul><li>galaxy 单词</li><li>review 整夹</li><li>返回收藏夹列表</li></ul></div>
+  </div>
+
+  <div class="pc-note"><b>UI DESIGN NOTES · 设计提示</b><ul><li>收藏夹是「册页」不是文件夹：星墙先给成色，再给词数。</li><li>删除 / 移出是破坏性操作，确认文案要说清影响多少个词。</li><li>夹内列表要有状态徽章与批量复习入口。</li></ul></div>
+  <div class="pc-states"><b>状态：</b>未登录 / 无收藏夹 / 空夹 / 夹内列表 / 删除确认</div>
+</article>
+<article class="page-card" id="page-lexicon" data-group="vocab" data-search="全量词库 full lexicon lexicon 40 词根星系之外的 3.6 万词。承担「查得到」的职责：音标、释义、搭配、真实例句。 中英文模糊搜索；20 条 / 页分页。 展开词条：音标 / 词性 / 等级 / 释义 / 搭配 / 例句 / 朗读。 结果计数、加载态、无命中空态；搜索防抖。 api.lexicon(q, page, pagesize) 无全局 store 依赖 工具菜单 → 全量词库 命令面板 朗读 / 复制；不在词根星系内，无词卡跳转 搜索优先：输入框 44px，结果密度高于装饰。 词典是 read/operate 混合：释义可读、数据可扫；不要用大面积卡片包住每条词。 分页与结果计数要清楚，移动端保持单列。 首次加载 / 搜索中 / 无命中 / 展开详情 / 分页" style="--g:#5B6FC4">
+  <div class="pc-top">
+    <span class="pc-index">07 / 21</span>
+    <span class="pc-badge">词汇宇宙</span>
+    <span class="pc-view">view: lexicon</span>
+  </div>
+  <h3 class="pc-title">全量词库</h3>
+  <div class="pc-latin">FULL LEXICON</div>
+  <p class="pc-role">40 词根星系之外的 3.6 万词。承担「查得到」的职责：音标、释义、搭配、真实例句。</p>
+  <div class="pc-meta"><span class="mode">Operate / Search</span><span>拨盘 4 / 2 / 5</span></div>
+
+  <div class="pc-h">核心功能 / WHAT IT DOES</div>
+  <ul class="pc-list"><li>中英文模糊搜索；20 条 / 页分页。</li><li>展开词条：音标 / 词性 / 等级 / 释义 / 搭配 / 例句 / 朗读。</li><li>结果计数、加载态、无命中空态；搜索防抖。</li></ul>
+
+  <div class="pc-h">数据与状态 / DATA</div>
+  <div class="pc-data"><span class="data-chip">api.lexicon(q, page, pageSize)</span><span class="data-chip">无全局 store 依赖</span></div>
+
+  <div class="pc-h">入口 / 出口 / NAVIGATION</div>
+  <div class="pc-io">
+    <div class="io-box"><b>ENTRY · 从哪来</b><ul><li>工具菜单 → 全量词库</li><li>命令面板</li></ul></div>
+    <div class="io-box"><b>EXIT · 到哪去</b><ul><li>朗读 / 复制；不在词根星系内，无词卡跳转</li></ul></div>
+  </div>
+
+  <div class="pc-note"><b>UI DESIGN NOTES · 设计提示</b><ul><li>搜索优先：输入框 44px，结果密度高于装饰。</li><li>词典是 Read/Operate 混合：释义可读、数据可扫；不要用大面积卡片包住每条词。</li><li>分页与结果计数要清楚，移动端保持单列。</li></ul></div>
+  <div class="pc-states"><b>状态：</b>首次加载 / 搜索中 / 无命中 / 展开详情 / 分页</div>
+</article></div>
+</section>
+<section class="page-group" id="group-loop" data-group="loop">
+  <div class="group-head" style="--g:#2F7F83">
+    <span class="group-dot"></span>
+    <h2>学习与复习</h2>
+    <p>教学闭环、记忆方法与错题聚合</p>
+    <span class="g-count">4 PAGES</span>
+  </div>
+  <div class="page-grid">
+<article class="page-card" id="page-learn" data-group="loop" data-search="学习舱 the learning pod learn 新词教学闭环：编码 → 回忆 → 巩固。全站唯一「教你怎么记一个词」的完整三幕。 新词队列：今日航线 / reviewqueue / 未学词；支持指定词与数量深链。 计划概要：今日名单 chip、预计分钟、深夜提示；空态去复习 / 圣殿。 第一幕编码：拆词根、看故事、进语境；第二幕回忆：先自己想 10 秒再翻面；第三幕巩固：拼写、挂进同族网络。 三档自评（认识 / 模糊 / 不认识）写回 fsrs；顶部三幕进度、退出保留进度。 终幕：本场词数 / 分钟 / 三档统计；重来不认识的词、去复习、回今日航线。 store.plan api.reviewqueue store.words/states/rootstories pendinglearnword / pendinglearncount store.api_submitreview dashboard 主 cta / 今日航线 / 学习模式 工具菜单 → 学习舱 快捷键 a wordpanel / family / lab 深链 done → review / dashboard 三幕中退出 → dashboard 下一词 / 下一幕 一场只教一个词：单列 680px，舞台卡，当前幕只有一个主操作。 三幕是「教学」不是「答题」：编码要可读，回忆要遮挡，巩固要动手。 进度、退出、自评必须始终可见；不要让深链进来的用户被锁死在流程里。 加载 / 计划概要 / 三幕 / 终幕 / 新词学完空态 / 退出" style="--g:#2F7F83">
+  <div class="pc-top">
+    <span class="pc-index">08 / 21</span>
+    <span class="pc-badge">学习与复习</span>
+    <span class="pc-view">view: learn</span>
+  </div>
+  <h3 class="pc-title">学习舱</h3>
+  <div class="pc-latin">THE LEARNING POD</div>
+  <p class="pc-role">新词教学闭环：编码 → 回忆 → 巩固。全站唯一「教你怎么记一个词」的完整三幕。</p>
+  <div class="pc-meta"><span class="mode">Operate / Teach</span><span>拨盘 4 / 4 / 5</span></div>
+
+  <div class="pc-h">核心功能 / WHAT IT DOES</div>
+  <ul class="pc-list"><li>新词队列：今日航线 / reviewQueue / 未学词；支持指定词与数量深链。</li><li>计划概要：今日名单 chip、预计分钟、深夜提示；空态去复习 / 圣殿。</li><li>第一幕编码：拆词根、看故事、进语境；第二幕回忆：先自己想 10 秒再翻面；第三幕巩固：拼写、挂进同族网络。</li><li>三档自评（认识 / 模糊 / 不认识）写回 FSRS；顶部三幕进度、退出保留进度。</li><li>终幕：本场词数 / 分钟 / 三档统计；重来不认识的词、去复习、回今日航线。</li></ul>
+
+  <div class="pc-h">数据与状态 / DATA</div>
+  <div class="pc-data"><span class="data-chip">store.plan</span><span class="data-chip">api.reviewQueue</span><span class="data-chip">store.words/states/rootStories</span><span class="data-chip">pendingLearnWord / pendingLearnCount</span><span class="data-chip">store.api_submitReview</span></div>
+
+  <div class="pc-h">入口 / 出口 / NAVIGATION</div>
+  <div class="pc-io">
+    <div class="io-box"><b>ENTRY · 从哪来</b><ul><li>dashboard 主 CTA / 今日航线 / 学习模式</li><li>工具菜单 → 学习舱</li><li>快捷键 a</li><li>WordPanel / family / lab 深链</li></ul></div>
+    <div class="io-box"><b>EXIT · 到哪去</b><ul><li>done → review / dashboard</li><li>三幕中退出 → dashboard</li><li>下一词 / 下一幕</li></ul></div>
+  </div>
+
+  <div class="pc-note"><b>UI DESIGN NOTES · 设计提示</b><ul><li>一场只教一个词：单列 680px，舞台卡，当前幕只有一个主操作。</li><li>三幕是「教学」不是「答题」：编码要可读，回忆要遮挡，巩固要动手。</li><li>进度、退出、自评必须始终可见；不要让深链进来的用户被锁死在流程里。</li></ul></div>
+  <div class="pc-states"><b>状态：</b>加载 / 计划概要 / 三幕 / 终幕 / 新词学完空态 / 退出</div>
+</article>
+<article class="page-card" id="page-lab" data-group="loop" data-search="记忆工坊 the mnemonic forge lab 把四种被验证的记忆方法拆开讲，并用用户自己的数据现场演示「为什么这样复习」。 四法 tabs：拆词装配（morph）/ 先遮后揭（keyword）/ 语境相遇（context）/ 召回曲线（retrieval）。 每法三段：原理 → 互动练习 → 我的数据（词根分布 / 最该担心的词 / 语境 / 遗忘曲线）。 召回曲线：api.reviewforecast 未来 60 天记忆概率 + 阈值。 风险词 top3 点击回星系；词根条、词族数据、跳转 learn / review。 data/methods.json store.words/states/passages/plan api.reviewforecast store.openwordingalaxy / openlearn / openreview 工具菜单 → 记忆工坊 快捷键 o galaxy 词 family learn review 实验台隐喻：原理是 read，互动是 operate，数据是仪表；三种密度要分层。 四种方法用同一套 tab / 实验台 / 数据块结构，避免每法换一套视觉语言。 互动反馈要即时、确定（对 / 不对 / 揭晓），不要用长动画拖慢练习。 词库加载 / 互动正确 / 互动错误 / 无风险词 / 曲线加载" style="--g:#2F7F83">
+  <div class="pc-top">
+    <span class="pc-index">09 / 21</span>
+    <span class="pc-badge">学习与复习</span>
+    <span class="pc-view">view: lab</span>
+  </div>
+  <h3 class="pc-title">记忆工坊</h3>
+  <div class="pc-latin">THE MNEMONIC FORGE</div>
+  <p class="pc-role">把四种被验证的记忆方法拆开讲，并用用户自己的数据现场演示「为什么这样复习」。</p>
+  <div class="pc-meta"><span class="mode">Read / Explore</span><span>拨盘 5 / 4 / 4</span></div>
+
+  <div class="pc-h">核心功能 / WHAT IT DOES</div>
+  <ul class="pc-list"><li>四法 tabs：拆词装配（morph）/ 先遮后揭（keyword）/ 语境相遇（context）/ 召回曲线（retrieval）。</li><li>每法三段：原理 → 互动练习 → 我的数据（词根分布 / 最该担心的词 / 语境 / 遗忘曲线）。</li><li>召回曲线：api.reviewForecast 未来 60 天记忆概率 + 阈值。</li><li>风险词 top3 点击回星系；词根条、词族数据、跳转 learn / review。</li></ul>
+
+  <div class="pc-h">数据与状态 / DATA</div>
+  <div class="pc-data"><span class="data-chip">data/methods.json</span><span class="data-chip">store.words/states/passages/plan</span><span class="data-chip">api.reviewForecast</span><span class="data-chip">store.openWordInGalaxy / openLearn / openReview</span></div>
+
+  <div class="pc-h">入口 / 出口 / NAVIGATION</div>
+  <div class="pc-io">
+    <div class="io-box"><b>ENTRY · 从哪来</b><ul><li>工具菜单 → 记忆工坊</li><li>快捷键 o</li></ul></div>
+    <div class="io-box"><b>EXIT · 到哪去</b><ul><li>galaxy 词</li><li>family</li><li>learn</li><li>review</li></ul></div>
+  </div>
+
+  <div class="pc-note"><b>UI DESIGN NOTES · 设计提示</b><ul><li>实验台隐喻：原理是 Read，互动是 Operate，数据是仪表；三种密度要分层。</li><li>四种方法用同一套 tab / 实验台 / 数据块结构，避免每法换一套视觉语言。</li><li>互动反馈要即时、确定（对 / 不对 / 揭晓），不要用长动画拖慢练习。</li></ul></div>
+  <div class="pc-states"><b>状态：</b>词库加载 / 互动正确 / 互动错误 / 无风险词 / 曲线加载</div>
+</article>
+<article class="page-card" id="page-tips" data-group="loop" data-search="技巧库 field notes tips 48 条可执行技巧，每条注明出处与对应训练模块。学一条，马上点进去练一条。 分类 chips + 搜索；分类偏好写入 profile.prefs.tipcategory。 技巧卡：类别 / 等级 / 标题 / 内容 / 例句 / 朗读；可展开步骤、本站练法、科学依据。 「今日一策」推荐面板：为什么是这条 + 对应模块 cta；从 dashboard / 发音舱深链进入。 出处书籍统计；无结果 / 空库空态。 store.tips store.pendingtipid store.profile.prefs.tipcategory store.setpref 工具菜单 → 技巧库 快捷键 t dashboard 今日一策 phonetics 今日一策 对应模块页（发音 / 听力 / 口语 / 语法 / 阅读 / 写作 / 词汇） dashboard read 表面：标题可扫、正文可读；每卡只讲一条，不堆方法论。 「例」要能朗读；「怎么练」要落到具体模块，不做纯引用。 分类与搜索是主要导航，不要用无限滚动埋掉 48 条。 加载 / 空库 / 分类无结果 / 搜索无结果 / 推荐面板" style="--g:#2F7F83">
+  <div class="pc-top">
+    <span class="pc-index">10 / 21</span>
+    <span class="pc-badge">学习与复习</span>
+    <span class="pc-view">view: tips</span>
+  </div>
+  <h3 class="pc-title">技巧库</h3>
+  <div class="pc-latin">FIELD NOTES</div>
+  <p class="pc-role">48 条可执行技巧，每条注明出处与对应训练模块。学一条，马上点进去练一条。</p>
+  <div class="pc-meta"><span class="mode">Read</span><span>拨盘 5 / 2 / 4</span></div>
+
+  <div class="pc-h">核心功能 / WHAT IT DOES</div>
+  <ul class="pc-list"><li>分类 chips + 搜索；分类偏好写入 profile.prefs.tipCategory。</li><li>技巧卡：类别 / 等级 / 标题 / 内容 / 例句 / 朗读；可展开步骤、本站练法、科学依据。</li><li>「今日一策」推荐面板：为什么是这条 + 对应模块 CTA；从 dashboard / 发音舱深链进入。</li><li>出处书籍统计；无结果 / 空库空态。</li></ul>
+
+  <div class="pc-h">数据与状态 / DATA</div>
+  <div class="pc-data"><span class="data-chip">store.tips</span><span class="data-chip">store.pendingTipId</span><span class="data-chip">store.profile.prefs.tipCategory</span><span class="data-chip">store.setPref</span></div>
+
+  <div class="pc-h">入口 / 出口 / NAVIGATION</div>
+  <div class="pc-io">
+    <div class="io-box"><b>ENTRY · 从哪来</b><ul><li>工具菜单 → 技巧库</li><li>快捷键 t</li><li>dashboard 今日一策</li><li>phonetics 今日一策</li></ul></div>
+    <div class="io-box"><b>EXIT · 到哪去</b><ul><li>对应模块页（发音 / 听力 / 口语 / 语法 / 阅读 / 写作 / 词汇）</li><li>dashboard</li></ul></div>
+  </div>
+
+  <div class="pc-note"><b>UI DESIGN NOTES · 设计提示</b><ul><li>Read 表面：标题可扫、正文可读；每卡只讲一条，不堆方法论。</li><li>「例」要能朗读；「怎么练」要落到具体模块，不做纯引用。</li><li>分类与搜索是主要导航，不要用无限滚动埋掉 48 条。</li></ul></div>
+  <div class="pc-states"><b>状态：</b>加载 / 空库 / 分类无结果 / 搜索无结果 / 推荐面板</div>
+</article>
+<article class="page-card" id="page-mistakes" data-group="loop" data-search="暗物质区 dark matter mistakes 全模块错题的聚合器。错题不是污点，是还没发光的暗物质；重做一题，就点亮一颗星。 六个 tab：词库快忘了 / 语法错题 / 阅读错题 / 听力错题 / 口语弱句 / 写作低分。 顶部统计：n 颗星等光 / 已点亮 / 词根快忘了；各模块错误数量 chip。 深链到具体语法点、语料、写作记录、词汇；「再练 / 再写 / 复习」闭环。 5 分钟快闪巡航入口；拉取失败与空态区分。 api.exportdata（一次拉全，前端聚合） store.states/stats/words/grammar/passages pendinggrammarid / pendingpassage / pendingwritingid store.startsession 工具菜单 → 暗物质区 快捷键 i dashboard 智能提示 galaxy 词 grammar 详情 reading / listening / speaking / writing 对应语料 review / session 暗物质隐喻：深色、克制、不羞辱；错误是「未发光」，不是「失败」。 六个 tab 的数量与空态要一眼可辨；深链必须落到具体条目，不能只到模块首页。 重做后的「点亮」反馈是这套页面的情绪出口，要设计。 拉取失败 / 各 tab 空 / 有错题 / 深链命中 / 复习中" style="--g:#2F7F83">
+  <div class="pc-top">
+    <span class="pc-index">11 / 21</span>
+    <span class="pc-badge">学习与复习</span>
+    <span class="pc-view">view: mistakes</span>
+  </div>
+  <h3 class="pc-title">暗物质区</h3>
+  <div class="pc-latin">DARK MATTER</div>
+  <p class="pc-role">全模块错题的聚合器。错题不是污点，是还没发光的暗物质；重做一题，就点亮一颗星。</p>
+  <div class="pc-meta"><span class="mode">Operate</span><span>拨盘 4 / 3 / 5</span></div>
+
+  <div class="pc-h">核心功能 / WHAT IT DOES</div>
+  <ul class="pc-list"><li>六个 tab：词库快忘了 / 语法错题 / 阅读错题 / 听力错题 / 口语弱句 / 写作低分。</li><li>顶部统计：N 颗星等光 / 已点亮 / 词根快忘了；各模块错误数量 chip。</li><li>深链到具体语法点、语料、写作记录、词汇；「再练 / 再写 / 复习」闭环。</li><li>5 分钟快闪巡航入口；拉取失败与空态区分。</li></ul>
+
+  <div class="pc-h">数据与状态 / DATA</div>
+  <div class="pc-data"><span class="data-chip">api.exportData（一次拉全，前端聚合）</span><span class="data-chip">store.states/stats/words/grammar/passages</span><span class="data-chip">pendingGrammarId / pendingPassage / pendingWritingId</span><span class="data-chip">store.startSession</span></div>
+
+  <div class="pc-h">入口 / 出口 / NAVIGATION</div>
+  <div class="pc-io">
+    <div class="io-box"><b>ENTRY · 从哪来</b><ul><li>工具菜单 → 暗物质区</li><li>快捷键 i</li><li>dashboard 智能提示</li></ul></div>
+    <div class="io-box"><b>EXIT · 到哪去</b><ul><li>galaxy 词</li><li>grammar 详情</li><li>reading / listening / speaking / writing 对应语料</li><li>review / session</li></ul></div>
+  </div>
+
+  <div class="pc-note"><b>UI DESIGN NOTES · 设计提示</b><ul><li>暗物质隐喻：深色、克制、不羞辱；错误是「未发光」，不是「失败」。</li><li>六个 tab 的数量与空态要一眼可辨；深链必须落到具体条目，不能只到模块首页。</li><li>重做后的「点亮」反馈是这套页面的情绪出口，要设计。</li></ul></div>
+  <div class="pc-states"><b>状态：</b>拉取失败 / 各 tab 空 / 有错题 / 深链命中 / 复习中</div>
+</article></div>
+</section>
+<section class="page-group" id="group-skills" data-group="skills">
+  <div class="group-head" style="--g:#3D5A85">
+    <span class="group-dot"></span>
+    <h2>技能训练</h2>
+    <p>发音、听力、口语、语法、阅读、写作、日记</p>
+    <span class="g-count">7 PAGES</span>
+  </div>
+  <div class="page-grid">
+<article class="page-card" id="page-phonetics" data-group="skills" data-search="发音舱 phonetics pod phonetics 48 个国际音标的解剖台：口型、三要素、最小对立、拼读规则与掌握度。 四模式：音标解剖 / 听辨测试 / 拼读规则 / 掌握度。 音标解剖：口腔剖面 svg、发音部位、舌位 / 唇形 / 气流三要素、例词、跟读打分、音素级错词重听。 听辨测试：最小对立对；拼读规则：规则卡与例词；掌握度：按音标统计。 今日一策发音技巧入口；录音 / 播放 / 慢速重听。 store.phonemes / pairs / rules / phoneticstates store.tips api.submitphonetics speech（识别 / 评分 / 朗读） 导航「发音」 快捷键 p tips 发音技巧 tips review 其他技能页 仪器感：口腔剖面是主舞台，音标是读数；不要用普通卡片罗列 48 个音。 录音 / 识别 / 不支持三种状态必须明确；评分要给出可行动的错词。 四模式共享一条 tab 与同一套音标选择器，避免跳页丢上下文。 数据加载 / 未选音标 / 录音中 / 评分结果 / 浏览器不支持识别" style="--g:#3D5A85">
+  <div class="pc-top">
+    <span class="pc-index">12 / 21</span>
+    <span class="pc-badge">技能训练</span>
+    <span class="pc-view">view: phonetics</span>
+  </div>
+  <h3 class="pc-title">发音舱</h3>
+  <div class="pc-latin">PHONETICS POD</div>
+  <p class="pc-role">48 个国际音标的解剖台：口型、三要素、最小对立、拼读规则与掌握度。</p>
+  <div class="pc-meta"><span class="mode">Operate / Explore</span><span>拨盘 5 / 4 / 5</span></div>
+
+  <div class="pc-h">核心功能 / WHAT IT DOES</div>
+  <ul class="pc-list"><li>四模式：音标解剖 / 听辨测试 / 拼读规则 / 掌握度。</li><li>音标解剖：口腔剖面 SVG、发音部位、舌位 / 唇形 / 气流三要素、例词、跟读打分、音素级错词重听。</li><li>听辨测试：最小对立对；拼读规则：规则卡与例词；掌握度：按音标统计。</li><li>今日一策发音技巧入口；录音 / 播放 / 慢速重听。</li></ul>
+
+  <div class="pc-h">数据与状态 / DATA</div>
+  <div class="pc-data"><span class="data-chip">store.phonemes / pairs / rules / phoneticStates</span><span class="data-chip">store.tips</span><span class="data-chip">api.submitPhonetics</span><span class="data-chip">speech（识别 / 评分 / 朗读）</span></div>
+
+  <div class="pc-h">入口 / 出口 / NAVIGATION</div>
+  <div class="pc-io">
+    <div class="io-box"><b>ENTRY · 从哪来</b><ul><li>导航「发音」</li><li>快捷键 p</li><li>tips 发音技巧</li></ul></div>
+    <div class="io-box"><b>EXIT · 到哪去</b><ul><li>tips</li><li>review</li><li>其他技能页</li></ul></div>
+  </div>
+
+  <div class="pc-note"><b>UI DESIGN NOTES · 设计提示</b><ul><li>仪器感：口腔剖面是主舞台，音标是读数；不要用普通卡片罗列 48 个音。</li><li>录音 / 识别 / 不支持三种状态必须明确；评分要给出可行动的错词。</li><li>四模式共享一条 tab 与同一套音标选择器，避免跳页丢上下文。</li></ul></div>
+  <div class="pc-states"><b>状态：</b>数据加载 / 未选音标 / 录音中 / 评分结果 / 浏览器不支持识别</div>
+</article>
+<article class="page-card" id="page-grammar" data-group="skills" data-search="语法机械城 machine city grammar 每个语法点是一台机器：看图纸、装零件、答题、结案。掌握度决定哪台机器亮灯。 车间读数：已掌握台数 / 总台数 / 装配率；语法家族关系图。 分类筛选 + 语法点卡片（掌握度环 / 进度条 / 分类）。 详情：解释、公式、例句、题库；答题即时判定，连续答对结案。 错题深链 pendinggrammarid 直接展开；掌握度写回。 store.grammar / grammarstates api.submitgrammar (store.submitgrammarapi) pendinggrammarid 导航「语法」 快捷键 m mistakes 语法错题 dashboard 模块正确率 mistakes 下一个语法点 dashboard 机械城隐喻：齿轮 / 装配 / 车间读数；但正文仍是 read 优先。 掌握度环、装配率、分类 chip 是三个层级，不要都做成高饱和强调。 详情与题库要在同一上下文里，答错后能立刻看到解释。 加载 / 分类空 / 详情展开 / 答题对错 / 已掌握" style="--g:#3D5A85">
+  <div class="pc-top">
+    <span class="pc-index">13 / 21</span>
+    <span class="pc-badge">技能训练</span>
+    <span class="pc-view">view: grammar</span>
+  </div>
+  <h3 class="pc-title">语法机械城</h3>
+  <div class="pc-latin">MACHINE CITY</div>
+  <p class="pc-role">每个语法点是一台机器：看图纸、装零件、答题、结案。掌握度决定哪台机器亮灯。</p>
+  <div class="pc-meta"><span class="mode">Operate</span><span>拨盘 4 / 3 / 5</span></div>
+
+  <div class="pc-h">核心功能 / WHAT IT DOES</div>
+  <ul class="pc-list"><li>车间读数：已掌握台数 / 总台数 / 装配率；语法家族关系图。</li><li>分类筛选 + 语法点卡片（掌握度环 / 进度条 / 分类）。</li><li>详情：解释、公式、例句、题库；答题即时判定，连续答对结案。</li><li>错题深链 pendingGrammarId 直接展开；掌握度写回。</li></ul>
+
+  <div class="pc-h">数据与状态 / DATA</div>
+  <div class="pc-data"><span class="data-chip">store.grammar / grammarStates</span><span class="data-chip">api.submitGrammar (store.submitGrammarApi)</span><span class="data-chip">pendingGrammarId</span></div>
+
+  <div class="pc-h">入口 / 出口 / NAVIGATION</div>
+  <div class="pc-io">
+    <div class="io-box"><b>ENTRY · 从哪来</b><ul><li>导航「语法」</li><li>快捷键 m</li><li>mistakes 语法错题</li><li>dashboard 模块正确率</li></ul></div>
+    <div class="io-box"><b>EXIT · 到哪去</b><ul><li>mistakes</li><li>下一个语法点</li><li>dashboard</li></ul></div>
+  </div>
+
+  <div class="pc-note"><b>UI DESIGN NOTES · 设计提示</b><ul><li>机械城隐喻：齿轮 / 装配 / 车间读数；但正文仍是 Read 优先。</li><li>掌握度环、装配率、分类 chip 是三个层级，不要都做成高饱和强调。</li><li>详情与题库要在同一上下文里，答错后能立刻看到解释。</li></ul></div>
+  <div class="pc-states"><b>状态：</b>加载 / 分类空 / 详情展开 / 答题对错 / 已掌握</div>
+</article>
+<article class="page-card" id="page-listening" data-group="skills" data-search="回声谷 echo canyon listening 精听训练：选一条信号，先慢速进谷，逐句循环，听顺了再出谷答题。 信号轨道列表：每条语料一条声纹，不是普通卡片；显示句数 / 题数 / 等级。 播放器：全文播放 / 停止 / 0.6–1.2x 语速 / 逐句播放 / 长按或按钮循环 / 波形点击跳句。 逐句译文（默认收起）、播放中高亮、循环提示。 理解题 + 提交；结算卡正确率 / 上次对比；pendingpassage 深链。 store.passages(type=listening) store.pendingpassage store.settings.speechrate / profile.prefs api.historypassages store.api_submitlistening 导航「听力」 快捷键 l mistakes 听力错题 结算 → review / 下一题 mistakes 其他技能 音频优先：播放器是主角，波形 / 语速 / 循环是三大控件，必须 sticky 可及。 逐句译文默认收起；长按循环是隐藏手势，必须同时给显式按钮。 结算要回答「这次比上次好在哪」，不是只给一个正确率。 语料加载 / 未选信号 / 播放中 / 循环 / 已提交 / 无识别" style="--g:#3D5A85">
+  <div class="pc-top">
+    <span class="pc-index">14 / 21</span>
+    <span class="pc-badge">技能训练</span>
+    <span class="pc-view">view: listening</span>
+  </div>
+  <h3 class="pc-title">回声谷</h3>
+  <div class="pc-latin">ECHO CANYON</div>
+  <p class="pc-role">精听训练：选一条信号，先慢速进谷，逐句循环，听顺了再出谷答题。</p>
+  <div class="pc-meta"><span class="mode">Operate</span><span>拨盘 4 / 4 / 5</span></div>
+
+  <div class="pc-h">核心功能 / WHAT IT DOES</div>
+  <ul class="pc-list"><li>信号轨道列表：每条语料一条声纹，不是普通卡片；显示句数 / 题数 / 等级。</li><li>播放器：全文播放 / 停止 / 0.6–1.2x 语速 / 逐句播放 / 长按或按钮循环 / 波形点击跳句。</li><li>逐句译文（默认收起）、播放中高亮、循环提示。</li><li>理解题 + 提交；结算卡正确率 / 上次对比；pendingPassage 深链。</li></ul>
+
+  <div class="pc-h">数据与状态 / DATA</div>
+  <div class="pc-data"><span class="data-chip">store.passages(type=listening)</span><span class="data-chip">store.pendingPassage</span><span class="data-chip">store.settings.speechRate / profile.prefs</span><span class="data-chip">api.historyPassages</span><span class="data-chip">store.api_submitListening</span></div>
+
+  <div class="pc-h">入口 / 出口 / NAVIGATION</div>
+  <div class="pc-io">
+    <div class="io-box"><b>ENTRY · 从哪来</b><ul><li>导航「听力」</li><li>快捷键 l</li><li>mistakes 听力错题</li></ul></div>
+    <div class="io-box"><b>EXIT · 到哪去</b><ul><li>结算 → review / 下一题</li><li>mistakes</li><li>其他技能</li></ul></div>
+  </div>
+
+  <div class="pc-note"><b>UI DESIGN NOTES · 设计提示</b><ul><li>音频优先：播放器是主角，波形 / 语速 / 循环是三大控件，必须 sticky 可及。</li><li>逐句译文默认收起；长按循环是隐藏手势，必须同时给显式按钮。</li><li>结算要回答「这次比上次好在哪」，不是只给一个正确率。</li></ul></div>
+  <div class="pc-states"><b>状态：</b>语料加载 / 未选信号 / 播放中 / 循环 / 已提交 / 无识别</div>
+</article>
+<article class="page-card" id="page-speaking" data-group="skills" data-search="口语竞技场 speaking arena speaking 影子跟读：先听示范，再逐句开口，系统逐词告诉你哪些读到、哪些没读准。 语料选择：情景标题 / 等级 / 句数；逐句卡片。 每句：示范播放、录音、实时波形、逐词命中 / 漏读、分数环。 低分句 ai 发音建议（api.ask，llm 失败走本地规则）；跟读进度。 结算卡；不支持语音识别的浏览器提示；pendingpassage 深链。 store.passages(type=speaking) store.words ipa speech（识别 / 评分） api.ask store.api_submitspeaking 导航「口语」 快捷键 s mistakes 口语弱句 结算 → review / 下一句 mistakes 麦克风是主操作：录音中要有明确的红色脉冲 / 计时 / 停止；权限拒绝要给下一步。 分数环 + 逐词命中比总分更有用；错词要能单独慢速重听。 移动端要处理录音权限、键盘遮挡与长页面滚动。 未选语料 / 未开始 / 录音中 / 评分 / ai 建议加载 / 浏览器不支持" style="--g:#3D5A85">
+  <div class="pc-top">
+    <span class="pc-index">15 / 21</span>
+    <span class="pc-badge">技能训练</span>
+    <span class="pc-view">view: speaking</span>
+  </div>
+  <h3 class="pc-title">口语竞技场</h3>
+  <div class="pc-latin">SPEAKING ARENA</div>
+  <p class="pc-role">影子跟读：先听示范，再逐句开口，系统逐词告诉你哪些读到、哪些没读准。</p>
+  <div class="pc-meta"><span class="mode">Operate</span><span>拨盘 4 / 4 / 5</span></div>
+
+  <div class="pc-h">核心功能 / WHAT IT DOES</div>
+  <ul class="pc-list"><li>语料选择：情景标题 / 等级 / 句数；逐句卡片。</li><li>每句：示范播放、录音、实时波形、逐词命中 / 漏读、分数环。</li><li>低分句 AI 发音建议（api.ask，LLM 失败走本地规则）；跟读进度。</li><li>结算卡；不支持语音识别的浏览器提示；pendingPassage 深链。</li></ul>
+
+  <div class="pc-h">数据与状态 / DATA</div>
+  <div class="pc-data"><span class="data-chip">store.passages(type=speaking)</span><span class="data-chip">store.words IPA</span><span class="data-chip">speech（识别 / 评分）</span><span class="data-chip">api.ask</span><span class="data-chip">store.api_submitSpeaking</span></div>
+
+  <div class="pc-h">入口 / 出口 / NAVIGATION</div>
+  <div class="pc-io">
+    <div class="io-box"><b>ENTRY · 从哪来</b><ul><li>导航「口语」</li><li>快捷键 s</li><li>mistakes 口语弱句</li></ul></div>
+    <div class="io-box"><b>EXIT · 到哪去</b><ul><li>结算 → review / 下一句</li><li>mistakes</li></ul></div>
+  </div>
+
+  <div class="pc-note"><b>UI DESIGN NOTES · 设计提示</b><ul><li>麦克风是主操作：录音中要有明确的红色脉冲 / 计时 / 停止；权限拒绝要给下一步。</li><li>分数环 + 逐词命中比总分更有用；错词要能单独慢速重听。</li><li>移动端要处理录音权限、键盘遮挡与长页面滚动。</li></ul></div>
+  <div class="pc-states"><b>状态：</b>未选语料 / 未开始 / 录音中 / 评分 / AI 建议加载 / 浏览器不支持</div>
+</article>
+<article class="page-card" id="page-reading" data-group="skills" data-search="阅读号列车 reading rails reading 分级阅读：选一篇难度合适的短文，逐句精读、点词即学、读完做题。靠 i+1 输入稳定长大词汇量。 短文选择：已学词 / 词库词覆盖、最快 wpm；车厢式进度。 阅读计时 + wpm 结算：与年级目标对比、上次对比、自然点评。 逐句阅读：点词卡（词库词 / 任意词 ai 五维）、朗读、译文、收藏、加入复习。 生词自动进复习队列；理解题；结算卡；pendingpassage 深链。 store.passages(type=reading) store.words/states api.explain api.historypassages store.api_submitreading / api_learnword 导航「阅读」 快捷键 r mistakes 阅读错题 dashboard galaxy 词 review 结算 mistakes read 表面：正文行宽 65–75 字符，字号与行高优先；工具必须退到边上。 点词卡不能遮正文：优先放旁注翼，移动端再改底部抽屉。 wpm 是反馈不是压力：达标 / 未达标都要给「然后呢」。 加载 / 未选短文 / 阅读中 / 暂停 / 点词 / 已提交 / 无历史" style="--g:#3D5A85">
+  <div class="pc-top">
+    <span class="pc-index">16 / 21</span>
+    <span class="pc-badge">技能训练</span>
+    <span class="pc-view">view: reading</span>
+  </div>
+  <h3 class="pc-title">阅读号列车</h3>
+  <div class="pc-latin">READING RAILS</div>
+  <p class="pc-role">分级阅读：选一篇难度合适的短文，逐句精读、点词即学、读完做题。靠 i+1 输入稳定长大词汇量。</p>
+  <div class="pc-meta"><span class="mode">Read</span><span>拨盘 5 / 2 / 4</span></div>
+
+  <div class="pc-h">核心功能 / WHAT IT DOES</div>
+  <ul class="pc-list"><li>短文选择：已学词 / 词库词覆盖、最快 WPM；车厢式进度。</li><li>阅读计时 + WPM 结算：与年级目标对比、上次对比、自然点评。</li><li>逐句阅读：点词卡（词库词 / 任意词 AI 五维）、朗读、译文、收藏、加入复习。</li><li>生词自动进复习队列；理解题；结算卡；pendingPassage 深链。</li></ul>
+
+  <div class="pc-h">数据与状态 / DATA</div>
+  <div class="pc-data"><span class="data-chip">store.passages(type=reading)</span><span class="data-chip">store.words/states</span><span class="data-chip">api.explain</span><span class="data-chip">api.historyPassages</span><span class="data-chip">store.api_submitReading / api_learnWord</span></div>
+
+  <div class="pc-h">入口 / 出口 / NAVIGATION</div>
+  <div class="pc-io">
+    <div class="io-box"><b>ENTRY · 从哪来</b><ul><li>导航「阅读」</li><li>快捷键 r</li><li>mistakes 阅读错题</li><li>dashboard</li></ul></div>
+    <div class="io-box"><b>EXIT · 到哪去</b><ul><li>galaxy 词</li><li>review</li><li>结算</li><li>mistakes</li></ul></div>
+  </div>
+
+  <div class="pc-note"><b>UI DESIGN NOTES · 设计提示</b><ul><li>Read 表面：正文行宽 65–75 字符，字号与行高优先；工具必须退到边上。</li><li>点词卡不能遮正文：优先放旁注翼，移动端再改底部抽屉。</li><li>WPM 是反馈不是压力：达标 / 未达标都要给「然后呢」。</li></ul></div>
+  <div class="pc-states"><b>状态：</b>加载 / 未选短文 / 阅读中 / 暂停 / 点词 / 已提交 / 无历史</div>
+</article>
+<article class="page-card" id="page-writing" data-group="skills" data-search="写作工坊 writing workshop writing 费曼输出：把学到的词写成句子，把句子写成段落；提交后进入逐句批注稿。 ① 造句：抽目标词（优先待复习 / 学习中）、看例句、输入、提交。 批注稿：原文逐句、问题句琥珀左缘、点击展开 issue / tip、目标词绿色高亮、继续修改。 ② 成文：主题 + 目标词家族、段落输入、ai 批改、总分 / 建议。 航行日志：最近 n 篇、均分 / 最高分 / 趋势、旧文回看；pendingwritingid 深链。 store.words/states api.gradewriting api.historywriting store.api_submitwriting pendingwritingid 导航「写作」 快捷键 w mistakes 写作低分 dashboard mistakes 历史记录 下一个目标词 写作是编辑器：输入区要宽、安静、可专注；批注不能把原文挤走。 批注用「问题 / 建议」两层，颜色只标问题句；不要满屏红。 目标词高亮与分数、历史趋势要形成「写作画像」，而不是一次性的分数。 未抽词 / 编辑 / 批改中 / 批注稿 / 成文 / 历史空" style="--g:#3D5A85">
+  <div class="pc-top">
+    <span class="pc-index">17 / 21</span>
+    <span class="pc-badge">技能训练</span>
+    <span class="pc-view">view: writing</span>
+  </div>
+  <h3 class="pc-title">写作工坊</h3>
+  <div class="pc-latin">WRITING WORKSHOP</div>
+  <p class="pc-role">费曼输出：把学到的词写成句子，把句子写成段落；提交后进入逐句批注稿。</p>
+  <div class="pc-meta"><span class="mode">Operate</span><span>拨盘 4 / 3 / 5</span></div>
+
+  <div class="pc-h">核心功能 / WHAT IT DOES</div>
+  <ul class="pc-list"><li>① 造句：抽目标词（优先待复习 / 学习中）、看例句、输入、提交。</li><li>批注稿：原文逐句、问题句琥珀左缘、点击展开 issue / tip、目标词绿色高亮、继续修改。</li><li>② 成文：主题 + 目标词家族、段落输入、AI 批改、总分 / 建议。</li><li>航行日志：最近 N 篇、均分 / 最高分 / 趋势、旧文回看；pendingWritingId 深链。</li></ul>
+
+  <div class="pc-h">数据与状态 / DATA</div>
+  <div class="pc-data"><span class="data-chip">store.words/states</span><span class="data-chip">api.gradeWriting</span><span class="data-chip">api.historyWriting</span><span class="data-chip">store.api_submitWriting</span><span class="data-chip">pendingWritingId</span></div>
+
+  <div class="pc-h">入口 / 出口 / NAVIGATION</div>
+  <div class="pc-io">
+    <div class="io-box"><b>ENTRY · 从哪来</b><ul><li>导航「写作」</li><li>快捷键 w</li><li>mistakes 写作低分</li><li>dashboard</li></ul></div>
+    <div class="io-box"><b>EXIT · 到哪去</b><ul><li>mistakes</li><li>历史记录</li><li>下一个目标词</li></ul></div>
+  </div>
+
+  <div class="pc-note"><b>UI DESIGN NOTES · 设计提示</b><ul><li>写作是编辑器：输入区要宽、安静、可专注；批注不能把原文挤走。</li><li>批注用「问题 / 建议」两层，颜色只标问题句；不要满屏红。</li><li>目标词高亮与分数、历史趋势要形成「写作画像」，而不是一次性的分数。</li></ul></div>
+  <div class="pc-states"><b>状态：</b>未抽词 / 编辑 / 批改中 / 批注稿 / 成文 / 历史空</div>
+</article>
+<article class="page-card" id="page-diary" data-group="skills" data-search="英语日记 logbook diary 用中文写今天，ai 逐句译成英文，再逐句跟读；把「今天做了什么」变成今天说过的话。 中文写作区：草稿自动保存（debounce），字数；翻译成英文。 逐句对照：ai 译文可手改；逐句播放 / 跟读打分 / 整篇连读。 保存 / 编辑 / 删除；历史日记可再带读。 无 ai key / 网络失败时给人话提示与部署折叠说明。 store.diary store.words ipa api.diarytranslate store.creatediary / updatediary / removediary speech + localstorage 草稿 工具菜单 → 英语日记 快捷键 e 历史日记 发音 / review（通过跟读） 日记是纸：写作区优先，视觉安静；不要把工具栏堆在正文上。 中英逐句对照要能扫读，英文可编辑；跟读打分是第二层。 ai 失败不是技术错误页：先安抚、保留草稿、再给部署说明。 空 / 写作 / 翻译中 / 翻译失败 / 逐句带读 / 历史空" style="--g:#3D5A85">
+  <div class="pc-top">
+    <span class="pc-index">18 / 21</span>
+    <span class="pc-badge">技能训练</span>
+    <span class="pc-view">view: diary</span>
+  </div>
+  <h3 class="pc-title">英语日记</h3>
+  <div class="pc-latin">LOGBOOK</div>
+  <p class="pc-role">用中文写今天，AI 逐句译成英文，再逐句跟读；把「今天做了什么」变成今天说过的话。</p>
+  <div class="pc-meta"><span class="mode">Read / Write</span><span>拨盘 5 / 3 / 4</span></div>
+
+  <div class="pc-h">核心功能 / WHAT IT DOES</div>
+  <ul class="pc-list"><li>中文写作区：草稿自动保存（debounce），字数；翻译成英文。</li><li>逐句对照：AI 译文可手改；逐句播放 / 跟读打分 / 整篇连读。</li><li>保存 / 编辑 / 删除；历史日记可再带读。</li><li>无 AI key / 网络失败时给人话提示与部署折叠说明。</li></ul>
+
+  <div class="pc-h">数据与状态 / DATA</div>
+  <div class="pc-data"><span class="data-chip">store.diary</span><span class="data-chip">store.words IPA</span><span class="data-chip">api.diaryTranslate</span><span class="data-chip">store.createDiary / updateDiary / removeDiary</span><span class="data-chip">speech + localStorage 草稿</span></div>
+
+  <div class="pc-h">入口 / 出口 / NAVIGATION</div>
+  <div class="pc-io">
+    <div class="io-box"><b>ENTRY · 从哪来</b><ul><li>工具菜单 → 英语日记</li><li>快捷键 e</li></ul></div>
+    <div class="io-box"><b>EXIT · 到哪去</b><ul><li>历史日记</li><li>发音 / review（通过跟读）</li></ul></div>
+  </div>
+
+  <div class="pc-note"><b>UI DESIGN NOTES · 设计提示</b><ul><li>日记是纸：写作区优先，视觉安静；不要把工具栏堆在正文上。</li><li>中英逐句对照要能扫读，英文可编辑；跟读打分是第二层。</li><li>AI 失败不是技术错误页：先安抚、保留草稿、再给部署说明。</li></ul></div>
+  <div class="pc-states"><b>状态：</b>空 / 写作 / 翻译中 / 翻译失败 / 逐句带读 / 历史空</div>
+</article></div>
+</section>
+<section class="page-group" id="group-library" data-group="library">
+  <div class="group-head" style="--g:#9A6B3F">
+    <span class="group-dot"></span>
+    <h2>书库</h2>
+    <p>从轨道书库到夜读舱</p>
+    <span class="g-count">2 PAGES</span>
+  </div>
+  <div class="page-grid">
+<article class="page-card" id="page-bookshelf" data-group="library" data-search="轨道书库 orbital library bookshelf 一座 3d 书架收下全部馆藏与纸书指南。书是通往英语宇宙的一条轨道。 3d 书架：文学星系 / 科普星云 / 经典星环 / 参考阅览室；书脊排版、星等、鎏金进度。 拖动环视；悬停 / 单击看书目；双击打开（馆藏 → 夜读舱，指南 → 用法抽屉）。 页头：继续阅读 / 探索藏书 + 藏书 / 已读 / 章数统计。 当前阅读卡：书封、章节、进度条、继续阅读（宽屏叠在暗厅右侧）。 底部三卡：继续阅读 / 主题书架 / 阅读路线；窄屏抽屉。 store.library store.books read 标记 store.pendingbook store.refreshlibrary 工具菜单 → 轨道书库 快捷键 b dashboard 书单 rail site 轨道书库 reader 夜读舱 指南 → 对应模块 收藏 / 复习 3d 书架是 experience 主角；页头、当前阅读卡、底部三卡都是门面，不是文档。 暗厅 + 香槟金 + 纸色卡是这套页面的识别；当前阅读卡是参考稿的核心视觉。 移动端必须给书脊列表 / 抽屉 fallback，不能只靠 hover。 加载 / 空架 / 悬停卡 / 双击打开 / 当前阅读 / 窄屏抽屉" style="--g:#9A6B3F">
+  <div class="pc-top">
+    <span class="pc-index">19 / 21</span>
+    <span class="pc-badge">书库</span>
+    <span class="pc-view">view: bookshelf</span>
+  </div>
+  <h3 class="pc-title">轨道书库</h3>
+  <div class="pc-latin">ORBITAL LIBRARY</div>
+  <p class="pc-role">一座 3D 书架收下全部馆藏与纸书指南。书是通往英语宇宙的一条轨道。</p>
+  <div class="pc-meta"><span class="mode">Experience</span><span>拨盘 7 / 5 / 4</span></div>
+
+  <div class="pc-h">核心功能 / WHAT IT DOES</div>
+  <ul class="pc-list"><li>3D 书架：文学星系 / 科普星云 / 经典星环 / 参考阅览室；书脊排版、星等、鎏金进度。</li><li>拖动环视；悬停 / 单击看书目；双击打开（馆藏 → 夜读舱，指南 → 用法抽屉）。</li><li>页头：继续阅读 / 探索藏书 + 藏书 / 已读 / 章数统计。</li><li>当前阅读卡：书封、章节、进度条、继续阅读（宽屏叠在暗厅右侧）。</li><li>底部三卡：继续阅读 / 主题书架 / 阅读路线；窄屏抽屉。</li></ul>
+
+  <div class="pc-h">数据与状态 / DATA</div>
+  <div class="pc-data"><span class="data-chip">store.library</span><span class="data-chip">store.books</span><span class="data-chip">read 标记</span><span class="data-chip">store.pendingBook</span><span class="data-chip">store.refreshLibrary</span></div>
+
+  <div class="pc-h">入口 / 出口 / NAVIGATION</div>
+  <div class="pc-io">
+    <div class="io-box"><b>ENTRY · 从哪来</b><ul><li>工具菜单 → 轨道书库</li><li>快捷键 b</li><li>dashboard 书单 rail</li><li>site 轨道书库</li></ul></div>
+    <div class="io-box"><b>EXIT · 到哪去</b><ul><li>reader 夜读舱</li><li>指南 → 对应模块</li><li>收藏 / 复习</li></ul></div>
+  </div>
+
+  <div class="pc-note"><b>UI DESIGN NOTES · 设计提示</b><ul><li>3D 书架是 Experience 主角；页头、当前阅读卡、底部三卡都是门面，不是文档。</li><li>暗厅 + 香槟金 + 纸色卡是这套页面的识别；当前阅读卡是参考稿的核心视觉。</li><li>移动端必须给书脊列表 / 抽屉 fallback，不能只靠 hover。</li></ul></div>
+  <div class="pc-states"><b>状态：</b>加载 / 空架 / 悬停卡 / 双击打开 / 当前阅读 / 窄屏抽屉</div>
+</article>
+<article class="page-card" id="page-reader" data-group="library" data-search="夜读舱 reading pod reader 沉浸式分页书：封面、对开书页、翻页、点词即查、章末测题。 封面：书脊竖排书名、布纹封皮、书口页叠、星等；「翻开」动画。 双页跨 + 翻页动画 + 章节刻度 / 目录；阅读进度。 中文辅助开关；点词卡（词库词 / 任意词 ai 五维）；加入复习 / 收藏 / 去圣殿。 句子朗读 / 译文；章末测题；提交阅读结果；已读标记。 store.library / passages / pendingbook store.words / rootstories api.explain store.api_submitreading / api_learnword bookshelf 双击书 ?book=&amp;ch= 深链 读一章回来 bookshelf 回库 galaxy 看词 review read 表面：书页正文优先，chrome 退后；行宽、纸张、翻页动画是核心。 点词卡不能遮正文：优先旁注翼，窄屏底部抽屉。 移动端从对开跨切单页；封面、目录、测题都要有独立状态。 无书 / 章节加载 / 封面 / 正文 / 翻页 / 点词 / 测题 / 已读完" style="--g:#9A6B3F">
+  <div class="pc-top">
+    <span class="pc-index">20 / 21</span>
+    <span class="pc-badge">书库</span>
+    <span class="pc-view">view: reader</span>
+  </div>
+  <h3 class="pc-title">夜读舱</h3>
+  <div class="pc-latin">READING POD</div>
+  <p class="pc-role">沉浸式分页书：封面、对开书页、翻页、点词即查、章末测题。</p>
+  <div class="pc-meta"><span class="mode">Read</span><span>拨盘 5 / 2 / 4</span></div>
+
+  <div class="pc-h">核心功能 / WHAT IT DOES</div>
+  <ul class="pc-list"><li>封面：书脊竖排书名、布纹封皮、书口页叠、星等；「翻开」动画。</li><li>双页跨 + 翻页动画 + 章节刻度 / 目录；阅读进度。</li><li>中文辅助开关；点词卡（词库词 / 任意词 AI 五维）；加入复习 / 收藏 / 去圣殿。</li><li>句子朗读 / 译文；章末测题；提交阅读结果；已读标记。</li></ul>
+
+  <div class="pc-h">数据与状态 / DATA</div>
+  <div class="pc-data"><span class="data-chip">store.library / passages / pendingBook</span><span class="data-chip">store.words / rootStories</span><span class="data-chip">api.explain</span><span class="data-chip">store.api_submitReading / api_learnWord</span></div>
+
+  <div class="pc-h">入口 / 出口 / NAVIGATION</div>
+  <div class="pc-io">
+    <div class="io-box"><b>ENTRY · 从哪来</b><ul><li>bookshelf 双击书</li><li>?book=&amp;ch= 深链</li><li>读一章回来</li></ul></div>
+    <div class="io-box"><b>EXIT · 到哪去</b><ul><li>bookshelf 回库</li><li>galaxy 看词</li><li>review</li></ul></div>
+  </div>
+
+  <div class="pc-note"><b>UI DESIGN NOTES · 设计提示</b><ul><li>Read 表面：书页正文优先，chrome 退后；行宽、纸张、翻页动画是核心。</li><li>点词卡不能遮正文：优先旁注翼，窄屏底部抽屉。</li><li>移动端从对开跨切单页；封面、目录、测题都要有独立状态。</li></ul></div>
+  <div class="pc-states"><b>状态：</b>无书 / 章节加载 / 封面 / 正文 / 翻页 / 点词 / 测题 / 已读完</div>
+</article></div>
+</section>
+<section class="page-group" id="group-system" data-group="system">
+  <div class="group-head" style="--g:#66738A">
+    <span class="group-dot"></span>
+    <h2>系统</h2>
+    <p>偏好与数据管理</p>
+    <span class="g-count">1 PAGES</span>
+  </div>
+  <div class="page-grid">
+<article class="page-card" id="page-settings" data-group="system" data-search="设置 settings settings 主题、语速、记忆保持率与数据管理。所有设置即时生效并持久化。 四主题：宣纸 / 深空 / 紫罗兰 / 暖夜；点击即时生效。 默认朗读语速；目标记忆保持率 85 / 90 / 95；复习提醒开关。 数据导出 json / 导入恢复；清空全部进度 / 按模块清空。 资源 csv：单词 / 语法 / 短文语料 / 音标；关于与版本。 store.settings / profile localstorage（主题 / 提醒 / 草稿） api.exportdata / importdata store.resetuserdata 工具菜单 → 设置 全局生效；返回上一页 operate：分组卡片 + 明确标签；危险操作单独成区并二次确认。 设置项要写「改了会发生什么」，不写抽象偏好名。 导出 / 导入 / 清空是不可逆路径，先给备份提示。 保存中 / 导入确认 / 清空确认 / 导出成功 / 错误" style="--g:#66738A">
+  <div class="pc-top">
+    <span class="pc-index">21 / 21</span>
+    <span class="pc-badge">系统</span>
+    <span class="pc-view">view: settings</span>
+  </div>
+  <h3 class="pc-title">设置</h3>
+  <div class="pc-latin">SETTINGS</div>
+  <p class="pc-role">主题、语速、记忆保持率与数据管理。所有设置即时生效并持久化。</p>
+  <div class="pc-meta"><span class="mode">Operate</span><span>拨盘 3 / 2 / 5</span></div>
+
+  <div class="pc-h">核心功能 / WHAT IT DOES</div>
+  <ul class="pc-list"><li>四主题：宣纸 / 深空 / 紫罗兰 / 暖夜；点击即时生效。</li><li>默认朗读语速；目标记忆保持率 85 / 90 / 95；复习提醒开关。</li><li>数据导出 JSON / 导入恢复；清空全部进度 / 按模块清空。</li><li>资源 CSV：单词 / 语法 / 短文语料 / 音标；关于与版本。</li></ul>
+
+  <div class="pc-h">数据与状态 / DATA</div>
+  <div class="pc-data"><span class="data-chip">store.settings / profile</span><span class="data-chip">localStorage（主题 / 提醒 / 草稿）</span><span class="data-chip">api.exportData / importData</span><span class="data-chip">store.resetUserData</span></div>
+
+  <div class="pc-h">入口 / 出口 / NAVIGATION</div>
+  <div class="pc-io">
+    <div class="io-box"><b>ENTRY · 从哪来</b><ul><li>工具菜单 → 设置</li></ul></div>
+    <div class="io-box"><b>EXIT · 到哪去</b><ul><li>全局生效；返回上一页</li></ul></div>
+  </div>
+
+  <div class="pc-note"><b>UI DESIGN NOTES · 设计提示</b><ul><li>Operate：分组卡片 + 明确标签；危险操作单独成区并二次确认。</li><li>设置项要写「改了会发生什么」，不写抽象偏好名。</li><li>导出 / 导入 / 清空是不可逆路径，先给备份提示。</li></ul></div>
+  <div class="pc-states"><b>状态：</b>保存中 / 导入确认 / 清空确认 / 导出成功 / 错误</div>
+</article></div>
+</section>
+</section>
+
+
+<section class="section" id="shared">
+  <div class="sec-kicker">04 · SHARED COMPONENTS</div>
+  <div class="sec-head">
+    <h2>共享组件</h2>
+    <p>设计单页之前先看这里：很多「页面」其实是同一个组件的不同上下文。</p>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>组件</th><th>出现位置</th><th>作用</th><th>设计注意</th></tr></thead>
+    <tbody><tr><td><b>NavBar</b></td><td>全站</td><td>8 个主导航 + 工具菜单 + 搜索 / 挑战 / 用户；移动端抽屉</td><td>1440 完整标签；1280 紧凑；1024 图标；&lt;900 抽屉；&lt;600 只留中文品牌</td></tr><tr><td><b>TerritoryTransit</b></td><td>全站切页</td><td>全屏星流 + 领地名，320ms 后换页</td><td>过场是电影语言，不是加载动画；减少动态时直接切</td></tr><tr><td><b>ReviewOverlay</b></td><td>全站</td><td>FSRS 复习 / 今日挑战全屏层</td><td>与所有模块的结果写回相连；退出要保留进度</td></tr><tr><td><b>CommandPalette</b></td><td>全站</td><td>Cmd/Ctrl+K 搜索与跳转</td><td>键盘优先；结果分组：页面 / 词 / 词根</td></tr><tr><td><b>Onboarding</b></td><td>观星台</td><td>3D 房间 + 目标选择 + 首课</td><td>自愿浮层，不是进站门槛；5 分钟内可完成</td></tr><tr><td><b>WordPanel</b></td><td>圣殿 / 网络 / 阅读 / 夜读舱</td><td>词档案：音标 / 词源 / 例句 / 同族 / 状态 / 收藏 / 复习</td><td>侧栏或旁注翼，不遮正文；ESC 关闭</td></tr><tr><td><b>BookPage</b></td><td>夜读舱</td><td>书页正文 / 题头 / 生词表 / 章末测</td><td>书页排版是主角；点词是旁注</td></tr><tr><td><b>ShelfScene</b></td><td>轨道书库</td><td>3D 书架、书脊排版、悬停卡、双击打开</td><td>WebGL 降级 + 窄屏列表；一次只挂一个场景</td></tr><tr><td><b>ForceGraph</b></td><td>词汇网络</td><td>力导向共现图</td><td>图是主角；筛选器贴边；移动端 fallback</td></tr><tr><td><b>SettleCard</b></td><td>听力 / 口语 / 阅读</td><td>结算：正确率 / 历史对比 / 下一步</td><td>回答「比上次好在哪」，不只给分数</td></tr><tr><td><b>HowToTrain</b></td><td>技能页</td><td>方法论折叠条：步骤 / 本站练法 / 科学依据</td><td>收起一行，展开再读；不抢主任务</td></tr><tr><td><b>EmptyState</b></td><td>全站</td><td>空 / 错 / 未选择 / 无结果</td><td>给下一步动作，不只说「没有」</td></tr><tr><td><b>AppGlyph</b></td><td>全站</td><td>天文仪器图标语言</td><td>单 path / stroke 1.5；不用 emoji</td></tr><tr><td><b>SkySketch / StarTrail</b></td><td>观星台</td><td>词星速写 / 7 站星轨</td><td>数据驱动；点星回圣殿</td></tr><tr><td><b>HeroOrrery / AmbientField / TerritoryMark</b></td><td>观星台 / 全站 / 页头</td><td>Three.js 天体仪 / 环境星野 / 领地星图</td><td>30fps 封顶、隐藏暂停、减少动态静态帧</td></tr><tr><td><b>DailyHeatmap / DailyQuests</b></td><td>观星台</td><td>全年足迹 / 每日任务</td><td>数据真实；新号隐藏全零</td></tr><tr><td><b>LookupMenu / CollectPopover</b></td><td>阅读 / 夜读舱 / 词卡</td><td>查词菜单 / 收藏弹层</td><td>不遮正文；键盘可达</td></tr><tr><td><b>CountNum / BlurText</b></td><td>全站</td><td>数字滚动 / 逐字凝出</td><td>一页一次入场级联；减少动态时直接显示</td></tr></tbody>
+  </table></div>
+</section>
+
+
+<section class="section" id="data">
+  <div class="sec-kicker">05 · DATA MODEL</div>
+  <div class="sec-head">
+    <h2>数据模型：页面之间到底在传什么</h2>
+    <p>UI 不是画完就结束：每个按钮都要知道它写哪份数据、哪一页会读到。</p>
+  </div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>数据</th><th>内容</th><th>谁写</th><th>谁读</th></tr></thead>
+    <tbody><tr><td><b>words</b></td><td>1662 个词：拼写 / 音标 / 词性 / 释义 / 词根 / 家族 / 例句 / 搭配</td><td>seed / 词库构建</td><td>圣殿、学习舱、网络、词根、阅读、写作、词卡</td></tr><tr><td><b>states</b></td><td>每个词的 FSRS 状态：strength / due / retrievability / is_new</td><td>复习、学习舱、各模块结果</td><td>观星台、圣殿、词卡、暗物质区</td></tr><tr><td><b>stats</b></td><td>学习画像：learned / mastered / due_today / streak / accuracy_by_module / daily_activity / vocab_growth / strength_dist / weakest_roots</td><td>后端按结果聚合</td><td>观星台、智能提示、周报</td></tr><tr><td><b>plan</b></td><td>今日航线：新词 / 复习 / 补弱节点，来自档案 + 到期 + 弱项</td><td>后端 plan API</td><td>观星台 TodayRoute、学习舱</td></tr><tr><td><b>library</b></td><td>20 本书 + 章节 + passage 反查 + read 标记</td><td>后端 library API</td><td>轨道书库、夜读舱</td></tr><tr><td><b>passages</b></td><td>129 篇听力 / 口语 / 阅读语料 + 题目</td><td>seed / 后端</td><td>回声谷、口语、阅读、夜读舱</td></tr><tr><td><b>grammar</b></td><td>21 个语法点 + 189 题 + 掌握度</td><td>seed / 结果聚合</td><td>语法机械城、暗物质区</td></tr><tr><td><b>tips</b></td><td>48 条技巧 + 出处书 + 对应模块</td><td>seed</td><td>技巧库、观星台今日一策、发音舱</td></tr><tr><td><b>rootStories</b></td><td>40 个词根故事：story / branches / confuse</td><td>seed</td><td>词根群星、词卡、学习舱</td></tr><tr><td><b>collections</b></td><td>用户收藏夹 + 词 ids + 颜色</td><td>用户操作</td><td>收藏夹、词卡收藏</td></tr><tr><td><b>diary</b></td><td>日记：中文 / 英文 / 时间</td><td>用户操作 + AI 翻译</td><td>英语日记</td></tr><tr><td><b>profile</b></td><td>目标 / 水平 / 偏好：theme、speechRate、desiredRetention、tipCategory</td><td>设置 / 首课</td><td>plan、推荐、听力语速、技巧分类</td></tr><tr><td><b>results</b></td><td>review / grammar / listening / speaking / reading / writing 答题记录</td><td>各模块提交</td><td>stats、mistakes、周报</td></tr></tbody>
+  </table></div>
+</section>
+
+
+<section class="section" id="design">
+  <div class="sec-kicker">06 · DESIGN SYSTEM</div>
+  <div class="sec-head">
+    <h2>设计系统与页面拨盘</h2>
+    <p>继承现有词峰 v5 语言：宣纸 / 深空 / 紫罗兰 / 暖夜四主题，海军蓝 × 香槟金 × 衬线标题。</p>
+  </div>
+
+  <div class="pc-h" style="margin-top:0;border-top:0;padding-top:0">色彩令牌 · LIGHT</div>
+  <div class="token-grid"><div class="swatch"><div class="c" style="background:#F7F5F0"></div><div class="t"><b>--bg</b>#F7F5F0<br/>宣纸底</div></div><div class="swatch"><div class="c" style="background:#FFFFFF"></div><div class="t"><b>--surface</b>#FFFFFF<br/>卡面</div></div><div class="swatch"><div class="c" style="background:#203653"></div><div class="t"><b>--text</b>#203653<br/>海军蓝</div></div><div class="swatch"><div class="c" style="background:#56657C"></div><div class="t"><b>--text-2</b>#56657C<br/>次级文字</div></div><div class="swatch"><div class="c" style="background:#3D5A85"></div><div class="t"><b>--accent</b>#3D5A85<br/>品牌蓝</div></div><div class="swatch"><div class="c" style="background:#8F6B2A"></div><div class="t"><b>--gold</b>#8F6B2A<br/>香槟金</div></div><div class="swatch"><div class="c" style="background:#15803D"></div><div class="t"><b>--success</b>#15803D<br/>掌握 / 成功</div></div><div class="swatch"><div class="c" style="background:#B45309"></div><div class="t"><b>--warn</b>#B45309<br/>待复习</div></div><div class="swatch"><div class="c" style="background:#DC2626"></div><div class="t"><b>--danger</b>#DC2626<br/>告急</div></div><div class="swatch"><div class="c" style="background:#2563EB"></div><div class="t"><b>--info</b>#2563EB<br/>信息 / 链接</div></div></div>
+
+  <div class="type-spec">
+    <div class="type-box"><div class="label">SERIF · 标题 / 命名</div><div class="type-serif">轨道书库</div><div class="type-body" style="margin-top:6px">Songti SC / STZhongsong / Georgia。只用于领地名、书名、词根名与宣言；正文不用衬线。</div></div>
+    <div class="type-box"><div class="label">SANS · 正文 / 控件</div><div class="type-body">Inter + PingFang SC。正文 13–14px，行高 1.7–1.85；学习内容用纯色，不用渐变或流光。</div></div>
+    <div class="type-box"><div class="label">MONO · 读数 / KICKER</div><div class="type-mono">TERRITORY · ORBITAL LIBRARY<br/>CHAPTERS READ 1 / 93<br/>LIT 4 / 1662</div><div class="type-body" style="margin-top:6px">字距 0.18–0.42em；只做标签、数字、仪器读数。</div></div>
+  </div>
+
+  <div class="pc-h">页面拨盘 · SURFACE / VARIANCE / MOTION / DENSITY</div>
+  <div class="table-wrap"><table>
+    <thead><tr><th>页面</th><th>view</th><th>表面模式</th><th>拨盘</th></tr></thead>
+    <tbody><tr><td><b>官网首页</b></td><td><code>site</code></td><td>Persuade</td><td>7 / 5 / 4</td></tr><tr><td><b>观星台</b></td><td><code>dashboard</code></td><td>Operate</td><td>4 / 4 / 6</td></tr><tr><td><b>词汇圣殿</b></td><td><code>galaxy</code></td><td>Experience</td><td>8 / 7 / 3</td></tr><tr><td><b>词汇网络</b></td><td><code>network</code></td><td>Experience / Explore</td><td>7 / 5 / 4</td></tr><tr><td><b>词根群星</b></td><td><code>family</code></td><td>Read / Operate</td><td>5 / 3 / 4</td></tr><tr><td><b>收藏夹</b></td><td><code>collections</code></td><td>Operate</td><td>4 / 3 / 5</td></tr><tr><td><b>全量词库</b></td><td><code>lexicon</code></td><td>Operate / Search</td><td>4 / 2 / 5</td></tr><tr><td><b>学习舱</b></td><td><code>learn</code></td><td>Operate / Teach</td><td>4 / 4 / 5</td></tr><tr><td><b>记忆工坊</b></td><td><code>lab</code></td><td>Read / Explore</td><td>5 / 4 / 4</td></tr><tr><td><b>技巧库</b></td><td><code>tips</code></td><td>Read</td><td>5 / 2 / 4</td></tr><tr><td><b>暗物质区</b></td><td><code>mistakes</code></td><td>Operate</td><td>4 / 3 / 5</td></tr><tr><td><b>发音舱</b></td><td><code>phonetics</code></td><td>Operate / Explore</td><td>5 / 4 / 5</td></tr><tr><td><b>语法机械城</b></td><td><code>grammar</code></td><td>Operate</td><td>4 / 3 / 5</td></tr><tr><td><b>回声谷</b></td><td><code>listening</code></td><td>Operate</td><td>4 / 4 / 5</td></tr><tr><td><b>口语竞技场</b></td><td><code>speaking</code></td><td>Operate</td><td>4 / 4 / 5</td></tr><tr><td><b>阅读号列车</b></td><td><code>reading</code></td><td>Read</td><td>5 / 2 / 4</td></tr><tr><td><b>写作工坊</b></td><td><code>writing</code></td><td>Operate</td><td>4 / 3 / 5</td></tr><tr><td><b>英语日记</b></td><td><code>diary</code></td><td>Read / Write</td><td>5 / 3 / 4</td></tr><tr><td><b>轨道书库</b></td><td><code>bookshelf</code></td><td>Experience</td><td>7 / 5 / 4</td></tr><tr><td><b>夜读舱</b></td><td><code>reader</code></td><td>Read</td><td>5 / 2 / 4</td></tr><tr><td><b>设置</b></td><td><code>settings</code></td><td>Operate</td><td>3 / 2 / 5</td></tr></tbody>
+  </table></div>
+  <p class="sec-lead" style="margin-top:12px;font-size:12px">拨盘是设计约束，不是评分：Experience 可以挣表达，Operate 里装饰必须消失，Read 里排版与理解优先。</p>
+
+  <div class="pc-h">导航断点 · BREAKPOINTS</div>
+  <div class="note-grid">
+    <div class="note-card"><div class="n">≥1440px</div><b>完整标签</b><p>8 个图标 + 短标签；活跃胶囊 + 香槟金底线；右侧挑战 / 用户。</p></div>
+    <div class="note-card"><div class="n">1180–1439</div><b>紧凑标签</b><p>短标签保留，收窄间距；隐藏问候与快捷键提示。</p></div>
+    <div class="note-card"><div class="n">900–1179</div><b>仅图标</b><p>主导航只留图标，文字进 title；工具菜单仍显示。</p></div>
+    <div class="note-card"><div class="n">&lt;900</div><b>抽屉</b><p>汉堡 + 左侧抽屉；搜索 / 挑战 / 用户进抽屉；品牌只留中文。</p></div>
+  </div>
+</section>
+
+
+<section class="section" id="checklist">
+  <div class="sec-kicker">07 · UI CHECKLIST</div>
+  <div class="sec-head">
+    <h2>交付前检查清单</h2>
+    <p>每一页都按这张表过一遍；缺一项就是半成品。</p>
+  </div>
+  <div class="check-grid"><div class="check"><i></i><p><b>全页面状态</b> — loading 骨架 / empty / error / success / disabled 五种状态都画。</p></div><div class="check"><i></i><p><b>数据真实</b> — 所有数字必须来自 API 或明确示例；不造 92% / 4.8× 这类精确假数。</p></div><div class="check"><i></i><p><b>新号零态</b> — 观星台 / 统计 / 写作历史 / 收藏夹等零数据页面，先给行动，不先给空图表。</p></div><div class="check"><i></i><p><b>3D 降级</b> — 圣殿 / 书库 / 官网 / 环境层都要有 WebGL fallback；隐藏时停帧。</p></div><div class="check"><i></i><p><b>音频状态</b> — 权限拒绝 / 识别不支持 / 录音中 / 评分中 / 重听，逐句都要有。</p></div><div class="check"><i></i><p><b>正文可读</b> — Read 表面 65–75 字符/行（中文 30–45 字/行）；对比度 AA。</p></div><div class="check"><i></i><p><b>触屏 44px</b> — 所有主要按钮、tab、书脊、词卡在触屏上至少 44×44px。</p></div><div class="check"><i></i><p><b>键盘可达</b> — Cmd/Ctrl+K、Esc、? 帮助；焦点可见；词卡 / 抽屉可键盘关闭。</p></div><div class="check"><i></i><p><b>减少动态</b> — 过场跳过、循环停播；只保留静态星图 / 静态帧。</p></div><div class="check"><i></i><p><b>状态不只靠色</b> — 五态词星同时用文字 / 图例 / 形态；不要只靠红绿。</p></div><div class="check"><i></i><p><b>危险操作</b> — 删除收藏夹、清空进度、导入覆盖：二次确认 + 备份提示。</p></div><div class="check"><i></i><p><b>移动端结构</b> — 不是缩字号：收导航、换单列、书库 / 网络给列表 fallback。</p></div></div>
+  <div class="pc-h">反模式 · 看到就改</div>
+  <div class="dont-grid"><div class="dont">emoji 当 UI 图标</div><div class="dont">ghost 水印大字</div><div class="dont">流光渐变文字 / 紫色 AI 渐变</div><div class="dont">玻璃拟态喷在 Operate 表面</div><div class="dont">每节一个 kicker / 居中一切</div><div class="dont">等宽三卡 + 图标标题段落套餐</div><div class="dont">圆角混用 / 阴影 + 边框双 elevation</div><div class="dont">造精确数字 / 假引用 / em-dash 文案</div><div class="dont">晴空主题渲染夜间星尘全开</div><div class="dont">同一意图多个 CTA 措辞</div></div>
+</section>
+
+
+<footer class="footer">
+  <span>词峰 WORDPEAK · 页面功能与关系图 · UI 设计底稿</span>
+  <span><b>21</b> PAGES · <b>6</b> DOMAINS · <b>8</b> PRIMARY TABS · 2026-10-20</span>
+</footer>
+
+</main>
+</div>
+<script>
+(() => {
+  const cards = [...document.querySelectorAll('.page-card')]
+  const groups = [...document.querySelectorAll('.page-group')]
+  const input = document.getElementById('pageSearch')
+  const count = document.getElementById('filterCount')
+  const empty = document.getElementById('emptyFilter')
+  const btns = [...document.querySelectorAll('.fbtn[data-group]')]
+  let active = 'all'
+  function apply() {
+    const q = (input.value || '').trim().toLowerCase()
+    let n = 0
+    cards.forEach(c => {
+      const okG = active === 'all' || c.dataset.group === active
+      const okQ = !q || c.dataset.search.includes(q)
+      const show = okG && okQ
+      c.hidden = !show
+      if (show) n++
+    })
+    groups.forEach(g => {
+      const any = g.querySelector('.page-card:not([hidden])')
+      g.hidden = !any
+    })
+    count.textContent = `显示 ${n} / ${cards.length}`
+    empty.style.display = n ? 'none' : 'block'
+  }
+  btns.forEach(b => b.addEventListener('click', () => {
+    btns.forEach(x => { x.classList.toggle('active', x === b); x.setAttribute('aria-pressed', x === b ? 'true' : 'false') })
+    active = b.dataset.group
+    apply()
+  }))
+  input.addEventListener('input', apply)
+  apply()
+
+  // scrollspy
+  const links = [...document.querySelectorAll('.side-nav a[href^="#"]')]
+  const targets = links.map(a => document.querySelector(a.getAttribute('href'))).filter(Boolean)
+  if ('IntersectionObserver' in window && targets.length) {
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(en => {
+        if (!en.isIntersecting) return
+        links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + en.target.id))
+      })
+    }, { rootMargin: '-20% 0px -70% 0px', threshold: 0 })
+    targets.forEach(t => io.observe(t))
+  }
+})()
+</script>
+</body>
+</html>
