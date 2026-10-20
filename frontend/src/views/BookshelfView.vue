@@ -58,6 +58,30 @@ const starState = (b) => {
   const d = doneCount(b)
   return d === 0 ? 'dust' : d >= b.chapters.length ? 'done' : 'reading'
 }
+
+// ---- 书库首屏:当前阅读 / 快捷入口 / 底部三卡(对齐参考稿的轨道书库门面) ----
+const hallEl = ref(null)
+const routeSteps = ['选书', '阅读', '摘录', '复习']
+const currentBook = computed(() => {
+  const list = store.library || []
+  if (!list.length) return null
+  return list.find((b) => b.chapters.some((c) => !c.read)) || list[0]
+})
+const currentChapter = computed(() => {
+  const b = currentBook.value
+  if (!b) return null
+  return b.chapters.find((c) => !c.read) || b.chapters[0] || null
+})
+const currentDone = computed(() => (currentBook.value ? doneCount(currentBook.value) : 0))
+const currentTotal = computed(() => currentBook.value?.chapters.length || 0)
+const currentPct = computed(() => (currentTotal.value ? Math.round((currentDone.value / currentTotal.value) * 100) : 0))
+const readBookCount = computed(() => (store.library || []).filter((b) => b.chapters.length && b.chapters.every((c) => c.read)).length)
+function exploreShelf() {
+  hallEl.value?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+}
+function continueReading() {
+  if (currentBook.value) openLibraryBook(currentBook.value)
+}
 // 双击馆藏书脊直接翻开进夜读舱,深链到第一个未读章;整本读完则回第一章(重读)
 function openLibraryBook(b) {
   drawerBook.value = null // 双击翻开时若抽屉还挂着,先收掉
@@ -132,6 +156,21 @@ function plain(s) { return String(s || '').replace(PIC_RE, '').replace(/ {2,}/g,
           馆藏可读书与纸书指南全立在这一座 <b class="text-accent">3D 书架</b>上——拖动环视，悬停或单击看书目，
           <b class="text-accent">双击打开</b>（馆藏进夜读舱，指南摊开用法）；读一章鎏金一分。
         </p>
+        <div class="lib-actions">
+          <button class="btn primary lib-btn" :disabled="!currentBook" @click="continueReading">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5C7 4.6 10 4.9 12 6.4c2-1.5 5-1.8 8-.9v12.6c-3-.9-6-.6-8 .9-2-1.5-5-1.8-8-.9ZM12 6.4v12.5" /></svg>
+            继续阅读
+          </button>
+          <button class="btn lib-btn" @click="exploreShelf">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5a8.5 8.5 0 1 0 0 17 8.5 8.5 0 0 0 0-17ZM15.5 8.5l-2 5-5 2 2-5Z" /></svg>
+            探索藏书
+          </button>
+          <div class="lib-summary mono">
+            <span><b>{{ store.library.length }}</b> 本藏书</span><i />
+            <span><b>{{ readBookCount }}</b> 本已读</span><i />
+            <span><b>{{ chapterSum }}</b> 章正文</span>
+          </div>
+        </div>
       </div>
 
       <!-- 加载骨架 -->
@@ -145,7 +184,7 @@ function plain(s) { return String(s || '').replace(PIC_RE, '').replace(/ {2,}/g,
       />
 
       <!-- 一个场景:一座 3D 书架装下全部的书(总览栏 + 书架 + 鎏金注脚,整页就这一张卡) -->
-      <section v-else class="main-hall">
+      <section v-else ref="hallEl" class="main-hall">
         <header class="hall-rail">
           <div class="hall-brand">
             <span class="hall-zh">馆藏总览</span>
@@ -175,8 +214,62 @@ function plain(s) { return String(s || '').replace(PIC_RE, '').replace(/ {2,}/g,
             @tap="(b) => (drawerBook = b)"
           />
         </div>
+
+        <!-- 当前阅读:从书架数据里挑第一本还有未读章的书,叠在暗厅右侧(参考稿的「当前阅读」卡) -->
+        <aside v-if="currentBook" class="current-reading">
+          <div class="cr-kicker mono">CURRENT READ · 当前阅读</div>
+          <div class="cr-book">
+            <div class="cr-cover" aria-hidden="true">
+              <span class="cr-cover-kicker">WORDPEAK LIBRARY</span>
+              <strong>{{ currentBook.en_title || currentBook.title }}</strong>
+              <span>{{ currentBook.title }}</span>
+              <i>✦</i>
+            </div>
+            <div class="cr-info">
+              <div class="cr-title">{{ currentBook.title }}</div>
+              <div class="cr-chapter">{{ currentChapter?.title || '从第一章开始' }}</div>
+              <div class="cr-meta mono">MAGNITUDE {{ ROMAN[currentBook.level] || 'I' }} · {{ currentDone }}/{{ currentTotal }} 章</div>
+            </div>
+          </div>
+          <div class="cr-bar"><i :style="{ width: currentPct + '%' }" /></div>
+          <div class="cr-foot"><span>阅读进度</span><b>{{ currentPct }}%</b></div>
+          <button class="btn primary cr-btn" @click="continueReading">继续阅读 <span>→</span></button>
+        </aside>
         <footer class="hall-foot mono">读一章，书脊鎏金一分　·　整本读完，通体鎏金立在架上</footer>
       </section>
+
+      <!-- 底部三卡:继续阅读 / 主题书架 / 阅读路线(参考稿的三段式收尾) -->
+      <div class="lib-trio">
+        <button class="lib-card" :disabled="!currentBook" @click="continueReading">
+          <span class="lc-cover" aria-hidden="true"><i>✦</i></span>
+          <span class="lc-body">
+            <b>继续阅读</b>
+            <small>{{ currentBook?.title || '从书架挑一本开始' }}</small>
+          </span>
+          <span class="lc-arrow">→</span>
+        </button>
+        <button class="lib-card" @click="exploreShelf">
+          <span class="lc-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5h6v14M14 19V5h6v14M2 19h20M7 8h1M7 11h1M7 14h1M16 8h1M16 11h1M16 14h1" /></svg>
+          </span>
+          <span class="lc-body">
+            <b>主题书架</b>
+            <small>文学星系 · 科普星云 · 经典星环 · 参考阅览室</small>
+          </span>
+          <span class="lc-arrow">→</span>
+        </button>
+        <div class="lib-card static">
+          <span class="lc-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18V6M4 18h16M7 14l3-3 3 2 4-5" /><circle cx="7" cy="14" r="1.2" /><circle cx="10" cy="11" r="1.2" /><circle cx="13" cy="13" r="1.2" /><circle cx="17" cy="8" r="1.2" /></svg>
+          </span>
+          <span class="lc-body">
+            <b>阅读路线</b>
+            <span class="lc-steps">
+              <i v-for="(st, idx) in routeSteps" :key="st"><em>{{ idx + 1 }}</em>{{ st }}</i>
+            </span>
+          </span>
+        </div>
+      </div>
 
       <!-- 书签抽屉:窄屏点书弹出;馆藏=章节/进度,指南=怎么用 -->
       <Teleport to="body">
@@ -243,6 +336,161 @@ function plain(s) { return String(s || '').replace(PIC_RE, '').replace(/ {2,}/g,
 <style scoped>
 /* ---------- 一个场景:主馆一体卡(总览栏 + 3D 书架 + 鎏金注脚) ---------- */
 .sk-block { border-radius: 18px; }
+
+/* ---------- 门面:参考稿的「继续阅读 / 探索藏书 + 馆藏读数」 ---------- */
+.lib-actions {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  margin-top: 20px;
+}
+.lib-btn { border-radius: 999px; padding: 10px 18px; }
+.lib-btn svg {
+  width: 16px; height: 16px; flex-shrink: 0;
+  fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round;
+}
+.lib-summary {
+  margin-left: auto; display: flex; align-items: center; gap: 10px;
+  font-size: var(--fs-2xs); letter-spacing: 0.1em; color: var(--text-3);
+}
+.lib-summary b { font-size: var(--fs-sm); color: var(--text); font-weight: 700; font-variant-numeric: tabular-nums; }
+.lib-summary i { width: 3px; height: 3px; border-radius: 50%; background: var(--line-strong); }
+@media (max-width: 720px) {
+  .lib-actions { gap: 9px; }
+  .lib-btn { flex: 1; justify-content: center; }
+  .lib-summary { margin-left: 0; width: 100%; padding-top: 4px; }
+}
+
+/* ---------- 主馆:暗厅 + 当前阅读卡(参考稿右侧卡) ---------- */
+.main-hall {
+  position: relative;
+  border-color: color-mix(in srgb, var(--gold) 24%, var(--line-strong));
+  box-shadow:
+    0 26px 64px -32px rgba(32, 54, 83, 0.48),
+    0 0 0 1px color-mix(in srgb, var(--gold) 10%, transparent) inset;
+}
+.current-reading {
+  position: absolute; right: 20px; top: 72px; z-index: 4;
+  width: 272px; padding: 17px 18px 16px;
+  border-radius: 18px;
+  border: 1px solid color-mix(in srgb, #D6B681 58%, transparent);
+  background: linear-gradient(165deg, rgba(255, 253, 247, 0.97), rgba(245, 238, 225, 0.92));
+  color: #203653;
+  box-shadow: 0 20px 46px rgba(2, 6, 14, 0.38);
+  backdrop-filter: blur(16px) saturate(1.15);
+  -webkit-backdrop-filter: blur(16px) saturate(1.15);
+}
+.cr-kicker {
+  font-size: 9px; letter-spacing: 0.2em; color: #8F6B2A;
+  margin-bottom: 10px;
+}
+.cr-book { display: flex; gap: 12px; align-items: stretch; }
+.cr-cover {
+  width: 72px; height: 96px; flex-shrink: 0;
+  display: flex; flex-direction: column;
+  padding: 8px 7px;
+  border-radius: 5px;
+  background: linear-gradient(150deg, #3D5A85 0%, #2C4568 58%, #173654 100%);
+  border: 1px solid rgba(214, 182, 129, 0.38);
+  box-shadow: 0 7px 18px rgba(2, 6, 14, 0.28);
+  color: #F7F1E4; overflow: hidden;
+}
+.cr-cover-kicker {
+  font-size: 5.5px; letter-spacing: 0.14em; color: #D6B681; line-height: 1.3;
+}
+.cr-cover strong {
+  font-family: var(--serif); font-size: 9.5px; line-height: 1.28; font-weight: 600;
+  margin-top: 7px;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.cr-cover > span:not(.cr-cover-kicker) {
+  font-size: 7px; line-height: 1.3; color: rgba(247, 241, 228, 0.62);
+  margin-top: 4px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;
+}
+.cr-cover i { margin-top: auto; align-self: flex-end; color: #D6B681; font-style: normal; font-size: 11px; }
+.cr-info { min-width: 0; flex: 1; display: flex; flex-direction: column; }
+.cr-title {
+  font-family: var(--serif); font-size: 16px; font-weight: 600; line-height: 1.3;
+  color: #203653;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.cr-chapter {
+  font-size: 11px; color: #56657C; line-height: 1.5; margin-top: 5px;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.cr-meta { margin-top: auto; font-size: 8.5px; letter-spacing: 0.06em; color: #7E8A9B; line-height: 1.5; }
+.cr-bar {
+  height: 5px; border-radius: 999px; overflow: hidden;
+  background: rgba(32, 54, 83, 0.12); margin-top: 14px;
+}
+.cr-bar i { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, #C9A45C, #8F6B2A); }
+.cr-foot { display: flex; justify-content: space-between; align-items: baseline; margin-top: 6px; font-size: 10px; color: #66738A; }
+.cr-foot b { font-family: var(--mono); color: #203653; font-size: 12px; }
+.cr-btn {
+  width: 100%; justify-content: center; margin-top: 12px;
+  border-radius: 999px; font-size: 12px; padding: 9px 12px;
+  background: linear-gradient(135deg, #2C4568, #3D5A85);
+  border-color: transparent; color: #FFFFFF;
+  box-shadow: 0 4px 14px rgba(32, 54, 83, 0.25);
+}
+.cr-btn:hover { filter: brightness(1.08); box-shadow: 0 7px 20px rgba(32, 54, 83, 0.32); }
+@media (max-width: 1279.98px) { .current-reading { display: none; } }
+
+/* ---------- 底部三卡 ---------- */
+.lib-trio {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px;
+  margin-top: 16px;
+}
+.lib-card {
+  display: flex; align-items: center; gap: 12px;
+  min-height: 86px; padding: 15px 18px;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 16px;
+  text-align: left; font-family: inherit; cursor: pointer;
+  transition: transform 0.22s var(--ease), border-color 0.22s var(--ease), box-shadow 0.22s var(--ease);
+}
+.lib-card:hover { border-color: var(--line-accent); transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.lib-card.static { cursor: default; }
+.lib-card.static:hover { border-color: var(--line); transform: none; box-shadow: none; }
+.lib-card:disabled { opacity: 0.55; cursor: not-allowed; transform: none; }
+.lc-cover {
+  width: 34px; height: 46px; flex-shrink: 0;
+  border-radius: 4px;
+  background: linear-gradient(150deg, #3D5A85 0%, #2C4568 58%, #173654 100%);
+  border: 1px solid rgba(214, 182, 129, 0.42);
+  box-shadow: 0 4px 10px rgba(2, 6, 14, 0.18);
+  display: flex; align-items: flex-end; justify-content: flex-end;
+  padding: 4px; color: #D6B681; font-size: 9px;
+}
+.lc-cover i { font-style: normal; line-height: 1; }
+.lc-icon {
+  width: 40px; height: 40px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--accent) 9%, transparent);
+  color: var(--accent);
+}
+.lc-icon svg {
+  width: 20px; height: 20px;
+  fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round;
+}
+.lc-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.lc-body b { font-size: var(--fs-base); font-weight: 600; color: var(--text); }
+.lc-body small {
+  font-size: var(--fs-2xs); color: var(--text-3); line-height: 1.5;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.lc-arrow { color: var(--text-3); font-size: var(--fs-md); transition: transform 0.22s var(--ease), color 0.22s var(--ease); }
+.lib-card:hover .lc-arrow { transform: translateX(3px); color: var(--accent); }
+.lc-steps { display: flex; align-items: center; flex-wrap: wrap; gap: 3px; }
+.lc-steps i { display: inline-flex; align-items: center; gap: 4px; font-style: normal; font-size: 10px; color: var(--text-3); }
+.lc-steps i + i::before { content: '→'; color: var(--line-strong); margin-right: 2px; }
+.lc-steps em {
+  width: 16px; height: 16px; border-radius: 50%;
+  border: 1px solid var(--line-accent); color: var(--accent);
+  display: inline-flex; align-items: center; justify-content: center;
+  font-style: normal; font-size: 8.5px;
+}
+@media (max-width: 960px) {
+  .lib-trio { grid-template-columns: 1fr; }
+}
 
 /* BlurText 接管「轨道书库」入场:全局 terrRise 在本视图置空,避免双重动画 */
 .terr-title { animation: none; }

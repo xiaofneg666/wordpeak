@@ -364,8 +364,8 @@ function dismissInstall() {
     <!-- 启动门控:恢复会话 / 首次自动建号期间显示引导页(此前是拿向导当加载屏) -->
     <div v-else-if="!store.loaded" class="boot-gate">
       <div class="boot-gate-inner">
-        <img class="boot-gate-mark light" src="/logo-mark.png" alt="" />
-        <img class="boot-gate-mark dark" src="/logo-mark-dark.png" alt="" aria-hidden="true" />
+        <img class="boot-gate-mark light" src="/logo-mark.svg" alt="" />
+        <img class="boot-gate-mark dark" src="/logo-mark-dark.svg" alt="" aria-hidden="true" />
         <div class="boot-gate-logo">词峰</div>
         <div class="boot-gate-latin">WORDPEAK</div>
         <div class="boot-gate-dots"><i /><i /><i /></div>

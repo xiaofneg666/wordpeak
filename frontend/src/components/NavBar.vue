@@ -5,25 +5,25 @@ import { useUniverse } from '../stores/universe'
 // 导航主次分层:学习区 9 项平铺(每天高频),工具资料区 9 项收进「工具」下拉
 // 图标为词峰定制「天文仪器」语言:星座连线/轨道弧/四芒星/轨道节点 —— 与 3D 星系同源
 const LEARN_TABS = [
-  { key: 'galaxy', label: '词汇圣殿', icon: 'M2.5 13.5 7 8 11.5 14.5 16 9.5 21.5 13M16 6.2m-.9 0a.9.9 0 1 0 1.8 0a.9.9 0 1 0-1.8 0' },
-  { key: 'learn', label: '学习舱', icon: 'M4 16.5a8 8 0 0 1 16 0M8.5 16.5V13.8M12 16.5V10.8M15.5 16.5V12.8' },
-  { key: 'phonetics', label: '发音舱', icon: 'M7 12m-1.3 0a1.3 1.3 0 1 0 2.6 0a1.3 1.3 0 1 0-2.6 0M9.9 8.6A4.5 4.5 0 0 1 9.9 15.4M12.1 5.9A8 8 0 0 1 12.1 18.1M14.4 3.2A11.5 11.5 0 0 1 14.4 20.8' },
-  { key: 'grammar', label: '语法机械城', icon: 'M12 5 18.1 8.5V15.5L12 19 5.9 15.5V8.5ZM12 12 5.9 8.5M12 12l6.1-3.5M12 12V5' },
-  { key: 'listening', label: '回声谷', icon: 'M12 12m-1.2 0a1.2 1.2 0 1 0 2.4 0a1.2 1.2 0 1 0-2.4 0M9.1 8.6A4.5 4.5 0 0 0 9.1 15.4M6.9 5.9A8 8 0 0 0 6.9 18.1M14.9 8.6A4.5 4.5 0 0 1 14.9 15.4M17.1 5.9A8 8 0 0 1 17.1 18.1' },
-  { key: 'speaking', label: '口语竞技场', icon: 'M12 2 12.9 4.1 15 5 12.9 5.9 12 8 11.1 5.9 9 5 11.1 4.1ZM6.5 21v-6M12 21v-9M17.5 21v-7.5' },
-  { key: 'reading', label: '阅读号列车', icon: 'M3.5 21 12 5.5M20.5 21 12 5.5M6.2 16H17.8M9 11H15M10.6 8H13.4M12 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0-2 0' },
-  { key: 'writing', label: '写作工坊', icon: 'M3.5 21C8 17 11.5 13 14.2 8.8M17.5 3 18.2 4.8 20 5.5 18.2 6.2 17.5 8 16.8 6.2 15 5.5 16.8 4.8Z' },
-  { key: 'diary', label: '英语日记', icon: 'M12 4.5m-7.5 0a7.5 7.5 0 1 0 15 0a7.5 7.5 0 1 0-15 0M12 8.8 12.8 11.2 15.2 12 12.8 12.8 12 15.2 11.2 12.8 8.8 12 11.2 11.2ZM17.3 6.7 18.7 5.3' },
+  { key: 'dashboard', short: '总览', label: '观星台', icon: 'M3.5 10.6 12 3.2l8.5 7.4V21h-6.2v-5.6H9.7V21H3.5Z' },
+  { key: 'galaxy', short: '词汇', label: '词汇圣殿', icon: 'M2.5 13.5 7 8 11.5 14.5 16 9.5 21.5 13M16 6.2m-.9 0a.9.9 0 1 0 1.8 0a.9.9 0 1 0-1.8 0' },
+  { key: 'phonetics', short: '发音', label: '发音舱', icon: 'M7 12m-1.3 0a1.3 1.3 0 1 0 2.6 0a1.3 1.3 0 1 0-2.6 0M9.9 8.6A4.5 4.5 0 0 1 9.9 15.4M12.1 5.9A8 8 0 0 1 12.1 18.1M14.4 3.2A11.5 11.5 0 0 1 14.4 20.8' },
+  { key: 'listening', short: '听力', label: '回声谷', icon: 'M12 12m-1.2 0a1.2 1.2 0 1 0 2.4 0a1.2 1.2 0 1 0-2.4 0M9.1 8.6A4.5 4.5 0 0 0 9.1 15.4M6.9 5.9A8 8 0 0 0 6.9 18.1M14.9 8.6A4.5 4.5 0 0 1 14.9 15.4M17.1 5.9A8 8 0 0 1 17.1 18.1' },
+  { key: 'speaking', short: '口语', label: '口语竞技场', icon: 'M12 2 12.9 4.1 15 5 12.9 5.9 12 8 11.1 5.9 9 5 11.1 4.1ZM6.5 21v-6M12 21v-9M17.5 21v-7.5' },
+  { key: 'grammar', short: '语法', label: '语法机械城', icon: 'M12 5 18.1 8.5V15.5L12 19 5.9 15.5V8.5ZM12 12 5.9 8.5M12 12l6.1-3.5M12 12V5' },
+  { key: 'reading', short: '阅读', label: '阅读号列车', icon: 'M3.5 21 12 5.5M20.5 21 12 5.5M6.2 16H17.8M9 11H15M10.6 8H13.4M12 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0-2 0' },
+  { key: 'writing', short: '写作', label: '写作工坊', icon: 'M3.5 21C8 17 11.5 13 14.2 8.8M17.5 3 18.2 4.8 20 5.5 18.2 6.2 17.5 8 16.8 6.2 15 5.5 16.8 4.8Z' },
 ]
 const TOOL_TABS = [
-  { key: 'dashboard', label: '观星台', hint: 'd', icon: 'M3 19 8.5 14 12.5 16 17 9.5 21 7M21 7m-1.1 0a1.1 1.1 0 1 0 2.2 0a1.1 1.1 0 1 0-2.2 0' },
+  { key: 'learn', label: '学习舱', hint: 'a', icon: 'M4 16.5a8 8 0 0 1 16 0M8.5 16.5V13.8M12 16.5V10.8M15.5 16.5V12.8' },
   { key: 'lab', label: '记忆工坊', hint: 'o', icon: 'M12 4.5 19.5 17.5H4.5ZM7.5 20.5 5.8 16.8M12 20.5V13.8M16.5 20.5 18.2 16.8' },
+  { key: 'network', label: '词汇网络', hint: 'n', icon: 'M12 3.5 13.2 9 18.5 10.2 13.2 11.4 12 16.9 10.8 11.4 5.5 10.2 10.8 9ZM5.5 5.5 7.2 6.5 6.5 8.3M18.5 5.5 16.8 6.5 17.5 8.3M5.5 18.5 7.2 17.5 6.5 15.7M18.5 18.5 16.8 17.5 17.5 15.7' },
   { key: 'tips', label: '技巧库', hint: 't', icon: 'M12 5.5 13.2 10.8 18.5 12 13.2 13.2 12 18.5 10.8 13.2 5.5 12 10.8 10.8ZM19 4 19.6 5.4 21 6 19.6 6.6 19 8 18.4 6.6 17 6 18.4 5.4ZM5.5 17.5 6 18.7 7.2 19.2 6 19.7 5.5 21 5 19.7 3.8 19.2 5 18.7Z' },
   { key: 'bookshelf', label: '轨道书库', hint: 'b', icon: 'M12 7C9.5 4.9 6 4.4 3.5 5.2V18.7c2.5-.8 6-.3 8.5 1.8M12 7c2.5-2.1 6-2.6 8.5-1.8V18.7c-2.5-.8-6-.3-8.5 1.8M12 4.2m-.9 0a.9.9 0 1 0 1.8 0a.9.9 0 1 0-1.8 0' },
-  { key: 'network', label: '词汇网络', hint: 'n', icon: 'M12 3.5 13.2 9 18.5 10.2 13.2 11.4 12 16.9 10.8 11.4 5.5 10.2 10.8 9ZM5.5 5.5 7.2 6.5 6.5 8.3M18.5 5.5 16.8 6.5 17.5 8.3M5.5 18.5 7.2 17.5 6.5 15.7M18.5 18.5 16.8 17.5 17.5 15.7' },
   { key: 'family', label: '词根群星', hint: null, icon: 'M11 11 6.2 6.6M13.2 11.2 17.9 7M11.4 13.2 8 18.2M12 12m-1.2 0a1.2 1.2 0 1 0 2.4 0a1.2 1.2 0 1 0-2.4 0M5.5 5.8m-.9 0a.9.9 0 1 0 1.8 0a.9.9 0 1 0-1.8 0M18.6 6.2m-.9 0a.9.9 0 1 0 1.8 0a.9.9 0 1 0-1.8 0M7.6 18.8m-.9 0a.9.9 0 1 0 1.8 0a.9.9 0 1 0-1.8 0' },
   { key: 'collections', label: '收藏夹', hint: 'c', icon: 'M12 4 13.1 6.9 16 8 13.1 9.1 12 12 10.9 9.1 8 8 10.9 6.9ZM10.7 10.7 5.6 15.8M13.3 10.7 18.4 14.8M5.6 15.8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0-2 0M18.4 14.8m-1 0a1 1 0 1 0 2 0a1 1 0 1 0-2 0' },
   { key: 'mistakes', label: '暗物质区', hint: 'i', icon: 'M12 3.5 13.4 10.6 20.5 12 13.4 13.4 12 20.5 10.6 13.4 3.5 12 10.6 10.6ZM19.8 7.5A9 9 0 1 1 4.2 7.5' },
+  { key: 'diary', label: '英语日记', hint: 'e', icon: 'M12 4.5m-7.5 0a7.5 7.5 0 1 0 15 0a7.5 7.5 0 1 0-15 0M12 8.8 12.8 11.2 15.2 12 12.8 12.8 12 15.2 11.2 12.8 8.8 12 11.2 11.2ZM17.3 6.7 18.7 5.3' },
   { key: 'settings', label: '设置', hint: null, icon: 'M4 8H20M4 16H20M9 5.8 9.8 7.2 11.2 8 9.8 8.8 9 10.2 8.2 8.8 6.8 8 8.2 7.2ZM15 13.8 15.8 15.2 17.2 16 15.8 16.8 15 18.2 14.2 16.8 12.8 16 14.2 15.2Z' },
 ]
 const TOOL_KEYS = TOOL_TABS.map((t) => t.key)
@@ -75,10 +75,9 @@ watch(menuOpen, (open) => {
   <nav class="nav">
     <!-- 品牌:点击回到官网首页(双场景电影式开场页) -->
     <button class="nav-logo" title="词峰官网" @click="store.setView('site')">
-      <!-- 导航标用徽章主体裁版(logo-mark):master 是带底部小字的整幅竖版印章,
-           30px 高度下小字糊成噪痕;启动门等大尺寸展示位用横向山形标 logo-mark + 代码文字标 -->
-      <img class="nav-logo-img light" src="/logo-mark.png" alt="词峰徽标" />
-      <img class="nav-logo-img dark" src="/logo-mark-dark.png" alt="" aria-hidden="true" />
+      <!-- 品牌徽标:书页 + 水晶山 + 金色轨道/星芒,双版本随主题切换(SVG 在 44~50px 仍清晰) -->
+      <img class="nav-logo-img light" src="/logo-mark.svg" alt="词峰徽标" />
+      <img class="nav-logo-img dark" src="/logo-mark-dark.svg" alt="" aria-hidden="true" />
       <span class="nav-logo-lockup"><span class="zh">词峰</span><span class="en">WORDPEAK</span></span>
     </button>
     <div class="nav-tabs">
@@ -89,7 +88,7 @@ watch(menuOpen, (open) => {
         @click="pickTab(tab.key)"
       >
         <svg class="nav-tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path :d="tab.icon" /></svg>
-        <span>{{ tab.label }}</span>
+        <span class="nav-tab-label">{{ tab.short || tab.label }}</span>
       </button>
     </div>
 
@@ -166,6 +165,7 @@ watch(menuOpen, (open) => {
           :title="store.challengeClaimedDate === todayStr ? '今日星已入账,可再练一轮(不再计星)' : '10 题 · 限时 90 秒 · 做对入账星数'"
           @click="store.openChallenge()"
         >今日挑战</button>
+        <button class="btn small nav-drawer-search" @click="toggleCommand(); menuOpen = false">⌕ 快速搜索</button>
         <div class="nav-drawer-tabs">
           <div class="drawer-group-label">学习</div>
           <button
@@ -195,7 +195,7 @@ watch(menuOpen, (open) => {
 
 <style scoped>
 /* 主导航项的小图标(线性,随文字变色) */
-.nav-tab-icon { width: 15px; height: 15px; flex-shrink: 0; }
+.nav-tab-icon { width: 17px; height: 17px; flex-shrink: 0; }
 
 /* ===== 工具下拉 ===== */
 .nav-tools { position: relative; }
@@ -314,7 +314,7 @@ watch(menuOpen, (open) => {
 }
 .nav-drawer-user .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--success); }
 .nav-drawer-user b { color: var(--text); font-weight: 600; }
-.nav-drawer-challenge { justify-content: center; }
+.nav-drawer-challenge, .nav-drawer-search { justify-content: center; }
 .nav-drawer-tabs { display: flex; flex-direction: column; gap: 4px; }
 .drawer-group-label {
   padding: 10px 14px 4px;

@@ -7,8 +7,8 @@ const PWA_MANIFEST = {
   name: '词峰 WORDPEAK',
   short_name: '词峰',
   description: '3D 沉浸式英语学习宇宙',
-  theme_color: '#08080d',
-  background_color: '#08080d',
+  theme_color: '#F7F5F0',
+  background_color: '#F7F5F0',
   display: 'standalone',
   start_url: '/',
   icons: [

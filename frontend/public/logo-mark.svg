@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200" role="img" aria-label="词峰">
+  <defs>
+    <linearGradient id="peakMain" x1="0" y1="0" x2="0.75" y2="1">
+      <stop offset="0" stop-color="#F4FAFF"/>
+      <stop offset="0.32" stop-color="#B9D6EF"/>
+      <stop offset="0.68" stop-color="#6F9BC6"/>
+      <stop offset="1" stop-color="#2C527C"/>
+    </linearGradient>
+    <linearGradient id="peakBack" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#E7F3FF"/>
+      <stop offset="0.55" stop-color="#9DC0DF"/>
+      <stop offset="1" stop-color="#527FA9"/>
+    </linearGradient>
+    <linearGradient id="page" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFDF6"/>
+      <stop offset="0.7" stop-color="#F4EAD8"/>
+      <stop offset="1" stop-color="#E7D8BF"/>
+    </linearGradient>
+    <linearGradient id="cover" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3C6594"/>
+      <stop offset="1" stop-color="#173654"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FAEDC2"/>
+      <stop offset="0.5" stop-color="#DFC07F"/>
+      <stop offset="1" stop-color="#B38943"/>
+    </linearGradient>
+    <linearGradient id="planet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#DDEBFA"/>
+      <stop offset="0.55" stop-color="#7CA6CE"/>
+      <stop offset="1" stop-color="#2E5687"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 金色轨道：从山后绕过，两侧露出 -->
+  <g transform="rotate(-12 120 104)">
+    <ellipse cx="120" cy="104" rx="106" ry="33" fill="none" stroke="url(#gold)" stroke-width="2.2" opacity="0.78"/>
+    <circle cx="18" cy="96" r="9" fill="url(#planet)"/>
+    <circle cx="18" cy="96" r="9" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.35"/>
+    <circle cx="216" cy="112" r="5" fill="url(#gold)"/>
+  </g>
+
+  <!-- 远侧山峰 -->
+  <path d="M120 38 L70 145 L103 145 Z" fill="url(#peakBack)" opacity="0.95"/>
+  <path d="M120 38 L170 145 L137 145 Z" fill="url(#peakBack)" opacity="0.88"/>
+
+  <!-- 主峰 + 切面 -->
+  <path d="M120 18 L155 145 L85 145 Z" fill="url(#peakMain)"/>
+  <path d="M120 18 L120 145 L85 145 Z" fill="#FFFFFF" opacity="0.20"/>
+  <path d="M120 18 L137 68 L120 84 L103 68 Z" fill="#FFFFFF" opacity="0.34"/>
+  <path d="M120 84 L137 68 L155 145 L120 145 Z" fill="#2A4F78" opacity="0.30"/>
+  <path d="M103 68 L120 84 L120 145 L85 145 Z" fill="#FFFFFF" opacity="0.06"/>
+
+  <!-- 书：深蓝封皮 + 暖白书页 -->
+  <path d="M24 139 C60 122 93 127 120 150 C147 127 180 122 216 139 L216 156 C180 140 147 145 120 168 C93 145 60 140 24 156 Z" fill="url(#cover)"/>
+  <path d="M31 137 C64 125 95 130 120 152 C145 130 176 125 209 137 L209 145 C176 133 145 138 120 160 C95 138 64 133 31 145 Z" fill="url(#page)"/>
+  <path d="M120 152 L120 160" stroke="#B49B74" stroke-width="1.2" opacity="0.7"/>
+  <path d="M44 138 C70 130 94 135 112 150" fill="none" stroke="#FFFFFF" stroke-width="1.1" opacity="0.55"/>
+  <path d="M196 138 C170 130 146 135 128 150" fill="none" stroke="#FFFFFF" stroke-width="1.1" opacity="0.55"/>
+  <circle cx="120" cy="158" r="6.5" fill="#173654"/>
+  <path d="M120 153.5 L121.4 156.6 L124.5 158 L121.4 159.4 L120 162.5 L118.6 159.4 L115.5 158 L118.6 156.6 Z" fill="url(#gold)"/>
+
+  <!-- 星芒 -->
+  <path d="M120 2 L124.6 15.4 L138 20 L124.6 24.6 L120 38 L115.4 24.6 L102 20 L115.4 15.4 Z" fill="url(#gold)"/>
+  <path d="M171 44 L173.8 51.2 L181 54 L173.8 56.8 L171 64 L168.2 56.8 L161 54 L168.2 51.2 Z" fill="url(#gold)" opacity="0.92"/>
+</svg>

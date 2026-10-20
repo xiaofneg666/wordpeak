@@ -349,7 +349,7 @@ onBeforeUnmount(() => {
 
       <header class="intro-top">
         <button class="brand" @click="introNav({ anchor: 'site-hero' })">
-          <span class="brand-mark">✦</span>词峰 <em>WORDPEAK</em>
+          <img class="brand-img" src="/logo-mark-dark.svg" alt="" aria-hidden="true" />词峰 <em>WORDPEAK</em>
         </button>
         <nav class="intro-nav">
           <button @click="introNav({ anchor: 'site-features' })">宇宙档案</button>
@@ -401,7 +401,7 @@ onBeforeUnmount(() => {
 
         <header class="home-top">
           <button class="brand" @click="scrollToTop()">
-            <span class="brand-mark">✦</span>词峰 <em>WORDPEAK</em>
+            <img class="brand-img" src="/logo-mark-dark.svg" alt="" aria-hidden="true" />词峰 <em>WORDPEAK</em>
           </button>
           <nav class="home-nav">
             <button v-for="item in NAV" :key="item.label" @click="item.act">{{ item.label }}</button>
@@ -566,7 +566,7 @@ onBeforeUnmount(() => {
         <div class="wrap">
         <div class="ft-row">
           <button class="brand" @click="scrollToTop()">
-            <span class="brand-mark">✦</span>词峰 <em>WORDPEAK</em>
+            <img class="brand-img" src="/logo-mark-dark.svg" alt="" aria-hidden="true" />词峰 <em>WORDPEAK</em>
           </button>
           <p class="ft-slogan">Not just learning English,<br />but exploring a bigger world.</p>
           <button class="light-btn" @click="launch()">立即开始 →</button>
@@ -650,8 +650,8 @@ onBeforeUnmount(() => {
 
 .brand {
   display: inline-flex;
-  align-items: baseline;
-  gap: 8px;
+  align-items: center;
+  gap: 9px;
   border: 0;
   background: none;
   color: #f7f6ff;
@@ -668,7 +668,8 @@ onBeforeUnmount(() => {
   font-family: Inter, sans-serif;
   margin-left: 2px;
 }
-.brand-mark { color: #ffd8a0; }
+.brand-img { height: 34px; width: auto; display: block; flex-shrink: 0; }
+@media (max-width: 720px) { .brand-img { height: 28px; } .brand { font-size: 19px; } }
 
 .nav-links, .intro-nav, .home-nav { display: flex; gap: clamp(14px, 2.5vw, 38px); }
 .intro-nav button, .home-nav button {

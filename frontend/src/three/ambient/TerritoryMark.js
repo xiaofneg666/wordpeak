@@ -9,7 +9,7 @@ import { motifFor, tokenColor, makeStarTexture } from './AmbientSky.js'
 const TAU = Math.PI * 2
 const clamp = (v, a, b) => Math.max(a, Math.min(b, v))
 const SKIP = new Set(['galaxy', 'site', 'dashboard', 'reader', 'settings'])
-const NAV_H = 64
+const NAV_H = 68
 
 export class TerritoryMark {
   constructor(canvas, { view = 'dashboard' } = {}) {

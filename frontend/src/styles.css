@@ -280,10 +280,11 @@ body::after {
    顶部导航
    ========================================================================== */
 .nav {
-  display: flex; align-items: center; gap: 8px;
-  padding: 0 24px; height: 64px;
-  background: color-mix(in srgb, var(--bg) 90%, var(--surface));
+  display: flex; align-items: center; gap: 10px;
+  padding: 0 22px; height: 68px;
+  background: color-mix(in srgb, var(--bg) 94%, var(--surface));
   border-bottom: 1px solid var(--line);
+  box-shadow: 0 1px 0 color-mix(in srgb, var(--surface) 40%, transparent), 0 8px 26px color-mix(in srgb, var(--bg) 26%, transparent);
   position: relative; z-index: 50;
   flex-shrink: 0;
 }
@@ -302,13 +303,13 @@ body::after {
    按钮重置:它是个 <button>(点击回官网),但绝不能带 UA 默认的灰底+outset 边框
    ——9fd1d30 加 logo 时漏了这层重置,徽标被装在系统灰按钮壳里 */
 .nav-logo {
-  display: flex; align-items: center; gap: 9px; margin-right: 24px;
+  display: flex; align-items: center; gap: 10px; margin-right: 18px;
   border: 0; background: transparent; padding: 0;
   cursor: pointer; font-family: inherit;
   transition: opacity 0.2s var(--ease);
 }
 .nav-logo:hover { opacity: 0.85; }
-.nav-logo-img { height: 40px; width: auto; display: block; }
+.nav-logo-img { height: 50px; width: auto; display: block; }
 .nav-logo-img.dark { display: none; }
 [data-theme='dark'] .nav-logo-img.light,
 [data-theme='violet'] .nav-logo-img.light,
@@ -317,15 +318,15 @@ body::after {
 [data-theme='violet'] .nav-logo-img.dark,
 [data-theme='catppuccin'] .nav-logo-img.dark { display: block; }
 .nav-logo-lockup { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.15; }
-.nav-logo .zh { font-family: var(--serif); font-weight: 600; font-size: var(--fs-lg); color: var(--text); letter-spacing: 0.02em; }
+.nav-logo .zh { font-family: var(--serif); font-weight: 600; font-size: 21px; color: var(--text); letter-spacing: 0.06em; }
 /* WORDPEAK 副标沿用领地 kicker 的金色语言 */
-.nav-logo .en { font-size: var(--fs-2xs); color: var(--gold); letter-spacing: 2.5px; font-weight: 500; }
+.nav-logo .en { font-size: var(--fs-2xs); color: var(--gold); letter-spacing: 3px; font-weight: 500; }
 
-.nav-tabs { display: flex; gap: 2px; flex: 1; flex-wrap: wrap; }
+.nav-tabs { display: flex; gap: 4px; flex: 1; flex-wrap: nowrap; justify-content: center; min-width: 0; }
 .nav-tab {
   border: 0; background: transparent; color: var(--text-2);
-  padding: 7px 13px; border-radius: 10px; cursor: pointer; font-size: var(--fs-sm); font-weight: 500;
-  font-family: inherit;
+  padding: 9px 16px; border-radius: 12px; cursor: pointer; font-size: var(--fs-base); font-weight: 500;
+  font-family: inherit; white-space: nowrap;
   transition: color 0.18s var(--ease), background 0.18s var(--ease), transform 0.18s var(--ease);
   display: inline-flex; align-items: center; gap: 7px;
   position: relative;
@@ -338,17 +339,20 @@ body::after {
 /* active:浅蓝灰胶囊 + 主文字色加粗 + 香槟金细下划线(柔和、精致,替代旧三重强调) */
 .nav-tab.active {
   color: var(--text);
-  background: var(--surface-active);
+  background: color-mix(in srgb, var(--accent) 9%, var(--surface));
   font-weight: 600;
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent) 10%, transparent);
 }
 .nav-tab.active::after {
-  content: ''; position: absolute; left: 26%; right: 26%; bottom: 3px;
-  height: 2px; border-radius: 1px; background: #D6B681;
+  content: ''; position: absolute; left: 20%; right: 20%; bottom: -14px;
+  height: 2.5px; border-radius: 2px;
+  background: linear-gradient(90deg, transparent, #D6B681 22%, #D6B681 78%, transparent);
+  box-shadow: 0 0 10px color-mix(in srgb, #D6B681 45%, transparent);
 }
 
 /* 右侧直接落在台面上:不套胶囊——胶囊里再嵌彩色胶囊是导航噪音的大头 */
 .nav-user {
-  display: flex; align-items: center; gap: 10px; color: var(--text-3); font-size: var(--fs-sm);
+  display: flex; align-items: center; gap: 8px; color: var(--text-3); font-size: var(--fs-sm); flex-shrink: 0;
 }
 .nav-user .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--success); box-shadow: 0 0 4px color-mix(in srgb, var(--success) 60%, transparent); }
 .nav-user b { color: var(--text); font-weight: 500; }
@@ -1603,16 +1607,32 @@ input:focus-visible, textarea:focus-visible, select:focus-visible {
 /* 窄桌面/普通笔记本(900~1599px):主导航 9 项只留图标(文字进 title 悬停提示)。
    实测带字单行需 ~1494px 视口(925px 标签行 + 右侧固定件),1280~1599 放不下整行——
    此前这段区间 flex-wrap 折成两行、上下溢出 64px 栏体,是最常见的丑 */
-@media (max-width: 1599.98px) and (min-width: 899.98px) {
+/* 960~1179px:主导航只留图标(文字进 title 悬停提示),给右侧操作留出呼吸 */
+@media (max-width: 1179.98px) and (min-width: 899.98px) {
   .nav-tabs .nav-tab span { display: none; }
   .nav-tabs .nav-tab { padding: 8px 11px; }
   .nav-logo { margin-right: 12px; }
-  /* 窄带里锁屏只留徽标+词峰主名,英文副标让位(旧规则藏 .zh 已随品牌锁屏换位而失效) */
   .nav-logo .en { display: none; }
   .nav-user { gap: 8px; }
   .nav-user .nav-hello { display: none; }
   .nav-user .nav-name { display: inline; max-width: 72px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  /* 快捷键提示随问候一起退场:窄带里给 tab 图标行让位 */
+  .search-btn .kbd-hint { display: none; }
+}
+/* 1440~1599px:标签保持完整,右侧问候与快捷键提示让位 */
+@media (min-width: 1440px) and (max-width: 1599.98px) {
+  .nav-user .nav-hello { display: none; }
+  .nav-user .nav-name { display: inline; max-width: 72px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .search-btn .kbd-hint { display: none; }
+}
+/* 1180~1439px:带短标签,收窄间距并隐藏问候/快捷键提示,避免折行 */
+@media (min-width: 1180px) and (max-width: 1439.98px) {
+  .nav { padding: 0 16px; gap: 8px; }
+  .nav-logo { margin-right: 10px; }
+  .nav-logo-img { height: 42px; }
+  .nav-tabs { gap: 1px; }
+  .nav-tab { padding: 8px 10px; gap: 5px; font-size: var(--fs-xs); }
+  .nav-user .nav-hello { display: none; }
+  .nav-user .nav-name { display: inline; max-width: 72px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .search-btn .kbd-hint { display: none; }
 }
 
@@ -1641,8 +1661,9 @@ input:focus-visible, textarea:focus-visible, select:focus-visible {
    顶部导航窄窗(<900px)——tabs 交给汉堡抽屉(NavBar 内 .nav-burger 在此宽度显示)
    ========================================================================== */
 @media (max-width: 899.98px) {
-  .nav { padding: 0 14px; height: 58px; }
+  .nav { padding: 0 14px; height: 60px; }
   .nav-tabs { display: none; }
+  .nav-logo-img { height: 40px; }
   .nav-logo { margin-right: auto; } /* 把用户区挤到右侧,给汉堡留位 */
   .nav-user { gap: 8px; font-size: var(--fs-xs); }
   .nav-user .nav-hello { display: none; }      /* 窄屏隐藏问候(连同待复习后缀),只留名字 */
@@ -1954,3 +1975,13 @@ input:focus-visible, textarea:focus-visible, select:focus-visible {
 }
 .sw-update button:hover { filter: brightness(1.1); transform: translateY(-1px); }
 @keyframes sw-update-in { from { opacity: 0; transform: translate(-50%, 10px); } }
+
+/* 手机导航:给汉堡留出硬空间(搜索/名字移进抽屉,品牌只留中文) */
+@media (max-width: 600px) {
+  .nav { gap: 6px; }
+  .nav-logo .en { display: none; }
+  .nav-user .search-btn { display: none; }
+  .nav .nav-user .nav-name { display: none; }
+  .nav-user .challenge-btn { padding: 6px 9px; font-size: var(--fs-2xs); }
+  .nav-burger { flex-shrink: 0; }
+}
