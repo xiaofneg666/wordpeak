@@ -1,0 +1,31 @@
+# WordVerse 一键编排:后端(Express + SQLite)+ 前端(vite 构建产物 + nginx)
+# 用法:docker compose up --build
+#   前端  http://localhost:5173 (nginx, /api 自动反代到后端)
+#   后端  http://localhost:8000 (可直接访问)
+services:
+  backend:
+    build: ./backend-node
+    container_name: wordverse-backend
+    ports:
+      - "8000:8000"
+    environment:
+      # 发音建议 /api/ask 的 LLM key(可选,不配则自动走本地规则降级分析)
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+    volumes:
+      # SQLite 数据持久化(Dockerfile 里 WORDVERSE_DB=/data/wordverse.db)
+      - wordverse-db:/data
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    container_name: wordverse-frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  wordverse-db:

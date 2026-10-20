@@ -1,0 +1,220 @@
+{
+  "id": "lib-littlecaptain",
+  "title": "小船长的航行",
+  "en_title": "The Little Captain",
+  "author": "WordVerse Archive",
+  "region": "literary",
+  "level": 1,
+  "one_line": "女孩独自掌舵渡海送药，带回一顶船长的帽子。",
+  "word_focus": ["cap", "tain"],
+  "chapters": [
+    {
+      "no": 1,
+      "title": "老船长的帽子",
+      "sentences": [
+        { "en": "Ada lived in a small fishing village by a cold grey sea, in a street of thin houses that all looked at the water.", "zh": "艾达住在一片灰冷大海边的渔村里，那条街上一排瘦瘦的房子，全都朝着海水。" },
+        { "en": "The old captain of the village boat was sick in bed; his tired chest could not sustain a deep breath, and his cough was louder than the winter wind.", "zh": "村里那条船的老船长病倒在床上，他疲弱的胸腔连一口深呼吸都撑不住了，咳嗽声比冬天的风还响。" },
+        { "en": "One island across the water needed a box of medicine that very day, and no shop in the small village could obtain it in time.", "zh": "海对面的一座岛当天就急需一箱药，而小村里没有一家铺子能及时弄到它。" },
+        { "en": "Who can captain the boat in this weather, the people asked in the port office, and the room went quiet.", "zh": "这种天气谁来当船长开船？港务所里众人发问，屋里一下子安静了。" },
+        { "en": "Ada put up her hand at the back, and some people laughed, because she was young and small and only a girl.", "zh": "艾达在后排举起了手，有人笑出了声，因为她年纪小、个子小，还只是个女孩。" },
+        { "en": "But she was capable: she had sailed with the old captain for five summers, and she knew every rope and every stone in the bay.", "zh": "可她是有本事的：她跟老船长跑了五个夏天的船，湾里每一根缆绳、每一块礁石她都认得。" },
+        { "en": "The sea contains many dangers, she said, but I know this water like the floor of my mother's kitchen.", "zh": "她说，大海里藏着许多危险，可这片水我熟悉得就像我妈厨房的地板。" },
+        { "en": "The old man heard everything from his bed, and he sent for Ada and gave her his hat from the dark shelf.", "zh": "老人在床上听见了这一切，便派人叫来艾达，从暗暗的架子上取下自己的帽子交给她。" },
+        { "en": "A captain keeps the crew calm, he told her in his dry old voice, and a calm crew comes home alive.", "zh": "他用沙哑苍老的声音告诉她：船长要让船员镇定，镇定的船员才能活着回家。" },
+        { "en": "Stay tenacious, hold your course, and maintain your courage, he said, and the medicine box will arrive, and the children will sleep.", "zh": "他说：顽强一点，把住航向，守住你的勇气，药箱会送到，孩子们会安然入睡。" },
+        { "en": "The hat was too big for her head, but Ada wore it with care, like a crown that had chosen her first.", "zh": "帽子对她来说太大了，可艾达戴得郑重，像一顶先选中了她的王冠。" },
+        { "en": "The little seaport woke slowly around them, grey and cold, and the morning tide called her name against the wet stones.", "zh": "小小的海港在两人身边慢慢醒来，灰蒙蒙、冷清清，清晨的潮水拍着湿石头，唤着她的名字。" },
+        { "en": "The box contained the medicine, wrapped in white paper against the sea wet, and she tied it under the seat with her own two hands.", "zh": "箱子里装着用白纸包好、防着海潮的药，她亲自动手把它捆在座位下面。" },
+        { "en": "She stepped onto the boat, and the whole village watched from the cape until her sail went small and white in the grey.", "zh": "她踏上船，全村人站在海角上望着，直到她的帆在灰色海面上缩成小小的一点白。" }
+      ],
+      "questions": [
+        {
+          "q": "Why does the village need someone to captain the boat?",
+          "options": ["The old captain is sick in bed and the island needs medicine", "The boat is brand new", "The island asked for a bigger crew", "Ada wants to travel"],
+          "answer": 0,
+          "explain": "第2句老船长病倒，第3句 \"One island across the water needed a box of medicine that very day\"，所以必须有人替他掌舵。"
+        },
+        {
+          "q": "Why does Ada say she is capable of the trip?",
+          "options": ["She has a lot of money", "She sailed with the old captain for five summers and knows every rope and stone", "The sea contains no dangers", "Her mother told her to go"],
+          "answer": 1,
+          "explain": "第6句 \"she had sailed with the old captain for five summers, and she knew every rope and every stone in the bay\"。"
+        },
+        {
+          "q": "What does the old captain tell Ada about leading the crew?",
+          "options": ["A captain keeps the crew calm", "A captain must shout all the time", "A captain lets the crew decide", "A captain sails alone"],
+          "answer": 0,
+          "explain": "第9句 \"A captain keeps the crew calm\"，他叮嘱船长要让船员镇定。"
+        },
+        {
+          "q": "What can we tell about the old captain's feelings when he gives the hat?",
+          "options": ["He does not trust Ada at all", "He is angry about the medicine", "He believes in her and passes his place to her", "He wants his hat back the same day"],
+          "answer": 2,
+          "explain": "第8句他主动把帽子给她，第10句叮嘱 \"Stay tenacious, hold your course\"——交出船长之帽加上临别赠言，可推断他是把信任和位置一起托付给了她。"
+        },
+        {
+          "q": "Where do the villagers watch Ada leave?",
+          "options": ["From the school", "From the port office", "From the mountains", "From the cape"],
+          "answer": 3,
+          "explain": "第14句 \"the whole village watched from the cape\"，全村人从海角上目送她出发。"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "风浪之间",
+      "sentences": [
+        { "en": "At first the sea was kind, and the little boat ran well with the wind behind it, like a bird with warm hands on its back.", "zh": "起初大海很和气，顺风推着小船走得顺顺当当，像一只被人用暖手托着背的鸟。" },
+        { "en": "Ada checked the ropes twice, ate a little bread, and began to dream of the white houses on the far island.", "zh": "艾达把缆绳查了两遍，啃了点面包，开始想远处岛上那些白色的房子。" },
+        { "en": "Then grey clouds walked in from the west, and the waves stood up tall like walls of dark green glass.", "zh": "随后灰云从西边压了过来，浪像一堵堵墨绿色玻璃墙，立了起来。" },
+        { "en": "The other sailors looked at the grey sky with white faces, and one old fisherman began to talk about turning back to the home port.", "zh": "其他船员脸色发白地望着灰色的天，一个老渔民开始念叨着要不要掉头回港。" },
+        { "en": "Ada spoke like a captain: sit down, hold on, and no one goes into the sea today, she said, and they sat.", "zh": "艾达像船长一样开口：坐稳，抓牢，今天谁也不许下海——她说完，大家就都坐下了。" },
+        { "en": "The wooden box contained the medicine, so she tied it down with three knots and put her own coat over the top.", "zh": "木箱里装着药，她打了三个结把它牢牢捆住，又把自己外套盖在上面。" },
+        { "en": "Water came in through a small hole in the floor, cold and quick, like a silver snake looking for a warm place.", "zh": "水从船底一个小洞里渗进来，又冷又急，像一条银蛇在找暖和地方。" },
+        { "en": "A captain must maintain her boat in bad weather, Ada remembered, so she pushed a cloth into the hole and held it with her knee.", "zh": "艾达记起来：坏天气里，船长必须保养好自己的船。于是她把一块布塞进洞里，用膝盖死死抵住。" },
+        { "en": "The old words sustained her through every wave: stay tenacious, hold your course, and the sea is only water after all.", "zh": "老人的话支撑她扛过每一个浪头：顽强一点，把住航向——说到底，海不过就是水。" },
+        { "en": "The boat has the capacity for these waves, she told herself, because the old captain built her bones for weather like this.", "zh": "她对自己说：这条船的承量扛得住这些浪，因为老船长造它的时候，就是照着这种天色造的骨头。" },
+        { "en": "A capable sailor works with the sea, not against it, so Ada turned the sail a little and let the storm pass by like a train.", "zh": "能干的船员是顺着海走的，不是顶着海走的，于是艾达稍稍转了转帆，任风暴像一列火车那样从旁边驶过。" },
+        { "en": "She retained the old man's voice in her ears all through the worst hour, and she did not once look back at the cape.", "zh": "最难熬的那个钟头里，老人的声音一直留在她耳边；她一次也没有回头望海角。" },
+        { "en": "Slowly the grey clouds opened, the water turned soft and blue again, and the whole crew breathed out at the same time.", "zh": "灰云慢慢散开，海水重新变得柔和湛蓝，全船的人同一刻长出了一口气。" },
+        { "en": "Ada dried her hands on her wet coat and looked for the far island, a small dark tooth on the edge of the sea.", "zh": "艾达在湿外套上擦干手，望向远处的岛——海平线上一颗小小的深色牙齿。" }
+      ],
+      "questions": [
+        {
+          "q": "How does Ada keep the medicine box safe?",
+          "options": ["She ties it down with three knots and covers it with her coat", "She throws it in the sea", "She holds it in one hand", "She puts it under the floor"],
+          "answer": 0,
+          "explain": "第6句 \"she tied it down with three knots and put her own coat over the top\"。"
+        },
+        {
+          "q": "What does Ada do about the hole in the floor?",
+          "options": ["She ignores it", "She pushes a cloth into it and holds it with her knee", "She cries for help", "She turns the boat back"],
+          "answer": 1,
+          "explain": "第8句 \"she pushed a cloth into the hole and held it with her knee\"。"
+        },
+        {
+          "q": "What does Ada say to the crew when the storm stands up?",
+          "options": ["Sit down, hold on, no one goes into the sea", "Turn back to the port", "Throw the box away", "Jump and swim to the island"],
+          "answer": 0,
+          "explain": "第5句 \"sit down, hold on, and no one goes into the sea today\"。"
+        },
+        {
+          "q": "Why does Ada turn the sail instead of fighting the storm head-on?",
+          "options": ["Because she is afraid of the dark", "Because a capable sailor works with the sea, not against it", "Because the boat is broken", "Because the old fisherman tells her to"],
+          "answer": 1,
+          "explain": "第11句 \"A capable sailor works with the sea, not against it\"——她顺着海走，所以转帆让风暴过去（推断其动机）。"
+        },
+        {
+          "q": "\"The boat has the capacity for these waves\" — here capacity means:",
+          "options": ["The money the boat costs", "The boat is strong and big enough to take these waves", "The number of people on board", "The speed of the wind"],
+          "answer": 1,
+          "explain": "第10句接着说老船长\"照着这种天色造的骨头\"，capacity 在此意为承受能力、容量。"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "银色的徽章",
+      "sentences": [
+        { "en": "The island people saw the small boat come into the port, with its sail torn and its captain still standing at the wheel.", "zh": "岛上的人看见小船驶进港来，帆撕破了，船长却还站在舵前。" },
+        { "en": "Ada stepped onto the wet stones with the box in her arms, and her legs shook a little, but only a little.", "zh": "艾达抱着箱子踏上湿漉漉的石阶，双腿有点发抖——但只是一点点。" },
+        { "en": "The doctor took the medicine at once, and that night the two sick children obtained a long, cool, quiet sleep.", "zh": "医生立刻接过了药，当天夜里，两个生病的孩子得到了一场漫长、清凉而安稳的睡眠。" },
+        { "en": "By morning the fever was gone, and the whole island felt content, like a house after a storm when every window still holds.", "zh": "到早晨烧退了，整座岛都安心下来，像暴雨之后一扇窗都没碎的房子。" },
+        { "en": "You did not just bring medicine, the doctor said to her, you brought the village a kind of good news that no money can obtain.", "zh": "医生对她说：你送来的不只是药，你还给全村带来了一种多少钱都买不到的好消息。" },
+        { "en": "You also obtained our trust, he added with a smile, and trust, once given to a sailor, sails with her for life.", "zh": "他又笑着说：你还赢得了我们的信任；信任一旦给了水手，就随她航行一辈子。" },
+        { "en": "An old woman with white hair and sea-blue eyes came up and gave Ada a small silver badge on a blue ribbon.", "zh": "一位白发蓝眼、眼睛像海一样的老婆婆走上前，把一枚系着蓝丝带的小银徽章交给艾达。" },
+        { "en": "The badge had the shape of a wave and a star, and the silver was old and soft from many years of fingers.", "zh": "徽章是一朵浪和一颗星的形状，银子经了多年指尖摩挲，旧得温润。" },
+        { "en": "Retain this and remember this day, the woman said, because the sea remembers every good captain, even the small ones.", "zh": "老婆婆说：收好它，记住这一天；因为大海记得每一位好船长，连最小的那位也记得。" },
+        { "en": "In the evening the children asked Ada to entertain them with sea stories, and she gave them the storm, the hole, and the words that had sustained her.", "zh": "傍晚，孩子们请艾达讲海上的故事逗他们开心，她把风暴、船洞，还有支撑过她的那些话，都讲给了他们。" },
+        { "en": "She felt like a real captain now, capable and calm, and the hat sat on her head like it had grown there.", "zh": "她现在觉得自己是一位真正的船长了，能干又镇定；那顶帽子扣在头上，好像是在那里长出来的。" },
+        { "en": "The little port was full of warm yellow light, and the smell of fish soup moved from door to door like a friend.", "zh": "小港口满是暖黄的灯火，鱼汤的香气像个朋友似的挨家挨户串门。" },
+        { "en": "Some island men asked her how she had maintained the boat through the grey waves, and she showed them her cloth, her knot, and her knee.", "zh": "几个岛上人问她是怎么把船保养着闯过灰浪的，她给他们看了那块布、那个结，还有自己的膝盖。" },
+        { "en": "Ada slept well that night, with the badge under her pillow and the old hat on the chair, like a queen in a small cold palace.", "zh": "那一夜艾达睡得很沉，徽章压在枕头下，旧帽子搁在椅子上，像一座小而寒冷的宫殿里的女王。" }
+      ],
+      "questions": [
+        {
+          "q": "What does the doctor say Ada obtained besides the thanks of the village?",
+          "options": ["A new boat", "A bag of gold", "Their trust", "A big house"],
+          "answer": 2,
+          "explain": "第6句 \"You also obtained our trust\"，医生说她还赢得了岛上人的信任。"
+        },
+        {
+          "q": "What does the old woman give Ada?",
+          "options": ["A warm coat", "A small silver badge", "A sea map", "A box of tea"],
+          "answer": 1,
+          "explain": "第7句 \"gave Ada a small silver badge on a blue ribbon\"，第8句说徽章是浪和星的形状。"
+        },
+        {
+          "q": "What does the old woman tell Ada about the badge?",
+          "options": ["To retain it and remember this day", "To sell it in the port", "To give it to the doctor", "To hide it under the boat"],
+          "answer": 0,
+          "explain": "第9句 \"Retain this and remember this day\"。"
+        },
+        {
+          "q": "How does Ada change during her evening on the island?",
+          "options": ["She becomes afraid of the sea", "She feels like a real captain, capable and calm", "She decides to leave the village", "She gives the hat away"],
+          "answer": 1,
+          "explain": "第11句 \"She felt like a real captain now, capable and calm\"——对照第1章里被嘲笑的小女孩，可推断这次渡海让她真正长大了。"
+        },
+        {
+          "q": "\"Retain this and remember this day\" — here retain means:",
+          "options": ["To sell", "To keep and hold", "To throw away", "To borrow"],
+          "answer": 1,
+          "explain": "第9句老婆婆把徽章郑重交给她，retain 意为收好、留存。"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "把帽子留着",
+      "sentences": [
+        { "en": "The next morning Ada sailed home across the quiet water, and the island stood behind her like a green friend waving goodbye.", "zh": "第二天清晨，艾达驶过安静的海面回家；岛立在她身后，像一个挥手道别的绿色朋友。" },
+        { "en": "The wind was small and kind, and she maintained the boat with easy hands, singing an old island song about fish and stars.", "zh": "风又小又和气，她闲闲地操着船，唱一支岛上的老歌，唱鱼，也唱星星。" },
+        { "en": "When the little boat came into the home port, the whole village was waiting on the wet stones, and nobody said one word.", "zh": "小船驶进家乡的港口时，全村人都在湿漉漉的石滩上等着，却没有一个人出声。" },
+        { "en": "The sick old captain stood at his window in a grey coat, and Ada walked to his house with the hat in her two hands.", "zh": "生病的老船长披着灰外套站在窗前，艾达双手捧着那顶帽子，朝他家走去。" },
+        { "en": "I retained your hat with care, she said, and it did not fall into the sea, not even once, I promise.", "zh": "她说：我把您的帽子好好收着呢，它一次也没有掉进海里，我保证。" },
+        { "en": "The old man held the hat for a long time in his two old hands, and he looked at her the way fathers look at daughters.", "zh": "老人用两只苍老的手捧着帽子看了很久，看她的眼神，就像父亲看女儿那样。" },
+        { "en": "Retain it, he said at last, because a captain keeps her own hat, and this one has made its choice.", "zh": "他终于开口：留着吧，船长该有自己的帽子——这一顶已经做出了它的选择。" },
+        { "en": "Then Ada gave him a short recap of the trip: the grey walls of water, the small hole, the wet cloth, and the three knots.", "zh": "接着，艾达把这次航行简要地讲给他听：灰墙一样的浪、那个小洞、那块湿布，还有三个结。" },
+        { "en": "She told him about the tenacious little boat that would not lie down, even when the sea stood up like a mountain.", "zh": "她给他讲那条顽强的小船——哪怕海像山一样立起来，它也不肯倒下。" },
+        { "en": "He listened with deep content, like a man drinking warm tea after a long cold walk, and he asked for the story twice.", "zh": "他听得心满意足，像走了很长一段冷路的人喝着热茶，还把故事要求讲了两遍。" },
+        { "en": "You have the courage of a true captain, he said, and the village contains no braver heart than yours this year.", "zh": "他说：你有真正船长的勇气，今年全村再找不出比你更勇敢的心了。" },
+        { "en": "Encourage the young ones, he added, because the sea needs them, and the sea will obtain from them more than it takes.", "zh": "他又说：多鼓励那些年轻人吧，大海需要他们，而大海从他们身上得到的，会比它拿走的多。" },
+        { "en": "Then he put the hat on her head with his own two careful hands, and it sat there like it was always hers.", "zh": "然后他用自己的双手、小心翼翼地把帽子戴到她头上，帽子稳稳地扣着，好像从来就是她的。" },
+        { "en": "Outside, the evening came down on the grey port, and the water held the last of the light like a cup that retains its wine.", "zh": "屋外，暮色落在灰色的港口上；水面兜着最后一点光，像一只存得住酒的杯子。" }
+      ],
+      "questions": [
+        {
+          "q": "What does Ada try to do with the hat at first?",
+          "options": ["Return it to the old captain", "Sell it in the port", "Give it to a child", "Throw it into the sea"],
+          "answer": 0,
+          "explain": "第4、5句：她捧着帽子走到老船长家，说 \"I retained your hat with care\"——她是去还帽子的。"
+        },
+        {
+          "q": "What does the old captain tell Ada about the hat?",
+          "options": ["Give it back tomorrow", "Put it on a shelf", "Lend it to the doctor", "Retain it, because a captain keeps her own hat"],
+          "answer": 3,
+          "explain": "第7句 \"Retain it, he said at last, because a captain keeps her own hat\"。"
+        },
+        {
+          "q": "What does Ada give the old captain on her return?",
+          "options": ["A silver badge", "A short recap of the trip", "A box of medicine", "A new hat"],
+          "answer": 1,
+          "explain": "第8句 \"Ada gave him a short recap of the trip\"。"
+        },
+        {
+          "q": "How does the old captain feel while listening to Ada's story?",
+          "options": ["Bored and sleepy", "Worried about the boat", "Proud and deeply content", "Angry about the hole"],
+          "answer": 2,
+          "explain": "第10句 \"He listened with deep content, like a man drinking warm tea after a long cold walk\"，还要求再讲一遍——可推断他为她骄傲满足。"
+        },
+        {
+          "q": "The little boat \"would not lie down, even when the sea stood up like a mountain\" — the word tenacious means:",
+          "options": ["Heavy and slow", "Holding on and never giving up", "New and shiny", "Small and afraid"],
+          "answer": 1,
+          "explain": "第9句用浪立成山也不倒下来解释 tenacious，即顽强、咬住不放。"
+        }
+      ]
+    }
+  ]
+}

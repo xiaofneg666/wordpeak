@@ -1,0 +1,802 @@
+[
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "sport"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "edict"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "visa"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "emit"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "destroy"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "eject"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "abduct"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "defer"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "scribe"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "graphic"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "phone"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "bionic"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "deform"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "asterisk"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "audio"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "accept"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "incur"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "duress"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "flex"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "logic"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "append"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "attain"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "evoke"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "avert"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "core"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "cape"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "geology"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "hydrate"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "thermal"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "chronic"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "mortal"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "annals"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "apathy"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "terrain"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "democrat"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "sonic"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "corps"
+ },
+ {
+  "type": "co",
+  "a": "aspect",
+  "b": "morpheme"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "edict"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "visa"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "emit"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "destroy"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "eject"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "abduct"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "defer"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "scribe"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "graphic"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "phone"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "bionic"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "deform"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "asterisk"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "audio"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "accept"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "incur"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "duress"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "flex"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "logic"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "append"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "attain"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "evoke"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "avert"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "core"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "cape"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "geology"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "hydrate"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "thermal"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "chronic"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "mortal"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "annals"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "apathy"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "terrain"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "democrat"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "sonic"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "corps"
+ },
+ {
+  "type": "co",
+  "a": "sport",
+  "b": "morpheme"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "visa"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "emit"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "destroy"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "eject"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "abduct"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "defer"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "scribe"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "graphic"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "phone"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "bionic"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "deform"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "asterisk"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "audio"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "accept"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "incur"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "duress"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "flex"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "logic"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "append"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "attain"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "evoke"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "avert"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "core"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "cape"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "geology"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "hydrate"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "thermal"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "chronic"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "mortal"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "annals"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "apathy"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "terrain"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "democrat"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "sonic"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "corps"
+ },
+ {
+  "type": "co",
+  "a": "edict",
+  "b": "morpheme"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "emit"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "destroy"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "eject"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "abduct"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "defer"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "scribe"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "graphic"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "phone"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "bionic"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "deform"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "asterisk"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "audio"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "accept"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "incur"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "duress"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "flex"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "logic"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "append"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "attain"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "evoke"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "avert"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "core"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "cape"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "geology"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "hydrate"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "thermal"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "chronic"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "mortal"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "annals"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "apathy"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "terrain"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "democrat"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "sonic"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "corps"
+ },
+ {
+  "type": "co",
+  "a": "visa",
+  "b": "morpheme"
+ },
+ {
+  "type": "co",
+  "a": "emit",
+  "b": "destroy"
+ },
+ {
+  "type": "co",
+  "a": "emit",
+  "b": "eject"
+ },
+ {
+  "type": "co",
+  "a": "emit",
+  "b": "abduct"
+ },
+ {
+  "type": "co",
+  "a": "emit",
+  "b": "defer"
+ },
+ {
+  "type": "syn",
+  "a": "predict",
+  "b": "prediction"
+ },
+ {
+  "type": "syn",
+  "a": "describe",
+  "b": "description"
+ },
+ {
+  "type": "syn",
+  "a": "format",
+  "b": "formal"
+ },
+ {
+  "type": "syn",
+  "a": "transform",
+  "b": "transformation"
+ },
+ {
+  "type": "syn",
+  "a": "construct",
+  "b": "construction"
+ },
+ {
+  "type": "syn",
+  "a": "instruct",
+  "b": "instruction"
+ },
+ {
+  "type": "syn",
+  "a": "prescribe",
+  "b": "prescription"
+ },
+ {
+  "type": "syn",
+  "a": "spectator",
+  "b": "spectacle"
+ },
+ {
+  "type": "syn",
+  "a": "photography",
+  "b": "photograph"
+ },
+ {
+  "type": "ant",
+  "a": "accept",
+  "b": "reject"
+ }
+]

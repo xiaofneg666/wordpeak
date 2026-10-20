@@ -1,0 +1,89 @@
+{
+  "title": "The Secret Life of Word Roots",
+  "level": 3,
+  "type": "reading",
+  "sentences": [
+    { "en": "If you could see through the cover of an English dictionary, you would notice something surprising.", "zh": "如果你能透过英语词典的封面看进去，你会注意到一件奇怪的事。" },
+    { "en": "English words are not strangers to each other.", "zh": "英语单词之间并非毫不相干的陌生人。" },
+    { "en": "Thousands of them belong to a small number of families, like cousins who share the same grandfather.", "zh": "成千上万的词属于少数几个家族，就像共有一位祖父的堂表兄弟姐妹。" },
+    { "en": "The head of each family is not a word at all, but a root: a short piece of ancient Latin that carries one basic meaning.", "zh": "每个家族的族长根本不是一个词，而是一个词根：一小段承载着单一基本含义的古老拉丁文。" },
+    { "en": "Consider the root spect, which comes from the Latin word meaning \"to look\".", "zh": "以词根 spect 为例，它来自拉丁语，意思是\"看\"。" },
+    { "en": "Add different beginnings and endings, and a whole family of words appears.", "zh": "加上不同的前缀和后缀，整整一个单词家族便浮现出来。" },
+    { "en": "When you inspect something, you look into it closely.", "zh": "当你 inspect（检查）某物时，你是往里仔细地看。" },
+    { "en": "A spectator is a person who looks at a game or a show.", "zh": "spectator（观众）就是观看比赛或演出的人。" },
+    { "en": "When you respect someone, you look up to them, again and again.", "zh": "当你 respect（尊敬）某人时，你是一再地抬头仰望他们。" },
+    { "en": "In retrospect means looking back at the past.", "zh": "in retrospect 意为回顾过去。" },
+    { "en": "And a prospect is a possible future that you look forward to.", "zh": "而 prospect（前景）是你向前眺望的那个可能的未来。" },
+    { "en": "One root, ten doors.", "zh": "一个词根，十扇门。" },
+    { "en": "Learn one key, and a whole corridor opens.", "zh": "掌握一把钥匙，整条走廊便向你敞开。" },
+    { "en": "Now look at struct, which means \"to build\".", "zh": "再看 struct，它的意思是\"建造\"。" },
+    { "en": "To construct a bridge is to build it, piece by piece.", "zh": "construct（建造）一座桥，就是把它一块一块地建起来。" },
+    { "en": "A structure is anything that has been built, from a bird's nest to a skyscraper.", "zh": "structure（结构、建筑物）指任何被建造出来的东西，从鸟窝到摩天大楼。" },
+    { "en": "To instruct a student is, in a beautiful sense, to build knowledge inside them.", "zh": "instruct（教导）一个学生，从某种美妙的意义上说，是在他心里建造知识。" },
+    { "en": "And destroy simply means to un-build something: the Latin prefix de- takes the building apart.", "zh": "而 destroy（摧毁）的意思就是\"拆掉\"：拉丁前缀 de- 把建筑物拆散。" },
+    { "en": "Port means \"to carry\".", "zh": "port 的意思是\"携带、搬运\"。" },
+    { "en": "It hides inside transport (to carry across), import (to carry into a country), and export (to carry out).", "zh": "它藏在 transport（运输，横着搬）、import（进口，搬进来）和 export（出口，搬出去）里面。" },
+    { "en": "A portable radio is light enough to be carried by one hand.", "zh": "portable 收音机轻到一只手就能拎走。" },
+    { "en": "A porter is a person whose whole job is to carry travelers' bags.", "zh": "porter（搬运工）就是以替旅客搬行李为业的人。" },
+    { "en": "Even the word report contains this root: a report carries information back to someone.", "zh": "连 report 这个词里也藏着它：report（报告）就是把信息搬回去交给别人。" },
+    { "en": "And opportunity? Sailors once used it for a favorable wind that carried a ship safely toward port.", "zh": "那 opportunity 呢？水手们曾用它指那阵把船稳稳送向港口的顺风。" },
+    { "en": "The root ject means \"to throw\".", "zh": "词根 ject 的意思是\"扔、投掷\"。" },
+    { "en": "To reject a plan is to throw it back.", "zh": "reject（拒绝）一个计划，就是把它扔回去。" },
+    { "en": "To eject something is to throw it out.", "zh": "eject（弹出、驱逐）就是把它扔出去。" },
+    { "en": "To inject medicine is to throw it into the body through a needle.", "zh": "inject（注射）就是通过针头把药液掷入体内。" },
+    { "en": "And when you object to an idea, you throw your own opinion in its way.", "zh": "而当你 object（反对）一个观点时，你是把自己的意见拦在了它的去路上。" },
+    { "en": "A project, such as a school science project, is literally a plan thrown forward into the future.", "zh": "project（项目，如学校的科学项目），字面意思就是投向未来的一份计划。" },
+    { "en": "What is truly amazing is where these roots come from.", "zh": "更令人惊叹的是这些词根的来历。" },
+    { "en": "More than two thousand years ago, Roman soldiers, merchants, and teachers spread Latin across Europe.", "zh": "两千多年前，罗马的士兵、商人和教师把拉丁语传遍了欧洲。" },
+    { "en": "After the Roman Empire fell, Latin did not die; it simply changed its clothes.", "zh": "罗马帝国衰亡后，拉丁语并没有死，它只是换了一身衣裳。" },
+    { "en": "It transformed slowly into French, Italian, Spanish, and the other Romance languages.", "zh": "它慢慢 transformed（转变）为法语、意大利语、西班牙语等罗曼语族语言。" },
+    { "en": "In 1066, French-speaking rulers arrived in England, and their vocabulary was imported into English like goods into a harbor.", "zh": "1066年，讲法语的统治者来到英格兰，他们的词汇像进港的货物一样被 imported（引入）英语。" },
+    { "en": "That is why English often has two words for one idea: a plain one like \"begin\" beside a Latin-flavored one like \"commence\".", "zh": "这就是为什么英语常为一个意思备两个词：朴素的 begin，与带着拉丁味的 commence。" },
+    { "en": "Roots are not only Latin, of course; Greek also donated generously.", "zh": "词根当然不只来自拉丁语，希腊语也十分慷慨。" },
+    { "en": "Bio means \"life\", so biology is the study of living things.", "zh": "bio 意为\"生命\"，所以 biology 是研究生物的学问。" },
+    { "en": "Graph means \"to write\", so a photograph is \"light writing\" and a biography is \"life writing\".", "zh": "graph 意为\"写\"，所以 photograph 是\"光的书写\"，biography 是\"人生的书写\"。" },
+    { "en": "Phon means \"sound\": a telephone carries \"far sound\", and a symphony puts \"sounds together\".", "zh": "phon 意为\"声音\"：telephone 传送\"远方的声音\"，symphony 则把\"声音放在一起\"。" },
+    { "en": "Once you begin to notice roots, you see them everywhere, like a hidden pattern printed under the surface of the language.", "zh": "一旦你开始留意词根，你会发现它们无处不在，像印在语言表层之下的一幅隐藏图案。" },
+    { "en": "Even scientists use the trick: when doctors invent a new medical term, they usually construct it from these same roots, like bricks.", "zh": "连科学家都用这一招：医生发明新医学术语时，通常也用这些词根像砌砖一样 construct 出来。" },
+    { "en": "For a Chinese student, this is very good news.", "zh": "对中国学生来说，这是个天大的好消息。" },
+    { "en": "You do not need to memorize ten thousand words one by one.", "zh": "你不必一个一个地死记一万个单词。" },
+    { "en": "You need perhaps two hundred roots, and then many new words will introduce themselves to you, already half familiar.", "zh": "你也许只需两百个词根，然后许多生词便会主动向你自我介绍——你已经对它们眼熟了。" },
+    { "en": "Of course, roots cannot predict every meaning; languages are full of surprises and stubborn exceptions.", "zh": "当然，词根不能 predict（预测）每个词义；语言里满是意外和固执的例外。" },
+    { "en": "But they can always offer a reliable first guess, and confidence is half the battle in reading.", "zh": "但它们总能给出靠谱的第一猜测，而信心正是阅读这场战役的一半胜算。" },
+    { "en": "So the next time you meet a long, frightening English word, do not panic.", "zh": "所以下次遇到一个又长又吓人的英语单词时，别慌。" },
+    { "en": "Inspect it calmly, look for a familiar root in the middle, and let the word tell you its own history.", "zh": "冷静地 inspect（审视）它，在词中寻找那个熟悉的词根，让这个词亲口讲出自己的历史。" },
+    { "en": "In retrospect, you may wonder why English ever looked so difficult.", "zh": "回头看（in retrospect），你也许会奇怪：英语当初怎么会显得那么难。" }
+  ],
+  "questions": [
+    {
+      "q": "What does the root \"spect\" mean?",
+      "options": ["To build.", "To look.", "To carry.", "To throw."],
+      "answer": 1,
+      "explain": "\"the root spect, which comes from the Latin word meaning 'to look'\" —— spect = 看。"
+    },
+    {
+      "q": "The word \"report\" contains the root \"port\". What does this tell us about its original meaning?",
+      "options": ["It carries information back to someone.", "It looks carefully at facts.", "It builds a strong argument.", "It throws away old news."],
+      "answer": 0,
+      "explain": "\"a report carries information back to someone\" —— 报告就是把信息\"搬\"回去。"
+    },
+    {
+      "q": "Why does English often have two words for one idea, like \"begin\" and \"commence\"?",
+      "options": ["English speakers simply love synonyms.", "French-speaking rulers brought many Latin-based words to England in 1066.", "Scientists created the longer words.", "Early dictionaries had printing errors."],
+      "answer": 1,
+      "explain": "1066年法语统治者的词汇\"像进港货物一样\"融入英语，形成本族词与拉丁味词并存的格局。"
+    },
+    {
+      "q": "What does the root \"graph\" mean in words like photograph and biography?",
+      "options": ["Sound.", "Life.", "To write.", "Light."],
+      "answer": 2,
+      "explain": "\"Graph means 'to write'\" —— photograph 是\"光的书写\"，biography 是\"人生的书写\"。"
+    },
+    {
+      "q": "According to the passage, how do word roots help learners most?",
+      "options": ["They make grammar unnecessary.", "They give a reliable first guess at new words' meanings.", "They improve pronunciation automatically.", "They explain the history of Chinese characters."],
+      "answer": 1,
+      "explain": "结尾：词根虽不能 predict 每个词义，但总能给出\"reliable first guess\"，信心是阅读制胜的一半。"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+node_modules/
+frontend/node_modules/
+backend-node/node_modules/
+frontend/dist/
+.claude-tmp/
+.shots/
+*.log
+.server.pid
+data-sources/
+
+# 本地私密配置与运行时数据(永不入库;学习数据备份走应用内导出)
+.env
+*.db
+*.db-shm
+*.db-wal
+*.bak-*
+__pycache__/
+# 词库丰富脚本产物(可由 enrich_words.py 重新生成)
+backend-node/scripts/final_run*.txt
+backend-node/scripts/apply_log.txt
+backend-node/scripts/enrich-candidates.json

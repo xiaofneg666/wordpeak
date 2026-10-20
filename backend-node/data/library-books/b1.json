@@ -1,0 +1,288 @@
+{
+  "id": "lib-first-speech",
+  "title": "米娅的第一次演讲",
+  "en_title": "Mia's First Speech",
+  "author": "WordVerse Archive",
+  "region": "literary",
+  "level": 1,
+  "one_line": "一个害羞女孩走向麦克风的那一周。",
+  "word_focus": ["dict", "phon", "scrib"],
+  "chapters": [
+    {
+      "no": 1,
+      "title": "点名的下午",
+      "sentences": [
+        { "en": "Mia was the quietest girl in her class.", "zh": "米娅是班里最安静的女孩。" },
+        { "en": "She liked the seat near the window, far from the teacher's desk.", "zh": "她喜欢靠窗的座位，离老师的讲台远远的。" },
+        { "en": "When the teacher asked a question, Mia knew the answer, but she never put up her hand.", "zh": "老师提问时，米娅明明知道答案，却从来不举手。" },
+        { "en": "On Monday, the teacher stood up and clapped her hands once.", "zh": "星期一，老师站起身，拍了一下手。" },
+        { "en": "\"Next week we will have a school speech contest,\" she said.", "zh": "“下周我们要举行一场学校演讲比赛。”她说。" },
+        { "en": "She dictated the rules to the class, slow and clear.", "zh": "她把规则一条条口述给全班，又慢又清楚。" },
+        { "en": "Every speaker gets three minutes and one microphone.", "zh": "每个演讲者有三分钟和一支麦克风。" },
+        { "en": "The winner will read the speech again at the school party on Friday.", "zh": "冠军要在星期五的学校晚会上把演讲再读一遍。" },
+        { "en": "You must pick a topic and write it all by yourself.", "zh": "你必须自己选题目，自己把它写出来。" },
+        { "en": "The other students smiled and talked about the prize.", "zh": "其他同学都笑了，兴冲冲地谈论奖品。" },
+        { "en": "The teacher wrote every name on the board, and Mia's name went up too.", "zh": "老师把每个名字写在黑板上，米娅的名字也上了榜。" },
+        { "en": "Mia's face turned red, and she stared at her desk.", "zh": "米娅的脸红了，眼睛盯着课桌。" },
+        { "en": "In her head, a small voice said: no, no, not me.", "zh": "她脑袋里有个小小的声音说：不，不，别是我。" },
+        { "en": "The teacher saw her red face and predicted: \"Mia, you can grow.\"", "zh": "老师看见她通红的脸，预言道：“米娅，你会成长。”" },
+        { "en": "Mia did not believe it, not even a little.", "zh": "米娅不信，一点都不信。" },
+        { "en": "She wanted to say, \"Please pick someone else, anyone else.\"", "zh": "她想说：“请换个人吧，换谁都行。”" },
+        { "en": "But no sound came out of her mouth that day.", "zh": "可那天，她嘴里一个字也没说出来。" },
+        { "en": "That evening, she called her grandfather on the telephone.", "zh": "那天晚上，她打电话给爷爷。" },
+        { "en": "His telephone was old and black, but his voice was warm like bread.", "zh": "爷爷的电话又旧又黑，声音却像面包一样暖。" },
+        { "en": "Grandpa listened to her small, shaky voice for a long time.", "zh": "爷爷听她那细小发抖的声音，听了很久。" },
+        { "en": "\"Tell me everything,\" he said, \"from the first word to the last.\"", "zh": "“把一切讲给我听，”他说，“从第一个字讲到最后一个字。”" },
+        { "en": "Then he described his own first speech, many years ago.", "zh": "然后他讲起自己很多年前的第一次演讲。" },
+        { "en": "He was fourteen, and his legs shook like leaves in the wind.", "zh": "那年他十四岁，两条腿抖得像风里的叶子。" },
+        { "en": "He forgot his first line, and the whole class laughed.", "zh": "他忘了第一句台词，全班笑成一片。" },
+        { "en": "But he stood there, took one breath, and started again.", "zh": "但他站在那儿，吸了一口气，重新开始。" },
+        { "en": "\"A shy bird still knows how to sing,\" he said.", "zh": "他说：“害羞的鸟也知道怎么唱歌。”" },
+        { "en": "\"Your voice is not lost, my girl. It is only hiding.\"", "zh": "“你的声音没有丢，孩子，它只是躲起来了。”" },
+        { "en": "He told her to write a little script every day after school.", "zh": "他让她每天放学后写一小段稿子。" },
+        { "en": "He gave her his old dictionary for the road ahead.", "zh": "他把那本旧词典给了她，当作路上的礼物。" },
+        { "en": "Inside the front cover, he had written one word: prediction.", "zh": "词典封面的内侧，他写过一个词：prediction（预言）。" },
+        { "en": "\"My prediction is simple,\" Grandpa said. \"You will speak, and people will listen.\"", "zh": "“我的预言很简单，”爷爷说，“你会开口，人们会听你说。”" },
+        { "en": "Mia held the heavy dictionary and, for the first time, almost smiled.", "zh": "米娅抱着那本沉甸甸的词典，第一次，几乎笑了。" }
+      ],
+      "questions": [
+        {
+          "q": "What did the teacher announce on Monday?",
+          "options": ["A school trip", "A speech contest", "A music show", "A sports day"],
+          "answer": 1,
+          "explain": "第5句 \"Next week we will have a school speech contest,\" she said.，老师宣布的是学校演讲比赛。"
+        },
+        {
+          "q": "How long does every speaker get?",
+          "options": ["One minute", "Two minutes", "Three minutes", "Five minutes"],
+          "answer": 2,
+          "explain": "第7句 \"Every speaker gets three minutes and one microphone.\"，每人三分钟。"
+        },
+        {
+          "q": "What did Grandpa give Mia for the road ahead?",
+          "options": ["A new pen", "His old dictionary", "A bus ticket", "A small cat"],
+          "answer": 1,
+          "explain": "第29句 \"He gave her his old dictionary for the road ahead.\"，他给了她那本旧词典。"
+        },
+        {
+          "q": "Why did Mia stare at her desk when the names went on the board?",
+          "options": ["She was tired and sleepy", "She was afraid and hoped the teacher would not pick her", "She lost her pen under the desk", "She saw something outside the window"],
+          "answer": 1,
+          "explain": "第12句她“脸红了，盯着课桌”，第13句心里的小声音说“不，不，别是我”，可以推断她是害怕被选中。"
+        },
+        {
+          "q": "In 第31句 \"My prediction is simple,\" the word prediction comes from the root dict (to say). What does it mean?",
+          "options": ["A thing someone says about the future before it happens", "A long trip to another city", "A kind of loud music", "A test with many questions"],
+          "answer": 0,
+          "explain": "第30-31句：pre-（提前）+ dict（说）→ 提前说出的关于未来的话，即“预言、预测”。"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "涂涂改改的周六",
+      "sentences": [
+        { "en": "On Saturday morning, Mia sat down at the kitchen table with a pen and paper.", "zh": "星期六早晨，米娅带着一支笔和几张纸，坐到厨房的桌前。" },
+        { "en": "Her topic was ready: my street, my school, my cat.", "zh": "题目早想好了：我的街道，我的学校，我的猫。" },
+        { "en": "She wanted to describe the things she loved, but the words came out small and gray.", "zh": "她想写自己心爱的东西，可写出来的字又小又灰。" },
+        { "en": "She wrote a line, then she crossed it out.", "zh": "写了一行，划掉一行。" },
+        { "en": "She wrote another line, and that one died too.", "zh": "再写一行，那一行也死了。" },
+        { "en": "By ten o'clock, the paper had more holes than words.", "zh": "到十点钟，纸上的窟窿比字还多。" },
+        { "en": "Grandpa came over with his tea and sat down next to her.", "zh": "爷爷端着茶过来，在她身边坐下。" },
+        { "en": "\"Writing is like fishing,\" he said. \"First you catch a lot, then you choose.\"", "zh": "“写字就像钓鱼，”他说，“先钓一大堆，再挑。”" },
+        { "en": "So he gave her one rule: write everything first, change things later.", "zh": "于是他给她定了一条规矩：先把所有东西写下来，之后再改。" },
+        { "en": "Mia took a new page and started to scribble fast, without stopping.", "zh": "米娅翻开新的一页，开始飞快地涂写，不停笔。" },
+        { "en": "She described the bread shop, where the smell of warm bread met you at the door.", "zh": "她写面包店，暖面包的香味在门口就扑到你脸上。" },
+        { "en": "She described the rain, and how it made little rivers on the window glass.", "zh": "她写雨，写雨点怎样在窗玻璃上汇成小河。" },
+        { "en": "She described the old cinema, with its broken letters on the sign.", "zh": "她写老电影院，招牌上的字母掉了几个。" },
+        { "en": "She wrote about her cat, who slept on her school books every night.", "zh": "她写她的猫，每夜都睡在她的课本上。" },
+        { "en": "When a word was too hard, Grandpa's old dictionary gave the answer.", "zh": "碰到难词，爷爷那本旧词典给出答案。" },
+        { "en": "The dictionary smelled of old paper and other people's ideas.", "zh": "词典散发着旧纸和别人的点子的味道。" },
+        { "en": "Grandpa told her a story from the old days.", "zh": "爷爷给她讲了一个老故事。" },
+        { "en": "Long ago, before machines, a scribe copied every book by hand, one letter at a time.", "zh": "很久以前，还没有机器，抄写员用手抄每一本书，一个字母一个字母地抄。" },
+        { "en": "In every book he copied, the scribe hid a small postscript with a joke.", "zh": "他抄的每一本书里，抄写员都藏了一句带玩笑的附言。" },
+        { "en": "Grandpa still kept the manuscript of his own first speech, folded in his wallet.", "zh": "爷爷自己第一次演讲的手稿，如今还折在他的钱夹里。" },
+        { "en": "The paper was soft now, but the words were still alive.", "zh": "纸已经软了，字却还活着。" },
+        { "en": "\"The scribe could not fix his mistakes,\" he said, \"so every word had to be right the first time.\"", "zh": "“抄写员没法改错，”他说，“所以每个字都得一次写对。”" },
+        { "en": "Then he smiled like a doctor and prescribed her one page of scribbles a day.", "zh": "然后他像医生一样微笑，给她开了处方：每天一页涂鸦。" },
+        { "en": "Mia laughed out loud, and her fear got a little smaller.", "zh": "米娅放声笑了，害怕小了一点。" },
+        { "en": "Even the gray words began to show a little color.", "zh": "连那些灰色的字也开始显出一点颜色。" },
+        { "en": "Grandpa read her pages and described them with one word: alive.", "zh": "爷爷读她写的纸页，用一个词形容它们：活的。" },
+        { "en": "By midnight, her script was messy and full of arrows, but it was hers.", "zh": "到半夜，她的稿子乱糟糟，满是箭头，但是是她自己的。" },
+        { "en": "That night she added a small postscript of her own: day one, done.", "zh": "那天夜里，她加了一句自己的附言：第一天，完成。" }
+      ],
+      "questions": [
+        {
+          "q": "What rule did Grandpa give Mia for writing?",
+          "options": ["Write everything first, change things later", "Copy a famous speech", "Only write on rainy days", "Read a big book before you write"],
+          "answer": 0,
+          "explain": "第9句 \"So he gave her one rule: write everything first, change things later.\"，先全写下来，之后再改。"
+        },
+        {
+          "q": "What did the scribe hide in every book he copied?",
+          "options": ["A gold coin", "A small postscript with a joke", "A map of the city", "A photo of the king"],
+          "answer": 1,
+          "explain": "第19句 \"the scribe hid a small postscript with a joke\"，他藏了一句带玩笑的附言。"
+        },
+        {
+          "q": "What did Grandpa still keep folded in his wallet?",
+          "options": ["A photo of Mia", "A bus ticket", "The manuscript of his first speech", "A page from the dictionary"],
+          "answer": 2,
+          "explain": "第20句 \"Grandpa still kept the manuscript of his own first speech, folded in his wallet.\"，是他第一次演讲的手稿。"
+        },
+        {
+          "q": "The words scribbled, scribe, and postscript all share the root scrib. What does this root mean?",
+          "options": ["To speak", "To hear", "To run", "To write"],
+          "answer": 3,
+          "explain": "第10句 scribbled（涂写）、第18句 scribe（抄写员）、第28句 postscript（附言）——词根 scrib 意为“写”。"
+        },
+        {
+          "q": "Why did Mia's fear get a little smaller that Saturday?",
+          "options": ["Because she won a prize", "Because Grandpa wrote the speech for her", "Because she scribbled freely, laughed with Grandpa, and saw her words come alive", "Because the teacher called her brave on the phone"],
+          "answer": 2,
+          "explain": "第10句她放开手快写不再停，第24句她放声大笑、害怕变小，第26句爷爷形容她的文字“活着”，可推断是自由地写和欢笑让恐惧变小。"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "麦克风之夜",
+      "sentences": [
+        { "en": "On Wednesday evening, Grandpa had a key to the school hall, because he cleaned the windows there.", "zh": "星期三晚上，爷爷有学校礼堂的钥匙，因为他在那儿擦窗户。" },
+        { "en": "The hall was dark and empty, with a hundred quiet chairs.", "zh": "礼堂又黑又空，一百把椅子安安静静。" },
+        { "en": "Outside, the rain played a soft symphony on the big roof.", "zh": "外面，雨在屋顶上奏着一支轻轻的交响乐。" },
+        { "en": "On the stage stood one big microphone on a metal pole.", "zh": "台上，一根金属杆上立着一支大麦克风。" },
+        { "en": "Mia walked up the steps and stood behind it.", "zh": "米娅走上台阶，站到麦克风后面。" },
+        { "en": "The microphone was broken; it had no power and no sound.", "zh": "麦克风坏了，没有电，也没有声音。" },
+        { "en": "Grandpa tapped it twice, but nothing happened.", "zh": "爷爷敲了它两下，什么也没发生。" },
+        { "en": "Mia stood in the quiet and felt very, very small.", "zh": "米娅站在安静里，觉得自己非常非常小。" },
+        { "en": "Grandpa thought for a minute, and then he smiled his slow smile.", "zh": "爷爷想了一会儿，然后慢慢笑了。" },
+        { "en": "He went out to his bicycle and came back with something in his hands.", "zh": "他出去走到自行车旁，捧着一样东西回来。" },
+        { "en": "It was his old telephone, the heavy black one from his young days.", "zh": "那是他的老电话，年轻时用的，黑色，很沉。" },
+        { "en": "He held the round receiver up like a microphone and cleared his throat.", "zh": "他把圆圆的听筒举起来当麦克风，清了清嗓子。" },
+        { "en": "\"Good evening, ladies and gentlemen,\" he said in a big voice.", "zh": "“女士们，先生们，晚上好。”他用大大的声音说。" },
+        { "en": "Mia laughed, then she took the receiver in both hands.", "zh": "米娅笑了，用双手接过听筒。" },
+        { "en": "Her first words came out wrong, one after another, like dropped plates.", "zh": "她最初的话一个接一个出错，像掉在地上的盘子。" },
+        { "en": "\"Slower,\" Grandpa said. \"A word is not a race.\"", "zh": "“慢一点，”爷爷说，“词不是赛跑。”" },
+        { "en": "He said each sound slowly, like phonics for little children.", "zh": "他把每个音慢慢地说，像教小孩的拼读课。" },
+        { "en": "Then Mia said the word again, and this time it landed on its feet.", "zh": "米娅又说了一遍那个词，这一次，它稳稳落了地。" },
+        { "en": "Grandpa's verdict was short and kind: \"Better, much better.\"", "zh": "爷爷的评语又短又和气：“好些了，好多了。”" },
+        { "en": "That week, Grandpa gave her a short dictation every night after dinner.", "zh": "那个星期，爷爷每天晚饭后给她做一小段听写。" },
+        { "en": "He read one line, and she wrote it down without peeking at his paper.", "zh": "他读一行，她写一行，绝不偷看他的纸。" },
+        { "en": "Little by little, her diction grew clear, word by word.", "zh": "一点一点，她的吐字一个词一个词地清晰起来。" },
+        { "en": "On Friday she read a whole page, and the empty hall listened.", "zh": "星期五，她读完了一整页，空空的礼堂在听。" },
+        { "en": "Her voice filled the hall from wall to wall.", "zh": "她的声音从这面墙灌到那面墙。" },
+        { "en": "\"The chairs are your audience now,\" Grandpa said, \"and they already love you.\"", "zh": "“现在这些椅子就是你的听众，”爷爷说，“而且它们已经爱上你了。”" },
+        { "en": "Mia read the page again, this time with her head up.", "zh": "米娅又读了一遍，这一次抬起了头。" },
+        { "en": "The words were not perfect, but they were loud.", "zh": "那些词并不完美，但是很响亮。" },
+        { "en": "Grandpa made his prediction for the next week: she would stand on that stage and smile.", "zh": "爷爷做了他对下周的预言：她会站上那个台，微笑。" },
+        { "en": "That night, Mia slept with the old receiver next to her bed.", "zh": "那天夜里，米娅把那只旧听筒放在床边，挨着它睡。" },
+        { "en": "It had heard every shy word, and it kept them all a secret.", "zh": "它听见过每一句害羞的话，并且替她全部保密。" }
+      ],
+      "questions": [
+        {
+          "q": "Why did Grandpa have a key to the school hall?",
+          "options": ["He was the head teacher", "He cleaned the windows there", "He kept his bicycle there", "Mia gave it to him"],
+          "answer": 1,
+          "explain": "第1句 \"because he cleaned the windows there\"，因为他在礼堂擦窗户。"
+        },
+        {
+          "q": "What did Grandpa hold up like a microphone?",
+          "options": ["A wooden spoon", "The round receiver of his old telephone", "A paper cup", "A long stick"],
+          "answer": 1,
+          "explain": "第12句 \"He held the round receiver up like a microphone\"，是老电话的圆听筒。"
+        },
+        {
+          "q": "What did Grandpa give Mia every night after dinner that week?",
+          "options": ["A short dictation", "A new notebook", "A music lesson", "A glass of milk"],
+          "answer": 0,
+          "explain": "第20句 \"Grandpa gave her a short dictation every night after dinner.\"，每晚一小段听写。"
+        },
+        {
+          "q": "In 第20句, a \"dictation\" is . . .",
+          "options": ["A race on the playground", "A song for two voices", "A test where you listen to words and write them down", "A picture drawn from memory"],
+          "answer": 2,
+          "explain": "第20-21句：爷爷读一行、米娅写一行；词根 dict 意为“说”，dictation 就是“听写”。"
+        },
+        {
+          "q": "What do 第23句 to 第27句 show about Mia by Friday?",
+          "options": ["She still could not read in front of others", "Her voice became loud and clear through practice", "She decided to quit the contest", "She needed Grandpa to read the page for her"],
+          "answer": 1,
+          "explain": "第23句她读完一整页、第24句声音灌满礼堂、第27句“不完美但响亮”，可推断练习让她的声音变大变清楚了。"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "演讲日",
+      "sentences": [
+        { "en": "The big day came with a clear blue sky.", "zh": "大日子来了，天空蓝得干净。" },
+        { "en": "Mia ate one piece of bread and could not eat more.", "zh": "米娅吃了一片面包，再也吃不下第二片。" },
+        { "en": "Grandpa knocked on the door in his best brown jacket.", "zh": "爷爷穿着他最好的棕色外套来敲门。" },
+        { "en": "\"A speech is just a big letter,\" he said, \"and the hall is your paper.\"", "zh": "“演讲不过是一封大一点的信，”他说，“礼堂就是你的纸。”" },
+        { "en": "The school hall was full, and every seat was taken.", "zh": "学校礼堂坐满了，一个空位都没有。" },
+        { "en": "Children from other classes stood along the walls.", "zh": "别的班的孩子贴着墙站了一排。" },
+        { "en": "Even the teachers from the office came to listen.", "zh": "连办公室的老师们也来听了。" },
+        { "en": "Behind the curtain, Mia held her script in two cold hands.", "zh": "幕布后面，米娅用两只冰冷的手攥着稿子。" },
+        { "en": "The other speakers looked calm, and their pages looked clean.", "zh": "别的演讲者看起来都很镇定，他们的纸页干干净净。" },
+        { "en": "A boy with a loud voice spoke about basketball.", "zh": "一个大嗓门的男孩讲篮球。" },
+        { "en": "A tall girl spoke about the sea, with her arms like waves.", "zh": "一个高个子女孩讲大海，两只手臂像波浪一样摆。" },
+        { "en": "Then the teacher called Mia's name, and the hall went quiet.", "zh": "然后老师叫到米娅的名字，礼堂静了下来。" },
+        { "en": "Mia walked out and stood behind the microphone.", "zh": "米娅走出来，站到麦克风后面。" },
+        { "en": "The light was strong, and for one second she saw nothing.", "zh": "灯光很亮，有一秒钟她什么也看不见。" },
+        { "en": "Then she found Grandpa's face, third row, near the window.", "zh": "然后她找到了爷爷的脸，第三排，靠窗。" },
+        { "en": "He lifted one thumb, slow and sure.", "zh": "他竖起大拇指，慢慢的，稳稳的。" },
+        { "en": "She took one breath and said her first line.", "zh": "她吸了一口气，说出了第一句。" },
+        { "en": "Her diction was slow and clear, like water after rain.", "zh": "她的吐字又慢又清楚，像雨后的水。" },
+        { "en": "She described the bread shop, the rain, and the old cinema.", "zh": "她描写了面包店、雨和老电影院。" },
+        { "en": "She described her cat, who slept on her school books.", "zh": "她描写了她的猫，那只睡在她课本上的猫。" },
+        { "en": "Somewhere in the middle, she forgot one word.", "zh": "讲到一半，她忘了一个词。" },
+        { "en": "She looked at Grandpa, and the word came back to her.", "zh": "她看向爷爷，那个词就回来了。" },
+        { "en": "At the end, people put their hands together for a long time.", "zh": "结束时，大家的手拍在一起，拍了很久。" },
+        { "en": "The sound of the clapping was warm on her face.", "zh": "掌声落在她脸上，暖暖的。" },
+        { "en": "Mia did not win first prize; the tall girl from Class Two won.", "zh": "米娅没有拿第一；二班那个高个子女孩赢了。" },
+        { "en": "But Grandpa's prediction came true, every word of it.", "zh": "但爷爷的预言应验了，一字不差。" },
+        { "en": "Mia stood in the light and smiled at everyone.", "zh": "米娅站在光里，朝大家微笑。" },
+        { "en": "Later, the teacher dictated a short note of praise to the class.", "zh": "后来，老师向全班口述了一小段赞语。" },
+        { "en": "The word for Mia was: brave.", "zh": "给米娅的那个词是：勇敢。" },
+        { "en": "The school newspaper even asked for a transcript of her speech.", "zh": "校报甚至来要她演讲的文字稿。" },
+        { "en": "That night, at the kitchen table, Mia opened her notebook.", "zh": "那天夜里，在厨房桌边，米娅翻开笔记本。" },
+        { "en": "She wrote a small postscript at the bottom of the page: I spoke.", "zh": "她在页脚写下一句小小的附言：我开口了。" },
+        { "en": "Under it, Grandpa added one more word: beautifully.", "zh": "在下面，爷爷又添了一个词：漂亮极了。" },
+        { "en": "The old dictionary stood on the shelf, full of tomorrow's words.", "zh": "那本旧词典立在书架上，装满了明天的词。" }
+      ],
+      "questions": [
+        {
+          "q": "Where did Mia find Grandpa's face?",
+          "options": ["First row", "Second row", "Third row, near the window", "Behind the curtain"],
+          "answer": 2,
+          "explain": "第15句 \"Then she found Grandpa's face, third row, near the window.\"，第三排靠窗。"
+        },
+        {
+          "q": "What happened when Mia forgot one word in the middle?",
+          "options": ["She stopped and cried", "She looked at Grandpa, and the word came back to her", "The teacher told her the word", "She skipped to the end of the speech"],
+          "answer": 1,
+          "explain": "第21-22句 \"Somewhere in the middle, she forgot one word. She looked at Grandpa, and the word came back to her.\"，她看向爷爷，词就想起来了。"
+        },
+        {
+          "q": "Who won first prize?",
+          "options": ["Mia", "The boy who spoke about basketball", "A teacher from the office", "The tall girl from Class Two"],
+          "answer": 3,
+          "explain": "第25句 \"the tall girl from Class Two won\"，二班的高个子女孩赢了。"
+        },
+        {
+          "q": "In 第30句, a \"transcript\" of her speech is . . .",
+          "options": ["A ticket for the show", "A photo of the speaker", "A prize for the winner", "A written copy of the spoken words"],
+          "answer": 3,
+          "explain": "第30句校报要的是 transcript；trans-（穿过）+ scrib（写）→ 把说出的话写成文字，即“文字稿”。"
+        },
+        {
+          "q": "Even without first prize, why was the day a victory for Mia?",
+          "options": ["Because everyone laughed at her", "Because she beat her fear, spoke in the light, and wrote \"I spoke\" in her notebook", "Because Grandpa paid her a prize", "Because the contest was cancelled"],
+          "answer": 1,
+          "explain": "第26句爷爷的预言应验、第27句她站在光里微笑、第32句附言“I spoke”，可推断她战胜了害怕，这对她就是胜利。"
+        }
+      ]
+    }
+  ]
+}

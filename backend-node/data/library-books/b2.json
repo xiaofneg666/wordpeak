@@ -1,0 +1,356 @@
+{
+  "id": "lib-lighthouse",
+  "title": "灯塔看守人的信",
+  "en_title": "The Lighthouse Keeper's Letters",
+  "author": "WordVerse Archive",
+  "region": "literary",
+  "level": 1,
+  "one_line": "灯塔老人与孙女之间的五封海角来信。",
+  "word_focus": ["vis", "port", "hydro"],
+  "chapters": [
+    {
+      "no": 1,
+      "title": "第一封信",
+      "sentences": [
+        { "en": "Dear Nora, this is my first letter to you from the lighthouse.", "zh": "亲爱的诺拉，这是我从灯塔写给你的第一封信。" },
+        { "en": "The lamp goes out at six every morning, when the sky turns pink.", "zh": "灯每天早上六点熄灭，那时天空正泛出粉色。" },
+        { "en": "I climb down the round stairs and open the little window.", "zh": "我爬下旋转的楼梯，推开那扇小窗。" },
+        { "en": "First, I make tea and watch the sea wake up.", "zh": "先泡一杯茶，看海醒来。" },
+        { "en": "The sea was invisible in the dark, but I knew it was there.", "zh": "黑暗里看不见海，但我知道它在那儿。" },
+        { "en": "Now the morning sun makes the water visible again, silver and green.", "zh": "现在晨光让海水重新看得见了，银绿色的一片。" },
+        { "en": "My eyes are old, like two cloudy windows.", "zh": "我的眼睛老了，像两扇蒙了雾的窗。" },
+        { "en": "The doctor in town says my eyes are like eighty-year-old glass.", "zh": "镇上的医生说，我的眼睛像八十年的旧玻璃。" },
+        { "en": "But my vision is still good enough to read your letters twice.", "zh": "但我的视力还够用，够把你的信读上两遍。" },
+        { "en": "A lighthouse provides light for every ship at night.", "zh": "灯塔为夜里每一艘船提供光。" },
+        { "en": "The light says: here are rocks, stay away, come to the safe water instead.", "zh": "这光在说：这里有礁石，避开它，到安全的水域来。" },
+        { "en": "A keeper must supervise the lamp until the sun comes up.", "zh": "看守人必须守着灯，直到太阳升起来。" },
+        { "en": "I clean the glass every day, so the light stays strong and white.", "zh": "我每天擦玻璃，好让光又白又亮。" },
+        { "en": "From my window I can see the small seaport down the hill.", "zh": "从我的窗口能望见山下那座小海港。" },
+        { "en": "Its little roofs stand in a line like sleeping birds.", "zh": "一排小屋顶站得整整齐齐，像睡着了的鸟。" },
+        { "en": "At night, the port turns on its yellow lamps, one by one.", "zh": "夜里，港口一盏一盏地亮起黄色的灯。" },
+        { "en": "Sometimes I watch the ships come in, small as toys from up here.", "zh": "有时我看船进港，从这儿望下去小得像玩具。" },
+        { "en": "Each ship brings the port fish, wood, or visitors from far lands.", "zh": "每艘船给港里带来鱼、木材，或是远方的客人。" },
+        { "en": "You are far away in the big city now, my dear.", "zh": "你现在在大城市里，离我很远，亲爱的。" },
+        { "en": "Your mother sent me a video of your new street on her telephone.", "zh": "你妈妈用手机给我发了一段你家新街道的视频。" },
+        { "en": "I played it three times, and I laughed every time.", "zh": "我放了三遍，每遍都笑出了声。" },
+        { "en": "The city is loud, I know, but please find quiet places too.", "zh": "城里很吵，我知道，但请你也要找些安静的地方。" },
+        { "en": "I write these letters twice and revise every word, because words are my light now.", "zh": "这些信我写两遍，每个词都改，因为如今词语就是我的光。" },
+        { "en": "Do not worry about me; the sea is quiet this week.", "zh": "别担心我，这周的海很安静。" },
+        { "en": "The gulls fish near the rocks, and the wind sleeps.", "zh": "海鸥在礁石边捕鱼，风也睡着了。" },
+        { "en": "Old Tom from the port office brings me bread every Tuesday.", "zh": "港务办公室的老汤姆每周二给我送面包。" },
+        { "en": "He climbs the hill slowly, and we drink tea and talk about you.", "zh": "他慢慢爬上山，我们喝着茶，说来说去都是你。" },
+        { "en": "He says hello to you, and he wants a photo of your school.", "zh": "他向你问好，还想要一张你学校的照片。" },
+        { "en": "Keep your eyes open there, and keep your heart open too.", "zh": "在那边睁大眼睛，也要敞开心。" },
+        { "en": "The sea taught me this: to look is to love.", "zh": "海教给我一个道理：去看，就是去爱。" },
+        { "en": "With love, your grandfather Silas, keeper of the light.", "zh": "爱你的爷爷，塞拉斯，守灯的人。" }
+      ],
+      "questions": [
+        {
+          "q": "When does the lamp go out every day?",
+          "options": ["At six in the morning", "At noon", "At six in the evening", "At midnight"],
+          "answer": 0,
+          "explain": "第2句 \"The lamp goes out at six every morning.\"，灯每天早上六点熄灭。"
+        },
+        {
+          "q": "What does the lighthouse provide for every ship at night?",
+          "options": ["Food and tea", "Light", "Maps of the sea", "Warm clothes"],
+          "answer": 1,
+          "explain": "第10句 \"A lighthouse provides light for every ship at night.\"，灯塔提供的是光。"
+        },
+        {
+          "q": "What did Nora's mother send to Silas?",
+          "options": ["A long letter", "A video of Nora's new street", "A box of tea", "A photo of the port"],
+          "answer": 1,
+          "explain": "第20句 \"Your mother sent me a video of your new street on her telephone.\"，是一段新街道的视频。"
+        },
+        {
+          "q": "In 第6句 the morning sun makes the water \"visible\" again. What does visible mean?",
+          "options": ["Easy to see", "Very deep", "Too cold", "Far away"],
+          "answer": 0,
+          "explain": "第5句 invisible（看不见）与第6句 visible 相对；词根 vis 意为“看”，visible 就是“看得见的”。"
+        },
+        {
+          "q": "Why does Silas write his letters twice and revise every word?",
+          "options": ["Because his eyes are bad and he always makes spelling mistakes", "Because words are his light now — they are his way of shining for Nora", "Because Tom checks every letter at the port office", "Because Nora asked him to write more"],
+          "answer": 1,
+          "explain": "第23句 \"I write these letters twice and revise every word, because words are my light now.\"，写信就是他为孙女发光的方式。"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "港口的日子",
+      "sentences": [
+        { "en": "Dear Nora, today I walked to the town to mail this letter.", "zh": "亲爱的诺拉，今天我下山去镇上寄这封信。" },
+        { "en": "The road goes down the hill to the old seaport.", "zh": "这条路一直下坡，通向老海港。" },
+        { "en": "It takes me one hour, because my legs are eighty too.", "zh": "走一个小时，因为我的腿也是八十岁了。" },
+        { "en": "Along the way, the sheep looked up and went back to their grass.", "zh": "一路上，羊群抬头看了一眼，又低头吃草去了。" },
+        { "en": "The port was full of noise and salt and morning sun.", "zh": "港口满是噪音、咸味和早晨的太阳。" },
+        { "en": "Big ships transport wood, fish, and fruit to other lands.", "zh": "大船把木材、鱼和水果运往别的地方。" },
+        { "en": "This month, one ship even brought two yellow cars from Japan.", "zh": "这个月，还有一艘船从日本运来两辆黄色的小汽车。" },
+        { "en": "The porters carry heavy boxes from morning to night.", "zh": "搬运工从早到晚扛着沉重的箱子。" },
+        { "en": "They sing when they work, one voice for every three boxes.", "zh": "他们干活时唱歌，三只箱子一个嗓子。" },
+        { "en": "The little shops import tea, sugar, and paper from far away.", "zh": "小商店从很远的地方进口茶叶、糖和纸。" },
+        { "en": "The tea smells like flowers, and the sugar comes in white mountains.", "zh": "茶闻起来像花，糖堆成一座座白色的小山。" },
+        { "en": "The town exports fish to many countries.", "zh": "这个镇向许多国家出口鱼。" },
+        { "en": "Fresh fish goes out in the evening, on ice, in fast trucks.", "zh": "鲜鱼傍晚运走，装在冰上，坐上快卡车。" },
+        { "en": "My old friend Tom works at the port office.", "zh": "我的老朋友汤姆在港务办公室工作。" },
+        { "en": "He writes a report about every ship that comes in.", "zh": "每艘进港的船，他都写一份报告。" },
+        { "en": "His desk is full of papers, but he knows every ship by heart.", "zh": "他满桌子都是纸，可每一艘船他都记在心上。" },
+        { "en": "He can tell you the name of every captain on this coast.", "zh": "他能报出这条海岸上每一位船长的名字。" },
+        { "en": "We drank tea in his office, and the cups were small and sweet.", "zh": "我们在他办公室喝茶，杯子小小的，茶甜甜的。" },
+        { "en": "Tom says young people leave for the city when an opportunity comes.", "zh": "汤姆说，机会一来，年轻人就往城里跑。" },
+        { "en": "\"The port is quiet work,\" he said, \"but the city is loud money.\"", "zh": "“港口是安静的活计，”他说，“城市是喧闹的钱。”" },
+        { "en": "I told him: money is a good boat, but love is the wind.", "zh": "我告诉他：钱是条好船，爱才是风。" },
+        { "en": "Tom laughed and wrote that down for his next report.", "zh": "汤姆笑了，把这句话记进了下一份报告。" },
+        { "en": "I had no passport when I was young, so I never left this coast.", "zh": "我年轻时没有护照，所以从没离开过这片海岸。" },
+        { "en": "The sea gave me work, and the lighthouse gave me a home.", "zh": "海给了我工作，灯塔给了我一个家。" },
+        { "en": "I am not sad about it; a small life can still be full.", "zh": "我并不难过；小日子也可以过得满满当当。" },
+        { "en": "But your chance came, Nora, so use it well.", "zh": "但你的机会来了，诺拉，好好用它。" },
+        { "en": "Learn, look, and ask questions; do not only answer them.", "zh": "去学、去看、去提问；别光等着回答。" },
+        { "en": "Tom sends you his best wishes and one small dried fish.", "zh": "汤姆向你问好，还送你一条小鱼干。" },
+        { "en": "Yes, a real fish; he put it in the box next to this letter.", "zh": "没错，一条真的鱼；他把它放进了这封信旁边的盒子里。" },
+        { "en": "Your grandfather, who supports you always, Silas.", "zh": "一直支持你的爷爷，塞拉斯。" },
+        { "en": "Next week I will tell you about the storm.", "zh": "下周我给你讲讲那场风暴。" }
+      ],
+      "questions": [
+        {
+          "q": "What do the big ships transport to other lands?",
+          "options": ["Tea, sugar, and paper", "Wood, fish, and fruit", "Stones and sand", "Yellow cars only"],
+          "answer": 1,
+          "explain": "第6句 \"Big ships transport wood, fish, and fruit to other lands.\"，运的是木材、鱼和水果。"
+        },
+        {
+          "q": "What does the town export to many countries?",
+          "options": ["Tea", "Fish", "Wood", "Sugar"],
+          "answer": 1,
+          "explain": "第12句 \"The town exports fish to many countries.\"，出口的是鱼。"
+        },
+        {
+          "q": "Why did Silas never leave the coast when he was young?",
+          "options": ["He had no passport", "He was afraid of ships", "The sea was too cold", "Tom asked him to stay"],
+          "answer": 0,
+          "explain": "第23句 \"I had no passport when I was young, so I never left this coast.\"，因为他没有护照。"
+        },
+        {
+          "q": "In 第19句, when an \"opportunity\" comes, young people leave for the city. An opportunity is . . .",
+          "options": ["a heavy box carried by porters", "a kind of fishing boat", "a chance to do something good", "a long holiday"],
+          "answer": 2,
+          "explain": "第19句上下文：机会一来年轻人就进城；词根 port 与“港口”相关，机会就像船等来的顺风，一扇驶向港口的门。"
+        },
+        {
+          "q": "What does Silas mean by \"money is a good boat, but love is the wind\" (第21句)?",
+          "options": ["Boats are better than money", "Money can carry you, but love is what gives you the power to move", "The city is too loud for boats", "Sailors should not carry money"],
+          "answer": 1,
+          "explain": "第21句：钱（船）只能载着你，真正给你动力和方向的是爱（风），这是他对汤姆“城市是喧闹的钱”的回应。"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "风暴夜",
+      "sentences": [
+        { "en": "Dear Nora, a big storm came here two nights ago.", "zh": "亲爱的诺拉，两天前这里来了一场大风暴。" },
+        { "en": "The wind was strong, and the rain fell like small stones.", "zh": "风很猛，雨点像小石子一样砸下来。" },
+        { "en": "The sea stood up on its back legs like an angry animal.", "zh": "海像一头愤怒的动物，用后腿站了起来。" },
+        { "en": "I did not sleep; a lighthouse must provide light in every storm.", "zh": "我没有睡；灯塔必须在每一场风暴里供出光。" },
+        { "en": "So I stayed with the great lamp and watched the black water.", "zh": "所以我守着那盏大灯，望着黑色的海水。" },
+        { "en": "It is a keeper's duty to supervise the light until morning.", "zh": "看守人的职责就是守灯到天亮。" },
+        { "en": "The ships were invisible out there in the dark.", "zh": "船在暗处看不见。" },
+        { "en": "But one small light was visible, moving near the rocks.", "zh": "但有一小团光看得见，在礁石附近移动。" },
+        { "en": "My old eyes are weak, but night vision is my one gift.", "zh": "我的老眼不行了，可夜视力是我唯一的天赋。" },
+        { "en": "At midnight, that small light came too close to the teeth of the cape.", "zh": "午夜时分，那团小小的光离海角的“牙齿”太近了。" },
+        { "en": "I took my glass and looked: a fishing boat, four men, no moon.", "zh": "我举起望远镜看去：一条渔船，四个男人，天上没有月亮。" },
+        { "en": "The sky was black paper with no star holes in it.", "zh": "天空像一张黑纸，连星星的针眼都没有。" },
+        { "en": "I turned our great lamp with all my strength, again and again.", "zh": "我用尽全身力气，一次又一次地转动那盏大灯。" },
+        { "en": "My light was a white finger pointing to the safe port.", "zh": "我的光像一根白色的手指，指着安全的港口。" },
+        { "en": "I supported the lamp with both hands all night, like a father with a sick child.", "zh": "我用双手撑了灯一整夜，像父亲守着生病的孩子。" },
+        { "en": "The boat saw the finger and began to walk toward it.", "zh": "船看见了那根手指，开始朝它走。" },
+        { "en": "Wave after wave hit the rocks, but the little boat kept coming.", "zh": "浪一个接一个砸在礁石上，小船却一直往前。" },
+        { "en": "At two in the morning, it slid into the seaport, safe and shaking.", "zh": "凌晨两点，它滑进了海港，浑身发抖，安全了。" },
+        { "en": "The four fishermen came up the hill and knocked on my door.", "zh": "四个渔夫爬上山，敲开了我的门。" },
+        { "en": "Their hands were cold, and their eyes were full of salt and fear.", "zh": "他们的手冰凉，眼睛里全是盐和害怕。" },
+        { "en": "I gave them tea, bread, and my warmest blankets.", "zh": "我给他们茶、面包，和最暖的毯子。" },
+        { "en": "The cold wind had dehydrated my skin, so I drank water like a horse.", "zh": "冷风抽干了我皮肤里的水分，我喝起水来像匹马。" },
+        { "en": "Old Tom wrote it all in his report the next day: one boat, four men, saved.", "zh": "第二天，老汤姆把这一切写进了报告：一条船，四个人，获救。" },
+        { "en": "He put a copy in the port office and sent one to the city paper.", "zh": "他把一份抄本放进港务办公室，又寄了一份给市里的报纸。" },
+        { "en": "The tired fishermen thanked me a hundred times before they slept.", "zh": "疲惫的渔夫们睡前来谢了我一百次。" },
+        { "en": "\"You were our moon,\" the young one said, \"our one moon in the black sky.\"", "zh": "“你是我们的月亮，”最年轻的那个说，“黑天上我们唯一的月亮。”" },
+        { "en": "I am eighty-one years old, and my heart was never so full.", "zh": "我八十一岁了，心从来没有这么满过。" },
+        { "en": "Work is a good word, Nora, but save is a better one.", "zh": "“工作”是个好词，诺拉，可“救”是更好的词。" },
+        { "en": "Sleep well in the loud city, and do not fear its storms.", "zh": "在喧闹的城市里睡个好觉，别怕城里的风暴。" },
+        { "en": "Love, Silas, keeper of the light.", "zh": "爱你的塞拉斯，守灯的人。" }
+      ],
+      "questions": [
+        {
+          "q": "What did Silas see near the rocks at midnight?",
+          "options": ["A big passenger ship", "A small light — a fishing boat with four men", "A swimming whale", "A falling star"],
+          "answer": 1,
+          "explain": "第10-11句：那团小光离礁石太近，他举起望远镜看清是“a fishing boat, four men, no moon”。"
+        },
+        {
+          "q": "In Silas's words, what was his light like?",
+          "options": ["A white candle", "A warm fire", "A white finger pointing to the safe port", "A star in the black sky"],
+          "answer": 2,
+          "explain": "第14句 \"My light was a white finger pointing to the safe port.\"，一根指向安全港口的白色手指。"
+        },
+        {
+          "q": "Why did Silas drink water like a horse that night?",
+          "options": ["He was too hot", "The cold wind had dehydrated his skin", "The tea was finished", "The doctor told him to"],
+          "answer": 1,
+          "explain": "第22句 \"The cold wind had dehydrated my skin, so I drank water like a horse.\"，冷风让皮肤失了水。"
+        },
+        {
+          "q": "In 第22句, the wind \"dehydrated\" Silas's skin. The root hydro means water, so dehydrated skin is skin that . . .",
+          "options": ["has lost too much water", "has turned blue", "has grown new hair", "has become young again"],
+          "answer": 0,
+          "explain": "第22句：de-（去掉）+ hydro（水）→ 皮肤里的水分被带走，所以他要大量喝水。"
+        },
+        {
+          "q": "Why did the young fisherman call Silas \"our moon\"?",
+          "options": ["Because Silas looked white and round", "Because there was no moon that night, and Silas's light was the only light guiding them in the dark", "Because Silas sang songs about the moon", "Because the moon always shines on the lighthouse"],
+          "answer": 1,
+          "explain": "第11句天上没有月亮，第26句渔夫说“你是我们黑天上唯一的月亮”——灯塔的光就是那晚他们唯一的指引。"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "雾天",
+      "sentences": [
+        { "en": "Dear Nora, today the fog came in from the sea.", "zh": "亲爱的诺拉，今天海上的雾进来了。" },
+        { "en": "It walked up the hill and swallowed my lighthouse whole.", "zh": "它爬上山，把我的灯塔整个吞了下去。" },
+        { "en": "A gray wall stood between me and the world.", "zh": "一堵灰墙立在我和世界之间。" },
+        { "en": "The water was invisible, and the sky was invisible too.", "zh": "水看不见，天也看不见。" },
+        { "en": "I could not see my own garden gate from the door.", "zh": "从门口望出去，连自家的园门都看不见。" },
+        { "en": "In this weather, a keeper's eyes are not enough.", "zh": "这种天气里，光有看守人的眼睛是不够的。" },
+        { "en": "The lamp burns, but the light stops three steps from the glass.", "zh": "灯还亮着，可光走出玻璃三步就停下了。" },
+        { "en": "So the fog horn cries all day, like a sad whale with one note.", "zh": "于是雾号整天哭喊，像一头只会一个音的伤心的鲸。" },
+        { "en": "Its long sound tells every ship: stay away, the rocks are hungry.", "zh": "那长长的声音告诉每一艘船：躲开，礁石饿了。" },
+        { "en": "Fog is more dangerous than a storm, because it lies.", "zh": "雾比风暴更危险，因为它会撒谎。" },
+        { "en": "A storm shouts its danger; a fog hides it like a thief.", "zh": "风暴把自己的危险喊出来；雾却像贼一样把危险藏起来。" },
+        { "en": "No ship transports goods on a fog day like this.", "zh": "这样的雾天，没有船运送货物。" },
+        { "en": "The port office reported that every ship stayed inside.", "zh": "港务办公室报告说，每艘船都留在港里。" },
+        { "en": "Tom's small television said the fog would leave at noon.", "zh": "汤姆那台小电视说，雾中午就会散。" },
+        { "en": "The television was wrong; it stayed all day and all night.", "zh": "电视错了；雾待了一整天，又待了一整夜。" },
+        { "en": "It is evident that the sea is stronger than man.", "zh": "很明显，海比人要强。" },
+        { "en": "Man can only watch, wait, and blow his horns.", "zh": "人只能观望，等待，吹响自己的号角。" },
+        { "en": "Old Tom advised me to drink hot tea and wait with him.", "zh": "老汤姆劝我喝杯热茶，陪他一起等。" },
+        { "en": "So I sat by his fire, and we talked about your mother as a girl.", "zh": "于是我坐在他的炉火边，我们聊起你妈妈小时候的事。" },
+        { "en": "She climbed everything: trees, walls, and once, the church roof.", "zh": "她什么都爬：树、墙，有一回还爬上了教堂的屋顶。" },
+        { "en": "You have her blood in you, and that is why the city will not eat you.", "zh": "你身上流着她的血，所以城市吃不掉你。" },
+        { "en": "In the afternoon, I revised this letter three times.", "zh": "下午，我把这封信改了三遍。" },
+        { "en": "Words are strange in fog; they come out soft and slow.", "zh": "雾里的词语很奇怪，出来时又软又慢。" },
+        { "en": "I kept only the strong ones and let the soft ones go.", "zh": "我只留下硬的，放走软的。" },
+        { "en": "From the window, the seaport was a gray idea, not a place.", "zh": "从窗口望去，海港成了一个灰色的念头，而不是一个地方。" },
+        { "en": "I listened for the waves and found them far away, like sleep-talk.", "zh": "我侧耳找海浪，它们远得像梦话。" },
+        { "en": "Only the fog horn proved the world was still there.", "zh": "只有雾号证明世界还在。" },
+        { "en": "A keeper watches, and a keeper waits.", "zh": "看守人守望，看守人等待。" },
+        { "en": "Watch and wait, my dear, in that loud city too.", "zh": "亲爱的，在那座喧闹的城市里，你也学着守望和等待。" },
+        { "en": "Some days, that is the whole job of love.", "zh": "有些日子，这就是爱的全部工作。" },
+        { "en": "The fog will lift, the light will come back, and I will write again.", "zh": "雾会散，光会回来，我还会再给你写信。" },
+        { "en": "With love, Silas, still keeper of the light.", "zh": "爱你的塞拉斯，仍是守灯的人。" }
+      ],
+      "questions": [
+        {
+          "q": "According to Silas, why is fog more dangerous than a storm?",
+          "options": ["Because it is colder than a storm", "Because it hides its danger like a thief, while a storm shouts it", "Because it comes every single day", "Because it eats the fish in the sea"],
+          "answer": 1,
+          "explain": "第10-11句：雾会撒谎，“风暴把危险喊出来，雾却像贼一样把危险藏起来”。"
+        },
+        {
+          "q": "What did the port office report on the fog day?",
+          "options": ["Every ship sailed out early", "The rocks were gone", "Every ship stayed inside", "The fog left at noon"],
+          "answer": 2,
+          "explain": "第13句 \"The port office reported that every ship stayed inside.\"，每艘船都留在港里。"
+        },
+        {
+          "q": "What did old Tom advise Silas to do?",
+          "options": ["Sleep early", "Climb the tower", "Drink hot tea and wait with him", "Write more letters"],
+          "answer": 2,
+          "explain": "第18句 \"Old Tom advised me to drink hot tea and wait with him.\"，喝热茶，陪他一起等。"
+        },
+        {
+          "q": "In 第22句, Silas \"revised this letter three times.\" To revise a letter is to . . .",
+          "options": ["read it again and change it to make it better", "send it away quickly", "burn it in the fire", "copy it by hand for Tom"],
+          "answer": 0,
+          "explain": "第22-24句：他改了三遍，“只留下硬的词，放走软的词”；re-（再）+ vis（看）→ 看了又看再修改。"
+        },
+        {
+          "q": "What does \"Some days, that is the whole job of love\" (第30句) mean?",
+          "options": ["Love means doing nothing at all", "Watching over someone and waiting patiently is itself how love works", "A keeper should stop writing letters on fog days", "Love is a job only for lighthouse keepers"],
+          "answer": 1,
+          "explain": "第28-30句：看守人守望、等待，也让诺拉在城里这样生活——耐心地守望和等待，本身就是爱。"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "最后一封信",
+      "sentences": [
+        { "en": "Dear Nora, this is my last letter this winter.", "zh": "亲爱的诺拉，这是我今年冬天的最后一封信。" },
+        { "en": "The spring ships will bring you home for a short visit.", "zh": "春天的船会带你回家小住。" },
+        { "en": "Tom's office sent me the report: your ferry arrives on the fourth of May.", "zh": "汤姆的办公室送来报告：你的渡轮五月四日到。" },
+        { "en": "I have already planned our days, one small plan for every morning.", "zh": "我已经安排好了我们的日子，每天早晨一个小小的计划。" },
+        { "en": "Bread from the baker, tea on the hill, and one slow walk to the rocks.", "zh": "面包房的新面包，山上的茶，还有一趟慢慢走到礁石的散步。" },
+        { "en": "Your mother writes that you watch teaching videos late into the night.", "zh": "你妈妈写信说，你深夜还在看教学视频。" },
+        { "en": "Nora, learn, but sleep; even the moon rests between months.", "zh": "诺拉，要学，也要睡；连月亮在一个月里也要歇上几天。" },
+        { "en": "Your last letter gave me a new vision of the wide world.", "zh": "你的上一封信给了我一个关于辽阔世界的新视野。" },
+        { "en": "You wrote about trains under the ground and pictures that talk.", "zh": "你写地下的火车，写会说话的图画。" },
+        { "en": "I read your letter three times and revised my answer twice.", "zh": "我把你的信读了三遍，把回信改了两遍。" },
+        { "en": "My eyes are weaker now, and writing takes me the whole evening.", "zh": "我的眼睛越来越不行了，写一封信要用掉整个晚上。" },
+        { "en": "The doctor says my eyes are tired from watching forty years of sea.", "zh": "医生说，我的眼睛是看了四十年海，看累了。" },
+        { "en": "Still, my heart supports you, near or far, like the sea holds its ships.", "zh": "但无论远近，我的心都支持你，像海托着它的船。" },
+        { "en": "Use every opportunity there, and do not fear mistakes.", "zh": "在那边抓住每个机会，别怕犯错。" },
+        { "en": "Mistakes are the small stones that roads are made of.", "zh": "错误是用来铺路的小石子。" },
+        { "en": "A keeper's life taught me one thing: a light can be small and still enough.", "zh": "守塔的岁月只教给我一件事：光可以很小，也仍然够用。" },
+        { "en": "One week later, Nora's reply came to the lighthouse.", "zh": "一周后，诺拉的回信到了灯塔。" },
+        { "en": "The envelope was thin, but her words were not.", "zh": "信封薄薄的，信里的话却不薄。" },
+        { "en": "Dear Grandpa, your letters were my lamp in the city.", "zh": "亲爱的爷爷，你的信是我在城市里的灯。" },
+        { "en": "When the way was dark, your words were a visible light.", "zh": "路看不清的时候，你的话是一束看得见的光。" },
+        { "en": "When I felt small, your stories made me tall.", "zh": "我觉得自己小的时候，你的故事让我高大。" },
+        { "en": "I read them on the train, in the stairwell, and once under the desk at school.", "zh": "我在火车上读，在楼道里读，有一回还躲在学校的课桌底下读。" },
+        { "en": "Your letters provided what the loud city could not: quiet.", "zh": "你的信提供了喧闹的城市给不了的东西：安静。" },
+        { "en": "You watched the sea for forty years, and the sea watched you back.", "zh": "你守望了四十年海，海也回望着你。" },
+        { "en": "Now I watch the world for you.", "zh": "现在，我替你守望这个世界。" },
+        { "en": "I will tell you everything I see, and I will not miss one thing.", "zh": "我看到什么都会讲给你听，一件也不落下。" },
+        { "en": "In spring, I will climb your hill and help you supervise the great lamp.", "zh": "春天我要爬上你的山，帮你一起守那盏大灯。" },
+        { "en": "We will watch the seaport together until the stars come out.", "zh": "我们要一起望着海港，直到星星出来。" },
+        { "en": "The keeper's work goes on, and now it has two keepers.", "zh": "看守人的活儿还在继续，而且现在有了两个看守人。" },
+        { "en": "Love, your Nora, keeper of the words.", "zh": "爱你的诺拉，守着词语的人。" }
+      ],
+      "questions": [
+        {
+          "q": "When will Nora's ferry arrive?",
+          "options": ["The fourth of April", "The fourth of May", "The fourteenth of May", "The fourth of June"],
+          "answer": 1,
+          "explain": "第3句 \"your ferry arrives on the fourth of May\"，五月四日到。"
+        },
+        {
+          "q": "What does Silas ask Nora to use well in the city?",
+          "options": ["His old lamp", "Every opportunity", "A new dictionary", "The port report"],
+          "answer": 1,
+          "explain": "第14句 \"Use every opportunity there, and do not fear mistakes.\"，抓住每个机会。"
+        },
+        {
+          "q": "What did Nora say her grandfather's letters provided in the loud city?",
+          "options": ["Money for the rent", "Maps of the streets", "Quiet", "Loud music"],
+          "answer": 2,
+          "explain": "第23句 \"Your letters provided what the loud city could not: quiet.\"，是安静。"
+        },
+        {
+          "q": "In 第20句, Nora calls her grandfather's words \"a visible light.\" A visible light is . . .",
+          "options": ["a light that can be seen", "a light that is broken", "a light under the sea", "a very small lamp"],
+          "answer": 0,
+          "explain": "第19-20句：爷爷的信是她的灯，路暗时是看得见的光；词根 vis 意为“看”，visible = 看得见的。"
+        },
+        {
+          "q": "What does 第25句 \"Now I watch the world for you\" show about Nora?",
+          "options": ["She wants to move far away from the family", "She is taking over her grandfather's work of watching, so the keeper's love goes on", "She thinks her grandfather watches too little television", "She no longer needs her grandfather's letters"],
+          "answer": 1,
+          "explain": "第24-29句：爷爷守望了四十年海，诺拉说“现在换我替你看世界”，还要帮他守灯——守望的事业传给了下一代。"
+        }
+      ]
+    }
+  ]
+}

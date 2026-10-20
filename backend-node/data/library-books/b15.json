@@ -1,0 +1,397 @@
+{
+  "id": "lib-crust-engine",
+  "title": "地壳下的引擎",
+  "en_title": "The Engine Under the Crust",
+  "author": "WordVerse Archive",
+  "region": "science",
+  "level": 3,
+  "one_line": "从地核余温到板块引擎，地球动力学的五次现场观察。",
+  "word_focus": ["geo", "therm", "struct"],
+  "chapters": [
+    {
+      "no": 1,
+      "title": "热的来历",
+      "sentences": [
+        { "en": "Deep beneath our feet, the Earth is not a cold stone but a working engine driven by heat, an idea that surprises people who imagine the planet as finished and still; in truth, the ground beneath our cities is alive, restless, and quietly enormous, a machine still burning beneath the pavements and gardens of ordinary life.", "zh": "脚下深处，地球并不是一块冷石头，而是一台靠热驱动的引擎；在那些把行星想成完工静物的人听来，这个念头令人吃惊——事实上，我们城市脚下的地面是活的、不安分的，安静得惊人，是一台仍在寻常街巷与花园之下燃烧的机器。" },
+        { "en": "Anyone who has climbed down into a deep mine knows this by instinct, for the temperature rises by roughly one degree Celsius for every forty meters of depth, and the deeper the shaft, the hotter the rock that waits at the bottom of it.", "zh": "凡是下过深井的人凭本能就知道这一点：每往下约四十米，温度大约升高一摄氏度，井越深，等在井底的岩石就越烫。" },
+        { "en": "This pattern, which geologists call the geothermal gradient, proves that something below is still producing energy; the sweating miners who carve tunnels through hot rock are, without quite knowing it, resting their hands on the skin of an ancient furnace.", "zh": "地质学家把这种规律叫作地热梯度，它证明地下深处仍有东西在持续产能；那些在热岩中凿隧道的、汗流浃背的矿工，其实在不知不觉间，把手搁在了一座古老熔炉的炉皮上。" },
+        { "en": "About half of that warmth is leftover heat from the planet's violent birth, some 4.5 billion years ago, when the collisions that assembled the young Earth released enough energy to keep the whole world glowing for an age.", "zh": "这份热大约一半来自行星猛烈诞生的余温，那是大约四十五亿年前的事；当时拼装出年轻地球的那一次次碰撞，释放的能量足以让整个世界发光一个纪元。" },
+        { "en": "The rest comes mainly from the slow radioactive decay of uranium, thorium, and potassium locked inside solid rock, a patient nuclear fire that has been quietly feeding the engine from within since the very first day.", "zh": "其余则主要来自铀、钍、钾在固态岩石里缓慢的放射性衰变——一堆耐心的核火，从第一天起就在引擎内部安静地添柴。" },
+        { "en": "Students of word roots will notice that therm appears in thermal, thermometer, and thermodynamics alike, three words that describe heat as it is felt, as it is measured, and as it obeys the strict rules of physics.", "zh": "留意词根的人会发现，therm 同时出现在 thermal、thermometer 和 thermodynamics 之中：这三个词分别描述被感觉到的热、被测量的热，以及服从物理严格法则的热。" },
+        { "en": "In geology the same root surfaces in geothermal, the word we use for heat drawn from the ground, and this is no accident of vocabulary, for the science of the Earth and the energy buried inside it were discovered together, shaft by shaft and borehole by borehole.", "zh": "在地质学里，同一个词根又以 geothermal 的面目出现，专指从地下取出的热；这绝不是词汇上的巧合，因为地球科学和埋藏地下的能量，本就是一井一井、一孔一孔同时被发现的。" },
+        { "en": "Physicists describe the rules of this energy flow as thermodynamics, the science of heat in motion and disorder, and their patient equations explain why a planet as massive as ours cannot simply hide its warmth forever.", "zh": "物理学家把这套能量流动的法则称为热力学，一门研究运动与无序中的热量的科学；他们那些耐心的方程式解释了，为什么像地球这样巨大的行星无法把自身的热永远藏下去。" },
+        { "en": "The deep planet cannot dump its heat all at once, because the overlying structure of rock works like a thick blanket; layer after layer of dense stone obstructs the escape, so the engine beneath us is forced to leak slowly, like heat through a feather quilt in winter.", "zh": "深部地球的热无法一次性倾泻而出，因为上方岩石的结构像一床厚厚的棉被；一层又一层致密的石头拦住了去路，于是我们脚下的引擎只能慢慢地渗漏，像冬天透过羽绒被漏出的热气。" },
+        { "en": "In the deepest South African mines, workers have measured rock temperatures near sixty degrees Celsius at three kilometers down, and the men who drill there labor in short shifts, drinking water without pause, cooled by pipes that carry chilled air into the dark.", "zh": "在南非最深的矿井里，人们在三千米深处测到接近六十摄氏度的岩温；在那里打钻的工人只能短班轮作，不停地喝水，靠管道送进黑暗的冷风降温。" },
+        { "en": "Down in those tunnels a laborer faces exhaustion and heatstroke, the exact opposite of the hypothermia that kills the unprepared climber on a freezing mountain; heat and cold wear different masks, but both are the faces of the same deadly physics.", "zh": "在那些巷道里，工人面对的是虚脱和中暑，与冻死毫无防备登山者的失温症恰好相反；热与冷戴着不同的面具，却都是同一种致命物理的两副面孔。" },
+        { "en": "To study the leak, scientists lower sensitive instruments into boreholes to measure the heat that escapes from the crust below us, and every thermometer they send down into the dark, week after patient week, comes back with a number that tells the story of the buried engine.", "zh": "为了研究这股泄漏，科学家把精密仪器吊入钻孔，测量从我们脚下的地壳逸出的热量；他们一周又一周耐心送入黑暗的每一支温度计，回来时都带着一个数字，讲述那台被埋引擎的故事。" },
+        { "en": "Their instruments reveal that the planet loses about 47 terawatts of power into space, roughly twice the total consumption of all humanity, a steady breath of energy that has never once paused in four billion years and cannot be switched off by any government or any engineer.", "zh": "仪器显示，地球向太空泄漏约四十七太瓦的功率，大约是全人类总能耗的两倍；这口呼吸四十几亿年来从未停顿，也没有任何政府、任何工程师能把它关掉。" },
+        { "en": "That steady leak is small beside the flood of the Sun, yet it is enough to move continents, raise mountains, and crack cities; the chapters that follow are the story of where that quiet, patient, invisible power goes, and of what it has built and destroyed here on the surface.", "zh": "在太阳的洪流面前，这股泄漏虽小，却足以推动大陆、抬升山脉、震裂城市；后面几章讲的就是这份安静、耐心而看不见的力量去了哪里，以及它在地表建造过、又毁坏过什么。" }
+      ],
+      "questions": [
+        {
+          "q": "According to the chapter, where does Earth's internal heat come from?",
+          "options": [
+            "Sunlight stored in the crust during summer months.",
+            "Leftover heat from the planet's birth and the radioactive decay of uranium, thorium, and potassium.",
+            "Friction between the ocean tides and the shore.",
+            "Fires left over from ancient volcanoes."
+          ],
+          "answer": 1,
+          "explain": "第4句 “About half of that warmth is leftover heat from the planet's violent birth, some 4.5 billion years ago”，再加上第5句的铀、钍、钾放射性衰变，共同构成地球内部的热源。"
+        },
+        {
+          "q": "What is the geothermal gradient, as described in the chapter?",
+          "options": [
+            "The rate at which temperature rises with depth: about one degree Celsius per forty meters.",
+            "The slope of an active volcano.",
+            "The speed at which continents drift apart.",
+            "The depth of the deepest borehole in South Africa."
+          ],
+          "answer": 0,
+          "explain": "第2句 “the temperature rises by roughly one degree Celsius for every forty meters of depth”，这一规律即地热梯度。"
+        },
+        {
+          "q": "What have workers measured in the deepest South African mines?",
+          "options": [
+            "Rock temperatures near freezing at three kilometers down.",
+            "Rock temperatures near sixty degrees Celsius at three kilometers down.",
+            "Steady temperatures of twenty degrees at all depths.",
+            "Temperatures higher than the surface of the Sun."
+          ],
+          "answer": 1,
+          "explain": "第10句 “rock temperatures near sixty degrees Celsius at three kilometers down”，三千米深处岩温接近六十摄氏度。"
+        },
+        {
+          "q": "What can be inferred about why the planet's heat escapes so slowly?",
+          "options": [
+            "Because the overlying structure of rock, like a thick blanket, obstructs the escape of the deep heat.",
+            "Because the heat is constantly swallowed by the oceans.",
+            "Because the engine below stopped working long ago.",
+            "Because the atmosphere reflects heat back into space."
+          ],
+          "answer": 0,
+          "explain": "第9句 “the overlying structure of rock works like a thick blanket; layer after layer of dense stone obstructs the escape”，可推断层层岩石像棉被一样挡住了热，使它只能缓慢泄漏。"
+        },
+        {
+          "q": "The root therm appears in thermal, thermometer, and thermodynamics. What does this root mean?",
+          "options": [
+            "Earth.",
+            "Structure.",
+            "Heat.",
+            "Motion."
+          ],
+          "answer": 2,
+          "explain": "第6句 “therm appears in thermal, thermometer, and thermodynamics alike”，三个词都围绕“热”：therm 意为热，geothermal 即“来自大地的热”。"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "大陆漂移",
+      "sentences": [
+        { "en": "In 1912, a young German meteorologist named Alfred Wegener proposed an idea so strange that it made the geologists of his era furious: the continents, he argued, are not fixed in place but drift slowly across the face of the Earth like ships on a slow sea.", "zh": "1912年，年轻的德国气象学家阿尔弗雷德·魏格纳提出一个让同时代地质学家愤怒的想法：大陆，他主张，并非原地不动，而是像慢海上的船，在地球表面缓慢漂移。" },
+        { "en": "Wegener was trained in weather rather than in rocks, and the geological establishment dismissed him at once as a wandering amateur who had wandered into the wrong lecture hall; a man who studies clouds, they said, has no right to move continents.", "zh": "魏格纳学的是天气而非岩石，地质学界立刻把他贬为一个走错了讲堂的游荡外行；他们说，一个研究云的人，无权去搬动大陆。" },
+        { "en": "Yet his evidence was uncomfortably good: matching coastlines on the opposite shores of the Atlantic, identical fossils of the same plants and animals, and similar rock structure continuing from Brazil into Africa, as if the ocean had once been absent and the land unbroken.", "zh": "可他的证据好得让人难受：大西洋两岸吻合的海岸线、同种动植物的相同化石，以及从巴西延续进非洲的相似岩石结构——仿佛大洋曾一度缺席，陆地曾连成一体。" },
+        { "en": "Critics demanded a driving mechanism, some visible engine that could push entire continents, and his earliest answers, which imagined the landmasses plowing through the seafloor like icebreakers, satisfied almost nobody and gave his enemies an easy target.", "zh": "批评者们要求给出驱动机制，某种能推动整块大陆的可见引擎；而他最早的解释——设想大陆像破冰船一样犁开海底——几乎无人买账，还把把柄递到了对手手里。" },
+        { "en": "One hostile reviewer called the whole idea geopoetry rather than science, a beautiful dream dressed in numbers, and the textbooks of the era followed his lead, ignoring continental drift for nearly half a century while its author grew old, kept waiting, and kept answering his critics in letters that few of them bothered to open.", "zh": "一位充满敌意的评论人把这套理论称作地质诗而非科学，一场穿着数字外衣的美梦；那个时代的教科书随声附和，对大陆漂移冷落了近半个世纪，而它的作者渐渐老去、一直等待，还不断给批评者回信——那些信几乎没人肯拆。" },
+        { "en": "Wegener died in 1930 on a rescue expedition in Greenland, frozen on the ice far from his camp, still waiting for the proof that never reached him in his lifetime; a colleague wrote sadly that the man had been right about the Earth but wrong about his era.", "zh": "1930年，魏格纳在格陵兰的一次救援远征中去世，冻毙在远离营地的冰原上，生前始终没等到那份证明；一位同事悲伤地写道：他对地球看得没错，错的是他的时代。" },
+        { "en": "In the 1950s, survey ships mapping the floor of the Atlantic Ocean found something the old maps had never shown: a vast mountain chain running down the middle of the ocean, split lengthwise by a valley of cracked, fresh, and strangely young rock, young enough that no one could explain it away.", "zh": "二十世纪五十年代，勘测大西洋底的测量船发现了旧地图从未画过的东西：一条纵贯大洋中部的巨大山脉，被一道裂谷从头到尾劈开，谷里的岩石破裂、新鲜，而且出奇地年轻——年轻到谁也无法把它搪塞过去。" },
+        { "en": "Harry Hess, a geologist who had commanded a warship during the Second World War, reconstructed the seafloor in 1962 as a slow conveyor belt: molten rock rises along the ridge, freezes into new crust, and carries the continents sideways as it spreads.", "zh": "曾在二战中指挥过军舰的地质学家哈里·赫斯，在1962年把海底重建成一条缓慢的传送带：熔岩沿洋脊涌出，冷凝成新的洋壳，一边扩张一边把大陆驮向两侧。" },
+        { "en": "The engine, at last, had a name and a shape; it was convection, slow currents of hot rock creeping through the mantle, powered from below by geothermal heat, the same buried warmth that sweats through the deep mines of South Africa.", "zh": "引擎终于有了名字和形状：热对流——在地幔中缓慢爬行的高温岩流，从下方由地热驱动，正是从南非深井里渗出来的那份埋藏的热。" },
+        { "en": "Mantle rock flows only a few centimeters each year, no faster than a fingernail grows, but a current that slow, given a hundred million years of patience, is strong enough to construct an ocean and to tear a continent in half.", "zh": "地幔岩石每年只流动几厘米，不比指甲长得快；但只要给它一亿年的耐心，这样慢的潜流也足以建起一片大洋，把一块大陆撕成两半。" },
+        { "en": "By the late 1960s, plate tectonics had assembled a new picture of the surface from a dozen moving rigid plates, and the geometry of those plates explained earthquakes, volcanoes, and mountain belts with a simplicity that geologists had been seeking for a century.", "zh": "到六十年代末，板块构造用十几块移动的刚性板块，为地表拼出了一幅新图景；这些板块的几何以地质学家追寻了一个世纪的简洁，解释了地震、火山与山带。" },
+        { "en": "The theory once mocked as poetry became the load-bearing structure of modern geology within a single scientific decade; professors who had instructed their students to laugh at Wegener now instructed them to memorize the names of the plates.", "zh": "这套曾被讥为诗的理论，在一个科学十年之内成了现代地质学的承重结构；当年教导学生嘲笑魏格纳的教授们，如今教导学生去背板块的名字。" },
+        { "en": "An English geologist of that generation admitted, years later, that the shame of the discipline was not the mockery itself, for science must argue, but the length of it; half a century is a long time for the truth to stand in the cold.", "zh": "多年以后，那一代的一位英国地质学家承认：这门学科的耻辱不在争论本身——科学本就要争——而在于争论之久；让真理在寒风里站半个世纪，实在是太长了。" },
+        { "en": "It is a lesson worth keeping: the evidence was on the table from 1912, but the community could not accept a fact it could not picture, and the picture arrived only when instruments finally reached the bottom of the sea.", "zh": "这是一个值得铭记的教训：证据从1912年起就摆在桌面上，但学界无法接受一件它想象不出来的事实；直到仪器终于沉到海底，那幅图景才姗姗到来。" }
+      ],
+      "questions": [
+        {
+          "q": "What was Alfred Wegener trained in?",
+          "options": [
+            "Meteorology, the study of weather.",
+            "Mining engineering.",
+            "Marine geology.",
+            "Classical poetry."
+          ],
+          "answer": 0,
+          "explain": "第1句 “a young German meteorologist named Alfred Wegener”，他是气象学家出身，因此被地质学界视为外行。"
+        },
+        {
+          "q": "Which evidence did Wegener cite for continental drift?",
+          "options": [
+            "Magnetic stripes on the seafloor.",
+            "Volcanoes erupting in straight lines.",
+            "Matching coastlines, identical fossils, and similar rock structure across the Atlantic.",
+            "Earthquakes occurring only on islands."
+          ],
+          "answer": 2,
+          "explain": "第3句 “matching coastlines on the opposite shores of the Atlantic, identical fossils of the same plants and animals, and similar rock structure continuing from Brazil into Africa”。"
+        },
+        {
+          "q": "What did Harry Hess do in 1962?",
+          "options": [
+            "He led a rescue expedition in Greenland.",
+            "He commanded a survey ship in the 1950s.",
+            "He reconstructed the seafloor as a slow conveyor belt.",
+            "He named the mid-Atlantic ridge."
+          ],
+          "answer": 2,
+          "explain": "第8句 “reconstructed the seafloor in 1962 as a slow conveyor belt”，赫斯把海底设想为熔岩上涌、冷凝、扩张的传送带。"
+        },
+        {
+          "q": "What can be inferred about why Wegener's theory was ignored for so long?",
+          "options": [
+            "His measurements were later proven wrong.",
+            "The evidence was too weak to survive debate.",
+            "The community could not accept a fact it could not picture, until instruments revealed the seafloor.",
+            "Geologists were forbidden by law from reading his papers."
+          ],
+          "answer": 2,
+          "explain": "第14句 “the community could not accept a fact it could not picture, and the picture arrived only when instruments finally reached the bottom of the sea”，可推断缺少直观图景与海底证据是长期被冷落的关键。"
+        },
+        {
+          "q": "In the word “reconstructed”, the root struct means the same as in structure and construct. What is that root's meaning?",
+          "options": [
+            "To build — reconstruct means to build a picture again.",
+            "To heat.",
+            "To measure.",
+            "The Earth."
+          ],
+          "answer": 0,
+          "explain": "第8句 “reconstructed the seafloor in 1962 as a slow conveyor belt”，词根 struct 意为“建造”，reconstruct 即在证据之上把图景重新搭建出来。"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "造山",
+      "sentences": [
+        { "en": "About fifty million years ago, India, then an island continent sailing steadily north across an ocean that no longer exists, collided with the southern coast of Asia, and the entire future geography of half the planet changed in that slow, silent, invisible moment.", "zh": "约五千万年前，当时还是岛大陆的印度，穿过一片如今已不存在的大洋一路向北，撞上了亚洲的南缘；半个星球未来的地理，就在那个缓慢、无声而看不见的瞬间被改写。" },
+        { "en": "The collision did not destroy either landmass, for continents are too light to sink; instead the impact crumpled their edges like sheet metal folded in slow motion by a giant's patient hands, and the folds themselves, pushed higher and higher, became the bones of the highest mountains on Earth.", "zh": "碰撞并没有毁掉任何一方，因为大陆太轻，沉不下去；冲击反倒像巨人用耐心的手以慢动作折弯钣金那样，把两侧边缘挤皱；那一道道被越推越高的褶皱，本身就成了地球上最高山脉的骨架。" },
+        { "en": "That impact has constructed the Himalaya, the highest mountain range on the surface of the Earth today, and the construction is not finished: the range is still rising, still thickening, and still writing its own geometry into the sky above Asia.", "zh": "这场撞击建造了喜马拉雅，今日地球表面最高的山脉；而这项建造尚未完工：山脉仍在抬升、仍在增厚，仍在把自己的几何写进亚洲上方的天空。" },
+        { "en": "Mount Everest, measured at 8,849 meters, consists of rock that once formed the floor of an ancient sea, compressed and cooked and pushed upward until a piece of the ocean bed stood higher than any land on the planet.", "zh": "珠穆朗玛峰测高八千八百四十九米，构成它的岩石曾是古大海的海底；它们被压缩、被炙烤、被向上推举，直到一块洋底站得比行星上任何陆地都高。" },
+        { "en": "Fossils of ocean creatures appear near the summit, small shells and sea lilies of extraordinary beauty, and every climber who reaches the top stands upon a quiet instruction written in stone about where these mountains actually began their long journey upward.", "zh": "峰顶附近能找到海洋生物的化石，那些美得惊人的小贝壳与海百合；每一个登顶的人都站在一句写进石头里的无声教诲上，它讲清了这些山开始漫长上行的真正起点。" },
+        { "en": "Under sustained pressure, flat sediment layers bend into long folds that a trained geologist can read like a diagram; the structure of the folds records the direction of the squeeze, much as a dent in a car door records the direction of the crash.", "zh": "在持续挤压下，平直的沉积层弯成一道道长褶皱，受过训练的地质学家能像读图纸一样读它们；褶皱的结构记录着挤压的方向，正如车门上的凹痕记录着撞击的方向。" },
+        { "en": "Fold by fold, the crustal structure shortens sideways and thickens vertically, until the crust beneath Tibet is nearly twice the normal thickness, a doubled slab of light stone supporting the highest plateau on Earth, a roof of stone standing two miles above the sea.", "zh": "一褶又一褶，地壳结构横向缩短、纵向增厚，直到西藏下方的地壳接近正常厚度的两倍——一块加倍的轻质石板，托举着地球上最高的高原，一面高出海面两英里的石顶。" },
+        { "en": "Where stress exceeds the strength of rock, the layers snap instead of bending, and the destruction arrives as an earthquake; the same pressure that patiently builds a mountain over ten million years can flatten a city in ten seconds.", "zh": "应力一旦超过岩石强度，岩层便不再弯曲而是断裂，破坏以地震的形式到来；用一千万年耐心建起一座山的同一种压力，能在十秒钟里夷平一座城。" },
+        { "en": "Nor is the work finished: India still drives north at about five centimeters every year, like a patient ram leaning into a wall, and the wall, being made of stone, answers every push with a shudder.", "zh": "造山也并未完工：印度至今仍以每年约五厘米的速度向北推进，像一头耐心的公羊抵着墙；而那堵墙既然是石头做的，便以每一次颤动回应每一次抵撞。" },
+        { "en": "GPS instruments anchored to bedrock show the range rising a few millimeters annually, slightly faster than erosion can destroy it, so the mountains are winning their slow race against the glaciers and the monsoon rains, at least for the next few million years.", "zh": "固定在基岩上的GPS仪器显示，山脉每年抬升几毫米，略快于侵蚀对它的破坏；至少在今后几百万年里，这些山仍在赢下它们对冰川与季风暴雨的那场慢赛跑。" },
+        { "en": "Erosion attacks the peaks from above with glacier and river, while construction pushes from below with heat and pressure, and the endless balance between those two patient opponents shapes every landscape the way a sculptor's two hands shape the wet clay.", "zh": "侵蚀从上以冰川与河流削减峰顶，建造从下以热与压力托举；这两位耐心对手之间无休止的平衡，塑造着每一片风景，一如雕塑家的两只手塑造湿黏土。" },
+        { "en": "The deep roots of the range sink, heat up, and release geothermal springs wherever the structure cracks, so that pilgrims in the high valleys have bathed for centuries in the warmth of the collision without ever knowing the buried engine that heated the water or the ancient crash that lit its fire.", "zh": "山脉的深部根带下沉、受热，凡结构开裂之处便涌出温泉；于是高谷里的朝圣者几百年来一直沐浴在碰撞的暖意里，却从不知道加热这水的地下引擎，也不知道点燃这台引擎的那场远古相撞。" },
+        { "en": "Modern geologists have reconstructed the entire collision in computer models, frame by frame across tens of millions of years, instructing the machines with the laws of physics and then watching, in patient animation, as the Himalaya rises again, slowly and convincingly, inside the screen.", "zh": "现代地质学家已在计算机模型中逐帧重建整场碰撞，前后数千万年；他们用物理定律教导机器，再在耐心的动画里，看喜马拉雅在屏幕中缓慢而令人信服地重新升起。" },
+        { "en": "Their reconstructions match the folded rocks so closely that a student can now watch mountains rise on a laptop in a single afternoon, and the match itself is quiet proof that the story geologists tell is very nearly the true history of the world.", "zh": "重建结果与褶皱岩层吻合得如此之好，以至于如今一个学生能在一个下午里，用笔记本电脑看山脉长起来；这份吻合本身就是安静的证明——地质学家讲的故事，已非常接近世界的真实历史。" }
+      ],
+      "questions": [
+        {
+          "q": "What is Mount Everest made of, according to the chapter?",
+          "options": [
+            "Granite from ancient volcanoes.",
+            "Rock that once formed the floor of an ancient sea.",
+            "Lava from the collision itself.",
+            "Sand blown from the Gobi Desert."
+          ],
+          "answer": 1,
+          "explain": "第4句 “consists of rock that once formed the floor of an ancient sea”，珠峰的岩层本是古大海的海底。"
+        },
+        {
+          "q": "How fast does India still drive into Asia today?",
+          "options": [
+            "About five millimeters a year.",
+            "About half a centimeter a year.",
+            "About five centimeters a year.",
+            "About five meters a year."
+          ],
+          "answer": 2,
+          "explain": "第9句 “India still drives north at about five centimeters every year”，印度至今以每年约五厘米的速度北进。"
+        },
+        {
+          "q": "What happens when stress exceeds the strength of rock?",
+          "options": [
+            "The layers fold into gentle arches forever.",
+            "The layers snap instead of bending, and the destruction arrives as an earthquake.",
+            "The rock melts quietly into magma.",
+            "The crust floats upward as pumice."
+          ],
+          "answer": 1,
+          "explain": "第8句 “the layers snap instead of bending, and the destruction arrives as an earthquake”，应力超过强度时岩层断裂，破坏以地震到来。"
+        },
+        {
+          "q": "What can be inferred from the ocean fossils found near the summit of Everest?",
+          "options": [
+            "That ancient climbers carried shells to the top as offerings.",
+            "That the sea once lay far above the land everywhere on Earth.",
+            "That the rocks of the summit were lifted from an ancient seabed, so these mountains grew from the floor of a vanished ocean.",
+            "That Everest was once a volcano in a shallow sea."
+          ],
+          "answer": 2,
+          "explain": "第5句 “Fossils of ocean creatures appear near the summit, small shells and sea lilies of extraordinary beauty”，可推断峰顶岩石来自古海底，山是从消失的洋底长起来的。"
+        },
+        {
+          "q": "In the phrase “the structure of the folds”, what does the root struct mean?",
+          "options": [
+            "To fold.",
+            "To heat.",
+            "To build — structure is the way something is built.",
+            "The sea."
+          ],
+          "answer": 2,
+          "explain": "第6句 “the structure of the folds records the direction of the squeeze”，词根 struct 意为“建造”，structure 即某物被建造而成的方式。"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "冰岛现场",
+      "sentences": [
+        { "en": "In the southwest of Iceland, the mid-Atlantic ridge itself climbs out of the ocean and walks across dry land, so that a visitor can stand with one foot on the North American plate and the other on the European one, straddling two continents and two geological futures in a single step.", "zh": "在冰岛西南，大西洋中脊亲自爬出海面，从干燥的陆地上穿行而过；游客可以一脚踩在北美板块、一脚踩在欧亚板块上，一步跨立两大洲和两种地质未来。" },
+        { "en": "At Thingvellir, visitors can walk down into a rift valley and see the structure of two continents pulling apart above them, walls of cracked basalt on either side, the newest stone in Europe splitting quietly like a loaf being torn.", "zh": "在辛格维利尔，游客可以走进一条裂谷，抬头看见两大板块把彼此拉开的结构：两侧是龟裂的玄武岩壁，欧洲最新的石头正像被撕开的面包一样安静地裂开。" },
+        { "en": "The plates there separate by about two centimeters per year, roughly the speed at which your fingernails grow, an amount so small that no eye can catch it, yet the valley widens, the cracks deepen, and the cliff walls crawl apart century after century.", "zh": "那里的板块每年分开约两厘米，大约等于你指甲生长的速度；这个量小到肉眼无法捕捉，可裂谷在变宽，裂缝在变深，崖壁一世纪又一世纪地缓缓爬开。" },
+        { "en": "The island exists because a hot spot sits beneath the ridge, and the doubled heat constructs enough lava to build land that should by rights stay under the sea; Iceland is a country standing on the seam of the planet, warmed, lit, and in part built out of the leak itself.", "zh": "这座岛之所以存在，是因为中脊之下坐着一个热斑；翻倍的热造出足够的熔岩，堆起本该待在海面之下的陆地——冰岛是一个立在行星接缝上的国家，靠这道泄漏取暖、照明，甚至在一定程度上就是用这道泄漏建成的。" },
+        { "en": "The geology is so young and so active that geologists can study a plate boundary without a submarine, and they come from every nation on Earth to watch, in real time, a continent being born in front of their instruments.", "zh": "这里地质年龄轻、活动强，地质学家不必乘潜水器就能研究板块边界；他们从世界各地赶来，在仪器前面实时观看一块大陆的诞生。" },
+        { "en": "The people who live there have made an energy bargain with the ground: roughly nine out of ten Icelandic homes are heated with geothermal water piped straight from the volcanic rock beneath the farms, warm, mineral, and free of any fuel bill.", "zh": "岛上居民与大地达成了一笔能源交易：大约十分之九的冰岛家庭，用管道直接引自农田下方火山岩的地热水取暖——水是温的、含矿的，账单里没有任何燃料。" },
+        { "en": "Power stations at Krafla and Hellisheidi turn thermal energy into electricity for a nation of about 380,000 people, and the turbines spin on steam that no furnace was ever required to boil, for the Earth itself supplies the heat.", "zh": "克拉夫拉与赫利舍迪两座电站把热能变成电，供约三十八万人使用；汽轮机靠蒸汽旋转，而那蒸汽从不需要任何炉子去烧——供热的是地球本身。" },
+        { "en": "The infrastructure is unusual by world standards: instead of importing coal and gas across the ocean, the country runs its heating on steel-cased boreholes, kilometers of insulated pipe, and the patient labor of engineers who listen to the volcano.", "zh": "以世界标准看，这套基础设施不同寻常：国家不用跨洋进口煤和气，供暖全靠钢套管钻孔、数公里长的保温管道，以及一群愿意倾听火山的、耐心的工程师。" },
+        { "en": "Those engineers lower instruments into the wells to watch temperature, pressure, and the quiet movement of magma below, because a field that draws its power from a live engine must keep watching that engine, and a thermometer in the right borehole is worth a thousand theories argued in a comfortable office.", "zh": "工程师们把仪器沉入井中，监视温度、压力，以及地下岩浆的细微动静；因为一个从活引擎身上取电的油田必须时时看住这台引擎——放在正确钻孔里的那支温度计，抵得上一千条在舒适办公室里争论出来的理论。" },
+        { "en": "At Svartsengi, water too cool for generating electricity was dumped into a field of old black lava, and the silica-rich runoff turned milky blue where it gathered, so that the basin became the famous Blue Lagoon spa of today.", "zh": "在斯瓦特森吉，用来发电嫌不够热的水被排进一片古老的黑色熔岩地；富含硅质的排水在积聚处变成乳蓝色，水塘便成了今天举世闻名的蓝湖温泉。" },
+        { "en": "That lagoon is a byproduct of construction, a world-famous bath assembled from the leftovers of an engine, and the bathers who float in its warm blue water are, quite literally, swimming in the waste heat of the planet's interior.", "zh": "那座湖是建造的副产品：一座世界闻名的浴场，由引擎的边角料拼装而成；漂浮在那温暖蓝色水面上的泡浴者，不折不扣是在行星内部的废热里游泳。" },
+        { "en": "Thermostats in every school and office hold a steady warmth through the polar winter without burning one ton of coal, and children in Reykjavik have grown up never having seen the smoke of a heating fire.", "zh": "每所学校与办公楼里的恒温器，让整个极地冬天稳稳的暖，不必烧一吨煤；雷克雅未克的孩子们长大成人，却从未见过取暖炉的烟。" },
+        { "en": "An old engineer who had worked in the coal ports of his youth once told a young colleague that Iceland had simply plugged itself into the place where the planet leaks, and that every nation on Earth lives above a similar leak if it is patient enough to drill.", "zh": "一位年轻时在煤港干过的老工程师曾对年轻同事说：冰岛不过是把自己插进了行星泄漏的地方；而地球上的每一个国家，只要有足够的耐心去钻，脚下其实都躺着一条类似的泄漏。" },
+        { "en": "Iceland teaches the central lesson of geology better than any textbook: where the engine under the crust shows itself, a patient society can construct its whole infrastructure around the leak, and live warm and lit upon the waste of the world's making.", "zh": "冰岛比任何教科书都更好地讲明了地质学的中心一课：凡地壳下的引擎露出身影之处，一个耐心的社会就能围绕这道泄漏建起整套基础设施，靠世界的造物之废热，活得又暖又亮。" }
+      ],
+      "questions": [
+        {
+          "q": "What can visitors see at Thingvellir?",
+          "options": [
+            "An erupting volcano with rivers of lava.",
+            "A rift valley where the structure of two continents pulls apart.",
+            "A field of geysers and mud pots.",
+            "A bridge across a glacier."
+          ],
+          "answer": 1,
+          "explain": "第2句 “walk down into a rift valley and see the structure of two continents pulling apart above them”，辛格维利尔可以看到两大板块拉开的裂谷结构。"
+        },
+        {
+          "q": "About how fast do the plates separate in Iceland?",
+          "options": [
+            "About two millimeters per year.",
+            "About twenty centimeters per year.",
+            "About two centimeters per year, roughly the speed at which fingernails grow.",
+            "About two meters per year."
+          ],
+          "answer": 2,
+          "explain": "第3句 “about two centimeters per year, roughly the speed at which your fingernails grow”，板块每年分开约两厘米。"
+        },
+        {
+          "q": "What share of Icelandic homes are heated with geothermal water?",
+          "options": [
+            "Roughly nine out of ten.",
+            "Roughly one out of ten.",
+            "About half.",
+            "Almost none, because coal is cheaper."
+          ],
+          "answer": 0,
+          "explain": "第6句 “roughly nine out of ten Icelandic homes are heated with geothermal water”，约十分之九的家庭用地热水取暖。"
+        },
+        {
+          "q": "What can be inferred about the Blue Lagoon from the chapter?",
+          "options": [
+            "It is an ancient volcanic crater filled by rain.",
+            "It was dug as a swimming pool for tourists.",
+            "It is a byproduct of power production — a bath assembled from the leftovers of the engine.",
+            "It is a harbor flooded by the sea."
+          ],
+          "answer": 2,
+          "explain": "第11句 “a byproduct of construction, a world-famous bath assembled from the leftovers of an engine”，可推断蓝湖并非天然温泉，而是电站排水的副产品。"
+        },
+        {
+          "q": "A thermostat keeps a school at a steady temperature. What does the root therm in thermostat mean?",
+          "options": [
+            "Stone.",
+            "Heat.",
+            "Structure.",
+            "Water."
+          ],
+          "answer": 1,
+          "explain": "第12句 “Thermostats in every school and office hold a steady warmth”，词根 therm 意为“热”，thermostat 即让温度保持稳定的热控制器。"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "地震与预警",
+      "sentences": [
+        { "en": "An earthquake begins as slow arithmetic: stress accumulates along a fault for decades while the surface above stays silent, and the people who live there build their houses, plant their fields, and raise their children through the long years of invisible loading, unaware.", "zh": "地震始于一种缓慢的算术：应力沿断层积攒几十年，地表却保持沉默；住在那里的人盖房子、种庄稼、养大孩子，在看不见的漫长加压岁月里一无所知。" },
+        { "en": "The two sides of the fault grip each other like a man gripping a rope, and elastic strain builds until the structure of the rock fails; the rope snaps, the grip releases, and the stored energy of half a lifetime leaves the rock in a single violent second, with a noise like distant cannon.", "zh": "断层两侧像抓着绳索的手一样彼此咬合，弹性应变不断累积，直到岩石的结构失效；绳断了，手松了，半辈子积攒的能量在一记凶猛的瞬间倾泻而出，伴着远处炮声般的巨响。" },
+        { "en": "In April 1906, the San Francisco earthquake destroyed most of a great city and killed about three thousand people, and the fires that followed the shaking burned for three days and nights what the shaking had spared, until the ruin of the proud young city was complete.", "zh": "1906年4月，旧金山大地震摧毁了一座城市的大半，约三千人遇难；震动过后燃起的大火烧了三天三夜，把震动所饶过的部分也烧了进去，直到这座骄傲年轻城市的废墟凑齐为止。" },
+        { "en": "Studying the ruptured ground afterward, the geologist Harry Fielding Reid reconstructed the mechanism now called elastic rebound: the fault's sides, bent slowly out of shape for decades, snap back like a stretched rubber band, releasing the stored energy within seconds.", "zh": "事后研究破裂的地面，地质学家哈里·菲尔丁·里德重建了今天称为弹性回跳的机制：几十年间被慢慢拉歪的断层两侧，像绷紧的橡皮筋一样弹回，几十年的储能几秒内释放一空。" },
+        { "en": "The energy travels outward as waves: fast P-waves jolt first, a sharp initial kick, and the slower S-waves follow with the destructive shaking that topples walls, and the gap between the two waves is where every warning system lives.", "zh": "能量以波的形式向外传播：快的P波先来一记猛烈的初颠，慢一些的S波随后带来推倒墙壁的毁灭性摇晃；两波之间的时间差，正是每一套预警系统安身立命的地方。" },
+        { "en": "Early-warning networks exploit that gap, turning a grid of sensitive instruments into a nervous system that feels the first kick, and instantly computes where the rupture happened, which cities the destructive waves will reach, and in exactly how many seconds they will arrive.", "zh": "预警网络利用的正是这段时差：它把一排排灵敏的仪器连成一副神经系统，第一时间感知初颠，随即算出破裂发生在哪里、毁灭性的波将到达哪些城市、还剩下整整多少秒。" },
+        { "en": "When the fast wave trips the seismometers, computers locate the rupture and warn the cities farther out, and the warning, however brief, travels faster than the shaking, because it rides on light instead of stone.", "zh": "快波一触动地震仪，计算机立刻定位破裂点，向更远的城市报警；预警再短也跑得比摇晃快，因为它骑在光上，而不是骑在石头上。" },
+        { "en": "Japan has run such a system since 2007, and in the great earthquake of 2011 it warned millions of people before the strongest shaking arrived; phones buzzed, television anchors spoke over the alarm, and trains were already braking when the waves reached the rails.", "zh": "日本自2007年起运行这套系统；在2011年的大地震中，它在最强摇晃抵达前向数百万人发出了预警——手机嗡鸣，电视主播的声音压过警报声，而波浪抵达铁轨时，列车已经在制动。" },
+        { "en": "The warning usually buys only five to thirty seconds, but that is enough to stop trains, to halt operating rooms, to open the doors of buildings so that jammed exits do not trap the frightened, and to let fire crews roll their engines out of the station and ready their hoses.", "zh": "预警通常只换来五到三十秒，但足够让列车停下、让手术室暂停、让大楼的门自动打开以免慌乱的人群被卡住的出口困住，也足够让消防队把车开出站、备好水龙。" },
+        { "en": "In 1985, an earthquake born far off the coast destroyed hundreds of buildings in Mexico City, which stands 350 kilometers from the sea, on the soft mud of an ancient lake bed that shakes like a bowl of jelly when the waves arrive.", "zh": "1985年，一场源自远海的地震摧毁了墨西哥城数百栋建筑；这座城距海三百五十公里，坐落在古湖床的软泥上，波浪一到便像一碗果冻般晃动。" },
+        { "en": "Mexico then constructed a network of sirens and sensors along that coast, and because the distance is long, the capital now receives up to a minute of notice, enough time for children to leave their classrooms and stand in the open air.", "zh": "此后墨西哥沿海岸建起了警报器与传感器网络；正因为距离够长，首都如今最多能提前一分钟得到通知——足够孩子们走出教室，站到空旷的露天里。" },
+        { "en": "Building codes share the same logic: engineers construct structures that bend and sway instead of snapping apart, and a well-designed steel frame survives the destruction that flattens a brittle one, absorbing energy the way a tree absorbs the wind.", "zh": "建筑规范遵循同样的逻辑：工程师建造的是会弯曲摇摆而不折断的结构；设计良好的钢架能挺过足以压扁脆房子的破坏，像树吸收风一样把能量吸收掉。" },
+        { "en": "The engine under the crust cannot be switched off, the plates will keep moving, and the earthquakes will keep arriving for as long as the Earth stays warm inside; no instrument, no building code, and no policy can end that.", "zh": "地壳下的引擎无法关停，板块将继续移动；只要地球内部还是暖的，地震就会一次次到来——没有任何仪器、任何建筑规范、任何政策能终结这件事。" },
+        { "en": "But instruments and honest infrastructure can hear the engine's warnings first, and a society that listens — drilling, bracing, teaching, rehearsing — turns a sudden catastrophe into a survivable event; that, in the end, is the whole instruction this book has tried to give.", "zh": "但仪器与诚实的基础设施能最先听见引擎的预警；一个肯倾听的社会——去钻井、去加固、去教导、去演练——能把骤然的灾难变成一场可幸存的事件：归根到底，这就是本书试图给出的全部教诲。" }
+      ],
+      "questions": [
+        {
+          "q": "What did Harry Fielding Reid reconstruct after the 1906 earthquake?",
+          "options": [
+            "The first plate tectonic map.",
+            "A tsunami warning system for the Pacific.",
+            "The mechanism now called elastic rebound.",
+            "The epicenter of every Pacific quake."
+          ],
+          "answer": 2,
+          "explain": "第4句 “reconstructed the mechanism now called elastic rebound”，里德在震后重建了弹性回跳机制。"
+        },
+        {
+          "q": "What is the difference between P-waves and S-waves?",
+          "options": [
+            "P-waves only travel through water.",
+            "Fast P-waves jolt first, and the slower S-waves follow with the destructive shaking.",
+            "S-waves are always stronger but slower than P-waves in water.",
+            "P-waves arrive days before S-waves."
+          ],
+          "answer": 1,
+          "explain": "第5句 “fast P-waves jolt first, a sharp initial kick, and the slower S-waves follow with the destructive shaking”，快P波先颠，慢S波随后带来毁灭性摇晃。"
+        },
+        {
+          "q": "Since when has Japan operated its earthquake early-warning system?",
+          "options": [
+            "Since 1906.",
+            "Since 1985.",
+            "Since 2007.",
+            "Since 2011."
+          ],
+          "answer": 2,
+          "explain": "第8句 “Japan has run such a system since 2007”，日本的预警系统自2007年起运行。"
+        },
+        {
+          "q": "Why does Mexico City receive up to a minute of warning?",
+          "options": [
+            "Because the capital has its own fault directly beneath it.",
+            "Because the threatening coast lies about 350 kilometers away, so the long distance gives the sensors time to fire first.",
+            "Because Mexican buildings are extremely tall and slow to shake.",
+            "Because the government banned construction near the coast."
+          ],
+          "answer": 1,
+          "explain": "第10句 “which stands 350 kilometers from the sea” 与第11句 “because the distance is long, the capital now receives up to a minute of notice”，可推断远距离换来提前量。"
+        },
+        {
+          "q": "In the sentence about building codes, what does the root struct mean in “engineers construct structures”?",
+          "options": [
+            "To shake.",
+            "To warn.",
+            "To build — construct means to build, and a structure is something built.",
+            "To measure."
+          ],
+          "answer": 2,
+          "explain": "第12句 “engineers construct structures that bend and sway instead of snapping apart”，词根 struct 意为“建造”：construct 即建造，structure 即被建造之物。"
+        }
+      ]
+    }
+  ]
+}

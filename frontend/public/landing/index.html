@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#EFF5FC" />
+  <title>词峰 WORDPEAK · 3D 沉浸式英语学习宇宙</title>
+  <meta name="description" content="把单词变成星球,词根变成星系,语法是齿轮机械,音标是口腔剖面;真学习科学(SM-2 间隔重复、词根联想网络、i+1 可理解输入、费曼输出)驱动的 3D 英语学习世界。" />
+  <link rel="icon" href="/logo-32.png" type="image/png" />
+  <style>
+    :root {
+      /* 晴空(天空清新风):与主站 light 主题同值 */
+      --bg: #EFF5FC;
+      --bg-2: #E6EEF8;
+      --surface: #FFFFFF;
+      --surface-hover: #F6FAFF;
+      --surface-active: #EAF2FC;
+      --line: rgba(15, 23, 42, 0.08);
+      --line-strong: rgba(15, 23, 42, 0.14);
+      --line-accent: rgba(2, 132, 199, 0.35);
+      --text: #0F172A;
+      --text-2: #475569;
+      --text-3: #64748B;
+      --accent: #0284C7;
+      --accent-2: #7C3AED;
+      --accent-3: #DB2777;
+      --accent-soft: rgba(2, 132, 199, 0.10);
+      --success: #15803D;
+      --warn: #B45309;
+      --danger: #DC2626;
+      --grad-accent: linear-gradient(135deg, #0369A1 0%, #7C3AED 100%);
+      --grad-text: linear-gradient(120deg, #0F172A 0%, #0284C7 45%, #38BDF8 70%, #7C3AED 100%);
+      --ease: cubic-bezier(0.22, 1, 0.36, 1);
+      /* open-props 缓动补充(与主站 styles.css 内联同值,只做补充不整包替换) */
+      --ease-out-3: cubic-bezier(0.05, 0.7, 0.1, 1);
+      --ease-out-4: cubic-bezier(0, 0, 0.1, 1);
+      --ease-squish-2: cubic-bezier(0.34, 1.56, 0.64, 1);
+      --mono: ui-monospace, 'Cascadia Mono', Consolas, monospace;
+      --surface-sunken: #E6EEF8;
+      --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-padding-top: 84px; } /* 锚点落点避开粘性导航 */
+    @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+    html, body { background: var(--bg); color: var(--text); font-family: var(--font); -webkit-font-smoothing: antialiased; }
+    body { overflow-x: hidden; min-height: 100vh; line-height: 1.6; font-size: 15px; }
+
+    body::before {
+      content: ''; position: fixed; inset: 0; z-index: -2; pointer-events: none;
+      background:
+        radial-gradient(ellipse 900px 700px at 18% -5%, color-mix(in srgb, var(--accent) 12%, transparent), transparent 60%),
+        radial-gradient(ellipse 800px 600px at 100% 40%, color-mix(in srgb, var(--accent-2) 9%, transparent), transparent 60%),
+        radial-gradient(ellipse 1100px 800px at 50% 110%, color-mix(in srgb, var(--accent-3) 6%, transparent), transparent 65%),
+        var(--bg);
+    }
+    body::after {
+      content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: 0.03;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    }
+
+    .nav {
+      position: sticky; top: 0; z-index: 50;
+      backdrop-filter: blur(24px) saturate(1.6); -webkit-backdrop-filter: blur(24px) saturate(1.6);
+      background: color-mix(in srgb, var(--bg) 70%, transparent);
+      border-bottom: 1px solid var(--line);
+    }
+    .nav-inner {
+      max-width: 1120px; margin: 0 auto; padding: 14px 28px;
+      display: flex; align-items: center; gap: 32px;
+    }
+    .nav-logo { display: flex; align-items: baseline; gap: 8px; }
+    .nav-logo .zh {
+      font-size: 22px; font-weight: 800; letter-spacing: 0.08em;
+      background: var(--grad-text); -webkit-background-clip: text; background-clip: text;
+      color: transparent; -webkit-text-fill-color: transparent;
+    }
+    .nav-logo .en { font-size: 11px; color: var(--text-3); letter-spacing: 4px; }
+    .nav-links { display: flex; gap: 24px; margin-left: auto; }
+    .nav-links a { color: var(--text-2); text-decoration: none; font-size: 14px; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--text); }
+    .nav-cta {
+      padding: 9px 18px; border-radius: 10px; cursor: pointer; font-family: inherit;
+      font-size: 14px; font-weight: 500;
+      background: var(--grad-accent); color: white; border: 0;
+      transition: transform 0.2s var(--ease);
+    }
+    .nav-cta:hover { transform: translateY(-1px); }
+
+    .hero {
+      max-width: 1120px; margin: 0 auto; padding: 80px 28px 60px;
+      text-align: center; position: relative;
+    }
+    .hero-tag {
+      display: inline-block; padding: 6px 14px; border-radius: 999px;
+      background: var(--accent-soft); border: 1px solid var(--line-accent);
+      color: var(--accent); font-size: 12px; font-weight: 600;
+      letter-spacing: 0.06em; margin-bottom: 24px;
+    }
+    .hero h1 {
+      font-size: clamp(40px, 7vw, 72px); font-weight: 800; letter-spacing: -0.035em;
+      line-height: 1.05; margin-bottom: 20px;
+      background: var(--grad-text); background-size: 200% 100%;
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+      -webkit-text-fill-color: transparent;
+    }
+    .hero p { font-size: 18px; color: var(--text-2); max-width: 720px; margin: 0 auto 32px; line-height: 1.7; }
+    .hero-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    .btn {
+      padding: 13px 24px; border-radius: 12px; font-family: inherit;
+      font-size: 14.5px; font-weight: 600; cursor: pointer;
+      transition: all 0.2s var(--ease); text-decoration: none; display: inline-flex; align-items: center; gap: 8px;
+      border: 1px solid var(--line-strong);
+    }
+    .btn-primary {
+      background: var(--grad-accent); border-color: transparent; color: white;
+      box-shadow: 0 6px 24px color-mix(in srgb, var(--accent) 28%, transparent);
+    }
+    .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 12px 32px color-mix(in srgb, var(--accent) 38%, transparent); }
+    .btn-ghost { background: var(--surface); color: var(--text); }
+    .btn-ghost:hover { border-color: var(--line-accent); }
+
+    /* 入场:英雄区一次性的解焦与级联(整体动画不拆字,渐变大标题保持完整) */
+    @keyframes heroBlurIn { from { opacity: 0; filter: blur(14px); transform: translateY(10px); } }
+    @keyframes riseIn { from { opacity: 0; transform: translateY(14px); } }
+    .hero-tag { animation: riseIn 0.7s var(--ease-out-3) both; }
+    .hero h1 { animation: heroBlurIn 0.9s var(--ease-out-3) 0.08s both; }
+    .hero p { animation: riseIn 0.7s var(--ease-out-3) 0.26s both; }
+    .hero-actions { animation: riseIn 0.7s var(--ease-out-3) 0.4s both; }
+    @media (prefers-reduced-motion: reduce) {
+      .hero-tag, .hero h1, .hero p, .hero-actions { animation: none; }
+    }
+
+    section { max-width: 1120px; margin: 0 auto; padding: 60px 28px; }
+    .sec-title { font-size: clamp(26px, 4vw, 36px); font-weight: 700; letter-spacing: -0.025em; margin-bottom: 12px; }
+    .sec-sub { font-size: 15px; color: var(--text-2); max-width: 720px; margin-bottom: 36px; }
+
+    .module-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px;
+    }
+    .module-card {
+      padding: 22px 24px; border-radius: 16px;
+      background: var(--surface); border: 1px solid var(--line);
+      transition: transform 0.25s var(--ease), border-color 0.25s var(--ease);
+      position: relative; overflow: hidden;
+    }
+    .module-card::before {
+      content: ''; position: absolute; inset: 0; pointer-events: none;
+      background: radial-gradient(360px circle at var(--mx, 50%) var(--my, 50%), color-mix(in srgb, var(--accent) 6%, transparent), transparent 50%);
+      opacity: 0; transition: opacity 0.3s;
+    }
+    .module-card:hover { transform: translateY(-2px); border-color: var(--line-accent); }
+    .module-card:hover::before { opacity: 1; }
+    .module-icon {
+      width: 40px; height: 40px; border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      background: var(--accent-soft); color: var(--accent);
+      margin-bottom: 14px;
+    }
+    .module-icon svg { width: 20px; height: 20px; }
+    .module-name { font-size: 17px; font-weight: 600; margin-bottom: 6px; }
+    .module-desc { font-size: 13.5px; color: var(--text-2); line-height: 1.6; }
+
+    .roadmap {
+      background: var(--surface); border: 1px solid var(--line);
+      border-radius: 20px; padding: 36px 40px; margin-top: 40px;
+    }
+    .roadmap-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-top: 24px; }
+    .rm-step {
+      padding: 18px; border-radius: 14px;
+      background: var(--surface-sunken); border: 1px solid var(--line);
+      transition: all 0.25s var(--ease);
+    }
+    .rm-step:hover { border-color: var(--line-accent); transform: translateY(-2px); }
+    .rm-num {
+      width: 28px; height: 28px; border-radius: 50%;
+      background: var(--grad-accent); color: white;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 700; font-size: 14px; margin-bottom: 10px;
+    }
+    .rm-emoji { width: 26px; height: 26px; color: var(--accent); margin-bottom: 8px; }
+    .rm-emoji svg { width: 100%; height: 100%; }
+    .rm-title { font-size: 15px; font-weight: 600; margin-bottom: 4px; }
+    .rm-weeks { font-size: 11px; color: var(--accent); font-weight: 600; letter-spacing: 0.06em; margin-bottom: 8px; }
+    .rm-goal { font-size: 13px; color: var(--text-2); line-height: 1.6; }
+
+    .feature-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; margin-top: 24px; }
+    .feature-item {
+      padding: 16px 18px; border-radius: 12px;
+      background: var(--surface); border: 1px solid var(--line);
+      display: flex; gap: 14px; align-items: flex-start;
+    }
+    .feature-item svg { width: 22px; height: 22px; color: var(--accent); flex-shrink: 0; margin-top: 2px; }
+    .feature-name { font-size: 14px; font-weight: 600; margin-bottom: 2px; }
+    .feature-desc { font-size: 12.5px; color: var(--text-3); line-height: 1.5; }
+
+    .start-steps {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px; margin-top: 24px;
+    }
+    .start-step {
+      padding: 20px; border-radius: 14px;
+      background: var(--surface); border: 1px solid var(--line);
+    }
+    .start-step-num {
+      width: 28px; height: 28px; border-radius: 8px;
+      background: var(--accent-soft); color: var(--accent);
+      display: inline-flex; align-items: center; justify-content: center;
+      font-weight: 700; font-family: var(--mono);
+      margin-bottom: 10px;
+    }
+    .start-step pre {
+      background: var(--surface-sunken); padding: 10px 12px;
+      border-radius: 8px; font-family: ui-monospace, monospace;
+      font-size: 12.5px; color: var(--text); margin-top: 8px;
+      border: 1px solid var(--line); white-space: pre-wrap;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 40px 28px; text-align: center;
+      color: var(--text-3); font-size: 13px;
+    }
+    footer a { color: var(--text-2); text-decoration: none; }
+    footer a:hover { color: var(--accent); }
+
+    @media (max-width: 720px) {
+      .nav-links { display: none; }
+      .roadmap-grid { grid-template-columns: 1fr 1fr; }
+      .hero { padding: 60px 20px 40px; }
+      section { padding: 40px 20px; }
+    }
+    @media (max-width: 480px) {
+      .roadmap-grid { grid-template-columns: 1fr; }
+    }
+
+    /* 滚动浮现:类名由脚本添加(无 JS 的场合页面保持全可见),
+       完成后脚本会摘掉这两个类,卡片的 hover 过渡回到原速 */
+    .reveal { opacity: 0; transform: translateY(16px); transition: opacity 0.6s var(--ease-out-3), transform 0.6s var(--ease-out-3); }
+    .reveal.in { opacity: 1; transform: none; }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <span class="zh">词峰</span><span class="en">WORDPEAK</span>
+      </div>
+      <div class="nav-links">
+        <a href="#modules">六大模块</a>
+        <a href="#roadmap">四步路线</a>
+        <a href="#method">学习方法论</a>
+        <a href="#start">上手</a>
+      </div>
+      <a class="nav-cta" href="/">进入应用 →</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-tag">3D · SM-2 · 真学习科学</div>
+    <h1>把英语知识的结构<br/>映射成一座宇宙</h1>
+    <p>
+      单词是星球,词根是星系,语法是齿轮机械,音标是可拆解的口腔剖面。<br>
+      不是"给背单词软件换 3D 皮肤",而是让英语知识体系本身立体化。<br>
+      在浏览器里点开即用 — PWA 桌面装上后像 App 一样常驻。
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="/">立刻进入 →</a>
+      <a class="btn btn-ghost" href="#method">学习方法论</a>
+    </div>
+  </header>
+
+  <section id="modules">
+    <div class="sec-title">六大知识模块</div>
+    <div class="sec-sub">听说读写 + 词汇 + 语法,六大场景对应不同学习行为;不是拼凑,每一条路径都对得起费曼输出法的"输入 → 内化 → 输出"。</div>
+    <div class="module-grid">
+      <div class="module-card">
+        <div class="module-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><ellipse cx="12" cy="12" rx="10" ry="4"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(120 12 12)"/></svg></div>
+        <div class="module-name">词汇星系</div>
+        <div class="module-desc">461 个单词按 40 个词根家族聚成星系,SM-2 间隔重复驱动星球光线的衰减与重亮,点词即学、双击家族锁定看该家族全景。</div>
+      </div>
+      <div class="module-card">
+        <div class="module-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10v4M8 7v10M12 4v16M16 7v10M20 10v4"/></svg></div>
+        <div class="module-name">发音舱</div>
+        <div class="module-desc">48 国际音标的口腔矢状面剖面图(舌位、唇形、声带),听辨测试分级 + 拼读规则 14 条 × 3 题 + 跟读波形真实采样。</div>
+      </div>
+      <div class="module-card">
+        <div class="module-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/></svg></div>
+        <div class="module-name">语法机械城</div>
+        <div class="module-desc">21 个语法点 × 9 题闯关 + 机械装配车间(拖拽零件验证句子结构),时态=齿轮组、虚拟语气=霓虹电路,机械感与抽象概念对齐。</div>
+      </div>
+      <div class="module-card">
+        <div class="module-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10v3a1 1 0 0 0 1 1h1l4 4V6L5 10H4a1 1 0 0 0-1 1zM14 8a4 4 0 0 1 0 8M14 5a7 7 0 0 1 0 14"/></svg></div>
+        <div class="module-name">听力峡谷</div>
+        <div class="module-desc">26 篇分级语料共享波形条,语速 0.6–1.2 倍可调 + 长按单句进入 AB 循环,精听一个生难点而不被全篇干扰。</div>
+      </div>
+      <div class="module-card">
+        <div class="module-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0M12 19v3M8 22h8"/></svg></div>
+        <div class="module-name">口语竞技场</div>
+        <div class="module-desc">逐句跟读 + Web Speech API 实时识别 + 音素级相似度比对,双轨波形(示范 vs 你)显示未读/多读区段,AI 教练按句给改进建议。</div>
+      </div>
+      <div class="module-card">
+        <div class="module-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6.5C10 4.6 7 4.6 4 5.6v12.8c3-1 6-1 8 1 2-2 5-2 8-1V5.6c-3-1-6-1-8 .9M12 6.5v13"/></svg></div>
+        <div class="module-name">阅读号列车</div>
+        <div class="module-desc">分级短文像翻书虫读物,点词即学自动进复习队列 + 句句可朗读 + 读后理解题结算 WPM 与年级目标对比。</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="roadmap">
+    <div class="sec-title">四步学习路线</div>
+    <div class="sec-sub">从发音到开口,把听 / 说 / 读 / 写的关键节点拆成 4 段。路线不是死规定,允许跳过已掌握的部分。</div>
+    <div class="roadmap">
+      <div class="roadmap-grid">
+        <div class="rm-step">
+          <div class="rm-num">1</div>
+          <div class="rm-emoji"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></svg></div>
+          <div class="rm-title">音标关</div>
+          <div class="rm-weeks">第 1–2 周</div>
+          <div class="rm-goal">先把 48 个音标读准。音标不准,听力永远跟不上 — 你听到的和你以为的不一样。</div>
+        </div>
+        <div class="rm-step">
+          <div class="rm-num">2</div>
+          <div class="rm-emoji"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M5.3 18.7l2.1-2.1M16.6 7.4l2.1-2.1"/></svg></div>
+          <div class="rm-title">语法框架</div>
+          <div class="rm-weeks">第 3–4 周</div>
+          <div class="rm-goal">不求背完 21 个语法点,能看懂句子结构就行;是阅读与听力的地基。</div>
+        </div>
+        <div class="rm-step">
+          <div class="rm-num">3</div>
+          <div class="rm-emoji"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M2.5 12c2.8-4.2 5.7-4.2 8.5 0s5.7 4.2 8.5 0"/><path d="M2.5 17c2.8-4.2 5.7-4.2 8.5 0s5.7 4.2 8.5 0"/></svg></div>
+          <div class="rm-title">输入关</div>
+          <div class="rm-weeks">第 5–10 周</div>
+          <div class="rm-goal">读和听一起上,单词放进语境里记;每天该复习哪些词,SM-2 算法替你排好。</div>
+        </div>
+        <div class="rm-step">
+          <div class="rm-num">4</div>
+          <div class="rm-emoji"><svg viewBox="0 0 24 24"><path d="M12 3.5c.5 4.4 2.1 6 6.5 6.5-4.4.5-6 2.1-6.5 6.5-.5-4.4-2.1-6-6.5-6.5 4.4-.5 6-2.1 6.5-6.5z" fill="currentColor"/></svg></div>
+          <div class="rm-title">输出关</div>
+          <div class="rm-weeks">第 11 周起</div>
+          <div class="rm-goal">跟读、造句、写短文,把积累用出来。学习画像告诉你哪个模块弱,回头补。</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="method">
+    <div class="sec-title">背后的学习方法论</div>
+    <div class="sec-sub">所有功能都对得起一条学习科学;不是"看着酷"的设计。</div>
+    <div class="feature-list">
+      <div class="feature-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/></svg>
+        <div>
+          <div class="feature-name">SM-2 间隔重复</div>
+          <div class="feature-desc">每个单词星球的亮度由记忆强度实时驱动,刚学会明亮,按艾宾浩斯遗忘曲线衰减,即将遗忘发红色求救光。</div>
+        </div>
+      </div>
+      <div class="feature-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12c3-5 9-5 12 0M9 12c1-2 3-2 4 0M14 12c1-2 3-2 4 0"/></svg>
+        <div>
+          <div class="feature-name">词根联想网络</div>
+          <div class="feature-desc">461 词按 40 词根聚簇(spect- / port- / dict-...),记一个词根 = 点亮一串,学的是网络不是列表。</div>
+        </div>
+      </div>
+      <div class="feature-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h12M3 12h18M3 18h9"/></svg>
+        <div>
+          <div class="feature-name">i+1 可理解输入</div>
+          <div class="feature-desc">分级语料按答题表现推送"刚好够得着"的内容;不浪费也不会卡死。</div>
+        </div>
+      </div>
+      <div class="feature-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4"/></svg>
+        <div>
+          <div class="feature-name">错题流动系统</div>
+          <div class="feature-desc">语法 / 听力 / 阅读 / 写作错题全进错题本,自动按家族聚合,跟踪到连续答对才"结案"。</div>
+        </div>
+      </div>
+      <div class="feature-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v12M6 10l6 6 6-6"/></svg>
+        <div>
+          <div class="feature-name">费曼输出法</div>
+          <div class="feature-desc">口语跟读 + 写作工坊,把输入倒逼出来,输出模块的正确率反哺词汇推送策略。</div>
+        </div>
+      </div>
+      <div class="feature-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 18l4-4 4 3 7-9"/><path d="M3 4h18v16H3z"/></svg>
+        <div>
+          <div class="feature-name">学习画像</div>
+          <div class="feature-desc">词汇量增长曲线 / 强度分布 / 最薄弱根 / 周报 PNG,可视化你的进步曲线。</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="start">
+    <div class="sec-title">上手</div>
+    <div class="sec-sub">需要 Node.js 18+。后端零依赖(node:sqlite 内置)。</div>
+    <div class="start-steps">
+      <div class="start-step">
+        <div class="start-step-num">1</div>
+        <div>克隆与启动后端</div>
+<pre>cd backend-node
+npm install
+node server.js   # http://localhost:8000</pre>
+      </div>
+      <div class="start-step">
+        <div class="start-step-num">2</div>
+        <div>启动前端</div>
+<pre>cd frontend
+npm install
+npm run dev      # http://localhost:5173</pre>
+      </div>
+      <div class="start-step">
+        <div class="start-step-num">3</div>
+        <div>打开浏览器</div>
+<pre>访问 http://localhost:5173
+起一个名字 → 进入宇宙</pre>
+      </div>
+      <div class="start-step">
+        <div class="start-step-num">4</div>
+        <div>桌面装上(PWA)</div>
+<pre>Chrome / Edge 右上角"安装"
+像 App 一样常驻首屏</pre>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p><a href="/">进入词峰</a> · <a href="#modules">六大模块</a> · <a href="#roadmap">四步路线</a></p>
+    <p style="margin-top: 8px; opacity: 0.7">461 词 · 21 语法点 × 9 题 · 26 篇分级语料 · 48 国际音标 · 14 拼读规则 · 18 最小对立体 · 40 词根家族</p>
+  </footer>
+
+  <script>
+  (function () {
+    /* 卡片聚光灯:样式里已有 --mx/--my 钩子,这里把指针坐标真正喂上 */
+    document.querySelectorAll('.module-card').forEach(function (card) {
+      card.addEventListener('pointermove', function (e) {
+        var r = card.getBoundingClientRect()
+        card.style.setProperty('--mx', (e.clientX - r.left) + 'px')
+        card.style.setProperty('--my', (e.clientY - r.top) + 'px')
+      }, { passive: true })
+    })
+
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) return
+
+    /* 滚动浮现:类名由脚本添加(无 JS 的场合页面保持全可见);
+       升起完成后摘掉类名并清 delay,让卡片自己的 hover 过渡回到原速 */
+    var els = document.querySelectorAll('.sec-title, .sec-sub, .module-card, .feature-item, .start-step, .rm-step')
+    els.forEach(function (el) {
+      el.classList.add('reveal')
+      var idx = Array.prototype.indexOf.call(el.parentNode.children, el)
+      if (idx > 0 && idx < 8) el.style.transitionDelay = (Math.min(idx, 5) * 60) + 'ms'
+    })
+
+    function show(el) {
+      el.classList.add('in')
+      var delay = parseInt(el.style.transitionDelay, 10) || 0
+      setTimeout(function () {
+        el.classList.remove('reveal', 'in')
+        el.style.transitionDelay = ''
+      }, 750 + delay)
+    }
+
+    /* IO 自检:个别内嵌 webview 永不派发 IntersectionObserver 回调,
+       900ms 无响应就全部直接显现,保证任何环境都能看到完整内容 */
+    function ioAlive() {
+      return new Promise(function (resolve) {
+        var fired = false
+        var probe = document.createElement('div')
+        probe.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;pointer-events:none'
+        document.body.appendChild(probe)
+        var tio = new IntersectionObserver(function () {
+          fired = true; tio.disconnect(); probe.remove(); resolve(true)
+        })
+        tio.observe(probe)
+        setTimeout(function () { if (!fired) { tio.disconnect(); probe.remove(); resolve(false) } }, 900)
+      })
+    }
+
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          if (en.isIntersecting) { show(en.target); io.unobserve(en.target) }
+        })
+      }, { threshold: 0.15 })
+      els.forEach(function (el) { io.observe(el) })
+      ioAlive().then(function (alive) {
+        if (alive) return
+        io.disconnect()
+        els.forEach(show)
+      })
+    } else {
+      els.forEach(show)
+    }
+
+    /* 追补:锚点跳转/瞬间滚到底会越过 IO 的触发时机,
+       滚动停歇后扫一遍已到视口下缘之上的元素,补上显示 */
+    var sweeping = false
+    addEventListener('scroll', function () {
+      if (sweeping) return
+      sweeping = true
+      setTimeout(function () {
+        sweeping = false
+        var vh = window.innerHeight
+        els.forEach(function (el) {
+          if (!el.classList.contains('reveal') || el.classList.contains('in')) return
+          if (el.getBoundingClientRect().top < vh) show(el)
+        })
+      }, 220)
+    }, { passive: true })
+  })()
+  </script>
+</body>
+</html>

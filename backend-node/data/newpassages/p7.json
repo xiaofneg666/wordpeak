@@ -1,0 +1,85 @@
+{
+  "title": "The Silk Road: The World's First Great Highway",
+  "level": 3,
+  "type": "reading",
+  "sentences": [
+    { "en": "Two thousand years ago, there were no trains, no trucks, and no planes.", "zh": "两千年前，没有火车，没有卡车，也没有飞机。" },
+    { "en": "If you wanted to move a heavy load across a continent, you needed a camel.", "zh": "想把沉重的货物运过大陆，你需要一头骆驼。" },
+    { "en": "From the ancient Chinese capital of Chang'an — today's Xi'an — caravans set off westward, loaded with goods.", "zh": "从古代中国首都长安（今西安）出发，满载货物的驼队一路向西。" },
+    { "en": "They crossed burning deserts, climbed icy mountain passes, and followed narrow valleys for thousands of kilometers.", "zh": "它们穿越灼热的沙漠，翻过冰雪的山口，沿着狭长的山谷跋涉数千公里。" },
+    { "en": "Their final stops were the great markets of Central Asia, Persia, and even distant Rome.", "zh": "它们的终点是中亚、波斯乃至遥远罗马的大市场。" },
+    { "en": "Later, people gave this huge network of routes a romantic name: the Silk Road.", "zh": "后来，人们给这张庞大的路线网起了一个浪漫的名字：丝绸之路。" },
+    { "en": "The German scholar Ferdinand von Richthofen first used the term in 1877.", "zh": "1877年，德国学者李希霍芬首次使用了这个名称。" },
+    { "en": "Why silk?", "zh": "为什么是丝绸？" },
+    { "en": "Among all the products China exported to the West, silk was the most famous.", "zh": "在中国出口到西方的所有货物中，丝绸最负盛名。" },
+    { "en": "It was light, beautiful, and worth its weight in gold.", "zh": "它轻盈、华美，一磅丝绸值一磅黄金。" },
+    { "en": "A camel could carry a fortune of silk on its back and still walk easily through soft sand.", "zh": "骆驼背上驮着一笔丝绸财富，仍能轻松走过松软的沙丘。" },
+    { "en": "In fact, silk was so light and portable that traders sometimes used it like money itself.", "zh": "事实上，丝绸轻便易携（portable）到商人有时直接把它当钱用。" },
+    { "en": "But silk was only the beginning.", "zh": "但丝绸只是开始。" },
+    { "en": "Chinese merchants also exported fine porcelain, tea, paper, and bronze mirrors.", "zh": "中国商人还出口精美的瓷器、茶叶、纸张和铜镜。" },
+    { "en": "On the return journey, the caravans imported horses from Central Asia, glass from the Mediterranean, and spices, gems, and wool from many lands.", "zh": "回程时，驼队从中亚进口好马，从地中海进口玻璃，还进口各国的香料、宝石和毛料。" },
+    { "en": "Trade is a two-way street, and so was the Silk Road.", "zh": "贸易是双向的街道，丝绸之路亦然。" },
+    { "en": "The story of the road really begins with a brave traveler named Zhang Qian.", "zh": "这条路的故事真正始于一位勇敢的旅行者——张骞。" },
+    { "en": "In 138 BC, Emperor Wu of Han sent him west to find allies against the enemies of the north.", "zh": "公元前138年，汉武帝派他西行，去联络北方大敌的对手结盟。" },
+    { "en": "Zhang Qian was captured by those enemies and held for ten long years, but he never gave up his mission.", "zh": "张骞被敌人俘获，扣留了整整十年，但他始终没有放弃使命。" },
+    { "en": "When he finally returned to Chang'an, he brought no allies at all.", "zh": "当他终于回到长安时，一个盟友也没带来。" },
+    { "en": "Instead, he brought something more valuable: detailed knowledge of the western lands, recorded in careful reports for the emperor.", "zh": "他带回的却是更有价值的东西：关于西域的详尽见闻，被仔细记录成呈给皇帝的报告。" },
+    { "en": "His journey opened the eyes of China to a wider world.", "zh": "他的旅程让中国第一次睁眼看见了更辽阔的世界。" },
+    { "en": "Within a generation, caravans were following his route in both directions.", "zh": "不出一代人的时间，驼队便沿着他的路线双向往来。" },
+    { "en": "Goods were not the only things that traveled; ideas rode the camels too.", "zh": "在路上行走的不止货物，思想也骑着骆驼旅行。" },
+    { "en": "Buddhism, for example, traveled from India along these routes into China.", "zh": "例如，佛教便沿着这些路线从印度传入中国。" },
+    { "en": "Paper-making technology moved slowly westward and transformed how the whole world wrote and read.", "zh": "造纸术缓缓西传，transformed（改变）了全世界的书写与阅读方式。" },
+    { "en": "Astronomy, mathematics, and medicine flowed in both directions along the road.", "zh": "天文、数学和医药知识也沿着这条路双向流动。" },
+    { "en": "Even foods were exchanged: grapes, walnuts, and sesame came to China from the west, while pears and peaches traveled the other way.", "zh": "连食物也互通有无：葡萄、核桃、芝麻从西域来到中国，梨和桃则去了西方。" },
+    { "en": "Every exchange of goods was also a transfer of culture.", "zh": "每一次货物交换，也是一次文化的 transfer（传递）。" },
+    { "en": "Life on the road, however, was far from romantic.", "zh": "然而，路上的生活一点也不浪漫。" },
+    { "en": "The Taklamakan Desert was so merciless that local people called it the place of no return.", "zh": "塔克拉玛干沙漠残酷无情，当地人称之为\"有去无回之地\"。" },
+    { "en": "Travelers endured burning days, freezing nights, and sandstorms that could bury a whole caravan.", "zh": "旅行者 endured（忍受）着白天的酷热、夜里的严寒，以及足以埋没整支驼队的沙暴。" },
+    { "en": "Robbers hid in the mountain passes, watching for slow, heavily loaded camels.", "zh": "强盗们埋伏在山口，盯上那些走得慢、驮得沉的骆驼。" },
+    { "en": "That is why merchants traveled together and hired guards to support and protect their caravans.", "zh": "所以商人们结伴而行，雇人 support（支援）和保护驼队。" },
+    { "en": "The oasis towns along the way became rich and famous, because in the desert, water is life.", "zh": "沿途的绿洲城镇变得富有而闻名，因为在沙漠里，水就是命。" },
+    { "en": "Dunhuang, at the edge of the Gobi, grew into one of the greatest cities of the road.", "zh": "戈壁边缘的敦煌，成长为丝路上最伟大的城市之一。" },
+    { "en": "Its Buddhist cave temples, filled with wall paintings, still amaze visitors today.", "zh": "它那绘满壁画的佛教石窟，至今仍令游客惊叹。" },
+    { "en": "Money also had to travel, but tons of bronze coins were too heavy for the mountains.", "zh": "钱也需要流通，可成吨的铜钱太重，翻不动大山。" },
+    { "en": "So along the road, silk itself became a kind of currency, and traders from many countries learned to bargain in a mixture of languages.", "zh": "于是在丝路上，丝绸本身成了某种 currency（货币），各国商人学会了用混杂的语言讨价还价。" },
+    { "en": "Today, camels no longer carry silk across the sands.", "zh": "今天，骆驼不再驮着丝绸穿越沙海。" },
+    { "en": "But the road never truly died.", "zh": "但这条路从未真正消亡。" },
+    { "en": "Freight trains now transport goods between China and Europe in days instead of months.", "zh": "如今货运列车往来于中欧之间，transport（运输）货物只需数日而非数月。" },
+    { "en": "Tourists walk the old routes to stand where the caravans once stood.", "zh": "游客们重走古道，站在驼队曾经停驻的地方。" },
+    { "en": "The Silk Road teaches a lesson that never gets old.", "zh": "丝绸之路教给我们一个永不过时的道理。" },
+    { "en": "When civilizations trade and talk, everybody gains more than gold: they gain new ideas, new foods, and new ways of seeing the world.", "zh": "当文明之间彼此贸易、彼此交谈，人人得到的都远胜黄金：新的思想、新的食物、新的看世界的方式。" },
+    { "en": "Every long journey begins with a single step, and every good exchange begins with an open door.", "zh": "千里之行始于足下，而每一场美好的交流，始于一扇敞开的门。" }
+  ],
+  "questions": [
+    {
+      "q": "Why was silk ideal for trade across such long distances?",
+      "options": ["It was heavy and hard to damage.", "It was light, portable, and worth a great deal.", "Camels would only carry silk.", "It could be eaten in emergencies."],
+      "answer": 1,
+      "explain": "丝绸\"light and portable\"且贵比黄金，骆驼驮上一笔财富也能轻松走过软沙。"
+    },
+    {
+      "q": "What was Zhang Qian's original mission in 138 BC?",
+      "options": ["To sell silk to Rome.", "To find allies against the enemies of the north.", "To build a road to Persia.", "To bring back grape seeds."],
+      "answer": 1,
+      "explain": "\"Emperor Wu of Han sent him west to find allies against the enemies of the north\"。"
+    },
+    {
+      "q": "What did Zhang Qian bring back that was 'more valuable than allies'?",
+      "options": ["Gold and silver from Persia.", "Detailed knowledge of the western lands, recorded in careful reports.", "A herd of fine horses.", "Maps drawn in Rome."],
+      "answer": 1,
+      "explain": "他没有带回盟友，却带回了关于西域的详尽见闻和写给皇帝的报告，让中国睁眼看世界。"
+    },
+    {
+      "q": "Which of the following statements is correct according to the passage?",
+      "options": ["Buddhism and grapes traveled into China, while paper-making moved westward.", "Buddhism traveled from China to India.", "Paper-making was imported into China from Rome.", "Silk traveled eastward toward Chang'an."],
+      "answer": 0,
+      "explain": "佛教、葡萄等自西传入中国，造纸术则西传并改变了世界的书写方式。"
+    },
+    {
+      "q": "What made journeys on the Silk Road so dangerous?",
+      "options": ["Desert heat, sandstorms, and robbers in the mountain passes.", "Too many tourists on the route.", "The extremely heavy silk.", "High taxes at Chang'an's city gate."],
+      "answer": 0,
+      "explain": "文中列举：塔克拉玛干的酷热沙暴、山口的强盗，所以商队结伴并雇护卫。"
+    }
+  ]
+}

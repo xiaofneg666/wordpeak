@@ -1,0 +1,386 @@
+[
+  {"id": 1, "symbol": "/iː/", "type": "vowel", "name": "长元音 /iː/", "voiced": true, "level": 1,
+   "tip": "舌前部抬得很高贴近硬腭但不摩擦，舌尖抵下齿，嘴角向两边咧开像微笑说\"衣——\"，音要拉长。常见偏误：发得太短、和 /ɪ/ 不分（把 sheep 说成 ship）。",
+   "similar": ["/ɪ/", "/e/"],
+   "example_words": [
+     {"en": "sheep", "zh": "羊", "ipa": "/ʃiːp/"},
+     {"en": "green", "zh": "绿色的", "ipa": "/ɡriːn/"},
+     {"en": "believe", "zh": "相信", "ipa": "/bɪˈliːv/"}
+   ]},
+  {"id": 2, "symbol": "/ɪ/", "type": "vowel", "name": "短元音 /ɪ/", "voiced": true, "level": 1,
+   "tip": "比 /iː/ 舌位略低、口略开，肌肉放松，嘴角不用使劲咧，短促干脆。偏误：用力拉长变成 /iː/（把 ship 说成 sheep）。",
+   "similar": ["/iː/", "/e/"],
+   "example_words": [
+     {"en": "ship", "zh": "轮船", "ipa": "/ʃɪp/"},
+     {"en": "big", "zh": "大的", "ipa": "/bɪɡ/"},
+     {"en": "sit", "zh": "坐", "ipa": "/sɪt/"}
+   ]},
+  {"id": 3, "symbol": "/e/", "type": "vowel", "name": "短元音 /e/", "voiced": true, "level": 1,
+   "tip": "舌位中低，口半开，下巴稍微下垂，像轻松说\"诶\"。注意英语 /e/ 比汉语\"叶\"的韵母开口更大，别读成 /eɪ/。",
+   "similar": ["/æ/", "/eɪ/"],
+   "example_words": [
+     {"en": "bed", "zh": "床", "ipa": "/bed/"},
+     {"en": "pen", "zh": "钢笔", "ipa": "/pen/"},
+     {"en": "best", "zh": "最好的", "ipa": "/best/"}
+   ]},
+  {"id": 4, "symbol": "/æ/", "type": "vowel", "name": "短元音 /æ/", "voiced": true, "level": 1,
+   "tip": "口开得比 /e/ 大得多（上下齿能塞进两指），舌前部很低，嘴角稍向两边拉开。偏误：开口不够，读成 /e/（bad 听成 bed）。",
+   "similar": ["/e/", "/ʌ/"],
+   "example_words": [
+     {"en": "cat", "zh": "猫", "ipa": "/kæt/"},
+     {"en": "bad", "zh": "坏的", "ipa": "/bæd/"},
+     {"en": "apple", "zh": "苹果", "ipa": "/ˈæpl/"}
+   ]},
+  {"id": 5, "symbol": "/ɑː/", "type": "vowel", "name": "长元音 /ɑː/", "voiced": true, "level": 1,
+   "tip": "口张大，舌身放平后缩，舌尖离开下齿，像医生检查喉咙时说\"啊——\"，音拉长。偏误：受拼写影响读成 /ʌ/（把 pass 读成 pus）。",
+   "similar": ["/ʌ/", "/ɒ/"],
+   "example_words": [
+     {"en": "car", "zh": "汽车", "ipa": "/kɑː/"},
+     {"en": "far", "zh": "远的", "ipa": "/fɑː/"},
+     {"en": "heart", "zh": "心", "ipa": "/hɑːt/"}
+   ]},
+  {"id": 6, "symbol": "/ɒ/", "type": "vowel", "name": "短元音 /ɒ/", "voiced": true, "level": 1,
+   "tip": "嘴张圆但不大，舌后部抬起，短促圆润，类似汉语\"奥\"的前半段。英式发音里 o 常读 /ɒ/（hot 不读\"霍特\"）。",
+   "similar": ["/ɔː/", "/ʌ/"],
+   "example_words": [
+     {"en": "hot", "zh": "热的", "ipa": "/hɒt/"},
+     {"en": "dog", "zh": "狗", "ipa": "/dɒɡ/"},
+     {"en": "stop", "zh": "停止", "ipa": "/stɒp/"}
+   ]},
+  {"id": 7, "symbol": "/ɔː/", "type": "vowel", "name": "长元音 /ɔː/", "voiced": true, "level": 1,
+   "tip": "双唇收圆前突，开口比 /ɒ/ 小，舌后部抬高，音拉长如\"哦——\"。偏误：圆唇不够、读成扁平的 /əʊ/。",
+   "similar": ["/ɒ/", "/əʊ/"],
+   "example_words": [
+     {"en": "door", "zh": "门", "ipa": "/dɔː/"},
+     {"en": "ball", "zh": "球", "ipa": "/bɔːl/"},
+     {"en": "more", "zh": "更多", "ipa": "/mɔː/"}
+   ]},
+  {"id": 8, "symbol": "/ʊ/", "type": "vowel", "name": "短元音 /ʊ/", "voiced": true, "level": 1,
+   "tip": "舌后部微抬，双唇微圆（比 /uː/ 松弛得多），短促放松。偏误：读成汉语\"乌\"（满圆唇）或拖长成 /uː/。",
+   "similar": ["/uː/", "/ʌ/"],
+   "example_words": [
+     {"en": "book", "zh": "书", "ipa": "/bʊk/"},
+     {"en": "put", "zh": "放", "ipa": "/pʊt/"},
+     {"en": "good", "zh": "好的", "ipa": "/ɡʊd/"}
+   ]},
+  {"id": 9, "symbol": "/uː/", "type": "vowel", "name": "长元音 /uː/", "voiced": true, "level": 1,
+   "tip": "舌后部抬得很高，双唇收圆前突并稍用力，音拉长如\"乌——\"，比 /ʊ/ 紧得多。偏误：圆唇不足、双唇不动。",
+   "similar": ["/ʊ/", "/w/"],
+   "example_words": [
+     {"en": "food", "zh": "食物", "ipa": "/fuːd/"},
+     {"en": "blue", "zh": "蓝色的", "ipa": "/bluː/"},
+     {"en": "moon", "zh": "月亮", "ipa": "/muːn/"}
+   ]},
+  {"id": 10, "symbol": "/ʌ/", "type": "vowel", "name": "短元音 /ʌ/", "voiced": true, "level": 1,
+   "tip": "口半开，舌身中部稍抬，唇形自然中性，短促有力，近似汉语\"啊\"的短促版但舌位靠中。偏误：受拼写 u 影响读成 /uː/ 或 /juː/。",
+   "similar": ["/ɑː/", "/æ/"],
+   "example_words": [
+     {"en": "cup", "zh": "杯子", "ipa": "/kʌp/"},
+     {"en": "love", "zh": "爱", "ipa": "/lʌv/"},
+     {"en": "sun", "zh": "太阳", "ipa": "/sʌn/"}
+   ]},
+  {"id": 11, "symbol": "/ɜː/", "type": "vowel", "name": "长元音 /ɜː/", "voiced": true, "level": 2,
+   "tip": "舌身中部抬起（不是前也不是后），唇形扁平中性，牙床半开，发音时保持口形不变如\"呃——\"。常带 r 色彩（英式不卷舌，美式卷舌为 /ɝ/）。",
+   "similar": ["/ə/", "/ɔː/"],
+   "example_words": [
+     {"en": "bird", "zh": "鸟", "ipa": "/bɜːd/"},
+     {"en": "girl", "zh": "女孩", "ipa": "/ɡɜːl/"},
+     {"en": "learn", "zh": "学习", "ipa": "/lɜːn/"}
+   ]},
+  {"id": 12, "symbol": "/ə/", "type": "vowel", "name": "中央元音（schwa）/ə/", "voiced": true, "level": 2,
+   "tip": "英语里出现频率最高的音：口腔完全放松，舌位居中，轻而短地\"呃\"一下。非重读音节全靠它（about 的 a、teacher 的 er）。偏误：把每个元音都读得饱满清楚，失去英语节奏感。",
+   "similar": ["/ɜː/", "/ʌ/"],
+   "example_words": [
+     {"en": "about", "zh": "关于", "ipa": "/əˈbaʊt/"},
+     {"en": "teacher", "zh": "老师", "ipa": "/ˈtiːtʃə/"},
+     {"en": "sofa", "zh": "沙发", "ipa": "/ˈsəʊfə/"}
+   ]},
+  {"id": 13, "symbol": "/eɪ/", "type": "vowel", "name": "双元音 /eɪ/", "voiced": true, "level": 1,
+   "tip": "从 /e/ 滑向 /ɪ/，起点开口、终点半闭，一气呵成像\"诶-衣\"。偏误：只发 /e/ 不滑动，或拖成汉语\"A\"的懒音。",
+   "similar": ["/e/", "/aɪ/"],
+   "example_words": [
+     {"en": "day", "zh": "天", "ipa": "/deɪ/"},
+     {"en": "make", "zh": "制作", "ipa": "/meɪk/"},
+     {"en": "name", "zh": "名字", "ipa": "/neɪm/"}
+   ]},
+  {"id": 14, "symbol": "/aɪ/", "type": "vowel", "name": "双元音 /aɪ/", "voiced": true, "level": 1,
+   "tip": "从开 /a/（比 /æ/ 更开）快速滑向 /ɪ/，下巴先大开后收拢，像\"爱\"但更开。偏误：起点不够开、直接读成汉语\"爱\"。",
+   "similar": ["/eɪ/", "/ɑː/"],
+   "example_words": [
+     {"en": "time", "zh": "时间", "ipa": "/taɪm/"},
+     {"en": "fly", "zh": "飞", "ipa": "/flaɪ/"},
+     {"en": "light", "zh": "光", "ipa": "/laɪt/"}
+   ]},
+  {"id": 15, "symbol": "/ɔɪ/", "type": "vowel", "name": "双元音 /ɔɪ/", "voiced": true, "level": 2,
+   "tip": "从圆唇 /ɔ/ 滑向 /ɪ/，滑动过程中嘴唇由圆变扁，像\"哦-衣\"连读。偏误：圆唇保持到最后，终点不扁，听上去像 /ɔː/。",
+   "similar": ["/ɔː/", "/aɪ/"],
+   "example_words": [
+     {"en": "boy", "zh": "男孩", "ipa": "/bɔɪ/"},
+     {"en": "toy", "zh": "玩具", "ipa": "/tɔɪ/"},
+     {"en": "noise", "zh": "噪音", "ipa": "/nɔɪz/"}
+   ]},
+  {"id": 16, "symbol": "/əʊ/", "type": "vowel", "name": "双元音 /əʊ/", "voiced": true, "level": 1,
+   "tip": "从中元音 /ə/ 滑向 /ʊ/，双唇逐渐收圆收小，像\"呃-哦\"。注意与美式 /oʊ/ 的区别：英式起点更中央。偏误：只发 /ɔː/ 不滑动。",
+   "similar": ["/ɔː/", "/ʌ/"],
+   "example_words": [
+     {"en": "go", "zh": "去", "ipa": "/ɡəʊ/"},
+     {"en": "home", "zh": "家", "ipa": "/həʊm/"},
+     {"en": "know", "zh": "知道", "ipa": "/nəʊ/"}
+   ]},
+  {"id": 17, "symbol": "/aʊ/", "type": "vowel", "name": "双元音 /aʊ/", "voiced": true, "level": 1,
+   "tip": "从大开的 /a/ 滑向圆唇 /ʊ/，嘴巴从大到圆，像\"啊-乌\"连读（近似\"傲\"但更开）。偏误：起点开口不够、终点圆唇不到位。",
+   "similar": ["/ɔː/", "/əʊ/"],
+   "example_words": [
+     {"en": "now", "zh": "现在", "ipa": "/naʊ/"},
+     {"en": "house", "zh": "房子", "ipa": "/haʊs/"},
+     {"en": "out", "zh": "外面", "ipa": "/aʊt/"}
+   ]},
+  {"id": 18, "symbol": "/ɪə/", "type": "vowel", "name": "双元音 /ɪə/", "voiced": true, "level": 2,
+   "tip": "从 /ɪ/ 滑向 /ə/（或带轻微 r 色彩），嘴角先咧后松，像\"衣-呃\"。偏误：读成汉语\"一\"加卷舌，或与 /eə/ 混淆。",
+   "similar": ["/eə/", "/iː/"],
+   "example_words": [
+     {"en": "near", "zh": "近的", "ipa": "/nɪə/"},
+     {"en": "here", "zh": "这里", "ipa": "/hɪə/"},
+     {"en": "idea", "zh": "主意", "ipa": "/aɪˈdɪə/"}
+   ]},
+  {"id": 19, "symbol": "/eə/", "type": "vowel", "name": "双元音 /eə/", "voiced": true, "level": 2,
+   "tip": "从 /e/ 滑向 /ə/，口从中开到放松，像\"诶-呃\"。偏误：与 /ɪə/ 混淆（hair 听成 here），注意起点是 /e/ 的开口度。",
+   "similar": ["/ɪə/", "/æ/"],
+   "example_words": [
+     {"en": "hair", "zh": "头发", "ipa": "/heə/"},
+     {"en": "care", "zh": "关心", "ipa": "/keə/"},
+     {"en": "where", "zh": "哪里", "ipa": "/weə/"}
+   ]},
+  {"id": 20, "symbol": "/ʊə/", "type": "vowel", "name": "双元音 /ʊə/", "voiced": true, "level": 3,
+   "tip": "从圆唇 /ʊ/ 滑向 /ə/，嘴唇由圆到松，像\"乌-呃\"。现代英语中很多词已改读 /ɔː/（如 poor 读 /pɔː/），但在 tour、sure 中仍常见。",
+   "similar": ["/ɔː/", "/ʊ/"],
+   "example_words": [
+     {"en": "tour", "zh": "旅行", "ipa": "/tʊə/"},
+     {"en": "poor", "zh": "贫穷的", "ipa": "/pʊə/"},
+     {"en": "curious", "zh": "好奇的", "ipa": "/ˈkjʊəriəs/"}
+   ]},
+  {"id": 21, "symbol": "/p/", "type": "consonant", "name": "清辅音 /p/", "voiced": false, "level": 1,
+   "tip": "双唇闭合憋气，气流冲开双唇爆发成音，声带不振动。送气有力（词首时像\"噗\"）。偏误：受汉语影响送气不足、或漏读词尾（cup 的 p 轻微爆破不出声）。",
+   "similar": ["/b/", "/t/"],
+   "example_words": [
+     {"en": "pen", "zh": "钢笔", "ipa": "/pen/"},
+     {"en": "stop", "zh": "停止", "ipa": "/stɒp/"},
+     {"en": "space", "zh": "太空", "ipa": "/speɪs/"}
+   ]},
+  {"id": 22, "symbol": "/b/", "type": "consonant", "name": "浊辅音 /b/", "voiced": true, "level": 1,
+   "tip": "口型与 /p/ 完全相同，区别是声带振动（手摸喉咙有麻感）、送气较弱。偏误：读成不送气清音，与 /p/ 不分（把 bee 读成 pea）。",
+   "similar": ["/p/", "/v/"],
+   "example_words": [
+     {"en": "book", "zh": "书", "ipa": "/bʊk/"},
+     {"en": "big", "zh": "大的", "ipa": "/bɪɡ/"},
+     {"en": "orbit", "zh": "轨道", "ipa": "/ˈɔːbɪt/"}
+   ]},
+  {"id": 23, "symbol": "/t/", "type": "consonant", "name": "清辅音 /t/", "voiced": false, "level": 1,
+   "tip": "舌尖抵上齿龈，憋气后弹开发音，声带不振动，送气强。偏误：读成汉语平舌\"t\"（舌位靠前抵上齿），或词尾加元音读成\"特\"。",
+   "similar": ["/d/", "/tʃ/"],
+   "example_words": [
+     {"en": "tea", "zh": "茶", "ipa": "/tiː/"},
+     {"en": "star", "zh": "星星", "ipa": "/stɑː/"},
+     {"en": "rocket", "zh": "火箭", "ipa": "/ˈrɒkɪt/"}
+   ]},
+  {"id": 24, "symbol": "/d/", "type": "consonant", "name": "浊辅音 /d/", "voiced": true, "level": 1,
+   "tip": "舌位口型同 /t/，声带振动、送气弱。偏误：与 /t/ 不分（date/debt 混），词尾漏读。",
+   "similar": ["/t/", "/dʒ/"],
+   "example_words": [
+     {"en": "day", "zh": "天", "ipa": "/deɪ/"},
+     {"en": "good", "zh": "好的", "ipa": "/ɡʊd/"},
+     {"en": "lander", "zh": "着陆器", "ipa": "/ˈlændə/"}
+   ]},
+  {"id": 25, "symbol": "/k/", "type": "consonant", "name": "清辅音 /k/", "voiced": false, "level": 1,
+   "tip": "舌后部抵软腭，憋气后放开爆破，声带不振动，送气强。偏误：词尾加\"科\"或\"克\"的元音尾。",
+   "similar": ["/ɡ/", "/tʃ/"],
+   "example_words": [
+     {"en": "key", "zh": "钥匙", "ipa": "/kiː/"},
+     {"en": "school", "zh": "学校", "ipa": "/skuːl/"},
+     {"en": "comet", "zh": "彗星", "ipa": "/ˈkɒmɪt/"}
+   ]},
+  {"id": 26, "symbol": "/ɡ/", "type": "consonant", "name": "浊辅音 /ɡ/", "voiced": true, "level": 1,
+   "tip": "舌位同 /k/，声带振动、送气弱。偏误：词首不够浊、与 /k/ 不分（goat/coat 混）。",
+   "similar": ["/k/", "/dʒ/"],
+   "example_words": [
+     {"en": "go", "zh": "去", "ipa": "/ɡəʊ/"},
+     {"en": "big", "zh": "大的", "ipa": "/bɪɡ/"},
+     {"en": "galaxy", "zh": "星系", "ipa": "/ˈɡæləksi/"}
+   ]},
+  {"id": 27, "symbol": "/f/", "type": "consonant", "name": "清辅音 /f/", "voiced": false, "level": 1,
+   "tip": "上齿轻触下唇内侧，气流从缝隙摩擦而出，声带不振动，像轻轻吹气\"噗\"。偏误：用双唇碰擦（读成送气\"噗\"），或漏读 of 的词尾 /v/。",
+   "similar": ["/v/", "/θ/"],
+   "example_words": [
+     {"en": "fly", "zh": "飞", "ipa": "/flaɪ/"},
+     {"en": "life", "zh": "生活", "ipa": "/laɪf/"},
+     {"en": "coffee", "zh": "咖啡", "ipa": "/ˈkɒfi/"}
+   ]},
+  {"id": 28, "symbol": "/v/", "type": "consonant", "name": "浊辅音 /v/", "voiced": true, "level": 1,
+   "tip": "唇齿位置同 /f/，但声带振动、摩擦持续。偏误：汉语无此音，常读成 /w/（very 读成\"外瑞\"）——务必上齿咬下唇。",
+   "similar": ["/f/", "/w/"],
+   "example_words": [
+     {"en": "very", "zh": "非常", "ipa": "/ˈveri/"},
+     {"en": "love", "zh": "爱", "ipa": "/lʌv/"},
+     {"en": "voyage", "zh": "航行", "ipa": "/ˈvɔɪɪdʒ/"}
+   ]},
+  {"id": 29, "symbol": "/θ/", "type": "consonant", "name": "清辅音 /θ/", "voiced": false, "level": 2,
+   "tip": "舌尖轻伸出上下齿之间（或轻抵上齿），气流从舌齿缝隙挤出，声带不振动。偏误：汉语无此音，常读成 /s/（think 读成\"sink\"）或 /t/——舌尖必须露一点出来。",
+   "similar": ["/ð/", "/s/"],
+   "example_words": [
+     {"en": "think", "zh": "思考", "ipa": "/θɪŋk/"},
+     {"en": "three", "zh": "三", "ipa": "/θriː/"},
+     {"en": "earth", "zh": "地球", "ipa": "/ɜːθ/"}
+   ]},
+  {"id": 30, "symbol": "/ð/", "type": "consonant", "name": "浊辅音 /ð/", "voiced": true, "level": 2,
+   "tip": "舌位同 /θ/（舌尖伸出齿间），但声带振动。出现在 the、this、that 等高频词里，读不好很扎耳。偏误：读成 /z/、/d/ 或 /θ/（把 mother 读成\"马色\"）。",
+   "similar": ["/θ/", "/z/"],
+   "example_words": [
+     {"en": "this", "zh": "这个", "ipa": "/ðɪs/"},
+     {"en": "mother", "zh": "母亲", "ipa": "/ˈmʌðə/"},
+     {"en": "weather", "zh": "天气", "ipa": "/ˈweðə/"}
+   ]},
+  {"id": 31, "symbol": "/s/", "type": "consonant", "name": "清辅音 /s/", "voiced": false, "level": 1,
+   "tip": "舌尖接近上齿龈（不接触），气流从窄缝摩擦而出，声带不振动，像拉长的\"嘶\"。偏误：读成汉语\"斯\"（带上元音）或加 /ə/ 尾。",
+   "similar": ["/z/", "/ʃ/"],
+   "example_words": [
+     {"en": "sun", "zh": "太阳", "ipa": "/sʌn/"},
+     {"en": "star", "zh": "星星", "ipa": "/stɑː/"},
+     {"en": "space", "zh": "太空", "ipa": "/speɪs/"}
+   ]},
+  {"id": 32, "symbol": "/z/", "type": "consonant", "name": "浊辅音 /z/", "voiced": true, "level": 1,
+   "tip": "舌位口型同 /s/，但声带振动，像蜜蜂\"嗡——\"般的浊擦音。偏误：该浊不浊（is、was 的词尾 z 丢掉，读成 /s/）。",
+   "similar": ["/s/", "/ʒ/"],
+   "example_words": [
+     {"en": "zoo", "zh": "动物园", "ipa": "/zuː/"},
+     {"en": "music", "zh": "音乐", "ipa": "/ˈmjuːzɪk/"},
+     {"en": "stars", "zh": "星星（复数）", "ipa": "/stɑːz/"}
+   ]},
+  {"id": 33, "symbol": "/ʃ/", "type": "consonant", "name": "清辅音 /ʃ/", "voiced": false, "level": 1,
+   "tip": "双唇略前突成方形，舌身抬向硬腭，气流从宽缝隙摩擦而出，声带不振动，像\"嘘——\"。偏误：与汉语\"x（西）\"混淆——/ʃ/ 舌位更后、唇更突。",
+   "similar": ["/ʒ/", "/tʃ/"],
+   "example_words": [
+     {"en": "she", "zh": "她", "ipa": "/ʃiː/"},
+     {"en": "ship", "zh": "轮船", "ipa": "/ʃɪp/"},
+     {"en": "shuttle", "zh": "航天飞机", "ipa": "/ˈʃʌtl/"}
+   ]},
+  {"id": 34, "symbol": "/ʒ/", "type": "consonant", "name": "浊辅音 /ʒ/", "voiced": true, "level": 3,
+   "tip": "口形舌位同 /ʃ/，但声带振动。出现频率低（pleasure、vision、usually 等），是英语最罕见的辅音之一。偏误：一律读成 /ʃ/ 或 /dʒ/。",
+   "similar": ["/ʃ/", "/dʒ/"],
+   "example_words": [
+     {"en": "vision", "zh": "视野", "ipa": "/ˈvɪʒn/"},
+     {"en": "pleasure", "zh": "愉悦", "ipa": "/ˈpleʒə/"},
+     {"en": "usually", "zh": "通常", "ipa": "/ˈjuːʒuəli/"}
+   ]},
+  {"id": 35, "symbol": "/h/", "type": "consonant", "name": "清辅音 /h/", "voiced": false, "level": 1,
+   "tip": "口张开，舌身平放，气流从声门轻轻呼出，像哈气暖手\"哈\"，不摩擦任何部位。偏误：读成汉语\"喝\"（软腭摩擦音类似 /x/）——英语 /h/ 只是呼气。",
+   "similar": ["/r/", "/ŋ/"],
+   "example_words": [
+     {"en": "he", "zh": "他", "ipa": "/hiː/"},
+     {"en": "home", "zh": "家", "ipa": "/həʊm/"},
+     {"en": "behind", "zh": "在后面", "ipa": "/bɪˈhaɪnd/"}
+   ]},
+  {"id": 36, "symbol": "/m/", "type": "consonant", "name": "浊辅音 /m/", "voiced": true, "level": 1,
+   "tip": "双唇闭合，软腭下垂，声带振动，气流全部从鼻腔出来（捏住鼻子发不出），嘴微张唇合。偏误：词尾吞掉（some 的 m），或发成 /n/。",
+   "similar": ["/n/", "/ŋ/"],
+   "example_words": [
+     {"en": "moon", "zh": "月亮", "ipa": "/muːn/"},
+     {"en": "sum", "zh": "总和", "ipa": "/sʌm/"},
+     {"en": "team", "zh": "团队", "ipa": "/tiːm/"}
+   ]},
+  {"id": 37, "symbol": "/n/", "type": "consonant", "name": "浊辅音 /n/", "voiced": true, "level": 1,
+   "tip": "舌前部抬高贴近上齿龈（不摩擦），嘴微张，气流从鼻腔出来，声带振动。注意与 /l/ 区分：/n/ 舌尖抵上齿龈、气走鼻子；/l/ 气走嘴巴两边。偏误：词尾读成 /ŋ/（把 in 读成\"ing\"）。",
+   "similar": ["/l/", "/ŋ/"],
+   "example_words": [
+     {"en": "nine", "zh": "九", "ipa": "/naɪn/"},
+     {"en": "sun", "zh": "太阳", "ipa": "/sʌn/"},
+     {"en": "know", "zh": "知道", "ipa": "/nəʊ/"}
+   ]},
+  {"id": 38, "symbol": "/ŋ/", "type": "consonant", "name": "浊辅音 /ŋ/", "voiced": true, "level": 2,
+   "tip": "舌后部抬高贴软腭（与 /k/、/ɡ/ 同部位），嘴张得比 /n/ 大，气流从鼻腔出来，声带振动。偏误：词中多加 /ɡ/（把 singing 读成 sing-ging），或与 /n/ 混。",
+   "similar": ["/n/", "/ɡ/"],
+   "example_words": [
+     {"en": "sing", "zh": "唱歌", "ipa": "/sɪŋ/"},
+     {"en": "long", "zh": "长的", "ipa": "/lɒŋ/"},
+     {"en": "morning", "zh": "早晨", "ipa": "/ˈmɔːnɪŋ/"}
+   ]},
+  {"id": 39, "symbol": "/l/", "type": "consonant", "name": "浊辅音 /l/", "voiced": true, "level": 2,
+   "tip": "舌尖抵上齿龈，气流从舌两侧流出来（边音），声带振动。清晰 /l/（词首 like）舌尖用力抵住；含糊 /l/（词尾 feel）舌尖轻抵、舌后隆起。偏误：词尾读成 /əʊ/ 或干脆吞掉（把 feel 读成\"fee\"）。",
+   "similar": ["/n/", "/r/"],
+   "example_words": [
+     {"en": "light", "zh": "光", "ipa": "/laɪt/"},
+     {"en": "feel", "zh": "感觉", "ipa": "/fiːl/"},
+     {"en": "launch", "zh": "发射", "ipa": "/lɔːntʃ/"}
+   ]},
+  {"id": 40, "symbol": "/r/", "type": "consonant", "name": "浊辅音 /r/", "voiced": true, "level": 2,
+   "tip": "舌尖向上卷起接近硬腭前部（不接触任何地方），双唇略圆，气流通过时声带振动。偏误：汉语 r 是卷舌擦音，直接平移会读成 /ʒ/——英语 /r/ 几乎不摩擦；也别读成 /l/（把 right 读成 light）。",
+   "similar": ["/l/", "/w/"],
+   "example_words": [
+     {"en": "red", "zh": "红色的", "ipa": "/red/"},
+     {"en": "rocket", "zh": "火箭", "ipa": "/ˈrɒkɪt/"},
+     {"en": "travel", "zh": "旅行", "ipa": "/ˈtrævl/"}
+   ]},
+  {"id": 41, "symbol": "/w/", "type": "consonant", "name": "浊辅音 /w/", "voiced": true, "level": 1,
+   "tip": "双唇收得很圆前突（比 /uː/ 更用力），随即迅速滑向后面的元音，像极快的\"乌\"。偏误：读成 /v/（把 west 读成 vest），汉语\"我\"的声母类似但不圆唇。",
+   "similar": ["/v/", "/uː/"],
+   "example_words": [
+     {"en": "we", "zh": "我们", "ipa": "/wiː/"},
+     {"en": "water", "zh": "水", "ipa": "/ˈwɔːtə/"},
+     {"en": "away", "zh": "离开", "ipa": "/əˈweɪ/"}
+   ]},
+  {"id": 42, "symbol": "/j/", "type": "consonant", "name": "浊辅音 /j/", "voiced": true, "level": 1,
+   "tip": "舌前部抬向硬腭（位置同 /iː/），迅速滑向后面的元音，像极快的\"衣\"。music /ˈmjuːzɪk/ 里的 j 就是它。偏误：与 /dʒ/ 混（把 yet 读成 jet）。",
+   "similar": ["/iː/", "/dʒ/"],
+   "example_words": [
+     {"en": "yes", "zh": "是的", "ipa": "/jes/"},
+     {"en": "you", "zh": "你", "ipa": "/juː/"},
+     {"en": "music", "zh": "音乐", "ipa": "/ˈmjuːzɪk/"}
+   ]},
+  {"id": 43, "symbol": "/tʃ/", "type": "consonant", "name": "清辅音 /tʃ/", "voiced": false, "level": 1,
+   "tip": "舌尖先抵上齿龈（像 /t/），然后快速松开滑向 /ʃ/ 的位置，双唇前突，送气强，像\"吃\"（但更前突）。偏误：与汉语\"ch（吃）\"混淆，注意英语双唇前突更多。",
+   "similar": ["/dʒ/", "/ʃ/"],
+   "example_words": [
+     {"en": "chair", "zh": "椅子", "ipa": "/tʃeə/"},
+     {"en": "watch", "zh": "观看", "ipa": "/wɒtʃ/"},
+     {"en": "teacher", "zh": "老师", "ipa": "/ˈtiːtʃə/"}
+   ]},
+  {"id": 44, "symbol": "/dʒ/", "type": "consonant", "name": "浊辅音 /dʒ/", "voiced": true, "level": 1,
+   "tip": "舌位动作同 /tʃ/，但声带振动、送气弱，像\"机\"（但双唇前突、声带响）。偏误：读成 /tʃ/（把 jam 读成 charm 类似的清音），或读成汉语 j（舌位更靠前）。",
+   "similar": ["/tʃ/", "/ʒ/"],
+   "example_words": [
+     {"en": "job", "zh": "工作", "ipa": "/dʒɒb/"},
+     {"en": "age", "zh": "年龄", "ipa": "/eɪdʒ/"},
+     {"en": "journey", "zh": "旅程", "ipa": "/ˈdʒɜːni/"}
+   ]},
+  {"id": 45, "symbol": "/tr/", "type": "consonant", "name": "清辅音连缀 /tr/", "voiced": false, "level": 2,
+   "tip": "/t/ 与 /r/ 紧密连读：舌尖抵齿龈发 /t/ 的同时舌面卷起，一瞬完成，双唇略圆。偏误：中间加元音读成\"tə-r\"，或读成汉语\"戳\"的声母 /tʂ/。",
+   "similar": ["/dr/", "/tʃ/"],
+   "example_words": [
+     {"en": "tree", "zh": "树", "ipa": "/triː/"},
+     {"en": "travel", "zh": "旅行", "ipa": "/ˈtrævl/"},
+     {"en": "astronaut", "zh": "宇航员", "ipa": "/ˈæstrənɔːt/"}
+   ]},
+  {"id": 46, "symbol": "/dr/", "type": "consonant", "name": "浊辅音连缀 /dr/", "voiced": true, "level": 2,
+   "tip": "/d/ 与 /r/ 紧密连读，声带振动，动作要领同 /tr/。偏误：与 /dʒ/ 混淆（把 dry 读成\"拽\"或 jam 类音）——/dr/ 有明显的卷舌 /r/ 尾巴。",
+   "similar": ["/tr/", "/dʒ/"],
+   "example_words": [
+     {"en": "dream", "zh": "梦想", "ipa": "/driːm/"},
+     {"en": "drive", "zh": "驾驶", "ipa": "/draɪv/"},
+     {"en": "children", "zh": "孩子们", "ipa": "/ˈtʃɪldrən/"}
+   ]},
+  {"id": 47, "symbol": "/ts/", "type": "consonant", "name": "清辅音连缀 /ts/", "voiced": false, "level": 3,
+   "tip": "/t/ 后紧跟 /s/，一个动作里舌尖弹开就摩擦，像\"呲\"（cats、its 词尾）。偏误：只读 /s/ 丢掉 /t/，或加元音读成\"次\"带明显 /ə/。",
+   "similar": ["/dz/", "/s/"],
+   "example_words": [
+     {"en": "cats", "zh": "猫（复数）", "ipa": "/kæts/"},
+     {"en": "its", "zh": "它的", "ipa": "/ɪts/"},
+     {"en": "rockets", "zh": "火箭（复数）", "ipa": "/ˈrɒkɪts/"}
+   ]},
+  {"id": 48, "symbol": "/dz/", "type": "consonant", "name": "浊辅音连缀 /dz/", "voiced": true, "level": 3,
+   "tip": "/d/ 后紧跟 /z/，声带振动，词尾出现（beds、words、fields）。偏误：与 /ts/ 不分、丢掉 /d/，或读成 /z/ 加元音。",
+   "similar": ["/ts/", "/z/"],
+   "example_words": [
+     {"en": "beds", "zh": "床（复数）", "ipa": "/bedz/"},
+     {"en": "words", "zh": "单词（复数）", "ipa": "/wɜːdz/"},
+     {"en": "clouds", "zh": "云（复数）", "ipa": "/klaʊdz/"}
+   ]}
+]

@@ -1,0 +1,272 @@
+{
+  "id": "lib-starpost",
+  "title": "星星邮递员",
+  "en_title": "The Star Postman",
+  "author": "WordVerse Archive",
+  "region": "literary",
+  "level": 1,
+  "one_line": "小邮差与山顶天文学家之间安静的五个季节。",
+  "word_focus": ["ast", "stell"],
+  "chapters": [
+    {
+      "no": 1,
+      "title": "山路上的包裹",
+      "sentences": [
+        { "en": "Tomas was a young postman in a small town between two dark mountains, and he loved his morning work more than anything else in the world.", "zh": "托马斯是夹在两座黑山之间的小镇上的年轻邮差，他爱自己的晨间工作胜过世上一切。" },
+        { "en": "Every day he put his letters in a heavy brown bag, closed the door of the little post office, and walked up the long stone road.", "zh": "每天他把信装进沉重的棕色邮包，关上小邮局的门，走上长长的石头山路。" },
+        { "en": "The road was old and narrow and the morning stones were cold, but Tomas knew every turn of it like the lines on his own hand.", "zh": "这条路又老又窄，清晨的石头冰凉，可托马斯熟悉每一个转弯，就像熟悉自己手上的纹路。" },
+        { "en": "Today his bag was light, because it held only one small package with a letter for the astronomy tower at the top.", "zh": "今天他的邮包很轻，因为里面只有一个小包裹，还有一封寄往山顶天文塔的信。" },
+        { "en": "On the label there was a small asterisk next to the name, a little star made of careful black ink.", "zh": "标签上的名字旁边画着一个小星号，是用细心的黑墨水画成的一颗小星星。" },
+        { "en": "An asterisk means the letter is important, his boss told him once, so you must carry it with clean hands and a quiet heart.", "zh": "老板有一次告诉他：星号意味着这封信很重要，所以你要用干净的手和平静的心去送它。" },
+        { "en": "Some people in the town liked astrology, and every week they read their star signs in the thin grey paper by the window.", "zh": "镇上有些人喜欢占星术，每周都坐在窗边，在薄薄的灰报纸上读自己的星座运势。" },
+        { "en": "Tomas did not believe in astrology, because he could not see how the stars could know anything about his own small life.", "zh": "托马斯不信占星术，因为他想不出星星怎么可能知道他那小小的生活。" },
+        { "en": "But he did like the real stars, the quiet stellar lights that came out one by one after the sun went down.", "zh": "但他确实喜欢真正的星星——太阳落山后一颗一颗亮起来的、安静的星光。" },
+        { "en": "There was only one small problem: he could not name one constellation in the night sky, not even the most famous one.", "zh": "只有一个小小的遗憾：夜空里的星座，他一个也叫不出名字，连最有名的那个也不行。" },
+        { "en": "He looked up on many cold nights, but for him the sky was a book with astronomical words and no easy answers in it.", "zh": "许多个寒夜里他都抬头看天，可对他来说，天空是一本满是天文数字、却没有答案的书。" },
+        { "en": "The tower at the top of the road was the town's small observatory, a round white building with a silver door and a quiet bell.", "zh": "山路尽头的那座塔，是小镇自己的小天文台：一座圆的白色建筑，有一扇银色的门和一只安静的铃。" },
+        { "en": "An astronomer named Dr. Vega worked there all year, alone with her hot tea, her thin notebooks and her long black telescope.", "zh": "一位名叫维加博士的天文学家整年都待在那里，陪伴她的只有热茶、薄薄的笔记本和长长的黑色望远镜。" },
+        { "en": "Tomas thought about her as he climbed: did she study asteroids, those big silent rocks that sail far away in the dark?", "zh": "爬山的时候他想起了她：她研究的是不是小行星——那些在黑暗远处默默航行的巨大岩石？" }
+      ],
+      "questions": [
+        {
+          "q": "What does the small asterisk on the label mean?",
+          "options": ["The letter is important", "The road is dangerous", "The tower is closed", "The star is bright"],
+          "answer": 0,
+          "explain": "第6句 \"An asterisk means the letter is important\"，老板说过星号代表重要的信。"
+        },
+        {
+          "q": "Where does Dr. Vega work?",
+          "options": ["In the post office", "In the town school", "In the small observatory at the top of the road", "In a big city by the sea"],
+          "answer": 2,
+          "explain": "第12句说山顶的塔是小镇的小天文台，第13句 \"An astronomer named Dr. Vega worked there all year\"，她在那里工作。"
+        },
+        {
+          "q": "What does Tomas wonder about Dr. Vega's work?",
+          "options": ["Whether she sells star maps", "Whether she studies asteroids far away", "Whether she likes the town", "Whether she reads the grey paper"],
+          "answer": 1,
+          "explain": "第14句 \"did she study asteroids, those big silent rocks that sail far away in the dark?\"，他猜测她研究的是遥远的小行星。"
+        },
+        {
+          "q": "Why does Tomas not believe in astrology?",
+          "options": ["He cannot read the paper", "His boss forbids it", "He cannot see how the stars could know about his small life", "He only believes in the moon"],
+          "answer": 2,
+          "explain": "第8句 \"he could not see how the stars could know anything about his own small life\"，这是他自己想通的道理。"
+        },
+        {
+          "q": "Asterisk and constellation both come from the old word for star. In the chapter, what does the asterisk on the label look like?",
+          "options": ["A long black line", "A little star made of ink", "A round silver moon", "A small white bird"],
+          "answer": 1,
+          "explain": "第5句 \"a little star made of careful black ink\"，词根 ast/stell 意为\"星\"，所以 asterisk（星号）与 constellation（星座）同源。"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "天文台的一天",
+      "sentences": [
+        { "en": "Tomas stood in front of the silver door with the package under his arm, and he raised his free hand, but Dr. Vega opened the door before he could knock.", "zh": "托马斯夹着包裹站在银色的门前，刚抬起空着的那只手，维加博士却在他敲门之前就把门打开了。" },
+        { "en": "She was a quiet astronomer with warm grey eyes, and her old grey cardigan had small holes from many long winter nights on the mountain.", "zh": "她是位安静的天文学家，有一双温和的灰眼睛；她那件旧灰开衫上留着山上许多漫长寒夜磨出的小洞。" },
+        { "en": "Thank you for walking so far up the old road, she said softly, and please come inside, because the wind is sharp on the mountain today.", "zh": "谢谢你沿老路走了这么远，她轻声说，请进来吧，今天山上的风很硬。" },
+        { "en": "The round room held a big black telescope under the great white dome, and the walls were covered with star maps and long tables of numbers.", "zh": "圆形的房间里，巨大的白色穹顶下架着一台黑色大望远镜，墙上贴满了星图和一列列长长的数字表。" },
+        { "en": "As a small child, Dr. Vega wanted to be an astronaut, and she drew white ships on every page of her school books.", "zh": "小时候，维加博士想当一名宇航员，还在课本的每一页上都画过白色的飞船。" },
+        { "en": "Later she chose astronomy instead, because the stars asked better questions than any white ship, and she never once felt sorry about it.", "zh": "后来她转而选择了天文学，因为星星提出的问题比任何白色飞船都更有意思，而且她从未后悔过。" },
+        { "en": "She studied astrophysics, the science of stars and light, and she explained it to Tomas with two cups of hot sweet tea.", "zh": "她研究天体物理学——一门关于恒星与光的学问——并就着两杯热甜茶把它讲给托马斯听。" },
+        { "en": "One day ships may travel on interstellar roads between the stars, she said, and perhaps your grandchildren will buy the first tickets.", "zh": "她说，也许有一天，飞船会行驶在星星之间的星际航道上，说不定你的孙辈会买下第一批船票。" },
+        { "en": "Tomas asked a slow, careful question: could an asteroid ever fall out of the dark sky and hit the earth, like a stone into a cup of water?", "zh": "托马斯慢慢问出一个郑重的问题：会不会有一天，一颗小行星从黑暗的天空坠落，像石子掉进水杯一样撞上地球？" },
+        { "en": "Most asteroids stay far away on their own quiet roads around the sun, she answered with a small smile, so you can sleep well tonight.", "zh": "她微微一笑，回答道：大多数小行星都待在绕太阳的安静轨道上，离得很远，所以你今晚可以安心睡觉。" },
+        { "en": "But the sky keeps astronomical surprises, she added, and that is exactly why somebody must watch it every single night.", "zh": "但她又补充说，天空藏着多得数不清的意外，这正是必须有人每个夜晚都守望它的原因。" },
+        { "en": "Her desk notes were full of small asterisks, like tiny stars lying on thin white paper between the black lines.", "zh": "她桌上的便签里满是小小的星号，像躺在白纸黑行之间的细碎星星。" },
+        { "en": "Each little asterisk marked something important, she said, the way a white stone marks a safe place on a mountain path.", "zh": "她说，每个小星号都标记着要紧的事，就像山路上一块白石子标记着安全落脚的地方。" },
+        { "en": "Tomas forgot the time completely, the tea grew cold in the two cups, and outside the dome the first stellar lights came quietly out, one by one.", "zh": "托马斯全然忘了时间，两杯茶都凉了；穹顶之外，最初的星光一颗接一颗，静静地亮了起来。" }
+      ],
+      "questions": [
+        {
+          "q": "What did Dr. Vega want to be as a child?",
+          "options": ["A postman", "An astronaut", "A doctor", "A painter"],
+          "answer": 1,
+          "explain": "第5句 \"As a small child, Dr. Vega wanted to be an astronaut\"，她小时候想当宇航员。"
+        },
+        {
+          "q": "What does Dr. Vega say about most asteroids?",
+          "options": ["They stay far away, so we can sleep well", "They visit the earth every year", "They follow fishing boats", "They are made of sweet tea"],
+          "answer": 0,
+          "explain": "第10句 \"Most asteroids stay far away on their own quiet roads\"，她安慰托马斯说小行星离得很远。"
+        },
+        {
+          "q": "What are Dr. Vega's desk notes full of?",
+          "options": ["Long sea stories", "Old photos", "Small asterisks, like tiny stars", "Grey clouds"],
+          "answer": 2,
+          "explain": "第12句 \"Her desk notes were full of small asterisks, like tiny stars\"，便签上满是像小星星一样的星号。"
+        },
+        {
+          "q": "What can we tell about Dr. Vega's feelings toward her work?",
+          "options": ["She regrets her choice every winter", "She loves it and never once felt sorry about it", "She wants to sell her telescope", "She finds the stars boring"],
+          "answer": 1,
+          "explain": "第6句 \"she never once felt sorry about it\"——结合她讲得入迷、茶都凉了（第14句），可推断她由衷热爱这份工作。"
+        },
+        {
+          "q": "What is astrophysics, as Dr. Vega explains it?",
+          "options": ["The science of stars and light", "The study of old letters", "The art of star signs", "The work of a postman"],
+          "answer": 0,
+          "explain": "第7句 \"She studied astrophysics, the science of stars and light\"，天体物理学是关于恒星和光的学问。"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "暴雨与修补",
+      "sentences": [
+        { "en": "In late autumn a great storm came up from the grey sea, and it fell on the little mountain town like a wet black blanket.", "zh": "深秋，一场大暴雨从灰色的海面上扑来，像一条湿漉漉的黑毯子罩住了这座小小的山镇。" },
+        { "en": "Rain hit the windows of the little post office, and the cold glass shook in its old wooden frame all through the night.", "zh": "雨点砸在小邮局的窗玻璃上，冰凉的玻璃在旧木框里整整响了一夜。" },
+        { "en": "The wind pulled at the roof and tried to take the grey tiles away one by one, like a thief with cold fingers.", "zh": "风撕扯着屋顶，想一片一片揭走灰瓦片，像个手指冰凉的贼。" },
+        { "en": "In the middle of that grey morning, one thin letter fell out of Tomas's open bag into a deep pool of black rainwater.", "zh": "就在那个灰蒙蒙的上午，一封薄薄的信从托马斯敞开的邮包里滑落，掉进了深深的黑色雨水中。" },
+        { "en": "It came from the observatory at the top of the road, and for the small post office it was now a real disaster, the worst day of the year.", "zh": "这封信来自山顶的天文台，对小邮局来说，这是一场真正的灾难，是全年最糟的一天。" },
+        { "en": "Some people in town called it an astronomical storm, the worst in twenty years, but Tomas, who knew nothing of astronomy, only looked at his wet bag.", "zh": "镇上有人把它叫作二十年不遇的天文级暴雨，可对天文学一无所知的托马斯，只是盯着自己湿透的邮包。" },
+        { "en": "The wet ink ran across the paper, and the address turned into a grey cloud that told him nothing at all.", "zh": "受潮的墨水在纸上洇开，地址化成一团灰雾，什么也告诉不了他。" },
+        { "en": "Only a small asterisk in the corner stayed clear and dry, a little star that the water could not wash away.", "zh": "只有角落里那个小星号还清晰干爽，一颗水也冲不掉的小星星。" },
+        { "en": "Tomas knew that mark at once, because it was Dr. Vega's quiet sign, the same little star from her desk notes.", "zh": "托马斯一眼就认出了那个记号：那是维加博士安静的签名，和她便签上的小星星一模一样。" },
+        { "en": "The star-sign readers said the storm was written in the sky by the planets, but their astrology gave Tomas no help at all.", "zh": "看星象的人说这场暴雨是行星写在天上的，可他们的占星术对托马斯一点忙也帮不上。" },
+        { "en": "So he wrapped the wet letter in a dry cloth and climbed the long road while the storm still shouted above him.", "zh": "于是他用干布裹好湿信，在头顶暴雨的咆哮声中爬上了长长的山路。" },
+        { "en": "That night the dark clouds hid every constellation, and no stellar light could be seen through the grey wall of the rain.", "zh": "那天夜里，乌云遮住了每一个星座，隔着雨幕织成的灰墙，看不见一丝星光。" },
+        { "en": "Dr. Vega took the letter with two careful hands and dried the paper slowly, like a careful astronomer at work on a very old and very precious star map.", "zh": "维加博士用两只小心翼翼的手接过信，慢慢烘干那张纸，像一位天文学家在修复一张非常古老、非常珍贵的星图。" },
+        { "en": "A wet letter is a small disaster, not the end, she said, because paper is patient, and astronomers are patient too, and both can wait for the sun.", "zh": "她说，一封淋湿的信只是小小的灾难，不是结束，因为纸有耐心，天文学家也有耐心，两者都等得起太阳。" }
+      ],
+      "questions": [
+        {
+          "q": "What happens to the letter during the storm?",
+          "options": ["It flies away with the wind", "It falls into a pool of rainwater and the ink runs", "It becomes a star map", "It is burned by lightning"],
+          "answer": 1,
+          "explain": "第4句 \"fell out of Tomas's open bag into a deep pool of black rainwater\"，第7句 \"The wet ink ran across the paper\"。"
+        },
+        {
+          "q": "Which part of the wet letter stays clear?",
+          "options": ["The address", "The stamp", "The name of the town", "A small asterisk in the corner"],
+          "answer": 3,
+          "explain": "第8句 \"Only a small asterisk in the corner stayed clear and dry\"，只有角落里的小星号还看得清。"
+        },
+        {
+          "q": "Why does Tomas know the asterisk on the wet letter?",
+          "options": ["Because he wrote it himself", "Because it is Dr. Vega's quiet sign", "Because his boss draws it on every letter", "Because it appears in the grey paper"],
+          "answer": 1,
+          "explain": "第9句 \"it was Dr. Vega's quiet sign, the same little star from her desk notes\"，那是维加博士的记号。"
+        },
+        {
+          "q": "What can we tell about Tomas from this chapter?",
+          "options": ["He waits at home until the storm ends", "He blames the star-sign readers", "He climbs the mountain through the storm to fix his mistake", "He throws the wet letter away"],
+          "answer": 2,
+          "explain": "第11句 \"So he wrapped the wet letter in a dry cloth and climbed the long road while the storm still shouted above him\"——冒雨上山补救，可推断他尽忠职守。"
+        },
+        {
+          "q": "In this chapter, the star-sign readers' astrology gives no help. What does the word astrology mean here?",
+          "options": ["The science of stars and light", "The art of reading star signs to tell the future", "The work of a mountain postman", "The study of black rainwater"],
+          "answer": 1,
+          "explain": "第10句 \"The star-sign readers said the storm was written in the sky by the planets, but their astrology gave Tomas no help\"——astrology 是用星座断事的占星术，与真正的 astronomy（天文学）不同。"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "夜空开放日",
+      "sentences": [
+        { "en": "In the first cold week of winter, the observatory had an open night, a big quiet party for the whole town below.", "zh": "在冬天最冷的第一个星期，天文台办了一场开放夜——为山下全镇人准备的一场安静的大型聚会。" },
+        { "en": "Dr. Vega wrote the invitations herself, and each letter carried one small asterisk in the corner, her quiet sign for something important.", "zh": "邀请信是维加博士亲手写的，每一封的角落里都画着一个小星号——她标记要紧之事的安静记号。" },
+        { "en": "That evening almost the whole village walked up the mountain road together, with oil lamps and warm coats and small red noses.", "zh": "那天傍晚，几乎全村人一起爬上山路，提着油灯，穿着厚外套，鼻子冻得通红。" },
+        { "en": "The children ran ahead over the wet stones, and the old people walked slowly behind, holding each other's cold arms.", "zh": "孩子们踩着湿漉漉的石头跑在前头，老人们挽着彼此冰凉的手臂，慢慢走在后面。" },
+        { "en": "One small child with white ice on his wool hat asked if they could see an astronaut from up there, walking in his white suit between the stars.", "zh": "一个毛线帽上结着白霜的小孩问：从这儿能不能看见宇航员，穿着白色宇航服在星星之间行走。" },
+        { "en": "Dr. Vega laughed softly, turned the big black telescope, and said, tonight, my friends, we will all fly far away without ever leaving the ground.", "zh": "维加博士轻轻笑了，转过大望远镜说：朋友们，今晚我们全都要飞去远方，而且一步也不用离开地面。" },
+        { "en": "She showed the people a bright stellar cluster in the dark, a little city of stars holding hands in the cold.", "zh": "她让大家看黑暗中一团明亮的星团——一座在寒夜里手挽着手的星星小镇。" },
+        { "en": "Then she named every winter constellation, one by one, and the people repeated the strange old names after her like the words of a song.", "zh": "接着她把冬季的星座一个一个报出名字，人们跟着念那些古老而陌生的名字，像唱一支歌的歌词。" },
+        { "en": "This soft light travelled across interstellar space for hundreds and thousands of long, silent years, she said, and it arrived tonight, just for you.", "zh": "她说，这柔和的光在星际空间里走了成百上千个漫长而寂静的年头，今晚才抵达——专程为你而来。" },
+        { "en": "Late that night the last grey clouds moved away like a slow curtain, and the Milky Way appeared above the dark mountain.", "zh": "夜深了，最后一片灰云像缓缓拉开的幕布一样退去，银河在黑山上空显现出来。" },
+        { "en": "Tomas saw the great wide sea of stars above him, and he opened his mouth, but not one word came out.", "zh": "托马斯望见头顶那片辽阔的星的海洋，他张开嘴，却一个字也说不出来。" },
+        { "en": "The sky felt astronomical, too big for any words in any language that he had ever learned at school.", "zh": "他觉得天空大得像天文数字，学校里学过的任何语言、任何词语都装不下它。" },
+        { "en": "For the first time he understood why the quiet old astronomer had given her whole life to astronomy, and why she had never wanted a different one.", "zh": "他第一次明白了，这位安静的天文学家为什么把一生都交给天文学，为什么从未想要别的人生。" },
+        { "en": "That night the mountain stood very close to the sky, and every person on it walked home a little quieter and a little larger.", "zh": "那一夜，山离天空特别近；山上每一个人回家时，都变得更安静了一点，也更辽阔了一点。" }
+      ],
+      "questions": [
+        {
+          "q": "Why does almost the whole village walk up the mountain that evening?",
+          "options": ["To see the stars at the observatory's open night", "To fix the roof of the tower", "To buy medicine", "To watch a boat race"],
+          "answer": 0,
+          "explain": "第1句 \"the observatory had an open night, a big quiet party for the whole town\"，第3句 \"almost the whole village walked up the mountain road together\"。"
+        },
+        {
+          "q": "What does the child with ice on his hat ask?",
+          "options": ["If they can see an astronaut walking between the stars", "If the telescope can see the sea", "If the tower has warm tea", "If the stars are made of ice"],
+          "answer": 0,
+          "explain": "第5句 \"asked if they could see an astronaut from up there, walking in his white suit between the stars\"。"
+        },
+        {
+          "q": "What does Dr. Vega show the people in the dark?",
+          "options": ["A burning rocket", "A bright stellar cluster", "A sea monster", "A new letter"],
+          "answer": 1,
+          "explain": "第7句 \"She showed the people a bright stellar cluster in the dark\"，她让大家看一团明亮的星团。"
+        },
+        {
+          "q": "What changes in Tomas on this night?",
+          "options": ["He decides to leave the town", "He understands for the first time why Dr. Vega gave her life to astronomy", "He stops liking his job", "He learns to fly a ship"],
+          "answer": 1,
+          "explain": "第11句他看见星海说不出话，第13句 \"For the first time he understood why the quiet old astronomer had given her whole life to astronomy\"。"
+        },
+        {
+          "q": "The sky felt astronomical, too big for any words. Here astronomical means:",
+          "options": ["Warm and soft", "Too big to measure or describe", "Quiet and small", "Full of grey clouds"],
+          "answer": 1,
+          "explain": "第12句 \"too big for any words in any language\"，astronomical 在此意为大得无法估量，词根 astro 意为\"星\"。"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "最后一封信",
+      "sentences": [
+        { "en": "Spring came up the mountain quietly, with soft rain and small green flowers, and with the first warm wind Dr. Vega had to say goodbye.", "zh": "春天伴着细雨和小小的绿花悄悄上山，而随着第一阵暖风，维加博士不得不道别了。" },
+        { "en": "Her astronomy work was moving to a bigger city near the sea, where the observatories were new and the money was better.", "zh": "她的天文学工作要搬去海边一座更大的城市，那里的天文台是新的，薪水也更好。" },
+        { "en": "On her last morning she gave Tomas a sealed letter, and her grey eyes were bright but not quite dry.", "zh": "最后一个早晨，她递给托马斯一封封好的信；她的灰眼睛亮亮的，却并不算干。" },
+        { "en": "On the front of the envelope there was one small asterisk, the same quiet star from three seasons of letters.", "zh": "信封正面只有一个小星号——三个季节通信以来，那颗同样安静的星。" },
+        { "en": "The words inside read: To a future astronomer, who also walks up long mountain roads with a heavy brown bag.", "zh": "信里写着：致一位未来的天文学家——那个同样背着沉重棕色邮包、走过漫长山路的人。" },
+        { "en": "Keep the small telescope I leave in the tower, the letter went on, because good tools should never sleep in the dark.", "zh": "信接着说：我把留在塔里的那台小望远镜送给你，因为好工具不该在黑暗里沉睡。" },
+        { "en": "The sky belongs to careful eyes, she wrote, and careful eyes can live in a postman just as well as in a professor.", "zh": "她写道：天空属于认真的眼睛，而认真的眼睛，长在邮差身上和长在教授身上一样好。" },
+        { "en": "Tomas read that letter many times that spring, once in the quiet post office and once under every new star that came out over the mountains.", "zh": "那个春天，托马斯把那封信读了许多遍：在安静的邮局里读一遍，在山间新亮起的每颗星星下再读一遍。" },
+        { "en": "He began to learn the true name of every constellation, first from an old paper map and then from the real sky itself.", "zh": "他开始学习每一个星座真正的名字，先是照着一张旧纸星图，后来干脆对着夜空本身。" },
+        { "en": "Some nights he dreamed about asteroids, interstellar roads and stellar light travelling astronomical distances, and in the dreams the sky knew his name.", "zh": "有些夜里，他梦见小行星、星际航道和跨越天文距离的星光；在梦里，天空认得他的名字。" },
+        { "en": "The round tower was quiet now, but his heart was full, like a small room with warm tea and good news inside.", "zh": "圆塔如今安静了，可他的心是满的，像一间有热茶和好消息的小屋。" },
+        { "en": "He wrote one short letter to the big city by the sea, with one small asterisk in the corner, and he did not explain it to anyone.", "zh": "他给海边那座大城市写了一封短信，角落里画上一个小星号，而且没有向任何人解释它。" },
+        { "en": "The answer came back in one short week: a star map drawn by hand, and under it one small word written in careful ink: begin.", "zh": "短短一周后回信来了：一张手绘的星图，星图下面用细心的墨水写着一个小小的词：开始。" },
+        { "en": "Above the dark mountain the stars kept their old slow light, and the long white road between the little town and the sky stayed open.", "zh": "黑山的上方，星星们保持着古老而缓慢的光；小镇与天空之间那条长长的白色道路，一直敞开着。" }
+      ],
+      "questions": [
+        {
+          "q": "Why does Dr. Vega have to leave the mountain?",
+          "options": ["She is tired of the stars", "Her astronomy work is moving to a bigger city near the sea", "The town asks her to go", "The tower is too cold in winter"],
+          "answer": 1,
+          "explain": "第2句 \"Her astronomy work was moving to a bigger city near the sea\"，她的工作要搬去更大的城市。"
+        },
+        {
+          "q": "What does the letter tell Tomas to keep?",
+          "options": ["Her thin notebooks", "The small telescope in the tower", "Her grey cardigan", "The star map from the city"],
+          "answer": 1,
+          "explain": "第6句 \"Keep the small telescope I leave in the tower\"，她把塔里的小望远镜留给托马斯。"
+        },
+        {
+          "q": "What does Dr. Vega write about careful eyes?",
+          "options": ["They can live in a postman as well as in a professor", "They belong only to scientists", "They must move to the big city", "They need a big telescope"],
+          "answer": 0,
+          "explain": "第7句 \"careful eyes can live in a postman just as well as in a professor\"，认真的眼睛人人可以有。"
+        },
+        {
+          "q": "Why does Tomas not explain the asterisk on his own letter to anyone?",
+          "options": ["He forgot its meaning", "It is a private sign between him and Dr. Vega", "The boss forbids asterisks", "The letter has no asterisk"],
+          "answer": 1,
+          "explain": "第4句的星号是维加博士安静的签名，第12句 \"he did not explain it to anyone\"——这是只属于两人的暗号，可见他珍视这份情谊（推断）。"
+        },
+        {
+          "q": "What does Tomas begin to learn that spring?",
+          "options": ["How to fix roofs", "How to sail a boat", "The name of every constellation", "The price of stamps"],
+          "answer": 2,
+          "explain": "第9句 \"He began to learn the true name of every constellation\"，他开始学习每个星座的名字。"
+        }
+      ]
+    }
+  ]
+}

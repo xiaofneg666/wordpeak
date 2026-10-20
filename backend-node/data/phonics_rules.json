@@ -1,0 +1,58 @@
+[
+  { "id": 1, "level": 1, "title": "magic e:词尾 e 拉长前面的元音", "rule": "单音节词里,词尾不发音的 e 会把前面的元音从\"短音\"变\"字母名\":a 读 /eɪ/、i 读 /aɪ/、o 读 /oʊ/、u 读 /juː/。", "examples": ["hat /hæt/ → hate /heɪt/", "kit /kɪt/ → kite /kaɪt/", "hop /hɒp/ → hope /hoʊp/", "cut /kʌt/ → cute /kjuːt/"], "quizzes": [
+    { "type": "英→选读音", "question": "cut 加上词尾 e 变成 cute,u 怎么读?", "options": ["/ʌ/ 短音", "/juː/ 字母名", "/ʊ/ 短圆唇", "/uː/ 长音"], "answer": 1, "explain": "magic e 生效:cute /kjuːt/,u 读字母名 /juː/。" },
+    { "type": "听音→选单词", "listen": "hope", "question": "🔊 点喇叭听单词,选出你听到的词", "options": ["hope", "hop", "heap", "hape"], "answer": 0, "explain": "听到长音 /hoʊp/ 是 hope;hop 是短音 /hɒp/。" },
+    { "type": "找规律", "question": "哪一组体现了 magic e 的拉长效果?", "options": ["hat → hate", "hot → hit", "sit → sat", "cup → cap"], "answer": 0, "explain": "只有 hat 加 e 后 a 变字母名 /eɪ/;其余只是换了元音,词尾没有 e。" } ] },
+  { "id": 2, "level": 2, "title": "-tion 读 /ʃən/,永远弱化", "rule": "名词后缀 -tion 统一读 /ʃən/(英式有时 /tʃən/),ti 组合变 /ʃ/,o 弱化成 /ə/。它出现频率极高,听到 /ʃən/ 结尾的抽象名词,基本可以锁定 -tion 拼写。", "examples": ["nation /ˈneɪʃən/", "station /ˈsteɪʃən/", "information /ˌɪnfərˈmeɪʃən/", "education /ˌedʒuˈkeɪʃən/"], "quizzes": [
+    { "type": "英→选读音", "question": "action 的 -tion 读什么?", "options": ["/ʃən/", "/tiːən/", "/tʃən/", "/sjən/"], "answer": 0, "explain": "-tion 固定弱化为 /ʃən/:action /ˈækʃən/。" },
+    { "type": "听音→选单词", "listen": "station", "question": "🔊 点喇叭听单词,选出你听到的词", "options": ["station", "sation", "staten", "stashion"], "answer": 0, "explain": "/ˈsteɪʃən/ —— 结尾的 /ʃən/ 锁定 -tion 拼写。" },
+    { "type": "找规律", "question": "听到 /ˈneɪʃən/,正确的拼写是?", "options": ["nation", "nacion", "naytion", "nashion"], "answer": 0, "explain": "抽象名词 + /ʃən/ 结尾,基本可以锁定 -tion。" } ] },
+  { "id": 3, "level": 2, "title": "-ture 读 /tʃər/", "rule": "词尾 -ture 读 /tʃər/:ture 里的 t+u 合体成 /tʃ/。同理 -sure 读 /ʒər/。", "examples": ["picture /ˈpɪktʃər/", "nature /ˈneɪtʃər/", "future /ˈfjuːtʃər/", "pleasure /ˈpleʒər/"], "quizzes": [
+    { "type": "英→选读音", "question": "adventure 的 -ture 读什么?", "options": ["/tʃər/", "/tjur/", "/tuːr/", "/tər/"], "answer": 0, "explain": "ture 合体读 /tʃər/:adventure /ədˈventʃər/。" },
+    { "type": "听音→选单词", "listen": "future", "question": "🔊 点喇叭听单词,选出你听到的词", "options": ["future", "futer", "futhure", "fewture"], "answer": 0, "explain": "/ˈfjuːtʃər/ —— ture 不是一个音节一个音,合体成 /tʃər/。" },
+    { "type": "找规律", "question": "哪个词的词尾读音和 picture 一样?", "options": ["nature", "teacher", "mirror", "paper"], "answer": 0, "explain": "nature 同为 -ture → /tʃər/;其余词尾读 /ər/ 或 /ə/。" } ] },
+  { "id": 4, "level": 1, "title": "ph 读 /f/", "rule": "希腊语源的词里 ph 读 /f/。phone/physics/elephant。见到 ph 别读 /p/,它是 f 的礼服。", "examples": ["phone /foʊn/", "photo /ˈfoʊtoʊ/", "physics /ˈfɪzɪks/", "elephant /ˈelɪfənt/"], "quizzes": [
+    { "type": "英→选读音", "question": "dolphin 的 ph 读什么?", "options": ["/p/", "/f/", "/h/", "/pf/"], "answer": 1, "explain": "ph = /f/:dolphin /ˈdɒlfɪn/。" },
+    { "type": "听音→选单词", "listen": "phone", "question": "🔊 点喇叭听单词,选出你听到的词", "options": ["phone", "pone", "hone", "fhone"], "answer": 0, "explain": "/foʊn/ —— 听起来是 f 开头,拼写却是 ph。" },
+    { "type": "找规律", "question": "哪个词不含 /f/ 音?", "options": ["phone", "dolphin", "happy", "coffee"], "answer": 2, "explain": "happy 的 p 是普通 /p/;其余词的 /f/ 来自 ph 或 ff。" } ] },
+  { "id": 5, "level": 2, "title": "ch 双面人:多读 /tʃ/,希腊源读 /k/", "rule": "ch 大多数读 /tʃ/(chair),但希腊语源的词读 /k/(chorus, chemistry, school 里的 ch 其实也是 /k/)。法语源读 /ʃ/(chef, machine)。规律:化学/学术词多 /k/。", "examples": ["chair /tʃer/", "school /skuːl/", "chemistry /ˈkemɪstri/", "machine /məˈʃiːn/"], "quizzes": [
+    { "type": "英→选读音", "question": "Christmas 的 ch 读什么?", "options": ["/tʃ/ 像chair", "/k/ 像school", "/ʃ/ 像chef", "不发音"], "answer": 1, "explain": "Christmas /ˈkrɪsməs/,宗教词来自希腊拉丁传统,ch 读 /k/。" },
+    { "type": "听音→选单词", "listen": "chef", "question": "🔊 点喇叭听单词,选出你听到的词", "options": ["chef", "tchef", "kef", "shef"], "answer": 0, "explain": "法语源:chef /ʃef/,ch 读 /ʃ/。" },
+    { "type": "找规律", "question": "school、machine、chair 的 ch 分别读?", "options": ["都是 /tʃ/", "/k/、/ʃ/、/tʃ/ 各不同", "都是 /k/", "/tʃ/、/k/、/ʃ/"], "answer": 1, "explain": "school /k/(希腊源)、machine /ʃ/(法语源)、chair /tʃ/(默认)。" } ] },
+  { "id": 6, "level": 3, "title": "辅音连缀:不要插元音", "rule": "s+辅音开头(stop, sky, sleep)老中习惯加个 /ə/ 读成\"si-top\"。正确做法:s 拉长一点直接滑向辅音,中间绝不塞元音。这是中式口音最大的标志之一。", "examples": ["stop(不是 si-top)", "school(不是 si-school)", "sleep /sliːp/", "street /striːt/"], "quizzes": [
+    { "type": "英→选读音", "question": "scream 的 s-c 开头怎么读?", "options": ["中间加 /ə/ 读 si-cream", "s 拉长直接滑向 c-r,不加元音", "c 不发音", "读成 es-cream"], "answer": 1, "explain": "连缀辅音之间绝不塞元音:s→c→r 一气呵成。" },
+    { "type": "听音→选单词", "listen": "street", "question": "🔊 点喇叭听单词,选出你听到的词", "options": ["street", "si-tree", "es-treet", "sreet"], "answer": 0, "explain": "/striːt/ 三个辅音连贯滑出,没有元音。" },
+    { "type": "找规律", "question": "哪个读法是正确的(没有插入元音)?", "options": ["si-top(读 stop)", "stop", "es-chool(读 school)", "si-sky(读 sky)"], "answer": 1, "explain": "只有 stop 直接 s-t;其余三个都插了元音,是典型中式口音。" } ] },
+  { "id": 7, "level": 2, "title": "不发音的 b/t/k 等哑音字母", "rule": "常见哑音:词中 t 前后都是辅音时常省略(listen, castle, often 口语省略);词尾 mb 的 b(limb, climb);kn 的 k(knife);wr 的 w(wrong)。", "examples": ["listen /ˈlɪsn/", "climb /klaɪm/", "knife /naɪf/", "island /ˈaɪlənd/"], "quizzes": [
+    { "type": "英→选读音", "question": "island 的 s 发音吗?", "options": ["发 /s/", "不发音,是哑音", "发 /z/", "发 /ʃ/"], "answer": 1, "explain": "island /ˈaɪlənd/ —— s 完全哑音(来自法语的拼写)。" },
+    { "type": "听音→选单词", "listen": "knife", "question": "🔊 点喇叭听单词,选出你听到的词", "options": ["knife", "khanife", "cnife", "kanife"], "answer": 0, "explain": "/naɪf/ —— k 是哑音,只写不读。" },
+    { "type": "找规律", "question": "哪个词没有哑音字母?", "options": ["comb", "lamb", "tent", "thumb"], "answer": 2, "explain": "tent 每个字母都发音;comb/lamb/thumb 的 b 都是哑音。" } ] },
+  { "id": 8, "level": 3, "title": "重音移位:-graph vs -graphy", "rule": "同根名词加 -y 变学科名时,重音整体后移:PHO-to-graph → pho-TO-gra-phy。这类\"后缀决定重音\"是英语节奏的核心规律(-ic,-ion,-ity,-y 都会把重音拉到自己前一个音节)。", "examples": ["photo → photography /fəˈtɒɡrəfi/", "electric → electricity", "administer → administration"], "quizzes": [
+    { "type": "英→选读音", "question": "electricity 的主重音在第几个音节?", "options": ["第 1 个(e-)", "第 2 个(-lec-)", "第 3 个(-tri-)", "第 4 个(-ci-)"], "answer": 2, "explain": "-ity 把重音拉到自身前一音节:e-lec-TRI-ci-ty。" },
+    { "type": "听音→选单词", "listen": "photography", "question": "🔊 点喇叭听单词,选出你听到的词", "options": ["photograph", "photography", "photographic", "photo"], "answer": 1, "explain": "听到 /fəˈtɒɡrəfi/(重音在 TO)是 photography;photograph 重音在 PHO。" },
+    { "type": "找规律", "question": "photo 加 -graphy 后重音怎么变?", "options": ["不变,仍在 PHO", "从 PHO 移到 TO", "移到 GRA", "移到最后一个音节"], "answer": 1, "explain": "学科后缀把重音整体后移:PHO-to-graph → pho-TO-gra-phy。" } ] },
+  { "id": 9, "level": 1, "title": "-ed 三读:/t/ /d/ /ɪd/", "rule": "清辅音后读 /t/(worked),浊辅音后读 /d/(played),t/d 后读 /ɪd/(wanted)。判断只需摸喉咙:前面音节声带振不振动。", "examples": ["asked → /t/", "opened → /d/", "needed → /ɪd/", "visited → /ɪd/"], "quizzes": [
+    { "type": "英→选读音", "question": "helped 的 -ed 读什么?", "options": ["/d/", "/ɪd/", "/t/", "/ed/"], "answer": 2, "explain": "help 结尾 p 是清辅音,-ed 读 /t/:/helpt/。" },
+    { "type": "听音→选单词", "listen": "needed", "question": "🔊 点喇叭听单词,选出你听到的词", "options": ["needed", "needded", "neaded", "need-eed"], "answer": 0, "explain": "/ˈniːdɪd/ —— d 后的 -ed 读成独立音节 /ɪd/。" },
+    { "type": "找规律", "question": "哪个词的 -ed 读 /ɪd/?", "options": ["worked", "cleaned", "needed", "played"], "answer": 2, "explain": "t/d 结尾才加 /ɪd/;清辅音后 /t/(worked),浊辅音后 /d/(cleaned/played)。" } ] },
+  { "id": 10, "level": 1, "title": "-s 三读:/s/ /z/ /ɪz/", "rule": "规则同 -ed:清辅音后 /s/(books),浊辅音/元音后 /z/(dogs),咝音(s/z/ʃ/tʃ/dʒ)后 /ɪz/(watches)。", "examples": ["books /s/", "dogs /z/", "watches /ɪz/", "names /z/"], "quizzes": [
+    { "type": "英→选读音", "question": "dogs 的词尾 -s 读什么?", "options": ["/s/", "/z/", "/ɪz/", "/ɪs/"], "answer": 1, "explain": "g 是浊辅音,-s 读 /z/:/dɒɡz/。" },
+    { "type": "听音→选单词", "listen": "watches", "question": "🔊 点喇叭听单词,选出你听到的词", "options": ["watches", "watchs", "watchies", "watching"], "answer": 0, "explain": "咝音结尾加 -es 读 /ɪz/:/ˈwɒtʃɪz/。" },
+    { "type": "找规律", "question": "哪个词的词尾读 /ɪz/?", "options": ["cats", "maps", "washes", "lamps"], "answer": 2, "explain": "wash 结尾 ʃ 是咝音 → /ɪz/;清辅音后读 /s/。" } ] },
+  { "id": 11, "level": 2, "title": "oo 不全是长音:短 /ʊ/ 名单", "rule": "oo 多数读长 /uː/(food, moon),但一批高频词读短 /ʊ/(good, book, look, foot, wood),个别 /ʌ/(blood, flood)。短音名单要硬记,约 20 个。", "examples": ["food /fuːd/", "book /bʊk/", "good /ɡʊd/", "blood /blʌd/"], "quizzes": [
+    { "type": "英→选读音", "question": "boot 和 book 里的 oo 分别读?", "options": ["都读 /uː/", "都读 /ʊ/", "boot /uː/,book /ʊ/", "boot /ʊ/,book /uː/"], "answer": 2, "explain": "boot 长音 /buːt/,book 短音 /bʊk/ —— book/good/look 一家都是短音。" },
+    { "type": "听音→选单词", "listen": "moon", "question": "🔊 点喇叭听单词,选出你听到的词", "options": ["moon", "mon", "morn", "mean"], "answer": 0, "explain": "长音 /muːn/;book/good 一家才读短 /ʊ/。" },
+    { "type": "找规律", "question": "哪组 oo 读音相同?", "options": ["food / moon", "food / book", "moon / look", "good / food"], "answer": 0, "explain": "food、moon 都读 /uː/;book/look/good 在短音名单里。" } ] },
+  { "id": 12, "level": 3, "title": "r 前元音读卷舌(美音)", "rule": "美音里,ar→/ɑːr/、er/ir/ur→/ɜːr/、or→/ɔːr/。car 四个字母一个音节。中国学生常把 car 读成\"卡\",漏掉卷舌 r。", "examples": ["car /kɑːr/", "bird /bɜːrd/", "work /wɜːrk/", "north /nɔːrθ/"], "quizzes": [
+    { "type": "英→选读音", "question": "美音 first 里的 ir 读什么?", "options": ["/ɜː/ 不卷舌", "/ɜːr/ 卷舌", "/iːr/", "/eər/"], "answer": 1, "explain": "er/ir/ur 在美音统一卷舌 /ɜːr/:/fɜːrst/。" },
+    { "type": "听音→选单词", "listen": "bird", "question": "🔊 点喇叭听单词,选出你听到的词", "options": ["bird", "bud", "bed", "beard"], "answer": 0, "explain": "/bɜːrd/ —— 舌头要卷起来才像 bird。" },
+    { "type": "找规律", "question": "美音里哪个词必须卷舌?", "options": ["cat", "cart", "cap", "camp"], "answer": 1, "explain": "只有 cart 有 r:读 /kɑːrt/,漏掉卷舌就成了\"卡特\"。" } ] },
+  { "id": 13, "level": 1, "title": "c 的双面:硬 /k/ 与软 /s/", "rule": "c 在 a/o/u/辅音前读 /k/(cat, cup),在 e/i/y 前读 /s/(city, cell)。同一个人换衣裳:care /keər/ 但 certain /ˈsɜːrtn/。", "examples": ["cat /k/", "city /s/", "cycle /s/", "cup /k/"], "quizzes": [
+    { "type": "英→选读音", "question": "cell 的 c 读什么?", "options": ["/k/", "/s/", "/tʃ/", "/ʃ/"], "answer": 1, "explain": "c 在 e 前读软音 /s/:cell /sel/。" },
+    { "type": "听音→选单词", "listen": "cycle", "question": "🔊 点喇叭听单词,选出你听到的词", "options": ["cycle", "kycle", "cychle", "sycle"], "answer": 0, "explain": "/ˈsaɪkl/ —— c 后接 y 读 /s/。" },
+    { "type": "找规律", "question": "哪组两个 c 的读法不同?", "options": ["cat / cup", "cup / cycle", "cake / keep", "coat / cut"], "answer": 1, "explain": "cycle(后接 y → /s/)与 cup(后接 u → /k/);其余组都读 /k/。" } ] },
+  { "id": 14, "level": 2, "title": "g 的双面:硬 /g/ 与软 /dʒ/", "rule": "和 c 同构:g 在 e/i/y 前常读 /dʒ/(gem, giant, gym),其余读 /g/。例外 get/give 高频词仍读 /g/——高频词靠肌肉记忆,规律词靠规则。", "examples": ["go /g/", "giant /ˈdʒaɪənt/", "gym /dʒɪm/", "get /ɡet/(例外)"], "quizzes": [
+    { "type": "英→选读音", "question": "gem 的 g 读什么?", "options": ["/g/", "/dʒ/", "/ʒ/", "/j/"], "answer": 1, "explain": "g 在 e 前读软音 /dʒ/:gem /dʒem/。" },
+    { "type": "听音→选单词", "listen": "giant", "question": "🔊 点喇叭听单词,选出你听到的词", "options": ["giant", "gient", "gyant", "gallant"], "answer": 0, "explain": "/ˈdʒaɪənt/ —— i 前的 g 是软音 /dʒ/。" },
+    { "type": "找规律", "question": "哪个词的 g 仍读硬音 /g/?", "options": ["gem", "gym", "gift", "gentle"], "answer": 2, "explain": "gift 是例外高频词,读 /ɡɪft/;gem/gym/gentle 都在 e/y 前读 /dʒ/。" } ] }
+]

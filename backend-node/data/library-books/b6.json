@@ -1,0 +1,270 @@
+{
+  "id": "lib-time-archive",
+  "title": "时间档案馆",
+  "en_title": "The Archive of Time",
+  "author": "WordVerse Archive",
+  "region": "science",
+  "level": 3,
+  "one_line": "人类驯服时间的小历史：影子、钟摆与石头。",
+  "word_focus": ["chron", "pend", "dur", "ann", "mort"],
+  "chapters": [
+    {
+      "no": 1,
+      "title": "影子与秩序：计时的开端",
+      "sentences": [
+        { "en": "Before humans learned to count hours, they learned to watch shadows crawl slowly across the ground, because a shadow never argues, never sleeps, and repeats its whole performance every single day of the year without once asking for wages — for a species just learning to count, the perfect employee.", "zh": "在学会数小时之前，人类先学会了看影子在地上缓慢爬行；影子从不抬杠、从不睡觉，一年里的每一天都原样重演全场演出，而且从不开口要工钱——对一个刚学数数的物种来说，这是最完美的雇员。" },
+        { "en": "In ancient Egypt, priests tracked the sun with obelisks whose moving shadows marked the seasons of the Nile's annual flood; when the shadow touched the carved line, the river would follow within weeks, and the priests who read the stone were the most indispensable men in the kingdom.", "zh": "在古埃及，祭司用方尖碑追踪太阳，碑影的移动标出了尼罗河一年一度泛滥的季节；影子一旦触到刻线，几周之内河水必至——而能读懂那块石头的祭司，是王国里最不可或缺的人。" },
+        { "en": "By around 1500 BC, Egyptian astronomers had built portable shadow clocks that divided the working day into measurable parts; a simple bar with a raised crosspiece could be carried from temple to temple, so the day's shape travelled with its owner instead of staying nailed to the palace floor.", "zh": "约公元前1500年，埃及天文学家已造出可携带的影钟，把白昼切成可以计量的段落；一根装着抬高横杆的木条就能从一座神庙带到另一座，于是\"一天的形状\"跟着主人走南闯北，而不必钉死在宫殿的地面上。" },
+        { "en": "Babylonian astronomers later divided daylight into twelve hours, a scheme that survives inside our clocks today, and their reason was arithmetic rather than astronomy: twelve divides cleanly by two, by three, by four and by six, which made it the friendliest number the ancient world owned.", "zh": "巴比伦的天文学家后来把白昼分作十二个小时，这套方案至今仍活在我们的钟表里；他们的理由与其说来自天文学，不如说来自算术——十二能被二、三、四、六整除，是古代世界所拥有的最好相处的一个数。" },
+        { "en": "Those early hours were unequal, because each was simply one twelfth of the daylight, longer in summer than in winter; a summer afternoon hour might contain ninety of our modern minutes, while a winter one hurried past in fifty, and nobody in Babylon found this strange enough to complain.", "zh": "那些小时并不等长——每个小时只是白昼的十二分之一，夏天长，冬天短；夏日午后的一小时可能装下今天我们的九十分钟，而冬天的一小时五十分钟就匆匆跑完，巴比伦却没人觉得这事怪到值得抱怨。" },
+        { "en": "To compensate, Egyptian water-clock makers marked different scales for the different months of the year, understanding that time is not one thing but several, and that a clock must bend toward the calendar it serves rather than the other way around, a lesson several modern software companies have yet to learn.", "zh": "为了补偿这一点，埃及的水钟匠为一年中不同的月份刻下不同的刻度；他们明白，时间不是一种东西而是好几种，钟必须迁就它所服务的历法，而不是反过来——这一课，几家现代软件公司至今还没学会。" },
+        { "en": "Timekeeping grew from a desire for order: kings wanted chronologies to legitimize their reigns, priests wanted calendars to schedule their gods, and farmers wanted planting dates simple enough to bet a harvest on; the three demands produced three professions — scribe, astronomer and almanac-maker — and all three still exist.", "zh": "计时源于对秩序的渴望：君王要编年来证明王位的正当，祭司要历法来安排众神的日程，农夫要简单到敢拿一季收成下注的播种日期；三种需求造出三种职业——书吏、天文学家、历书匠——而三种职业至今都还活着。" },
+        { "en": "Egyptian scribes recorded each year of every reign, producing annals that historians still consult three thousand years later; a drought year, a war year, a year of strange birds — all were entered with the same patient brush, because a chronicle that selects is a chronicle that lies.", "zh": "埃及书吏记下每位君王在位的每一年，留下三千年后史家仍在查考的编年史册；旱年、战年、怪鸟出现的年份——全都用同样耐心的笔触录入，因为挑挑拣拣的编年史，就是撒谎的编年史。" },
+        { "en": "To keep such records in chronological order, they invented king lists that let later generations count backward through the centuries, dynasty by dynasty, like climbing down a staircase whose every step was carved with a name; whenever a list and a monument disagreed, the argument could last a hundred years.", "zh": "为了让记载按时间顺序排列，他们发明了王表，让后人能一朝一代地顺着世纪向前回数，像走下一道每一级都刻着一个名字的楼梯；而每当王表与某块碑铭对不上，那场争吵可以吵上一百年。" },
+        { "en": "Chinese astronomers were equally careful chroniclers, and their chronicles of comets and eclipses still help scientists date ancient events; when a modern astronomer needs to know which night in 1054 a star exploded, it is a Song-dynasty clerk's entry, not a European archive, that offers the answer.", "zh": "中国的天文学家同样是笔耕不辍的编年者，他们关于彗星与日月食的记载至今仍在帮科学家为古代事件断代；当代天文学家想知道1054年那颗星爆发的具体是哪一夜时，给出答案的是一位宋代小吏的条目，而不是任何一座欧洲档案馆。" },
+        { "en": "In every city, markets and city gates slowly synchronized their schedules to the public shadow clock in the square, so that opening and closing no longer depended on a gatekeeper's mood or a merchant's guess; the town had, without naming it, invented the deadline.", "zh": "在每一座城市，市集与城门都渐渐依照广场上那面公共日晷来同步作息，开门关门不再取决于守门人的心情或商人的估摸；这座城在不知其名的情况下，发明了\"截止时间\"。" },
+        { "en": "Yet every sundial shared one fatal weakness: at night, under clouds, and in rain it fell completely silent, and the town that trusted it had to endure whole evenings of clockless dark; the shadow served the sun, and when the sun refused to appear, so did the hour.", "zh": "然而所有日晷都有同一个致命弱点：入夜、阴天、下雨时，它便彻底沉默，信任它的城镇只能硬挨整晚没有钟的黑暗；影子是太阳的仆人——太阳不肯露面的时候，钟点也不肯。" },
+        { "en": "To modern eyes, a smartphone beside an obelisk is an anachronism, yet both answer the same very old question — what part of the day is it, and how long until the thing I am waiting for occurs — and the twenty-first century answers it with a battery instead of a shadow.", "zh": "在今人眼里，方尖碑旁放一部手机是时代错置；但两者回答的是同一个古老的问题——现在是一天里的什么时辰，我等的那个东西还要多久才来——只是二十一世纪用来作答的，是一块电池，而不是一道影子。" }
+      ],
+      "questions": [
+        {
+          "q": "Why were the early twelve hours of daylight unequal?",
+          "options": ["Each hour was simply one twelfth of the daylight, varying with the season", "The clocks were badly built", "Priests adjusted them every month", "The sun moved at an irregular speed"],
+          "answer": 0,
+          "explain": "第5句：每个小时\"只是白昼的十二分之一，夏天长，冬天短\"，夏午后一小时可达九十分钟，冬日一小时仅五十分钟。"
+        },
+        {
+          "q": "Why did Egyptian water clocks carry different scales for different months?",
+          "options": ["To compensate for the unequal length of hours", "Purely for decoration", "To honor different gods", "To confuse potential thieves"],
+          "answer": 0,
+          "explain": "第6句开头 \"To compensate\"——为补偿小时随季节不等长的问题，钟必须迁就历法。"
+        },
+        {
+          "q": "What did king lists allow later generations to do?",
+          "options": ["Count backward through the centuries in chronological order", "Predict the flooding of the Nile", "Record taxes and trade", "Measure the length of shadows"],
+          "answer": 0,
+          "explain": "第9句：王表\"让后人能一朝一代地顺着世纪向前回数\"，让记载保持时间顺序。"
+        },
+        {
+          "q": "\"A chronicle that selects is a chronicle that lies.\" What does this tell us about the scribes' method?",
+          "options": ["They recorded everything with the same patient brush, good years and bad", "They only wrote about wars and droughts", "They erased strange events on purpose", "They wrote only what the kings ordered"],
+          "answer": 0,
+          "explain": "第8句：旱年、战年、怪鸟之年\"全都用同样耐心的笔触录入\"——不挑拣、不遮掩，才是不撒谎的编年（推断其方法）。"
+        },
+        {
+          "q": "The Greek root chron (\"time\") appears in chronology, chronicle, chronological and anachronism. In sentence 13, why is a smartphone beside an obelisk an anachronism?",
+          "options": ["Because it belongs to a different time than the obelisk", "Because it is too heavy to carry", "Because it has no battery", "Because obelisks are clocks"],
+          "answer": 0,
+          "explain": "第13句：两者回答同一个古老问题，但手机属于另一个时代——ana-（错）+ chron（时间）→ 时代错置之物。"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "钟摆与机械钟：摇摆驯服了时间",
+      "sentences": [
+        { "en": "In 1583, a nineteen-year-old student named Galileo watched a lamp swinging in the cathedral of Pisa, dragged there by his father to study medicine, and found the medicine that would occupy him for a lifetime hanging from the ceiling instead.", "zh": "1583年，一位十九岁的学生伽利略，被父亲拽到比萨大教堂去学医，结果却发现那将占用他一生的\"药\"，挂在头顶的天花板上。" },
+        { "en": "Timing the swings against his own pulse, he found that each swing took the same duration whether the arc was wide or narrow; four hundred heartbeats for the long journeys, four hundred for the short, as if the lamp politely refused to hurry.", "zh": "他用自己的脉搏计时，发现无论弧线宽窄，每摆一次所持续的时间完全相同：大弧四百次心跳，小弧也是四百次——仿佛那盏灯客气地拒绝了赶时间这回事。" },
+        { "en": "This property, later named isochronism, meant that a pendulum could become the beating heart of a clock, because a machine that repeats itself perfectly is a machine you can count on, and a machine you can count on is a machine you can ask the time.", "zh": "这个后来被称作\"等时性\"的性质，意味着钟摆可以成为一座钟跳动的心脏：一台能完美重复自己的机器，才是一台靠得住的机器；而靠得住的机器，才是一台可以向它问时间的机器。" },
+        { "en": "It took another seventy years before Christiaan Huygens, in 1656, built the first pendulum clock that ran reliably, depending on little more than gravity, good oil and a patient owner; almost overnight, daily errors fell from roughly fifteen minutes to about fifteen seconds.", "zh": "又过了七十多年，直到1656年，惠更斯才造出第一座可靠运转的摆钟，所依赖的无非重力、好机油和一位有耐心的主人；几乎一夜之间，日误差从约十五分钟降到了约十五秒。" },
+        { "en": "For the first time, the hour could be divided into minutes on which everyone could agree, and the minutes into seconds; a sermon, a market price, a sunrise over a battlefield — all could now be pinned to a number that meant the same thing in every town in Europe.", "zh": "小时第一次可以被切分成人人都能认同的分钟，分钟再切成秒；一场布道、一个市价、战场上空的一次日出——从此都能钉在一个全欧洲每个城镇都同义的数字上。" },
+        { "en": "Clockmakers learned to suspend the pendulum from a thin flexible spring and to keep it moving with the gentlest pushes, because force enough to speed a swing is force enough to spoil it; the craft became one of small kindnesses applied to metal.", "zh": "钟表匠学会用一枚纤细柔韧的簧片悬吊钟摆，用最轻的推力让它不停摆动——因为足以催快摆的力，也正是足以毁掉摆的力；这门手艺由此变成一门\"对金属施加小小善意\"的手艺。" },
+        { "en": "A pendulum's rate depends only on gravity and on its length: shorten it, and the whole clock runs faster; lengthen it toward a metre, and the swings slow until one metre marks one second, a relationship that follows directly from the laws of mechanics and cannot be bribed.", "zh": "钟摆的快慢只取决于重力与摆长：调短它，整座钟就走得更急；放长到一米，摆动就慢到恰好一米对应一秒——这个关系直接从力学定律推出，贿赂不动。" },
+        { "en": "Sailors at sea could not share this luxury, for a rolling deck swings a pendulum into chaos; aboard ships the clocks slowed, raced, and finally stopped, and a navigator who depended on them for longitude was depending on a drunk.", "zh": "海上的水手却享受不到这份奢侈：颠簸的甲板会把钟摆甩进一片混沌。在船上，钟忽慢忽快，最后干脆停摆——靠这种钟定经度的领航员，等于靠一个醉汉指路。" },
+        { "en": "An ocean's worth of longitude could be read from a clock accurate to a few seconds a day, so the race to build a motion-proof timekeeper became a race for empire; the British parliament offered a fortune — twenty thousand pounds, a king's ransom — to the first person who could endure the challenge.", "zh": "一座日差仅几秒的钟，就能读出一整片大洋的经度，于是\"造出不受晃动影响的钟\"成了一场帝国竞赛；英国议会悬下重金——两万英镑，一笔够赎国王的巨款——奖给第一个能扛住这项挑战的人。" },
+        { "en": "The winner was not a court astronomer but a Yorkshire carpenter's son, John Harrison, whose marine chronometers — wooden gears and self-lubricating parts, durable enough to shrug off salt and storm — held time at sea well enough to fix longitude within a few miles.", "zh": "赢的人不是宫廷天文学家，而是一位约克郡木匠之子：约翰·哈里森。他的船用精密计时器——木齿轮、自润滑部件，结实到对盐雾与风暴耸耸肩就过去——在海上守时到能把经度确定在几英里之内。" },
+        { "en": "During the sea trials of the 1760s, his instruments lost only a few seconds in months of rolling weather, a performance that ships' captains, a famously unsentimental audience, described with something close to love; one of them reportedly asked whether a second instrument could be bought, in case the first ever needed a holiday.", "zh": "在1760年代的海上实测中，他的计时器在数月的颠簸天气里只慢了几秒——这份成绩，让船长们这个出了名的没有感情的人群，用近乎爱慕的语气描述它；据报告，其中一位还问过能不能再买一台，以防头一台想休假。" },
+        { "en": "By the nineteenth century, railways had synchronized their stations by telegraph, and towns that had kept their own slightly different noons for centuries gave them up in a single decade; the company timetable, not the sun, now decided when the working day began.", "zh": "到十九世纪，铁路公司已用电报把各站时钟对齐，几个世纪以来各守一套\"正午\"的城镇，在短短十年里集体放弃；如今决定一天从何时开始的，是公司的时刻表，而不是太阳。" },
+        { "en": "Standard time was at first a private convenience of the railway companies rather than a public law, a reminder that many of our most durable institutions begin life as somebody's bookkeeping; governments wrote the arrangement into law only after decades of comfortable confusion.", "zh": "标准时起初只是铁路公司的私利方便，而非公共法律——这提醒我们，许多最经久的制度，出生时不过是某人的记账簿；政府是在几十年舒舒服服的糊涂之后，才把这套安排写进法律。" },
+        { "en": "Time, once a shadow cast by the sun and readable only while the sun consented, had become a mechanism ticking steadily on a wall — independent of weather, independent of mood, and almost, though not yet entirely, independent of the sky that had invented it.", "zh": "时间，曾是太阳投下、只在太阳肯赏脸时才可读的影子，如今成了墙上嘀嗒作响的机械——不问阴晴，不看心情，而且，几乎（尽管还不完全）独立于那片发明了它的天空。" }
+      ],
+      "questions": [
+        {
+          "q": "What did young Galileo discover about the swinging lamp?",
+          "options": ["Each swing took the same duration whether the arc was wide or narrow", "Heavier lamps always swing faster", "Swings grow longer like rolling balls", "The human pulse is a better clock"],
+          "answer": 0,
+          "explain": "第2句：他借脉搏计时，发现\"无论弧线宽窄，每摆一次所持续的时间完全相同\"。"
+        },
+        {
+          "q": "How much did daily clock errors fall once pendulum clocks ran reliably?",
+          "options": ["From fifteen hours to fifteen minutes", "From fifteen minutes to about fifteen seconds", "From fifteen seconds to one second", "They did not change at all"],
+          "answer": 1,
+          "explain": "第4句：惠更斯造出可靠的摆钟后，\"日误差从约十五分钟降到了约十五秒\"。"
+        },
+        {
+          "q": "What does a pendulum's rate depend on?",
+          "options": ["Only gravity and its length", "The temperature of the room", "The weight of the lamp", "The skill of the owner"],
+          "answer": 0,
+          "explain": "第7句：\"钟摆的快慢只取决于重力与摆长\"，调短则快，一米恰好对应一秒。"
+        },
+        {
+          "q": "What can we infer about how standard time spread across countries?",
+          "options": ["It began as the railway companies' private convenience and only later became public law", "It was imposed by astronomers immediately", "Every town kept its own noon until the twentieth century", "The sun was consulted at each step"],
+          "answer": 0,
+          "explain": "第12句：\"如今决定一天从何时开始的，是公司的时刻表\"；第13句：\"标准时起初只是铁路公司的私利方便\"，政府几十年后才写进法律（推断）。"
+        },
+        {
+          "q": "The word chronometer joins chron (\"time\") with meter (\"measure\"). According to sentence 10, what did Harrison's marine chronometers achieve?",
+          "options": ["They held time at sea well enough to fix longitude within a few miles", "They predicted the tides for a decade", "They replaced the pendulum in every church", "They rang the hours more loudly"],
+          "answer": 0,
+          "explain": "第10句：哈里森的计时器\"在海上守时到能把经度确定在几英里之内\"——chronometer 即测时之器（chrono=时间，meter=测量）。"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "多久才算久：耐用、忍受与一生的尺度",
+      "sentences": [
+        { "en": "Once humans could measure time precisely, an entirely different question appeared: how long should a thing last? A bridge, a shoe, a promise, a marriage — every object and arrangement now carried an invisible warranty, and somebody, somewhere, would eventually be asked to honour it.", "zh": "一旦人能精确计量时间，一个全然不同的问题浮现了：一样东西应该用多久？一座桥、一只鞋、一句承诺、一桩婚姻——每件东西、每种约定都带上一份看不见的保单，而迟早总有某处的某人，被要求兑现它。" },
+        { "en": "Engineers separate durability, a material's resistance to wear, from endurance, a machine's or a runner's capacity to keep going; the words sound like sisters but describe different deaths — one crumbles at the surface while the other simply runs out of heart. A bridge can be both durable and out of endurance, and so, on a bad day, can a marathon runner.", "zh": "工程师把耐用性（材料抗磨损的能力）与耐力（机器或跑者持续运转的能力）区分开来；这两个词听着像姐妹，描述的却是两种不同的死法——一种在表面碎裂，另一种只是把心跑完了。一座桥可以既耐用又没了耐力，而一个马拉松选手，在倒霉的日子里也一样。" },
+        { "en": "Roman concrete has endured beneath Mediterranean harbours for two thousand years, actually growing harder as seawater reacts with volcanic ash, a recipe so forgiving that modern chemists spent decades reverse-engineering it and still confess that part of the answer remains a mystery.", "zh": "罗马混凝土在地中海的港口水下已经历两千年，海水与火山灰反应反而让它愈发坚硬；这个配方宽厚到让现代化学家花了几十年做逆向工程，仍不得不承认一部分答案至今成谜。" },
+        { "en": "Modern steel bridges, designed for roughly a century of service, demand constant inspection during their working lives; engineers walk them, X-ray their welds, listen to them in storms, and schedule their funerals — replacement dates — before the ribbon at the opening ceremony has been cut down.", "zh": "现代钢桥按约百年的服役期设计，整个工作年限内都离不开持续检修；工程师走上桥身、给焊缝拍X光、在暴风里听它们的声音，而且早在剪彩的红绸还没摘下之前，就为它们排好了\"葬礼\"——更换日期。" },
+        { "en": "To test durability in a reasonable human timescale, laboratories compress decades of simulated weather and load into a few brutal months; a bridge pier lives through a century of frost and traffic before its engineers have finished their coffee, and the machine never once apologises for the hurry.", "zh": "为了在人类能接受的时间尺度里测试耐用性，实验室把几十年的模拟风雨与载荷，压缩进短短几个月的严酷考验；工程师的咖啡还没喝完，桥墩已经历了一个世纪的冰霜与车流——而机器从不对这份匆忙道歉。" },
+        { "en": "Doctors make a similar distinction in the body, calling an illness chronic when it lasts beyond three months; the boundary is not magical, but it separates conditions that will pass from conditions that must be lived with, and the treatments differ accordingly.", "zh": "医生在人体上也做类似的区分：病程超过三个月，便称为慢性病；这条界线并无魔力，但它把\"会过去的病\"与\"必须与之共存的病\"分开，治法也随之不同。" },
+        { "en": "Chronic pain differs from acute pain not in its intensity but in its stubborn duration; a sharp ache can be survived like a storm, but a dull one that endures for a decade changes the person who carries it, in ways no single night's suffering ever could.", "zh": "慢性疼痛与急性疼痛的差别不在强度，而在那纠缠不去的漫长持续；剧痛可以像一场风暴那样熬过去，可一种钝痛若持续十年，它对人的改变，是任何一夜的苦痛都做不到的。" },
+        { "en": "Our sense of time also depends on scale: a summer feels endless to a child, who has owned only six of them, and brief to a grandparent, who measures it against the shrinking remainder; the same ninety days, counted against different supplies, occupies different amounts of inner room.", "zh": "我们的时间感也取决于尺度：同一个夏天，在只拥有过六个夏天的孩子那里漫无边际，在拿所剩无几的岁月来丈量的祖辈那儿转瞬即逝；同样九十天，对照不同的存量，在心里的占位大不相同。" },
+        { "en": "On geological scales, permanence dissolves entirely, and even the Himalayas rise and crumble on clocks of millions of years; the mountains we treat as the type of the eternal are, to a patient geologist, merely weather that happens to be made of stone — slow weather, but weather all the same.", "zh": "放到地质尺度上，永固二字便彻底瓦解，连喜马拉雅也在以百万年计的钟上隆起又剥蚀；在我们眼里当作\"永恒\"代名词的那些山，在一位有耐心的地质学家看来，不过是恰好由石头构成的天气——很慢的天气，但终究是天气。" },
+        { "en": "A mortgage belongs in this story too, because the word literally means a dead pledge — an arrangement that dies when the debt is repaid; the pledge's death, not the borrower's, is the clause that ancient lawyers found funny enough to name.", "zh": "按揭这个词也属于这个故事，因为它的本义就是\"死的抵押\"——一笔还清债务便随之消亡的约定；古代律师觉得好笑、特意给它命名的，是抵押之死这一条款，而不是借款人之死。" },
+        { "en": "Most mortgages run thirty years, a duration deliberately matched to a working life rather than to a full human one; the bank lends to the earning years and politely declines to depend on the pension, which is arithmetic dressed as sentiment.", "zh": "多数按揭为三十年，这个年限是刻意对齐一段职业生涯，而非一整条人命；银行把钱借给能挣钱的年头，并客气地拒绝指望养老金——这是穿了感情外衣的算术。" },
+        { "en": "In the end, every claim of durability is a quiet negotiation with time, and time never signs the contract; the material endures only as long as its chemistry, its maintenance and its luck concur, and two of those three can fail in a single afternoon.", "zh": "说到底，每一句关于耐用的承诺，都是与时间的一场无声谈判，而时间从不肯签字；材料能撑多久，全看它的化学、它的维护与它的运气是否同时点头——而这三项里，两项可以在一个下午之内一起垮掉。" },
+        { "en": "We build for permanence while knowing we are mortal builders, and only by arrangement does the material outlast the maker; every cathedral is a bet placed by people who will not see the payout, and the fact that the bet usually wins is one of the quiet wonders of civilization.", "zh": "我们怀着凡人的自觉去追求恒久，材料之所以比匠人活得久，靠的全是人为的安排；每一座大教堂都是一场下注人自己看不到派彩的赌局，而这场赌局通常能赢——这算得上文明最安静的奇观之一。" }
+      ],
+      "questions": [
+        {
+          "q": "How do engineers distinguish endurance from durability?",
+          "options": ["Durability is a material's resistance to wear; endurance is a capacity to keep going", "They are exact synonyms", "Durability applies only to runners", "Endurance means being cheap to repair"],
+          "answer": 0,
+          "explain": "第2句给出定义：耐用性是材料抗磨损的能力，耐力是机器或跑者持续运转的能力——\"描述的却是两种不同的死法\"。"
+        },
+        {
+          "q": "What has Roman concrete endured for two thousand years?",
+          "options": ["Beneath Mediterranean harbours, growing harder as seawater reacts with volcanic ash", "On mountain railway bridges", "In desert temples of Egypt", "In modern city sewer systems"],
+          "answer": 0,
+          "explain": "第3句：罗马混凝土在地中海港口水下已历两千年，海水与火山灰反应，\"反而让它愈发坚硬\"。"
+        },
+        {
+          "q": "When do doctors call an illness chronic?",
+          "options": ["When it lasts less than a day", "When it lasts beyond three months", "When it strikes exactly once a year", "When it follows surgery"],
+          "answer": 1,
+          "explain": "第6句：\"病程超过三个月，便称为慢性病\"，这条界线把\"会过去的病\"与必须与之共存的病分开。"
+        },
+        {
+          "q": "What does the thirty-year term of most mortgages reveal about banks?",
+          "options": ["They lend against the earning years of a working life, not against a full human lifespan", "They believe all borrowers live exactly thirty years", "They are forbidden by law to lend longer", "They prefer to be repaid in stone"],
+          "answer": 0,
+          "explain": "第11句：三十年\"刻意对齐一段职业生涯，而非一整条人命\"，银行\"客气地拒绝指望养老金\"——可推断其放贷逻辑锚定在挣钱年头（推断）。"
+        },
+        {
+          "q": "The Latin root mort (\"death\") appears in mortgage, mortal and immortal. In sentence 10, what does a mortgage literally mean?",
+          "options": ["A dead pledge that dies when the debt is repaid", "A golden promise between friends", "A payment repeated every year", "A contract carved in stone"],
+          "answer": 0,
+          "explain": "第10句：mortgage 本义是\"死的抵押\"——一笔还清债务便随之消亡的约定；词根 mort=死，另见第13句 mortal builders（凡人匠人）。"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "年与千年：历法的修订史",
+      "sentences": [
+        { "en": "A year is a fact of astronomy before it is a fact of any calendar: the time Earth needs to circle the sun once, about 365.2422 days, a number with no respect whatsoever for the human fondness for round figures.", "zh": "年首先是天文学的事实，其次才是历法的事实：地球绕太阳一周所需的时间，约365.2422天——一个对人类偏爱整数毫无敬意的数字。" },
+        { "en": "No whole number of days fits that fraction, so every calendar ever invented must be corrected sooner or later, because the alternative is watching the seasons drift quietly out of their appointed boxes, midsummer snow and Christmas roses, until the calendar becomes a museum of good intentions.", "zh": "没有任何整数天能装下这个零头，于是历来所有历法迟早都得修正；否则就只好眼看着四季悄悄漂出各自被指定的格子——仲夏落雪、圣诞玫瑰——直到整本历法沦为善意满满的老古董博物馆。" },
+        { "en": "In 46 BC, Julius Caesar introduced a leap day every fourth year, and the Julian trick served for fifteen centuries, an administrative run that no modern institution has equalled; his calendar outlasted his republic, his empire, and the family that murdered him.", "zh": "公元前46年，尤利乌斯·凯撒引入四年一闰，这套儒略历的办法用了十五个世纪——没有任何现代机构的行政方案能匹敌这个服役年限；他的历法比他的共和国、他的帝国，以及谋杀他的那个家族，都活得更久。" },
+        { "en": "But the Julian year runs about eleven minutes too long, and those spare minutes accumulated like an uncollected debt, a few days per century, quiet as compound interest; nobody notices eleven minutes, which is precisely how eleven minutes conquers a civilization.", "zh": "但儒略年比实际多出约十一分钟，这些零头像一笔无人催缴的债，一个世纪攒出几天，安静得如同复利；没人在意十一分钟——而这恰恰正是十一分钟征服一个文明的方式。" },
+        { "en": "By the sixteenth century, the spring equinox had drifted ten days away from where the church calendar expected it, which endangered the intricate arithmetic of Easter; astronomers reported, councils debated, and finally the paperwork arrived on the desk of Pope Gregory XIII.", "zh": "到了十六世纪，春分已悄悄漂离教会历法设定的位置整整十天，危及复活节那套精密的推算；天文学家上报，宗教会议争论，最后，文件终于摆上了格里高利十三世的案头。" },
+        { "en": "In October 1582, Gregory simply deleted ten dates, so the fourth of October was followed by the fifteenth; peasants feared losing ten days of their wages, poets lost ten days of their lives on paper, and the equinox obediently returned to its assigned square.", "zh": "1582年10月，格里高利索性删掉十个日期，10月4日的次日便是10月15日；农夫担心少拿十天的工钱，诗人在纸面上丢了十天的寿命，而春分则乖乖回到了它被指定的格子里。" },
+        { "en": "The corrected Gregorian calendar is the one most of the world still follows for its annual business today, and its adoption travelled with trade and empire rather than with persuasion: Britain held out until 1752, Russia until 1918, and a few Orthodox calendars still keep their own candles burning.", "zh": "修正后的格里高利历，就是今天世界上大多数人处理每年事务所用的历法；它的推行随贸易与帝国而行，而非靠劝服——英国硬撑到1752年，俄国撑到1918年，还有几部东正教历法至今点着自己的蜡烛。" },
+        { "en": "Calendars matter because memory depends on them, for no chronicle can be assembled into history without agreed dates; two civilizations that count their years differently cannot even argue productively about when the arguing began, which is why diplomatic letters have carried two dates for most of recorded history.", "zh": "历法之所以要紧，是因为记忆依赖它——没有公认的日期，任何编年记载都拼不成历史；连年方式不同的两个文明，连\"争吵是何时开始的\"都吵不出个结果，所以有文字记载以来，外交信函大多写着两个日期。" },
+        { "en": "Nations celebrate their centennials and bicentennials with fireworks and speeches, and in the year 2000 the entire planet observed a millennium together; even countries that share almost nothing shared that particular party, and airlines sold out of seats flying people to the first sunrise.", "zh": "各国以烟火与演说庆祝百年与两百年庆典，而2000年到来时，整个星球一起注视了一个千年的交替；连几乎毫无共同点的国家也共享了那一场庆典，航空公司载着人们飞往全球第一缕日出的航班座无虚席。" },
+        { "en": "Historians consult the annals of earlier centuries, where each year's harvests, storms and wars were written down line by line by clerks who expected to be forgotten; the annals are often dull, which is precisely what makes them trustworthy — nobody embroiders a fact they plan to bore you with.", "zh": "历史学家翻检早先各世纪的史册，那里逐年逐条记着收成、风暴与战事，落笔的书吏都料定自己会被遗忘；史册常常枯燥，而这恰恰是它们可信的原因——没有人会去渲染一个打算用来烦你的事实。" },
+        { "en": "An annuity, a sum paid every year, takes its name directly from the Latin word annus, which simply means year; the insurance industry has built a considerable civilization on the difference between a year and a lifespan, which is the gap where all its arithmetic lives.", "zh": "年金——每年支付的一笔钱——名字直接来自拉丁语的annus，意思就是年；保险业在\"一年\"与\"一条命\"的差额上建起了一座可观的文明，它全部的算术都住在那道缝隙里。" },
+        { "en": "Retirement planning is really a problem of duration: how many years of income must one working lifetime support, and how long will the pension endure after the pay-cheques stop arriving; the answers depend on tables of mortality that each generation quietly rewrites in its own favour.", "zh": "养老规划说到底是持续时间的算术题：一段工作人生，要支撑多少年的开销？工资停了以后，养老金又能撑多久？答案全依赖死亡率表——而每一代人都在悄悄把表往有利于自己的方向改写。" },
+        { "en": "Some plants are annual, sprouting and dying within a single year, while others are perennial, returning each spring from the same roots; farmers who confuse the two can lose a harvest, and poets who confuse them can win a prize, which says something about the different tolerance of the two professions.", "zh": "有些植物是一年生的，一年内萌发又死去；另一些是多年生的，每年春天都从同一条根上归来。把两者搞混的农夫会赔掉一季收成，把两者搞混的诗人却可能获奖——这多少说明了两种职业的容错率差异。" },
+        { "en": "A calendar, in the end, is the filing system of civilization, deciding which events history keeps within easy reach; the years we agree to number are the years we agree to remember, and every reform of the calendar is, underneath the astronomy, an argument about whose memory deserves the shelf space.", "zh": "说到底，历法是文明的档案系统，决定哪些事件被历史放在伸手可及的地方；我们同意编号的年份，就是我们同意记住的年份——而每一次历法改革，在天文学的下面，其实都是一场\"谁的记忆配得上书架\"的争论。" }
+      ],
+      "questions": [
+        {
+          "q": "Why must every calendar be corrected sooner or later?",
+          "options": ["The year is about 365.2422 days, not a whole number of days", "The moon keeps interfering with the sun", "Kings enjoyed announcing new calendars", "Early printers made counting errors"],
+          "answer": 0,
+          "explain": "第1句给出年长365.2422天，第2句：\"没有任何整数天能装下这个零头\"，否则四季会漂出格子。"
+        },
+        {
+          "q": "What was wrong with the Julian year?",
+          "options": ["It ran about eleven minutes too long each year", "It forgot the leap day entirely", "It counted only ten months", "It started on the wrong solstice"],
+          "answer": 0,
+          "explain": "第4句：儒略年\"比实际多出约十一分钟\"，如无人催缴的债般逐年累积。"
+        },
+        {
+          "q": "What did Pope Gregory XIII do in October 1582?",
+          "options": ["He deleted ten dates from the calendar", "He added a leap week to every year", "He banned the Julian calendar forever", "He moved the spring equinox by law"],
+          "answer": 0,
+          "explain": "第6句：格里高利\"索性删掉十个日期，10月4日的次日便是10月15日\"。"
+        },
+        {
+          "q": "What can we infer about the clerks who wrote the annals?",
+          "options": ["They recorded plainly, without motive to embellish, since they expected to be forgotten", "They wrote to entertain their readers", "They were ordered to exaggerate good harvests", "They destroyed the dull entries"],
+          "answer": 0,
+          "explain": "第10句：落笔的书吏\"都料定自己会被遗忘\"，史册枯燥恰恰可信，\"没有人会去渲染一个打算用来烦你的事实\"（推断）。"
+        },
+        {
+          "q": "The Latin word annus (\"year\") lies behind annual, annals and annuity. In sentence 11, what is an annuity?",
+          "options": ["A sum paid every year", "A debt that dies when repaid", "A clock accurate to seconds", "A plant that returns each spring"],
+          "answer": 0,
+          "explain": "第11句：\"年金——每年支付的一笔钱——名字直接来自拉丁语的annus\"；annals（史册，第10句）与 annual（第7、13句）同根。"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "时间的尽头：必死与不朽",
+      "sentences": [
+        { "en": "Every system for measuring time eventually collides with the one deadline that no calendar can ever reschedule, the one appointment that declines every postponement and accepts no apology; clocks can be reset, calendars reformed, but this entry is written in ink that no chemist has solvents for.", "zh": "每一套测量时间的系统，最终都会撞上那个任何历法都无法改期的最后期限——一个拒绝一切延期、不接受任何道歉的约定；钟可以重拨，历可以重修，但这一条目用的墨水，任何化学家都配不出溶剂。" },
+        { "en": "Ancient Romans carved the words memento mori on their sundials — remember that you will die, even while you count the hours — a piece of engineering advice disguised as poetry: the shadow sweeping the dial is sweeping toward you as well.", "zh": "古罗马人在日晷上刻下 memento mori——记住你终将死去，哪怕你正在数着时辰——一条伪装成诗歌的工程建议：扫过晷面的那道影子，同样也在扫向你。" },
+        { "en": "Mortality is the statistical name for that deadline, and demographers track mortality rates the way astronomers track orbits, with tables, projections and a professional calm that would seem cold if it were not so quietly heroic; every row in their spreadsheets is a village of breathing people.", "zh": "死亡率是那个期限的统计学名字；人口学家追踪它，就像天文学家追踪轨道——用表格、推算，和一种若非悄悄英勇便显得冷酷的职业平静。他们电子表格里的每一行，都是一村子活生生呼吸着的人。" },
+        { "en": "In 1900, global life expectancy was about thirty-two years; today, after a single century of medicine, it is about seventy-three, a gain of forty years — not won by any single discovery but by clean water, vaccines, and the quiet annual bookkeeping of public health departments.", "zh": "1900年，全球人均预期寿命约三十二岁；仅仅一个世纪的医学之后，如今约为七十三岁——四十年增幅，不是任何单一发现赢来的，而是净水、疫苗，以及公共卫生部门年复一年安静的记账赢来的。" },
+        { "en": "Those gains against mortality were won slowly, town by town, and they can be lost again just as slowly; a public health system is a durable thing only while the public keeps agreeing to be healthy, which is one of the stranger contracts democracy ever wrote.", "zh": "对必死性的这些胜利，是一镇一镇慢慢赢来的，也可能同样慢慢地再次输掉；公共卫生系统只有在公众持续同意\"保持健康\"时才是耐用的东西——这是民主制度写过的最奇怪的合同之一。" },
+        { "en": "Awareness of being mortal has always shaped how people choose to spend their numbered hours; the knowledge is a wound and an instructor at once, and most of what we call culture is the long conversation a wounded species has held with its instructor.", "zh": "对凡人必死的清醒，始终左右着人们如何花掉自己有数的时光；这份认知既是伤口又是教员，而我们所谓的文化，大半是这个带伤的物种与其教员之间一场漫长的对话。" },
+        { "en": "Medieval monks kept clocks not for trains but for prayers, so that mortal work could pause at fixed hours for eternal concerns; the bell that called the field-worker to his knees and the abbot to his office was the same bell, and nobody pretended otherwise.", "zh": "中世纪的修士造钟不为赶火车，而为按时祈祷，好让凡人的劳作在固定的钟点停下来，照看永恒的事；召唤田里的工人跪下、也召唤修道院长回到职责的那口钟，是同一口钟——谁也不假装不是。" },
+        { "en": "The perennial question of philosophy — how a finite life should be spent — was written down, argued and annotated entirely by people now gone; we consult them the way farmers consult the annals, looking for weather patterns in the harvests of the dead.", "zh": "哲学里那个千年常新的问题——有限的一生该如何度过——写下它、争论它、为它作注的人，全都已不在；我们求教于他们，就像农夫翻检历年史册，想从死者的收成里找出天气的规律。" },
+        { "en": "Against mortality, humans have built three kinds of shelter: children, words and stone; the first is hope, the second is memory, and the third is memory with a warranty, and most civilizations have spent their surplus on all three at once.", "zh": "为了对抗必死，人类盖起了三种庇护所：孩子、词语，和石头；第一种是希望，第二种是记忆，第三种是带保修的记忆——而大多数文明，是同时在三者身上花光盈余的。" },
+        { "en": "Languages endure: the Rigveda, composed about three thousand years ago, is still recited today by living voices in unchanged metres; no marble and no museum were required, only breath passed from an old mouth to a young one, three thousand times in a row.", "zh": "语言是能长久存续的东西：约三千年前写成的《梨俱吠陀》，今天仍由活着的人按原样的格律诵读；它不需要大理石，也不需要博物馆，需要的只是一口气，从一张苍老的嘴传到一张年轻的嘴——三千年来一口气没断。" },
+        { "en": "Stone offers a slower shelter, and an Egyptian inscription can still speak its author's name aloud after forty centuries; the pharaohs built for a duration that embarrasses our thirty-year mortgages, and their granite has kept the appointment longer than their gods.", "zh": "石头是更慢的庇护所：一段埃及铭文，在四十个世纪之后，仍能念出它作者的名字；法老们为一座建筑所设的年限，让我们三十年的按揭羞愧——而他们的花岗岩赴约的时间，比他们的神还久。" },
+        { "en": "In an odd twist well known to historians, a speech written to mortify a rival may quietly preserve that rival's name forever; Cicero's enemies would be footnotes today if Cicero had not hated them so beautifully, sentence by immortal sentence.", "zh": "有个史家们熟知的古怪转折：一篇为让对手蒙羞而写的文字，可能悄悄让那对手的名字永存；若非西塞罗恨得那么漂亮——一句接一句不朽的句子——他的政敌们今天早成了没人翻的脚注。" },
+        { "en": "Immortality, if it exists anywhere, is distributed: nobody lives forever, but some sentences are still alive after two thousand years, still changing minds, still ending arguments in rooms their authors could not have imagined, which is as close to resurrection as grammar gets.", "zh": "不朽，倘若真有，也是被分摊的：没有人能永远活着，但有些句子两千年后仍然活着，仍在改变想法，仍在它们作者想象不到的房间里终结一场争论——这已是语法所能达到的最接近复活的东西。" },
+        { "en": "We measure time with shadows, pendulums and atoms, and now with chronometers that would not lose a second across the age of the ocean; in the end, time also measures us, and it uses a clock that keeps no numbers — we simply feel it running.", "zh": "我们用影子、钟摆和原子测量时间，如今又用跨越一个大洋的年纪也慢不了一秒的精密计时器；到头来，时间也在测量我们——它用的那座钟不记数字，我们只是感到它在走。" }
+      ],
+      "questions": [
+        {
+          "q": "What did ancient Romans carve on their sundials?",
+          "options": ["Memento mori: remember that you will die", "The names of their gods", "The exact hours of prayer", "The price of public water"],
+          "answer": 0,
+          "explain": "第2句：罗马人在日晷上刻 memento mori——\"记住你终将死去\"，连数时辰的人也不例外。"
+        },
+        {
+          "q": "How has global life expectancy changed since 1900?",
+          "options": ["From about thirty-two years to about seventy-three", "From fifty years to sixty years", "It has fallen sharply", "It has stayed near seventy-three"],
+          "answer": 0,
+          "explain": "第4句：1900年约三十二岁，一个世纪的净水、疫苗与公共卫生记账之后，\"如今约为七十三岁\"。"
+        },
+        {
+          "q": "What three shelters against mortality does the author name?",
+          "options": ["Children, words, and stone", "Clocks, calendars, and maps", "Temples, coins, and roads", "Water, vaccines, and medicine"],
+          "answer": 0,
+          "explain": "第9句：\"人类盖起了三种庇护所：孩子、词语，和石头\"——分别是希望、记忆、带保修的记忆。"
+        },
+        {
+          "q": "Why would Cicero's enemies be footnotes today, if not for his hatred?",
+          "options": ["Because only his beautifully hateful sentences preserved their names for posterity", "Because they never did anything important", "Because their own books were burned", "Because Romans could not read footnotes"],
+          "answer": 0,
+          "explain": "第12句：为让对手蒙羞而写的文字\"可能悄悄让那对手的名字永存\"——若非西塞罗恨得漂亮，政敌早被遗忘（推断）。"
+        },
+        {
+          "q": "The Latin root mort (\"death\") appears in mortal, mortality, immortal and mortify. In sentence 12, what does a speech written to mortify a rival do?",
+          "options": ["It shames and humiliates the rival", "It pays the rival a pension", "It measures the rival's years", "It buries the rival in stone"],
+          "answer": 0,
+          "explain": "第12句：\"为让对手蒙羞而写的文字\"——mortify 意为羞辱、使痛失体面；词根 mort=死，同根词见第3句 mortality、第13句 immortality。"
+        }
+      ]
+    }
+  ]
+}

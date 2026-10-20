@@ -1,0 +1,52 @@
+[
+  {
+    "step": 1,
+    "title": "音标关",
+    "weeks": "2-4 周",
+    "emoji": "🎯",
+    "goal": "看到音标能读准,听音能辨词。音标不准,听力永远跟不上——因为你听到的和你以为的不一样。",
+    "book": "赖世雄美语音标",
+    "actions": [
+      { "label": "发音舱·音标解剖:48 音标逐个过,每个跟读到 80 分", "view": "phonetics" },
+      { "label": "发音舱·听辨测试:18 组最小对立体练到全对", "view": "phonetics" },
+      { "label": "发音舱·拼读规则:看到生词能猜读音", "view": "phonetics" }
+    ]
+  },
+  {
+    "step": 2,
+    "title": "框架关",
+    "weeks": "1-2 月",
+    "emoji": "📘",
+    "goal": "用理解式语法建立框架,不求背完,只求读句子能看懂结构。",
+    "book": "语法俱乐部 + 剑桥蓝皮书(当字典查)",
+    "actions": [
+      { "label": "语法机械城:五大句型和时态先点亮", "view": "grammar" },
+      { "label": "错题答完进错题档案,连续答对才结案", "view": "grammar" }
+    ]
+  },
+  {
+    "step": 3,
+    "title": "输入关",
+    "weeks": "持续",
+    "emoji": "🌊",
+    "goal": "读和听同时上,词汇在语境里自然长大。选比自己水平低一档的材料,能顺畅读懂 90% 的那种。",
+    "book": "书虫 1-2 级 + ESL Pod",
+    "actions": [
+      { "label": "阅读号列车:每天 1 篇 L1-L2 短文,点词即学", "view": "reading" },
+      { "label": "听力峡谷:慢速精听 → 常速,语速阶梯进阶", "view": "listening" },
+      { "label": "词汇星系:每天复习充能,SM-2 算法安排一切", "view": "galaxy" }
+    ]
+  },
+  {
+    "step": 4,
+    "title": "输出关",
+    "weeks": "3 月起",
+    "emoji": "🎭",
+    "goal": "开口把积累的弹药打出去,完成输入→输出闭环。影子跟读每天 15 分钟雷打不动。",
+    "book": "American Accent Training + 每日跟读",
+    "actions": [
+      { "label": "口语竞技场:每日跟读 15 分钟,逐词打分到 80+", "view": "speaking" },
+      { "label": "学习画像:看哪个模块正确率低,回头补", "view": "dashboard" }
+    ]
+  }
+]

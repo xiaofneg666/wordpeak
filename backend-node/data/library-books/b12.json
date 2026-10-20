@@ -1,0 +1,272 @@
+{
+  "id": "lib-heartbeat-choir",
+  "title": "心跳合唱团",
+  "en_title": "The Heartbeat Choir",
+  "author": "WordVerse Archive",
+  "region": "literary",
+  "level": 2,
+  "one_line": "一个高中合唱团，用一个学期学会听见彼此。",
+  "word_focus": ["path", "cord"],
+  "chapters": [
+    {
+      "no": 1,
+      "title": "试音",
+      "sentences": [
+        { "en": "In September, when the classrooms still smelled of new books and fresh paint, our school choir opened its doors to new singers, and Miss Carter, our conductor, pinned a white sign on the door that said: Every voice is welcome here.", "zh": "九月里，教室里还留着新课本和新鲜油漆的味道，学校合唱团向新团员敞开了大门；我们的指挥卡特老师在门上钉了一张白纸，写着：每一个声音都受欢迎。" },
+        { "en": "More than sixty students signed up in the first week, and, in accordance with the choir's oldest tradition, every single one of us had to sing alone on audition day, behind a small white curtain.", "zh": "第一周就有六十多个学生报了名，而按照合唱团最老的传统，试音那天每个人都得独自站到一道小白幕后唱歌。" },
+        { "en": "The auditorium felt full, warm, and a little frightening that afternoon, like an airport before a long journey, and even the ceiling seemed to hold its breath.", "zh": "那天下午的礼堂满满当当、暖烘烘，又有点吓人，像长途旅行前夜的机场，连天花板仿佛都屏住了呼吸。" },
+        { "en": "Miss Carter listened to every voice behind the curtain, because she wanted her ears, and not her eyes, to do the choosing.", "zh": "卡特老师在幕布后面听每一个声音，因为她要让耳朵、而不是眼睛来做选择。" },
+        { "en": "\"The ears should decide, not the eyes,\" she told the long line of nervous students with a cordial, easy smile, and that one sentence calmed the whole room like a warm hand.", "zh": "\"该由耳朵来定，不该由眼睛来定。\"她带着亲切从容的笑，对排成一长排的紧张学生说，这一句话像一只温暖的手，让整间屋子安静了下来。" },
+        { "en": "Some voices were soft as paper, some were strong as brass, and one boy sang like a small steam engine, but Miss Carter wrote something kind about every single one of them.", "zh": "有的声音薄得像纸，有的亮得像铜号，还有个男生唱得像一台小蒸汽机，但卡特老师在每一个人的名字旁边都写下了一句好话。" },
+        { "en": "When Ken's turn came, her high notes went badly off key, the wrong sounds jumped around the hall like a handful of dropped plates, and her face turned the color of the curtain.", "zh": "轮到 Ken 的时候，她的高音跑调跑得厉害，错音像一把摔在地上的盘子，在礼堂里四处乱蹦，她的脸也涨成了幕布一样的白。" },
+        { "en": "A few students in the back rows laughed quietly, because her song sounded strange to them, and quiet laughter, we all learned that day, can be crueler than the loud kind.", "zh": "后排几个学生偷偷笑了，因为她的调子听着实在古怪；而我们那天都学到了，轻轻的笑声有时比放声大笑更伤人。" },
+        { "en": "Some listeners showed pity, but Miss Carter showed real sympathy instead, and she asked Ken to sing the second line once more, slowly, in her own time, and without any fear.", "zh": "几个人露出可怜她的神情，而卡特老师给出的是真切的同情，她请 Ken 再唱一遍第二句，慢一点，按自己的节奏来，不用害怕。" },
+        { "en": "Ken lowered her head and held her music book like a shield, because she thought her chance was over and her year of secret hope had ended on that small stage.", "zh": "Ken 低下了头，把乐谱抱在胸前像一面盾牌，她以为自己的机会没了，一整年偷偷攒下的希望就断在了那个小台上。" },
+        { "en": "It cost her all her courage to look up again, but Miss Carter kept a written record of every audition that day, and next to Ken's name she wrote one short word in red ink.", "zh": "她用尽全部的勇气才重新抬起头；而那天卡特老师把每场试音都记了档，在 Ken 的名字旁边，她用红笔写了一个短短的词。" },
+        { "en": "At the first rehearsal she told us the word was \"stay\", because the choir did not need perfect voices; it needed people who truly loved to sing, even when the singing was far from perfect.", "zh": "第一次排练时她告诉我们，那个词是\"留下\"，因为合唱团不需要完美的嗓音，它需要真心热爱唱歌的人——哪怕唱得远谈不上完美。" },
+        { "en": "\"Sympathy is easy,\" she explained to the new members, \"because it only stands outside a heart; empathy means standing inside another heart and hearing its music, even the shaky notes.\"", "zh": "\"同情很容易，\"她向新团员解释，\"因为它只是站在一颗心外面；共情是要站进另一颗心里，听见它的音乐——连那些发抖的音也听。\"" },
+        { "en": "\"We need empathy more than perfect pitch,\" she said with a small smile, and while we encouraged Ken with quiet applause, she told us once more that the core of our choir was never sound but hearts.", "zh": "\"比起完美的音准，我们更需要共感。\"她微微一笑说；我们用轻轻的掌声鼓励 Ken 时，她再一次告诉我们：合唱团的核心从来不是声音，是人心。" }
+      ],
+      "questions": [
+        {
+          "q": "How many students signed up in the first week?",
+          "options": ["About twenty", "More than sixty", "Only five", "More than two hundred"],
+          "answer": 1,
+          "explain": "第2句 \"More than sixty students signed up in the first week\"，第一周报名的超过六十人。"
+        },
+        {
+          "q": "What happened when Ken's turn came?",
+          "options": ["She sang a perfect high note", "Her high notes went badly off key", "She refused to sing", "She left the room in tears"],
+          "answer": 1,
+          "explain": "第7句 \"her high notes went badly off key, the wrong sounds jumped around the hall\"，Ken 的高音严重跑调。"
+        },
+        {
+          "q": "What short word did Miss Carter write next to Ken's name?",
+          "options": ["Stay", "Go", "Home", "Sing"],
+          "answer": 0,
+          "explain": "第11句 she wrote one short word in red ink；第12句 \"she told us the word was 'stay'\"，那个红笔写的词是\"留下\"。"
+        },
+        {
+          "q": "Why did Miss Carter listen to every voice behind a small curtain?",
+          "options": ["Because she was afraid of the students", "Because she wanted her ears, and not her eyes, to do the choosing", "Because the curtain was a school rule", "Because the light was too strong"],
+          "answer": 1,
+          "explain": "第4句 \"she wanted her ears, and not her eyes, to do the choosing\"，第5句又解释\"该由耳朵来定，不该由眼睛来定\"，所以她隔着幕布听。"
+        },
+        {
+          "q": "In sentence 13, \"empathy means standing inside another heart and hearing its music,\" the word \"empathy\" means ______.",
+          "options": ["feeling with another person from the inside", "copying another person's singing", "a kind of music lesson", "a fear of the stage"],
+          "answer": 0,
+          "explain": "第13句。词根 path- 表示\"感受\"：em-(进入)+path(感受)→站进别人的心里去感受→共情。与只站在心外的 sympathy（同情）相对。"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "一首老歌",
+      "sentences": [
+        { "en": "For the winter concert, Miss Carter chose a very old song, and when she placed the thin, yellow pages on the piano stand, nobody in the practice room had ever heard its strange, soft name.", "zh": "为了冬季音乐会，卡特老师选了一首很老的歌；她把那几页发黄变薄的乐谱放上琴架时，排练室里没有一个人听说过这个又陌生又温柔的名字。" },
+        { "en": "According to the record in the school office, a music teacher wrote it in 1968, in a small town school much like ours, with the same long windows and the same cold radiators.", "zh": "根据学校办公室的记载，一位音乐教师在 1968 年写下它，就在一所和我们差不多的小镇学校里，有同样的长窗和同样冰凉的暖气片。" },
+        { "en": "The old teacher had written it long ago for her lost students, for the ones who never came back after that hard, gray year, and the song had waited in a drawer for half a century before Miss Carter found it.", "zh": "很久以前，那位老师为那些再也回不来的学生写下它——那一年又冷又灰暗；这首歌在抽屉里等了半个世纪，才被卡特老师翻了出来。" },
+        { "en": "Miss Carter read the first line out loud in a plain, calm voice, and the practice room went very quiet, as if the walls themselves had started listening to the old paper.", "zh": "卡特老师用平实、安静的声音念出第一句歌词，排练室一下子静了，仿佛连墙壁都开始听那张老纸说话。" },
+        { "en": "When we sang it for the first time, the slow melody had a deep resonance in that small room, a low, warm ring that lived under every note and stayed after the notes were gone.", "zh": "我们头一回唱它时，舒缓的旋律在小屋里激起很深的共鸣——一记低沉温热的回响，藏在每个音底下，音散了它还没散。" },
+        { "en": "Ken closed her eyes while she sang, and later she told me that it took real courage to close them, because the melody moved like an old story she had known all her life without ever reading.", "zh": "Ken 唱的时候闭上了眼睛；后来她告诉我，闭上眼其实需要真勇气，因为那旋律像一段她生来就熟、却从没读过的旧故事。" },
+        { "en": "Everyone in the room, without any plan or signal, quietly remembered a special person: a grandmother, a lost brother, a friend who had moved away to a far, bright city.", "zh": "屋里每个人，没有任何约定或暗号，都默默想起了一个特别的人：一位外婆、一个失散的兄弟、一个搬去远方亮堂城市的朋友。" },
+        { "en": "I thought about my own grandfather, who taught me three folk songs before he died, and my eyes grew warm while my mouth kept singing his favorite line.", "zh": "我想起了我自己的外公，他在世时教过我三首民歌；嘴上还唱着他最爱的那句，眼眶却先热了。" },
+        { "en": "Miss Carter let the silence stay for a whole minute after the last note faded, because real singing, she said, begins at the exact moment when memory opens the heart.", "zh": "最后一个音散去之后，卡特老师让那份安静足足留了一分钟，因为她说，真正的歌唱，正是从记忆推开人心那一刻才开始的。" },
+        { "en": "That afternoon our two voice parts, which had argued for three long weeks about everything, moved in perfect unison for the first time, like two rivers joining into one quiet water.", "zh": "那天下午，吵了整整三个星期的两个声部第一次做到了完全的齐声，像两条河汇成了一片安静的水。" },
+        { "en": "\"It was not telepathy,\" she said with a soft laugh when she saw our surprised faces, \"it was shared feeling — empathy, if you like the long word — and it took a sad, beautiful song to teach it to us.\"", "zh": "\"这不是心灵感应，\"看到我们惊讶的脸，她轻轻笑了，\"这是共同的感受——愿意用长词的话，叫共情——是一首又忧伤又好听的歌教会了我们。\"" },
+        { "en": "The old song became the core of our winter programme, and we printed its little story on the back page of the concert programme, so every family could read about the teacher from 1968.", "zh": "这首老歌成了我们冬季演出的核心曲目；我们把它的故事印在节目单的封底，好让每个家庭都读一读 1968 年那位老师的故事。" },
+        { "en": "From that evening on, we kept a careful, honest record of every rehearsal, with dates, tempos, and short notes about our mistakes, and Miss Carter encouraged us to write down even our worst moments.", "zh": "从那个晚上起，每次排练我们都认真诚实地留下记录：日期、速度，还有关于失误的短注；卡特老师鼓励我们连最糟的时刻也要写下来。" },
+        { "en": "Ken wrote the very first note in the new book, and her cordial, round letters said: \"Today the song felt less like paper and more like weather.\"", "zh": "Ken 在新本子里写下了第一条记录，她那亲切的圆滚滚的字说：\"今天这首歌不像纸了，倒像天气。\"" }
+      ],
+      "questions": [
+        {
+          "q": "When was the old song written, according to the record?",
+          "options": ["In 1958", "In 1968", "In 1988", "Last winter"],
+          "answer": 1,
+          "explain": "第2句 \"a music teacher wrote it in 1968\"，据记载写于 1968 年。"
+        },
+        {
+          "q": "Who had the old teacher written the song for?",
+          "options": ["Her own children", "The school's principals", "Her lost students", "A winter concert"],
+          "answer": 2,
+          "explain": "第3句 \"The old teacher had written it long ago for her lost students\"，是为那些再也回不来的学生写的。"
+        },
+        {
+          "q": "What did the slow melody have in the small room?",
+          "options": ["A deep resonance", "A loud echo", "A strange noise", "A broken rhythm"],
+          "answer": 0,
+          "explain": "第5句 \"the slow melody had a deep resonance in that small room\"，旋律在屋里激起深深的共鸣。"
+        },
+        {
+          "q": "Why did Ken close her eyes while she sang?",
+          "options": ["Because she was too tired", "Because the light was too strong", "Because Miss Carter told her to", "Because it took courage, and the melody felt like a story she had always known"],
+          "answer": 3,
+          "explain": "第6句 \"it took real courage to close them, because the melody moved like an old story she had known all her life\"，闭眼需要勇气，而那旋律像她生来就熟的故事。"
+        },
+        {
+          "q": "In sentence 11, Miss Carter said it was not telepathy. The word \"telepathy\" means ______.",
+          "options": ["hearing with your ears", "knowing another's feelings without words", "a kind of piano playing", "a long journey"],
+          "answer": 1,
+          "explain": "第11句。词根 path- 表示\"感受\"：tele-(远)+path(感受)→隔着距离感知对方的心→心灵感应。她说那其实是共同的感受（共情），不是心灵感应。"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "心里的鼓点",
+      "sentences": [
+        { "en": "By November, a quiet discord had grown between the two voice sections of our choir, and it grew the way winter does: slowly, slowly, and then all at once, like a field of snow overnight.", "zh": "到了十一月，两个声部之间悄悄生出了不和，它长得很像冬天：慢一点、慢一点，然后一夜之间铺满整个原野。" },
+        { "en": "The sopranos wanted the main melody of the old song for themselves, and the altos wanted the very same melody, and each section believed that the other one was being unfair.", "zh": "女高音想把老歌的主旋律据为己有，女低音想要同一条旋律，两边都认定是对方不讲理。" },
+        { "en": "One gray Wednesday, the two sections even sang against each other on purpose, the sopranos loud and bright, the altos low and stubborn, like two trains pushing through one small tunnel, and the song fell to pieces around their feet.", "zh": "一个灰蒙蒙的周三，两个声部干脆故意对着唱：女高音又响又亮，女低音又低又倔，像两列火车挤同一条小隧道，那首歌在他们脚边摔了个粉碎。" },
+        { "en": "Their discordant voices filled the practice room like cold weather, and Miss Carter stopped the piano with both hands and looked at us for a long, silent minute, her arms folded.", "zh": "两边的声音互不相合，像冷空气一样灌满了排练室；卡特老师双手按停了钢琴，抱着胳膊，沉默地看了我们整整一分钟。" },
+        { "en": "After that Wednesday, some members of the choir showed real apathy; they stopped coming to Tuesday rehearsals, and their empty chairs stood in the back row like missing teeth in a friendly smile.", "zh": "那个周三之后，有些团员表现出真正的冷漠：周二的排练干脆不来了，后排那些空椅子像一张笑脸里缺掉的几颗牙。" },
+        { "en": "Miss Carter, however, refused to choose a winner between the two sections, because a winner, she said, would only mean that half of the choir had lost, and a choir is one body or nothing.", "zh": "然而卡特老师拒绝在两个声部之间评出赢家，因为她说，有赢家就等于合唱团输了一半，而合唱团要么是一条心，要么什么都不是。" },
+        { "en": "\"A melody is not a prize,\" she told us quietly, \"it is a road, and a road is only useful when two people agree to share it, and sharing is the whole secret of music.\"", "zh": "\"旋律不是奖品，\"她平静地告诉我们，\"它是路；一条路只有两个人肯分享时才有用，而分享就是音乐全部的秘密。\"" },
+        { "en": "She asked both sections to stand up, to place one hand on their hearts, and to close their eyes in the middle of that noisy, unhappy afternoon.", "zh": "她让两个声部都站起来，把一只手放在心口上，在那个吵吵嚷嚷、谁也不痛快的下午，闭上了眼睛。" },
+        { "en": "\"Feel the drumbeat inside,\" she said, \"and follow that quiet tempo; your hearts have been keeping time together since September, in every song, whether you knew it or not.\"", "zh": "\"去摸里头那个鼓点，\"她说，\"跟着那个安静的节奏走；从九月起，在每一首歌里，你们的心就一直在合着同一个拍子——不管你们知不知道。\"" },
+        { "en": "When the sopranos finally stopped shouting and started listening, they heard the altos' hidden line moving below them, warm and patient, like a river moving under the winter ice, and they were a little ashamed.", "zh": "女高音终于不再较劲、开始倾听了，这才听见女低音藏在下面的那条线：温和、有耐心，像冬天冰层下走的一条河——她们有点不好意思了。" },
+        { "en": "The two parts reached an accord without one single angry word, and they divided the melody between them, half and half, like neighbors sharing one long, difficult road.", "zh": "两个声部没说一句气话就达成了一致，把旋律一分为二、你一半我一半，像两个邻居合走一条又长又难走的路。" },
+        { "en": "Miss Carter said empathy was not the same as agreeing with everyone; it was the harder art of hearing each other, even the quiet lines, even the lines you do not like.", "zh": "卡特老师说，共情不等于人人都附和；它是更难的一门功夫——听见彼此，连最轻的那条线也要听，连你不喜欢的那条线也要听。" },
+        { "en": "Before the lesson ended, the two sections sang the old song in soft concord, and Ken, once so badly off key, held her low note with quiet, steady courage, and nobody laughed, not even in the back rows.", "zh": "那节课结束前，两个声部已经和谐地唱起了那首老歌；曾经严重跑调的 Ken 安安静静、稳稳当当地托住了她的低音——没有一个人笑，后排也没有。" },
+        { "en": "Our conductor encouraged us to remember that day for the rest of the year, because it was the day discord became our best teacher and taught us the one skill a choir needs most: listening.", "zh": "指挥鼓励我们把那一天记一整年，因为正是\"不和\"在那一天成了我们最好的老师，教会了合唱团最需要的一门功夫：倾听。" }
+      ],
+      "questions": [
+        {
+          "q": "What had grown between the two sections by November?",
+          "options": ["A quiet discord", "A strong friendship", "A new song", "A shared solo"],
+          "answer": 0,
+          "explain": "第1句 \"a quiet discord had grown between the two voice sections\"，两个声部之间生出了不和。"
+        },
+        {
+          "q": "What did some members show when they stopped coming to rehearsals?",
+          "options": ["Courage", "Apathy", "Sympathy", "Enthusiasm"],
+          "answer": 1,
+          "explain": "第5句 \"some members of the choir showed real apathy; they stopped coming to Tuesday rehearsals\"，不来的团员表现出的是冷漠。"
+        },
+        {
+          "q": "What did Miss Carter ask both sections to do?",
+          "options": ["Sing louder", "Go home early", "Place one hand on their hearts and close their eyes", "Choose a winner"],
+          "answer": 2,
+          "explain": "第8句 \"She asked both sections to stand up, to place one hand on their hearts, and to close their eyes\"，她让大家手放心口、闭上眼睛。"
+        },
+        {
+          "q": "Why did Miss Carter refuse to choose a winner between the sections?",
+          "options": ["Because she liked both melodies equally", "Because a winner would mean half of the choir had lost", "Because the school did not allow prizes", "Because nobody wanted to sing anymore"],
+          "answer": 1,
+          "explain": "第6句 \"a winner, she said, would only mean that half of the choir had lost, and a choir is one body or nothing\"，评出赢家等于合唱团输了一半。"
+        },
+        {
+          "q": "In sentence 5, \"some members showed real apathy,\" the word \"apathy\" means ______.",
+          "options": ["great interest", "a lack of feeling or interest", "loud anger", "perfect singing"],
+          "answer": 1,
+          "explain": "第5句。词根 path- 表示\"感受\"：a-(无)+path(感受)→没有感受→冷漠、无所谓。连排练都懒得来，正是这种状态。"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "演出夜",
+      "sentences": [
+        { "en": "On concert night, the auditorium filled slowly with families, old teachers, and small children in their best winter sweaters, and the warm air smelled of dry coats, oranges, and pencil erasers.", "zh": "演出那晚，礼堂里渐渐坐满了家人、退休的老教师，还有穿着过年才穿的好毛衣的小孩子；暖烘烘的空气里是干大衣、橘子和橡皮的气味。" },
+        { "en": "The audience went silent when the lights above the stage dimmed, and two hundred faces turned together toward the curtain like a field of sunflowers turning toward the last evening sun.", "zh": "舞台顶灯暗下来的时候，观众席安静了，两百张脸一齐转向幕布，像一园子向日葵一起转向傍晚最后一缕太阳。" },
+        { "en": "Somewhere in the third row sat a small grandmother with a hearing aid, who had bought her ticket a full month before anyone else in town, and who smiled a cordial thank-you at every stranger who helped her to her seat.", "zh": "第三排的某个位子上，坐着一位戴助听器的小个子老奶奶；她的票比全城任何人买得都早一个月，每个帮她入座的陌生人都收到她一声亲切的道谢。" },
+        { "en": "Miss Carter had recorded our final rehearsal that very afternoon, and before the doors opened she played one short minute of it to us in the big, empty hall.", "zh": "就在当天下午，卡特老师录下了我们最后一场排练；开门迎客之前，她在这座空荡荡的大礼堂里给我们放了一小段。" },
+        { "en": "\"Sing it like this,\" she said, \"not perfect, but together,\" and she encouraged us one last time to sing the old song exactly according to that last, honest recording.", "zh": "\"就照这个唱，\"她说，\"不求完美，但求在一起。\"她最后一次鼓励我们，完全照着那次诚实录音的感觉，唱那首老歌。" },
+        { "en": "Our two sections, which had once been enemies of the same melody, now sang in perfect unison, and the hall slowly filled with a warm, low resonance, like a room remembering a fire.", "zh": "曾经为同一条旋律反目的两个声部，此刻齐声合唱，整个礼堂慢慢泛起一片温热的低共鸣，像一间屋子回想起一炉火。" },
+        { "en": "With quiet courage, Ken sang her low line far below the bright sopranos, and many hands in the dark audience moved, without thinking, toward other hands.", "zh": "Ken 鼓着安安静静的勇气，在亮堂的女高音底下远远地唱着她那条低声部；黑暗的观众席里，许多手不由自主地伸向了旁边的另一只手。" },
+        { "en": "The old song rose through its words about lost students and long waits, and the final chord rose slowly, held like a held breath, and then fell into a silence so deep that even the radiators seemed to listen.", "zh": "老歌穿过那些关于离散的学生和漫长等待的歌词升起来；最后一个和弦缓缓升起，像一口屏住的气，然后落进一片深得连暖气片都仿佛在倾听的安静。" },
+        { "en": "For one long second, nobody in the audience made a sound, and I felt that every heart in the room was keeping one quiet concord, the same slow tempo, the same warm beat.", "zh": "有那么长长的一秒，观众席上没有任何人出声；我感到屋里每一颗心都合着同一片安静的和声，同一个缓缓的速度，同一记温热的鼓点。" },
+        { "en": "Then the applause came, loud and long, from every seat and every corner, and the grandmother in the third row clapped with both small hands until they must have hurt.", "zh": "然后掌声起来了，每一排每一座，又响又久；第三排那位老奶奶用两只小小的手一个劲儿地鼓，鼓到后来一定是拍疼了。" },
+        { "en": "After the show, she found Miss Carter near the piano, and because her voice was barely audible, she pulled the conductor's hand close to her mouth, like a person sharing a secret.", "zh": "散场后，她在钢琴边找到了卡特老师；因为她的声音小得几乎听不见，她把指挥的手拉到自己嘴边，像要分享一个秘密。" },
+        { "en": "\"I heard it with my bones,\" she said, \"every single word of the old song; my ears gave up years ago, but my heart never learned how to stop listening.\"", "zh": "\"我是用骨头听见的，\"她说，\"老歌里的每个字都听见了；我的耳朵多年前就认输了，可我的心一直没学会怎么停下倾听。\"" },
+        { "en": "Miss Carter cried a little then, partly from sympathy and partly from joy, because the old teacher from 1968 had been her own music teacher, and those words meant more to her than any prize.", "zh": "卡特老师当场掉了几滴眼泪，一半出于心疼，一半出于欢喜——因为 1968 年那位老教师，正是她自己的音乐老师，这句话在她心里的分量胜过任何奖项。" },
+        { "en": "That night our choir finally understood the core of Miss Carter's whole year of lessons: hearts can hear what ears cannot, and empathy, in the end, is a kind of listening.", "zh": "那一夜，合唱团终于懂了卡特老师一整年功课的核心：耳朵听不见的，心能听见；而共情，说到底就是倾听的一种。" }
+      ],
+      "questions": [
+        {
+          "q": "Who sat in the third row on concert night?",
+          "options": ["A music critic", "A small grandmother with a hearing aid", "The school principal", "Ken's grandfather"],
+          "answer": 1,
+          "explain": "第3句 \"in the third row sat a small grandmother with a hearing aid\"，第三排是一位戴助听器的老奶奶。"
+        },
+        {
+          "q": "How did the choir sing the old song that night?",
+          "options": ["From a new paper score", "Exactly according to the last, honest recording", "Without a conductor", "In complete silence"],
+          "answer": 1,
+          "explain": "第5句 \"sing the old song exactly according to that last, honest recording\"，他们照着最后一次排练的录音唱。"
+        },
+        {
+          "q": "Why did Miss Carter cry a little after the show?",
+          "options": ["Because the choir sang off key", "Because the hall was too hot", "Because the old teacher from 1968 had been her own music teacher", "Because the grandmother could not hear"],
+          "answer": 2,
+          "explain": "第13句 \"the old teacher from 1968 had been her own music teacher, and those words meant more to her than any prize\"，那句话分量太重，因为老教师正是她的老师。"
+        },
+        {
+          "q": "Why did the grandmother pull the conductor's hand close to her mouth?",
+          "options": ["Because she was angry with the conductor", "Because her voice was barely audible and she wanted her words to reach", "Because she wanted to hold the piano", "Because she could not stand up"],
+          "answer": 1,
+          "explain": "第11句 \"because her voice was barely audible, she pulled the conductor's hand close to her mouth\"，她声音太小，怕话送不到，才把手拉到嘴边。"
+        },
+        {
+          "q": "In sentence 13, \"partly from sympathy and partly from joy,\" the word \"sympathy\" means ______.",
+          "options": ["sharing another person's sorrow from the outside", "winning a music prize", "a kind of piano chord", "a fear of crowds"],
+          "answer": 0,
+          "explain": "第13句。词根 path- 表示\"感受\"：sym-(共同)+path(感受)→和他人的感受一起→同情（站在心外的体恤，与站进心里的 empathy 相对）。"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "团史记录本",
+      "sentences": [
+        { "en": "At the end of the school year, in the last quiet week of June, we wrote the choir's little history book, all fourteen pages of it, in one long, happy afternoon, with a plate of biscuits between us and the windows open.", "zh": "学年末，六月最后一个安安静静的星期里，我们用一个漫长又快活的下午写完了合唱团那本小小的团史——整整十四页，中间摆着一盘饼干，窗户全开着。" },
+        { "en": "The old notebook kept a record of every rehearsal and every concert of the year, and Miss Carter had started it, in soft pencil, back on the first day of September.", "zh": "这本旧笔记记下了这一年的每一次排练、每一场演出；九月的头一天，卡特老师就用一支软铅笔开了头。" },
+        { "en": "The first page was full of hope, plans, and careful lists, and the last page had waited empty for June, like a train seat waiting for its last passenger.", "zh": "第一页写满了期待、计划和细细的名单；最后一页一直空着等六月来，像列车上留给最后一位乘客的座位。" },
+        { "en": "Ken wrote a page about her grandmother, who had sung in a village choir long ago, and about her own off-key beginning on that small, frightening stage, and about the red word that changed it.", "zh": "Ken 写了一页：写她那位年轻时在村里唱过合唱的外婆，写她自己在那个又小又吓人的台子上跑调的开头，也写那个改变了这一切的红笔字。" },
+        { "en": "\"Sympathy brought me through the door,\" she wrote in her small, round letters, \"but empathy kept me singing all year, and courage grew in the warm room between the two.\"", "zh": "\"是同情把我领进了门，\"她用圆圆的小字写道，\"可让我唱满一整年的，是共情；勇气就在这两者之间那间暖和的屋子里长了出来。\"" },
+        { "en": "A soprano wrote about the November discord, and an alto wrote about the Wednesday when the two sections finally reached their accord, and their two pages sat side by side in the notebook.", "zh": "一位女高音写了十一月的不和，一位女低音写了两个声部终于言归于好的那个周三，两页纸在笔记本里挨着放在了一起。" },
+        { "en": "The two pages read like two halves of one story, like the two voices that now walked side by side inside the old song from 1968, and neither writer wanted to give the story an ending.", "zh": "那两页读起来像一个故事的两半，像 1968 年那首老歌里如今并肩走着的两条声线——而且谁都舍不得给这个故事写上结尾。" },
+        { "en": "I wrote my own page about the small grandmother in the third row, and about her strange, beautiful sentence about hearing the whole winter concert with her bones.", "zh": "我自己写的一页，是关于第三排那位小个子老奶奶的，关于她那句又古怪又动人的话——整场冬季音乐会，她都是用骨头听见的。" },
+        { "en": "Another member wrote about the final chord and the long second of silence, when two hundred people kept one quiet concord without knowing it, and the writer called that second \"our loudest music.\"", "zh": "还有一位团员写了最后的和弦和那长长的静默一秒——两百个人不知不觉合着同一片安静的和声；这一页的作者把那一秒称作\"我们最响的音乐\"。" },
+        { "en": "Our paths had crossed for one short school term, but a term, as the little book quietly showed, is long enough to change a voice forever, in both directions.", "zh": "我们的路，不过在一个短短的学期里交汇了一次；可这本小本子悄悄证明，一个学期足够永远地改变一个声音——往哪个方向改都够。" },
+        { "en": "Miss Carter wrote the very last page on a quiet June afternoon, while the windows stood open and the far, happy sound of football games floated in from the green field.", "zh": "六月一个安静的下午，卡特老师写下了最后一页；窗户开着，远处绿茵场上足球赛那欢欢喜喜的声音一阵一阵飘进来。" },
+        { "en": "Her words were short, but their core was deep, so every member of the choir copied them, by hand, into their hearts before the summer began.", "zh": "她的话很短，核心却极深；暑假来临之前，团里每一个人都把它亲手抄进了心里。" },
+        { "en": "\"We did not learn singing,\" she wrote, \"we learned to hear each other; the notes were only the road that carried us there, and hear first, sing second, and the singing will take care of itself.\"", "zh": "\"我们学会的不是唱歌，\"她写道，\"是听见彼此；音符只是载我们到那儿的路——先会听，再会唱，唱这件事自己会好起来。\"" },
+        { "en": "When new students ask about the choir next September, we will show them the old record, encourage them to sing even when they are afraid, and tell them that every voice matters, because every heart matters.", "zh": "明年九月，新学生再问起合唱团，我们就把那本旧记录翻给他们看，鼓励他们哪怕害怕也开口唱，并告诉他们：每一个声音都重要，因为每一颗心都重要。" }
+      ],
+      "questions": [
+        {
+          "q": "What did the old notebook keep a record of?",
+          "options": ["Ticket sales and prizes", "Every rehearsal and every concert of the year", "Names of visitors", "Song lyrics only"],
+          "answer": 1,
+          "explain": "第2句 \"The old notebook kept a record of every rehearsal and every concert of the year\"，笔记记下了全年每次排练和每场演出。"
+        },
+        {
+          "q": "What did Ken say kept her singing all year?",
+          "options": ["Sympathy", "Good training", "Empathy", "Perfect pitch"],
+          "answer": 2,
+          "explain": "第5句 \"Sympathy brought me through the door... but empathy kept me singing all year\"，让她唱满一年的是共情。"
+        },
+        {
+          "q": "When did Miss Carter write the last page?",
+          "options": ["On concert night", "On a quiet June afternoon", "On the first day of September", "On a cold Wednesday"],
+          "answer": 1,
+          "explain": "第11句 \"Miss Carter wrote the last page on a quiet June afternoon\"，最后一页写于六月一个安静的下午。"
+        },
+        {
+          "q": "Why did the soprano's page and the alto's page sit side by side in the notebook?",
+          "options": ["Because there was no more space", "Because they were written on the same day", "Because they were two halves of one story, like the two voices now walking side by side", "Because Miss Carter put them together"],
+          "answer": 2,
+          "explain": "第7句 \"The two pages read like two halves of one story, like the two voices that now walked side by side\"——两页纸像一个故事的两半，正如如今并肩同行的两条声线。"
+        },
+        {
+          "q": "In sentence 12, \"Her words were short, but their core was deep,\" the word \"core\" means ______.",
+          "options": ["the outside cover", "the most important, central part", "the longest page", "the paper quality"],
+          "answer": 1,
+          "explain": "第12句。词根 cord- 表示\"心\"：core 由\"心\"引申为\"核心、最重要的中心部分\"。"
+        }
+      ]
+    }
+  ]
+}

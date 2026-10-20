@@ -1,0 +1,272 @@
+{
+  "id": "lib-warm-house",
+  "title": "暖屋计划",
+  "en_title": "The Warm House Project",
+  "author": "WordVerse Archive",
+  "region": "science",
+  "level": 2,
+  "one_line": "北方老楼的一个冬天：从冷墙到地热与保温层的改造。",
+  "word_focus": ["therm", "geo"],
+  "chapters": [
+    {
+      "no": 1,
+      "title": "零下二十度的清晨",
+      "sentences": [
+        { "en": "In the northern town of Qinghe, January mornings arrive at minus twenty degrees, and the bare trees along the street stand in the cold like long lines of patient grey statues.", "zh": "在北方小城清河，一月的清晨总是以零下二十度报到；街边光秃秃的树在严寒里站着，像一列列耐心的灰色雕像。" },
+        { "en": "Grandma Bai wakes at six, before the radio, and looks first at the thermometer on her wall, an old glass tube with a thin red line inside, like a small, honest, well-behaved snake.", "zh": "白奶奶六点就醒，比广播还早；她先看墙上的温度计——一支旧玻璃管，里头一根细细的红线，像一条小小的、诚实的、守规矩的蛇。" },
+        { "en": "The red line has fallen again during the long night, and she writes the new number in her notebook, page after page, winter after winter, in handwriting that has not changed since 1980.", "zh": "那根红线在漫漫长夜里又落了下去；她把新的数字记进本子，一页又一页，一个冬天接一个冬天，字迹从 1980 年起就没变过。" },
+        { "en": "Her old building is famous in town, but not for good reasons: people call it \"the icebox\", and the local children joke that the thin walls are made of cold air held together with hope.", "zh": "她住的这栋老楼在小城很有名，可惜不是因为什么好事：人们叫它\"冰窖\"，镇上的孩子们开玩笑说，那几堵薄墙是用希望粘起来的冷空气。" },
+        { "en": "The concrete walls are thin and cannot contain the heat inside, and the north wind finds every small crack and seam and sings through it at night, in long, confident whistles.", "zh": "混凝土墙很薄，留不住屋里的热气；北风总能找到每一道细缝和接缝，在夜里像吹口哨一样，长长地、笃定地穿堂而过。" },
+        { "en": "No thermostat controls the old iron radiators, so the first-floor rooms cook like steamed bread in a basket, while the fifth-floor rooms freeze like the inside of a fish truck.", "zh": "老式铁暖气片上没有任何恒温器，于是底楼的屋子热得像笼屉里蒸着的馒头，顶楼的屋子却冷得像运鱼卡车内部。" },
+        { "en": "When the heating pipes knock in the walls, the whole sleeping floor can hear them, and some neighbors knock back sometimes, out of loneliness or solidarity, or both, nobody knows which.", "zh": "暖气管在墙里一敲，整层睡梦中的楼都听得见；有时候有邻居也回敲两下——是孤单呢，还是同病相怜，还是都有呢，谁也说不清。" },
+        { "en": "A young, serious engineer named Xiao Yu lives on the fourth floor, and she measures the walls with a thermal camera, a black instrument that shows heat as colors.", "zh": "四楼住着一位年轻、较真的工程师，名叫小余；她用一台热成像仪测量墙体——一台能把热量显示成颜色的黑色仪器。" },
+        { "en": "On the little screen, cold air leaks in around the old windows like blue rivers, and the warm air inside flows out through the same gaps, meeting in the middle of the glass like two tired, polite armies.", "zh": "小屏幕上，冷空气绕着旧窗渗进来，像一条条蓝色的河；屋里的暖空气又从同一批缝隙流出去，两支又累又客气的军队在玻璃中间相遇。" },
+        { "en": "\"Heat always flows from warm to cold, and it never once asks your permission,\" Xiao Yu says, \"and that single stubborn fact is the very beginning of all thermodynamics.\"", "zh": "\"热永远从暖处流向冷处，而且一次也不会征求你的同意，\"小余说，\"这唯一一条倔强的规律，就是全部热学的开头。\"" },
+        { "en": "The old drawings of the building follow a simple, square geometry, and nobody in 1979 drew any insulation at all, because fuel was cheap and winters were expected to be brave.", "zh": "这栋楼的老图纸用的是横平竖直的简单几何，1979 年没有一个人画保温层——那会儿燃料便宜，冬天嘛，大家默认要硬扛。" },
+        { "en": "Xiao Yu has a friend, a geologist, who once told her, over a slow cup of tea, that the geology under Qinghe holds warm rock and geothermal heat, though the whole town above it burns coal like there is no tomorrow.", "zh": "小余有位地质学家朋友，曾经就着一杯慢慢喝的茶告诉她：清河地下的地质里藏着温热的岩层和地热，可它上面这整座小镇，烧起煤来却像没有明天。" },
+        { "en": "Grandpa Bai, who studied a little geology in his young years, likes to say that the warm ground below is the town's best-kept warm secret, sleeping all winter under the frost.", "zh": "白爷爷年轻时学过一点地质，他爱说：脚底下那片暖地，是这座小镇守得最好的暖秘密，一冬天一冬天地在冻土下面睡着。" },
+        { "en": "Something has to change before the next winter, because no one in the building, young or old, can sustain another long January of blue rivers, cold floors, and long, confident, singing wind.", "zh": "下个冬天来临之前，总得改变些什么了；因为这栋楼里无论老小，谁也撑不过又一个满是蓝河、冷地板和笃定风哨的漫长一月。" }
+      ],
+      "questions": [
+        {
+          "q": "What does Grandma Bai look at first when she wakes at six?",
+          "options": ["Her notebook.", "The thermometer on her wall.", "The street outside.", "The thermal camera."],
+          "answer": 1,
+          "explain": "第2句 \"she looks first at the thermometer on her wall, an old glass tube with a thin red line inside\"，她醒来先看墙上的温度计。"
+        },
+        {
+          "q": "Why did the first-floor rooms cook while the fifth-floor rooms froze?",
+          "options": ["Because the windows were broken.", "Because no thermostat controlled the old iron radiators.", "Because the north wind was too strong.", "Because the sun never reached the fifth floor."],
+          "answer": 1,
+          "explain": "第6句 \"No thermostat controls the old iron radiators, so the first-floor rooms cook... while the fifth-floor rooms freeze\"，暖气片上没有恒温器，各屋冷暖不均。"
+        },
+        {
+          "q": "What did Xiao Yu's thermal camera show around the old windows?",
+          "options": ["Warm air leaving the roof.", "Cold air leaking in like blue rivers.", "Broken furniture in the rooms.", "Old pictures inside the walls."],
+          "answer": 1,
+          "explain": "第9句 \"cold air leaks in around the old windows like blue rivers\"，热成像仪显示冷空气像蓝河一样绕窗渗入。"
+        },
+        {
+          "q": "Why do the children joke that the walls are made of \"cold air held together with hope\"?",
+          "options": ["Because the children are afraid of the wind.", "Because the thin walls keep in so little heat that the building hardly feels warmer than outside.", "Because the building is very new.", "Because the children love physics class."],
+          "answer": 1,
+          "explain": "由第4句的玩笑和第5句 \"The concrete walls are thin and cannot contain the heat inside\" 可推知：墙太薄、存不住热，屋里几乎和外面一样冷。"
+        },
+        {
+          "q": "In sentence 10, \"that single stubborn fact is the beginning of all thermodynamics,\" the word \"thermodynamics\" means ______.",
+          "options": ["the science of how heat moves and works", "a kind of camera", "the study of old buildings", "a winter sport"],
+          "answer": 0,
+          "explain": "第10句。词根 therm- 表示\"热\"：thermodynamics 是研究热量如何流动、如何做功的科学，即热力学。"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "老锅炉的心跳",
+      "sentences": [
+        { "en": "The heart of the old building is a coal boiler in the cold basement, a black, round-shouldered machine that has burned coal for forty years, winter after winter, night after night, without one long rest.", "zh": "这栋老楼的心脏，是冷飕飕地下室里的一台燃煤锅炉——一台黑黢黢、溜肩膀的机器，四十年了，一个冬天接一个冬天、一夜接一夜地烧着，没歇过一个长假。" },
+        { "en": "Mr. Han, the boiler man, maintains the machine with wrenches, patience, and a small pocket radio that only plays old opera, and he knows the machine's moods better than his own.", "zh": "锅炉工韩师傅，靠扳手、耐心和一台只放老歌剧的袖珍收音机维持着这台机器；它的脾气，他比自己心里的还清楚。" },
+        { "en": "\"This steel tank is durable,\" he likes to say, patting it like an old horse, \"but the pipes are tired now, and tired pipes always lie about their age.\"", "zh": "\"这口钢罐子是耐用，\"他爱这么说着，像拍一匹老马那样拍拍它，\"可管子已经累了，累了的管子，报起年龄来从来不说实话。\"" },
+        { "en": "A thermometer hangs beside the boiler, because the water temperature matters every single hour of the night, and Mr. Han reads it the way farmers read the morning sky.", "zh": "锅炉边挂着一支温度计，因为每个钟头的水温都马虎不得；韩师傅读它，就像庄稼人读清晨的天。" },
+        { "en": "Hot water rises through the pipes, and a warm thermal current climbs slowly from floor to floor, warming the first rooms quickly and the last rooms, in a kind democracy, almost never.", "zh": "热水顺着管道上行，一股温热流一层一层慢慢往上爬：底楼的屋子很快暖了，顶楼的屋子嘛——按某种\"民主\"，几乎轮不上。" },
+        { "en": "Because hot water is lighter than cold water, it always travels upward first; that quiet rule of thermodynamics is written into every pipe in the building, whether Grandma Bai likes it or not.", "zh": "因为热水比冷水轻，它总是先往高处走；这条不出声的热力学规律，写在楼里每一根管子上——白奶奶乐意也好，不乐意也罢。" },
+        { "en": "Grandma Bai lives on the fifth floor, the last stop of the rising heat, and by the time the warmth reaches her door, it has already given most of itself away to the lower floors.", "zh": "白奶奶住五楼，是上升暖流的最后一站；等那点暖意爬到她门口，它早就把大半个自己发给了下面的楼层。" },
+        { "en": "Without a thermostat, nobody can balance the rooms above and below, so the first floor happily opens its windows in January, while the fifth floor sleeps in two sweaters and thick socks.", "zh": "没有恒温器，谁也没法让楼上楼下一样暖：一月里底楼乐呵呵地开着窗散气，五楼的人却穿着两件毛衣、两双厚袜子睡觉。" },
+        { "en": "When one pipe leaks, the whole system stops in the night, the rooms cannot sustain their warmth, and Mr. Han comes down the stairs at midnight with his wrenches, his coat over his pajamas, and his endless patience.", "zh": "只要有一根管子漏水，整个系统半夜就得停摆，屋里的暖意撑不住；韩师傅睡衣外面套上大衣，拎着扳手和那份没完没了的耐心，深一脚浅一脚下楼来。" },
+        { "en": "The pipes run through the basement in a tired, grey geometry of right angles, and Mr. Han has walked around them so often that he could find any valve in the dark with his eyes closed.", "zh": "管道在地下室里走出一套疲惫的灰色几何，全是直角；韩师傅绕着它们走了千百遍，闭着眼也能摸到任何一个阀门。" },
+        { "en": "The boiler also makes smoke, and gray snow covers the parked cars by early morning, while the town's doctor writes angry, polite letters to the local newspaper about tired lungs.", "zh": "锅炉还吐烟；清晨，灰色的雪落满停着的车。镇上的医生则给本地报纸写一封封客气而愤怒的信，主题是\"疲惫的肺\"。" },
+        { "en": "One cold day, a young geologist from the big city visits the basement, puts one hand on the warm steel, and shakes her head slowly, twice, like a doctor at a sick bed.", "zh": "一个冷天，一位从大城市来的年轻地质学家走进地下室，一只手贴在温热的钢板上，像病床边的医生那样，缓缓地摇了两回头。" },
+        { "en": "\"The geology under this town holds real, patient geothermal heat,\" she says, \"warm rock, two whole kilometers down; you are burning coal on top of a sleeping fire.\"", "zh": "\"这座镇子底下的地质里，存着货真价实、有耐心的地热，\"她说，\"温岩层，整整两千米深；你们是在一堆沉睡的火上烧煤。\"" },
+        { "en": "One warm April evening, the old fire cools for the last time, and Qinghe begins looking, for the first time, for a new answer somewhere below its frozen feet.", "zh": "四月一个暖和的傍晚，老炉火最后一次熄了；清河第一次开始往自己冻僵的脚底下，寻一个新的答案。" }
+      ],
+      "questions": [
+        {
+          "q": "Where is the heart of the old building?",
+          "options": ["On the fifth floor.", "In the community room.", "In the basement: a coal boiler.", "Outside in the yard."],
+          "answer": 2,
+          "explain": "第1句 \"The heart of the old building is a coal boiler in the cold basement\"，老楼的心脏是地下室的燃煤锅炉。"
+        },
+        {
+          "q": "Why does hot water always travel upward first?",
+          "options": ["Because the pumps are broken.", "Because hot water is lighter than cold water.", "Because the roof is warmer.", "Because the boiler man pushes it."],
+          "answer": 1,
+          "explain": "第6句 \"Because hot water is lighter than cold water, it always travels upward first\"，热水密度小、先往高处走。"
+        },
+        {
+          "q": "What did the young geologist say was under the town?",
+          "options": ["A coal mine.", "Warm rock and geothermal heat, two kilometers down.", "An old riverbed.", "Cold groundwater only."],
+          "answer": 1,
+          "explain": "第13句 \"warm rock, two whole kilometers down\"，地质学家说地下两千米处是温岩层，藏着地热。"
+        },
+        {
+          "q": "Why does the author say the top rooms are warmed \"in a kind democracy, almost never\"?",
+          "options": ["Because the building held a vote about heating.", "Because rising heat gives itself to the lower floors first, so the system is naturally unfair to the top.", "Because the boiler liked the first floor best.", "Because the fifth-floor pipes were broken."],
+          "answer": 1,
+          "explain": "第5句与第7句 \"by the time the warmth reaches her door, it has already given most of itself away to the lower floors\"——热量物理上先暖下层，顶楼分到的最少，所以说是\"不公平的民主\"。"
+        },
+        {
+          "q": "In sentence 5, \"a warm thermal current climbs slowly from floor to floor,\" the word \"thermal\" means ______.",
+          "options": ["related to heat", "related to water", "related to sound", "related to light"],
+          "answer": 0,
+          "explain": "第5句。词根 therm- 表示\"热\"：thermal＝与热有关的；thermal current 即\"热流、暖气流\"。"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "图纸上的新方案",
+      "sentences": [
+        { "en": "In May, a team from the city arrives with drawings, instruments, folding tables, and heavy boxes of paper, and they hold their first meeting in the cold community room, with tea, biscuits, and old complaints.", "zh": "五月，一支市里来的队伍到了，带着图纸、仪器、折叠桌和一箱箱沉甸甸的文件；他们头一场会就开在冷清的活动室里，配着茶、饼干，和大家积攒多年的老抱怨。" },
+        { "en": "Their leader is Dr. Song, a geologist who has studied the geology under Qinghe for ten patient years, and she speaks quietly, in the tone of somebody who has already won the long argument with the ground.", "zh": "带头人宋博士是位地质学家，耐着性子研究了十年清河地下的地质；她说话轻声细语，用的却是一种早已赢了和地层那场漫长官司的人才有的口气。" },
+        { "en": "She has found warm rock two kilometers below the town, hot as a sleeping animal in a warm cave, and it has been sleeping there, patient and enormous, for very much longer than the town has existed.", "zh": "她在小镇地下两千米处找到了温热的岩层，热得像暖洞里一头睡着的动物；它在那儿睡了很久很久——久到远比这座小镇的岁数还长。" },
+        { "en": "\"Geothermal heat can warm every single room in this old building,\" she tells the meeting, \"and the town can stop burning coal on top of its own best-kept secret.\"", "zh": "\"地热足够把这栋老楼里每一个房间都焐热，\"她在会上说，\"这座镇子，可以不再压着自己的头号秘密烧煤了。\"" },
+        { "en": "Her plan has two parts, one under the ground and one on the outside walls, and she draws them both on the board with the clean geometry of somebody who loves straight lines.", "zh": "她的方案分两部分：一部分在地下，一部分在外墙上；她用一种热爱直线的人才有的干净几何，把两部分都画上了白板。" },
+        { "en": "First, workers drill two deep, narrow wells, and water goes down cold and comes back up warm, again and again and again, in a slow, patient circle that never once asks for coal — the friendliest kind of thermodynamics, Dr. Song calls it.", "zh": "第一步，工人们钻了两口又深又细的井：水下去时是凉的，上来时是暖的，一遍、一遍、又一遍，沿着一个从不讨煤吃的、慢性子的圆圈走——宋博士管这叫\"最和气的热力学\"。" },
+        { "en": "Second, the crew wraps the whole building in a thermal coat of white insulation panels, light, durable, cheap, and thick as a winter quilt for a concrete giant.", "zh": "第二步，施工队给整栋楼穿上保温的热外衣——白色的保温板，又轻、又耐用、又便宜，厚得像给一位混凝土巨人备的冬被。" },
+        { "en": "The panels are fixed onto the old walls with care, because the drawings from 1979 are not always honest about what still lives inside those old walls.", "zh": "保温板往老墙上固定时格外小心，因为 1979 年的图纸，并不总肯老实交代那些老墙肚子里究竟还住着什么。" },
+        { "en": "In the old boiler room, the workers construct a small heat station, all new pipes, quiet pumps, bright valves, a fresh thermometer on the wall, and one green light that means \"everything is well\".", "zh": "在原来的锅炉房里，工人们建起一座小小的换热站：全是新管道、安静的泵、亮闪闪的阀门、墙上新挂的一支温度计，还有一盏绿灯，意思是\"一切安好\"。" },
+        { "en": "New pipes contain the warm water and carry it to every floor, and a small smart thermostat balances the rooms one by one, floor by floor, ending forty years of the first-floor sauna.", "zh": "新管道装着暖水，把热送到每一层；一台小巧的智能恒温器逐层逐屋地调配冷暖，给底楼四十年的\"桑拿\"划上了句号。" },
+        { "en": "Mr. Han is instructed to watch the new station for one quiet hour every day, and he learns the green screens slowly, word by word, with his wrenches still in his back pocket, just in case.", "zh": "韩师傅受命每天照看新换热站一个钟头；他一个词一个词地慢慢学着认那些绿屏，扳手照旧插在后裤兜里——以防万一。" },
+        { "en": "The construction lasts all summer, dust sits on every single windowsill, and the neighbors, who have complained together for years, now quarrel cheerfully about the right color for the new coat.", "zh": "施工持续了一整个夏天，每一扇窗台上都落了灰；抱怨了多年抱怨到一起的邻居们，如今改为兴致勃勃地拌嘴：新外衣到底该刷什么颜色才对。" },
+        { "en": "Dr. Song's instruments measure the deep wells every single week, and the geothermal circle below runs quietly and well, day and night, like a second, invisible season.", "zh": "宋博士的仪器每个星期都测那两口深井；地下的地热循环昼夜安安静静地运转，像藏着的第二个季节。" },
+        { "en": "In October, before the first hard frost, the team tests the whole system from top to bottom, the green light comes on, and Dr. Song, for the first time in ten years, smiles like spring.", "zh": "十月，头一场重霜之前，团队把整个系统从上到下试了一遍：绿灯亮了；宋博士十年来头一回，笑得像春天。" }
+      ],
+      "questions": [
+        {
+          "q": "What did Dr. Song find two kilometers below Qinghe?",
+          "options": ["An old riverbed.", "Warm rock with geothermal heat.", "A coal mine.", "Cold groundwater."],
+          "answer": 1,
+          "explain": "第3句 \"She has found warm rock two kilometers below the town\"，并说 \"Geothermal heat can warm every single room\"（第4句），地下两千米是含地热的温岩层。"
+        },
+        {
+          "q": "What are the two parts of Dr. Song's plan?",
+          "options": ["New windows and new doors.", "Deep wells under the ground and insulation panels on the walls.", "More coal and bigger pipes.", "Solar panels and wind machines."],
+          "answer": 1,
+          "explain": "第5句 \"Her plan has two parts, one under the ground and one on the outside walls\"，一是地下的深井，二是外墙的保温板。"
+        },
+        {
+          "q": "What was the building's new thermal coat made of?",
+          "options": ["Old bricks from the shelter.", "Light, durable white insulation panels.", "Heavy steel plates.", "Warm blankets."],
+          "answer": 1,
+          "explain": "第7句 \"a thermal coat of white insulation panels, light, durable, cheap, and thick\"，热外衣是又轻又耐用的白色保温板。"
+        },
+        {
+          "q": "Why does the story mention that Mr. Han keeps his wrenches in his back pocket \"just in case\"?",
+          "options": ["Because the new station needed old tools.", "Because he was asked to repair the old pipes.", "Because old habits are hard to leave behind, and he still trusts his wrenches more than green screens.", "Because the new station was already broken."],
+          "answer": 2,
+          "explain": "第11句 \"he learns the green screens slowly, word by word, with his wrenches still in his back pocket, just in case\"——他还在慢慢学新屏幕，扳手舍不得撒手，可推知他对旧手艺的信赖和改不掉的老习惯。"
+        },
+        {
+          "q": "In sentence 10, \"a small smart thermostat balances the rooms,\" the word \"thermostat\" means ______.",
+          "options": ["a device that holds a steady temperature", "a kind of boiler", "a window frame", "a thermometer for walls"],
+          "answer": 0,
+          "explain": "第10句。词根 therm- 表示\"热\"：therm+stat(稳定)＝让温度稳定在设定值的装置，即恒温器。"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "极寒之夜",
+      "sentences": [
+        { "en": "In late December, the coldest night in thirty long years arrives at a proud minus thirty-two, and the sharp stars over Qinghe look close enough to touch and cold enough to know better.", "zh": "十二月底，三十年来最冷的一夜降临，零下三十二度，冷得趾高气扬；清河上空的寒星看着近得能摸，又冷得让人识趣地缩回了手。" },
+        { "en": "At midnight, a heavy valve in the new heat station freezes and cracks open, and the warm water stops like a good sentence interrupted by a slammed door.", "zh": "半夜，新换热站里一只沉重的阀门冻裂了；暖水一下子停住，像一句好好的话，被一记摔门声拦腰打断。" },
+        { "en": "When the warm water stops, the pipes begin to cool in the long dark, and every lost degree is a small, quiet theft that nobody downstairs can hear.", "zh": "暖水一停，管道便在漫漫黑暗里开始变凉；每丢掉的一度，都是一场楼下没人听得见的小小的、无声的偷窃。" },
+        { "en": "Dr. Song's phone rings at half past midnight, and she runs through the deep snow to the old building, with her coat half on and her geologist's instinct fully awake.", "zh": "半夜十二点半，宋博士的电话响了；她大衣只穿了一半就冲进大雪，往老楼跑——外套半披着，地质学家的直觉却全醒着。" },
+        { "en": "The repair needs three whole hours, because the frozen valve sits deep in the yard, at the far end of a pipe that follows, in her angry words, \"the geometry of somebody who never once visited a winter.\"", "zh": "抢修要整整三个小时，因为冻裂的阀门在院子深处、管道的最远端；用她气头上的话说，那段管子的几何，是\"哪个从没过过冬天的人\"画的。" },
+        { "en": "The community room contains a small backup heater, so the neighbors gather there with blankets, dogs, thermoses, board games, sleepy children, and one guitar that nobody feels like playing.", "zh": "活动室里有一台小小的备用暖风机，于是邻居们裹着毯子，带着狗、热水壶、桌游和困倦的孩子，聚到了那儿——还有一把谁也没心思弹的吉他。" },
+        { "en": "Grandma Bai makes hot tea in her big old pot, the children sleep on folded chairs like kittens, and the room thermometer reads sixteen degrees and holds it until the grey morning, out of pure stubbornness.", "zh": "白奶奶用她那口大旧壶烧了热茶；孩子们像小猫似的蜷在折椅上睡着了；屋里的温度计停在十六度，全凭一股倔劲儿撑到灰蒙蒙的天亮。" },
+        { "en": "Mr. Han teaches everyone a small, useful lesson about hypothermia that cold night, standing by the tea pot like an old professor by his blackboard.", "zh": "那天夜里，韩师傅就站在茶壶边，像老教授站在黑板前，给大家上了一堂关于失温的短课，短而有用。" },
+        { "en": "\"If the body loses heat for too long, hypothermia quietly begins,\" he says, \"and the first sign is not shivering; the first sign is feeling sleepy and far, far too polite about it.\"", "zh": "\"身体失热太久，失温就悄悄开始了，\"他说，\"第一个信号不是打哆嗦；第一个信号是犯困，而且困得过分客气、一声不吭。\"" },
+        { "en": "The human body, he explains, follows the same old thermodynamics as a warm, well-built house: if you lose heat faster than you make it, the lights go out room by room.", "zh": "他解释说，人的身体和一座暖和、盖得结实的房子遵循同一套老热学：只要散热快过产热，灯就会一个房间一个房间地熄。" },
+        { "en": "Warm drinks, dry clothes, and close company sustain the body through a cold night, and by two in the cold morning, the community room is a living textbook example of all three.", "zh": "热饮、干衣服，还有挨得近近的人，能撑着身体熬过寒夜；到凌晨两点，这间活动室俨然是这三条的活教科书。" },
+        { "en": "One old man grows cold and sleepy by the door, so they wrap him at once, without one word of argument, in two thermal blankets, and he wakes up an hour later, asking, very politely, for one more cup of tea.", "zh": "有位老爷爷在门口犯了冷、发了困，大家二话没说，立刻给他裹上两条保温毯；一小时后他醒过来，客客气气地讨了一杯茶。" },
+        { "en": "Dr. Song, kneeling in the frozen yard, mutters to herself that the geology of this town has never promised easy nights, and that the geothermal wells below are working fine; only one small valve disagreed.", "zh": "宋博士跪在冻硬的院子里，自己嘀咕：这座镇子的地质，从来没担保过什么轻松的夜晚；底下的地热井运转得好好的——不过是只小阀门闹了脾气。" },
+        { "en": "At three in the morning, the water returns, the thermometer in the community room slowly stands up straight again, like a small soldier, and the whole building exhales like one warm, tired animal.", "zh": "凌晨三点，暖水回来了；活动室里的温度计像一个小士兵，慢慢重新站直了；整栋楼像一只又暖又乏的动物，长长吐出一口气。" }
+      ],
+      "questions": [
+        {
+          "q": "What happened at midnight on the coldest night?",
+          "options": ["The boiler ran out of coal.", "A heavy valve in the new heat station froze and cracked open.", "All the lights went out.", "The neighbors moved away."],
+          "answer": 1,
+          "explain": "第2句 \"a heavy valve in the new heat station freezes and cracks open\"，半夜换热站阀门冻裂导致停暖。"
+        },
+        {
+          "q": "Why did the repair need three whole hours?",
+          "options": ["Because the tools were missing.", "Because the frozen valve sat deep in the yard, at the far end of a pipe.", "Because nobody knew the building.", "Because the snow blocked the doors."],
+          "answer": 1,
+          "explain": "第5句 \"the frozen valve sits deep in the yard, at the far end of a pipe\"，冻裂的阀门在院子深处、管道尽头，抢修耗时三小时。"
+        },
+        {
+          "q": "According to Mr. Han, what is the first sign of hypothermia?",
+          "options": ["Loud shivering.", "Feeling sleepy and too polite about it.", "A red face.", "A dry cough."],
+          "answer": 1,
+          "explain": "第9句 \"the first sign is not shivering; the first sign is feeling sleepy and far, far too polite about it\"，第一个信号是犯困而且过分安静。"
+        },
+        {
+          "q": "Why did everyone worry about the old man who grew cold and sleepy by the door?",
+          "options": ["Because he was being rude to the neighbors.", "Because sleepiness and quiet politeness are exactly the dangerous early signs of hypothermia.", "Because he had drunk too much tea.", "Because he wanted to go home alone."],
+          "answer": 1,
+          "explain": "第9句说失温的第一个信号是\"犯困而且过分客气\"，第12句里老爷爷正是\"grows cold and sleepy\"，所以他们立刻裹上两条保温毯——对上号了。"
+        },
+        {
+          "q": "In sentence 12, \"they wrap him... in two thermal blankets,\" the word \"thermal\" means ______.",
+          "options": ["designed to keep body heat in", "made of paper", "used only in summer", "a kind of medicine"],
+          "answer": 0,
+          "explain": "第12句。词根 therm- 表示\"热\"：thermal blankets 即保温毯——专门用来锁住人体热量的毯子。"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "春天与账单",
+      "sentences": [
+        { "en": "When spring finally comes, Qinghe melts all at once, and the old building stands proud and clean in its new white coat, like a retired ship waiting for good weather.", "zh": "春天总算来了，清河一下子化了个干净；老楼穿着崭新的白外衣，又体面又干净地站着，像一艘等好天气的退役航船。" },
+        { "en": "Grandma Bai opens her notebook and writes one round number at the top of a fresh, clean page: twenty-three degrees, the temperature of her front room on the first warm morning.", "zh": "白奶奶翻开本子，在一页崭新的纸头上写下了一个圆滚滚的数字：二十三度——第一个暖和的早晨，她前屋的温度。" },
+        { "en": "Her wall thermometer has stayed high all winter long, even through the coldest, darkest week, and the red line inside the glass tube has never once visited the bottom of its little world.", "zh": "整个冬天，连最冷最黑的那一周，她墙上的温度计也没低下去过；玻璃管里那根红线，一次也没到过它那个小小世界的底部。" },
+        { "en": "The geothermal wells run quietly below the yard, twenty-four hours a day, warming the water that warms the rooms that warm the people, all in one long, invisible, reliable chain.", "zh": "地热井在院子底下一天二十四小时安静运转：井焐热水，水焐热屋子，屋子焐热人——一条长长的、看不见的、可靠的链。" },
+        { "en": "The town's air clears week by week, because no gray coal smoke rises from the rooftops anymore, and blue sky returns to Qinghe like a shy, long-lost relative who finally agrees to come to dinner.", "zh": "小镇的天一周一周地变清亮，因为屋顶上再没有灰煤烟升起来；蓝天回到了清河，像一位久未登门、生性腼腆的亲戚，总算肯来吃顿饭了。" },
+        { "en": "The children draw the sky with real blue crayons, and their young teacher pins the best drawings in the corridor, a small, proud gallery of a color nobody had trusted for years.", "zh": "孩子们用真正的蓝蜡笔画天；年轻的老师把画得最好的几张钉在走廊里，办了一个小小的、得意洋洋的画廊——展的是那个多年没人敢信的颜色。" },
+        { "en": "The winter bill arrives in April, and it is almost exactly half of last year's; \"a thin bill means thick walls,\" Grandma Bai says, laughing at her own joke for the rest of the afternoon.", "zh": "四月份账单寄来，几乎不多不少，正好是去年的一半；\"账单薄了，墙就厚了\"——白奶奶被自己这句笑话逗乐了一下午。" },
+        { "en": "Mr. Han finds a new job maintaining the quiet heat station; his wrenches still work, but now he also watches the smart little thermostat and its green screen full of patient, honest numbers.", "zh": "韩师傅找了份新工作，照看那座安静的换热站；他的扳手依然用得上，只是如今还要盯着那台小巧的智能恒温器，和满屏耐心的、诚实的绿字数字。" },
+        { "en": "\"The coal is gone, but the work is not,\" he says, patting the new pump the way he used to pat the old boiler, \"and machines, like choirs and old boilers, need somebody who listens.\"", "zh": "\"煤走了，活儿还在，\"他说着，像从前拍老锅炉那样拍了拍新水泵，\"机器这东西，跟合唱团、跟老锅炉一样，得有个肯听它说话的人。\"" },
+        { "en": "The durable thermal panels on the outside walls need no repair after the hard winter, not one crack, not one loose corner anywhere, and the white coat came through the winter like a good soldier.", "zh": "一整个严冬过后，外墙那些耐用的保温板一处也不用修：没有一条裂，没有一处翘角；那件白外衣像个好士兵，从头扛到了尾。" },
+        { "en": "Dr. Song's team plans two more stations in the nearby towns, drawn with the same clean geometry, and the geologist gives cheerful, patient talks about geology in the primary school every Friday morning.", "zh": "宋博士的团队计划在邻近几个镇子再建两座换热站，用的还是那套干净的几何画法；这位地质学家每周五上午还会去小学，乐呵呵、有耐心地讲地质课。" },
+        { "en": "On television, experts in far, warm cities argue about coal, energy, and geopolitics, but in little Qinghe the answer lies quietly two kilometers under the primary school.", "zh": "电视里，远方温暖大城市里的专家们还在为煤炭、能源和地缘政治争论不休；而在小小的清河，答案就安安静静躺在小学底下两千米处。" },
+        { "en": "The project even sustains itself, because the saved energy slowly, steadily pays back its own high cost, with interest, like a good seed returning the farmer's patience.", "zh": "这个项目甚至养活了自己：省下来的能源正一点一点、稳稳当当地把当初的高成本连本带息地还回来，像一粒好种子，报答庄稼人的耐心。" },
+        { "en": "The building is old, older than most of its neighbors, but it now holds its warmth like a new young heart, and old thermodynamics, for once in its life, has agreed to be kind.", "zh": "楼还是那栋老楼，比左邻右舍都老；可它如今揣着温暖，像一颗崭新的年轻的心；而老热学呢，这辈子头一回，肯发一发善心了。" }
+      ],
+      "questions": [
+        {
+          "q": "What number does Grandma Bai write in her notebook in spring?",
+          "options": ["Sixteen degrees.", "Twenty-three degrees.", "Minus thirty-two.", "Half of last year."],
+          "answer": 1,
+          "explain": "第2句 \"writes one round number... twenty-three degrees, the temperature of her front room\"，开春她记下的室温是二十三度。"
+        },
+        {
+          "q": "Why did the town's air become cleaner?",
+          "options": ["Because everyone moved away.", "Because it rained all winter.", "Because no gray coal smoke rose from the rooftops anymore.", "Because the wind was stronger."],
+          "answer": 2,
+          "explain": "第5句 \"because no gray coal smoke rises from the rooftops anymore\"，不再烧煤，天就清亮了。"
+        },
+        {
+          "q": "How much was the new winter bill compared to last year's?",
+          "options": ["Almost double.", "Almost the same.", "Almost exactly half.", "Ten times higher."],
+          "answer": 2,
+          "explain": "第7句 \"it is almost exactly half of last year's\"，新账单几乎是去年的一半。"
+        },
+        {
+          "q": "What does Grandma Bai's joke \"a thin bill means thick walls\" really mean?",
+          "options": ["The bill paper was too thin.", "Better insulation kept the heat in and cut the cost.", "The bills were printed by mistake.", "The walls were painted white."],
+          "answer": 1,
+          "explain": "由第7句的账单一半、第10句的保温板\"not one crack\"可推知：账单变\"薄\"，是因为保温的\"厚\"墙留住了热量，采暖费随之大降。"
+        },
+        {
+          "q": "In sentence 12, \"experts argue about coal, energy, and geopolitics,\" the word \"geopolitics\" means ______.",
+          "options": ["the study of stars", "politics shaped by land, resources and place", "the art of drawing maps", "a kind of thermometer"],
+          "answer": 1,
+          "explain": "第12句。词根 geo- 表示\"大地\"：geo+politics＝围绕土地、能源、地理位置展开的政治，即地缘政治。"
+        }
+      ]
+    }
+  ]
+}

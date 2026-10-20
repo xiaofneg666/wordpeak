@@ -1,0 +1,788 @@
+{
+ "books": [
+  {
+   "id": "lib-first-speech",
+   "title": "米娅的第一次演讲",
+   "en_title": "Mia's First Speech",
+   "author": "WordVerse Archive",
+   "region": "literary",
+   "level": 1,
+   "one_line": "一个害羞女孩走向麦克风的那一周。",
+   "word_focus": [
+    "dict",
+    "phon",
+    "scrib"
+   ],
+   "chapters": [
+    {
+     "no": 1,
+     "title": "点名的下午",
+     "passage_title": "《米娅的第一次演讲》· 点名的下午"
+    },
+    {
+     "no": 2,
+     "title": "涂涂改改的周六",
+     "passage_title": "《米娅的第一次演讲》· 涂涂改改的周六"
+    },
+    {
+     "no": 3,
+     "title": "麦克风之夜",
+     "passage_title": "《米娅的第一次演讲》· 麦克风之夜"
+    },
+    {
+     "no": 4,
+     "title": "演讲日",
+     "passage_title": "《米娅的第一次演讲》· 演讲日"
+    }
+   ]
+  },
+  {
+   "id": "lib-lighthouse",
+   "title": "灯塔看守人的信",
+   "en_title": "The Lighthouse Keeper's Letters",
+   "author": "WordVerse Archive",
+   "region": "literary",
+   "level": 1,
+   "one_line": "灯塔老人与孙女之间的五封海角来信。",
+   "word_focus": [
+    "vis",
+    "port",
+    "hydro"
+   ],
+   "chapters": [
+    {
+     "no": 1,
+     "title": "第一封信",
+     "passage_title": "《灯塔看守人的信》· 第一封信"
+    },
+    {
+     "no": 2,
+     "title": "港口的日子",
+     "passage_title": "《灯塔看守人的信》· 港口的日子"
+    },
+    {
+     "no": 3,
+     "title": "风暴夜",
+     "passage_title": "《灯塔看守人的信》· 风暴夜"
+    },
+    {
+     "no": 4,
+     "title": "雾天",
+     "passage_title": "《灯塔看守人的信》· 雾天"
+    },
+    {
+     "no": 5,
+     "title": "最后一封信",
+     "passage_title": "《灯塔看守人的信》· 最后一封信"
+    }
+   ]
+  },
+  {
+   "id": "lib-orchard-almanac",
+   "title": "爷爷的果园年历",
+   "en_title": "Grandpa's Orchard Almanac",
+   "author": "WordVerse Archive",
+   "region": "literary",
+   "level": 2,
+   "one_line": "孙女把爷爷四十年的果园年记，整理成一册新的年历。",
+   "word_focus": [
+    "ann",
+    "bio",
+    "terr",
+    "form"
+   ],
+   "chapters": [
+    {
+     "no": 1,
+     "title": "剪枝与堆肥",
+     "passage_title": "《爷爷的果园年历》· 剪枝与堆肥"
+    },
+    {
+     "no": 2,
+     "title": "不打药的夏天",
+     "passage_title": "《爷爷的果园年历》· 不打药的夏天"
+    },
+    {
+     "no": 3,
+     "title": "百年老树",
+     "passage_title": "《爷爷的果园年历》· 百年老树"
+    },
+    {
+     "no": 4,
+     "title": "地窖与账本",
+     "passage_title": "《爷爷的果园年历》· 地窖与账本"
+    },
+    {
+     "no": 5,
+     "title": "新的年历",
+     "passage_title": "《爷爷的果园年历》· 新的年历"
+    }
+   ]
+  },
+  {
+   "id": "lib-soundmap",
+   "title": "城市的声音地图",
+   "en_title": "The Sound Map of the City",
+   "author": "WordVerse Archive",
+   "region": "literary",
+   "level": 2,
+   "one_line": "她用一整年，把城市的声音画成一张会发声的地图。",
+   "word_focus": [
+    "son",
+    "aud",
+    "phon",
+    "form"
+   ],
+   "chapters": [
+    {
+     "no": 1,
+     "title": "轨道的共鸣",
+     "passage_title": "《城市的声音地图》· 轨道的共鸣"
+    },
+    {
+     "no": 2,
+     "title": "礼堂里的排练",
+     "passage_title": "《城市的声音地图》· 礼堂里的排练"
+    },
+    {
+     "no": 3,
+     "title": "市场的清晨",
+     "passage_title": "《城市的声音地图》· 市场的清晨"
+    },
+    {
+     "no": 4,
+     "title": "唱片店的一九二六",
+     "passage_title": "《城市的声音地图》· 唱片店的一九二六"
+    },
+    {
+     "no": 5,
+     "title": "会发声的地图",
+     "passage_title": "《城市的声音地图》· 会发声的地图"
+    }
+   ]
+  },
+  {
+   "id": "lib-water",
+   "title": "水的旅程：从雪山到水龙头",
+   "en_title": "The Journey of Water",
+   "author": "WordVerse Archive",
+   "region": "science",
+   "level": 3,
+   "one_line": "一滴水从雪线到水龙头的漫长旅程。",
+   "word_focus": [
+    "hydro",
+    "duct",
+    "fer",
+    "cur"
+   ],
+   "chapters": [
+    {
+     "no": 1,
+     "title": "雪线之上：一滴水的出生地",
+     "passage_title": "《水的旅程：从雪山到水龙头》· 雪线之上：一滴水的出生地"
+    },
+    {
+     "no": 2,
+     "title": "高架渠：引水的文明",
+     "passage_title": "《水的旅程：从雪山到水龙头》· 高架渠：引水的文明"
+    },
+    {
+     "no": 3,
+     "title": "净水厂：一杯自来水的诞生",
+     "passage_title": "《水的旅程：从雪山到水龙头》· 净水厂：一杯自来水的诞生"
+    },
+    {
+     "no": 4,
+     "title": "管网深处：漏与灌",
+     "passage_title": "《水的旅程：从雪山到水龙头》· 管网深处：漏与灌"
+    },
+    {
+     "no": 5,
+     "title": "归海：最后一程与水的重现",
+     "passage_title": "《水的旅程：从雪山到水龙头》· 归海：最后一程与水的重现"
+    }
+   ]
+  },
+  {
+   "id": "lib-time-archive",
+   "title": "时间档案馆",
+   "en_title": "The Archive of Time",
+   "author": "WordVerse Archive",
+   "region": "science",
+   "level": 3,
+   "one_line": "人类驯服时间的小历史：影子、钟摆与石头。",
+   "word_focus": [
+    "chron",
+    "pend",
+    "dur",
+    "ann",
+    "mort"
+   ],
+   "chapters": [
+    {
+     "no": 1,
+     "title": "影子与秩序：计时的开端",
+     "passage_title": "《时间档案馆》· 影子与秩序：计时的开端"
+    },
+    {
+     "no": 2,
+     "title": "钟摆与机械钟：摇摆驯服了时间",
+     "passage_title": "《时间档案馆》· 钟摆与机械钟：摇摆驯服了时间"
+    },
+    {
+     "no": 3,
+     "title": "多久才算久：耐用、忍受与一生的尺度",
+     "passage_title": "《时间档案馆》· 多久才算久：耐用、忍受与一生的尺度"
+    },
+    {
+     "no": 4,
+     "title": "年与千年：历法的修订史",
+     "passage_title": "《时间档案馆》· 年与千年：历法的修订史"
+    },
+    {
+     "no": 5,
+     "title": "时间的尽头：必死与不朽",
+     "passage_title": "《时间档案馆》· 时间的尽头：必死与不朽"
+    }
+   ]
+  },
+  {
+   "id": "lib-starpost",
+   "title": "星星邮递员",
+   "en_title": "The Star Postman",
+   "author": "WordVerse Archive",
+   "region": "literary",
+   "level": 1,
+   "one_line": "小邮差与山顶天文学家之间安静的五个季节。",
+   "word_focus": [
+    "ast",
+    "stell"
+   ],
+   "chapters": [
+    {
+     "no": 1,
+     "title": "山路上的包裹",
+     "passage_title": "《星星邮递员》· 山路上的包裹"
+    },
+    {
+     "no": 2,
+     "title": "天文台的一天",
+     "passage_title": "《星星邮递员》· 天文台的一天"
+    },
+    {
+     "no": 3,
+     "title": "暴雨与修补",
+     "passage_title": "《星星邮递员》· 暴雨与修补"
+    },
+    {
+     "no": 4,
+     "title": "夜空开放日",
+     "passage_title": "《星星邮递员》· 夜空开放日"
+    },
+    {
+     "no": 5,
+     "title": "最后一封信",
+     "passage_title": "《星星邮递员》· 最后一封信"
+    }
+   ]
+  },
+  {
+   "id": "lib-littlecaptain",
+   "title": "小船长的航行",
+   "en_title": "The Little Captain",
+   "author": "WordVerse Archive",
+   "region": "literary",
+   "level": 1,
+   "one_line": "女孩独自掌舵渡海送药，带回一顶船长的帽子。",
+   "word_focus": [
+    "cap",
+    "tain"
+   ],
+   "chapters": [
+    {
+     "no": 1,
+     "title": "老船长的帽子",
+     "passage_title": "《小船长的航行》· 老船长的帽子"
+    },
+    {
+     "no": 2,
+     "title": "风浪之间",
+     "passage_title": "《小船长的航行》· 风浪之间"
+    },
+    {
+     "no": 3,
+     "title": "银色的徽章",
+     "passage_title": "《小船长的航行》· 银色的徽章"
+    },
+    {
+     "no": 4,
+     "title": "把帽子留着",
+     "passage_title": "《小船长的航行》· 把帽子留着"
+    }
+   ]
+  },
+  {
+   "id": "lib-singing-market",
+   "title": "会唱歌的市场",
+   "en_title": "The Singing Market",
+   "author": "WordVerse Archive",
+   "region": "literary",
+   "level": 1,
+   "one_line": "一个早市摊位家族，把整条街的声音留在了磁带里。",
+   "word_focus": [
+    "cord",
+    "vok"
+   ],
+   "chapters": [
+    {
+     "no": 1,
+     "title": "最亮的嗓音",
+     "passage_title": "《会唱歌的市场》· 最亮的嗓音"
+    },
+    {
+     "no": 2,
+     "title": "星期五的争吵",
+     "passage_title": "《会唱歌的市场》· 星期五的争吵"
+    },
+    {
+     "no": 3,
+     "title": "一盘磁带",
+     "passage_title": "《会唱歌的市场》· 一盘磁带"
+    },
+    {
+     "no": 4,
+     "title": "最后一个清晨",
+     "passage_title": "《会唱歌的市场》· 最后一个清晨"
+    }
+   ]
+  },
+  {
+   "id": "lib-heartbeat-choir",
+   "title": "心跳合唱团",
+   "en_title": "The Heartbeat Choir",
+   "author": "WordVerse Archive",
+   "region": "literary",
+   "level": 2,
+   "one_line": "一个高中合唱团，用一个学期学会听见彼此。",
+   "word_focus": [
+    "path",
+    "cord"
+   ],
+   "chapters": [
+    {
+     "no": 1,
+     "title": "试音",
+     "passage_title": "《心跳合唱团》· 试音"
+    },
+    {
+     "no": 2,
+     "title": "一首老歌",
+     "passage_title": "《心跳合唱团》· 一首老歌"
+    },
+    {
+     "no": 3,
+     "title": "心里的鼓点",
+     "passage_title": "《心跳合唱团》· 心里的鼓点"
+    },
+    {
+     "no": 4,
+     "title": "演出夜",
+     "passage_title": "《心跳合唱团》· 演出夜"
+    },
+    {
+     "no": 5,
+     "title": "团史记录本",
+     "passage_title": "《心跳合唱团》· 团史记录本"
+    }
+   ]
+  },
+  {
+   "id": "lib-underground",
+   "title": "城市地下十米",
+   "en_title": "Ten Meters Under the City",
+   "author": "WordVerse Archive",
+   "region": "science",
+   "level": 2,
+   "one_line": "沿一条街道向下剖开，看清撑起城市的隐秘地下层。",
+   "word_focus": [
+    "struct",
+    "geo"
+   ],
+   "chapters": [
+    {
+     "no": 1,
+     "title": "井盖之下",
+     "passage_title": "《城市地下十米》· 井盖之下"
+    },
+    {
+     "no": 2,
+     "title": "隧道里的钢铁巨兽",
+     "passage_title": "《城市地下十米》· 隧道里的钢铁巨兽"
+    },
+    {
+     "no": 3,
+     "title": "老城的地下层",
+     "passage_title": "《城市地下十米》· 老城的地下层"
+    },
+    {
+     "no": 4,
+     "title": "城市坐在什么上面",
+     "passage_title": "《城市地下十米》· 城市坐在什么上面"
+    },
+    {
+     "no": 5,
+     "title": "第二座城市",
+     "passage_title": "《城市地下十米》· 第二座城市"
+    }
+   ]
+  },
+  {
+   "id": "lib-warm-house",
+   "title": "暖屋计划",
+   "en_title": "The Warm House Project",
+   "author": "WordVerse Archive",
+   "region": "science",
+   "level": 2,
+   "one_line": "北方老楼的一个冬天：从冷墙到地热与保温层的改造。",
+   "word_focus": [
+    "therm",
+    "geo"
+   ],
+   "chapters": [
+    {
+     "no": 1,
+     "title": "零下二十度的清晨",
+     "passage_title": "《暖屋计划》· 零下二十度的清晨"
+    },
+    {
+     "no": 2,
+     "title": "老锅炉的心跳",
+     "passage_title": "《暖屋计划》· 老锅炉的心跳"
+    },
+    {
+     "no": 3,
+     "title": "图纸上的新方案",
+     "passage_title": "《暖屋计划》· 图纸上的新方案"
+    },
+    {
+     "no": 4,
+     "title": "极寒之夜",
+     "passage_title": "《暖屋计划》· 极寒之夜"
+    },
+    {
+     "no": 5,
+     "title": "春天与账单",
+     "passage_title": "《暖屋计划》· 春天与账单"
+    }
+   ]
+  },
+  {
+   "id": "lib-crust-engine",
+   "title": "地壳下的引擎",
+   "en_title": "The Engine Under the Crust",
+   "author": "WordVerse Archive",
+   "region": "science",
+   "level": 3,
+   "one_line": "从地核余温到板块引擎，地球动力学的五次现场观察。",
+   "word_focus": [
+    "geo",
+    "therm",
+    "struct"
+   ],
+   "chapters": [
+    {
+     "no": 1,
+     "title": "热的来历",
+     "passage_title": "《地壳下的引擎》· 热的来历"
+    },
+    {
+     "no": 2,
+     "title": "大陆漂移",
+     "passage_title": "《地壳下的引擎》· 大陆漂移"
+    },
+    {
+     "no": 3,
+     "title": "造山",
+     "passage_title": "《地壳下的引擎》· 造山"
+    },
+    {
+     "no": 4,
+     "title": "冰岛现场",
+     "passage_title": "《地壳下的引擎》· 冰岛现场"
+    },
+    {
+     "no": 5,
+     "title": "地震与预警",
+     "passage_title": "《地壳下的引擎》· 地震与预警"
+    }
+   ]
+  },
+  {
+   "id": "lib-epidemic-history",
+   "title": "流行病简史",
+   "en_title": "A Brief History of Epidemics",
+   "author": "WordVerse Archive",
+   "region": "science",
+   "level": 3,
+   "one_line": "从雅典瘟疫到新冠，疫病与人类社会互相塑造的三千年。",
+   "word_focus": [
+    "path",
+    "dem",
+    "corp"
+   ],
+   "chapters": [
+    {
+     "no": 1,
+     "title": "雅典瘟疫",
+     "passage_title": "《流行病简史》· 雅典瘟疫"
+    },
+    {
+     "no": 2,
+     "title": "黑死病",
+     "passage_title": "《流行病简史》· 黑死病"
+    },
+    {
+     "no": 3,
+     "title": "天花与牛痘",
+     "passage_title": "《流行病简史》· 天花与牛痘"
+    },
+    {
+     "no": 4,
+     "title": "西班牙流感",
+     "passage_title": "《流行病简史》· 西班牙流感"
+    },
+    {
+     "no": 5,
+     "title": "现代：从SARS到新冠",
+     "passage_title": "《流行病简史》· 现代：从SARS到新冠"
+    }
+   ]
+  },
+  {
+   "id": "lib-word-fossil",
+   "title": "词语的化石",
+   "en_title": "The Fossil of Words",
+   "author": "WordVerse Archive",
+   "region": "science",
+   "level": 3,
+   "one_line": "词语从哪里来：一门语言的地层学、借贷史与漂移图。",
+   "word_focus": [
+    "log",
+    "ject"
+   ],
+   "chapters": [
+    {
+     "no": 1,
+     "title": "地层与活化石",
+     "passage_title": "《词语的化石》· 地层与活化石"
+    },
+    {
+     "no": 2,
+     "title": "借来的大教堂",
+     "passage_title": "《词语的化石》· 借来的大教堂"
+    },
+    {
+     "no": 3,
+     "title": "词义的漂移",
+     "passage_title": "《词语的化石》· 词义的漂移"
+    },
+    {
+     "no": 4,
+     "title": "新词的生与死",
+     "passage_title": "《词语的化石》· 新词的生与死"
+    },
+    {
+     "no": 5,
+     "title": "序言与尾声",
+     "passage_title": "《词语的化石》· 序言与尾声"
+    }
+   ]
+  },
+  {
+   "id": "lib-light-lecture",
+   "title": "光线讲义",
+   "en_title": "A Lecture on Light",
+   "author": "WordVerse Archive",
+   "region": "science",
+   "level": 3,
+   "one_line": "一份可以亲眼验证的光学讲义：影子、镜子、棱镜与人眼。",
+   "word_focus": [
+    "cept",
+    "flect"
+   ],
+   "chapters": [
+    {
+     "no": 1,
+     "title": "影子与直线",
+     "passage_title": "《光线讲义》· 影子与直线"
+    },
+    {
+     "no": 2,
+     "title": "反射之镜",
+     "passage_title": "《光线讲义》· 反射之镜"
+    },
+    {
+     "no": 3,
+     "title": "弯折的玻璃",
+     "passage_title": "《光线讲义》· 弯折的玻璃"
+    },
+    {
+     "no": 4,
+     "title": "棱镜里的白光",
+     "passage_title": "《光线讲义》· 棱镜里的白光"
+    },
+    {
+     "no": 5,
+     "title": "接受与感知",
+     "passage_title": "《光线讲义》· 接受与感知"
+    }
+   ]
+  },
+  {
+   "id": "lib-crusoe",
+   "title": "鲁滨逊的岛",
+   "en_title": "Crusoe's Island",
+   "author": "Daniel Defoe（WordVerse 改写版）",
+   "region": "classic",
+   "level": 4,
+   "one_line": "海难之后，一个人在荒岛上记了一本好与坏的账。",
+   "word_focus": [
+    "port",
+    "tain",
+    "fer"
+   ],
+   "chapters": [
+    {
+     "no": 1,
+     "title": "风暴",
+     "passage_title": "《鲁滨逊的岛》· 风暴"
+    },
+    {
+     "no": 2,
+     "title": "两栏日记",
+     "passage_title": "《鲁滨逊的岛》· 两栏日记"
+    },
+    {
+     "no": 3,
+     "title": "麦田",
+     "passage_title": "《鲁滨逊的岛》· 麦田"
+    },
+    {
+     "no": 4,
+     "title": "沙上的脚印",
+     "passage_title": "《鲁滨逊的岛》· 沙上的脚印"
+    }
+   ]
+  },
+  {
+   "id": "lib-journey",
+   "title": "地心游记",
+   "en_title": "Into the Earth",
+   "author": "Jules Verne（WordVerse 改写版）",
+   "region": "classic",
+   "level": 4,
+   "one_line": "跟着羊皮纸向下走，穿过地下的海回到阳光里。",
+   "word_focus": [
+    "geo",
+    "terr",
+    "therm"
+   ],
+   "chapters": [
+    {
+     "no": 1,
+     "title": "羊皮纸",
+     "passage_title": "《地心游记》· 羊皮纸"
+    },
+    {
+     "no": 2,
+     "title": "斯奈菲尔的火山口",
+     "passage_title": "《地心游记》· 斯奈菲尔的火山口"
+    },
+    {
+     "no": 3,
+     "title": "地下海",
+     "passage_title": "《地心游记》· 地下海"
+    },
+    {
+     "no": 4,
+     "title": "回到光里",
+     "passage_title": "《地心游记》· 回到光里"
+    }
+   ]
+  },
+  {
+   "id": "lib-alice",
+   "title": "爱丽丝掉进的洞",
+   "en_title": "Alice Down the Hole",
+   "author": "Lewis Carroll（WordVerse 改写版）",
+   "region": "classic",
+   "level": 4,
+   "one_line": "一瓶药水、一池眼泪，和一场人人都得奖的赛跑。",
+   "word_focus": [
+    "morph",
+    "form",
+    "vert",
+    "dict"
+   ],
+   "chapters": [
+    {
+     "no": 1,
+     "title": "兔子洞",
+     "passage_title": "《爱丽丝掉进的洞》· 兔子洞"
+    },
+    {
+     "no": 2,
+     "title": "“喝我”",
+     "passage_title": "《爱丽丝掉进的洞》· “喝我”"
+    },
+    {
+     "no": 3,
+     "title": "眼泪池",
+     "passage_title": "《爱丽丝掉进的洞》· 眼泪池"
+    },
+    {
+     "no": 4,
+     "title": "没有终点的赛跑",
+     "passage_title": "《爱丽丝掉进的洞》· 没有终点的赛跑"
+    }
+   ]
+  },
+  {
+   "id": "lib-cipher",
+   "title": "贝克街的暗号",
+   "en_title": "The Cipher of Baker Street",
+   "author": "Arthur Conan Doyle（WordVerse 原创改写）",
+   "region": "classic",
+   "level": 4,
+   "one_line": "一封带着暗号的信，把福尔摩斯引向河边的旧玻璃厂。",
+   "word_focus": [
+    "spect",
+    "dict",
+    "scrib",
+    "mit"
+   ],
+   "chapters": [
+    {
+     "no": 1,
+     "title": "委托人的来信",
+     "passage_title": "《贝克街的暗号》· 委托人的来信"
+    },
+    {
+     "no": 2,
+     "title": "观察的艺术",
+     "passage_title": "《贝克街的暗号》· 观察的艺术"
+    },
+    {
+     "no": 3,
+     "title": "玻璃厂的灯",
+     "passage_title": "《贝克街的暗号》· 玻璃厂的灯"
+    },
+    {
+     "no": 4,
+     "title": "贝克街的裁决",
+     "passage_title": "《贝克街的暗号》· 贝克街的裁决"
+    }
+   ]
+  }
+ ]
+}

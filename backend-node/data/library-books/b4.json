@@ -1,0 +1,347 @@
+{
+  "id": "lib-soundmap",
+  "title": "城市的声音地图",
+  "en_title": "The Sound Map of the City",
+  "author": "WordVerse Archive",
+  "region": "literary",
+  "level": 2,
+  "one_line": "她用一整年，把城市的声音画成一张会发声的地图。",
+  "word_focus": ["son", "aud", "phon", "form"],
+  "chapters": [
+    {
+      "no": 1,
+      "title": "轨道的共鸣",
+      "sentences": [
+        { "en": "Lin had lived in this city for sixteen years without ever truly listening to it.", "zh": "林在这座城市住了十六年，却从来没有真正听过它。" },
+        { "en": "Her ears had worked all day and all night for sixteen years, and she had treated them like furniture.", "zh": "十六年来，她的耳朵日夜工作，她却一直把它们当家具。" },
+        { "en": "She could draw the map of her neighborhood with her eyes closed, but she could not say what it sounded like.", "zh": "她能闭着眼画出街区的地图，却说不出它听上去是什么样子。" },
+        { "en": "One morning, on the back page of her notebook, she wrote a new word: soundmap.", "zh": "一天早晨，她在笔记本背面写下一个新词：soundmap（声音地图）。" },
+        { "en": "The idea arrived like a small sound itself: quiet, sudden, and impossible to unhear.", "zh": "这个念头像一个小小的声音一样到来：安静，突然，再也挥不去。" },
+        { "en": "She decided to spend a whole year recording the city and marking every sound on a map.", "zh": "她决定用一整年录下这座城市，把每一种声音标在地图上。" },
+        { "en": "Her only equipment was a secondhand microphone, a pair of cheap headphones, and her grandmother's old recording machine.", "zh": "装备只有三样：一支二手麦克风，一副廉价耳机，还有外婆的旧录音机。" },
+        { "en": "Her first stop was the subway station closest to her school.", "zh": "第一站是离学校最近的地铁站。" },
+        { "en": "When the train arrived, the rails began to hum with a deep resonance that she felt in her teeth.", "zh": "列车进站时，铁轨开始发出低沉的共鸣，一直震到她的牙齿。" },
+        { "en": "The sound was so low it was almost inaudible, more a tremor than a tone.", "zh": "那声音低得几乎听不见，与其说是声响，不如说是震颤。" },
+        { "en": "She held her microphone near the platform edge and recorded the vibration for three full minutes.", "zh": "她把麦克风凑近站台边缘，整整录了三分钟。" },
+        { "en": "A station guard watched her with suspicion, then with curiosity, and finally with a small nod.", "zh": "一位站务员先是怀疑地看着她，然后是好奇，最后轻轻点了点头。" },
+        { "en": "He asked what she was doing, and when she explained, he mentioned that his wife complained the same rails kept her awake.", "zh": "他问她这是在做什么；她解释完，他说自己的老婆也总抱怨这铁轨吵得睡不着。" },
+        { "en": "Inside the carriage, hundreds of passengers sat in silence, like a choir of quiet.", "zh": "车厢里，几百名乘客安静地坐着，像一支沉静的合唱队。" },
+        { "en": "It was a strange unison, she thought: a thousand people breathing to one rhythm, all pretending to be alone.", "zh": "她想，这是一种奇怪的齐声：一千个人按同一个节奏呼吸，却都假装自己是独自一人。" },
+        { "en": "When the train braked, the wheels produced a long sonic scream that nobody on board seemed to notice.", "zh": "列车刹车时，车轮发出一声长长的声啸，车上却好像没人在意。" },
+        { "en": "She recorded that too, and a baby who answered it with delighted laughter.", "zh": "她把这个也录了下来，还有一个婴儿，用咯咯的笑声回应它。" },
+        { "en": "The loudspeaker announced the next stop, but the electric crackle almost swallowed the words.", "zh": "广播报出下一站的站名，电流的杂音却几乎盖过了人声。" },
+        { "en": "For a moment the announcement was nothing but noise; then the syllables became audible again, one by one.", "zh": "有一瞬间，播报只是纯粹的噪音；随后音节又一个个重新听得见了。" },
+        { "en": "Lin pressed her ear to the cold glass, listening with her whole auditory nerve.", "zh": "林把耳朵贴上冰凉的玻璃，用尽整个听觉去感受这座城市。" },
+        { "en": "A blind man nearby turned his head toward her microphone, as if he recognized a fellow listener.", "zh": "附近一位盲人朝她的麦克风转过头来，像认出了一个同类听者。" },
+        { "en": "The city, she realized, was not too loud; she had simply never learned its language.", "zh": "她忽然明白：这座城市不是太吵，只是她从没学过它的语言。" },
+        { "en": "That evening she drew a circle on her map, wrote resonance beside it, and added the date.", "zh": "当晚，她在地图上画了一个圈，写下“共鸣”，又添上日期。" },
+        { "en": "The circle looked small, but it was the first.", "zh": "这个圈看起来很小，但它是第一个。" },
+        { "en": "Under the word she copied her sentence of the day: sound is a form of information that eyes always miss.", "zh": "在词的下面，她抄下今天的句子：声音是一种眼睛总会错过的信息。" },
+        { "en": "She pinned the map above her bed, next to a photograph of her grandmother, who had been a radio engineer.", "zh": "她把地图钉在床头上方，旁边是外婆的照片——外婆生前是电台工程师。" },
+        { "en": "The entry filled half a page, and the notebook, like the city, was only beginning to speak.", "zh": "这一条写满了半页纸；而这本笔记，像这座城，才刚刚开口。" },
+        { "en": "She fell asleep planning tomorrow's route and dreamed in frequencies.", "zh": "她计划着明天的路线睡去，梦里全是频率。" }
+      ],
+      "questions": [
+        {
+          "q": "What equipment did Lin carry for her project?",
+          "options": ["A professional studio and three assistants", "A secondhand microphone, cheap headphones, and her grandmother's old recording machine", "Only her telephone", "A violin and a loudspeaker"],
+          "answer": 1,
+          "explain": "第7句 \"a secondhand microphone, a pair of cheap headphones, and her grandmother's old recording machine\"。"
+        },
+        {
+          "q": "How did the rails' resonance feel to Lin?",
+          "options": ["Sharp and painful in her ears", "So low it was almost inaudible — a tremor she felt in her teeth", "Loud like thunder", "Sweet like a lullaby"],
+          "answer": 1,
+          "explain": "第9-10句 \"a deep resonance that she felt in her teeth... almost inaudible, more a tremor than a tone\"。"
+        },
+        {
+          "q": "What did the baby do when the wheels screamed?",
+          "options": ["It cried loudly", "It answered with delighted laughter", "It slept through it", "It covered its ears"],
+          "answer": 1,
+          "explain": "第17句 \"a baby who answered it with delighted laughter\"，婴儿用咯咯的笑声回应。"
+        },
+        {
+          "q": "In 第10句, the sound was \"almost inaudible.\" The root aud means to hear, so inaudible means . . .",
+          "options": ["too quiet to be heard", "too loud to bear", "too far away to reach", "too beautiful to describe"],
+          "answer": 0,
+          "explain": "第10句与第19句相对：播报“又一个个重新听得见（audible）”；in-（不）+ aud（听）→ 听不见的。"
+        },
+        {
+          "q": "What does 第22句 \"she had simply never learned its language\" suggest about the city's sounds?",
+          "options": ["The sounds are meaningless and should be reduced", "The sounds carry meaning, and listening carefully is a skill that can be learned, like a language", "The city should publish a dictionary of its noises", "Only radio engineers can understand the city"],
+          "answer": 1,
+          "explain": "第25句她写下“声音是一种眼睛总会错过的信息”——城市的声音有意义，只是需要像学语言一样学着去听。"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "礼堂里的排练",
+      "sentences": [
+        { "en": "A week later, Lin followed a violin case through the concert hall's back door.", "zh": "一周后，林跟着一只琴盒，从音乐厅的后门溜了进去。" },
+        { "en": "Her heart beat fast anyway, because doors that open by accident feel like small gifts.", "zh": "心还是跳得很快，因为碰巧打开的门，总觉得像小小的礼物。" },
+        { "en": "Nobody stopped her, because a city girl with a recorder looks exactly like a music student.", "zh": "没有人拦她——一个带着录音机的城里女孩，看上去正像个音乐学院的学生。" },
+        { "en": "The auditorium was almost empty, and small noises traveled across it like waves in a giant stone pool.", "zh": "礼堂几乎空着，细小的声音像水波一样，在巨大的石头池子里荡开。" },
+        { "en": "The vast hall held two thousand seats, and every single empty chair seemed to be holding its breath.", "zh": "巨大的大厅有两千个座位，每一把空椅子都好像在屏息。" },
+        { "en": "On the stage, the orchestra was preparing to rehearse an old symphony.", "zh": "舞台上，乐团正在准备排练一部老交响乐。" },
+        { "en": "Musicians tuned in quiet conversations: here a sigh, there a scale, everywhere the smell of rosin and coffee.", "zh": "乐手们调着音，低声交谈：这里一声叹息，那里一段音阶，空气里全是松香和咖啡的味道。" },
+        { "en": "An oboist played a single note, the same A that opened every rehearsal and every audition.", "zh": "双簧管吹出一个音——每次排练和试音，都从这颗标准音 A 开始。" },
+        { "en": "Around it, the other instruments bent their pitches like iron filings finding a magnet.", "zh": "其他乐器围着它调整音高，像铁屑找到磁铁。" },
+        { "en": "A trumpet player practiced a hard phrase again and again, until the dissonance dissolved into something smooth.", "zh": "一位小号手反复练习一段难句，直到不和谐音化开，变得圆润。" },
+        { "en": "His cheeks were red, and his eyes were closed, and he did not seem to exist outside the music.", "zh": "他双颊通红，闭着眼睛，音乐之外的世界仿佛与他无关。" },
+        { "en": "When the conductor raised his baton, the whole formation of sound began to move as one body.", "zh": "指挥举起指挥棒，整片声音的队形便像一个整体般开始移动。" },
+        { "en": "For a moment the air itself seemed to change shape, the way water changes when a large fish passes under it.", "zh": "有一瞬间，空气本身好像变了形状，像一条大鱼游过时水面的变化。" },
+        { "en": "The strings rose without a breath between them, a perfect unison of forty patient bows.", "zh": "弦乐声部一起扬起，中间没有一丝呼吸——四十支不慌不忙的弓，完美的齐奏。" },
+        { "en": "Lin sat in the last row and let the music pass through her like weather.", "zh": "林坐在最后一排，任音乐像天气一样从身上穿过。" },
+        { "en": "She had planned to record everything, but for the first five minutes she simply forgot.", "zh": "她本打算全部录下来，可头五分钟，她干脆忘了。" },
+        { "en": "Then she woke up, pressed record, and the little red light blinked like a small heart.", "zh": "然后她醒了过来，按下录音键，小红灯像一颗小心脏一样眨着。" },
+        { "en": "She heard how a hundred separate sounds could slowly become one single thing with one direction.", "zh": "她听见上百种独立的声音如何慢慢变成一个有方向的整体。" },
+        { "en": "A flute wandered above the strings like a bird over a river.", "zh": "一支长笛在弦乐上方游走，像一条河上的鸟。" },
+        { "en": "When the strings and the winds finally agreed, every chord turned soft and consonant.", "zh": "当弦乐和管乐终于合上，每个和弦都变得柔软、和谐。" },
+        { "en": "During the break, a cellist noticed her and nodded, because students often came to listen to rehearsals.", "zh": "中场休息时，一位大提琴手注意到她，朝她点了点头——学生来看排练是常有的事。" },
+        { "en": "He let her sit closer, and she recorded ten minutes of the orchestra finding its shape.", "zh": "他让她坐近一些，她录下了乐团“找形状”的十分钟。" },
+        { "en": "She saved the audio in a folder named after the date, like a pressed flower.", "zh": "她把音频存进以日期命名的文件夹，像压好一朵花。" },
+        { "en": "In her notebook she wrote: a symphony is many voices learning to breathe as one.", "zh": "她在笔记本上写：交响乐，就是许多声音学着像一个人那样呼吸。" },
+        { "en": "Beside it she drew a small note: today, music let me in without a ticket.", "zh": "旁边画了一行小注：今天，音乐没检票就放我进去了。" },
+        { "en": "She thought of the subway carriage and its choir of quiet; both were choirs, she decided, just tuned differently.", "zh": "她想起地铁车厢和那支沉静的合唱队；她认定，两支都是合唱队，只是音准不同。" },
+        { "en": "Before she left, she drew a second circle on her map and wrote concert hall beside it.", "zh": "离开前，她在地图上画下第二个圈，写下“音乐厅”。" },
+        { "en": "On the bus home, she listened to the recording once, and the bus seemed to join the orchestra.", "zh": "回家的公交上，她又听了一遍录音，公交车好像也加入了乐团。" }
+      ],
+      "questions": [
+        {
+          "q": "How did Lin get into the concert hall?",
+          "options": ["She bought a ticket", "She followed a violin case through the back door", "The conductor invited her", "She came with her school class"],
+          "answer": 1,
+          "explain": "第1句 \"Lin followed a violin case through the concert hall's back door\"，她是跟着琴盒从后门进去的。"
+        },
+        {
+          "q": "What opened every rehearsal and every audition?",
+          "options": ["The conductor's speech", "The same A played by the oboist", "A trumpet fanfare", "The applause of the audience"],
+          "answer": 1,
+          "explain": "第8句 \"the same A that opened every rehearsal and every audition\"，双簧管的标准音 A。"
+        },
+        {
+          "q": "What happened when the strings and the winds finally agreed?",
+          "options": ["The conductor stopped the rehearsal", "Every chord turned soft and consonant", "The trumpet player left the stage", "The hall started to empty"],
+          "answer": 1,
+          "explain": "第20句 \"every chord turned soft and consonant\"，每个和弦都变得柔和、和谐。"
+        },
+        {
+          "q": "In 第10句, the trumpet practiced until the \"dissonance dissolved.\" The root son means sound and dis- means apart, so dissonance is . . .",
+          "options": ["sounds that clash and do not agree", "sounds played together in tune", "a kind of dance", "a ticket for the concert"],
+          "answer": 0,
+          "explain": "第10句的 dissonance（不和谐音）与第20句的 consonant（和谐）相对：dis-（分开）+ son（声音）→ 相互打架的声音。"
+        },
+        {
+          "q": "Why did Lin forget to press record for the first five minutes?",
+          "options": ["She was too nervous to move", "The music passed through her like weather and carried her away in deep listening", "Her recorder was broken again", "The cellist told her not to record"],
+          "answer": 1,
+          "explain": "第15-16句：音乐“像天气一样从她身上穿过”，头五分钟她“干脆忘了”——她听得入了迷，忘了录音的任务。"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "市场的清晨",
+      "sentences": [
+        { "en": "At five in the morning, Lin carried her microphone into the market by the river.", "zh": "清晨五点，林带着麦克风走进河边的市场。" },
+        { "en": "The sky was still the color of ink mixed with water, and the lamps made small yellow islands on the wet stone.", "zh": "天还是墨水兑了水的颜色，灯在湿漉漉的石板上照出一座座黄色小岛。" },
+        { "en": "Vendors were shouting prices over each other in a wild, bright cacophony.", "zh": "摊贩们互相压着嗓子报价，喧闹成一片刺耳又鲜亮的杂音。" },
+        { "en": "An old radio on the noodle stand played opera, losing gracefully to everyone.", "zh": "面条摊上一台老收音机放着歌剧，心服口服地输给了所有人。" },
+        { "en": "A fish seller used a megaphone, and his voice boomed across the stone floor with a metallic resonance.", "zh": "一个鱼贩子用扩音器吆喝，声音带着金属般的共鸣，在石板地上滚过来。" },
+        { "en": "Lin stood still in the middle of it and recorded layer after layer of the waking noise.", "zh": "林站在市场正中一动不动，一层一层录下这清晨的喧哗。" },
+        { "en": "Her headphones filled with it, and for a moment she was not a listener but part of the noise itself.", "zh": "耳机里灌满了它，有一瞬间她不再是听者，而是噪音本身的一部分。" },
+        { "en": "A dog barked at her microphone, decided it was harmless, and went back to sleep under a cabbage table.", "zh": "一条狗对着她的麦克风叫了两声，判定它无害，又钻回白菜桌下睡了。" },
+        { "en": "At first the market sounded like pure disorder, a wall of noise without any shape.", "zh": "一开始，市场听起来纯粹是乱的，一堵没有任何形状的声墙。" },
+        { "en": "The sounds ran into each other like paint colors mixed by an angry child.", "zh": "各种声音互相撞在一起，像被一个生气的孩子搅混的颜料。" },
+        { "en": "But when she listened longer, patterns began to rise slowly out of the noise.", "zh": "但听得久了，规律开始慢慢从噪音里浮上来。" },
+        { "en": "Each vendor had a rhythm, a pitch, a personal melody for every kind of vegetable.", "zh": "每个摊贩都有自己的节奏、音高，还有专属每样蔬菜的小调。" },
+        { "en": "The shouting repeated itself every few seconds, like waves that followed a hidden formula.", "zh": "吆喝声每隔几秒重复一次，像追随某个隐藏公式的波浪。" },
+        { "en": "She timed one seller with her watch: three seconds, pause, three seconds, pause, like a heartbeat in disguise.", "zh": "她用表给一个摊贩计时：三秒，停顿，三秒，停顿，像一颗化了妆的心跳。" },
+        { "en": "An old woman selling tofu sang her price in a soft, steady euphony.", "zh": "一位卖豆腐的老婆婆用轻柔平稳的调子唱出价钱。" },
+        { "en": "Her prices were songs, her thanks were songs, even her sneeze had a small melody to it.", "zh": "她的报价是歌，道谢是歌，连打个喷嚏都自带一点小旋律。" },
+        { "en": "Her quiet call wove through the loud voices around her like a silver thread.", "zh": "她轻轻的叫卖穿过四周的喧哗，像一根银线。" },
+        { "en": "Lin recorded her for a whole minute, because some sounds are worth more than their weight.", "zh": "林整整录了她一分钟，因为有些声音的价值远超它的分量。" },
+        { "en": "The tofu seller noticed her recording and sang her price one extra time, for the city's sake.", "zh": "豆腐婆婆注意到她在录音，特意又把价钱多唱了一遍——就当唱给这座城市。" },
+        { "en": "By seven, the market had found its sonic shape; it was not chaos but an orchestra without a conductor.", "zh": "到七点，市场找到了它声音的形状；它不是混乱，而是一支没有指挥的乐团。" },
+        { "en": "Every player knew their part, and nobody had ever printed the score.", "zh": "每个乐手都记得自己的声部，只是从没有人印过总谱。" },
+        { "en": "A phone rang behind the fruit stalls, a cheap electronic melody, nearly lost inside the crowd.", "zh": "水果摊后一部手机响了，廉价的电子铃声，几乎淹没在人声里。" },
+        { "en": "It was audible for only a second before the noise folded it back in like the sea folding a coin.", "zh": "它只听得见一秒钟，随即被喧哗收了回去，像大海收回一枚硬币。" },
+        { "en": "The owner answered it anyway, shouting happily above three different kinds of fish advertisement.", "zh": "摊主照样接了电话，快活地喊着话，压过三种鱼广告。" },
+        { "en": "Nobody minded the shouting; in this market, shouting was simply how neighbors said good morning.", "zh": "没人介意喊叫；在这个市场里，喊叫就是街坊们互道早安的方式。" },
+        { "en": "Lin drank a bowl of hot soy milk, and even the spoon had a small percussion solo against the bowl.", "zh": "林喝了一碗热豆浆，连勺子都碰着碗来了一段小小的打击乐独奏。" },
+        { "en": "Lin realized that the city was never quiet; it was only sometimes listened to.", "zh": "林忽然明白：城市从来不是安静的，只是有时没人在听。" },
+        { "en": "In her notebook she wrote: noise is just information we have not learned to read.", "zh": "她在笔记本上写：噪音只是我们还没学会解读的信息。" },
+        { "en": "That evening she drew a third circle and wrote inside it: the market, conductorless.", "zh": "当晚，她画下第三个圈，在里面写：市场，无指挥。" }
+      ],
+      "questions": [
+        {
+          "q": "What tool did the fish seller use to shout?",
+          "options": ["A bell", "A megaphone", "A microphone", "A whistle"],
+          "answer": 1,
+          "explain": "第5句 \"A fish seller used a megaphone\"，鱼贩子用的是扩音器。"
+        },
+        {
+          "q": "How did the vendors' shouting repeat itself?",
+          "options": ["Randomly, without any rule", "Every few seconds, like waves following a hidden formula", "Only when it rained", "Once an hour"],
+          "answer": 1,
+          "explain": "第13句 \"repeated itself every few seconds, like waves that followed a hidden formula\"，第14句她还用表量出三秒一停顿。"
+        },
+        {
+          "q": "How did the old tofu seller call her price?",
+          "options": ["In an angry voice", "Through a megaphone", "In a soft, steady euphony", "In a whisper nobody heard"],
+          "answer": 2,
+          "explain": "第15句 \"sang her price in a soft, steady euphony\"，轻柔平稳的调子。"
+        },
+        {
+          "q": "In 第15句, the tofu seller sang in a \"euphony\" — the opposite of 第3句's \"cacophony.\" The root phon means sound, so euphony is . . .",
+          "options": ["pleasant, sweet-sounding sound", "a loud argument between vendors", "a cheap electronic ringtone", "a kind of vegetable"],
+          "answer": 0,
+          "explain": "第3句 cacophony（刺耳的杂音）与第15句 euphony 相对：eu-（好）+ phon（声音）→ 好听悦耳的声音。"
+        },
+        {
+          "q": "Why did Lin label her third circle \"the market, conductorless\" (第29句)?",
+          "options": ["The market had fired its conductor", "Like an orchestra, every vendor knew their part and rhythm, but no single leader directed it", "Nobody in the market could read music", "The market was closed on weekends"],
+          "answer": 1,
+          "explain": "第20-21句：市场“是一支没有指挥的乐团”，“每个乐手都记得自己的声部，只是从没有人印过总谱”。"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "唱片店的一九二六",
+      "sentences": [
+        { "en": "On a rainy afternoon, Lin discovered a record shop at the end of Maple Street.", "zh": "一个下雨的下午，林在枫树街尽头发现了一家唱片店。" },
+        { "en": "The shop was so narrow that the shelves seemed to hold the walls apart.", "zh": "店面窄得可怜，架子仿佛是撑住两面墙的支柱。" },
+        { "en": "They were filled with old vinyl records, each one in a uniform paper sleeve, gray as school uniforms.", "zh": "架上摆满旧黑胶唱片，每一张都装在式样一致的纸套里，灰得像校服。" },
+        { "en": "Handwritten labels divided them by decade, and the handwriting got older as the shelves went higher.", "zh": "手写的标签按年代分格，架子越高，字迹越老。" },
+        { "en": "The owner, Mr. Hua, was repairing a brass gramophone nearly a hundred years old.", "zh": "店主华先生正在修一台黄铜留声机，快一百年了。" },
+        { "en": "He was sixty-something, with reading glasses pushed far up his nose and cotton in one ear.", "zh": "他六十多岁，老花镜推得高高的，一只耳朵里塞着棉花。" },
+        { "en": "He wound the handle, lowered the needle, and the machine coughed, then began to sing.", "zh": "他上好发条，落下唱针，机器咳嗽了一声，随即唱了起来。" },
+        { "en": "A woman's voice from 1926 filled the shop, thin as rain beneath the crackle.", "zh": "一段一九二六年的女声灌满小店，细得像雨，压在噼啪声之下。" },
+        { "en": "It was a love song, or perhaps a song about leaving; at this distance, Lin thought, they are the same thing.", "zh": "那是一首情歌，或者一首关于离别的歌；隔了这么远，林想，它们本来就是同一回事。" },
+        { "en": "The crackle came first, Lin noticed, and the voice learned to live inside it.", "zh": "林注意到，噼啪声先来，那声音是后来才学会住在里面的。" },
+        { "en": "\"Some people call it a phonograph, some a gramophone,\" Mr. Hua said. \"I call it my grandmother.\"", "zh": "“有人叫它phonograph，有人叫它gramophone，”华先生说，“我叫它我外婆。”" },
+        { "en": "\"Every groove on this record is a tiny valley that carries sound,\" he told her.", "zh": "“唱片上每一道纹路，都是一条驮着声音的小山谷。”他告诉她。" },
+        { "en": "\"The needle walks through the valley like an old man through his hometown.\"", "zh": "“唱针走在山谷里，就像老人走在自己的家乡。”" },
+        { "en": "Lin touched the groove and felt it, a frozen river of sound.", "zh": "林摸了摸那道纹路——一条冻住的声音之河。" },
+        { "en": "Lin borrowed his spare microphone and pressed it gently against the horn.", "zh": "林借来他那支备用麦克风，轻轻抵住喇叭口。" },
+        { "en": "The audio she captured was rough, but it carried the warmth of another century.", "zh": "录下的音频很粗糙，却带着另一个世纪的体温。" },
+        { "en": "Somewhere in the hiss she could hear a tram, a baby, and a door closing forever.", "zh": "嘶嘶声深处，她听得见一辆电车、一个婴儿，和一扇永远关上的门。" },
+        { "en": "Mr. Hua showed her the same song saved in four different formats.", "zh": "华先生又给她看同一首歌的四种不同格式。" },
+        { "en": "Wax, vinyl, tape, and file: the format had transformed four times, but the voice stayed the same.", "zh": "蜡盘、黑胶、磁带、音频文件——格式变了四次，那个声音没变。" },
+        { "en": "\"Technology is a long train,\" he said, \"and the voice is the passenger who never changes seats.\"", "zh": "“技术是一列长火车，”他说，“声音是那个从不换座位的乘客。”" },
+        { "en": "Lin asked whether he missed the old formats; he said the formats missed each other, but the songs did not care.", "zh": "林问他想不想那些旧格式；他说，格式们彼此想念，歌才不在乎。" },
+        { "en": "He played her a street musician from 1950, and a wedding from 1973, and one extraordinary thunderstorm.", "zh": "他放给她听一九五〇年的街头艺人、一九七三年的一场婚礼，还有一场了不起的雷雨。" },
+        { "en": "On her way out, she bought an old audiobook, a poet reading his own poems.", "zh": "临走时，她买了一盘旧有声书，一位诗人读自己的诗。" },
+        { "en": "Mr. Hua wrapped it in yesterday's newspaper and charged her almost nothing.", "zh": "华先生用昨天的报纸把它包好，几乎没要她钱。" },
+        { "en": "He also gave her a needle, a real steel one, \"so you remember that sound is physical.\"", "zh": "他还送了她一根唱针，真钢的——“好让你记得，声音是有形状的实物。”" },
+        { "en": "That night she played it twice, and the poet's pauses felt like a second language.", "zh": "那晚她听了两遍，诗人的停顿像另一种语言。" },
+        { "en": "The voice on the tape had been silent for forty years, yet it was not dead, only waiting.", "zh": "磁带上的声音沉默了四十年，却没有死，只是在等。" },
+        { "en": "She thought of the subway rails, the market's hidden formula, the concert hall: all of them, pressed grooves of time.", "zh": "她想起地铁的铁轨、市场那隐藏的公式、音乐厅——全都是时间压出的纹路。" },
+        { "en": "In her notebook she wrote: a record is a voice that refused to disappear.", "zh": "她在笔记本上写：唱片，是一种拒绝消失的声音。" },
+        { "en": "Beside the sentence she drew a small circle, the fourth on her growing map.", "zh": "这句话旁边，她画下一个小圈——地图上的第四个。" }
+      ],
+      "questions": [
+        {
+          "q": "What was Mr. Hua repairing when Lin arrived?",
+          "options": ["A radio", "A brass gramophone nearly a hundred years old", "A broken telephone", "A grand piano"],
+          "answer": 1,
+          "explain": "第5句 \"repairing a brass gramophone nearly a hundred years old\"，一台快一百年的黄铜留声机。"
+        },
+        {
+          "q": "What did the four formats — wax, vinyl, tape, and file — have in common?",
+          "options": ["The same cover art", "The same length", "The same recorded voice stayed the same", "The same price"],
+          "answer": 2,
+          "explain": "第19句 \"the format had transformed four times, but the voice stayed the same\"，格式在变，录下的声音没变。"
+        },
+        {
+          "q": "What did Lin buy on her way out of the shop?",
+          "options": ["A brass gramophone", "An old audiobook of a poet reading his own poems", "A stack of vinyl records", "A steel needle"],
+          "answer": 1,
+          "explain": "第23句 \"she bought an old audiobook, a poet reading his own poems\"，一盘诗人自读诗集的有声书。"
+        },
+        {
+          "q": "In 第11句, \"phonograph\" and \"gramophone\" both name the old machine. The root phon means sound and graph means writing, so a phonograph literally . . .",
+          "options": ["writes sound down so it can be played again", "amplifies the human voice", "broadcasts news by radio", "measures musical pitches"],
+          "answer": 0,
+          "explain": "第11-12句：唱针走过“驮着声音的小山谷”——phon（声音）+ graph（写）→ 把声音“写”下来、可以重放的机器。"
+        },
+        {
+          "q": "What does \"Technology is a long train, and the voice is the passenger who never changes seats\" (第20句) suggest?",
+          "options": ["Trains will replace recording technology", "However the format changes, what is recorded — the human voice — stays constant and is what truly matters", "Old passengers should keep their seats on trains", "The voice needs a new format every decade"],
+          "answer": 1,
+          "explain": "第19-20句：格式变了四次，声音没变——变的是载体，不变的是被录下的人声与情感。"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "会发声的地图",
+      "sentences": [
+        { "en": "Lin spent a whole year walking the city with her recorder and her growing map.", "zh": "林用一整年时间，带着录音笔和那张越画越满的地图走遍城市。" },
+        { "en": "She recorded buses and bells, rain on iron roofs, the last tram at midnight, and two arguing chess players in the park.", "zh": "她录公交车和钟声、铁皮屋顶上的雨、午夜的末班电车，还有公园里两个吵架的棋手。" },
+        { "en": "By the following spring, she had collected four hundred sonic fragments, from traffic to birdsong.", "zh": "到第二年春天，她已收集了四百段声音碎片，从车流到鸟鸣。" },
+        { "en": "Some fragments lasted a second; others, like the storm recording, filled an entire afternoon.", "zh": "有的碎片只有一秒钟；有的，比如那场雷雨，装满了整整一个下午。" },
+        { "en": "Each fragment lived in a labeled folder, and the folders were alphabetized like a strange, breathing library.", "zh": "每段声音住在一个贴了标签的文件夹里，文件夹按字母排好，像一座会呼吸的怪图书馆。" },
+        { "en": "Her headphones had grown soft at the edges, worn the way old shoes are worn.", "zh": "她的耳机边缘已经磨软了，像一双穿旧的鞋。" },
+        { "en": "Her school informed her that the auditorium was free for one evening in June.", "zh": "学校通知她，六月的某个晚上礼堂是空的。" },
+        { "en": "She asked for the chance the way one asks for a heartbeat: quietly, and with everything she had.", "zh": "她争取这个机会的方式，像人争取一次心跳：安安静静，却用上了全部。" },
+        { "en": "Her teacher signed the form and added one sentence: give the walls something to say.", "zh": "老师在表格上签了字，还添了一句：给这些墙一点话说。" },
+        { "en": "She spent a month turning the hall into a map that could sing.", "zh": "她花了一个月，把大厅变成一张会唱歌的地图。" },
+        { "en": "She printed a huge paper map of the city and hid small speakers under its surface.", "zh": "她印了一张巨大的城市纸质地图，在纸面下藏进一个个小喇叭。" },
+        { "en": "She wired each district to its own recorded voice, and tested every connection twice with her microphone and her ears.", "zh": "她把每个街区接上它自己的录音，用麦克风和耳朵把每条线路测了两遍。" },
+        { "en": "When a visitor touched a district, the district answered with its own recorded sound.", "zh": "参观者碰到哪个街区，哪个街区就用自己录下的声音作答。" },
+        { "en": "If someone pressed two places together, the two sounds blended into something new that no mayor had ever approved.", "zh": "如果有人同时按住两个地方，两种声音便混合成新的东西——市长可从没批准过。" },
+        { "en": "On the opening night, three hundred people came, and the auditorium fell completely silent.", "zh": "开幕那晚来了三百人，整个礼堂安静得彻底。" },
+        { "en": "For a moment nobody breathed; three hundred hands hovered above the paper like birds deciding where to land.", "zh": "有一瞬间没人呼吸；三百只手悬在纸面上，像一群正在决定落在哪里的鸟。" },
+        { "en": "A boy touched the subway line and heard the rails' resonance under his fingers.", "zh": "一个男孩按住地铁线，指尖下响起铁轨的共鸣。" },
+        { "en": "He pressed his whole hand against it, as if trying to hold the city's hand.", "zh": "他把整只手掌压上去，像想握一握城市的手。" },
+        { "en": "An old woman touched the market street and recognized a morning from forty years ago.", "zh": "一位老太太按在市场那条街，忽然认出了四十年前的某个早晨。" },
+        { "en": "She stood there for a long time, her hand flat on the paper, listening to a market that had since been rebuilt.", "zh": "她在那儿站了很久，手掌平平地贴着纸，听一个早已拆掉的市场。" },
+        { "en": "People began to walk from district to district, following sounds instead of streets.", "zh": "人们开始从一个街区走到另一个街区，循着声音，而不是街道。" },
+        { "en": "Children ran; grandparents walked slowly; a bus driver, still in uniform, pressed his route and found it singing.", "zh": "孩子们跑着，老人慢慢走；一个还穿着制服的公交司机按住自己的线路，发现它在唱歌。" },
+        { "en": "A whole crowd moved in a slow unison, leaning toward whatever was singing under the paper.", "zh": "一大群人以缓慢的整齐移动着，身体朝纸下正在唱歌的地方倾过去。" },
+        { "en": "In the last row, a music student wrote in his notebook: the city is an unwritten symphony.", "zh": "最后一排，一个音乐学生写下：这座城市是一部没写出来的交响乐。" },
+        { "en": "Lin watched her audience and understood that a map could also have a voice.", "zh": "林望着她的听众，明白了一张地图也可以有嗓音。" },
+        { "en": "Even the silence of the crowd, she noticed, had a shape: the shape of attention.", "zh": "她注意到，连人群的安静都有形状：那形状叫专注。" },
+        { "en": "The city had not changed, but the way she heard it had been completely transformed.", "zh": "城市没有变，但她听见城市的方式被彻底改变了。" },
+        { "en": "Her grandmother's old recording machine stood by the exit, still working, like a small, proud relative.", "zh": "外婆那台旧录音机立在出口，还在工作，像一位小小的、骄傲的亲戚。" },
+        { "en": "In the last line of her notebook she wrote: listen long enough, and every place becomes music.", "zh": "笔记本最后一行她写：听得够久，每个地方都会成为音乐。" },
+        { "en": "After that night, the map stayed in the auditorium, and the city kept singing, whether anyone listened or not.", "zh": "那晚之后，地图留在礼堂里，而城市继续唱着——无论有没有人在听。" }
+      ],
+      "questions": [
+        {
+          "q": "How many sonic fragments had Lin collected by the following spring?",
+          "options": ["Forty", "Four hundred", "Four thousand", "Fourteen"],
+          "answer": 1,
+          "explain": "第3句 \"four hundred sonic fragments, from traffic to birdsong\"，四百段声音碎片。"
+        },
+        {
+          "q": "How did visitors make the map speak?",
+          "options": ["By speaking into a microphone", "By touching a district on the paper map", "By calling a phone number", "By reading the labels aloud"],
+          "answer": 1,
+          "explain": "第13句 \"When a visitor touched a district, the district answered with its own recorded sound\"，摸到哪个街区，哪个街区就用录音作答。"
+        },
+        {
+          "q": "What did the old woman recognize when she touched the market street?",
+          "options": ["A song from the radio", "A morning from forty years ago", "Her daughter's voice", "An old friend's laugh"],
+          "answer": 1,
+          "explain": "第19句 \"recognized a morning from forty years ago\"，她认出了四十年前的某个早晨。"
+        },
+        {
+          "q": "In 第24句, a music student calls the city \"an unwritten symphony.\" The root phon means sound and sym- means together, so a symphony is literally . . .",
+          "options": ["many sounds sounding together as one piece", "a very quiet song", "a map of the city", "a bus route that sings"],
+          "answer": 0,
+          "explain": "第24句：sym-（共同）+ phon（声音）→ 众声合奏；全书多次出现的 symphony 都源自这一词根。"
+        },
+        {
+          "q": "What does 第26句 \"the silence of the crowd had the shape of attention\" tell us about the exhibition?",
+          "options": ["The audience was bored and waiting to leave", "The silence was not emptiness but three hundred people listening together — exactly what Lin wanted", "The speakers had stopped working", "The crowd was afraid to make noise"],
+          "answer": 1,
+          "explain": "第25-27句：地图有了嗓音、安静有了“专注”的形状、林听城市的方式被彻底改变——这三百人真正学会了听。"
+        }
+      ]
+    }
+  ]
+}

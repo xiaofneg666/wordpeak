@@ -1,0 +1,220 @@
+{
+  "id": "lib-singing-market",
+  "title": "会唱歌的市场",
+  "en_title": "The Singing Market",
+  "author": "WordVerse Archive",
+  "region": "literary",
+  "level": 1,
+  "one_line": "一个早市摊位家族，把整条街的声音留在了磁带里。",
+  "word_focus": ["cord", "vok"],
+  "chapters": [
+    {
+      "no": 1,
+      "title": "最亮的嗓音",
+      "sentences": [
+        { "en": "My grandma is Grandma Lin, and she has sold tofu at the morning market for forty years, and every morning of my life begins with her voice.", "zh": "我奶奶就是林奶奶，她在这个早市卖了四十年豆腐，我生命里的每个早晨都是从她的嗓音开始的。" },
+        { "en": "Her call is the brightest vocal sound of the whole street, and even the sparrows on the wires stop and listen when she begins.", "zh": "她的叫卖声是整条街上最亮的一副嗓音，连电线上的麻雀都会停下来听她开腔。" },
+        { "en": "\"Fresh tofu, warm tofu, taste it before you buy!\" she sings in one long, happy line, and the words go up at the end like a small bird.", "zh": "\"鲜豆腐，热豆腐，先尝后买嘞！\"她用一句长长的、欢快的调子唱出来，尾音像只小鸟一样往上飞。" },
+        { "en": "People often say that selling tofu is her true vocation, because she loves the work, and after forty years the work still loves her back.", "zh": "人们常说，卖豆腐就是她真正的天职，因为她爱这门营生，四十年过去，这门营生也还爱着她。" },
+        { "en": "She greets every old customer with a cordial smile and a warm word, and she remembers every name, every child, and every family's favorite breakfast.", "zh": "她热情又客气地笑着，招呼每一位老主顾，记得住每一个名字、每一个孩子、每一家最爱吃什么早饭。" },
+        { "en": "Old Mr. Pan, who buys two warm pieces every morning, says her voice can evoke the street's oldest memories, because forty years of mornings live inside it.", "zh": "每天早上都买两块热豆腐的潘老先生说，她的嗓音能唤起这条街最老的回忆，因为四十年的清晨都装在里面。" },
+        { "en": "\"When I hear her call, I am thirty years old again,\" he tells me, \"and my mother is calling me home for breakfast.\"", "zh": "\"一听她吆喝，我就又回到三十岁了，\"他跟我说，\"就像我娘在喊我回家吃早饭。\"" },
+        { "en": "A warm piece of tofu is the core of many family breakfasts on our street, soft and white, like a little cloud on a cold plate.", "zh": "一块热豆腐是这条街上许多人家早饭的核心，又软又白，像冷盘子里的一朵小云。" },
+        { "en": "According to Grandpa Fu, her voice never gets tired, because a happy heart keeps a strong throat, and my grandma is happy every single day.", "zh": "据福爷爷说，她的嗓子从来不累，因为心宽的人嗓子亮，而我奶奶天天都乐呵呵。" },
+        { "en": "When the market is slow, she lets me stand on her little wooden stool, and we practice the call together, line by line, like a small choir of two.", "zh": "市场没人的时候，她就让我踩上她的小木凳，我们一起一句一句地练叫卖，像个两个人的小合唱团。" },
+        { "en": "\"Loud and clear, my child,\" she tells me, \"because honest work wants an honest voice, and tofu is the most honest work I know.\"", "zh": "\"声音要响、要亮，孩子，\"她跟我说，\"本分生意要配一副本分的嗓子，卖豆腐是天底下最本分的生意。\"" },
+        { "en": "When my legs shake and my face turns red, she never laughs at me, and she always gives me courage with one small nod.", "zh": "我腿发抖、脸通红的时候，她从来不笑话我，总是点一下头，就给了我勇气。" },
+        { "en": "Grandma always encourages me to speak loudly and clearly, and she says a shy tongue can learn to sing, just like a shy bird can learn to fly.", "zh": "奶奶总鼓励我说话要响亮、要清楚，她说害羞的舌头能学会唱歌，就像害羞的鸟能学会飞。" },
+        { "en": "The market wakes up because her call comes first, and selling tofu is small work, she says, but it is honest work, and honest work is never small.", "zh": "整个市场醒来，是因为她的叫卖声来得最早；她说卖豆腐是小生意，但是本分生意，本分生意从来都不小。" }
+      ],
+      "questions": [
+        {
+          "q": "What has Grandma Lin sold at the morning market for forty years?",
+          "options": ["Fresh fish", "Warm bread", "Tofu", "Green vegetables"],
+          "answer": 2,
+          "explain": "第1句 \"My grandma is Grandma Lin, and she has sold tofu at the morning market for forty years.\"，林奶奶卖了四十年豆腐。"
+        },
+        {
+          "q": "What do people often say about her work?",
+          "options": ["It is only a small hobby", "It is her true vocation", "It is too hard for her age", "It will end this spring"],
+          "answer": 1,
+          "explain": "第4句 \"People often say that selling tofu is her true vocation\"，人们说卖豆腐是她真正的天职。"
+        },
+        {
+          "q": "What does Old Mr. Pan say her voice can do?",
+          "options": ["Make the sparrows sing along", "Evoke the street's oldest memories", "Sell tofu without any words", "Wake up the whole town"],
+          "answer": 1,
+          "explain": "第6句 \"her voice can evoke the street's oldest memories\"，潘老先生说她的嗓音能唤起这条街最老的回忆。"
+        },
+        {
+          "q": "Why does Grandma never laugh when the narrator's face turns red?",
+          "options": ["Because she does not see it", "Because she is too busy cutting tofu", "Because she wants to give him courage, not shame", "Because laughing is bad for her throat"],
+          "answer": 2,
+          "explain": "第12句 \"she never laughs at me, and she always gives me courage with one small nod\"，奶奶不笑话他，是想给他勇气而不是难堪。"
+        },
+        {
+          "q": "In sentence 6, the word \"evoke\" is closest in meaning to ______.",
+          "options": ["to call up old memories", "to sell something fast", "to sing too loudly", "to taste warm food"],
+          "answer": 0,
+          "explain": "第6句 \"her voice can evoke the street's oldest memories\"。词根 vok- 表示\"声音、喊\"，evoke(e-向外+vok)意为\"唤起\"——她的嗓音把老街最旧的记忆叫了回来。"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "星期五的争吵",
+      "sentences": [
+        { "en": "On Friday morning, just after the first customers arrived, the fish stall and the vegetable stall began a loud quarrel, and half the market turned to watch them.", "zh": "星期五早上，头一批客人刚到，鱼摊和菜摊就吵了起来，半条市场街的人都扭头看热闹。" },
+        { "en": "A sharp provocation about water on the floor started it all, because the fish seller's bucket had made a small river under the green vegetables.", "zh": "起因是一句关于地上积水的刺耳挑衅——鱼贩子的水桶在青菜底下冲出了一条小河。" },
+        { "en": "\"Your dirty water wetted my cabbage!\" the vegetable seller shouted, and her angry voice was louder than the fish seller's hand bell.", "zh": "\"你的脏水浇了我的白菜！\"菜贩子喊道，她气冲冲的嗓门比鱼贩子的手铃还响。" },
+        { "en": "The fish seller's cross answer provoked the vegetable seller even more, and soon the two of them were shouting at the same time, louder and louder.", "zh": "鱼贩子没好气地回了一句，把菜贩子彻底激怒了，很快两个人就同时喊了起来，一声高过一声。" },
+        { "en": "Their discordant voices flew over the street like cold wind, and nobody could hear the morning calls, the spoons, or the little songs anymore.", "zh": "两边的声音互不相合，像冷风一样刮过整条街，谁也听不见叫卖声、勺子声和那些小曲了。" },
+        { "en": "In one short minute, half of the market fell into discord, and even the bread seller stopped his warm song to listen to the angry words.", "zh": "短短一分钟里，半个市场都失了和气，连面包师傅都停下了他暖暖的小曲，去听那些气话。" },
+        { "en": "Grandma Lin did not shout, and she did not choose a side; she just kept cutting her white tofu into long, quiet strokes behind her little counter.", "zh": "林奶奶没有喊，也没有站队，只在自家小摊后面安安静静地切着白豆腐，刀起刀落。" },
+        { "en": "\"When two voices fight, the street loses its music,\" she said softly to me, and her old hands never stopped their work.", "zh": "\"两个嗓门打架，整条街就没歌听了。\"她轻声对我说，那双老手上的活儿一点没停。" },
+        { "en": "Old Zhou from the egg stall put down his two baskets and walked over to the angry sellers with a slow, warm smile.", "zh": "蛋摊的老周放下两筐鸡蛋，挂着慢悠悠的暖笑，朝那两个动气的摊主走了过去。" },
+        { "en": "With great courage, he invoked an old saying: \"Fish and greens live in one pot, so why can't two stalls live on one street?\"", "zh": "他鼓足勇气，援引了一句老话：\"鱼和青菜能住一个锅里，两个摊子怎么就不能住一条街上？\"" },
+        { "en": "The fish seller laughed first, then the vegetable seller laughed too, and after that the whole market was laughing with them.", "zh": "鱼贩子先笑了，接着菜贩子也笑了，随后整个市场都跟着笑成了一片。" },
+        { "en": "Laughter brought concord back to the market street, and the two sellers shook hands over the wet and sorry cabbage.", "zh": "笑声让和谐重新回到了这条市场街，两个摊主隔着那摊湿漉漉、委屈巴巴的白菜握了手。" },
+        { "en": "By noon the fish stall and the vegetable stall stood in accord again, and the fish seller even carried a bucket of clean water to the greens with his own hands.", "zh": "到了中午，鱼摊和菜摊又站在了一起、言归于好，鱼贩子还亲手提了一桶干净水给青菜送去。" },
+        { "en": "According to Old Zhou, a market is like a choir: many different voices, one song, and a quarrel is only a wrong note in a long morning.", "zh": "照老周的说法，市场就像一个合唱团：声部再多也是一首歌，吵架不过是一个漫长早晨里唱错的一个音。" }
+      ],
+      "questions": [
+        {
+          "q": "Which two stalls began the loud quarrel?",
+          "options": ["The tofu stall and the egg stall", "The fish stall and the vegetable stall", "The bread stall and the fish stall", "The egg stall and the bread stall"],
+          "answer": 1,
+          "explain": "第1句 \"the fish stall and the vegetable stall began a loud quarrel\"，吵架的是鱼摊和菜摊。"
+        },
+        {
+          "q": "What started the quarrel?",
+          "options": ["A broken scale", "A missing wallet", "A sharp provocation about water on the floor", "A bad price for cabbage"],
+          "answer": 2,
+          "explain": "第2句 \"A sharp provocation about water on the floor started it all\"，起因是一句关于地上积水的挑衅。"
+        },
+        {
+          "q": "What did Old Zhou invoke to stop the quarrel?",
+          "options": ["A call to the market office", "An old saying about fish and greens living in one pot", "A new rule about water", "A song about cabbage"],
+          "answer": 1,
+          "explain": "第10句 \"he invoked an old saying: 'Fish and greens live in one pot'\"，老周援引了一句鱼和青菜同住一锅的老话。"
+        },
+        {
+          "q": "Why did Grandma Lin keep cutting her tofu while the others shouted?",
+          "options": ["Because she could not hear them", "Because she was angry with both sellers", "Because she believed a fight takes the music out of the street", "Because she wanted to sell more tofu that day"],
+          "answer": 2,
+          "explain": "第8句 \"When two voices fight, the street loses its music\"——由这句可推知，她不掺和争吵，是因为她觉得吵架会把整条街的歌吵没。"
+        },
+        {
+          "q": "In sentence 4, \"The fish seller's cross answer provoked the vegetable seller even more,\" the word \"provoked\" means ______.",
+          "options": ["made her calm", "made her angry", "made her laugh", "made her leave"],
+          "answer": 1,
+          "explain": "第4句。词根 vok- 表示\"喊\"：pro-(向前)+voke(喊)→冲着人喊→激怒。下文两人\"越喊越响\"也是佐证。"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "一盘磁带",
+      "sentences": [
+        { "en": "One rainy afternoon, while I was looking for my lost pencil, I found an old tape recorder in Grandpa's drawer, under his old maps and a broken watch.", "zh": "一个下雨的下午，我正找丢失的铅笔，却在爷爷的抽屉里翻出一台旧录音机，压在老地图和一块坏表底下。" },
+        { "en": "Grandpa cleaned the grey dust off it, put in two new batteries, and the little machine woke up with a soft click, like a small animal.", "zh": "爷爷擦掉灰，装上两节新电池，小机器\"咔嗒\"一声醒了过来，像只小动物。" },
+        { "en": "I decided to record the sounds of the whole market, from the first call in the dark morning to the last spoon at noon.", "zh": "我决定把整个市场的声音都录下来——从天没亮的第一声吆喝，到中午收摊的最后一记勺响。" },
+        { "en": "According to my careful plan, I walked from stall to stall with the recorder held up high, like a boy carrying a small radio star.", "zh": "按照我精心拟好的计划，我举着录音机挨个摊位走过去，像个捧着小电台明星的孩子。" },
+        { "en": "I collected morning calls, spoons and ladles, water running on the stones, and the little talks between the sellers and their oldest friends.", "zh": "我收进了叫卖声、勺子和漏勺、石板上的流水，还有摊主们和他们老哥们儿之间的零碎家常。" },
+        { "en": "Grandma Lin was the brightest vocalist on my tape, and her long call opened the recording like the first note of a slow song.", "zh": "林奶奶是这盘磁带上最亮的主唱，她那声长长的吆喝开了场，像慢歌的第一个音。" },
+        { "en": "Every seller had a different vocal style of calling: the bread man sang high, the fish man sang fast, and Old Zhou almost spoke his, like a kind uncle.", "zh": "每个摊主的吆喝都有自己的唱腔：面包师傅唱得高，鱼贩子唱得快，老周几乎是说出来的，像位和气的叔叔。" },
+        { "en": "A young buyer from the city said the market taught him a whole new vocabulary of sounds, and he wrote some of them down in his little notebook.", "zh": "一位城里来的年轻顾客说，这个市场教了他一整套全新的声音词汇，他还在小本子上记下了几条。" },
+        { "en": "For many years, the office had a rule against loud morning music here, but last spring the sellers asked together, and the office revoked the old rule.", "zh": "多年来管理处一直有条\"早市禁乐\"的规定，可去年春天摊主们一起去说情，管理处把这条老规定撤销了。" },
+        { "en": "My teacher listened to my tape twice, encouraged me with both hands, and said that this street itself deserved a good record, its own small album.", "zh": "老师把我的磁带听了两遍，双手捧着连声鼓励我，说这条街本身就该有一张像样的唱片，一张属于它自己的小专辑。" },
+        { "en": "When the people of our street heard the tape, it evoked their own morning memories: wet stones, warm steam, and the first light on the roofs.", "zh": "街坊们一听这盘磁带，各自的清晨记忆就被唤醒了：湿漉漉的石板、热腾腾的白汽，还有落在屋顶上的第一线天光。" },
+        { "en": "One old woman cried a little and said, \"I can hear my young husband's voice inside the fish man's call.\"", "zh": "有位老太太掉了几滴眼泪，说：\"在鱼贩子的吆喝里，我能听见我年轻丈夫的嗓音。\"" },
+        { "en": "Grandma smiled and said our street had a singing soul, and every stall in the street kept one note of that soul.", "zh": "奶奶笑了，说我们这条街有一条会唱歌的魂，街上每个摊子都存着那条魂里的一个音。" },
+        { "en": "I wrote a label on the tape in my best letters — The First Record of Our Market — and Grandpa put it away in a warm, dry box.", "zh": "我用自己最工整的字在磁带上写了标签——《我们市场的第一张唱片》——爷爷把它收进了一个又暖又干的盒子里。" }
+      ],
+      "questions": [
+        {
+          "q": "Where did the narrator find the old tape recorder?",
+          "options": ["Under the fish stall", "In Grandpa's drawer", "In the school music room", "In Grandma's tofu box"],
+          "answer": 1,
+          "explain": "第1句 \"I found an old tape recorder in Grandpa's drawer\"，录音机是在爷爷抽屉里找到的。"
+        },
+        {
+          "q": "Who was the brightest vocalist on the tape?",
+          "options": ["Old Zhou", "The bread man", "Grandma Lin", "The fish man"],
+          "answer": 2,
+          "explain": "第6句 \"Grandma Lin was the brightest vocalist on my tape\"，磁带上最亮的主唱是林奶奶。"
+        },
+        {
+          "q": "What did the office do about the old rule against loud morning music?",
+          "options": ["It made the rule stricter", "It forgot the rule for a year", "It revoked the rule last spring", "It sold the rule to the sellers"],
+          "answer": 2,
+          "explain": "第9句 \"the sellers asked together, and the office revoked the old rule\"，去年春天管理处撤销了这条老规定。"
+        },
+        {
+          "q": "Why did the old woman cry a little when she heard the tape?",
+          "options": ["Because the tape was broken", "Because it evoked the memory of her young husband", "Because the fish man sang too fast", "Because she could not buy tofu anymore"],
+          "answer": 1,
+          "explain": "第12句 \"I can hear my young husband's voice inside the fish man's call\"，磁带唤起了她对年轻丈夫的回忆，所以落泪。"
+        },
+        {
+          "q": "In sentence 8, \"the market taught him a whole new vocabulary of sounds,\" the word \"vocabulary\" means ______.",
+          "options": ["a box of old tapes", "a set of words or sounds of a place", "a kind of morning song", "a book of old maps"],
+          "answer": 1,
+          "explain": "第8句。词根 voc- 表示\"声音、词语\"，vocabulary 是一门语言或地方的\"词语库\"，这里是市场一整套声音。"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "最后一个清晨",
+      "sentences": [
+        { "en": "In spring, a white notice came up on the old wall of the market street, and it said that the whole street would be rebuilt into something new, something tall, and something without tofu stalls.", "zh": "春天，市场街的老墙上贴出一张白告示，说整条街要改造，改成崭新的、高高的、没有豆腐摊的东西。" },
+        { "en": "All the stalls had to move away by the end of May, and the sellers stood in front of the notice and read it again and again in long silence.", "zh": "所有摊位得在五月末之前搬走，摊主们站在告示跟前，一遍又一遍地读，久久没人说话。" },
+        { "en": "Grandma Lin felt sad for many days after that, but she never stopped her vocal call, not even on the coldest morning of that April.", "zh": "那之后林奶奶难受了好些天，可她的叫卖声一天也没停过，连那个四月最冷的早晨也没停。" },
+        { "en": "\"The tofu is still warm, and the street is still ours until the very last day,\" she said to me, and her bright voice never went down.", "zh": "\"豆腐还热着，到最后一天之前，这条街还是咱们的。\"她对我说，那副亮嗓一直没有低下去。" },
+        { "en": "On the last morning, every seller came earlier than ever before, and they greeted each other with cordial nods, like old friends meeting at a small, quiet festival.", "zh": "最后一个清晨，每个摊主都来得比往常更早，彼此热络地点头致意，像老朋友在一个安静的小节日里相逢。" },
+        { "en": "Old Zhou encouraged everyone to sing one last song together, and even the shy bread man, who had never sung in his life, said yes with a red face.", "zh": "老周鼓励大家最后合唱一首歌，连一辈子没开过口的害羞的面包师傅都红着脸应了声好。" },
+        { "en": "The fish seller and the vegetable seller, who once quarreled about water on the floor, now stood side by side in perfect accord, shoulder to shoulder.", "zh": "曾经为地上积水吵过一架的鱼贩子和菜贩子，如今肩并肩站在一起，和和气气，一条心。" },
+        { "en": "All the sellers sang the closing call together, and their many different voices found one warm concord in the fresh morning air.", "zh": "所有摊主齐声唱起了收摊的调子，那么多各不相同的嗓音，在清晨的新鲜空气里汇成了一片暖和的和声。" },
+        { "en": "The song was not perfect — somebody came in late, and somebody sang too high — but the empty street became their last quiet audience.", "zh": "歌唱得并不完美——有人进晚了，有人唱高了——可空下来的街道，成了他们最后一位安静的听众。" },
+        { "en": "That song needed more courage than any solo, because to sing together, you must open your heart to all your neighbors.", "zh": "唱那首歌需要的勇气比任何独唱都多，因为要一起唱，就得把自己的心向所有街坊敞开。" },
+        { "en": "I stood on Grandma's little wooden stool and held the tape recorder up high, and I recorded every note of the song, from the first to the very last.", "zh": "我踩上奶奶的小木凳，把录音机高高举起来，从第一个音到最后一个音，一个不落地录了下来。" },
+        { "en": "When the song ended, the sellers looked at each other for a long minute, and then they packed their stalls in a slow, gentle silence, folding the old cloths like flags.", "zh": "歌声结束后，摊主们彼此对望了好一阵，然后在一阵缓慢而轻柔的安静里收拾摊位，把旧苫布像旗子一样叠好。" },
+        { "en": "Grandma took my hand and said, \"We will find a new street, and the street will find us, because singing people are never really lost.\"", "zh": "奶奶牵起我的手说：\"我们会找到一条新街，新街也会找到我们，会唱歌的人是不会真正走散的。\"" },
+        { "en": "Now, when we play the old tape at home, it evokes the whole street again: the wet steam, the round stones, and every warm voice singing together.", "zh": "如今在家里一放那盘旧磁带，整条街就又回来了：湿漉漉的白汽、圆圆的石板，还有所有暖和的嗓音在一起唱。" }
+      ],
+      "questions": [
+        {
+          "q": "What did the white notice in spring say?",
+          "options": ["The market street would be rebuilt into something new", "The market would open every Sunday", "The tofu price would double", "A new singer would come to the street"],
+          "answer": 0,
+          "explain": "第1句 \"the whole street would be rebuilt into something new\"，告示说整条街要改造。"
+        },
+        {
+          "q": "Who encouraged everyone to sing one last song together?",
+          "options": ["Grandma Lin", "The fish seller", "Old Zhou", "Grandpa Fu"],
+          "answer": 2,
+          "explain": "第6句 \"Old Zhou encouraged everyone to sing one last song together\"，是老周鼓励大家合唱的。"
+        },
+        {
+          "q": "How did the sellers sing the closing call that morning?",
+          "options": ["One by one, in turns", "Only in pairs", "In whispers", "Together, in one warm concord"],
+          "answer": 3,
+          "explain": "第8句 \"their many different voices found one warm concord in the fresh morning air\"，大家的嗓音汇成了一片暖和的和声。"
+        },
+        {
+          "q": "Why did the song need more courage than any solo?",
+          "options": ["Because the song was very long", "Because singing together means opening your heart to your neighbors", "Because nobody knew the words", "Because the street was too cold"],
+          "answer": 1,
+          "explain": "第10句 \"to sing together, you must open your heart to all your neighbors\"，合唱要把心向所有街坊敞开，所以比独唱更需要勇气。"
+        },
+        {
+          "q": "In sentence 8, \"their many different voices found one warm concord,\" the word \"concord\" means ______.",
+          "options": ["a state of harmony and agreement", "a kind of solo song", "a sad goodbye", "a loud quarrel"],
+          "answer": 0,
+          "explain": "第8句。词根 cord- 表示\"心\"：con-(共同)+cord(心)→多颗心走到一起→和声、和睦。"
+        }
+      ]
+    }
+  ]
+}

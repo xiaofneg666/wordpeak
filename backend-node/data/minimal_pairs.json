@@ -1,0 +1,20 @@
+[
+  { "id": 1, "level": 2, "a": { "word": "ship", "ipa": "/ʃɪp/", "zh": "船" }, "b": { "word": "sheep", "ipa": "/ʃiːp/", "zh": "羊" }, "focus": "ɪ vs iː 长短", "hint": "ɪ 短促下巴略低,iː 拉长嘴角咧开" },
+  { "id": 2, "level": 2, "a": { "word": "bad", "ipa": "/bæd/", "zh": "坏的" }, "b": { "word": "bed", "ipa": "/bed/", "zh": "床" }, "focus": "æ vs e 开口度", "hint": "æ 嘴张大到能竖着塞两指,e 只能塞一根" },
+  { "id": 3, "level": 2, "a": { "word": "full", "ipa": "/fʊl/", "zh": "满的" }, "b": { "word": "fool", "ipa": "/fuːl/", "zh": "傻瓜" }, "focus": "ʊ vs uː", "hint": "ʊ 短且松弛,uː 长且唇撮圆收紧" },
+  { "id": 4, "level": 3, "a": { "word": "think", "ipa": "/θɪŋk/", "zh": "想" }, "b": { "word": "sink", "ipa": "/sɪŋk/", "zh": "下沉" }, "focus": "θ vs s", "hint": "θ 舌尖伸出轻咬,s 舌尖抵下齿" },
+  { "id": 5, "level": 1, "a": { "word": "they", "ipa": "/ðeɪ/", "zh": "他们" }, "b": { "word": "day", "ipa": "/deɪ/", "zh": "天" }, "focus": "ð vs d", "hint": "ð 舌尖在齿间,d 舌尖抵齿龈" },
+  { "id": 6, "level": 3, "a": { "word": "vest", "ipa": "/vest/", "zh": "背心" }, "b": { "word": "west", "ipa": "/west/", "zh": "西方" }, "focus": "v vs w", "hint": "v 上齿咬下唇,w 双唇拢圆不碰齿" },
+  { "id": 7, "level": 2, "a": { "word": "work", "ipa": "/wɜːrk/", "zh": "工作" }, "b": { "word": "walk", "ipa": "/wɔːk/", "zh": "走路" }, "focus": "ɜː vs ɔː", "hint": "ɜː 舌居中不圆唇,ɔː 嘴拢圆" },
+  { "id": 8, "level": 2, "a": { "word": "cat", "ipa": "/kæt/", "zh": "猫" }, "b": { "word": "cut", "ipa": "/kʌt/", "zh": "切" }, "focus": "æ vs ʌ", "hint": "æ 前嘴张大,ʌ 中部松弛短促" },
+  { "id": 9, "level": 1, "a": { "word": "cheap", "ipa": "/tʃiːp/", "zh": "便宜" }, "b": { "word": "jeep", "ipa": "/dʒiːp/", "zh": "吉普车" }, "focus": "tʃ vs dʒ 清浊", "hint": "手放喉咙:dʒ 振动,tʃ 不振动" },
+  { "id": 10, "level": 1, "a": { "word": "sue", "ipa": "/suː/", "zh": "起诉" }, "b": { "word": "zoo", "ipa": "/zuː/", "zh": "动物园" }, "focus": "s vs z 清浊", "hint": "z 声带振动像蜂鸣,s 只有气流" },
+  { "id": 11, "level": 3, "a": { "word": "light", "ipa": "/laɪt/", "zh": "灯" }, "b": { "word": "right", "ipa": "/raɪt/", "zh": "对的" }, "focus": "l vs r", "hint": "l 舌尖抵上齿龈,r 舌尖卷起不触任何地方" },
+  { "id": 12, "level": 3, "a": { "word": "thin", "ipa": "/θɪn/", "zh": "薄的" }, "b": { "word": "tin", "ipa": "/tɪn/", "zh": "锡罐" }, "focus": "θ vs t", "hint": "θ 齿间摩擦,t 齿龈爆破" },
+  { "id": 13, "level": 1, "a": { "word": "van", "ipa": "/væn/", "zh": "面包车" }, "b": { "word": "fan", "ipa": "/fæn/", "zh": "风扇" }, "focus": "v vs f 清浊", "hint": "v 声带振动,f 只有气流,唇齿位置相同" },
+  { "id": 14, "level": 1, "a": { "word": "coat", "ipa": "/koʊt/", "zh": "外套" }, "b": { "word": "goat", "ipa": "/goʊt/", "zh": "山羊" }, "focus": "k vs g 清浊", "hint": "g 声带振动,k 不振动" },
+  { "id": 15, "level": 2, "a": { "word": "bet", "ipa": "/bet/", "zh": "打赌" }, "b": { "word": "bat", "ipa": "/bæt/", "zh": "蝙蝠" }, "focus": "e vs æ", "hint": "e 半开,æ 全开" },
+  { "id": 16, "level": 2, "a": { "word": "not", "ipa": "/nɒt/", "zh": "不" }, "b": { "word": "note", "ipa": "/noʊt/", "zh": "笔记" }, "focus": "短音 vs magic-e 长音", "hint": "词尾 e 让 o 从短 ɒ 变成双元音 oʊ" },
+  { "id": 17, "level": 2, "a": { "word": "pull", "ipa": "/pʊl/", "zh": "拉" }, "b": { "word": "pool", "ipa": "/puːl/", "zh": "泳池" }, "focus": "ʊ vs uː", "hint": "同 full/fool,pull 短松,pool 长紧" },
+  { "id": 18, "level": 1, "a": { "word": "chair", "ipa": "/tʃer/", "zh": "椅子" }, "b": { "word": "share", "ipa": "/ʃer/", "zh": "分享" }, "focus": "tʃ vs ʃ", "hint": "tʃ 先爆破后摩擦,ʃ 直接摩擦(少个 t 动作)" }
+]

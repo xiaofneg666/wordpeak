@@ -1,0 +1,267 @@
+{
+  "id": "lib-water",
+  "title": "水的旅程：从雪山到水龙头",
+  "en_title": "The Journey of Water",
+  "author": "WordVerse Archive",
+  "region": "science",
+  "level": 3,
+  "one_line": "一滴水从雪线到水龙头的漫长旅程。",
+  "word_focus": ["hydro", "duct", "fer", "cur"],
+  "chapters": [
+    {
+      "no": 1,
+      "title": "雪线之上：一滴水的出生地",
+      "sentences": [
+        { "en": "Every drop of water in your glass began its journey long before anyone thought of building a faucet, long before the first fishermen raised their huts beside its rivers, and long before any human language had a word for a river.", "zh": "你杯子里的每一滴水，早在有人想到造水龙头之前，早在第一批渔夫在河边搭起棚屋之前，早在任何人类语言为河流造出一个词之前，就已经开始了旅程。" },
+        { "en": "The water we drink today belongs to a hydrosphere that has circulated the planet for over four billion years, falling as rain onto stone-age deserts, sliding under glaciers that came and went, and passing again and again through the bodies of animals nobody has ever named.", "zh": "我们今天喝的水，属于一个已在地球上循环四十多亿年的水圈：它曾作为雨落进石器时代的荒漠，曾在来来去去的冰川下潜行，也曾一次次穿过那些从未被命名的动物的身体。" },
+        { "en": "In each molecule, two hydrogen atoms bond with one oxygen atom in a bent shape that behaves like a tiny magnet, and that small magnetic character explains almost everything about water: why it climbs, why it dissolves, and why it refuses to behave like nearly every other liquid on Earth.", "zh": "在每个水分子里，两个氢原子与一个氧原子结合成一个弯曲的形状，像一枚微小的磁铁；正是这点磁性解释了水的几乎一切：它为什么会攀爬、为什么会溶解、为什么执意不肯像地球上几乎所有其他液体那样安分。" },
+        { "en": "That hydrogen is older than the Earth itself, because it was forged in the first minutes after the Big Bang, long before the first star was born; the oxygen in each molecule arrived much later, cooked inside dying stars and scattered across space by the explosions that ended them.", "zh": "那些氢比地球本身更古老——它们在大爆炸后的最初几分钟里铸成，比第一颗恒星的诞生还要早；每个分子里的氧则姗姗来迟，是在垂死的恒星内部烹制，又随终结那些恒星的爆炸撒遍太空。" },
+        { "en": "Most of the planet's freshwater is stored not in rivers, where people imagine it, but in glaciers and ice sheets above the snow line; if you could melt every mountain of that ancient ice at once, sea levels would climb higher than a ten-storey building in most coastal cities.", "zh": "地球上的淡水大部分并不存于人们想象中的河流，而在雪线之上的冰川和冰盖之中；如果你能把那一片片古老冰山一次性融化，多数沿海城市的海平面会涨得比十层楼还高。" },
+        { "en": "A glacier is not a frozen statue but a slow river of ice, transferring the winter snow of high peaks toward the valleys at speeds of a few centimetres or, in rare cases, a few metres per day; sheep could outwalk the fastest of them, yet nothing in the landscape can stop their patient, grinding journey.", "zh": "冰川并非一尊冻住的雕像，而是一条缓慢的冰河：它以每天几厘米、个别情况几米的速度，把高峰的冬雪运往山谷。羊都走得比最快的冰川快，可这片山水中，没有什么能拦住它们耐心碾磨的行程。" },
+        { "en": "Each spring, melting snow produces a white current of meltwater that feeds the rivers below and refills the groundwater under the fields, so that wells dug by grandfathers continue to offer their cool water in August; farmers refer to this gift as the white season, the quiet engine of the valleys.", "zh": "每年春天，融雪产出一股白色的融水径流，滋养山下的河流，也灌满田野之下的地下水；于是祖父们打下的井，到了八月仍能献上凉水。农民把这份馈赠称作\"白色的季节\"——山谷安静的动力。" },
+        { "en": "Scientists refer to the lowest altitude where snow survives the summer as the snow line, and that line is climbing year after year; where grandfathers learned to ski as boys, their grandchildren now walk among grass and black stones, and the maps drawn a century ago quietly turn into fiction.", "zh": "科学家把积雪能熬过夏天而不化的最低海拔称为雪线，而这条线正在一年年上移；祖父们小时候学滑雪的地方，孙辈如今走在草丛与黑石之间，一百年前绘制的地图正悄悄变成小说。" },
+        { "en": "In the Alps and the Himalayas, glaciers are now retreating at speeds absent from the written chronicle of human history; monks who have photographed the same ice face every summer for fifty years offer the clearest record, and their pictures differ from each other more with every passing decade.", "zh": "在阿尔卑斯山和喜马拉雅山，冰川正以人类文字记载中从未见过的速度消退。五十年来每个夏天都拍摄同一面冰壁的修道院，留下了最清晰的记录——而照片之间的差异，每过十年就更大一些。" },
+        { "en": "Communities that depend on glacier-fed rivers will suffer shortages during the dry months long before the ice disappears completely, because the dangerous years are not the final ones but the peak-melt ones, when the sick glacier produces a flood of extra water and everyone mistakes the warning for a gift.", "zh": "依赖冰川补水的社区，早在冰完全消失之前就会在旱季吃缺水的苦头；因为危险的年头并不是最后的年头，而是融水峰值期——那时病弱的冰川产出额外的洪水，人人却把警报错当成礼物。" },
+        { "en": "The melting also reduces the bright white surface that once reflected sunlight back into space and kept the planet cooler; every square kilometre of ice that turns to dark rock or blue water absorbs heat instead, so the melting produces more melting, a circle that scientists can measure but not switch off.", "zh": "融化还削减了那层曾把阳光反射回太空、让地球更凉快白色地表；每有一平方公里冰变成暗色的岩石或蓝色的海水，就多吸收一分热量——于是融化催生更多融化，一个科学家能测量、却关不掉的循环。" },
+        { "en": "Hydroelectric stations, which prefer steady flows, must adjust their output as the rhythm of the seasons grows less predictable, and planners who once referred to \"average years\" now admit that no such year will occur again; the currency of mountain water, once so reliable, has turned speculative.", "zh": "偏爱稳定水流的水电站，不得不随着季节节律日益难测而调整出力；规划者们过去常提\"平均年份\"，如今承认这样的年份再也不会出现了——山区之水这份一度可靠的货币，已经变成投机品。" },
+        { "en": "Our journey begins here, where a single drop sits inside a crack of ancient blue ice, compressed by decades of snowfall, waiting for a morning sun that is arriving earlier and striking harder than any morning in the long memory of the mountain.", "zh": "我们的旅程从这里开始：一滴水正待在古老蓝冰的一道裂缝里，被几十年的落雪压实，等待一个清晨的太阳——而在大山漫长的记忆里，从来没有哪轮朝阳来得这么早、晒得这么狠。" }
+      ],
+      "questions": [
+        {
+          "q": "Where is most of the planet's freshwater stored?",
+          "options": ["In rivers and lakes", "In glaciers and ice sheets above the snow line", "In clouds and rainfall", "In underground city pipes"],
+          "answer": 1,
+          "explain": "第5句明确说淡水大部分\"并不存于人们想象中的河流，而在雪线之上的冰川和冰盖之中\"。"
+        },
+        {
+          "q": "When was the hydrogen in water molecules formed?",
+          "options": ["Inside ancient glaciers", "During the first minutes after the Big Bang", "By modern treatment plants", "In the Earth's core"],
+          "answer": 1,
+          "explain": "第4句：氢在大爆炸后的最初几分钟里铸成，比地球和第一颗恒星都古老。"
+        },
+        {
+          "q": "What is happening to the snow line?",
+          "options": ["It stays fixed year after year", "It is moving downward", "It is climbing higher year after year", "It has completely vanished"],
+          "answer": 2,
+          "explain": "第8句：\"这条线正在一年年上移\"，孙辈只能在草丛与黑石间行走。"
+        },
+        {
+          "q": "Why does the author call the peak-melt years \"the dangerous ones\"?",
+          "options": ["Because the glacier finally disappears then", "Because the extra water looks like a gift but is really a warning of coming shortages", "Because floods destroy all the maps", "Because sheep can no longer outwalk the ice"],
+          "answer": 1,
+          "explain": "第10句：病弱的冰川在融水峰值期产出额外的洪水，\"人人却把警报错当成礼物\"——旱季的缺水还在后头（推断）。"
+        },
+        {
+          "q": "The words refer and transfer both derive from the Latin root fer (\"to carry\"). Which sentence pairs them naturally?",
+          "options": ["Farmers refer to the meltwater as the white season, while the glacier transfers snow toward the valleys", "Monks refer to maps, while photographs transfer heat", "Planners refer to currency, while stations transfer sheep", "Scientists refer to fiction, while rivers transfer magnets"],
+          "answer": 0,
+          "explain": "第6句冰川\"把高峰的冬雪运往山谷\"（transfer），第7句农民把融水称作\"白色的季节\"（refer）——两个词同属词根 fer（带来、搬运）。"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "高架渠：引水的文明",
+      "sentences": [
+        { "en": "Long before pumps existed, engineers discovered that gravity alone could conduct water across hills and valleys without any engine; if the source sat a little higher than the city, the water would walk downhill forever, patient as a mule and far cheaper to feed.", "zh": "在水泵问世很久之前，工程师就发现：仅凭重力，不用任何机器，就能引导水翻山越谷。只要水源比城市高那么一点，水就会永远往低处走——像头有耐心的骡子，而且喂养成本低得多。" },
+        { "en": "Ancient Rome eventually operated eleven aqueducts, whose combined channels stretched more than five hundred kilometres toward the city, and their construction occupied generations of surveyors, stone-cutters and bricklayers whose names never entered any chronicle, although their work still stands in the Italian sun.", "zh": "古罗马最终运转着十一条高架渠，渠道总长超过五百公里，一路通向城里；修筑它们耗尽了测量员、凿石匠与砌砖匠的几代人——他们的名字从未进入任何编年史，作品却至今立在意大利的阳光下。" },
+        { "en": "Most of that distance ran underground, because open channels would suffer heavy losses from evaporation, mud, and theft along the way; a buried channel keeps its water cool, clean and honest, and the same argument is used today by engineers who prefer tunnels to canals.", "zh": "其中大部分路段在地下，因为明渠会因蒸发、淤泥和沿途偷水而损失惨重；埋在地下的水渠让水保持凉爽、洁净、诚实——而今天更偏爱隧道而非明渠的工程师，用的还是这套理由。" },
+        { "en": "Where a valley was too wide to cross, builders erected arched bridges that we now call viaducts, close cousins of the water channels themselves; the arch transferred every load downward into its own legs, turning gravity from an enemy into a partner and letting every stone squeeze its neighbours into one self-supporting curve.", "zh": "遇到过宽的山谷，工匠便架起拱桥——也就是我们今天所说的高架桥，与水渠本身是近亲；拱把每一分荷载都传进自己的双腿，把重力从敌人变成盟友，让每块石头都把邻石挤成一个自撑的弧。" },
+        { "en": "The Pont du Gard in southern France, nearly fifty metres tall, conducted water across the Gardon valley for centuries with a slope so gentle that the eye cannot see it — barely twenty-four centimetres of fall along its top tier, a precision achieved with plumb lines, water clocks and endless patience.", "zh": "法国南部的加尔桥高近五十米，曾有几个世纪之久引水跨过加尔东河谷，坡度平缓到肉眼无法察觉——顶层全程落差仅约二十四厘米，靠铅垂线、水钟和无尽的耐心达到这样的精度。" },
+        { "en": "The Romans did not invent the aqueduct — earlier versions occurred in Assyria, Greece and Egypt — but they introduced standard designs that spread with their armies across the empire, so that a bathhouse in Spain and a fountain in Syria often conducted water through channels built to exactly the same imperial plan.", "zh": "高架渠并非罗马人发明——更早的样式已在亚述、希腊和埃及出现过——但罗马人引入了标准设计，随军团传遍帝国；于是西班牙的浴场与叙利亚的喷泉，常常按同一份帝国图纸铺设的渠道引水。" },
+        { "en": "In the capital, the water was conducted into public baths, ornamental fountains, and the private houses of a privileged few, and it arrived under enough pressure to play in the gardens; ordinary citizens collected their share at public basins, where the queue offered news, gossip and a thin kind of politics.", "zh": "在都城，水被引入公共浴场、观赏喷泉，以及少数特权者的私宅，抵达时的压力足以在花园里喷涌嬉戏；普通市民则在公共水盆前接自己的一份——排队的队伍里附送新闻、闲话，和一种薄薄的政治。" },
+        { "en": "Frontinus, the official appointed to run Rome's water supply, wrote a technical handbook so careful that it still survives, and in it he referred to the aqueducts as the most solemn testimony of the empire's greatness — he counted every pipe, exposed every illegal connection, and never once doubted that water was worth the arithmetic.", "zh": "弗龙蒂努斯受命管理罗马供水，他写下一部严谨到今天仍有传本的技术手册；书里他把高架渠称作\"帝国伟大最庄严的证词\"。他清点每一根管道，揪出每一处私接，且从不怀疑水值得这份算术。" },
+        { "en": "Modern megacities face the same ancient problem, though their materials and scales differ enormously from cut stone and lead pipe; a metropolis of twenty million people cannot drink from a river that runs beside it, and so it must introduce water from reservoirs hundreds of kilometres away.", "zh": "现代特大城市面对的是同一个古老问题，尽管材料与规模早已和条石铅管天差地别；一座两千万人的都市没法只靠身旁流过的那条河解渴，于是必须从几百公里外的水库引水。" },
+        { "en": "China's South-to-North Water Diversion Project has transferred more than sixty billion cubic metres of water since operations began in 2014, conducting it through pipes and channels that offer the dry north a share of the wet south; the scheme remains, by any measure, the largest plumbing work in human history.", "zh": "自2014年通水以来，中国南水北调工程已调水超过六百亿立方米，通过管渠把湿润南方的一份水分给干旱的北方；无论以什么尺度衡量，它都是人类历史上最大的\"管道工程\"。" },
+        { "en": "Pipes, tunnels, pumps and enormous pumping stations now conduct water across distances and up heights that Roman engineers could not have imagined; water climbs over mountain ranges in the Andes and the California Sierras, pushed by machines that never sleep, and it arrives in taps a thousand kilometres from any natural spring.", "zh": "如今管道、隧道与巨型泵站输送水的高度与距离，远超罗马工程师的想象；在安第斯山与加州内华达山脉，水被从不睡觉的机器推着翻过分水岭，抵达离任何天然泉上千公里外的水龙头。" },
+        { "en": "The principle, however, has not changed at all: move water from where it occurs naturally to where people prefer to live, and let the city grow where the view is good rather than where the water is; every civilization, from the Assyrians to the engineers of Beijing, has concurred on this single sentence.", "zh": "但原则丝毫未变：把水从它自然出现的地方送到人们更愿意居住的地方，让城市长在风景好、而不是水源好的位置——从亚述人到北京的工程师，每一种文明都赞成这句话。" },
+        { "en": "Our drop, now travelling through a steel pipe wider than a Roman road, has joined that long human argument; it occurs in one place, is wanted in another, and the distance between the two is crossed at the speed of a modern pump.", "zh": "我们这滴水，此刻正行进在一条比罗马道路还宽的钢管里，加入了这场漫长的人类争论：它出现在此地，被需要于彼方，而两地之间的距离，正以现代水泵的速度跨越。" }
+      ],
+      "questions": [
+        {
+          "q": "How many aqueducts did ancient Rome eventually operate?",
+          "options": ["Five", "Eight", "Eleven", "Twenty"],
+          "answer": 2,
+          "explain": "第2句给出史实：\"十一条高架渠，渠道总长超过五百公里\"。"
+        },
+        {
+          "q": "Why did most Roman channels run underground?",
+          "options": ["To hide them from enemies", "To avoid losses from evaporation, mud, and theft along the way", "Because arches were forbidden", "Because Romans feared floods"],
+          "answer": 1,
+          "explain": "第3句：明渠会\"因蒸发、淤泥和沿途偷水而损失惨重\"，所以大部分路段埋在地下。"
+        },
+        {
+          "q": "How much water has the South-to-North project transferred since 2014?",
+          "options": ["More than six billion cubic metres", "More than sixty billion cubic metres", "More than six hundred billion cubic metres", "Less than one billion cubic metres"],
+          "answer": 1,
+          "explain": "第10句：\"中国南水北调工程已调水超过六百亿立方米\"，自2014年通水起算。"
+        },
+        {
+          "q": "Frontinus counted every pipe and exposed every illegal connection. What can we infer about how Rome managed its water?",
+          "options": ["Water supply was run with meticulous seriousness, worth careful records and enforcement", "Rome relied on luck and prayer", "Nobody in Rome was interested in water accounts", "Illegal connections were encouraged among the rich"],
+          "answer": 0,
+          "explain": "第8句：他的手册流传至今，他称高架渠为\"帝国伟大最庄严的证词\"，\"从不怀疑水值得这份算术\"——可见罗马以严谨的记录与执法管理供水（推断）。"
+        },
+        {
+          "q": "The Latin root duct (\"to lead\") appears in conduct, aqueduct and viaduct. In sentence 1, what does gravity's power to \"conduct water\" mean?",
+          "options": ["To perform music about water", "To lead and guide water along a path downhill", "To boil water safely", "To sell water to a city"],
+          "answer": 1,
+          "explain": "第1句：重力\"就能引导水翻山越谷\"，conduct 在此意为引导、输送——duct（引导）这一词根同样出现在第2句 aqueducts 和第4句 viaducts 中。"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "净水厂：一杯自来水的诞生",
+      "sentences": [
+        { "en": "Before it reaches your tap, the drop passes through a treatment plant built to remove whatever the river carried with it — leaves, silt, the quiet chemistry of farms, and a long list of smaller trespassers; the plant is a factory whose product happens to be one of the oldest substances in the universe.", "zh": "在抵达你家水龙头之前，这滴水会穿过一座净水厂，去除河水随身带来的一切——树叶、淤泥、农田里安静的化学，还有一长串更细小的不速之客；这座厂是一家工厂，而它的产品恰好是宇宙中最古老的物质之一。" },
+        { "en": "In the first stage, coagulant chemicals are introduced into the raw water, making tiny mud particles cling together into clumps heavy enough to sink; the dose is not guessed but calculated, because an overdose would simply produce new problems while the old ones were still waiting.", "zh": "第一步向原水投加混凝剂，让细小的泥粒彼此吸附，结成足以沉降的大絮团；投加量不靠猜而靠算，因为药剂一旦过量，旧问题还没解决，新问题已经先冒出来了。" },
+        { "en": "In wide, silent basins, these clumps settle slowly to the bottom, a stage that engineers call sedimentation; the water just sits there for hours, like a student revising before an exam, and by the end of its long stillness most of its dirt has quietly given up.", "zh": "在宽阔而安静的水池里，絮团缓缓沉到池底，工程师把这个阶段叫作沉淀；水就那样静坐几个小时，像考前复习的学生——漫长的静止结束时，它大部分的污浊都已悄悄缴械。" },
+        { "en": "The water then drains downward through beds of sand and anthracite, where filtration removes particles far too small for the eye; each grain of sand offers its own tiny surface, and a cloud of clean water is the reduced, concentrated result of a million small refusals.", "zh": "随后水向下穿过砂床与无烟煤滤层，过滤掉肉眼根本看不见的微粒；每一粒砂都献出自己小小的表面，而一杯清亮的出水，正是无数次细小拒绝之后被浓缩、被简化的结果。" },
+        { "en": "At last a measured dose of chlorine, or a flash of ultraviolet light, disinfects the water, reducing the risk of waterborne disease to nearly nothing; children drink from fountains, hospitals run on taps, and nobody in the city recites a prayer before breakfast, which is exactly what the disinfection stage earned for them.", "zh": "最后，定量投加的氯，或者紫外线的短暂一闪，完成消毒，把水源疾病的风险降到几乎为零；孩子们对着饮水器喝，医院全靠水龙头运转，城里没人在早餐前默念祷文——这正是消毒环节为他们挣来的日常。" },
+        { "en": "Plant inspectors do not sip the water to test it; instead they measure how easily it conducts an electrical current, because an instrument is cheaper than a stomach and far more willing to repeat its opinion a thousand times a day.", "zh": "厂里的检验员并不靠品尝来检测水质，而是测量水传导电流的难易——毕竟仪器比胃便宜，而且一天愿意把同一意见重复一千次。" },
+        { "en": "Nearly pure water is a poor conductor, so a sudden jump in conductivity suggests that dissolved salts have entered the supply — perhaps from a broken seal, perhaps from a farm upstream — and the sensors refer that jump to a control room within seconds.", "zh": "接近纯的水是不良导体，因此电导率骤升往往说明有溶解盐混进了供水——也许来自一处破损的密封，也许来自上游的农田——传感器会在几秒内把这一跳上报给控制室。" },
+        { "en": "Every hour, samples are transferred to laboratories, where analysts test for metals, bacteria and acidity before the water is released; the results are reduced to plain numbers on a public report that any citizen can read online for free, because a treatment plant that nobody understands cannot be trusted by anybody.", "zh": "每小时都有水样被送往实验室，放行之前，分析员要检测金属、细菌与酸碱度；检测结果最终浓缩成公开报告上的几个数字，任何市民都能在网上免费查阅——因为一座没人看得懂的净水厂，也就没人信得过。" },
+        { "en": "What leaves the plant is a manufactured product, no longer the river water that first entered through the intake gates; the difference is not philosophical but chemical, and it can be written as a list of substances the plant removed one by one from the drop's long cargo.", "zh": "从厂里流出的是一件加工过的产品，不再是当初从取水口进来的河水；这差别不是玄学而是化学，可以写成一张清单——净水厂从这滴水的漫长行李中，一样一样取走了那些东西。" },
+        { "en": "Educating the public about these steps matters, because trust in tap water decides whether people drink it or buy bottles; a city can produce excellent water and still watch its citizens prefer plastic, which is why many plants now offer open days, school visits and honest tours of the basins.", "zh": "向公众讲清楚这些步骤很重要，因为对自来水的信任，决定了人们是喝它，还是去买瓶装水；一座城市可以把水做得非常好，却眼看着市民更偏爱塑料瓶——所以如今许多水厂开始提供开放日、学校参观，以及诚实的池体导览。" },
+        { "en": "In the Netherlands, some plants produce drinking water without any chlorine at all, letting the water filter naturally through dunes for weeks instead; the slow sand does the work that chemicals would do faster, and many Dutch customers refer to the result, only half joking, as dune champagne.", "zh": "在荷兰，有些水厂完全不用氯，而是让水在沙丘中自然过滤数周来产出饮用水；慢吞吞的砂做了化学药剂本可以更快做完的事，而许多荷兰用户半开玩笑地把成品叫作\"沙丘香槟\"。" },
+        { "en": "Other countries experiment with membranes, ultraviolet arrays and slow carbon beds, but every process offers the same quiet promise: whatever the river offers us in the morning, the evening tap will not offer it back unaltered, and the plant is the translator between those two sentences.", "zh": "别的国家试验膜滤、紫外阵列与慢速碳床，但每种工艺许下的都是同一句安静的承诺：早晨河流送来什么，傍晚的水龙头都不会原样奉还——而净水厂，就是这两句话之间的翻译。" },
+        { "en": "Our drop, now crystal clear and faintly chlorinated, leaves the basins behind and enters the dark network of pipes that runs beneath the streets of the city, where it will travel for hours toward a kitchen it has never seen.", "zh": "这滴水如今清澈透亮、带着淡淡的氯味，告别水池，钻进城市街道底下那片幽暗的管网——它将在那里走上几个小时，去往一间它从未见过的厨房。" }
+      ],
+      "questions": [
+        {
+          "q": "What happens during sedimentation?",
+          "options": ["Coagulant chemicals are added to the water", "Clumps settle to the bottom of wide, silent basins for hours", "Chlorine kills the remaining bacteria", "Sand beds remove the finest particles"],
+          "answer": 1,
+          "explain": "第3句：絮团在宽阔安静的水池里\"缓缓沉到池底\"，水静坐数小时，工程师称之为沉淀。加药是第一步（第2句），过滤在其后（第4句）。"
+        },
+        {
+          "q": "Why do inspectors measure conductivity instead of sipping the water?",
+          "options": ["Nearly pure water is a poor conductor, so a jump reveals dissolved salts in the supply", "To check the temperature of the water", "To measure how fast the water flows", "To count bacteria in each sample"],
+          "answer": 0,
+          "explain": "第6句检验员不品尝，改测导电性；第7句：\"接近纯的水是不良导体\"，电导率骤升即说明溶解盐混入。"
+        },
+        {
+          "q": "How do some Dutch plants avoid chlorine entirely?",
+          "options": ["They boil the water for hours", "They let it filter naturally through dunes for weeks", "They add chlorine only at night", "They import bottled water instead"],
+          "answer": 1,
+          "explain": "第11句：荷兰有些水厂\"让水在沙丘中自然过滤数周\"，成品被戏称为\"沙丘香槟\"。"
+        },
+        {
+          "q": "Why do many plants now offer open days, school visits and tours of the basins?",
+          "options": ["Because a plant that nobody understands cannot be trusted, and trust decides tap versus bottles", "Because the law requires public lectures", "Because they need more workers", "Because tourists pay well"],
+          "answer": 0,
+          "explain": "第10句：\"一座城市可以把水做得非常好，却眼看着市民更偏爱塑料瓶\"，因此向公众讲清工艺、赢得信任（推断其动机）。"
+        },
+        {
+          "q": "The Latin root duct (\"to lead\") plus pro- (\"forward\") gives product — literally something led forth. In sentence 9, what is the plant's product?",
+          "options": ["The river's raw water at the intake gates", "The manufactured, treated water that leaves the plant", "The mud removed from the basins", "The plastic bottles in the shops"],
+          "answer": 1,
+          "explain": "第9句：\"从厂里流出的是一件加工过的产品\"，第1句也说净水厂是一家工厂，产品恰好是宇宙中最古老的物质之一——pro-（向前）+ duct（引导）→ 引出来的东西 → 产品。"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "管网深处：漏与灌",
+      "sentences": [
+        { "en": "Beneath the streets, the drop travels through hundreds of kilometres of pipe, much of it older than the people it serves; some networks contain sections laid in the nineteenth century, and a few of those iron veterans still conduct water to taps that did not exist when they were buried.", "zh": "街道之下，这滴水要穿过数百公里的管道，其中不少管龄比它所服务的人还老；有些管网里还留着十九世纪铺的管段，几条铁铸的老兵至今仍把水送到它们下葬时不曾存在的水龙头。" },
+        { "en": "In many aging networks, more than a quarter of the treated water is lost before it ever reaches a single customer; the city pays to filter, pump and disinfect every drop, and then watches a considerable fraction of that expensive product seep quietly back into the ground.", "zh": "在许多老旧管网里，超过四分之一的成品水还没送到任何一户人家，就已经漏掉了；城市花钱过滤、加压、消毒每一滴水，然后眼睁睁看着这份昂贵产品里相当大的一部分，悄悄渗回地底。" },
+        { "en": "Some leaks announce themselves as flooded basements and sudden holes in the road, but far more occur silently for years, wasting water that nobody counts; a broken pipe under a park can lose a swimming pool a day and never once appear on any bill or map.", "zh": "有的漏水会以地下室进水、路面突现大洞的方式宣告自己，但更多的漏水默默发生多年，浪费着无人统计的水；公园地下一根破裂的管道，一天能漏掉一整座游泳池，却从不出现在任何账单或地图上。" },
+        { "en": "Utilities now infer the location of hidden leaks from data gathered by pressure sensors and acoustic loggers fixed to the pipes; at three in the morning, when honest households sleep and dishonest meters sit still, the loggers listen for the thin hiss of water escaping into the dark.", "zh": "水务公司如今靠数据推断暗漏的位置——贴在管壁上的压力传感器和听漏仪昼夜采集；凌晨三点，诚实的住户已入睡，不老实的水表也安静下来，听漏仪正竖着耳朵，捕捉水逃进黑暗时那细细的嘶声。" },
+        { "en": "When night-time flow in one district does not match what the meters predicted, the difference itself becomes evidence of a crack, and a crew is transferred to the spot before the street above it learns anything; the inference is rarely perfect, but it is far cheaper than digging up the whole city on suspicion.", "zh": "一旦某片区深夜的流量与水表模型预测不符，这个差额本身就成为裂隙的证据，抢修队会在头顶的街道察觉任何动静之前就被调往现场；这样的推断不总是精准，却远比凭怀疑把全城刨个遍便宜。" },
+        { "en": "Above ground, the picture differs completely, because irrigation consumes roughly seventy percent of the freshwater humanity withdraws each year; every litre that runs through a city tap is dwarfed, in the global ledger, by the litres that pour across fields of wheat, rice and cotton.", "zh": "地面之上则是另一番景象：人类每年抽取的淡水中，约七成都耗在了农业灌溉上；翻开全球的账本，城市水龙头里流过的每一升，都被倾泻在麦田、稻田与棉田上的公开数压得抬不起头。" },
+        { "en": "Drip systems can reduce waste dramatically compared with fields flooded from open canals, where much of the water simply evaporates before any root can prefer it; the difference between a damp stem and a drowned field is worth entire reservoirs in a dry summer.", "zh": "与靠明渠漫灌、任水还没等任何根偏爱它就大量蒸发的田地相比，滴灌能把浪费大幅减少；在旱夏，\"湿润的茎秆\"与\"淹死的田\"之间的差别，抵得上好几座水库。" },
+        { "en": "The world's most fertile plains, from the Nile delta to the Punjab, were built by rivers that transferred silt season after season; the same floods that suffered a bad reputation among town-dwellers were quietly producing the soil that fed them, a bargain nobody designed and nobody can now afford to end.", "zh": "世界上最肥沃的平原，从尼罗河三角洲到旁遮普，都是河流一季又一季搬来淤泥堆成的；那些在城里人心里名声很坏的洪水，正悄悄造出养活他们的土壤——一桩没人设计、如今也没人赔得起去终止的交易。" },
+        { "en": "Farmers apply fertilizer to sustain high yields, but the same rain that offers the fields a drink can transfer the surplus into rivers, where it feeds toxic blooms of algae; the water suffers twice, once in the field and once in the channel, and the bill is offered downstream.", "zh": "农民施用肥料来维持高产，可同一场给田地送水的雨，也能把多余的部分搬进河流，喂出有毒的藻华；水受了两次苦——一次在田里，一次在河道里——而账单被递到下游。" },
+        { "en": "Such blooms recur every warm summer, and they are occurring more often as the climate keeps warming; each bloom consumes the river's oxygen at night, and each morning can offer the shore a carpet of dead fish as a kind of receipt.", "zh": "这样的藻华每个暖夏都会重现，而且随着气候持续变暖，出现得愈发频繁；每场藻华都会在夜里耗尽河水的氧气，而每一个早晨，都可能把一滩死鱼铺上河岸，像某种回执。" },
+        { "en": "In dry regions, the question of whose preference for water should prevail returns to the courts every single decade, because every river is a conference of competing claims — cities against farms, fish against turbines, the present against the future — and the referee owns a wooden desk rather than a hydrological model.", "zh": "在干旱地区，谁对水的偏好应当优先的问题，每隔十年就会重新回到法庭；因为每条河都是一场各执一词、彼此竞争的主张大集会——城市对农田、鱼对水轮机、现在对未来——而裁判手里握的是一张木桌，而不是水文模型。" },
+        { "en": "Hydrologists largely concur on the diagnosis: fixing leaks is the cheapest new source of water available to any city, cheaper than a new reservoir, cheaper than a desalination plant, and far cheaper than waiting until the dry years occur; the disagreement, where it exists, is only about who should pay for the repair.", "zh": "水文学家们对诊断基本一致：修好漏水，就是任何一座城市能找到的最便宜的新水源——比新建水库便宜，比海水淡化厂便宜，更比干等到旱年到来便宜得多；就算有分歧，也只是该由谁掏修理费。" },
+        { "en": "Our drop leaves the pipe network and joins a sewer, beginning the last stage of its long excursion through the city; what it conducted on the way in — cleanliness, pressure, trust — it will now hand over, downstream and in the dark, to a different kind of plant.", "zh": "这滴水离开管网，汇入下水道，开始它穿越这座城市的漫长旅程的最后一段；它一路引来的东西——洁净、压力、信任——如今要在下游的黑暗里，移交给另一种工厂。" }
+      ],
+      "questions": [
+        {
+          "q": "How much treated water is lost in many aging networks?",
+          "options": ["Less than one percent", "More than a quarter", "About half of it", "Nearly all of it"],
+          "answer": 1,
+          "explain": "第2句：\"超过四分之一的成品水还没送到任何一户人家，就已经漏掉了\"。"
+        },
+        {
+          "q": "How do utilities locate hidden leaks?",
+          "options": ["Divers inspect every pipe by hand", "They infer locations from sensor data and night-time flow mismatches", "Customers must report every leaking tap", "They replace the entire network each year"],
+          "answer": 1,
+          "explain": "第4句：靠压力传感器与听漏仪的数据\"推断暗漏的位置\"；第5句：深夜流量的差额\"本身就成为裂隙的证据\"。"
+        },
+        {
+          "q": "Roughly what share of humanity's withdrawn freshwater goes to irrigation?",
+          "options": ["About ten percent", "About thirty percent", "About seventy percent", "About ninety-five percent"],
+          "answer": 2,
+          "explain": "第6句：\"人类每年抽取的淡水中，约七成都耗在了农业灌溉上\"。"
+        },
+        {
+          "q": "What can we infer about the floods from the Nile and Punjab example?",
+          "options": ["They were pure disasters with no benefit", "Despite their bad reputation among town-dwellers, they quietly built the fertile soil that fed those towns", "They were first designed by ancient engineers", "They stopped transferring silt decades ago"],
+          "answer": 1,
+          "explain": "第8句：洪水\"在城里人心里名声很坏\"，却\"正悄悄造出养活他们的土壤\"——名声与功用相反，这是需要推断的关系。"
+        },
+        {
+          "q": "\"Such blooms recur every warm summer\" — the word recur means:",
+          "options": ["To happen for the first time", "To happen again and again", "To disappear completely", "To move to another river"],
+          "answer": 1,
+          "explain": "第10句：藻华\"每个暖夏都会重现\"（recur），前缀 re-（再次）+ 词根 cur（跑、发生）→ 反复发生。"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "归海：最后一程与水的重现",
+      "sentences": [
+        { "en": "The sewer carries our drop not away but around, toward a treatment plant that most citizens will never see and would prefer not to discuss; yet this unloved building conducts the most important recycling on the planet, and its work begins the moment your bath stops singing.", "zh": "下水道载着这滴水并非去往远方，只是绕行，去一座大多数市民永远不会看见、也宁愿不谈的污水处理厂；然而这座不受待见的建筑，主持着地球上最重要的循环，而它的工作，从你浴缸停止唱歌的那一刻开始。" },
+        { "en": "There, bacteria are offered a banquet of dissolved waste, and they spend hours digesting it inside vast aerated tanks that bubble like grey champagne; the plant feeds its guests oxygen so that they never suffer for appetite, and in return they remove nearly everything the city put into the water.", "zh": "在那里，细菌获得一场溶解态废弃物的盛宴，在冒着灰色香槟般气泡的巨大曝气池里，花上几个小时把它吃干净；厂子给客人们供足氧气，让它们的胃口从不受委屈，作为回报，客人们几乎吃掉城市倒进水里的一切。" },
+        { "en": "Solids settle out, pathogens are disinfected with the same care a drinking plant would use, and the cleaned water is finally conducted back toward the river or the sea; in well-run systems the discharge is cleaner than the river that receives it, a fact that surprises people every single time.", "zh": "固体沉降，病原以饮用水厂级别的细致被消灭，净化后的水最终被引回河流或大海；在运转良好的系统里，出厂水比接纳它的河水更干净——这个事实每一次都让人吃惊。" },
+        { "en": "In Singapore, a program called NEWater purifies treated sewage into drinking water so carefully that it meets up to forty percent of national demand; the city-state refers to every drop as precious, not because its engineers differ from others, but because it has no rivers wide enough to be careless with.", "zh": "在新加坡，名为NEWater的项目把处理后的污水净化成饮用水，精细到最高满足全国四成的用水需求；这个城市国家称每一滴水都珍贵，不是因为它的工程师与别人有何不同，而是因为它没有一条河宽到容得下粗心。" },
+        { "en": "Public resistance to reused water is cultural rather than chemical, because the product is often cleaner than the river it returns to; the difficulty occurs in the imagination, where a drop retains the memory of its journey long after any laboratory can offer evidence that the memory is gone.", "zh": "公众对再生水的抗拒来自文化而非化学，因为这产品往往比它要回归的河流更干净；难处发生在想象里——在那里，一滴水始终保留着对旅程的记忆，哪怕实验室早已拿出证据，证明那记忆已荡然无存。" },
+        { "en": "Whatever its route, every drop sooner or later rejoins the ocean, where sunlight will dehydrate it back into invisible vapour; the same energy that lifts it from the waves once lifted it from the skin of a dinosaur, and will lift it again from a puddle outside a school.", "zh": "无论走哪条路，每一滴水迟早汇入海洋，阳光会把它重新脱水成看不见的水汽；这份把它从浪尖托起的能量，曾从一只恐龙的皮肤上托起过它，将来也会从学校外的水洼里再次托起它。" },
+        { "en": "Winds carry the vapour for days across oceans and continents, and when it cools over land, the water is returned as rain; farmers who refer to the weather as bad luck are, without knowing it, describing a delivery service that never closes and almost never misses a coast.", "zh": "风带着水汽在大洋与大陆上空走上数日，一旦在内陆上空遇冷，水便以雨的形式归还大地；把天气说成倒霉的农民，其实正在不知不觉地描述一家从不打烊、几乎从不误送海岸的快递。" },
+        { "en": "Water is the planet's oldest currency, circulating endlessly among clouds, rivers, oceans and living bodies without ever losing value; no bank prints it, no government debases it, and every transaction in four billion years has occurred at a perfectly stable exchange rate of one drop for one drop.", "zh": "水是这颗行星最古老的货币，在云、河、海与活着的身体之间无尽流通，从不贬值；没有银行印刷它，没有政府让它掺水贬值，四十亿年来的每一笔交易，都按一滴兑一滴的完美固定汇率成交。" },
+        { "en": "This cycle has recurred for four billion years, which means almost no water molecule on Earth is truly new; the hydrosphere is closed, nothing truly leaves it, and nothing new is added in any meaningful amount, so the glass you hold tonight is a second-hand shop of very old goods.", "zh": "这个循环已重演四十亿年，意味着地球上几乎没有一个水分子是真正\"新\"的；水圈是封闭的：没有什么真正离开它，也没有什么以有意义的量被新添进来——所以你今夜举起的杯子，是一家装满陈年旧货的二手店。" },
+        { "en": "It is a strange but sound inference: in your glass, some molecules almost certainly passed through a living dinosaur, and others through the boiling springs where life first occurred; drinking water is therefore a kind of family reunion, although the relatives never send cards.", "zh": "这是一个奇怪却站得住的推断：你杯中的水，几乎必然有一些曾流过某只活着的恐龙，另一些曾流过生命最初涌现的那几处滚烫的温泉；因此，喝水是一场家族团圆——只是亲戚们从不寄贺卡。" },
+        { "en": "The same closed circle explains why hydration is never a purchase but always a borrowing: when you hydrate after a long run, you are rejoining a cycle older than every mountain range on Earth, and the loan will be repaid, with interest, within about ten days.", "zh": "同一个闭环也解释了为什么补水从来不是购买，而永远是借贷：当你长跑后补水，你正重新加入一个比地球上任何山脉都古老的循环，而这笔贷款连本带息，大约十天内就会还清。" },
+        { "en": "Whatever a city conducts through its aqueducts, pipes and taps, the hydrosphere remains the only true owner of the goods, and it lends them to every civilization at the same gentle interest rate it charged the Assyrians and will charge whoever comes after us.", "zh": "无论一座城市用高架渠、管道和水龙头输送什么，水圈始终是这批货物唯一真正的主人；它以当年对亚述人收取的同一种温和利率，把水借给每一种文明，也将借给在我们之后到来的任何人。" },
+        { "en": "The journey of water is not a line but a circle, and your glass is simply where the circle passes today; tomorrow the same drop may occur in a cloud above the Pacific, in a rice field, or in the tears of somebody who has never heard of your city — and it will not remember you, which is perhaps the gentlest fact in all of science.", "zh": "水的旅程不是一条直线，而是一个圆；你的杯子，不过是这个圆今天恰好经过的地方。明天，同一滴水也许出现在太平洋上空的云里、一片稻田里、或某个从没听说过你这座城的人的泪水中——而它不会记得你，这也许是全部科学里最温柔的一个事实。" }
+      ],
+      "questions": [
+        {
+          "q": "What happens inside the vast aerated tanks of a treatment plant?",
+          "options": ["Bacteria digest the dissolved waste, fed with oxygen so their appetite never suffers", "Chlorine is added to the water", "Sand filters the last particles", "The water is pumped to Singapore"],
+          "answer": 0,
+          "explain": "第2句：细菌\"获得一场溶解态废弃物的盛宴\"，厂子供足氧气，\"作为回报，客人们几乎吃掉城市倒进水里的一切\"。"
+        },
+        {
+          "q": "NEWater can meet up to how much of Singapore's water demand?",
+          "options": ["Four percent", "Fourteen percent", "Forty percent", "Eighty percent"],
+          "answer": 2,
+          "explain": "第4句：NEWater把处理后的污水净化成饮用水，\"最高满足全国四成的用水需求\"。"
+        },
+        {
+          "q": "Why is public resistance to reused water called cultural rather than chemical?",
+          "options": ["Because the product is often cleaner than the river it returns to; the difficulty occurs in the imagination", "Because reused water contains more salt", "Because chemists refuse to test it", "Because the law forbids drinking it"],
+          "answer": 0,
+          "explain": "第5句：再生水\"往往比它要回归的河流更干净\"，难处\"发生在想象里\"——一滴水在想象中保留旅程的记忆。"
+        },
+        {
+          "q": "Why does the author call the dinosaur claim a sound inference?",
+          "options": ["Because dinosaurs were recently rediscovered", "Because the hydrosphere is closed and the cycle has recurred for four billion years, so old molecules must circulate among all drinkers", "Because laboratories found dinosaur DNA in water", "Because the Bible mentions it"],
+          "answer": 1,
+          "explain": "第9句：\"循环已重演四十亿年\"且水圈封闭；第10句据此推断：\"你杯中的水，几乎必然有一些曾流过某只活着的恐龙\"。"
+        },
+        {
+          "q": "\"Sunlight will dehydrate it back into invisible vapour\" — the word dehydrate means:",
+          "options": ["To fill something with water", "To remove water from something", "To freeze something solid", "To heat a bath"],
+          "answer": 1,
+          "explain": "第6句：阳光把海水\"脱水成看不见的水汽\"；前缀 de-（去掉）+ 词根 hydro（水）→ 除去水分。同根词还有第9句的 hydrosphere（水圈）。"
+        }
+      ]
+    }
+  ]
+}

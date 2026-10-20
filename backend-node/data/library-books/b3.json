@@ -1,0 +1,340 @@
+{
+  "id": "lib-orchard-almanac",
+  "title": "爷爷的果园年历",
+  "en_title": "Grandpa's Orchard Almanac",
+  "author": "WordVerse Archive",
+  "region": "literary",
+  "level": 2,
+  "one_line": "孙女把爷爷四十年的果园年记，整理成一册新的年历。",
+  "word_focus": ["ann", "bio", "terr", "form"],
+  "chapters": [
+    {
+      "no": 1,
+      "title": "剪枝与堆肥",
+      "sentences": [
+        { "en": "In early spring, Xiao took the slow train back to her grandfather's orchard, carrying an empty notebook and a head full of city noise.", "zh": "早春，晓坐慢车回到爷爷的果园，带着一个空本子和满脑子的城市噪音。" },
+        { "en": "Grandpa Chen was waiting at the gate with two pairs of pruning shears, one large and one small.", "zh": "陈爷爷提着两把修枝剪等在园门口，一把大，一把小。" },
+        { "en": "\"A tree is like a sentence,\" Grandpa said. \"If a branch does not help the meaning, you cut it out.\"", "zh": "“树就像一个句子，”爷爷说，“哪根枝帮不上句子的意思，就把它剪掉。”" },
+        { "en": "Xiao followed him between rows of pear trees that had fruited for sixty years.", "zh": "晓跟着他在梨树间穿行，这些树已经结了六十年的果。" },
+        { "en": "Their trunks were gray and bent, like old men who had learned to bow before weather.", "zh": "树干灰而弯曲，像学会了在天气面前低头的老人。" },
+        { "en": "They were perennial trees, he explained; they woke up every spring without being told, and they remembered winter in their rings.", "zh": "他解释说，这些是多年生的树：每年春天不用谁提醒就会醒来，把冬天记在自己的年轮里。" },
+        { "en": "Pruning, he said, was not destruction but direction: you removed the crowded branches so light and air could reach the inside.", "zh": "他说，剪枝不是破坏，是指方向：剪掉过密的枝条，光和空气才进得去树心。" },
+        { "en": "The terrain of the orchard rose in soft steps, and each step held a different kind of tree.", "zh": "果园的地势一级级缓缓抬升，每一级台阶种着不同的树。" },
+        { "en": "On the lowest step the soil was heavy and wet, so the apples there grew slowly and kept longest.", "zh": "最低一级的土又黏又湿，那儿的苹果长得慢，却存得最久。" },
+        { "en": "On the south-facing shelf of the hill, the pears turned sweet weeks before the others.", "zh": "朝南的山坡上，梨比别人早几个星期就甜了。" },
+        { "en": "\"Read the land like a page,\" he said. \"It has been writing to us for sixty years.\"", "zh": "“把土地当书页来读，”他说，“它已经写了六十年给我们看。”" },
+        { "en": "Xiao had grown up in the city and never read a hill this way before.", "zh": "晓在城里长大，从没这样读过一座山。" },
+        { "en": "By noon the ground was covered with fallen twigs.", "zh": "到中午，地上落满了剪下的细枝。" },
+        { "en": "Everything went into the compost pit at the lower edge of the orchard, where last year's leaves were already becoming next year's soil.", "zh": "所有的细枝都进了果园下坡处的堆肥坑，去年的落叶在那儿正慢慢变成明年的土。" },
+        { "en": "\"Everything here is biodegradable,\" Grandpa said. \"The leaves, the fruit, even the rope. Give them time and they will all turn back into earth.\"", "zh": "“这儿样样都可降解，”爷爷说，“叶子、果子，连绳子都是。给它们时间，它们都会变回泥土。”" },
+        { "en": "Compost had a formula, he insisted: three parts brown, one part green, and a certain amount of patience.", "zh": "他坚持说堆肥有配方：三份褐色，一份绿色，再加一定分量的耐心。" },
+        { "en": "Xiao dug her fingers in and found the compost warm, crawling with beetles and threads of white fungus.", "zh": "晓把手指插进去，堆肥是暖的，爬满甲虫和白色的菌丝。" },
+        { "en": "\"That is biology at its most patient,\" Grandpa said. \"Nothing is wasted, and everything is transformed.\"", "zh": "“这就是最耐心的生物学，”爷爷说，“没有废物，一切都在转化。”" },
+        { "en": "She took off her gloves and let the warm earth hold her hands for a while.", "zh": "她摘掉手套，让暖烘烘的泥土握了会儿她的手。" },
+        { "en": "She helped him turn the pile with a wooden fork, and the steam that rose smelled of rain and sweetness.", "zh": "她帮他用木叉翻堆，升起的蒸汽闻起来像雨，又带点甜。" },
+        { "en": "In the evening, his knees cracked like the ladders, and he laughed at the sound.", "zh": "傍晚，他的膝盖像木梯一样咔咔响，他自己被这声音逗笑了。" },
+        { "en": "Inside the house, they ate noodles with the last jar of pickled pears, and the kitchen smelled like every winter of her childhood.", "zh": "屋里，他们吃面条，就着最后一罐糖渍梨，厨房的味道像她童年的每一个冬天。" },
+        { "en": "He opened a worn notebook with a green cover and wrote one line in it: spring, pruning done.", "zh": "他翻开一本绿皮的旧笔记，写下一行：春，剪枝毕。" },
+        { "en": "The pages were soft and brown at the edges, like the leaves they described.", "zh": "纸页边缘又软又黄，像它们描写的那些叶子。" },
+        { "en": "He had kept this annual record for forty years, one thin page for every spring.", "zh": "这样的年度记录他记了四十年，每年春天薄薄一页。" },
+        { "en": "\"A notebook is a formation,\" he told her. \"One year is a word. Forty years make a sentence.\"", "zh": "“本子是一种构造，”他告诉她，“一年是一个词，四十年连成一个句子。”" }
+      ],
+      "questions": [
+        {
+          "q": "What does Grandpa compare a tree to?",
+          "options": ["A building", "A sentence", "A river", "A machine"],
+          "answer": 1,
+          "explain": "第3句 \"A tree is like a sentence... If a branch does not help the meaning, you cut it out.\"，他把树比作一个句子。"
+        },
+        {
+          "q": "What was Grandpa's compost formula?",
+          "options": ["Equal parts of everything", "Three parts brown, one part green, and patience", "Only green leaves", "Half soil and half water"],
+          "answer": 1,
+          "explain": "第16句 \"three parts brown, one part green, and a certain amount of patience\"，三份褐色、一份绿色，再加耐心。"
+        },
+        {
+          "q": "How long has Grandpa kept his annual record?",
+          "options": ["Six years", "Twenty years", "Forty years", "Sixty years"],
+          "answer": 2,
+          "explain": "第25句 \"He had kept this annual record for forty years, one thin page for every spring.\"，四十年，每年一页。"
+        },
+        {
+          "q": "In 第15句, Grandpa says everything in the orchard is \"biodegradable.\" The root bio means life, so biodegradable things are things that . . .",
+          "options": ["can be broken down by living things and return to the earth", "can be sold at the market", "grow only in spring", "must be burned in winter"],
+          "answer": 0,
+          "explain": "第15句：给它们时间，叶子和果子都会“变回泥土”；bio（生命）+ degrade（分解）→ 能被生物分解的。"
+        },
+        {
+          "q": "What does Grandpa mean by \"Read the land like a page\" (第11句)?",
+          "options": ["The hill is good for reading books outdoors", "The terrain carries information — where to plant, what to expect — learned from sixty years of farming", "He wants Xiao to write poems about the hill", "The land must be flattened before planting"],
+          "answer": 1,
+          "explain": "第8-11句：每一级台阶种不同的树、朝南的坡最甜——地形象一页写满经验的书，告诉他们怎么种树。"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "不打药的夏天",
+      "sentences": [
+        { "en": "In July the orchard hummed like a small engine, and every day became a biology lesson.", "zh": "七月，果园嗡嗡响得像一台小发动机，每天都成了一堂生物课。" },
+        { "en": "Xiao came back for two weeks of her summer holiday and slept in the room that still had her childhood drawings on the wall.", "zh": "晓回来过两周暑假，睡在墙上还贴着她童年涂鸦的房间。" },
+        { "en": "One morning she found the young shoots covered with aphids, small green insects moving like slow rain.", "zh": "一天早晨，她发现新梢爬满蚜虫，绿色的小虫像慢镜头的雨一样挪动。" },
+        { "en": "She ran to Grandpa with a bottle of spray from the shop in town.", "zh": "她拿着从镇上小店买的一瓶药水跑去找爷爷。" },
+        { "en": "He refused it the way he refused loud arguments, gently and completely.", "zh": "他拒绝它，像拒绝大声吵架一样：温和，而彻底。" },
+        { "en": "\"A healthy orchard does not fight its pests,\" he said. \"It balances them.\"", "zh": "“健康的果园不跟虫开战，”他说，“它只跟虫保持平衡。”" },
+        { "en": "Years ago he had bought one antibiotic spray, used it once, and regretted it for three seasons.", "zh": "多年前他买过一瓶抗生素药水，用了一次，后悔了三个季节。" },
+        { "en": "The spray killed the aphids, he explained, but it also killed the small hunters that kept the aphids down.", "zh": "他解释说，药杀了蚜虫，也把压制蚜虫的小小猎手们一起杀了。" },
+        { "en": "Instead, he planted flowers between the rows to invite wasps and hoverflies, natural hunters of aphids.", "zh": "于是他在树行间种花，请来蚜虫的天敌——胡蜂和食蚜蝇。" },
+        { "en": "Within two weeks the green shoots were clean again, and the flowers looked like small yellow flags of victory.", "zh": "两周之内，绿梢又干净了，那些花像一面面黄色的小小胜利旗帜。" },
+        { "en": "Ladybugs patrolled the leaves, and spiders set up small territorial webs between the branches.", "zh": "瓢虫在叶面上巡逻，蜘蛛在枝头织出各自划地盘的小网。" },
+        { "en": "A wren scolded them from the fence, then went back to its own hunting.", "zh": "一只鹪鹩在篱笆上骂了他们几句，又回去忙自己的猎事。" },
+        { "en": "Each spider defended its own corner, and Grandpa never pulled a web down.", "zh": "每只蜘蛛守着自己的角落，爷爷从不拆掉任何一张网。" },
+        { "en": "Below the grass, earthworms rebuilt the soil; he called them his subterranean engineers, quiet workers of the dark.", "zh": "草皮之下，蚯蚓翻修着泥土；他叫它们“地下工程师”，黑暗里安静的工人。" },
+        { "en": "\"What we have here is symbiosis,\" he said one evening, pointing with his teacup.", "zh": "“我们这儿有的是共生，”一天傍晚他举着茶杯指点着说。" },
+        { "en": "\"Different lives helping each other stay alive. The flowers feed the hunters, the hunters guard the fruit, the fruit feeds us.\"", "zh": "“不同的生命互相帮衬着活下去：花喂养猎手，猎手守护果子，果子养活我们。”" },
+        { "en": "Grandpa called the whole hillside a small biosphere, a world that fed and guarded itself.", "zh": "爷爷管整面山坡叫一个小生物圈——一个自己养活自己、自己守卫自己的世界。" },
+        { "en": "He read the terrain like a newspaper he had been subscribing to for sixty years.", "zh": "他读地形，像读一份订了六十年的报纸。" },
+        { "en": "The south-facing slope always grew the sweetest fruit, because the sun spent more hours there.", "zh": "朝南的坡上果子最甜，因为太阳在那儿待的钟头最多。" },
+        { "en": "The north side was colder and damper, so he had planted the hardier trees there, and they thanked him in their quiet way every autumn.", "zh": "北坡又冷又潮，他就把更耐活的树种在那边；每年秋天，树都用自己的方式悄悄道谢。" },
+        { "en": "That summer Xiao counted eleven kinds of birds, six kinds of bees, and one shy hedgehog that came for water at dusk.", "zh": "那个夏天，晓数出十一种鸟、六种蜜蜂，还有一只怕生的刺猬，黄昏时分来喝水。" },
+        { "en": "She gave the hedgehog a name, Mo, and Mo came every evening at the same time, punctual as a train.", "zh": "她给刺猬起了个名字，叫“小墨”；小墨每天同一时刻到，准得像火车。" },
+        { "en": "She wrote the numbers in her notebook and drew small, serious diagrams of spider webs.", "zh": "她把数字记进本子，还画下一张张认真严肃的蛛网图。" },
+        { "en": "\"Biodiversity is not a word for books,\" Grandpa said. \"It is this orchard's immune system.\"", "zh": "“生物多样性不是书上的词，”爷爷说，“是这片果园的免疫系统。”" },
+        { "en": "\"When one kind of life has trouble, another kind stands up and covers for it.\"", "zh": "“哪一种日子不好过了，另一种日子就站起来替它顶班。”" },
+        { "en": "No tree was sprayed that year, and still almost every apple survived.", "zh": "那年一棵树也没打药，苹果却几乎个个保住了。" },
+        { "en": "The apples were smaller that year, Grandpa admitted, but they tasted like apples, not like fear.", "zh": "爷爷承认，那年的苹果小了些，可它们吃起来是苹果味，不是害怕的味道。" },
+        { "en": "In the city, Xiao had thought nature was a park you visited; here she learned it was a family you belonged to.", "zh": "在城里，晓以为自然是一座去逛的公园；在这里她明白，自然是一个你从属的家。" }
+      ],
+      "questions": [
+        {
+          "q": "Why did Grandpa regret using the antibiotic spray years ago?",
+          "options": ["It was too expensive", "It killed the aphids but also killed the small hunters that kept the aphids down", "It made the fruit taste sweet", "The shop refused to sell it again"],
+          "answer": 1,
+          "explain": "第7-8句：他用了一次就后悔了三个季节——药也“把压制蚜虫的小小猎手们一起杀了”。"
+        },
+        {
+          "q": "What did Grandpa plant between the rows, and why?",
+          "options": ["Vegetables, to sell at the market", "Flowers, to invite wasps and hoverflies that hunt aphids", "Young trees, to replace the old ones", "Grass, to keep the soil dry"],
+          "answer": 1,
+          "explain": "第9句 \"he planted flowers between the rows to invite wasps and hoverflies, natural hunters of aphids\"，种花是为了请来蚜虫的天敌。"
+        },
+        {
+          "q": "How did Grandpa explain symbiosis?",
+          "options": ["A war between species that ends with one winner", "A chemical process inside the soil", "Different lives helping each other stay alive", "A way to make fruit sweeter"],
+          "answer": 2,
+          "explain": "第15-16句 \"Different lives helping each other stay alive\"，共生就是不同的生命互相帮衬着活下去。"
+        },
+        {
+          "q": "In 第14句, the earthworms are called \"subterranean engineers.\" The root terr means earth or land, so subterranean means . . .",
+          "options": ["high up in the mountains", "under the ground", "from another planet", "near the seaport"],
+          "answer": 1,
+          "explain": "第14句：sub-（在下面）+ terr（土地）→ 地面之下；蚯蚓就是黑暗里的“地下工程师”。"
+        },
+        {
+          "q": "What did Xiao learn about nature by the end of that summer?",
+          "options": ["Nature is a park people visit on weekends", "Nature is a family you belong to, where lives help each other", "Farming always needs chemical sprays", "City life is healthier than orchard life"],
+          "answer": 1,
+          "explain": "第28句：在城里她以为自然“是一座去逛的公园”，在这里她明白自然“是一个你从属的家”。"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "百年老树",
+      "sentences": [
+        { "en": "October arrived, and the whole orchard leaned toward the ground with the weight of fruit.", "zh": "十月一到，满园的果树被果子压得向地面弯下腰。" },
+        { "en": "Xiao came back on the night train, and the smell of ripe pears met her at the station.", "zh": "晓坐夜车回来，熟梨的香味在车站就迎上了她。" },
+        { "en": "Wooden ladders stood along the rows like a small formation waiting for orders.", "zh": "木梯沿树行排开，像一支待命的小小队列。" },
+        { "en": "She picked with both hands, and her basket filled faster than she could count.", "zh": "她两只手一起摘，篮子装得比她数得还快。" },
+        { "en": "The terrain was gentle at the bottom of the hill and steep near the top.", "zh": "山脚的地势平缓，山顶附近却陡了起来。" },
+        { "en": "On the steep rows they picked slowly, passing the fruit hand to hand like a bucket chain.", "zh": "陡坡上他们摘得慢，果子手递手地传下来，像一条传水桶的长队。" },
+        { "en": "By noon the whole hillside smelled like jam that had not been cooked yet.", "zh": "到中午，整面山坡闻起来像还没下锅的果酱。" },
+        { "en": "Grandpa Chen moved along the branches with the patience of a man reading his own handwriting.", "zh": "陈爷爷在枝间移动，带着一个人读自己笔迹的耐心。" },
+        { "en": "At the hilltop stood the oldest tree, planted by Grandpa's grandfather in 1921.", "zh": "山顶上立着最老的那棵树，是爷爷的祖父一九二一年种下的。" },
+        { "en": "It had passed its centennial years ago; its trunk was wide as a door, and its roots held half the hill.", "zh": "这棵树的百岁生日早已过去；树干有一扇门那么宽，根抓住半座山。" },
+        { "en": "Grandpa called it the family's annals, because its rings recorded every hard and generous year.", "zh": "爷爷叫它“家里的编年史”——每一圈年轮都记着荒年与丰年。" },
+        { "en": "\"This one remembers the dry summer of 1972 and the great storm of 1998,\" he said, touching the bark like an old friend's shoulder.", "zh": "“它记得一九七二年的旱夏，也记得一九九八年的那场大风，”他拍着树皮，像拍老朋友的肩膀。" },
+        { "en": "\"A hundred years is nothing for a tree,\" he added. \"Give it a millennium and it is still a young one.\"", "zh": "“一百年对树来说不算什么，”他又说，“给它一千年，它也还算年轻。”" },
+        { "en": "Below them, the valley had been transformed from summer green to harvest gold.", "zh": "山下，谷地已经从夏天的绿变成了收获的金。" },
+        { "en": "Smoke rose from the village, and a radio played news that nobody listened to.", "zh": "村子里升起炊烟，收音机播着没人听的新闻。" },
+        { "en": "Under the old tree they ate lunch with pears, bread, and cold tea in a thermos.", "zh": "他们在老树下吃午饭：梨、面包，还有保温壶里的凉茶。" },
+        { "en": "\"Your great-grandmother sat here too,\" Grandpa said, \"with the same view of the valley and probably the same appetite.\"", "zh": "“你的太奶奶也在这儿坐过，”爷爷说，“看的是同一片谷地，胃口估计也一样。”" },
+        { "en": "The words made Xiao quiet; the tree connected her to people she had never met.", "zh": "这句话让晓安静下来；这棵树把她和从未见过面的人连在了一起。" },
+        { "en": "She pressed her palm against the bark and felt sixty years of family shade.", "zh": "她把手掌贴上树皮，摸到了六十年家族的荫凉。" },
+        { "en": "For the family photo that afternoon, Grandpa put on his formal jacket, the brown one with two buttons missing.", "zh": "下午拍全家福，爷爷换上他那件正式的旧外套，棕色的，少了两颗扣子。" },
+        { "en": "The photo shows the whole hill: twenty people, one dog, and the old tree filling the sky behind them.", "zh": "照片里是整面山坡：二十个人，一条狗，老树在身后撑满整个天空。" },
+        { "en": "The neighbors laughed and said he dressed like the tree was getting married.", "zh": "邻居们笑说，他这打扮，像这棵树要结婚了。" },
+        { "en": "A cold current came down the hill at dusk, and Grandpa called it winter's precursor.", "zh": "黄昏，一股冷风顺坡而下，爷爷说，那是冬天的先遣。" },
+        { "en": "\"The first frost is three weeks away,\" he said. \"The pears know it already; they always ripen before the warning.\"", "zh": "“初霜还有三个星期，”他说，“梨早就知道了；它们总在警告之前就熟透。”" },
+        { "en": "That evening the neighbors helped load ninety-six boxes, the best harvest in ten years.", "zh": "当晚邻居们来帮忙装车，九十六箱，十年里最好的收成。" },
+        { "en": "The neighbors took boxes home in exchange for laughter and promises to return for the cider.", "zh": "邻居们抱着箱子回家，留下满院子笑声，还有回来喝苹果酒的承诺。" },
+        { "en": "In his ledger, Grandpa wrote the annual total in his careful, patient hand: 96 boxes, best year since 2019.", "zh": "爷爷在账本里用工整耐心的笔迹写下年度总数：九十六箱，二〇一九年以来最好的一年。" },
+        { "en": "Then he went out and, standing in the dark, thanked the hill in a voice too low for anyone to hear.", "zh": "然后他走到屋外，站在黑暗里，用低得谁也听不见的声音谢了谢这座山。" }
+      ],
+      "questions": [
+        {
+          "q": "Who planted the oldest tree at the top of the hill?",
+          "options": ["Grandpa himself", "Grandpa's grandfather in 1921", "The neighbors together", "Xiao's great-grandmother"],
+          "answer": 1,
+          "explain": "第9句 \"planted by Grandpa's grandfather in 1921\"，是爷爷的祖父一九二一年种下的。"
+        },
+        {
+          "q": "Why did Grandpa call the old tree the family's annals?",
+          "options": ["Because it was worth a lot of money", "Because its rings recorded every hard and generous year", "Because it was planted on his birthday", "Because it grew the sweetest pears"],
+          "answer": 1,
+          "explain": "第11句 \"because its rings recorded every hard and generous year\"，年轮记着荒年与丰年。"
+        },
+        {
+          "q": "What did Grandpa call the cold current that came down the hill at dusk?",
+          "options": ["Autumn's greeting", "Winter's precursor", "The orchard's breath", "A sign of rain"],
+          "answer": 1,
+          "explain": "第23句 \"A cold current came down the hill at dusk, and Grandpa called it winter's precursor\"，那是冬天的先遣。"
+        },
+        {
+          "q": "In 第13句, Grandpa says, \"Give it a millennium and it is still a young one.\" How long is a millennium?",
+          "options": ["Ten years", "A hundred years", "A thousand years", "A million years"],
+          "answer": 2,
+          "explain": "第13句：centennial（第10句）是百年，millennium 是它的十倍——一千年；词根 ann 意为“年”。"
+        },
+        {
+          "q": "Why did Xiao go quiet under the old tree?",
+          "options": ["She was tired from picking fruit all morning", "The tree connected her to family members she had never met, and she felt part of their long line", "She did not like the cold tea", "Grandpa asked her to be quiet"],
+          "answer": 1,
+          "explain": "第17-19句：太奶奶也坐过这里，树“把她和从未见过面的人连在了一起”，她摸着树皮感受到六十年家族的荫凉。"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "地窖与账本",
+      "sentences": [
+        { "en": "When the first snow came, the orchard went quiet, and the work moved underground.", "zh": "初雪落下，果园静了，活计转到了地下。" },
+        { "en": "Grandpa's cellar was a subterranean room, cool, dark, and smelling of earth, apples, and time.", "zh": "爷爷的地窖是一间地下屋，又凉又暗，满是泥土、苹果和时间的气味。" },
+        { "en": "They carried the best fruit down the stone steps and laid it in wooden trays, one careful layer at a time.", "zh": "他们把最好的果子抱下石阶，一层层小心码进木盘。" },
+        { "en": "The trays were numbered, and the numbers had their own history; number seven, he told her, had survived three floods and one fox.", "zh": "木盘都编了号，号码各有自己的历史；他告诉她，七号盘挺过三场洪水和一只狐狸。" },
+        { "en": "\"Cold slows the clock of the fruit,\" Grandpa said. \"Spring will find them still fresh, and surprised about it.\"", "zh": "“低温会把果子的时钟调慢，”爷爷说，“春天来找它们时还新鲜着，自己都要吃一惊。”" },
+        { "en": "On the cellar wall hung a thermometer and, next to it, forty years of small pencil notes.", "zh": "地窖墙上挂着一支温度计，旁边是四十年用铅笔写下的小记录。" },
+        { "en": "The notes were uniform: date, temperature, how many trays, one line each winter evening.", "zh": "这些记录格式统一：日期、温度、几盘果，每个冬夜一行。" },
+        { "en": "Xiao copied one line into her notebook just to feel the shape of the habit.", "zh": "晓往自己本子上抄了一行，只为摸一摸这习惯的形状。" },
+        { "en": "Every winter evening, Grandpa opened his ledger and recorded the day in the same format.", "zh": "每个冬夜，爷爷都翻开账本，用同一种格式记下这一天。" },
+        { "en": "His pen was slow and exact, and he never used a ruler, but every line came out straight.", "zh": "他的笔又慢又准，从不用尺，可每一行都写得笔直。" },
+        { "en": "He had started it in 1986, the year her mother was born, and had never missed a single annual page.", "zh": "这本记录他从一九八六年、晓妈妈出生那年记起，一页年度都没落下。" },
+        { "en": "Each page held one year: rainfall, blossom dates, boxes sold, birds seen, small accidents, and small jokes.", "zh": "每页装着一年：雨量、花期、卖出的箱数、见过的鸟、小小的事故，还有小小的玩笑。" },
+        { "en": "Some pages carried a small star; those were the hard years when the orchard still got its water first.", "zh": "有些页上画着一颗小星；那些是紧巴的年头，可果园还是第一个分到水。" },
+        { "en": "\"It is not a diary,\" he said. \"A diary talks about feelings. This is the annals of the hill.\"", "zh": "“这不是日记，”他说，“日记谈感受，这是这座山的编年史。”" },
+        { "en": "\"The hill has feelings too,\" he added, \"but it prefers numbers.\"", "zh": "“山也有感受，”他补了一句，“只是它更喜欢数字。”" },
+        { "en": "Xiao read the pages like a novel, with a flashlight under the blankets.", "zh": "晓躲在被窝里打着手电，像读小说一样翻这些纸页。" },
+        { "en": "In them she found droughts, storms, broken ladders, and patient recoveries.", "zh": "纸页里有旱灾、风暴、摔坏的梯子，还有一次次耐心的恢复。" },
+        { "en": "In 1998 a late frost had taken every blossom, and the whole page held only one line: nothing this year.", "zh": "一九九八年一场倒春寒卷走了每一朵花，整页只写了一行：今年无收。" },
+        { "en": "The next line, 1999, began quietly: the trees came back on their own, no help asked, no thanks given.", "zh": "一九九九年那一行开头很平静：树自己缓了过来，不求人，也不道谢。" },
+        { "en": "Information like this, Grandpa said, was an inheritance that no bank could hold and no thief could steal.", "zh": "爷爷说，这样的信息，是哪家银行都存不下、哪个小偷都偷不走的家产。" },
+        { "en": "\"A bank keeps your money for you,\" he said. \"This keeps your years.\"", "zh": "“银行替你存钱，”他说，“这个替你存年头。”" },
+        { "en": "Outside, the perennial trees stood in the snow, dark branches forming letters against the sky.", "zh": "屋外，多年生的树静静立在雪里，深色的枝桠在天幕上排成一个个字母。" },
+        { "en": "Grandpa pointed at them with his pipe and read the shapes like a man reading a familiar alphabet.", "zh": "爷爷用烟斗指着它们，像读一套熟悉的字母表一样读着那些形状。" },
+        { "en": "Snow covered the hill like a page waiting to be written on.", "zh": "雪盖住山坡，像一页等着被写字的纸。" },
+        { "en": "The orchard in winter was not empty, he explained; it was a sentence that had lost its leaves but kept its grammar.", "zh": "他解释说，冬天的果园并不空；它是一个掉了叶子、却留着语法的句子。" },
+        { "en": "That night, the cellar lamp transformed the shelves into small gold streets.", "zh": "那天夜里，地窖的灯把木架照成一条条金色的小街。" },
+        { "en": "Xiao chose one line from 1986 and copied it into her own new notebook, the first of many.", "zh": "晓从一九八六年那页上选了一行，抄进自己的新本子——这是许多行里的第一行。" },
+        { "en": "Under it she wrote a small heading in careful letters: volume one.", "zh": "在下面，她用一笔一划写下一个小标题：第一卷。" }
+      ],
+      "questions": [
+        {
+          "q": "What was Grandpa's cellar like?",
+          "options": ["A warm kitchen", "A subterranean room, cool, dark, smelling of earth and apples", "A wooden shed behind the house", "A garage full of empty boxes"],
+          "answer": 1,
+          "explain": "第2句 \"a subterranean room, cool, dark, and smelling of earth, apples, and time\"，又凉又暗的地下屋。"
+        },
+        {
+          "q": "Since when had Grandpa kept his ledger, and had he ever missed a page?",
+          "options": ["Since 1986, and never a single annual page missed", "Since 1998, only in good years", "Since 2020, on his phone", "Since 1970, only harvest totals"],
+          "answer": 0,
+          "explain": "第9、11句：从一九八六年记起，每晚同一格式，“一页年度都没落下”。"
+        },
+        {
+          "q": "What did the page for 1998 hold?",
+          "options": ["A long story about the storm", "Only one line: nothing this year", "A star and a joke", "The 96-box record"],
+          "answer": 1,
+          "explain": "第18句 \"the whole page held only one line: nothing this year\"，倒春寒卷走所有花，整页只有一行“今年无收”。"
+        },
+        {
+          "q": "The word \"annals\" (第14句) comes from the root ann, meaning year. Annals are . . .",
+          "options": ["year-by-year records of what happened", "a kind of winter apple", "songs sung at harvest", "bank accounts for farmers"],
+          "answer": 0,
+          "explain": "第14句：日记谈感受，账本却是“这座山的编年史”——一年一页按年记录的史册；词根 ann = 年。"
+        },
+        {
+          "q": "What does \"A bank keeps your money for you. This keeps your years\" (第21句) suggest about the ledger?",
+          "options": ["The ledger should be stored in a bank", "The information in it is an inheritance more precious than money", "Grandpa does not trust banks with money", "The ledger can be sold for a good price"],
+          "answer": 1,
+          "explain": "第20-21句：这些信息“是哪家银行都存不下、哪个小偷都偷不走的家产”——比钱更贵重的传家之宝。"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "新的年历",
+      "sentences": [
+        { "en": "In her last winter break, Xiao asked Grandpa if she could borrow the ledgers for a school project.", "zh": "最后一个寒假，晓问爷爷能不能为学校的一个项目把账本借她。" },
+        { "en": "He carried them out of the cellar like sleeping children and told her to be careful with the corners.", "zh": "他把它们从地窖里抱出来，像抱熟睡的孩子，嘱咐她小心纸角。" },
+        { "en": "She scanned four hundred pages, one thin annual page for every year since 1986.", "zh": "她扫描了四百页纸——从一九八六年起，每年薄薄一页。" },
+        { "en": "Some pages were soft with age, and one had a tea stain shaped like a small island.", "zh": "有的纸页软得发旧，有一页上的茶渍像一座小小的岛。" },
+        { "en": "She typed the numbers into her laptop and watched forty years rearrange themselves on the screen.", "zh": "她把数字敲进笔记本电脑，看四十年在屏幕上重新排队。" },
+        { "en": "Grandpa sat beside her for an hour, saying nothing, which for him was a long speech.", "zh": "爷爷在她身边坐了一个钟头，一言不发——对他来说，这已经是一篇长篇演说。" },
+        { "en": "The numbers told a story that no single year could show: the springs were coming earlier, and the rains were arriving harder.", "zh": "数字讲出一个单年看不出的故事：春天来得更早，雨下得更凶。" },
+        { "en": "Blossom dates had crept forward eleven days across the decades, like a slow, invisible parade.", "zh": "几十年间，花期悄悄提前了十一天，像一场缓慢而看不见的游行。" },
+        { "en": "She built charts of blossom dates, harvest weights, and the first song of the oriole each spring.", "zh": "她做了花期的曲线、收成的重量、还有每年春天黄鹂第一声歌的图表。" },
+        { "en": "She added a chart of biodiversity too: the bees and birds returning year by year, in a shy, rising line.", "zh": "还加了一张生物多样性的图：蜜蜂和鸟一年一年回来，连成一条羞怯上扬的线。" },
+        { "en": "Grandpa looked at that line longer than at any other.", "zh": "爷爷看那条线，看得比哪张图都久。" },
+        { "en": "\"The bees signed their names again,\" he said quietly.", "zh": "“蜜蜂又签上自己的名字了。”他轻声说。" },
+        { "en": "Forty years of small notes passed through a quiet transformation and became a book.", "zh": "四十年的小记录经历了一场安静的转变，变成了一本书。" },
+        { "en": "Xiao designed it herself: one spread for every month, and a blank page at the end, waiting for next year.", "zh": "晓亲自设计版式：每月一对页，末尾留一页空白，等着来年。" },
+        { "en": "She kept the format simple, the way Grandpa's ledger was simple: numbers, dates, one line a day.", "zh": "她把格式保持得简单，像爷爷的账本一样简单：数字、日期，每天一行。" },
+        { "en": "On the cover she printed the title: Grandpa's Orchard Almanac, 1986 to 2026.", "zh": "封面上印着书名：《爷爷的果园年历，1986—2026》。" },
+        { "en": "Grandpa turned the pages slowly, and his thumb stopped at 2021, the old tree's centennial.", "zh": "爷爷慢慢翻页，拇指停在二〇二一年——老树的百岁之年。" },
+        { "en": "\"You have turned my numbers into information that can speak,\" he said, and then he had to look out the window for a while.", "zh": "“你把我这些数字，变成了会说话的信息。”他说完，只好朝窗外望了好一会儿。" },
+        { "en": "That winter had been formative for Xiao; she filled in her university forms and wrote \"agriculture\" without hesitating.", "zh": "那个冬天是晓的成形之冬；她填大学志愿表时，毫不犹豫写下“农业”。" },
+        { "en": "Her parents had expected economics; her grandfather had expected nothing, and was therefore never disappointed.", "zh": "她父母盼的是经济；爷爷什么都不盼，所以从不失望。" },
+        { "en": "The almanac was printed in a hundred copies, one for every neighbor on the hill.", "zh": "年历印了一百本，山上的邻居每家一本。" },
+        { "en": "Mrs. Luo from the next hill ordered two more, one for each of her sons in the city.", "zh": "隔壁山的罗太太又订了两本，给城里的两个儿子一人一本。" },
+        { "en": "The neighbors read it at breakfast and argued about it over fences, which Grandpa said was the sincerest form of reading.", "zh": "邻居们早餐时读它，隔着篱笆为它争论；爷爷说，这是最真诚的阅读。" },
+        { "en": "Grandpa kept the first copy in the cellar, between the thermometer and the apple trays.", "zh": "爷爷把第一本放进地窖，搁在温度计和苹果盘之间。" },
+        { "en": "Under the old tree, the first snow of the new year lay evenly on the perennial branches.", "zh": "老树下，新年的第一场雪均匀地落在多年生的枝条上。" },
+        { "en": "\"Not the end of the annals,\" Xiao wrote on the last page, \"only its newest page.\"", "zh": "“这不是编年史的结束，”晓在最后一页写道，“只是它最新的一页。”" },
+        { "en": "Grandpa read the last page twice and signed it with his pruning-callused thumb.", "zh": "爷爷把最后一页读了两遍，用剪枝磨出茧的拇指按了个印。" },
+        { "en": "Then she sharpened her pencil, because the hill, patient as ever, had already begun next year's first line.", "zh": "然后她削尖铅笔——因为这座耐心如常的山，已经开始写来年的第一行了。" }
+      ],
+      "questions": [
+        {
+          "q": "What story did forty years of numbers tell?",
+          "options": ["Nothing changed on the hill at all", "Springs were coming earlier and rains arriving harder", "The harvests grew smaller every single year", "The birds had all left the hill"],
+          "answer": 1,
+          "explain": "第7句 \"the springs were coming earlier, and the rains were arriving harder\"，春天更早，雨更凶。"
+        },
+        {
+          "q": "Where did Grandpa's thumb stop while reading the new almanac?",
+          "options": ["At 1986, the first page", "At 2021, the old tree's centennial", "At the biodiversity chart", "At the blank last page"],
+          "answer": 1,
+          "explain": "第17句 \"his thumb stopped at 2021, the old tree's centennial\"，停在老树百岁的二〇二一年。"
+        },
+        {
+          "q": "How many copies of the almanac were printed, and for whom?",
+          "options": ["Ten, for family members only", "A hundred, one for every neighbor on the hill", "A thousand, for the whole county", "Four, one for each season"],
+          "answer": 1,
+          "explain": "第21句 \"printed in a hundred copies, one for every neighbor on the hill\"，一百本，山上邻居每家一本。"
+        },
+        {
+          "q": "In 第19句, that winter was \"formative\" for Xiao. The root form means shape, so a formative experience is one that . . .",
+          "options": ["shapes who you become", "costs a lot of money", "happens every winter", "makes you feel tired"],
+          "answer": 0,
+          "explain": "第19句：那个冬天决定了她填志愿时“毫不犹豫写下农业”——formative 即“塑造人的、定型的”。"
+        },
+        {
+          "q": "Why did Grandpa say the neighbors' arguing over fences was \"the sincerest form of reading\"?",
+          "options": ["Because arguing is louder than reading", "Because people only argue about a book when they have truly read it and care about it", "Because the neighbors could not read very well", "Because he wanted them to stop arguing"],
+          "answer": 1,
+          "explain": "第23句：邻居们早餐读它、隔着篱笆为它争论——只有真正读过、真正在意的人才会争论，所以这是最真诚的阅读。"
+        }
+      ]
+    }
+  ]
+}

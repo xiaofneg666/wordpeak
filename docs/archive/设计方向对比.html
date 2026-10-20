@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#11111b">
+<title>词境 · 设计方向对比（同内容 · 四种气质）</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { height: 100%; }
+  body { background: #11111b; color: #E8ECF4; font-family: -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
+
+  /* 壳层配色升级：Catppuccin Mocha（catppuccin skill：crust 壳 + surface 边 + mauve 徽章式激活态） */
+  #tabs { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 8px;
+    padding: 12px 16px; background: #11111b; border-bottom: 1px solid #313244; flex-wrap: wrap; }
+  #tabs button { padding: 8px 18px; border-radius: 999px; border: 1px solid #313244; background: transparent;
+    color: #a6adc8; cursor: pointer; font-size: 14px; }
+  #tabs button.on { color: #cba6f7; border-color: rgba(203,166,247,.38); background: rgba(203,166,247,.12); font-weight: 600; }
+  #tabs .hint { margin-left: auto; color: #6c7086; font-size: 12px; }
+
+  .panel { display: none; min-height: calc(100vh - 54px); padding: 48px 8% 64px; }
+  .panel.on { display: block; }
+  .cap { margin-top: 56px; padding-top: 16px; font-size: 13px; color: rgba(255,255,255,.5); max-width: 720px; line-height: 1.7; }
+
+  /* ============ 0 现状（AI 默认四件套都在） ============ */
+  .p-now { background:
+      radial-gradient(1200px 600px at 20% -10%, #101A3D 0%, transparent 60%),
+      radial-gradient(900px 500px at 95% 110%, #1A0F2E 0%, transparent 55%),
+      #05070F;
+    font-family: Inter, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
+  .p-now .eyebrow { color: #67E8F9; font-size: 13px; letter-spacing: .25em; margin-bottom: 10px; }
+  .p-now h2 { font-size: 30px; font-weight: 700; margin-bottom: 4px;
+    background: linear-gradient(120deg, #F5F7FA 0%, #B8ECF5 45%, #22D3EE 100%);
+    -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .p-now .sub { color: #A8B0C0; font-size: 14px; }
+  .p-now .wordcard { max-width: 560px; margin-top: 24px; background: rgba(255,255,255,.035);
+    border: 1px solid rgba(255,255,255,.07); border-radius: 14px; padding: 24px;
+    backdrop-filter: blur(14px); box-shadow: 0 8px 32px rgba(0,0,0,.35); }
+  .p-now .w { font-size: 30px; font-weight: 700; }
+  .p-now .ipa { color: #A8B0C0; font-size: 14px; margin: 4px 0 16px; }
+  .p-now .chip { display: inline-block; padding: 2px 10px; border-radius: 999px; margin-right: 8px;
+    border: 1px solid rgba(34,211,238,.35); color: #22D3EE; font-size: 12px; background: rgba(34,211,238,.08); }
+  .p-now .chip.v { border-color: rgba(167,139,250,.35); color: #A78BFA; background: rgba(167,139,250,.08); }
+  .p-now .memrow { display: flex; justify-content: space-between; font-size: 12px; color: #6B7488; margin: 16px 0 8px; }
+  .p-now .mem { height: 8px; border-radius: 999px; background: rgba(255,255,255,.08); overflow: hidden; }
+  .p-now .mem i { display: block; height: 100%; width: 78%; border-radius: 999px;
+    background: linear-gradient(90deg, #06B6D4, #8B5CF6); }
+  .p-now ul { list-style: none; max-width: 560px; margin-top: 16px; }
+  .p-now li { display: flex; align-items: center; gap: 10px; padding: 12px 16px; margin-bottom: 8px;
+    background: rgba(255,255,255,.03); border: 1px solid rgba(255,255,255,.06); border-radius: 10px;
+    color: #A8B0C0; font-size: 14px; }
+  .p-now li b { color: #F5F7FA; font-weight: 600; }
+  .p-now li .num { margin-left: auto; font-size: 12px; color: #6B7488; }
+  .p-now .btn { display: inline-block; margin-top: 24px; background: linear-gradient(135deg, #06B6D4 0%, #8B5CF6 100%);
+    border-radius: 10px; color: #fff; padding: 12px 28px; font-weight: 600; font-size: 15px;
+    cursor: pointer; border: 0; box-shadow: 0 4px 18px rgba(109,99,255,.35); }
+
+  /* ============ A 古典天文志 ============ */
+  .p-atlas { background: #0A0E1A; color: #E8ECF4;
+    font-family: "Source Han Serif SC", "Noto Serif SC", "STZhongsong", "SimSun", serif; }
+  .p-atlas .head { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px;
+    border-bottom: 1px solid rgba(201,162,39,.4); padding-bottom: 16px; max-width: 720px; }
+  .p-atlas .eyebrow { color: #C9A227; letter-spacing: .4em; font-size: 12px; margin-bottom: 10px; }
+  .p-atlas h2 { font-size: 27px; font-weight: 600; letter-spacing: .12em; }
+  .p-atlas .sub { color: #A89F8A; font-size: 13px; margin-top: 8px; letter-spacing: .08em; }
+  .p-atlas .constellation { flex: none; }
+  .p-atlas .plate { max-width: 560px; border: 1px solid rgba(201,162,39,.5); padding: 3px; margin-top: 24px; }
+  .p-atlas .plate-in { border: 1px solid rgba(201,162,39,.22); padding: 26px 28px; }
+  .p-atlas .w { font-size: 32px; font-weight: 600; letter-spacing: .04em; }
+  .p-atlas .ipa { color: #B9AE93; font-size: 14px; margin: 4px 0 16px; letter-spacing: .05em; }
+  .p-atlas .field { font-size: 15px; line-height: 1.9; color: #DCD8CD; }
+  .p-atlas .field b { color: #C9A227; font-weight: 600; letter-spacing: .15em; }
+  .p-atlas .spec-head { display: flex; justify-content: space-between; align-items: baseline;
+    font-size: 13px; color: #B9AE93; margin: 24px 0 8px; letter-spacing: .05em; }
+  .p-atlas .spec-head .v { font-family: Consolas, monospace; color: #9BB8E8; font-size: 15px; }
+  .p-atlas .spec-bar { position: relative; height: 7px; border: 1px solid rgba(201,162,39,.35);
+    background: linear-gradient(90deg, #9BB8E8 0%, #C3D2E4 32%, #E8D9A0 58%, #E0A98A 78%, #C96A5A 100%); }
+  .p-atlas .spec-bar i { position: absolute; top: -5px; bottom: -5px; left: 78%; width: 1px; background: #C9A227; }
+  .p-atlas .spec-bar i::after { content: ""; position: absolute; top: -3px; left: -3px;
+    border: 3px solid transparent; border-top-color: #C9A227; }
+  .p-atlas .spec-scale { display: flex; justify-content: space-between; font-size: 11px;
+    color: #8A7F63; margin-top: 8px; letter-spacing: .1em; }
+  .p-atlas .ol-h { font-size: 13px; color: #C9A227; letter-spacing: .35em; max-width: 560px;
+    border-bottom: 1px dotted rgba(201,162,39,.45); padding-bottom: 8px; margin-bottom: 8px; }
+  .p-atlas ol { list-style: none; max-width: 560px; margin-top: 24px; }
+  .p-atlas li { display: flex; align-items: baseline; padding: 8px 0; font-size: 15px; color: #DCD8CD; }
+  .p-atlas li .no { color: #C9A227; margin-right: 12px; font-size: 13px; }
+  .p-atlas li .dots { flex: 1; border-bottom: 1px dotted rgba(201,162,39,.4); margin: 0 10px; }
+  .p-atlas li .n { font-family: Consolas, monospace; color: #B9AE93; font-size: 13px; }
+  .p-atlas .btn { display: inline-block; margin-top: 24px; padding: 12px 34px; background: transparent;
+    border: 1px solid rgba(201,162,39,.65); color: #C9A227; font-size: 15px; letter-spacing: .3em;
+    font-family: inherit; cursor: pointer; }
+  .p-atlas .btn:hover { background: rgba(201,162,39,.12); }
+
+  /* ============ B 任务控制台 ============ */
+  .p-mission { background: radial-gradient(circle, rgba(122,133,153,.13) 1px, transparent 1.3px) 0 0 / 26px 26px, #050608; color: #D6DBE3;
+    /* origin-ui skill 点阵配方：测控台的坐标纸底纹，对比度刻意压低 */
+    font-family: Consolas, "Cascadia Code", "JetBrains Mono", monospace; }
+  .p-mission .hd { display: flex; justify-content: space-between; align-items: center;
+    border-bottom: 1px solid #1C2028; padding-bottom: 16px; font-size: 13px; color: #5A6470;
+    letter-spacing: .15em; max-width: 720px; }
+  .p-mission .hd .live { color: #FF6A2B; }
+  .p-mission .hd .live::before { content: "■ "; }
+  .p-mission .grid { display: grid; grid-template-columns: repeat(3, 1fr); max-width: 720px;
+    border: 1px solid #1C2028; margin-top: 0; }
+  .p-mission .cell { border-right: 1px solid #1C2028; border-bottom: 1px solid #1C2028; padding: 16px; }
+  .p-mission .cell:nth-child(3n) { border-right: 0; }
+  .p-mission .cell .lb { color: #5A6470; font-size: 11px; letter-spacing: .25em; margin-bottom: 8px; }
+  .p-mission .cell .vl { font-size: 19px; color: #E7EBF2; font-variant-numeric: tabular-nums; }
+  .p-mission .cell .vl .u { color: #5A6470; font-size: 12px; margin-left: 4px; }
+  .p-mission .cell.alert .vl { color: #FF6A2B; }
+  .p-mission .sec { color: #5A6470; font-size: 11px; letter-spacing: .3em; margin: 24px 0 8px; max-width: 720px; }
+  .p-mission .gauge { position: relative; max-width: 720px; height: 18px; border: 1px solid #1C2028; background: #0A0C10; }
+  .p-mission .gauge .fill { position: absolute; inset: 2px auto 2px 2px; width: 76%; background: #FF6A2B; }
+  .p-mission .gauge .ticks { position: absolute; inset: 0;
+    background: repeating-linear-gradient(90deg, transparent 0 calc(10% - 1px), #23272F calc(10% - 1px) 10%); }
+  .p-mission .gauge-lb { display: flex; justify-content: space-between; max-width: 720px;
+    font-size: 11px; color: #5A6470; margin-top: 8px; letter-spacing: .1em; }
+  .p-mission table { max-width: 720px; border-collapse: collapse; width: 100%; font-size: 13px; }
+  .p-mission th { text-align: left; color: #5A6470; font-size: 11px; letter-spacing: .25em;
+    padding: 8px 12px; border-bottom: 1px solid #1C2028; font-weight: 400; }
+  .p-mission td { padding: 12px; border-bottom: 1px solid #12151A; color: #C4CBD6; }
+  .p-mission td.num { font-variant-numeric: tabular-nums; color: #E7EBF2; }
+  .p-mission .st { display: inline-block; padding: 1px 8px; font-size: 11px; letter-spacing: .1em; }
+  .p-mission .st.due { color: #FF6A2B; border: 1px solid rgba(255,106,43,.5); }
+  .p-mission .st.ok { color: #6B7480; border: 1px solid #2A2F39; }
+  .p-mission .btn { display: inline-block; margin-top: 24px; background: #FF6A2B; color: #0A0C10;
+    border: 0; padding: 12px 32px; font-size: 14px; font-weight: 700; letter-spacing: .1em;
+    cursor: pointer; font-family: inherit; }
+
+  /* ============ C 深空游戏 HUD ============ */
+  .p-hud { color: #C8E9F2; background:
+      radial-gradient(1.5px 1.5px at 12% 22%, rgba(255,255,255,.5) 0 50%, transparent 51%),
+      radial-gradient(1px 1px at 34% 68%, rgba(255,255,255,.35) 0 50%, transparent 51%),
+      radial-gradient(2px 2px at 58% 14%, rgba(255,255,255,.4) 0 50%, transparent 51%),
+      radial-gradient(1px 1px at 76% 44%, rgba(255,255,255,.3) 0 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 88% 78%, rgba(255,255,255,.45) 0 50%, transparent 51%),
+      radial-gradient(1px 1px at 22% 88%, rgba(255,255,255,.3) 0 50%, transparent 51%),
+      #04070D;
+    font-family: "Arial Black", "Impact", "Microsoft YaHei", sans-serif; }
+  .p-hud .head { display: flex; align-items: center; gap: 14px; max-width: 720px; }
+  .p-hud .head .id { color: #FFB020; font-size: 12px; letter-spacing: .3em; }
+  .p-hud h2 { font-size: 25px; font-weight: 900; letter-spacing: .06em; color: #EAF7FC; }
+  .p-hud .frame { position: relative; max-width: 560px; padding: 24px 26px; margin-top: 24px; }
+  .p-hud .c { position: absolute; width: 16px; height: 16px; border: 2px solid #7FE3F4; }
+  .p-hud .c.tl { top: -1px; left: -1px; border-right: 0; border-bottom: 0; }
+  .p-hud .c.tr { top: -1px; right: -1px; border-left: 0; border-bottom: 0; }
+  .p-hud .c.bl { bottom: -1px; left: -1px; border-right: 0; border-top: 0; }
+  .p-hud .c.br { bottom: -1px; right: -1px; border-left: 0; border-top: 0; }
+  .p-hud .scan { position: absolute; inset: 0; pointer-events: none;
+    background: repeating-linear-gradient(0deg, rgba(127,227,244,.05) 0 1px, transparent 1px 3px); }
+  .p-hud .tag { display: inline-block; color: #FFB020; font-size: 11px; letter-spacing: .3em;
+    border: 1px solid rgba(255,176,32,.5); padding: 2px 10px; margin-bottom: 12px; }
+  .p-hud .w { font-size: 30px; font-weight: 900; color: #EAF7FC; text-shadow: 0 0 18px rgba(127,227,244,.35); }
+  .p-hud .ipa { font-family: Consolas, monospace; color: #7FA8B8; font-size: 14px; margin: 6px 0 16px; }
+  .p-hud .field { font-size: 14px; line-height: 2; color: #A9D5E4; font-family: "Microsoft YaHei", sans-serif; }
+  .p-hud .field b { color: #7FE3F4; }
+  .p-hud .memrow { display: flex; justify-content: space-between; align-items: baseline; margin: 20px 0 8px;
+    font-family: Consolas, monospace; font-size: 12px; color: #7FA8B8; letter-spacing: .15em; }
+  .p-hud .memrow .v { font-size: 20px; color: #7FE3F4; text-shadow: 0 0 12px rgba(127,227,244,.5); }
+  .p-hud .mem { position: relative; height: 10px; border: 1px solid rgba(127,227,244,.55);
+    background: rgba(127,227,244,.05); }
+  .p-hud .mem i { position: absolute; inset: 1px auto 1px 1px; width: 76%; background: #7FE3F4;
+    box-shadow: 0 0 14px rgba(127,227,244,.55); }
+  .p-hud .ul-h { color: #7FE3F4; font-size: 12px; letter-spacing: .3em; margin-bottom: 12px; max-width: 560px; }
+  .p-hud ul { list-style: none; max-width: 560px; margin-top: 24px; }
+  .p-hud li { display: flex; align-items: center; gap: 12px; padding: 8px 0;
+    border-bottom: 1px solid rgba(127,227,244,.15); font-size: 14px; color: #A9D5E4;
+    font-family: "Microsoft YaHei", sans-serif; }
+  .p-hud li .box { width: 14px; height: 14px; border: 2px solid rgba(127,227,244,.7); flex: none; }
+  .p-hud li .n { margin-left: auto; font-family: Consolas, monospace; color: #7FA8B8; font-size: 13px; }
+  .p-hud .btn { display: inline-block; margin-top: 24px; border: 2px solid #7FE3F4; color: #7FE3F4;
+    background: rgba(127,227,244,.06); padding: 13px 34px; font-size: 15px; font-weight: 900;
+    letter-spacing: .2em; cursor: pointer; box-shadow: inset 0 0 22px rgba(127,227,244,.12);
+    text-shadow: 0 0 10px rgba(127,227,244,.4); }
+  .p-hud .btn:hover { background: rgba(127,227,244,.16); }
+
+  /* 4b) motion-primitives 聚光灯（#4 spotlight）：光斑贴各版面自身色板（atlas 金 / hud 青） */
+  .spot { position: relative; }
+  .spot::after { content: ""; position: absolute; inset: 0; pointer-events: none;
+    opacity: 0; transition: opacity .3s var(--ease-out-3); }
+  .spot:hover::after { opacity: 1; }
+  .p-atlas .plate.spot::after { background: radial-gradient(300px circle at var(--mx, 50%) var(--my, 50%),
+    rgba(201,162,39,.09), transparent 65%); }
+  .p-hud .frame.spot::after { background: radial-gradient(260px circle at var(--mx, 50%) var(--my, 50%),
+    rgba(127,227,244,.10), transparent 65%); }
+
+  /* ============ 增量改善（不改动原有版式骨架与配色，逐条可逆） ============ */
+  /* 1) open-props 内联缓动令牌（取 open-props@1.7.23 easings 的令牌值，零外部依赖） */
+  :root { --ease-out-3: cubic-bezier(0.05, 0.7, 0.1, 1); --ease-out-5: cubic-bezier(0, 0.55, 0.45, 1); }
+
+  /* 2) 入场级联：面板点亮时逐块升起，级差 70ms；列表/网格子项再跟一级。
+        动画只写 opacity/transform，结束后 fill 持有的也是基值，不压制下方 hover 样式 */
+  @keyframes riseIn { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  .panel.on > * { animation: riseIn 0.5s var(--ease-out-3) both; }
+  .panel.on > *:nth-child(2) { animation-delay: 70ms }
+  .panel.on > *:nth-child(3) { animation-delay: 140ms }
+  .panel.on > *:nth-child(4) { animation-delay: 210ms }
+  .panel.on > *:nth-child(5) { animation-delay: 280ms }
+  .panel.on > *:nth-child(6) { animation-delay: 350ms }
+  .panel.on > *:nth-child(7) { animation-delay: 420ms }
+  .panel.on > *:nth-child(8) { animation-delay: 490ms }
+  .panel.on > *:nth-child(9) { animation-delay: 560ms }
+  .panel.on ul > li, .panel.on ol > li, .panel.on .grid > .cell {
+    animation: riseIn 0.45s var(--ease-out-3) both; }
+  .panel.on ul > li:nth-child(2), .panel.on ol > li:nth-child(2),
+  .panel.on .grid > .cell:nth-child(2) { animation-delay: 120ms }
+  .panel.on ul > li:nth-child(3), .panel.on ol > li:nth-child(3),
+  .panel.on .grid > .cell:nth-child(3) { animation-delay: 190ms }
+  .panel.on .grid > .cell:nth-child(4) { animation-delay: 260ms }
+  .panel.on .grid > .cell:nth-child(5) { animation-delay: 330ms }
+  .panel.on .grid > .cell:nth-child(6) { animation-delay: 400ms }
+
+  /* 3) 读数条生长：进度条类元素入场从 0 长到位（to 落回各版面基值） */
+  @keyframes growBar { from { width: 0; } }
+  .panel.on .p-now .mem i { animation: growBar 0.9s var(--ease-out-3) 400ms both; }
+  .panel.on .p-mission .gauge .fill { animation: growBar 1s var(--ease-out-3) 600ms both; }
+  .panel.on .p-hud .mem i { animation: growBar 0.9s var(--ease-out-3) 500ms both; }
+
+  /* 4) hover 反馈统一：只用各面板既有色板，轻位移/亮一档 */
+  #tabs button { transition: color .2s var(--ease-out-3), border-color .2s var(--ease-out-3), background .2s var(--ease-out-3); }
+  #tabs button:hover { color: #cdd6f4; border-color: #45475a; background: rgba(205,214,244,.04); }
+  .p-now li { transition: border-color .2s var(--ease-out-3); }
+  .p-now li:hover { border-color: rgba(255,255,255,.14); }
+  .p-now .btn { transition: filter .2s var(--ease-out-3); }
+  .p-now .btn:hover { filter: brightness(1.08); }
+  .p-atlas li { transition: color .2s var(--ease-out-3); }
+  .p-atlas li:hover { color: #F0EBDD; }
+  .p-mission tbody tr td { transition: color .2s var(--ease-out-3); }
+  .p-mission tbody tr:hover td { color: #E7EBF2; }
+  .p-mission .btn { transition: background .2s var(--ease-out-3); }
+  .p-mission .btn:hover { background: #FF7F45; }
+  .p-hud li { transition: border-bottom-color .2s var(--ease-out-3); }
+  .p-hud li:hover { border-bottom-color: rgba(127,227,244,.45); }
+
+  /* 5) 窄屏保护（原版无响应式规则，仅在明显挤压时收拢，桌面观感不变） */
+  @media (max-width: 640px) {
+    .p-mission .grid { grid-template-columns: 1fr; }
+    .p-mission .cell { border-right: 0; }
+    .p-atlas .head { flex-direction: column; align-items: flex-start; }
+    .panel { padding: 40px 20px 56px; }
+    .cap { margin-top: 40px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important; animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+</style>
+</head>
+<body>
+
+<nav id="tabs">
+  <button data-p="now">0 · 现状</button>
+  <button data-p="atlas" class="on">A · 古典天文志</button>
+  <button data-p="mission">B · 任务控制台</button>
+  <button data-p="hud">C · 深空游戏 HUD</button>
+  <span class="hint">同一块内容 · 四种气质 — 切换感受，凭直觉选</span>
+</nav>
+
+<!-- 0 现状：Inter + 青紫渐变 + 玻璃卡 + 文字符号图标 -->
+<section class="panel p-now" id="now">
+  <div class="eyebrow">TODAY'S ROUTE</div>
+  <h2>你的学习宇宙档案</h2>
+  <div class="sub">10月15日 周四 · 4 个待复习</div>
+
+  <div class="wordcard">
+    <div class="w">inspect</div>
+    <div class="ipa">/ɪnˈspekt/ · v. 检查，审视</div>
+    <span class="chip">词根 SPECT- 看</span>
+    <span class="chip v">家族 18 词</span>
+    <div class="memrow"><span>记忆强度</span><span>下次复习 3 天后</span></div>
+    <div class="mem"><i></i></div>
+  </div>
+
+  <ul>
+    <li><span>◉</span><b>复习 4 个到期词</b><span class="num">0/4 · 约 2 分钟</span></li>
+    <li><span>✎</span><b>学 5 个新词</b><span class="num">0/5 · 约 8 分钟</span></li>
+    <li><span>☊</span><b>听力 1 篇</b><span class="num">0/1 · 精听训练</span></li>
+  </ul>
+
+  <button class="btn">开始今天的学习 →</button>
+  <div class="cap">【现状】AI 默认四件套都在：Inter 字体 / 青紫渐变按钮 / 玻璃拟态卡片 / 文字符号当图标（◉ ✎ ☊）。哪套 AI 生成出来都长这样——这就是你说的"相似度 90%"。</div>
+</section>
+
+<!-- A 古典天文志 -->
+<section class="panel p-atlas on" id="atlas">
+  <div class="head">
+    <div>
+      <div class="eyebrow">CELESTIAL ATLAS · 卷一</div>
+      <h2>词汇星图 · SPECT 星座</h2>
+      <div class="sub">凡观看之族，皆列于此页 — 计一十八星，已燃亮五星</div>
+    </div>
+    <svg class="constellation" width="150" height="86" viewBox="0 0 150 86" fill="none">
+      <path d="M14 62 52 40 88 54 126 22 M52 40 70 12 M88 54 104 78" stroke="#C9A227" stroke-opacity=".55" stroke-width="1"/>
+      <circle cx="14" cy="62" r="2.5" fill="#C3D2E4"/>
+      <circle cx="52" cy="40" r="3.5" fill="#9BB8E8"/>
+      <circle cx="52" cy="40" r="7" stroke="#9BB8E8" stroke-opacity=".35" fill="none"/>
+      <circle cx="88" cy="54" r="2.5" fill="#C3D2E4"/>
+      <circle cx="126" cy="22" r="2" fill="#8A9BB0"/>
+      <circle cx="70" cy="12" r="2" fill="#8A9BB0"/>
+      <circle cx="104" cy="78" r="2" fill="#C96A5A"/>
+    </svg>
+  </div>
+
+  <div class="plate spot"><div class="plate-in">
+    <div class="w">inspect</div>
+    <div class="ipa">/ɪnˈspekt/ · v. 检查，审视</div>
+    <div class="field"><b>词根</b>　SPECT- 看 · in-（进入）+ spect（看）→ 往里细看</div>
+    <div class="field"><b>星族</b>　十八星 · respect / spectator / prospect 皆其同族</div>
+    <div class="spec-head"><span>记忆温度</span><span class="v">78% · 三日后复观</span></div>
+    <div class="spec-bar"><i></i></div>
+    <div class="spec-scale"><span>蓝白 · 炽热掌握</span><span>黄 · 稳固</span><span>红 · 频临熄灭</span></div>
+  </div></div>
+
+  <div class="ol-h">今日观星簿</div>
+  <ol>
+    <li><span class="no">Ⅰ</span>复习四颗到期之星<span class="dots"></span><span class="n">0/4</span></li>
+    <li><span class="no">Ⅱ</span>点亮五颗新星<span class="dots"></span><span class="n">0/5</span></li>
+    <li><span class="no">Ⅲ</span>精听一篇语料<span class="dots"></span><span class="n">0/1</span></li>
+  </ol>
+
+  <button class="btn">开始今日巡天</button>
+  <div class="cap">【A 古典天文志】金线细字、衬线标题、铜版星图刻度。像天文馆的藏品目录，不像科技产品官网。记忆强度用恒星光谱表达（蓝白=炽热掌握 → 红=濒忘）。项目的仪器图标直接升为主角，和 3D 星系最同源，改动风险最小。</div>
+</section>
+
+<!-- B 任务控制台 -->
+<section class="panel p-mission" id="mission">
+  <div class="hd">
+    <span>WORDVERSE // TELEMETRY</span>
+    <span>2026-10-15 17:54:02</span>
+    <span class="live">LINK ACTIVE</span>
+  </div>
+
+  <div class="grid">
+    <div class="cell"><div class="lb">WORD</div><div class="vl">inspect</div></div>
+    <div class="cell"><div class="lb">ROOT</div><div class="vl">SPECT-<span class="u">看</span></div></div>
+    <div class="cell"><div class="lb">FAMILY</div><div class="vl">18<span class="u">词</span></div></div>
+    <div class="cell"><div class="lb">IPA</div><div class="vl">/ɪnˈspekt/</div></div>
+    <div class="cell alert"><div class="lb">DUE</div><div class="vl">4</div></div>
+    <div class="cell"><div class="lb">NEXT REVIEW</div><div class="vl">T+3D</div></div>
+  </div>
+
+  <div class="sec">MEMORY STRENGTH — 78%</div>
+  <div class="gauge"><div class="fill"></div><div class="ticks"></div></div>
+  <div class="gauge-lb"><span>0</span><span>50</span><span>100</span></div>
+
+  <div class="sec">TASK QUEUE</div>
+  <table>
+    <thead>
+      <tr><th>#</th><th>任务</th><th>进度</th><th>状态</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="num">01</td><td>复习到期词</td><td class="num">0/4</td><td><span class="st due">DUE</span></td></tr>
+      <tr><td class="num">02</td><td>学习新词</td><td class="num">0/5</td><td><span class="st ok">QUEUED</span></td></tr>
+      <tr><td class="num">03</td><td>精听语料</td><td class="num">0/1</td><td><span class="st ok">QUEUED</span></td></tr>
+    </tbody>
+  </table>
+
+  <button class="btn">启动今日学习</button>
+  <div class="cap">【B 任务控制台】全等宽字体、直角网格、唯一信号橙强调色。像火箭发射测控室，学习数据（正确率/记忆强度）是唯一的明星。变化最大、气质最"硬"，3D 星系场景需要跟着改造才协调。</div>
+</section>
+
+<!-- C 深空游戏 HUD -->
+<section class="panel p-hud" id="hud">
+  <div class="head">
+    <span class="id">SECTOR-01 // 词汇星域</span>
+    <h2>SPECT- 星域扫描</h2>
+  </div>
+
+  <div class="frame spot">
+    <i class="c tl"></i><i class="c tr"></i><i class="c bl"></i><i class="c br"></i>
+    <div class="scan"></div>
+    <div class="tag">◈ TARGET LOCKED</div>
+    <div class="w">inspect</div>
+    <div class="ipa">/ɪnˈspekt/ · v. 检查，审视</div>
+    <div class="field">词根 <b>SPECT- 看</b> ｜ 星族 <b>18 词</b> ｜ 已点亮 <b>5</b></div>
+    <div class="memrow"><span>MEMORY</span><span class="v">78%</span><span>NEXT: T+3D</span></div>
+    <div class="mem"><i></i></div>
+  </div>
+
+  <div class="ul-h">// 今日任务队列</div>
+  <ul>
+    <li><span class="box"></span>复习 4 个到期词<span class="n">0/4</span></li>
+    <li><span class="box"></span>点亮 5 颗新星<span class="n">0/5</span></li>
+    <li><span class="box"></span>精听 1 篇语料<span class="n">0/1</span></li>
+  </ul>
+
+  <button class="btn">开始巡航</button>
+  <div class="cap">【C 深空游戏 HUD】角括号边框 + 扫描线 + 双色收敛（HUD 青 + 警示琥珀），界面像飞船设备的一部分。动效可以全部绑定操作反馈（答对面板点亮），和上一轮说的"L2 操控"改造天然合流。像"在开一艘船"，不是"在看一个网站"。</div>
+</section>
+
+<script>
+  var tabs = document.querySelectorAll('#tabs button');
+  var panels = document.querySelectorAll('.panel');
+  tabs.forEach(function (b) {
+    b.addEventListener('click', function () {
+      tabs.forEach(function (x) { x.classList.toggle('on', x === b); });
+      panels.forEach(function (p) { p.classList.toggle('on', p.id === b.dataset.p); });
+      /* 增量：重挂 .on 强制重启入场级联（个别引擎对 display:none 期间不重启动画） */
+      var shown = document.getElementById(b.dataset.p);
+      if (shown) { shown.classList.remove('on'); void shown.offsetWidth; shown.classList.add('on'); }
+      window.scrollTo(0, 0);
+    });
+  });
+
+  /* motion-primitives #4 聚光灯：--mx/--my 跟随鼠标（局部坐标随 getBoundingClientRect 换算） */
+  document.querySelectorAll('.spot').forEach(function (el) {
+    el.addEventListener('mousemove', function (e) {
+      var r = el.getBoundingClientRect();
+      el.style.setProperty('--mx', (e.clientX - r.left) + 'px');
+      el.style.setProperty('--my', (e.clientY - r.top) + 'px');
+    });
+  });
+</script>
+</body>
+</html>

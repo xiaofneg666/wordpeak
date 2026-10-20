@@ -1,0 +1,5 @@
+node_modules
+wordverse.db
+wordverse.db-shm
+wordverse.db-wal
+tests

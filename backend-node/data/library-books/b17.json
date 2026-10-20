@@ -1,0 +1,272 @@
+{
+  "id": "lib-word-fossil",
+  "title": "词语的化石",
+  "en_title": "The Fossil of Words",
+  "author": "WordVerse Archive",
+  "region": "science",
+  "level": 3,
+  "one_line": "词语从哪里来：一门语言的地层学、借贷史与漂移图。",
+  "word_focus": ["log", "ject"],
+  "chapters": [
+    {
+      "no": 1,
+      "title": "地层与活化石",
+      "sentences": [
+        { "en": "Every language carries its own past the way a cliff above the sea carries its strata: layer upon layer of words, pressed down and hardened by the speech of countless generations, each one waiting quietly for a reader patient enough to climb down and read the whole story.", "zh": "每一种语言都背负着自己的过去，就像海边峭壁背负着地层：一层又一层的词语，被无数代人的言语压实变硬，每一层都静静等着某个足够耐心的读者爬下来，读完整部故事。" },
+        { "en": "Geologists read the history of the earth in strata of rock, and linguists, who are geologists of speech in everything but name, read the history of words in layers that are just as real, though far softer to the touch and far harder to date.", "zh": "地质学家从岩层中读出地球的历史；而语言学家——不过是没有名分的言语地质学家——从同样真实的地层中读出词语的历史，只是这些地层摸上去软得多，断代却难得多。" },
+        { "en": "Icelandic is the famous living fossil of this book: cut off on a remote northern island in the cold Atlantic, it has changed so little in nine hundred years that linguists sometimes joke that it refuses to age like the rest of us, or even to admit that time exists.", "zh": "冰岛语正是本书著名的活化石：在与世隔绝的寒冷大西洋孤岛上，它九百年来变化之小，以至于语言学家开玩笑说，它拒绝像我们其余人那样老去，甚至不肯承认时间的存在。" },
+        { "en": "A modern Icelandic farmer can still open the medieval sagas on a winter evening and follow the old dialogue without a special dictionary; imagine a Londoner today picking up Beowulf, in the original, purely for pleasure after a hard day's work, and you will feel the distance.", "zh": "今天的一位冰岛农民仍能在冬夜翻开中世纪的萨迦，不需要特殊词典就能读懂那些古老的对话；设想一位伦敦人今天在劳累一天之后，纯粹为了消遣而捧读古英语原文的《贝奥武甫》，你就能体会到这中间的距离。" },
+        { "en": "\"But is that not strange?\" an imagined reader once asked me; the continuity can indeed seem almost illogical in a world where fashion reinvents itself every decade, where slang is born and buried within a single season, and where yesterday's joke is today's embarrassment.", "zh": "这不是很奇怪吗？一位想象中的读者曾这样问我；在时尚十年一换、俚语一季生一季死、昨天的笑话今天就成了尴尬话的世界里，这种延续性确实显得近乎不合逻辑。" },
+        { "en": "\"Strange, yes, but not random,\" I answered, for the logic of change is simple enough to state in one sentence: the more a language is spoken with outsiders, on ships and in markets and across borders, the faster it drifts away from its old shape.", "zh": "奇怪，是的，但并非无规律可循。我答道，因为演变的逻辑一句话就能说清：一种语言与外人——在船上、市场上、边境之间——说得越多，它就漂离旧形态越快。" },
+        { "en": "Isolation acts like cold storage, sealing an island speech in ice, while heavy contact acts like a busy port where every ship that docks leaves some cargo behind: a word here, a habit of pronunciation there, and sometimes a whole grammar shaken loose from its moorings.", "zh": "隔离像冷库，把一座岛屿的语言封进冰里；而频繁的接触像繁忙的港口，每艘靠岸的船都会卸下些货物：这儿留一个词，那儿留一种发音习惯，有时整部语法都被晃得脱了锚。" },
+        { "en": "A remote community that talks mostly to itself keeps up a very long monologue, decade after decade, and that monologue grows ever more consistent, more peculiar, and more perfectly tuned to its own small world of sheep and fish, snow, and long dark winters.", "zh": "一个多半只跟自己说话的偏远社群，等于在进行一场漫长的独白，十年复十年；这场独白变得越来越自洽，越来越奇特，也越来越完美地适配它那个由羊、鱼、冰雪与漫长黑冬组成的小世界。" },
+        { "en": "Borrowing, it must be said plainly, is never a sign of weakness but always a record of contact, trade, conquest, and honest curiosity between peoples, so a language rich in loans deserves an apology from anyone who has ever called it careless, poor, or impure.", "zh": "必须直说：借词从来不是软弱的标志，而始终是一份记录——记录人群之间的接触、贸易、征服与真切的好奇；因此，一门富于借词的语言，值得任何一个曾骂它潦草、贫瘠或不纯的人道歉。" },
+        { "en": "Some purists object to borrowed words in the loudest possible tones, writing angry letters to newspapers; yet no major language on earth, however proud, has ever managed to avoid them, which should tell us something about the strength of the objection and the weakness of the case behind it.", "zh": "有些纯化论者以最高亢的声调反对借词，向报纸写愤怒的信；然而地球上没有任何一种主要语言——无论多么骄傲——真正躲开过它们；这足以说明这种反对有多有力，以及它背后的论据有多无力。" },
+        { "en": "The deepest layers of English were laid down by Germanic tribes who crossed the sea with swords, farms, and songs, and those ancient settlers remain the subject of the oldest English poetry, brooding over mead-halls, monsters, and the sea, the cold gray northern sea.", "zh": "英语最深的地层，是由带着剑、农田与歌谣渡海而来的日耳曼部族铺下的；这些古老的移民至今仍是英语最古老诗歌的主角，在蜂蜜酒厅、怪兽与大海——寒冷灰暗的北方之海——上空沉思。" },
+        { "en": "Beneath every sentence you speak there lies a buried landscape of this kind, and this little book is meant to serve as a rough catalogue of the excavation, mapping trench after trench of buried speech, from the Germanic basement to the Norman roof and the Latin steeple.", "zh": "你说出的每个句子底下都埋着这样一片旧地貌，而这本小书想充当一份粗略的发掘目录，给一段接一段的埋藏言语绘制地图：从日耳曼的地下室，到诺曼的屋顶，再到拉丁的尖塔。" },
+        { "en": "The analogy that guides every page is borrowed from the geologists themselves: just as they date a hill by its bands of ash and clay, we date a vocabulary by its bands of loan-words, and both sciences read ruins with respect, and with a certain thrill.", "zh": "指引本书每一页的类比，正是从地质学家那里借来的：正如他们凭火山灰与黏土的条带给山丘断代，我们也凭借词的条带给一种词汇断代；而且这两门科学读废墟时都心怀敬意——还带着一点激动。" },
+        { "en": "To ask where words come from is, in the end, to ask where we ourselves came from, and if that double question sounds grand, remember that it is the most logical opening move a curious reader could possibly make before the digging begins in earnest.", "zh": "追问词语从哪里来，终究是在追问我们自己从哪里来；倘若这个双重问题听上去宏大，请记住：在正式动土发掘之前，这是一个好奇的读者所能走出的最合逻辑的第一步。" }
+      ],
+      "questions": [
+        {
+          "q": "Why has Icelandic changed so little over nine hundred years, according to the chapter?",
+          "options": ["It has been cut off on a remote island with little outside contact.", "Its speakers are forbidden to read foreign books.", "It was frozen by a royal decree in the Middle Ages.", "Its grammar was completely reinvented by modern scholars."],
+          "answer": 0,
+          "explain": "第3句 “cut off on a remote northern island in the cold Atlantic”——冰岛语因地处隔绝的孤岛、缺少与外界的接触，所以九百年来几乎不变，被语言学家戏称为拒绝变老的活化石。"
+        },
+        {
+          "q": "According to the author, what does heavy contact with outsiders do to a language?",
+          "options": ["It freezes the language like cold storage.", "It protects the oldest words from dying.", "It makes the language drift away from its old shape faster.", "It has no effect at all."],
+          "answer": 2,
+          "explain": "第6句 “the more a language is spoken with outsiders”——演变的逻辑是：与外人交流越多，语言漂离旧形态越快；隔离则像冷库，把语言封存起来。"
+        },
+        {
+          "q": "In the author's comparison, what does a busy port stand for?",
+          "options": ["A library full of medieval sagas.", "A community that borrows words through constant contact.", "A cold storage room for grammar.", "A university where linguists give lectures."],
+          "answer": 1,
+          "explain": "第7句 “every ship that docks leaves some cargo behind”——繁忙的港口比喻频繁的语言接触：每艘靠岸的船（每个外来的群体）都会留下一点货物（借词、发音习惯，甚至语法）。"
+        },
+        {
+          "q": "What does the author imply about the purists' objection to borrowed words?",
+          "options": ["That it is loud but hopeless, since no major language avoids loans.", "That it is wise and should be followed by every country.", "That it has already stopped borrowing in several languages.", "That purists secretly write the best dictionaries."],
+          "answer": 0,
+          "explain": "第10句 “no major language on earth, however proud, has ever managed to avoid them”——无论多么骄傲的语言都躲不开借词，可见纯化论者的反对声势虽大，实际上注定徒劳。"
+        },
+        {
+          "q": "In sentence 8, what does the word 'monologue' literally mean?",
+          "options": ["A long speech by one person alone.", "A conversation between two speakers.", "A printed list of goods for sale.", "A formal expression of sorrow for the dead."],
+          "answer": 0,
+          "explain": "第8句 “keeps up a very long monologue”——mono 表示单一，log 源自希腊语 logos（言语），monologue 即一个人的长篇言语（独白）；这里比喻与世隔绝的社群只对自己说话。"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "借来的大教堂",
+      "sentences": [
+        { "en": "English is often described as a cathedral built from borrowed stone, its arches raised by craftsmen who never met, never wrote to one another, and never even shared a common tongue; if that sounds like chaos, look how long the roof has held.", "zh": "英语常被形容为一座用借来的石头砌成的大教堂，拱顶出自一群从未谋面、从不通信、甚至没有共同语言的工匠之手；如果这听上去像一场混乱，那就看看这屋顶撑了多久。" },
+        { "en": "After the Norman conquest of 1066, French became the language of power in England for nearly three hundred years, and an English shepherd who wanted his complaint heard in a courtroom had to borrow French words or else hire a patient translator of his own.", "zh": "1066年诺曼征服之后，法语成为英格兰的权力语言，统治了近三百年；一个想让法庭听取自己申冤的英格兰牧羊人，只能借用法语词，否则就得自己雇一位耐心的翻译。" },
+        { "en": "The peasant raised the animal and called it a cow, while the Norman lord dined on the same animal and called it beef, and in that little pair of words you can read the whole social history of the country: who labored, and who ate.", "zh": "农民养这头牲口，叫它 cow；诺曼老爷吃同一头牲口，叫它 beef——在这对小小的词里，你能读出这个国家完整的社会史：谁在劳作，谁在吃肉。" },
+        { "en": "Latin arrived later with the scholars, who needed abstract subjects for their abstract work, law, medicine, and theology, and those learned loans still lend English a certain formality, a suit of clothes for serious occasions, while the older Germanic layer keeps the warm, everyday heartbeat of the language.", "zh": "拉丁语随后随学者而来，他们需要抽象的科目来做抽象的工作——法学、医学与神学；这些学术借词至今给英语带来一种正式感，像出席郑重场合的一套正装，而更古老的日耳曼层则维持着这门语言温暖日常的心跳。" },
+        { "en": "A catalogue of English synonyms therefore reads like a social history of the island: ask beside inquire, freedom beside liberty, hearty beside cordial, and the humble word in each pair almost always came first, from the fields, while its elegant twin came from the castle.", "zh": "因此，一本英语同义词目录读起来就像这座岛屿的社会史：ask 旁边站着 inquire，freedom 旁边站着 liberty，hearty 旁边站着 cordial；每一对里朴素的那个几乎总是先来，来自田野；优雅的那位则来自城堡。" },
+        { "en": "Old Norse, the tongue of the Viking settlers, left its marks not in official documents but in daily dialogue, in the kitchen and the fishing boat, which is precisely why those words feel so native that we mistake them for the bedrock of the language.", "zh": "古诺斯语——维京移民的舌头——没有把痕迹留在官方文书里，而是留在了厨房与渔船上的日常对话中；正因如此，那些词才显得如此地道，以至于我们误把它们当成了这门语言的基岩。" },
+        { "en": "Words like sky, egg, and they were injected into English so long ago, and so deeply, that no living speaker now notices them as foreign; they ride along inside every sentence we build, quiet as rivets, holding the structure together through every storm.", "zh": "sky、egg、they 这些词被注入英语的年代太久、扎得太深，如今没有一个活着的说话者还觉得它们是外来户；它们藏在我们搭建的每个句子里，像铆钉一样安静，替结构扛住每一场风暴。" },
+        { "en": "A borrowed word is not a foreign object forever; after a century or two of daily use it starts to feel native, and I have watched visitors argue, with perfect confidence, that ketchup and pajamas could not possibly be loans, because they sound so English.", "zh": "借来的词不会永远是外来物；经过一两百年的日常使用，它就开始有母语的感觉——我亲眼见过有人言之凿凿地争辩说，ketchup 和 pajamas 绝不可能是借词，因为它们听起来太英语了。" },
+        { "en": "Linguists can date these layers the way archaeologists date pottery, comparing spellings, sounds, and shifting meanings, and a well-trained eye can often tell, within a century or so, when a given word crossed the water, settled down in English soil, married, and raised a family.", "zh": "语言学家能像考古学家给陶器断代那样给这些词层断代：比较拼写、语音与流变的意义；一双训练有素的眼睛往往能在一个世纪上下的误差内，说出某个词何时渡海而来、在英语土壤里落脚、成家、又繁衍出一整族词。" },
+        { "en": "Even the word adjective is itself a loan, a Latin grammar term borrowed to describe other borrowed words, and if you find that funny, you have begun to understand what this layering of English really means: the tools are part of the collection.", "zh": "连 adjective（形容词）这个词本身也是借来的——一个拉丁语法术语，借来描述其他被借来的词；如果你觉得这好笑，你便开始明白英语这种层积意味着什么：连工具也是藏品的一部分。" },
+        { "en": "Some Norman words were later rejected by fashion, dropped in the street and never picked up again, but the great majority stayed, multiplied, and had children, and the few rejections only prove how much the speakers of English loved to choose their words freely.", "zh": "有些诺曼词后来被时尚抛弃，掉在街上再没人捡起；但绝大多数留了下来，成倍增长，生儿育女——而那寥寥几次被拒，恰恰证明了说英语的人何等喜欢自由地挑选自己的词。" },
+        { "en": "\"So which layer should I trust?\" a student once asked me after a lecture; the logical answer is all of them, because every layer, humble or grand, Norse or Norman, tells its part of the story, and a language that hides a layer is lying to you somewhere.", "zh": "那我该信哪一层呢？一次讲座后，一个学生这样问我；合乎逻辑的回答是：每一层都信——因为每一层，无论卑微还是显赫，是诺斯还是诺曼，都讲述着故事中属于它的那一部分；而一种掩饰某一层的语言，必定在某处对你撒谎。" },
+        { "en": "People have written whole sad essays mourning English as a mongrel tongue, as if delivering a premature eulogy at a funeral where nobody has died, but a mongrel, as any dog owner will tell you, is often the healthiest animal in the yard, vigorous and full of tricks.", "zh": "有人写过整篇伤感的文章，哀叹英语是杂种语言，仿佛在一场没人去世的葬礼上提前念悼词；但任何养过狗的人都会告诉你，杂种狗往往是院子里最健康的动物——精力充沛，浑身是戏。" },
+        { "en": "To speak English, then, is to speak a compressed history of Europe, one borrowed object at a time: a Germanic frame, a Norse roof-beam, a Norman banquet hall, and a Latin library, all still standing, all still in daily use, and all still open to the next ship that docks.", "zh": "所以说英语，就是以一次借来一件东西的方式，说出一部压缩的欧洲史：日耳曼的骨架、诺斯的房梁、诺曼的宴会厅、拉丁的书房——全都立着，全都在日常使用，而且全都向下一艘靠岸的船敞开大门。" }
+      ],
+      "questions": [
+        {
+          "q": "What happened to English after the Norman conquest of 1066?",
+          "options": ["English disappeared entirely for a century.", "French became the language of power for nearly three hundred years.", "Latin replaced both English and French.", "All word-borrowing stopped for three hundred years."],
+          "answer": 1,
+          "explain": "第2句 “French became the language of power in England for nearly three hundred years”——诺曼征服后法语掌权近三百年，连牧羊人上法庭都得借法语词或请翻译。"
+        },
+        {
+          "q": "Why do 'cow' and 'beef' come from different language layers?",
+          "options": ["Because French speakers preferred farming words.", "Because the peasant raised the animal while the Norman lord dined on it.", "Because dictionaries picked the two words at random.", "Because 'beef' was invented in the fourteenth century."],
+          "answer": 1,
+          "explain": "第3句 “who labored, and who ate”——农民养牛用日耳曼词 cow，诺曼老爷吃肉用法语词 beef，阶级分工直接写进了词汇。"
+        },
+        {
+          "q": "Where did Old Norse leave its marks on English?",
+          "options": ["In official documents and royal charters.", "In legal and medical terminology.", "In the vocabulary of the Norman court.", "In daily dialogue, in kitchens and fishing boats."],
+          "answer": 3,
+          "explain": "第6句 “not in official documents but in daily dialogue”——古诺斯语的痕迹不在文书里，而在厨房与渔船的日常口语中，因此 sky、egg、they 才显得如此地道。"
+        },
+        {
+          "q": "When the author compares English to a mongrel dog, what is he suggesting?",
+          "options": ["That English is a weak and sick language.", "That its mixed vocabulary made it healthier and richer.", "That English should be purified as soon as possible.", "That only pure languages survive for long."],
+          "answer": 1,
+          "explain": "第13句 “is often the healthiest animal in the yard”——杂种狗往往最健康，暗示英语因混血（多来源的词汇）反而更强大、更丰富，悼词念得为时过早。"
+        },
+        {
+          "q": "What is ironic about the word 'adjective'?",
+          "options": ["It has no connection to French at all.", "It was invented by Shakespeare.", "It was rejected by dictionary editors for centuries.", "It is a borrowed word used to describe other borrowed words."],
+          "answer": 3,
+          "explain": "第10句 “Even the word adjective is itself a loan”——连用来描述语言的工具词 adjective 本身都是拉丁借词，借来的工具被用来整理借来的藏品。"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "词义的漂移",
+      "sentences": [
+        { "en": "Words do not only travel across borders, carried by ships and armies and traders; they also drift across meanings, slowly and without asking anyone's permission, so that a word you trust today may have been an insult, a prayer, or a legal term five hundred years ago.", "zh": "词语不只是被船队、军队与商队带着跨越国界地旅行，还会在词义上漂移——缓慢地，且不经任何人允许；因此你今天信赖的一个词，五百年前可能是一句骂人话、一段祷文，或一条法律术语。" },
+        { "en": "In the fourteenth century, calling a person nice was no compliment at all, for the word then meant foolish or ignorant, and a knight so described might well have drawn his sword; the compliment of the Middle Ages was a serious business indeed.", "zh": "在十四世纪，说一个人 nice 绝不是恭维，这个词当时意味着愚蠢或无知；一位被如此形容的骑士很可能当场拔剑——中世纪的恭维，可是件要命的正经事。" },
+        { "en": "The sense drifted from foolish to shy, from shy to precise, and from precise to the warm and friendly word we use now, each step small enough that no speaker involved ever felt the ground moving beneath their feet, or thought of objecting.", "zh": "它的词义从愚蠢漂向羞怯，从羞怯漂向精细，再漂到我们如今使用的这个温暖友好的词；每一步都小到让身处其中的说话者谁也没有察觉脚下的地面在移动，谁也没想过要抗议。" },
+        { "en": "Silly traveled the opposite road entirely: it once meant blessed, then innocent, then pitiable, and finally plain foolish, and somewhere along that downward path the saints lost a word and the fools gained one, which seems a very unfair trade, unless you keep the receipts.", "zh": "silly 走的完全是反向的路：它曾意为有福的，后来是天真，再到可怜，最后成了彻头彻尾的愚蠢；在这条下坡路上，圣徒丢了一个词，傻瓜捡了一个——这笔交易看起来很不公平，除非你留着收据。" },
+        { "en": "Semantic change works like a projector in a dark hall, throwing an image of society onto the small screen of a single word; whatever a community loves, fears, or refuses to look at, that image lands on the nearest word and stays there.", "zh": "词义变化的工作方式像黑暗大厅里的一台投影仪，把社会的影像投到一个小词这块小小的幕布上；一个社群爱什么、怕什么、拒绝看什么，那幅影像就落在最近的词上，并留在那里。" },
+        { "en": "When a society fears ignorance, as most societies quietly do, the word for foolish gathers moral weight, and it can start to sting; the true subject of every such shift is society itself, painting its own anxieties onto whatever words happen to be nearby.", "zh": "当一个社会恐惧无知——大多数社会都暗暗如此——表示愚蠢的词就会积起道德分量，开始带刺；每一次这种转变真正的主角都是社会本身，把自己的焦虑涂到恰好就在近旁的词上。" },
+        { "en": "These shifts can seem illogical from a distance, yet each one made perfect sense to the speakers who were living through it, because they never saw the whole road, only the next bend, and a bend never announces the valley beyond, or the sea after it.", "zh": "这些转变远看仿佛不合逻辑，但对身历其境的说话者而言，每一个都完全说得通：因为他们从来看不见整条路，只看得见下一个弯道——而弯道从不预告山那边的谷地，更不预告谷地之后的海。" },
+        { "en": "Meaning moves forward through dialogue between speakers and the changing world, never by decree from a dictionary or an academy, and no royal order has ever stopped a word from sliding, though several kings have tried and one lost his head over less.", "zh": "词义的前进经由说话者与变动世界之间的对话完成，从不依靠词典或学术院的敕令；从来没有一道王命能拦住一个词下滑的脚步——尽管好几位国王试过，还有一位为更小的事丢了脑袋。" },
+        { "en": "Euphemism is deliberate drift with a purpose: we reject a word because we cannot reject the fear or the sorrow underneath it, so we throw a fresh layer of paint over the old word and tell ourselves the wall has changed, which it has not.", "zh": "委婉语是带有目的的蓄意漂移：我们拒绝一个词，是因为拒绝不了它底下那份恐惧或哀伤；于是我们在旧词上刷一层新漆，并告诉自己墙已经变了——其实墙没有变。" },
+        { "en": "Linguists name the upward climb amelioration and the downward slide pejoration, and both paths are everywhere in the record, from the lordly words that fell into the gutter to the gutter words that rose to the parlor; every language keeps a full catalogue of both.", "zh": "语言学家把向上的爬升命名为褒化（amelioration），把向下的滑落命名为贬化（pejoration）；两条路在文献里随处可见——有贵族词跌进阴沟的，也有阴沟词爬进客厅的；每种语言都完整收藏着两份清单。" },
+        { "en": "The trajectory of any word can be traced through dated texts, citation by citation, century by century, and the resulting curve on the scholar's page looks exactly like a flight path: a slow climb, a long cruise, and sometimes a very sudden fall.", "zh": "任何一个词的轨迹都能凭借标了年代的文献，一条引文接一条引文、一个世纪接一个世纪地追溯出来；它在学者纸页上画出的曲线，活脱脱是一条飞行轨迹：缓慢爬升，漫长巡航，有时则骤然坠落。" },
+        { "en": "A conjecture about meaning is worthless without evidence, however clever it sounds, so scholars collect dated examples the way detectives collect fingerprints, and only when the pattern holds across a hundred documents does the conjecture earn the right to be called a finding.", "zh": "缺乏证据的词义推测再聪明也一文不值；所以学者像侦探采集指纹那样搜集标了年代的例证——只有当这个模式在一百份文献中都站得住，推测才挣得被称为结论的资格。" },
+        { "en": "An old dictionary therefore reads like a secret diary that a whole society kept without knowing it, and you can open it anywhere: in one column a word rejoicing, in the next a word standing dejected, and between them the entire quiet machinery of change.", "zh": "一本旧词典因此读起来像全社会在不知不觉中共同记下的一本秘密日记，随手翻开哪一页都行：这一栏里一个词在欢庆，下一栏里一个词垂头丧气，而在两者之间，是整套悄然运转的演变机器。" },
+        { "en": "So the next time you call a stranger nice, pause for half a second and remember that you are handling a fossil that once called people fools; \"Words do change,\" a wise reader once interjected, \"and we change inside them without noticing, century by century.\"", "zh": "所以，下次你夸一位陌生人 nice 时，不妨停上半秒钟，记住你手里这块化石曾把人叫作傻瓜；一位聪明的读者曾插话说：词语确实在变，而我们就在词语里面，一个世纪接一个世纪地、不知不觉地跟着变。" }
+      ],
+      "questions": [
+        {
+          "q": "What did the word 'nice' mean in the fourteenth century?",
+          "options": ["Friendly and agreeable.", "Precise and careful.", "Foolish or ignorant.", "Blessed and innocent."],
+          "answer": 2,
+          "explain": "第2句 “the word then meant foolish or ignorant”——十四世纪说人 nice 是侮辱，被形容的骑士可能因此拔剑，与今天的友好之意相去甚远。"
+        },
+        {
+          "q": "Which road did the word 'silly' travel?",
+          "options": ["From foolish to blessed.", "From precise to shy.", "From shy to foolish only.", "From blessed to foolish."],
+          "answer": 3,
+          "explain": "第4句 “it once meant blessed, then innocent, then pitiable, and finally plain foolish”——silly 从有福的滑向愚蠢，与 nice 的上行路线正好相反。"
+        },
+        {
+          "q": "According to the chapter, why is a euphemism described as 'deliberate drift'?",
+          "options": ["Because we cannot reject the fear underneath the old word.", "Because dictionaries order the change by decree.", "Because kings force the population to use new words.", "Because speakers mishear the old word accidentally."],
+          "answer": 0,
+          "explain": "第9句 “we reject a word because we cannot reject the fear or the sorrow underneath it”——委婉语的动机是：换掉旧词容易，换不掉旧词底下的恐惧与哀伤。"
+        },
+        {
+          "q": "What does the author mean by calling an old dictionary 'a secret diary'?",
+          "options": ["That lexicographers hide their drafts from the public.", "That dictionaries record a society's unspoken changes without its awareness.", "That old dictionaries were written in secret code.", "That only professional scholars may open them."],
+          "answer": 1,
+          "explain": "第13句 “a secret diary that a whole society kept without knowing it”——旧词典的词义起落（一个词欢庆、一个词垂头丧气）无意间记下了整个社会的观念变迁，社会自己却毫无察觉。"
+        },
+        {
+          "q": "In sentence 11, what does the word 'trajectory' describe?",
+          "options": ["A scholar's guess without any evidence.", "The flight-path-like curve of a word's meaning across centuries.", "A polite way to apologize in writing.", "A speech delivered by a single speaker."],
+          "answer": 1,
+          "explain": "第11句 “The trajectory of any word can be traced through dated texts”——ject 意为投掷，trajectory 指被掷出之物划出的轨道；这里指词义经引文追溯画出的飞行曲线般的变化路径。"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "新词的生与死",
+      "sentences": [
+        { "en": "New words are born every day, in playgrounds and laboratories and late-night kitchens, and most of them die before their first birthday, unmourned and unrecorded, the way most small businesses fail and most seedlings never reach the light, and nobody holds a funeral.", "zh": "新词每天都在诞生——在操场上、实验室里、深夜的厨房里；而其中大多数活不过一岁，无人哀悼，无人记录，就像大多数小生意会倒闭、大多数幼苗见不到阳光——也没有谁为它们办一场葬礼。" },
+        { "en": "William Shakespeare alone injected English with hundreds of words, from lonely to assassination, that his audience had never heard before, and when a groundling asked his neighbor what a new word meant, the neighbor could only shrug, guess, and applaud anyway.", "zh": "仅莎士比亚一人就往英语里注入了数百个词——从 lonely 到 assassination——观众此前闻所未闻；当站票观众问邻座某个新词是什么意思时，邻座也只能耸耸肩、猜一猜，然后照旧鼓掌。" },
+        { "en": "A word survives not by cleverness but by usefulness: it must fill a gap that ordinary speakers actually feel in their ordinary days, because language, for all its beauty, is a workshop before it is a gallery, and workshops keep only working tools.", "zh": "一个词能否存活，靠的不是巧妙，而是有用：它必须填补普通说话者在普通日子里真正感到的空缺——因为语言再美，也先是车间后是画廊，而车间里只留得下能干活的工具。" },
+        { "en": "Some coinages are logical, assembled from familiar parts like bricks in a wall, while others are accidents, jokes, or mishearings that somehow stuck, and the surviving examples of both kinds sit side by side in the dictionary, equally legitimate, equally alive, and equally English.", "zh": "有些新造词是合逻辑的，像砌墙的砖一样由熟悉的部件组装而成；另一些则是偶然、玩笑或听岔了的话，却莫名地粘住了；两类中活下来的例证在词典里并肩而坐，同样正统，同样鲜活，也同样英语。" },
+        { "en": "Dictionary editors therefore reject far more words than they record, watching each candidate for years like a doctor watching a patient, and an editor who fell in love with every new word would produce a volume that melted into fashion by spring.", "zh": "词典编辑因此拒绝的词远多于收录的词；他们像医生观察病人那样，一盯就是好几年——而一个对新词来者不拒、见一个爱一个的编辑，编出的书到开春就会随时尚一同融化。" },
+        { "en": "The usual standard is sustained, independent use: a word must appear in print, from different sources, over several years, and only then does it enter the catalogue; a modern dictionary is a record of observed usage, not a set of commands issued from an office above the clouds.", "zh": "通常的标准是持续且独立的使用：一个词必须在数年间、出现在不同来源的印刷品中，才有资格进入那份目录；一部现代词典是对观察到的用法的记录，而不是从云端上的办公室里下发的一套命令。" },
+        { "en": "Speakers sometimes object that editors are lowering the bar, letting slang in the front door, but lexicographers answer every such objection the same way: they describe the parade, they do not lead it, and a dictionary that commanded the language would be ignored within a decade.", "zh": "有人反对说编辑在放低门槛，把俚语从正门放了进来；但词典编纂者对每一次这类反对的回答都一样：他们只是描述游行队伍，并不领队——一部想要指挥语言的词典，不出十年就会无人理会。" },
+        { "en": "\"But someone must keep standards!\" a reader interjected during a talk I once gave; perhaps, I replied, but the standards that last are the ones that describe what people already say, because the public outvotes every academy, every year, without ever filling in a ballot.", "zh": "总得有人守住标准吧！我在一次演讲上有位听众这样插话；也许吧，我答道，但真正能存活的，是那些描述人们已在说什么的标准——因为公众每年都会投出胜过一切学术院的票，却从不填写选票。" },
+        { "en": "Whole vocabularies die as well, quietly and in batches: new technologies eject the words of old ones, and the gramophone, the quill pen, and the telegram have each faded away with their equipment, taking their rich technical vocabulary along like luggage on a one-way trip.", "zh": "整块整块的词汇也会死去，悄悄地、成批地：新技术把旧技术的词一一弹出；留声机、鹅毛笔和电报都随着各自的设备一同淡出，把它们丰厚的技术词汇像行李一样带上一趟单程旅行。" },
+        { "en": "A language with no power to reject new words would drown in a flood of noise, while one that rejected them all would starve in a locked room; between those two deaths lies the living road, and every healthy language walks it with the doors and windows open.", "zh": "一种无权拒绝新词的语言，会在噪音的洪水里淹死；一种把新词全拒之门外的语言，会在上锁的房间里饿死；在这两种死法之间横着一条活路，而每一种健康的语言都敞着门窗走在这条路上。" },
+        { "en": "Every generation leaves a fresh layer behind it, a geological deposit of slang and jargon and small projects of the imagination, and future scholars will dig through our memes and abbreviations the way we dig through the slang of the 1890s, with the same mixture of wonder and doubt.", "zh": "每一代人都会在自己身后留下一层新沉积：俚语、行话，以及想象力的小小工程；未来的学者会像我们挖掘十九世纪九十年代的俚语那样，带着同样的惊奇与疑虑，去挖掘我们的梗与缩写。" },
+        { "en": "The poet's office is to inject the language with new life, to take risks that would terrify a committee, while the dictionary's office, slower and colder, is to keep count of what actually survived; between those two offices, coinage and record, English has quietly renewed itself for over a thousand years.", "zh": "诗人的职责是为语言注入新生命，去冒那些能把委员会吓坏的险；词典的职责则更慢、更冷——为真正存活下来的词记账。在铸造与记录这两个职位之间，英语已经悄悄地自我更新了一千多年。" },
+        { "en": "Some people deliver funeral speeches for dying words, and I have eulogized a few myself, usually in an essay nobody read; but the honest apology owed to a dead word is simply to remember where it worked, what room it lit, and whose voice it carried.", "zh": "有人会为垂死的词念悼词，我自己也为几个词写过颂文，通常登在没人读的文章里；但对一个死去的词，真正诚实的道歉其实很简单：记得它在哪里派过用场，照亮过哪个房间，又承载过谁的声音。" },
+        { "en": "So do not feel dejected the next time your favorite new coinage vanishes by autumn; most words miss the dictionary, a few make it, and the language itself, which has buried millions and kept tens of thousands, has never once stopped writing, not even for a season.", "zh": "所以，下次你心爱的新造词到秋天就消失时，不必垂头丧气；大多数词进不了词典，少数进了，而语言本身——埋葬过百万、留存了数万——从未停止过书写，连一季也没有停过。" }
+      ],
+      "questions": [
+        {
+          "q": "According to the chapter, what usually decides whether a new word survives?",
+          "options": ["The cleverness of its coinage.", "Its usefulness in filling a gap speakers actually feel.", "The approval of a royal academy.", "Its length and elegant spelling."],
+          "answer": 1,
+          "explain": "第3句 “it must fill a gap that ordinary speakers actually feel”——词语存活靠有用而非巧妙：语言先是车间后是画廊，车间只留下能干活的工具。"
+        },
+        {
+          "q": "What is the usual standard for a word to enter the dictionary?",
+          "options": ["One famous author using it a single time.", "A public vote held every decade.", "Sustained, independent use in print across sources and years.", "The personal taste of the chief editor."],
+          "answer": 2,
+          "explain": "第6句 “appear in print, from different sources, over several years”——标准是持续、独立的使用；现代词典记录观察到的用法，而非发号施令。"
+        },
+        {
+          "q": "What does the author say happens to the vocabulary of an old technology?",
+          "options": ["It is preserved forever in daily speech.", "It always turns into playground slang.", "New technologies eject it, and it fades away with its equipment.", "It is translated into French and stored there."],
+          "answer": 2,
+          "explain": "第9句 “new technologies eject the words of old ones”——留声机、鹅毛笔、电报都随设备一起淡出，技术词汇像行李一样被带上单程旅行。"
+        },
+        {
+          "q": "When lexicographers say they 'describe the parade but do not lead it', what do they mean?",
+          "options": ["That dictionaries should march in street festivals.", "That dictionaries record usage rather than command the language.", "That editors secretly control public opinion.", "That the public must follow whatever editors print."],
+          "answer": 1,
+          "explain": "第7句 “they describe the parade, they do not lead it”——编纂者只记录语言的实际用法，不指挥它；公众每年都用嘴投票，胜过一切学术院。"
+        },
+        {
+          "q": "In sentence 12, what does the root ject- in 'inject' suggest the poet does?",
+          "options": ["Throws new life into the language.", "Throws the old words away.", "Throws words onto a screen for study.", "Throws an objection at the committee."],
+          "answer": 0,
+          "explain": "第12句 “to inject the language with new life”——ject 意为投掷，in- 表示向内，inject 即向内投入：诗人把新生命投入到语言之中，冒委员会不敢冒的险。"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "序言与尾声",
+      "sentences": [
+        { "en": "Behind all this history of borrowing and drift lies one deep habit of mind, and it is worth naming before we part: we understand new things by comparing them with old ones, and we have done so since the first fire was compared with the sun.", "zh": "在这部借贷与漂移的历史背后，藏着一种深层的思维习惯，在告别之前值得为它命名：我们靠把新事物比作旧事物来理解它们——自从有人把第一堆火比作太阳起，我们便一直如此。" },
+        { "en": "Analogy is the quiet engine of language and of thought itself, and nearly every idea in this little book has been its product: the language as a body, as a building, as a garden, as a harbor, as a layer of rock pressed into stone.", "zh": "类比是语言也是思想本身的安静引擎，而这本小书里几乎每一个想法都是它的产物：语言像身体、像建筑、像花园、像港口、像一层被压成岩石的沉积物。" },
+        { "en": "When we call a word living or dead, we are thinking by analogy, comparing language to a body, and the comparison is not just decoration; it guides what we look for, where we dig, and which fossils we bother to dust off and display in the light.", "zh": "当我们说一个词是活的还是死的，我们就在用类比思考，把语言比作身体；这比喻不只是装饰——它指引我们找什么、往哪里挖，以及值得为哪些化石掸去灰尘、摆到光亮处展出。" },
+        { "en": "The word logic itself descends from the Greek logos, which meant word, reason, and account all at once, a threefold meaning that the Greeks saw no need to separate; to speak, they felt, was already to reason, and to reason was already to give an account.", "zh": "logic（逻辑）一词本身源自希腊语 logos，它同时意味着词、理性和账目——希腊人认为这三层意思无须分开；在他们看来，说话即是推理，推理即是交代理由。" },
+        { "en": "Every argument in logic is a dialogue carried out under strict rules, a conversation with consequences, and even the loneliest scholar writing at midnight is holding an imaginary debate: the objections of an unseen opponent are answered, one by one, on the page.", "zh": "逻辑中的每一次论证，都是一场在严格规则下进行的对话——一场有后果的交谈；就连午夜独自写作的最孤独的学者，也在进行一场想象中的辩论：把那位看不见的对手的异议，一条接一条地在纸面上作答。" },
+        { "en": "A logician can tell you whether a sentence follows from the sentences before it; only history can tell you where the sentence came from, which invaders carried it, and which poet first bent it into a shape worth keeping through the centuries, dark and bright alike.", "zh": "逻辑学家能告诉你一个句子是否能由前面的句子推出；只有历史能告诉你这个句子从哪里来、是哪些入侵者带来的、又是哪位诗人最先把它弯折成一个值得穿越世纪——无论暗淡还是明亮——而留存下来的形状。" },
+        { "en": "The illogical charm of etymology is that it rarely behaves like proof; it behaves like a story, full of sidetracks and missing chapters, and the reader who demands strict logic from it will be disappointed, while the reader who wants a story will not be able to stop.", "zh": "词源学那不合逻辑的魅力在于：它很少表现得像证明，而更像一个故事，满是岔道和缺失的章节；向它索要严密逻辑的读者会失望，而想要听故事的读者则会欲罢不能。" },
+        { "en": "Word families grow by analogy as well: project, reject, inject, and eject are four gestures made by the same hand, four ways of throwing, forward, away, inward, and out, and once your eye has grouped them, they will never scatter again, not even on the final page.", "zh": "词族也靠类比生长：project、reject、inject、eject 是同一只手做出的四个手势，是投掷的四个方向——向前、推开、掷入、掷出；一旦你的眼睛把它们归了组，它们就再也不会散开，哪怕读到最后一页。" },
+        { "en": "Once you notice one root, you begin to see it everywhere, in the monologue of a stage actor, in the catalogue of a museum, in the apology of a politician, and vocabulary stops being a list to be suffered and becomes a map to be traveled.", "zh": "一旦你注意到一个词根，你便开始到处看见它——在舞台演员的独白里，在博物馆的目录里，在政客的道歉里；词汇于是不再是一张拿来受罪的清单，而成了一张可以游历的地图。" },
+        { "en": "The prologue of English was written long ago, and by many hands at once: by tribes crossing the cold water, by invaders with their dictionaries of power, by poets taking unreasonable risks, by printers spreading pages, and by patient editors keeping count of it all.", "zh": "英语的序言早已写就，而且是许多只手同时写下的：渡过冷海的部族、带着权力词典的入侵者、冒不合理之险的诗人、传播书页的印刷工，还有为这一切记账的耐心的词典编辑。" },
+        { "en": "The epilogue is unwritten, and every speaker of English holds the pen for a sentence or two before passing it on; a child asking for a bedtime story tonight is quietly drafting a page that scholars will cite, with footnotes, a century from now.", "zh": "但尾声尚未写就，每一位说英语的人都握笔写上一两句，然后把它传下去；今晚一个讨睡前故事的孩子，正在悄悄起草一页文字——一个世纪后，学者们会带着脚注引用它。" },
+        { "en": "\"Could English ever die?\" a reader may reasonably interject here, and my honest answer is a conjecture, not a guarantee: languages die when their speakers stop passing the pen, but this one is being passed, at this moment, on every continent on earth, and shows no sign of putting it down.", "zh": "英语难道不会死吗？读到此处，读者插这么一句也合情合理；我诚实的回答是一份推测，而非保证：语言死于说话者不再传笔的那一刻——而这一支笔，此刻正在地球上的每一片大陆之间传递，且毫无搁下的迹象。" },
+        { "en": "This book opened with fossils and now closes in a nursery, for a language is less a museum than a garden: it is planted, weeded, watered, and constantly rearranged, and some of what is planted in it this spring will still be blooming when nobody remembers the gardener's name.", "zh": "这本书以化石开篇，而如今在一间育婴室里收尾——因为语言与其说是博物馆，不如说是花园：它被栽种、除草、浇灌，并被不断重新布置；今年春天种下的某些东西，将来仍会开花，即便那时已无人记得园丁的名字。" },
+        { "en": "The words that were borrowed yesterday will feel native tomorrow, the words you are using today are fossils in training, and if you someday write a eulogy for a word you loved, take comfort: the root will survive it, ready to be thrown once more into new speech.", "zh": "昨天借来的词，明天就会像母语；你今天使用的词，正是训练中的化石；倘若有一天你为一个深爱的词写下悼词，也请稍感安慰：词根会活过它，随时准备再一次被掷进新的言语。" }
+      ],
+      "questions": [
+        {
+          "q": "What does the author call 'the quiet engine of language and of thought itself'?",
+          "options": ["Grammar.", "Memory.", "Analogy.", "Etymology."],
+          "answer": 2,
+          "explain": "第2句 “Analogy is the quiet engine of language”——类比是安静的引擎，本书里几乎每个想法（语言像身体、像花园、像岩层）都是它的产物。"
+        },
+        {
+          "q": "What did the Greek word 'logos' mean, according to the chapter?",
+          "options": ["Only reason and argument.", "Word, reason, and account all at once.", "Only speech and sound.", "Light and truth together."],
+          "answer": 1,
+          "explain": "第4句 “meant word, reason, and account all at once”——logos 一词身兼词、理性、账目三义，希腊人认为说话即是推理，推理即是交代理由。"
+        },
+        {
+          "q": "Who, according to the author, wrote the prologue of English?",
+          "options": ["A royal academy founded in the eighteenth century.", "Tribes, invaders, poets, printers, and patient editors together.", "Shakespeare working entirely alone.", "The Norman kings and their official scribes."],
+          "answer": 1,
+          "explain": "第10句 “The prologue of English was written long ago”——序言由渡海的部族、入侵者、冒险的诗人、印刷工和耐心的编辑许多只手共同写成。"
+        },
+        {
+          "q": "When the author says every speaker 'holds the pen for a sentence or two', what is he suggesting?",
+          "options": ["That only professional writers can change English.", "That ordinary speakers, even a child at bedtime, are each writing part of the language's unfinished story.", "That English is finished and needs no more writers.", "That scholars will soon write the final dictionary."],
+          "answer": 1,
+          "explain": "第11句 “every speaker of English holds the pen for a sentence or two”——尾声尚未写就，每个说话者（连讨睡前故事的孩子）都在续写一页，可见语言的未来在所有普通使用者手中。"
+        },
+        {
+          "q": "Why do 'project, reject, inject, and eject' feel like one family, according to the chapter?",
+          "options": ["They all rhyme in modern English.", "They were all coined by one poet.", "They are four directions of throwing, made by the same root ject through analogy.", "They all entered English through Norman French."],
+          "answer": 2,
+          "explain": "第8句 “four gestures made by the same hand”——ject 意为投掷，四个词分别表示向前掷、掷回、掷入、掷出，是同一词根借类比做出的四个手势。"
+        }
+      ]
+    }
+  ]
+}

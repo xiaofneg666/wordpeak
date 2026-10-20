@@ -1,0 +1,272 @@
+{
+  "id": "lib-underground",
+  "title": "城市地下十米",
+  "en_title": "Ten Meters Under the City",
+  "author": "WordVerse Archive",
+  "region": "science",
+  "level": 2,
+  "one_line": "沿一条街道向下剖开，看清撑起城市的隐秘地下层。",
+  "word_focus": ["struct", "geo"],
+  "chapters": [
+    {
+      "no": 1,
+      "title": "井盖之下",
+      "sentences": [
+        { "en": "Every morning for three whole years, Lin walked over the same round manhole cover near her bus stop, and every morning it was exactly the same: grey, quiet, and full of small secrets.", "zh": "整整三年，每天早上，琳都会走过公交站旁那块圆圆的井盖；每个早晨它都一模一样：灰扑扑、不声不响，装满了小小的秘密。" },
+        { "en": "One Tuesday, in a light autumn rain, she stopped in the middle of the pavement, looked down at the wet iron circle, and asked herself one simple question that changed her whole year: what lies below it?", "zh": "一个下着小雨的周二，她在人行道中间停下脚步，低头看着那块湿漉漉的铁圆盖，问了自己一个改变了她一整年的简单问题：它下面是什么？" },
+        { "en": "The next morning, a city engineer in a yellow coat met her at the bus stop, and he used a long metal instrument to lift the heavy cover, carefully, like a nurse waking a sleeping patient.", "zh": "第二天早上，一位穿黄外套的市政工程师在公交站等她；他用一根长长的金属器械小心翼翼地掀开沉重的井盖，像护士唤醒一位睡着的病人。" },
+        { "en": "Below the street, in a darkness that smelled of cold stone and old iron, water pipes and power lines formed a hidden structure, layered like the floors of an upside-down house.", "zh": "街道之下，在那片散发着冷石头和旧铁味道的黑暗里，水管与电线组成了一套看不见的结构，像一栋倒过来的房子，一层压着一层。" },
+        { "en": "Clean water arrived through one fat pipe and waste water left through another, and the two of them never mixed, never touched, and never once argued about their very different duties.", "zh": "清水从一根粗管子进来，废水从另一根管子离开，两条管线从不掺和、从不碰面，也从不为彼此天差地别的职责拌一句嘴。" },
+        { "en": "Thick copper cables carried the electricity for the whole street, while thin glass fibers, no thicker than a single hair, carried the Internet, the photographs, the films, and the late-night messages of a thousand strangers.", "zh": "粗粗的铜缆为整条街输送电力；而细得像头发丝的玻璃光纤，传输着互联网、照片、电影，和一千个陌生人的深夜留言。" },
+        { "en": "\"People call this the real infrastructure of the city,\" the engineer said quietly, \"but almost nobody looks at it until something breaks, and that, I think, is the city's oldest joke.\"", "zh": "\"人们管这个叫这座城市真正的基础设施，\"工程师轻声说，\"可直到哪儿坏了，几乎没有一个人肯看它一眼——我觉得，这是这座城市最老的一个笑话。\"" },
+        { "en": "The pipes ran below the pavement in a neat geometry of right angles and straight lines, turning at every corner like a patient train following invisible rails under the shops.", "zh": "管道在路面下沿着直角和直线构成的一套利落几何排布，每个街角都规规矩矩地转弯，像一列有耐心的火车，追着店铺底下看不见的铁轨走。" },
+        { "en": "Workers constructed this pipe network more than eighty years ago, layer by layer, winter by winter, with shovels, bricks, and far more patience than any modern machine could ever understand.", "zh": "八十多年前，工人们一层一层、一个冬天接一个冬天地建造了这套管网，靠的是铁锹、砖头，和一台任何现代机器都理解不了的耐心。" },
+        { "en": "The engineer explained that the geology under the street — soft river clay, then wet sand, then hard old rock — quietly decided where every pipe was allowed to sleep, and for how long.", "zh": "工程师解释说，真正悄悄说了算的，是街道底下的地质——先是松软的河泥，再是湿沙，然后是坚硬的老岩层：哪根管子能睡在哪儿、能睡多久，全由它定。" },
+        { "en": "\"If one pipe breaks, we follow the printed instructions, close the nearest valve, and repair everything at night, while the street above is sleeping and the buses are parked,\" he said.", "zh": "\"哪根水管坏了，我们就照着印好的操作说明，关掉最近的阀门，趁夜里抢修——那时上面的街睡了，公交也进场了。\"他说。" },
+        { "en": "A broken-down truck can obstruct the street above for a whole morning, and everybody complains loudly about it, but the quiet pipes below can work for decades without one single word of thanks.", "zh": "一辆抛锚的卡车能堵住上面的街道一整个上午，人人都会大声抱怨；可下面那些不出声的管子，干上几十年也听不到一句谢。" },
+        { "en": "Lin looked down into the dark square hole and felt the cool, damp air rising against her face, soft and slow, like the breath of the city itself.", "zh": "琳朝那个黑漆漆的方洞里望下去，一股清凉潮湿的空气软软地、慢慢地扑上她的脸，像这座城市自己的呼吸。" },
+        { "en": "The first ten meters held water, power, and messages, all moving in silence under her shoes, and she walked home that evening without ever stepping on a manhole cover again.", "zh": "最初的十米装着水、电和讯息，一切都在她的鞋底下无声地流动；那天傍晚她走回家去，从此再没有像从前那样踩过任何一块井盖。" }
+      ],
+      "questions": [
+        {
+          "q": "What question did Lin ask herself near her bus stop?",
+          "options": ["Who built the bus stop?", "When does the bus arrive?", "What lies below the manhole cover?", "Why is the street so noisy?"],
+          "answer": 2,
+          "explain": "第2句 \"she asked herself one simple question... what lies below it?\"，it 指井盖，她问的是井盖下面有什么。"
+        },
+        {
+          "q": "According to the passage, what carried the Internet under the street?",
+          "options": ["Thick copper cables.", "Thin glass fibers.", "Old water pipes.", "Metal instruments."],
+          "answer": 1,
+          "explain": "第6句 \"thin glass fibers... carried the Internet, the photographs, the films\"，网络信号由细玻璃光纤传输。"
+        },
+        {
+          "q": "What did the engineer call the real infrastructure of the city?",
+          "options": ["The tall towers.", "The busy bus stop.", "The pipes and lines under the street.", "The manhole covers."],
+          "answer": 2,
+          "explain": "第7句，工程师掀开井盖、指着下方的水管电线说 \"People call this the real infrastructure of the city\"，指的是街道下的管线。"
+        },
+        {
+          "q": "Why did Lin never step on a manhole cover the same way again?",
+          "options": ["Because the covers were all replaced that year.", "Because she now knew the silent water, power and messages moving under her feet.", "Because the engineer told her the covers were dangerous.", "Because she stopped taking the bus."],
+          "answer": 1,
+          "explain": "由第14句 \"The first ten meters held water, power, and messages, all moving in silence under her shoes, and she walked home... without ever stepping on a manhole cover again\" 可推知，她看见了井盖下的世界，从此走路的心情不同了。"
+        },
+        {
+          "q": "In sentence 8, \"a neat geometry of right angles and straight lines,\" the word \"geometry\" means ______.",
+          "options": ["the study of shapes, lines and measurement", "a kind of water pipe", "a street map for buses", "a book of old photographs"],
+          "answer": 0,
+          "explain": "第8句。词根 geo- 表示\"大地\"，-metry 表示\"测量\"：geometry 本义是\"丈量土地\"的学问，即几何学；这里指管道按直线和直角排成的利落布局。"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "隧道里的钢铁巨兽",
+      "sentences": [
+        { "en": "Under the east side of the city, where the old maps showed only grey clay and vegetable fields, a new metro line was under construction, and the whole city argued happily all year about the color of its future trains.", "zh": "在城市东侧的地下——旧地图上那里只有灰泥和菜地——一条新地铁线正在施工，全城人整年都在兴高采烈地争论未来列车该是什么颜色。" },
+        { "en": "The machine that dug the tunnel was called \"Little Dragon\", and it was not an animal but a tunnel boring machine, forty meters long, like a hungry steel train slowly eating its own railway in the dark.", "zh": "负责掘进的机器叫\"小龙\"，它不是动物，而是一台隧道掘进机，足足四十米长，像一列饥饿的钢铁火车，在黑暗里一口一口吃掉属于自己的铁路。" },
+        { "en": "At the front, a spinning wheel with rows of metal teeth cut the earth in front of it, and the teeth were changed every single week, because rock is patient and steel, in the end, is not.", "zh": "机身前端是一只旋转的刀盘，一排排金属齿切开面前的泥土；刀齿每周都得换，因为岩石有耐心，而钢铁终究没有。" },
+        { "en": "Engineers watched the pressure gauges every minute, because soft mud under the city could destroy the cutter's face in one unlucky hour, and destruction down here cost months, not days.", "zh": "工程师每一分钟都盯着压力表，因为城下的软泥要是不走运，一个钟头就能毁掉整个刀盘——在这里，一次毁灭赔进去的是几个月，不是几天。" },
+        { "en": "When the cutter met a wall of hard rock, the whole machine slowed down and sang, a deep, tired note that traveled up through the ground and into people's tea cups on the surface.", "zh": "刀盘碰上硬岩壁时，整台机器就慢下来唱歌，那声低沉疲惫的轰鸣顺着地层一路往上，钻进地面上人们的茶杯里。" },
+        { "en": "Behind the cutter, workers constructed the tunnel wall ring by careful ring, and each concrete ring locked into the next one until the whole tube became one strong, patient structure.", "zh": "刀盘身后，工人们一环一环、仔仔细细地建造隧道壁，每一环混凝土管片咬住下一环，直到整条隧道成为一条结实而有耐性的结构。" },
+        { "en": "Every morning, the team's geologist studied the soil that the machine had eaten the day before, and she told the crew what the next hundred meters were probably dreaming about.", "zh": "每天清晨，队里的地质学家研究机器头一天\"吃\"进去的土样，然后告诉大伙儿，前面那一百米大概正做着什么梦。" },
+        { "en": "\"If we find an old riverbed, the mud is soft and wet, and the machine must slow down and hold the walls with all of its strength,\" she warned them more than once.", "zh": "\"要是碰上古河道，泥就会又软又湿，机器必须减速，拿出全部力气撑住两壁。\"她不止一次提醒大家。" },
+        { "en": "Her instruments measured the ground every hour, and one rainy Thursday they found hidden water sleeping inside a pocket of wet sand, exactly where the old maps had promised nothing at all.", "zh": "她的仪器每小时测量一次地层；一个下着雨的周四，仪器在一兜湿沙子里找到了藏着的水——偏偏就在旧地图信誓旦旦说\"什么都没有\"的地方。" },
+        { "en": "The line of the tunnel had been drawn on paper with the purest geometry, but the geology below the city had its own older ideas about straight lines.", "zh": "隧道的线路是用最纯粹的几何画在纸上的，可城市底下的地质，对\"直线\"自有一套更老的主意。" },
+        { "en": "The engineers instructed the machine drivers hour by hour, and the great steel animal turned, patiently, around every surprise that the old ground pushed into its path.", "zh": "工程师们一小时一小时地给司机下达指令，而这头钢铁巨兽呢，不慌不忙地绕开老地层塞到它路上的每一个意外。" },
+        { "en": "When the work finally finished, Little Dragon had constructed two kilometers of tunnel in exactly one year, and it was taken apart with almost the same ceremony as a retiring teacher.", "zh": "工程收尾时，小龙用整整一年建成了两公里隧道；拆解它时的仪式感，几乎不输给一位荣休的老教师。" },
+        { "en": "Today, bright trains run through the dark tube, and the passengers look at their phones and never once think about Little Dragon, its metal teeth, or its long, patient, unfed hunger.", "zh": "如今，明亮的车厢在那条黑暗的管道里穿行，乘客们低头看手机，没有一个人想起过小龙、它的金属齿，和它那份漫长的、没喂饱过的耐心胃口。" },
+        { "en": "The machine destroyed only rock and left a smooth, straight road through the dark earth, and the city, which never learned its digger's name, sleeps a little better above it.", "zh": "这台机器只毁坏过岩石，却在黑暗的地层里留下了一条平整笔直的路；而这座从没记住挖掘者名字的城市，在它上方睡得踏实了一点。" }
+      ],
+      "questions": [
+        {
+          "q": "What was \"Little Dragon\"?",
+          "options": ["A dangerous animal in the tunnel.", "A tunnel boring machine.", "The first metro train.", "A famous engineer."],
+          "answer": 1,
+          "explain": "第2句 \"it was not an animal but a tunnel boring machine, forty meters long\"，小龙是四十米长的隧道掘进机。"
+        },
+        {
+          "q": "Why did engineers watch the pressure gauges every minute?",
+          "options": ["To check the weather.", "To count the passengers.", "Because soft mud could destroy the cutter's face.", "Because the machine needed electricity."],
+          "answer": 2,
+          "explain": "第4句 \"soft mud under the city could destroy the cutter's face in one unlucky hour\"，盯压力表是为了防软泥毁掉刀盘。"
+        },
+        {
+          "q": "What did the geologist do every morning?",
+          "options": ["She drove the boring machine.", "She sold tickets to passengers.", "She studied the soil and told the crew what lay ahead.", "She cleaned the tunnel."],
+          "answer": 2,
+          "explain": "第7句 \"the team's geologist studied the soil that the machine had eaten the day before, and she told the crew what the next hundred meters were probably dreaming about\"，她研究土样、预报前方地层。"
+        },
+        {
+          "q": "What can we learn about the old maps from sentence 9?",
+          "options": ["They were drawn by the geologist herself.", "They did not show everything under the city.", "They showed too much underground water.", "They were maps of the new metro line."],
+          "answer": 1,
+          "explain": "第9句 \"they found hidden water... exactly where the old maps had promised nothing at all\"——旧地图上什么都没标，地下却藏着水，可见旧图并没有画全城下的一切。"
+        },
+        {
+          "q": "In sentence 4, \"destruction down here cost months, not days,\" the word \"destruction\" means ______.",
+          "options": ["the act of building faster", "the act of destroying or ruining something", "a kind of underground train", "a pressure gauge"],
+          "answer": 1,
+          "explain": "第4句。词根 struct- 表示\"建造\"：de-(毁坏)+struct(建造)→把建造好的东西拆毁→毁灭。刀盘被毁，工期就要多赔几个月。"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "老城的地下层",
+      "sentences": [
+        { "en": "In the old part of the city, where the streets are narrow and the bricks remember everything, the underground had a much longer and more human story than any metro line.", "zh": "在老城区，街道窄，砖头什么都记得；这里地下的故事，比任何一条地铁线都长得多，也更有人味儿。" },
+        { "en": "During the war, people dug deep shelters under their houses with shovels, buckets, and borrowed courage, and they stored water, rice, and warm blankets in the cold halls below.", "zh": "战争年代，人们靠铁锹、木桶和跟人借来的胆量，在自家房子底下挖出深深的防空洞，在那些寒冷的大厅里存上水、米和厚毯子。" },
+        { "en": "After the war, the empty shelters were reconstructed into shops and small warehouses, and the city, which needed almost everything in those years, used the dark rooms for almost everything.", "zh": "战争结束后，空置的防空洞被改建成了商铺和小仓库；那些年这座城几乎什么都缺，于是这些黑屋子几乎被派上了各种用场。" },
+        { "en": "Grandma Chen was a small girl when the shelters first opened as an underground market, and she still walks down there every week after week, slowly, in her good coat, like a person rereading a favorite page.", "zh": "防空洞第一次开放成地下商场那年，陈奶奶还是个小姑娘；如今她一个星期接一个星期地下到那儿去，穿着出客的好大衣慢慢走，像一个人重读最爱的一页书。" },
+        { "en": "\"The walls were cold, and the lamps were few,\" she remembers, \"but the market was warm and full of voices, and in those years, warm voices were everything a person needed to go on.\"", "zh": "\"墙是凉的，灯也没几盏，\"她记得，\"可市场里暖烘烘、满是人声；在那些年，一屋子热乎的人声，就是一个人撑下去需要的全部。\"" },
+        { "en": "Workers constructed new stairs, bright lights, and clean white signs, but they kept the old brick arches, because the arches were part of the original structure, and the structure, not the signs, was the memory.", "zh": "工人们建了新楼梯、亮灯和干净的白招牌，却留下了那些老砖拱——因为拱顶是最初结构的一部分，而是这结构、而不是招牌，才是记忆本身。" },
+        { "en": "The arches had been built with simple, honest geometry, half-circles of brick holding hands above every shop door, strong enough to carry the whole street without any concrete at all.", "zh": "那些拱顶用的是简单、老实的几何：半圆的砖在每家店铺门顶上手拉着手，一滴混凝土都不用，就足以扛起整条街。" },
+        { "en": "Some doors at the ends of the long halls have stayed closed for forty long years, because the old tunnels behind them are not safe, and the geology behind them has shifted, over the years, like a tired sleeper.", "zh": "长廊尽头有几扇门，一关就关了整整四十年，因为门后的老隧道已经不安全——门后的地层，这些年里像一个睡累了的人，翻过身了。" },
+        { "en": "In one corner of the market, a small museum shows photographs of the construction from 1969: young workers, muddy boots, and faces proud enough to light up the dark.", "zh": "市场的一个角落里，有座小博物馆，陈列着 1969 年施工时的照片：年轻的工人、糊满泥的靴子，还有一张张骄傲得能照亮黑暗的脸。" },
+        { "en": "A guide instructed the visiting children to walk quietly through the narrow hall, and the children, for once in their short lives, obeyed, because the silence down there felt older than their grandparents.", "zh": "讲解员叮嘱来参观的孩子们安静地走过狭窄的展厅；这一回，孩子们居然照办了——因为那底下的安静，闻起来比他们的爷爷奶奶还要老。" },
+        { "en": "History was layered under the city like pages in a heavy book: war under peace, fear under bread, and destruction under daily life, page after page after page.", "zh": "历史在这座城市下面层层叠叠，像一本厚书里的书页：战争压在和平下面，恐惧压在面包下面，毁灭压在日常生活下面，一页，又一页，又一页。" },
+        { "en": "The instruments in the museum measure nothing at all, but they still teach: an old lamp, a cracked rice bowl, and a wartime clock that stopped forever, one black evening, at a quarter to nine.", "zh": "博物馆里那些\"仪器\"什么也不测量，却照样教人：一盏旧灯、一只裂了口的饭碗，还有一只战时钟，在某个漆黑的夜晚永远停在了八点四十五分。" },
+        { "en": "Grandma Chen buys her warm bread in a hall that was built to hide from bombs, walks slowly up the new stairs, and returns to the bright, noisy street above.", "zh": "陈奶奶在一座当年为躲避炸弹而建的大厅里买了热乎乎的面包，慢慢走上新楼梯，回到上面那条又亮堂又喧闹的街上。" },
+        { "en": "\"The same city,\" she says to nobody in particular, \"just one floor apart,\" and the street above carries her home without ever knowing what it stands on, or what it owes.", "zh": "\"还是这座城，\"她像是随口地说，\"不过隔了一层楼。\"上面的街道载着她回家，却从不知道自己脚下踩着什么，欠着什么。" }
+      ],
+      "questions": [
+        {
+          "q": "What did people store in the deep shelters during the war?",
+          "options": ["Warm bread for the market.", "Water, rice, and warm blankets.", "Construction tools.", "Old photographs."],
+          "answer": 1,
+          "explain": "第2句 \"they stored water, rice, and warm blankets in the cold halls below\"，战时防空洞里存的是水、米和毯子。"
+        },
+        {
+          "q": "What happened to the empty shelters after the war?",
+          "options": ["They were filled with rocks.", "They were forgotten by everyone.", "They were reconstructed into shops and small warehouses.", "They became train stations."],
+          "answer": 2,
+          "explain": "第3句 \"the empty shelters were reconstructed into shops and small warehouses\"，防空洞战后改建成了商铺和小仓库。"
+        },
+        {
+          "q": "What does the small museum in the corner show?",
+          "options": ["Old maps of the metro.", "Photographs of the construction from 1969.", "Modern computers.", "Bread from the market."],
+          "answer": 1,
+          "explain": "第9句 \"a small museum shows photographs of the construction from 1969\"，小博物馆陈列的是 1969 年施工的照片。"
+        },
+        {
+          "q": "Why did the workers keep the old brick arches when they built the new market?",
+          "options": ["Because concrete was too expensive.", "Because the arches were part of the original structure, and the structure was the memory.", "Because the law required it.", "Because the arches were fashionable."],
+          "answer": 1,
+          "explain": "第6句 \"they kept the old brick arches, because the arches were part of the original structure, and the structure was the memory\"——拱顶是原始结构的一部分，留住它就是留住记忆。"
+        },
+        {
+          "q": "In sentence 3, \"the empty shelters were reconstructed into shops,\" the word \"reconstructed\" means ______.",
+          "options": ["to build again in a new form", "to destroy completely", "to sell to strangers", "to close forever"],
+          "answer": 0,
+          "explain": "第3句。词根 struct- 表示\"建造\"：re-(重新)+construct(建造)→重新建造、改建——防空洞保留主体，改成了商铺和仓库。"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "城市坐在什么上面",
+      "sentences": [
+        { "en": "A geologist named Dr. Wu has loved this city for thirty years, for one simple, strange reason: \"It sits on a young river plain,\" she says, \"and the ground remembers everything that ever happened here.\"", "zh": "一位姓吴的地质学家爱了这座城市三十年，理由既简单又奇怪：\"它坐在一片年轻的河流平原上，\"她说，\"而地面记得在这里发生过的一切。\"" },
+        { "en": "In the small park behind the central library, her team drilled a deep, narrow hole and pulled up thin soil samples, one after another, like a careful nurse drawing the city's slow, grey blood.", "zh": "在中央图书馆后面的小公园里，她的团队钻了一个又深又细的孔，把一管管细细的土样取上来，像一位细心的护士，抽取这座城市缓慢的灰血。" },
+        { "en": "The top layer held black, rich mud, because the great river had flooded this ground a thousand times, spring after spring, before anyone in the whole region thought of drawing the very first map.", "zh": "最上面一层是肥沃的黑泥，因为在大河春复一春地泛滥过千百次之后，整个地区才有人想起来画第一张地图。" },
+        { "en": "Below the mud lay an old riverbed, a structure of smooth, round stones, rolled soft by water that stopped flowing here long before the first stone house was built.", "zh": "泥层之下是一条古河道，一片由光滑圆石构成的结构——那些石头被流水磨圆，而流水停下的年代，比第一间石头房子还早。" },
+        { "en": "Deeper still, the drill touched hard, grey rock formed by ancient volcanoes, and the drill bit came up hot, dusty, tired, and quietly satisfied, like a woodpecker after a very long, very honest tree.", "zh": "再往下，钻头碰到了远古火山形成的坚硬灰岩；钻头上来时又烫、又是泥、又累，却带着一种安安静静的满足，像啄木鸟啃完一棵很长、很实诚的树。" },
+        { "en": "Each layer, Dr. Wu explains to her students, is a page, and geology is simply the art of reading them in order, from the youngest grass down to the oldest, deepest fire.", "zh": "吴博士向学生们解释：每一层都是一页，地质学不过是一门按顺序读它们的技艺——从最年轻的草，一路读到最古老、最深处的火。" },
+        { "en": "\"Once you can read the pages,\" she instructed her students at the edge of the drill hole, \"you will never see a flat, boring city in the same way again.\"", "zh": "\"等你们会读这些书页了，\"她站在钻孔边上教学生们，\"你们再看任何一座平平无奇的城市，眼光就再也不一样了。\"" },
+        { "en": "The old river channel, buried but never quite dead, still carries groundwater slowly beneath the busy city streets, a hidden artery that nobody has ever drawn on the bus maps.", "zh": "那条被掩埋却没死透的古河道，至今仍在繁忙的城市街道下缓缓输送着地下水——一条隐秘的动脉，只是从没有人把它画上公交地图。" },
+        { "en": "Engineers used geometry to map the layers before constructing anything new and heavy above them, because a building that argues with the ground below always loses that long argument in the end.", "zh": "工程师先用几何绘出地层图，然后才在上面建造任何新的、有分量的东西——因为一栋和脚下地层讲道理的楼，在这场漫长的争论里到头来总是输的那一方。" },
+        { "en": "One of Dr. Wu's maps showed a buried channel running exactly under the planned site of the new hospital, soft as wet soap and just as friendly to any heavy wall above it.", "zh": "吴博士的一张图纸上，一条被掩埋的河道不偏不倚，正好从新医院的规划选址底下穿过——那里的地面软得像湿肥皂，对上面任何一堵重墙也同样\"友好\"。" },
+        { "en": "Because the ground there was soft, the city moved the new hospital two kilometers to the north, where older, harder rock had been waiting patiently under the deep, quiet grass for millions of quiet years.", "zh": "由于那里的地面松软，城市把新医院向北挪了两公里——那底下更老、更硬的岩层，已经在深深、安静的草皮下面，安安静静等了几百万年。" },
+        { "en": "Her instruments listen to the layers all winter long, and geothermal heat sleeps in the deepest rock, patient and enormous, waiting quietly under every single pair of feet in the whole city.", "zh": "她的仪器听了一整个冬天地层的声音；而地热能沉睡在最深的岩层里，耐心又庞大，在全城每一双脚底下静静等候。" },
+        { "en": "\"If you understand the layers,\" Dr. Wu says, rolling up her maps as the sun goes down behind the tall towers, \"the city stops being a picture and becomes a living thing.\"", "zh": "\"如果你读懂了这些层，\"吴博士说，在高高的塔楼后面、落日里卷起图纸，\"这座城市就不再是一张画，而成了一件活物。\"" },
+        { "en": "She walks home above the quiet layers that evening, and the street lamps come on above a million unread pages, readable, patient, and full of warm, slow fire.", "zh": "那天傍晚，她从安睡的地层上方走回家去；路灯次第亮起，照着底下百万页无人读过的书——可读、有耐心，而且藏着温热的、缓慢的火。" }
+      ],
+      "questions": [
+        {
+          "q": "Why was the top layer of soil black mud?",
+          "options": ["Because workers spilled paint there.", "Because the great river flooded there many times.", "Because the volcanoes burned the city.", "Because the market dropped bread there."],
+          "answer": 1,
+          "explain": "第3句 \"the great river had flooded this ground a thousand times, spring after spring\"，黑泥来自大河年复一年的泛滥。"
+        },
+        {
+          "q": "What did the drill touch below the old riverbed?",
+          "options": ["More black mud.", "Cold groundwater.", "Hard rock formed by ancient volcanoes.", "An old shelter."],
+          "answer": 2,
+          "explain": "第5句 \"Deeper still, the drill touched hard, grey rock formed by ancient volcanoes\"，古河道之下是火山形成的硬岩。"
+        },
+        {
+          "q": "Why did the city move the new hospital to the north?",
+          "options": ["Because the north was closer to the river.", "Because the ground at the planned site was soft.", "Because the north was cheaper.", "Because the doctors asked for it."],
+          "answer": 1,
+          "explain": "第10-11句：选址下面埋着软如湿肥皂的古河道，\"Because the ground there was soft, the city moved the new hospital two kilometers to the north\"。"
+        },
+        {
+          "q": "What did Dr. Wu mean when she said \"the ground remembers everything\"?",
+          "options": ["The ground can think like a person.", "Every layer of soil keeps a record of what happened to the land long ago.", "The ground is angry with the city.", "Rivers have good memories."],
+          "answer": 1,
+          "explain": "第1句的这句话与第6句呼应：\"Each layer... is a page, and geology is simply the art of reading them\"——泥土、河石、火山岩层层层叠叠，等于把过去全都记了下来。"
+        },
+        {
+          "q": "In sentence 12, \"geothermal heat sleeps in the deepest rock,\" the word \"geothermal\" means ______.",
+          "options": ["heat from burning coal", "heat that comes from inside the earth", "cold wind from the north", "a kind of thermometer"],
+          "answer": 1,
+          "explain": "第12句。词根 geo- 表示\"大地\"，therm- 表示\"热\"：geothermal＝大地内部的热，即地热。"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "第二座城市",
+      "sentences": [
+        { "en": "Engineers now dream of a second city hidden below the first one, and, unlike most dreams, this one comes with drawings, budgets, and very long, very serious meetings about fire escapes.", "zh": "如今，工程师们梦想在第一座城市之下再藏一座城；与众梦不同的是，这一个梦是带图纸、带预算，还带着一场场关于消防通道的漫长会议的。" },
+        { "en": "In one pilot project, a data center moved underground last spring, into a wide, dry, quiet hall where the thick old walls contained the noise of a thousand busy machines.", "zh": "在一个试点项目里，一座数据中心去年春天搬进了地下，住进一座又宽又干又安静的大厅；厚厚的老墙，把一千台忙个不停的机器的噪音关在了里面。" },
+        { "en": "The machines produce heat all day and all night, but the earth around them swallows the sound completely, and the street above hears nothing louder than ordinary rain on the wet pavement.", "zh": "机器白天黑夜地发热，可四周的土层把声音吞了个干干净净；上面的街道听到的，无非比落在湿路面上的寻常雨声更响一点的东西。" },
+        { "en": "The ground stays cool all year, like a cellar that remembers winter even in the middle of July, so the servers need far less electricity for cooling than their cousins in the glass towers above.", "zh": "地下全年凉爽，像一间七月中旬还记得冬天的地窖，于是服务器需要的散热电费，远比它们玻璃塔楼里的堂兄弟们少得多。" },
+        { "en": "In another hall, farmers grow vegetables under purple lamps without one single drop of real sunlight, and the long green rows look like a whole library of quiet, glowing green books.", "zh": "在另一个大厅里，农人在紫光灯下种菜，一滴真正的阳光也不用；一垄一垄的绿，看上去像整整一图书馆安安静静、微微发光的绿书。" },
+        { "en": "The farm uses the servers' wasted heat to warm the plants in winter, so the two halls, one loud and one green, quietly keep each other alive and warm through the cold months.", "zh": "农场用服务器排出的废热，在冬天为植物供暖；于是一间喧闹、一间碧绿的两个大厅，就这样在寒月里悄悄地互相养活、互相取暖。" },
+        { "en": "An architect showed her finished plan to the whole city last month: shops, farms, and libraries stacked in a deep, careful structure, floor under floor, light under light, stair under stair.", "zh": "上个月，一位建筑师向全城展示了她画完的图纸：商铺、农场和图书馆叠放进一个纵深、精密的结构里——楼层压着楼层，光压着光，楼梯压着楼梯。" },
+        { "en": "\"We construct down, not up,\" she said, \"because the surface belongs to trees, children, and dogs, and the surface is the only sky that an underground city will ever have.\"", "zh": "\"我们向下建造，而不是向上，\"她说，\"因为地表属于树木、孩子和狗；对一座地下城来说，地表是它此生唯一的天空。\"" },
+        { "en": "In a way, the first city becomes the superstructure of the second, and the hidden infrastructure of stairs, pipes, and halls quietly holds them both together.", "zh": "在某种意义上，第一座城成了第二座城的上层建筑；而楼梯、管道与大厅这套隐形的基础设施，把两座城一起稳稳托在手里。" },
+        { "en": "The engineers drew the deep halls with clean, careful geometry, wide stairs and honest corners, because underground, a wrong angle is not a question of style but a very serious question of safety.", "zh": "工程师用干净、讲究的几何来画这些深厅：宽楼梯、实打实的转角——因为在地下，一个错误的角度不是审美问题，是性命攸关的安全问题。" },
+        { "en": "But the underground needs strict rules, because water and darkness never forgive mistakes, and one small flood down below can close a busy supermarket for a whole month.", "zh": "但地下世界需要严苛的规矩，因为水和黑暗从不原谅错误；地下一场小小的淹水，就能让一家热闹的超市关上一整月。" },
+        { "en": "Firefighters instruct the crews every month, and every door in the deep halls opens onto a bright, wide escape stair that points straight up, like an arrow, to the open sky.", "zh": "消防员每个月都对地下团队培训一次；深厅里的每一扇门都通向一道又亮又宽的逃生梯，像一支箭，笔直指向开阔的天空。" },
+        { "en": "A good underground city must sustain its air, light, and water for a hundred quiet years; geothermal heat warms the deepest floors from far below, and engineers test the walls with sensitive instruments, repairing every hairline crack early.", "zh": "一座好的地下城市，必须让它的空气、光线和水安安稳稳维持一百年：地热从极深处为最底的楼层供暖，工程师用精密仪器检测墙体，每一道发丝般的裂缝都趁早修补。" },
+        { "en": "Lin, now a student of engineering, visited the new center last month; she stood ten meters under the busy street with one hand on a warm pipe, and finally, after all those years, understood the old manhole cover near her bus stop.", "zh": "如今已学工程的琳，上个月参观了这座新中心；她站在喧闹街道下方十米处，一只手贴着温热的管道，隔了这么多年，终于读懂了公交站旁那块老井盖。" }
+      ],
+      "questions": [
+        {
+          "q": "Why do the underground servers need less electricity for cooling?",
+          "options": ["Because the machines are very small.", "Because the ground stays cool all year.", "Because the farmers help them.", "Because the city pays the bill."],
+          "answer": 1,
+          "explain": "第4句 \"The ground stays cool all year... so the servers need far less electricity for cooling\"，地下常年凉爽，散热耗电更少。"
+        },
+        {
+          "q": "What did the underground farm use to warm the plants in winter?",
+          "options": ["Sunlight from mirrors.", "Coal from the old boiler.", "The servers' wasted heat.", "Warm underground rivers."],
+          "answer": 2,
+          "explain": "第6句 \"The farm uses the servers' wasted heat to warm the plants in winter\"，农场用的是服务器废热。"
+        },
+        {
+          "q": "Why do the new architects construct down instead of up?",
+          "options": ["Because underground buildings are cheaper.", "Because the surface belongs to trees, children, and dogs.", "Because the ground is softer.", "Because tall towers are dangerous."],
+          "answer": 1,
+          "explain": "第8句 \"We construct down, not up, because the surface belongs to trees, children, and dogs\"，把地表留给树木、孩子和狗，所以向下建。"
+        },
+        {
+          "q": "Why does the author say that water and darkness \"never forgive mistakes\"?",
+          "options": ["Because the underground city is very rich.", "Because small underground mistakes, like floods, can have serious and lasting results.", "Because the engineers are always wrong.", "Because fire happens every month."],
+          "answer": 1,
+          "explain": "第11句 \"water and darkness never forgive mistakes, and one small flood below can close a supermarket for a whole month\"——地下一场小淹水就能带来整月的停业，可见地下容不得差错。"
+        },
+        {
+          "q": "In sentence 9, \"the first city becomes the superstructure of the second,\" the word \"superstructure\" means ______.",
+          "options": ["the part built on top of a base", "the deepest floor", "a kind of underground train", "an escape stair"],
+          "answer": 0,
+          "explain": "第9句。词根 struct- 表示\"建造\"：super-(在上方)+structure(结构)→建在基底之上的结构，即\"上层建筑\"。"
+        }
+      ]
+    }
+  ]
+}

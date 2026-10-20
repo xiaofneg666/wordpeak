@@ -1,0 +1,272 @@
+{
+  "id": "lib-epidemic-history",
+  "title": "流行病简史",
+  "en_title": "A Brief History of Epidemics",
+  "author": "WordVerse Archive",
+  "region": "science",
+  "level": 3,
+  "one_line": "从雅典瘟疫到新冠，疫病与人类社会互相塑造的三千年。",
+  "word_focus": ["path", "dem", "corp"],
+  "chapters": [
+    {
+      "no": 1,
+      "title": "雅典瘟疫",
+      "sentences": [
+        { "en": "In 430 BC, in the second year of the long Peloponnesian War between Athens and Sparta, a disease that no one could name slipped into the crowded city of Athens, and within weeks it was moving through the packed lanes like fire through a dry summer forest.", "zh": "公元前430年，雅典与斯巴达之间的伯罗奔尼撒战争进入第二年，一场无人能叫出名字的疫病溜进了拥挤的雅典城；不出几周，它便像野火烧过干燥的夏日森林一样，在塞满人的街巷里蔓延开来。" },
+        { "en": "Pericles, the city's most trusted general, had ordered the whole rural population of Attica behind the long walls, betting that a crowded democracy could outlast a Spartan siege, and nobody in the assembly guessed that the crowding itself, in that thirsty summer, would become the killer.", "zh": "城中最受信赖的将军伯里克利，早已下令把整个阿提卡的乡下人口迁到长墙之内，赌一个拥挤的民主政体能耗赢斯巴达的围城；而公民大会上没有一个人猜到，在那个干渴的夏天，拥挤本身会成为头号杀手。" },
+        { "en": "The Spartan army, a disciplined corps of farmer-soldiers, camped among the smoking farms of Attica but kept a careful distance from the walls, so the sickness stayed a purely Athenian guest while the refugees watched their own villages burn from the ramparts with their own eyes.", "zh": "斯巴达军队这支由农夫组成、纪律严明的军团，在冒烟的阿提卡田野间扎营，却始终与城墙保持谨慎的距离；于是疫病成了雅典人独有的客人，难民们只能从城墙上，亲眼看着自己的村庄化为灰烬。" },
+        { "en": "Inside the walls, thousands of refugees passed a season of horror in the crowded huts of the summer heat: skin so hot that no linen could touch it, endless vomiting, a thirst that whole jars of water could not calm, and sleepless nights stacked upon sleepless nights.", "zh": "高墙之内，成千上万的难民在夏日酷热里挤在棚屋中熬过一段恐怖的时光：皮肤灼热得连亚麻布都无法触碰，呕吐不止，喝下整罐的水也压不住的干渴，还有一夜接一夜、无休无止的失眠。" },
+        { "en": "Thucydides, a young general who would later write the history of the whole war, caught the sickness himself and survived it, which gave him both the courage to watch the dying closely and the strange, calm authority of a man with nothing left to fear.", "zh": "修昔底德，这位日后要为整场战争撰写历史的年轻将军，自己也染上了疫病并活了下来；这既给了他近距离注视垂死者的勇气，也给了他一种无所畏惧之人特有的、奇异的平静与权威。" },
+        { "en": "He described the plague with the cold precision of pathology rather than the tone of pity, setting down the burning skin, the red inflamed eyes, the bleeding gums, the failed sleep, and the memory loss that shadowed the survivors, in the exact order in which the symptoms appeared.", "zh": "他以病理学般的冷峻精确、而非怜悯的腔调描述这场瘟疫：灼热的皮肤、红肿发炎的眼睛、出血的牙龈、无法入睡的长夜，以及纠缠幸存者的记忆衰退——而且严格按照症状出现的先后顺序记录。" },
+        { "en": "He explained his purpose in his own words: the account was written “so that men would recognize the disease if it ever returned”, and in that single sentence he founded a whole tradition of epidemic reporting that health officers with their daily bulletins still follow today.", "zh": "他用自己的话解释了写作目的：这份记录之所以写下，是“为了让人们在疾病卷土重来时能认出它”；凭这一句话，他便开创了卫生官员至今仍以每日简报沿循的疫情记录传统。" },
+        { "en": "He also recorded, with a historian's sadness, the failure of sympathy: men dared not visit their sick friends, the dying were left alone by relatives too frightened to come close, and even the humble rites of preparing a body were abandoned, because every act of kindness had become a risk of death.", "zh": "他还带着史学家的悲哀，记下了同情的失灵：人们不敢探望患病的朋友，垂死者被吓得不敢靠近的亲属独自留在那里，连为遗体做最基本的安放仪式也被放弃了——因为每一个善举，都变成了拿性命去做的冒险。" },
+        { "en": "Corpses piled up in the streets faster than the rites of burial could be performed for them; some families slipped their dead onto other people's pyres by night, and the whole city smelled of smoke, of burning flesh, and of the long summer that would not end.", "zh": "尸体在街头堆积的速度，快过下葬仪式能为它们一一举行的速度；有些家庭趁着夜色，把自家的死者悄悄放到别人家的柴堆上；整座城市都弥漫着烟、焦肉，以及那个迟迟不肯结束的漫长夏天的气味。" },
+        { "en": "The demographic shock was severe beyond anything the city had known; scholars still estimate that between a quarter and a third of the crowded population eventually died, and Thucydides, counting the unburied, concluded that the plague was the most lethal thing the Greek world had ever seen.", "zh": "人口冲击之惨重，远超这座城邦此前经历的一切；学者至今仍估计，城内拥挤的人口最终死去了四分之一到三分之一；修昔底德清点着无人掩埋的死者，断言这场瘟疫是希腊世界见过的最致命之物。" },
+        { "en": "Pericles lost both of his legitimate sons to the plague and then died of it himself in the following year, and the democracy lost the one leader whose patience and prestige might still have steered the exhausted city through the war with some honor.", "zh": "伯里克利的两个婚生儿子先后死于瘟疫，次年他本人也染病身亡；这个民主政体失去了唯一一位凭耐心与威望，或许还能带着这座精疲力竭的城邦体面走出战争的领袖。" },
+        { "en": "Thucydides noticed a deeper rot as well: watching death so closely, many citizens fell into a flat apathy about the laws of their city, spending their savings on quick pleasures, because honor and gold and fine words suddenly looked like pathetic shields against a plague that took no bribes.", "zh": "修昔底德还注意到一种更深的溃烂：日日近距离注视死亡之后，许多公民对城邦的法律变得麻木冷漠，把积蓄挥霍在即时的享乐上——因为荣誉、黄金和漂亮话，在一场不肯收买的瘟疫面前，忽然都成了可怜的挡箭牌。" },
+        { "en": "Modern doctors read his pages with a professional empathy that crosses twenty-five centuries, and they still argue about the pathogen; typhus, typhoid, and smallpox each have scholarly defenders, although no modern diagnosis quite fits every detail of his careful account.", "zh": "现代医生怀着跨越二十五个世纪的职业共鸣阅读他的书页，却仍在争论病原体：斑疹伤寒、伤寒与天花各有各的学者拥趸，只是任何现代诊断，都无法完全吻合他细细记录下的每一个细节。" },
+        { "en": "He wrote for future readers, and the future keeps answering him; whenever a new epidemic or pandemic enters a crowded city, his description of fear, fever, and failed burial still reads as if the ink were barely dry, which is the highest compliment a witness can be paid.", "zh": "他为未来的读者而写，而未来也一直在回应他；每当一场新的流行病或大流行进入某座拥挤的城市，他笔下那些恐惧、高烧与无人下葬的描述，读来仍像墨迹未干——这正是一位见证者所能得到的最高礼赞。" }
+      ],
+      "questions": [
+        {
+          "q": "When and where did the unnamed disease first strike in this chapter?",
+          "options": ["In 430 BC, inside the crowded city of Athens during the Peloponnesian War.", "In 404 BC, when the war finally ended.", "In a Spartan army camp, before the siege began.", "In 430 BC, in the open countryside of Attica."],
+          "answer": 0,
+          "explain": "第1句 “slipped into the crowded city of Athens”——疫病于公元前430年、战争第二年溜进拥挤的雅典城，斯巴达军队刻意远离城墙，故B、C、D均与原文不符。"
+        },
+        {
+          "q": "Which symptoms did Thucydides record, in the order he gave them?",
+          "options": ["Bleeding gums, then burning skin, then memory loss.", "Burning skin, red inflamed eyes, bleeding gums, failed sleep, and memory loss.", "Vomiting and thirst only.", "Cough, fever, and rash."],
+          "answer": 1,
+          "explain": "第6句 “setting down the burning skin, the red inflamed eyes, the bleeding gums, the failed sleep, and the memory loss”——他按症状出现的先后顺序逐一记下，选项B完整对应原文。"
+        },
+        {
+          "q": "How much of the population may have died, according to scholars' estimates?",
+          "options": ["About one in ten.", "Between a quarter and a third.", "More than half.", "Only the soldiers."],
+          "answer": 1,
+          "explain": "第10句 “between a quarter and a third of the crowded population eventually died”——学者估计全城最终死了四分之一到三分之一的人口。"
+        },
+        {
+          "q": "What can we infer about the crowded-city strategy from the chapter?",
+          "options": ["It worked exactly as Pericles planned.", "By packing refugees behind the walls, it unintentionally gave the disease perfect conditions to spread.", "It forced the Spartans to retreat quickly.", "It was abandoned before the plague arrived."],
+          "answer": 1,
+          "explain": "第2句 “betting that a crowded democracy could outlast a Spartan siege”——把全体乡民塞进长墙之内，本为拖垮围城，却“无人猜到拥挤本身会成为杀手”；由此可推知，这一策略反而为疫病传播创造了理想条件。"
+        },
+        {
+          "q": "The word “democracy” in sentence 2 contains the root “dem”. What does this root mean?",
+          "options": ["City.", "People.", "Disease.", "Body."],
+          "answer": 1,
+          "explain": "第2句 “betting that a crowded democracy could outlast a Spartan siege”——dem 意为“人民”，democracy 即“人民的统治”；同根词还有 demographic（人口学的）、pandemic（涉及全体人民的疫病）。"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "黑死病",
+      "sentences": [
+        { "en": "In October 1347, twelve Genoese trading ships reached the harbor of Messina in Sicily, carrying a cargo that no manifest had listed and no doctor knew how to treat: plague, which came ashore with the rats, the rags, and the dying sailors, before the year was out.", "zh": "1347年10月，十二艘热那亚商船抵达西西里墨西拿港，运来一件舱单上没写、也无医生知道如何医治的货物：鼠疫——它随老鼠、破布与垂死的水手一起登岸，年底之前便蔓延开来。" },
+        { "en": "The Black Death became the second great pandemic of plague, and within five years it had killed between a third and a half of Europe, perhaps twenty-five million people, a mortality that no war on that continent has ever come close to in all its history.", "zh": "黑死病成为鼠疫的第二次大流行，五年之内杀死了欧洲三分之一到一半的人口，约两千五百万人；此后欧洲历史上任何一场战争，都从未接近过这样的死亡率。" },
+        { "en": "Chroniclers recorded the mortality parish by parish, which makes this the first epidemic in history with detailed archives; in Siena, Agnolo di Tura wrote, “I buried my five children with my own hands”, and added that so many died that everyone believed it was the end of the world.", "zh": "编年史家逐教区记录死亡人数，使它成为历史上第一场留下详细档案的流行病；在锡耶纳，编年史家阿尼奥洛·迪·图拉写道：“我亲手埋葬了我的五个孩子”，并补充说死者太多，人人都以为世界末日到了。" },
+        { "en": "In Florence, the population fell from about one hundred and twenty thousand before the plague to fewer than fifty thousand after it, and even the banking families, some of them corpulent with generations of easy profit, could no longer hire enough hands to bury their neighbors properly.", "zh": "在佛罗伦萨，人口从瘟疫前的约十二万跌到之后的不足五万；连那些世代坐享其成、身躯肥硕的银行世家，也再雇不到足够的人手，去体面地埋葬他们的邻居。" },
+        { "en": "Giovanni Boccaccio, who watched the outbreak from inside Florence and lived, opened his Decameron with the plain facts of the city: every morning the carts collected the corpses, brothers abandoned brothers, and the great marble tombs of the rich were dug open for the poor.", "zh": "亲眼看着瘟疫席卷佛罗伦萨并幸存下来的乔万尼·薄伽丘，在《十日谈》开篇写下了这座城市的真实景象：每天清晨推车收走成堆的尸体，兄弟抛下兄弟，富人家的大理石墓穴被掘开，用来安葬穷人。" },
+        { "en": "His ten storytellers, seven young women and three young men, flee the dying city for a country villa and swap a hundred tales across ten days, because Boccaccio believed that in a plague the sensible plan is to escape it, and to keep one's spirits as light as possible.", "zh": "他笔下的十位讲故事的人——七位年轻女子和三位青年——逃离这座垂死的城市，躲进乡间别墅，在十天里交换了一百个故事；因为薄伽丘相信，瘟疫之中明智的计划就是逃开它，并让心情尽量轻松。" },
+        { "en": "He described how fear split the city into two camps: some citizens, deciding that no medicine could save them, drank deep and gave way to pleasure, while others lived soberly indoors, stepping out with bunches of flowers and herbs to cover the smell of the dead.", "zh": "他描述恐惧如何把城市劈成两派：一些市民断定任何药物都救不了自己，索性纵酒寻欢；另一些人则闭门克制度日，出门时手捧成束的花草香草，以盖过死者的气味。" },
+        { "en": "Ordinary feeling seemed to die with the sick; in one story Boccaccio watches pigs root among the rags of a poor dead man, tumble over, and die on the spot, an early and grotesque hint that whatever the killer was, it clung to bodies and clothing.", "zh": "寻常的情感仿佛随病人一同死去；薄伽丘讲过一个故事：几头猪在一名穷死者的破衣堆里拱食，随即翻倒毙命——这是一个早熟而怪诞的暗示：无论凶手是什么，它都附着在身体与衣物上。" },
+        { "en": "City governments answered with the first public-health measures that Europe had ever seriously attempted; councils incorporated the new plague boards into their statutes, orders were issued to clean the streets of the towns, and for once public policy and public sympathy pointed in the same direction.", "zh": "各城邦政府拿出欧洲有史以来第一次认真尝试的公共卫生措施：议事会把新设的瘟疫委员会写进城邦法令，清洁城镇街道的命令接连颁布；难得有一回，公共政策与公众的同情心指向了同一个方向。" },
+        { "en": "Venice appointed a small corps of officials to board incoming ships, inspect the cargo and the crew, and isolate sick sailors on islands in the lagoon, and with that order the modern practice of organized isolation became, for the first time, an instrument of state.", "zh": "威尼斯任命一支小小的官员队伍登上来船，检查货物与船员，把患病的水手隔离在潟湖中的岛屿上；凭这道命令，有组织的隔离第一次成为国家治理的一件工具。" },
+        { "en": "In 1377 the port of Ragusa ordered every arriving traveler to wait thirty days on a nearby headland before entering the town, trusting the delay more than any drug or prayer, and other ports along the Adriatic copied the rule within a few years.", "zh": "1377年，拉古萨港命令所有抵达的旅客先在附近的海岬上等待三十天，方可进城——他们对这段延时的信任，胜过对任何药物或祈祷的信任；几年之内，亚得里亚海沿岸的其他港口纷纷效仿。" },
+        { "en": "The period was soon stretched to forty days, quaranta giorni, and that is where the word quarantine comes from; it was a quiet triumph of policy over pathology, because nobody had seen the pathogen or understood it, yet the delay alone starved it of its chance to pass on.", "zh": "这一时限不久便延长为四十天，意大利语称 quaranta giorni，“隔离检疫”（quarantine）一词便由此而来；这是政策对病理学的一次安静胜利——没人见过病原体，更无人理解它，但仅仅靠拖延，就断送了它继续传播的机会。" },
+        { "en": "The epidemic still returned in smaller waves for three centuries, walking the trade routes at the pace of a merchant, but never again with the force of 1348, and the parishes learned to count its coming as they counted the harvest and the taxes.", "zh": "此后三个世纪，这场流行病仍以较小的规模反复回潮，沿着商路以一名商人的步速行走，却再没有1348年那样的威力；各教区学会了像记录收成和税收一样，记录它的到来。" },
+        { "en": "The demographic break proved durable: labor turned scarce, wages rose, and landlords lost their ancient grip on the survivors; by 1381 the workers of England were marching behind Wat Tyler, and historians still argue how much of that new spirit the Black Death had planted.", "zh": "人口断层的影响经久不散：劳动力变得稀缺，工资上涨，领主对幸存者古老的钳制松了手；到1381年，英格兰的工人已追随瓦特·泰勒上街游行——这场瘟疫究竟播下了多少那股新精神，历史学家至今仍在争论。" }
+      ],
+      "questions": [
+        {
+          "q": "How did the plague arrive in Europe in 1347?",
+          "options": ["On Genoese trading ships that reached Messina in Sicily in October 1347.", "With a Spartan army marching overland.", "On river barges sailing down the Rhine.", "With pilgrims returning from Rome."],
+          "answer": 0,
+          "explain": "第1句 “twelve Genoese trading ships reached the harbor of Messina in Sicily”——鼠疫随热那亚商船于1347年10月抵达西西里，与老鼠、破布和垂死的水手一同登岸。"
+        },
+        {
+          "q": "What did the Sienese chronicler Agnolo di Tura write about his own family?",
+          "options": ["That he had fled the city with his children.", "That he buried his five children with his own hands.", "That his village was spared by the plague.", "That he became rich selling herbs."],
+          "answer": 1,
+          "explain": "第3句 “I buried my five children with my own hands”——阿尼奥洛·迪·图拉亲手埋葬五个孩子，并补充说死者太多，人人都以为是世界末日。"
+        },
+        {
+          "q": "Where does the word “quarantine” come from?",
+          "options": ["The Latin word for ship.", "The name of a Venetian island.", "The Italian quaranta giorni, meaning forty days.", "A famous plague doctor's surname."],
+          "answer": 2,
+          "explain": "第12句 “The period was soon stretched to forty days, quaranta giorni, and that is where the word quarantine comes from”——隔离时限从三十天延为四十天，quarantine 得名于意大利语的“四十天”。"
+        },
+        {
+          "q": "What can we infer from the fact that later waves of plague never matched the force of 1348?",
+          "options": ["The disease disappeared from Europe completely.", "The delay-based measures and parish counting probably gave the cities some protection.", "Europeans had become fully immune to plague.", "All trade routes were permanently closed."],
+          "answer": 1,
+          "explain": "第13句 “never again with the force of 1348”——回潮从未再现1348年的威力；结合上文威尼斯的隔离与拉古萨的三十天等候，可推知这些以拖延为核心的措施为城市提供了部分保护。"
+        },
+        {
+          "q": "In sentence 4, “corpulent” comes from the Latin root “corp”. What does this root mean?",
+          "options": ["People.", "Feeling.", "Body.", "Ship."],
+          "answer": 2,
+          "explain": "第4句 “some of them corpulent with generations of easy profit”——corp 意为“身体”，corpulent 即“身体肥硕的”；同根词还有 corpse（尸体）和 corps（队伍、军团）。"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "天花与牛痘",
+      "sentences": [
+        { "en": "Smallpox killed an estimated three hundred million people in the twentieth century alone, more than all the wars of that century combined, and for thousands of years before that it had been a pandemic disease without cure, without season, and without mercy for rich and poor alike.", "zh": "仅二十世纪，天花就估计夺走三亿人的生命，比该世纪所有战争加起来还多；在此之前的数千年里，它一直是一种无药可医、不分季节、对贫富一视同仁毫不留情的大流行疾病。" },
+        { "en": "The disease spared no rank: it killed Louis XV of France in 1774 and Queen Mary of England in 1694, along with millions of ordinary children in every village of Europe, whose names were never written down in any parish book at all, only counted among the dead.", "zh": "这病不挑身份：1774年它杀死法国的路易十五，1694年杀死英格兰的玛丽女王；还有欧洲每个村庄里数以百万计的普通孩子，他们的名字从未被记进任何教区簿册，只被算进死者之数。" },
+        { "en": "In the London of 1796, nearly every adult face carried the pitted scars of the disease, blind survivors begged at the church doors, and the small corpses of children went out of the houses each morning on the common carts, so hardened had the city's sympathy grown.", "zh": "1796年的伦敦，几乎每张成年面孔都带着天花的麻疤，失明的幸存者在教堂门口乞讨，孩童的小小尸体每天清晨随公用推车被运出家门——这座城市的同情心，早已磨出厚茧。" },
+        { "en": "Doctors had long practiced variolation, inoculating healthy people with matter taken from a mild case of smallpox, a method that English merchants had learned from the healers of Istanbul; it worked often enough, but it killed perhaps one patient in every hundred, and could even start fresh outbreaks.", "zh": "医生们早已实践人痘接种：把轻型天花病例中取出的物质接种给健康人，这一方法是英国商人从伊斯坦布尔的医者那里学来的；它常常有效，但大约每百人中会死一人，甚至可能引发新的疫情。" },
+        { "en": "Families gambled anyway, because the odds still looked kind next to the epidemic itself; a mother of the time might well have said, “Better the needle's small risk than the pox that takes the face”, and many a spring the wager rolled over the whole parish.", "zh": "人们仍愿赌上一把，因为和疫病本身相比，这点胜算已算仁慈；那个年代的母亲很可能会说：“宁冒针头的小险，不赌毁容的天花。”许多个春天，这场赌局都会在整片教区轮转一遍。" },
+        { "en": "A country doctor named Edward Jenner had noticed while training in the countryside that dairymaids who had recovered from cowpox never caught smallpox; one of them told him, “I cannot take the smallpox, for I have had the cowpox”, and the pathology of his day could not explain why that should protect anyone.", "zh": "名叫爱德华·詹纳的乡村医生早在乡间学医时就注意到：患过牛痘的挤奶女工从不染上天花；其中一位对他说过：“我生不了天花，因为我得过牛痘。”而他那个时代的病理学，完全无法解释这为何能保护一个人。" },
+        { "en": "In May 1796, Jenner took fresh matter from a cowpox sore on the hand of a dairymaid named Sarah Nelmes and scratched it into the arm of a healthy eight-year-old boy, James Phipps, the son of his own gardener, and the boy barely flinched.", "zh": "1796年5月，詹纳从挤奶女工萨拉·内尔姆斯手上的牛痘疮里取了新鲜物质，划进一个健康八岁男孩——他自家园丁的儿子詹姆斯·菲普斯——的手臂，那孩子几乎没缩一下。" },
+        { "en": "The boy felt mildly unwell for a day or two and then recovered; six weeks later Jenner challenged him twice with matter from a fresh smallpox sore, and Phipps showed no fever, no eruption, and no susceptibility whatsoever, as if the cow had quietly trained his blood for the duel.", "zh": "男孩只轻微不适了一两天便恢复了；六周后，詹纳两次用新鲜天花疮中的物质向他发起挑战，菲普斯却全无发热、无疹、无任何易感迹象——仿佛那头母牛早已悄悄训练过他的血液去赴这场决斗。" },
+        { "en": "Jenner called the method vaccination, from vacca, the Latin word for cow, and although the Royal Society politely refused his first paper, he published the evidence himself in 1798; within a year, pamphlets describing the new protection had crossed most of Europe's borders and the Atlantic as well.", "zh": "詹纳把这种方法命名为 vaccination，取自拉丁语的 vacca（母牛）；皇家学会虽然婉拒了他最初的论文，他仍在1798年自行发表了证据；不出一年，介绍这种新防护法的小册子便越过了欧洲大部分国界，也跨过了大西洋。" },
+        { "en": "The idea was not guesswork but the seed of immunology: a mild pathogen borrowed from a cow taught the human body to recognize a killer without ever risking the full disease, and the body remembered that lesson for years, which is exactly what doctors now call immunity.", "zh": "这个想法绝非瞎猜，而是免疫学的种子：从牛身上借来的一种温和病原体，教会人体识别一名杀手，却不必冒罹患重症之险，而且身体会把这个教训记住多年——这正是如今医生所说的“免疫力”。" },
+        { "en": "The medical corps of the day split down the middle: London cartoonists drew vaccinated patients growing horns, udders, and little cow faces, while quieter country doctors simply copied the method, and within a decade the vaccine had crossed the ocean into the Americas, without asking anyone's permission.", "zh": "当年的医学阵营从中间裂成两半：伦敦的漫画家画出接种者长出犄角、乳房和小牛脸的模样，而更沉得住气的乡村医生则默默照搬这套方法；不出十年，疫苗便未经任何人许可，越过大洋传入了美洲。" },
+        { "en": "Napoleon, though at war with Britain, had his own soldiers vaccinated by his army corps; when Jenner later wrote to him asking mercy for an English prisoner of war, the emperor reportedly answered, “I can refuse that man nothing”, and set the prisoner free.", "zh": "与英国交战的拿破仑，也让自己军团的士兵接种了疫苗；后来詹纳致信为他求情一名英国战俘，据说这位皇帝回答：“这个人要什么我都没法拒绝。”随后便放了那名战俘。" },
+        { "en": "Where parishes incorporated vaccination into the routine registration of newborn babies, child mortality fell sharply, the pathetic sight of blinded and scarred orphans grew rarer in the streets, and the old demographic fear that every outbreak season brought slowly faded from the cities of Europe.", "zh": "凡把疫苗接种并入新生儿常规登记的教区，儿童死亡率都急剧下降；街上那些失明带疤的孤儿——那副可怜景象——越来越少见，而每逢疫病季节便要发作一次的旧日人口恐慌，也慢慢从欧洲的城市里退去。" },
+        { "en": "In 1977 the last natural case appeared in Somalia, and in 1980 the World Health Organization, after a corps of vaccinators had hunted the disease through every remaining village and market, declared smallpox eradicated: the first disease, and so far the only one, that human cooperation has ever erased from the earth.", "zh": "1977年，最后一例自然病例出现在索马里；1980年，在一支接种员队伍追遍每一个残存村庄与集市之后，世界卫生组织宣布天花已被消灭：这是人类合作有史以来从地球上抹去的第一种疾病，至今也是唯一的一种。" }
+      ],
+      "questions": [
+        {
+          "q": "What material did Jenner use for his famous 1796 experiment, and on whom?",
+          "options": ["Matter from a mild smallpox case, given to a dairymaid.", "Fresh matter from a cowpox sore on Sarah Nelmes's hand, given to eight-year-old James Phipps.", "Crushed herbs, given to his own gardener.", "Matter from a dead calf, given to a London orphan."],
+          "answer": 1,
+          "explain": "第7句 “Jenner took fresh matter from a cowpox sore on the hand of a dairymaid named Sarah Nelmes and scratched it into the arm of a healthy eight-year-old boy, James Phipps”——他用的是萨拉·内尔姆斯手上牛痘疮的新鲜物质，接种对象是园丁之子菲普斯。"
+        },
+        {
+          "q": "Where does the word “vaccination” come from?",
+          "options": ["Vacca, the Latin word for cow.", "Vacuum, meaning empty space.", "A French village called Vachon.", "The Greek word for protection."],
+          "answer": 0,
+          "explain": "第9句 “Jenner called the method vaccination, from vacca, the Latin word for cow”——vaccination 得名于拉丁语 vacca（母牛），因为最早的防护物质来自牛痘。"
+        },
+        {
+          "q": "What was variolation, and what was its risk?",
+          "options": ["A surgical removal of scars; the risk was blindness.", "A forty-day isolation; the risk was starvation.", "Inoculating healthy people with mild smallpox matter; it killed perhaps one patient in every hundred.", "A prayer ritual; it had no risk at all."],
+          "answer": 2,
+          "explain": "第4句 “it killed perhaps one patient in every hundred”——人痘接种用轻型天花物质，约百人中死一人，甚至可能引发新的疫情。"
+        },
+        {
+          "q": "What does the Napoleon anecdote suggest about vaccination at the time?",
+          "options": ["That Napoleon hoped to weaken the British army.", "That its value was recognized even across enemy lines in the middle of a war.", "That Napoleon had invented a better vaccine himself.", "That Britain had banned vaccination everywhere."],
+          "answer": 1,
+          "explain": "第12句 “I can refuse that man nothing”——与英国交战的拿破仑不仅让自己的军团接种，还尊詹纳为恩人；由此可推知，疫苗的价值在战争敌对的双方之间都得到了承认。"
+        },
+        {
+          "q": "In sentence 6, “pathology” contains the root “path”. What does this root mean?",
+          "options": ["People.", "Body.", "Suffering or disease.", "City."],
+          "answer": 2,
+          "explain": "第6句 “the pathology of his day could not explain why that should protect anyone”——path 源自希腊语 pathos，意为“感受、痛苦”，pathology 即“研究疾病之学”；同根词还有 sympathy（同情）和 pathetic（可怜的）。"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "西班牙流感",
+      "sentences": [
+        { "en": "In March 1918, a cook at Camp Funston in Kansas reported to the infirmary with headache and fever, and within days the sickness was running through the crowded barracks like a grass fire, filling the wards faster than the camp's small medical corps could empty them.", "zh": "1918年3月，堪萨斯州芬斯顿军营的一名炊事员因头痛发热前往医务室；不出几天，疫病便如燎原之火烧遍拥挤的营房，病床被填满的速度，快过这支小小的军医队伍腾空它们的速度。" },
+        { "en": "Within months, regiments of the American army corps were boarding the crowded troop ships that crossed the Atlantic for the Western Front, carrying the invisible virus in their lungs to every port between Halifax and Brest, while the war made stopping the traffic unthinkable for a single week.", "zh": "几个月内，美国军团的各个团正挤上横渡大西洋、开赴西线的运兵船，肺里带着这种看不见的病毒，把它带到哈利法克斯与布雷斯特之间的每一个港口；而战争让这股人流连一周都不可能停。" },
+        { "en": "By autumn a second wave had turned far deadlier: strong young soldiers turned blue in the face, bled from the nose and ears, and sometimes died within a single day, and their doctors, helpless at the bedside, found the sight almost too pathetic to record in their letters home.", "zh": "入秋之后，第二波凶残得多：健壮的年轻士兵脸色发青，鼻耳出血，有时一天之内便死去；守在床边束手无策的军医们，觉得这惨状可怜得几乎无法写进寄回家里的信里。" },
+        { "en": "The 1918 influenza eventually infected perhaps five hundred million people, roughly a third of all humanity then alive, from the trenches of France to Inuit villages in Alaska, some of which were wiped out within a single week and left empty behind their dogs and their sleds.", "zh": "这场1918年大流感最终感染了大约五亿人——约占当时全人类的三分之一——从法国的战壕到阿拉斯加的因纽特村庄；有些村庄一周之内被整个抹去，只留下空屋、狗和雪橇。" },
+        { "en": "It killed somewhere between twenty and fifty million people, a total that exceeded the four years of the Great War's own slaughter; in India alone, twelve to seventeen million died, and in some villages the corpses lay waiting for days because there was not enough firewood left to burn them.", "zh": "它夺走两千到五千万条生命，超过了大战四年屠杀的总和；仅在印度就死了一千二百万到一千七百万人，一些村子里，尸体一连几天躺在原地等待，因为连火化它们的柴火都已不够。" },
+        { "en": "The demographic signature was strange and cruel: instead of the very old and the very young, the disease cut down healthy adults between twenty and forty, exactly the workers, nurses, and young parents that families, farms, and armies could least afford to lose.", "zh": "它的人口学印记奇特而残酷：倒下的既不是老人也不是幼儿，而是二十到四十岁之间的健康成年人——恰恰是家庭、农场和军队最赔不起的工人、护士与年轻父母。" },
+        { "en": "Wartime censorship hid the epidemic in every belligerent country; editors were forbidden to print anything that might hurt morale, so the newspapers promised a mild three-day fever while, outside the printing houses, the hearses stood in queues and the gravediggers worked in shifts day and night.", "zh": "战时审查在每个交战国都掩盖了这场流行病；编辑被禁止刊登任何可能打击士气的消息，于是报纸把病说成“三天即愈的轻症”；而印刷所门外，灵车排着队，掘墓人昼夜轮班。" },
+        { "en": "Neutral Spain had no censors, so when the young king Alfonso XIII fell seriously ill, his fever made honest headlines around the world, and the pandemic was misnamed the Spanish flu almost as a punishment for reporting the disease truthfully in the middle of the war.", "zh": "中立的西班牙没有审查制度，于是年轻的国王阿方索十三世病重的消息，诚实地登上了全世界的头条；结果这场大流行竟被误称为“西班牙流感”——几乎算是对它在战争中途如实报道疫病的惩罚。" },
+        { "en": "In Philadelphia, the newspapers repeated the official promise that the disease was no more dangerous than ordinary flu, and on 28 September 1918 a parade of some two hundred thousand people marched down Broad Street in the sunshine, singing as they collected war bonds for the government.", "zh": "在费城，报纸不断重复官方的保证：这病不比普通流感更危险；1918年9月28日，约二十万人的游行队伍在阳光下列队走过宽街，一边唱着歌，一边为政府募集战争债券。" },
+        { "en": "Within six weeks the city had dug about twelve thousand graves; hospitals ran out of sheets, coffins, and gravediggers, the dead were buried in plain trenches, and public sympathy, stretched past its limit, slowly hardened into the flat apathy of people who had seen too many carts.", "zh": "六周之内，全城挖出约一万两千座坟；医院的床单、棺材和掘墓人都用尽了，死者被草草埋进普通壕沟；公众的同情心被拉到极限之后，慢慢硬化成人人见过太多运尸车之后那种麻木的冷漠。" },
+        { "en": "Science moved faster than ever before: within months the bacteriologist Richard Pfeiffer isolated a small bacillus from flu patients and confidently named it the pathogen, an honest mistake that sent the whole medical world chasing the wrong killer, and the pathology textbooks repeated the error for years.", "zh": "科学的反应比以往任何时候都快：几个月内，细菌学家理查德·法伊弗便从流感病人体内分离出一种小杆菌，并自信地宣布它就是病原体——这个善意的错误让整个医学界追错了凶手，病理学教科书把这一谬误重复了好几年。" },
+        { "en": "The true agent was a virus far too small for any microscope of 1918; nobody could see it, grow it, or photograph it, and the truth was not finally confirmed until the new electron microscopes, decades later, opened the invisible world to human eyes at last.", "zh": "真正的凶手是一种病毒，小得连1918年的任何显微镜都看不见；无人能看见它、培养它或拍下它，直到几十年后新型的电子显微镜终于替人类打开了那个看不见的世界，真相才尘埃落定。" },
+        { "en": "Then the pandemic burned itself out by 1920, taking much of its mystery with it; a world exhausted by war buried its millions of dead and, at the same time, buried the memory of them, and the worst demographic shock of the century was largely forgotten by 1925.", "zh": "1920年前，这场大流行自行燃尽，也带走了它的大部分谜团；被战争拖垮的世界埋葬了数百万死者，同时也埋葬了对他们的记忆——这个世纪最惨重的人口冲击，到1925年已大体被人遗忘。" },
+        { "en": "The story survived only in the private letters of doctors and nurses, in the memoirs of a few pathologists, and in the silence of widows and orphans; historians now rank the Spanish flu beside the plague of Athens and the Black Death in the grim family of humanity's worst pandemics.", "zh": "这段往事只活在一些医生护士的私人信件里、少数病理学家的回忆录里，以及寡妇孤儿的沉默里；如今历史学家把西班牙流感与雅典瘟疫、黑死病并排，列入人类最惨烈大流行病那个阴森的家族。" }
+      ],
+      "questions": [
+        {
+          "q": "Where did the first recorded American case of the 1918 flu appear?",
+          "options": ["At a navy yard in Boston.", "At Camp Funston in Kansas, where a cook reported sick.", "On a troop ship in mid-Atlantic.", "In a Philadelphia hospital."],
+          "answer": 1,
+          "explain": "第1句 “a cook at Camp Funston in Kansas reported to the infirmary with headache and fever”——最早有记录的美国病例出现在堪萨斯州的芬斯顿军营，患者是一名炊事员。"
+        },
+        {
+          "q": "Why was the pandemic misnamed the “Spanish flu”?",
+          "options": ["Because the virus first appeared in Madrid.", "Because neutral Spain had no censors, and the king's illness made honest headlines.", "Because Spanish doctors discovered the virus.", "Because Spain suffered the highest death toll."],
+          "answer": 1,
+          "explain": "第8句 “Neutral Spain had no censors, so when the young king Alfonso XIII fell seriously ill, his fever made honest headlines”——交战国都有战时审查，只有中立的西班牙能如实报道，于是疫情反而被冠上了西班牙的名字。"
+        },
+        {
+          "q": "What happened in Philadelphia within six weeks of the parade?",
+          "options": ["The war ended in Europe.", "The city had dug about twelve thousand graves.", "The parade organizers were arrested.", "The epidemic quietly disappeared."],
+          "answer": 1,
+          "explain": "第10句 “Within six weeks the city had dug about twelve thousand graves”——游行之后六周，费城挖出约一万两千座坟，医院的床单、棺材与掘墓人全部用尽。"
+        },
+        {
+          "q": "What can we infer about why two hundred thousand people marched in Philadelphia?",
+          "options": ["They knew the danger and accepted the risk.", "The reassurances in the censored press had hidden how dangerous the disease really was.", "They had all been vaccinated that spring.", "The parade was ordered by the army to spread the virus."],
+          "answer": 1,
+          "explain": "第7句 “the newspapers promised a mild three-day fever”——在审查之下，报纸把疫病说成轻症；结合第9句费城报纸“不断重复官方保证”，可推知民众正是被这种安抚性报道蒙蔽，才会在疫情中列队游行。"
+        },
+        {
+          "q": "In sentence 10, both “sympathy” and “apathy” contain the root “path”, which means feeling. What does the prefix “a-” in “apathy” do?",
+          "options": ["It strengthens the feeling.", "It negates the feeling, so apathy means lack of feeling.", "It turns the feeling into a disease.", "It means body."],
+          "answer": 1,
+          "explain": "第10句 “public sympathy, stretched past its limit, slowly hardened into the flat apathy”——path 意为“感受”，前缀 a- 表示“无、缺”，apathy 即“无动于衷、麻木”，与 sympathy（同感）相对。"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "现代：从SARS到新冠",
+      "sentences": [
+        { "en": "In 2003, a strange pneumonia appeared in the markets of Guangdong province and then traveled by airplane and elevator to some thirty countries within a few weeks, taking the hospitals of Hong Kong, Toronto, and Singapore completely by surprise before the world had even agreed on its name.", "zh": "2003年，一种奇怪的肺炎出现在广东的市场里，随后乘着飞机与电梯，几周之内便扩散到约三十个国家，令香港、多伦多和新加坡的医院猝不及防——那时全世界甚至还没就它的名字达成一致。" },
+        { "en": "The SARS epidemic was strangled in about eight months, with fewer than eight thousand cases and around eight hundred deaths, a victory that the World Health Organization and its corps of epidemiologists won through old-fashioned isolation and patient contact tracing without any vaccine at all.", "zh": "SARS这场流行病在约八个月内被扼杀，病例不足八千，死亡约八百；世界卫生组织与其流行病学队伍靠老式的隔离和耐心的密接追踪赢得这场胜利，压根没用上任何疫苗。" },
+        { "en": "SARS was slow in one useful way: patients became infectious only after the fever and the cough announced them, so thermal cameras at the airport doors caught them one by one, and for once quarantine could actually outrun the virus instead of chasing it.", "zh": "SARS在一个关键处慢：病人要等发烧和咳嗽先“自我宣告”之后才有传染性，于是机场门口的热成像摄像机一个个把他们筛了出来；难得有一回，隔离跑在了病毒前面，而不是在后面追赶。" },
+        { "en": "Seventeen years later, at the closing of 2019, another coronavirus slipped quietly out of the winter markets of a crowded city in southern China; this one spread from person to person before any symptom appeared, and the old playbook of fever screens lost its first page overnight.", "zh": "十七年后，2019年将尽之时，另一种冠状病毒悄悄溜出中国南方一座拥挤城市的冬季市场；这一次，它在任何症状出现之前就人传人，旧剧本里“测体温筛查”的第一页一夜之间失灵了。" },
+        { "en": "Yet science itself had accelerated almost beyond recognition: in January 2020, a pathology laboratory in Shanghai published the complete genome of the new pathogen online free for anyone to read, and within days laboratories on every continent were building tests from the same string of genetic letters.", "zh": "但科学本身已快得几乎认不出来：2020年1月，上海一家病理学实验室把新病原体的完整基因组公布上网，供任何人免费阅读；不出几天，各大洲的实验室都在用同一串基因字母制造检测试剂。" },
+        { "en": "For comparison, the pathogen behind AIDS, first noticed in 1981, took researchers roughly two years to isolate, and the virus was not clearly photographed until years after that; the difference of speed between the two epidemics measures how much the world's laboratories have changed in a single generation.", "zh": "对比之下，1981年首次引起注意的艾滋病病原体，研究者花了约两年才分离出来，而清晰拍下病毒还要再等好几年；两场流行病之间的速度差，恰好量出了一代人的时间里世界实验室的变化。" },
+        { "en": "Test kits, vaccine platforms, and public dashboards incorporated that sequence almost immediately; pharmaceutical corporations, with governments paying the bill and the risk, compressed a process that normally takes a decade into a single year, and the first vaccine doses followed before the following winter was over.", "zh": "试剂盒、疫苗平台与公开数据看板几乎立刻把这条序列纳入自身；制药公司在政府兜底买单并承担风险的情况下，把通常需要十年的流程压缩到一年之内，第一批疫苗在次年冬天结束前便已就位。" },
+        { "en": "The demography of the disaster was urban: more than half of humanity now lives in cities, packed apartments share corridors, water taps, and elevators, and density has been the oldest friend of every epidemic since the refugees crowded behind the walls of Athens two and a half thousand years ago.", "zh": "这场灾难的人口学是城市的人口学：如今人类过半住在城市，挤塞的公寓共享走廊、水龙头和电梯；自两千五百年前难民们挤进雅典长墙之内起，“密集”就一直是每种流行病最老的朋友。" },
+        { "en": "On 11 March 2020, the World Health Organization finally declared the outbreak a pandemic, a word it had delayed using for weeks, partly for fear of the political alarm the label would sound, and partly because no official ever wants to be the person who closes the world.", "zh": "2020年3月11日，世界卫生组织终于宣布这次疫情为大流行，这个词它已迟迟数周不肯使用——一半是怕这个标签敲响的政治警报，一半是因为没有哪位官员愿意成为“关闭世界”的那个人。" },
+        { "en": "The pandemic exposed every weakness within its reach: overflowing morgues and refrigerated trucks in the rich capitals, uncounted corpses in the care homes, health workers writing wills before their shifts, and official statistics that quarreled with each other from country to country throughout the first year.", "zh": "大流行把它触得到的一切弱点都暴露出来：富国首都里溢出的停尸房与冷藏卡车、养老院里无人清点的尸体、上岗前先写好遗嘱的医护人员，还有第一年里各国官方统计数字之间没完没了的互相打架。" },
+        { "en": "By 2022, the officially reported mortality had passed six million people, while excess-death estimates ran several times higher still; the demographic gap between nations that had vaccines early and nations that had none became one of the quiet scandals of the age, quietly recorded and rarely debated.", "zh": "到2022年，官方报告的死亡人数已突破六百万，而超额死亡的估计还要高出数倍；早拿到疫苗的国家与一支疫苗都没有的国家之间的人口落差，成了这个时代静悄悄的丑闻之一——被默默记录，却很少被争论。" },
+        { "en": "Vaccine corporations moved at record speed and with real courage, but the distribution of doses argued with geography and money from the first month to the last, and some nations were fully protected before others had received a single sealed vial through no fault of their own doctors.", "zh": "疫苗公司以创纪录的速度行动，也拿出了真正的勇气；但剂量的分配从第一个月到最后一个月都在与地理和金钱争吵，一些国家已被完全保护之时，另一些国家连一支密封的疫苗瓶都还没收到——而这并非他们医生的过错。" },
+        { "en": "As the emergency faded, public sympathy faded with it; a comfortable apathy returned to the rich world, preparedness budgets were quietly cut once again, and the memory of the millions of dead grew softer with each passing season of normal weather and reopened restaurants.", "zh": "随着紧急状态退潮，公众的同情心也一并退去；一种舒适的冷漠重新回到富裕世界，备战预算再次被悄悄削减，而那数百万死者的记忆，随着一季又一季的正常天气和重新开张的餐馆，越变越淡。" },
+        { "en": "The next pathogen will find the same dense cities, the same twenty-four-hour airports, the same short human memory, and much faster laboratories waiting for it; whether it also finds a ready world, with honest statistics and stocked supply rooms, is now a political choice rather than a scientific one.", "zh": "下一种病原体将遇到同样密集的城市、同样全天候的机场、同样健忘的人类，以及比它快得多的实验室在等着它；至于它是否也能遇到一个备有诚实统计和充足库存的准备就绪的世界，如今是一个政治选择，而非科学问题。" }
+      ],
+      "questions": [
+        {
+          "q": "Why could SARS be contained within eight months, without any vaccine?",
+          "options": ["Because warm weather killed the virus.", "Because patients became infectious only after symptoms, so thermal cameras and isolation could catch them.", "Because everyone was vaccinated in secret.", "Because the virus vanished on its own."],
+          "answer": 1,
+          "explain": "第3句 “patients became infectious only after the fever and the cough announced them, so thermal cameras at the airport doors caught them one by one”——SARS病人症状出现后才有传染性，机场测温能筛出他们，隔离因此跑赢了病毒。"
+        },
+        {
+          "q": "What did a pathology laboratory in Shanghai do in January 2020?",
+          "options": ["It invented the first vaccine.", "It published the new pathogen's complete genome online for anyone to read.", "It hid the pathogen from other laboratories.", "It isolated the AIDS pathogen after two years."],
+          "answer": 1,
+          "explain": "第5句 “a pathology laboratory in Shanghai published the complete genome of the new pathogen online free for anyone to read”——2020年1月病原体全基因组被公布上网，数天内各大洲实验室据此造出检测试剂。"
+        },
+        {
+          "q": "What did the World Health Organization do on 11 March 2020?",
+          "options": ["It declared the end of the emergency.", "It announced a global ceasefire.", "It finally declared the outbreak a pandemic, a word it had delayed using.", "It ordered every airport to close."],
+          "answer": 2,
+          "explain": "第9句 “On 11 March 2020, the World Health Organization finally declared the outbreak a pandemic, a word it had delayed using”——世卫组织在拖延数周后，终于宣布疫情为大流行。"
+        },
+        {
+          "q": "Why does the author mention “the walls of Athens” when describing modern cities?",
+          "options": ["To suggest that modern cities should build walls like Athens.", "To show that crowding has helped epidemics spread since ancient times, and modern cities repeat the pattern.", "To prove that Athens was the largest city in history.", "To argue that country life is dying out."],
+          "answer": 1,
+          "explain": "第8句 “density has been the oldest friend of every epidemic since the refugees crowded behind the walls of Athens”——作者回扣第一章：从雅典长墙内挤塞的难民到今天共享电梯的公寓，密集始终是流行病最老的朋友，可推知现代城市正在重演古老的模式。"
+        },
+        {
+          "q": "In sentence 12, “corporations” comes from the Latin root “corp”. What does this root mean?",
+          "options": ["People.", "Feeling.", "Money.", "Body."],
+          "answer": 3,
+          "explain": "第12句 “Vaccine corporations moved at record speed”——corp 意为“身体”，corporation 字面即“结成一体的团体”；同根词还有 corpse（尸体）、corps（队伍）和 corpulent（肥硕的）。"
+        }
+      ]
+    }
+  ]
+}

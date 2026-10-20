@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="词峰 WORDPEAK · 888 个英文词按 40 个词根家族分组。记住一个根,认得一片词。音标、语法、阅读、听力、复习节奏算法都排好。" />
+  <meta name="theme-color" content="#EFF5FC" />
+  <meta property="og:title" content="词峰 WORDPEAK · 用词根记英文" />
+  <meta property="og:description" content="888 个英文词 · 40 个词根家族 · 音标 / 语法 / 阅读 / 听力 / 复习算法" />
+  <title>词峰 WORDPEAK · 3D 英语学习宇宙</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/logo-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/logo-16.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <script>
+    /* 首绘前定主题(防闪):默认晴空;老用户存储里的 dark(旧默认)经 wv_theme_v2
+       标志一次性迁移为 light;dark/violet/catppuccin 若是迁移后又选回来的,尊重沿用 */
+    (function () {
+      var t = 'light';
+      try {
+        var raw = localStorage.getItem('wv_settings');
+        if (raw) {
+          var s = JSON.parse(raw);
+          if (!localStorage.getItem('wv_theme_v2') && s && s.theme === 'dark') {
+            s.theme = 'light';
+            localStorage.setItem('wv_settings', JSON.stringify(s));
+          }
+          if (s && (s.theme === 'dark' || s.theme === 'violet' || s.theme === 'catppuccin')) t = s.theme;
+        }
+        localStorage.setItem('wv_theme_v2', '1');
+      } catch (e) { /* 隐私模式等读不了:按默认走 */ }
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <style>
+    /* Vue 挂载前的防闪:按上面脚本落的 data-theme 分支取底色(晴空为默认)
+       注意:居中样式放在 .boot-splash 自己身上,不能放在 #app 上——
+       Vue 挂载后 #app 的子元素换成整个应用,.app 会被 flex 居中缩成一小块、
+       .app-main 高度塌 0,整站只剩导航浮在背景中间(2026-10-11 修) */
+    html, body { background: #EFF5FC; color: #0F172A; }
+    #app .boot-splash {
+      min-height: 100vh;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 18px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+    #app .boot-mark { height: 72px; width: auto; }
+    #app .boot-mark.dark { display: none; }
+    html[data-theme='dark'] #app .boot-mark.light,
+    html[data-theme='violet'] #app .boot-mark.light,
+    html[data-theme='catppuccin'] #app .boot-mark.light { display: none; }
+    html[data-theme='dark'] #app .boot-mark.dark,
+    html[data-theme='violet'] #app .boot-mark.dark,
+    html[data-theme='catppuccin'] #app .boot-mark.dark { display: block; }
+    #app .boot-logo {
+      font-size: 26px; font-weight: 800; letter-spacing: 0.14em;
+      background: linear-gradient(120deg, #0F172A 0%, #0284C7 55%, #7C3AED 100%);
+      background-size: 200% 100%;
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+      animation: bootShimmer 2.4s linear infinite;
+    }
+    #app .boot-spinner { width: 28px; height: 28px; border-radius: 50%; border: 2px solid rgba(15,23,42,.10); border-top-color: #0284C7; animation: bootSpin 0.9s linear infinite; }
+    /* 深空 / 紫罗兰用户:启动屏跟随各自暗色 */
+    html[data-theme='dark'] body, html[data-theme='dark'] { background: #05070f; color: #f5f7fa; }
+    html[data-theme='dark'] #app .boot-logo { background: linear-gradient(120deg, #ffffff 0%, #c8c8d8 35%, #7c8cff 75%, #a78bfa 100%); background-size: 200% 100%; -webkit-background-clip: text; background-clip: text; }
+    html[data-theme='dark'] #app .boot-spinner { border: 2px solid rgba(255,255,255,.1); border-top-color: #7c8cff; }
+    html[data-theme='violet'] body, html[data-theme='violet'] { background: #0a0814; color: #f5f3ff; }
+    html[data-theme='violet'] #app .boot-logo { background: linear-gradient(120deg, #ffffff 0%, #d8b4fe 60%, #c084fc 100%); background-size: 200% 100%; -webkit-background-clip: text; background-clip: text; }
+    html[data-theme='violet'] #app .boot-spinner { border: 2px solid rgba(255,255,255,.1); border-top-color: #c084fc; }
+    /* 暖夜(Catppuccin Mocha):crust 底 + mauve 流光 */
+    html[data-theme='catppuccin'] body, html[data-theme='catppuccin'] { background: #11111b; color: #cdd6f4; }
+    html[data-theme='catppuccin'] #app .boot-logo { background: linear-gradient(120deg, #cdd6f4 0%, #d9bdfd 55%, #cba6f7 100%); background-size: 200% 100%; -webkit-background-clip: text; background-clip: text; }
+    html[data-theme='catppuccin'] #app .boot-spinner { border: 2px solid rgba(205,214,244,.12); border-top-color: #cba6f7; }
+    @keyframes bootShimmer { to { background-position: 200% 0; } }
+    @keyframes bootSpin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <div class="boot-splash">
+      <img class="boot-mark light" src="/logo-mark.png" alt="" />
+      <img class="boot-mark dark" src="/logo-mark-dark.png" alt="" />
+      <div class="boot-logo">词峰 WORDPEAK</div>
+      <div class="boot-spinner" aria-label="加载中"></div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

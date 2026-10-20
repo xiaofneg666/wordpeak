@@ -1,0 +1,2887 @@
+[
+ {
+  "title": "主谓结构（SV）",
+  "category": "五大基本句型",
+  "formula": "主语 + 不及物动词（+ 状语）",
+  "explanation": "五大句型之一：句子只需要\"谁\"和\"做什么\"。动词是不及物的（后面不接宾语），主语一发出动作，句子就完整了。常见错误：把不及物动词硬接宾语（如把 happen 说成 happen an accident）。",
+  "examples": [
+   {
+    "en": "The rocket launched.",
+    "zh": "火箭发射了。"
+   },
+   {
+    "en": "The stars twinkle in the night sky.",
+    "zh": "星星在夜空中闪烁。"
+   }
+  ],
+  "machine": {
+   "parts": [
+    {
+     "label": "主语",
+     "value": "The stars"
+    },
+    {
+     "label": "谓语",
+     "value": "twinkle"
+    },
+    {
+     "label": "状语",
+     "value": "in the night sky"
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "question": "The rocket ___ successfully at noon.",
+    "options": [
+     "launched",
+     "was launched by us",
+     "launched us",
+     "launching"
+    ],
+    "answer": 0,
+    "explain": "launch 作不及物动词\"发射升空\"时不需要宾语，主谓结构即完整。"
+   },
+   {
+    "question": "下列哪句是标准的主谓结构？",
+    "options": [
+     "The sun rises.",
+     "The sun rises the east.",
+     "The sun is risen.",
+     "Rises the sun."
+    ],
+    "answer": 0,
+    "explain": "rise 是不及物动词，主语+谓语即可；\"太阳升起\"不能用 rise the east。"
+   },
+   {
+    "question": "The sun ___ in the east every morning.",
+    "options": [
+     "rises",
+     "is risen",
+     "rising",
+     "rise by itself"
+    ],
+    "answer": 0,
+    "explain": "rise 是不及物动词，主语 sun + 谓语 rises 即完整的 SV 结构，科学规律用一般现在时。"
+   },
+   {
+    "question": "Suddenly, all the lights ___.",
+    "options": [
+     "went out",
+     "went out the building",
+     "were gone out",
+     "going out"
+    ],
+    "answer": 0,
+    "explain": "go out（熄灭）是不及物短语动词，后面不能带宾语，主谓结构已完整。"
+   },
+   {
+    "question": "What ___ at the space center last night?",
+    "options": [
+     "happened",
+     "was happened",
+     "happened it",
+     "did happen it"
+    ],
+    "answer": 0,
+    "explain": "happen 是不及物动词，不能用被动（was happened ✗），what 本身作主语，后面直接跟谓语。"
+   },
+   {
+    "question": "The baby ___ all night, so everyone looked tired.",
+    "options": [
+     "cried itself",
+     "cried",
+     "cried to tears",
+     "was cried by everyone"
+    ],
+    "answer": 1,
+    "explain": "cry 不及物，主语 the baby + 谓语 cried 即完整的 SV 结构，后面不接宾语。"
+   },
+   {
+    "question": "The guests ___ until midnight, so the party felt empty at first.",
+    "options": [
+     "arrived not",
+     "didn't arrived",
+     "didn't arrive",
+     "not arrived"
+    ],
+    "answer": 2,
+    "explain": "不及物动词的否定用助动词 didn't + 动词原形 arrive，不能把 not 直接粘在动词后。"
+   },
+   {
+    "question": "下列哪句的动词后不能也不需要宾语？",
+    "options": [
+     "She raised her hand.",
+     "She made a cake.",
+     "She owns.",
+     "She smiled."
+    ],
+    "answer": 3,
+    "explain": "smile 是不及物动词，\"她笑了\"主谓即完整；own/make 都必须有宾语才能成句。"
+   },
+   {
+    "question": "The temperature ___ sharply after sunset.",
+    "options": [
+     "dropped",
+     "was dropped",
+     "dropped it",
+     "dropping"
+    ],
+    "answer": 0,
+    "explain": "drop 作\"下降\"讲是不及物动词：The temperature dropped，主谓结构，无宾语无被动。"
+   }
+  ]
+ },
+ {
+  "title": "主谓宾结构（SVO）",
+  "category": "五大基本句型",
+  "formula": "主语 + 及物动词 + 宾语",
+  "explanation": "五大句型之二：动作要有\"承受者\"。及物动词后面必须带宾语，句子才完整。宾语通常是名词或代词的宾格。判断技巧：问\"动词干了什么\"，能答上来的就是宾语。",
+  "examples": [
+   {
+    "en": "The probe collected soil samples.",
+    "zh": "探测器采集了土壤样本。"
+   },
+   {
+    "en": "Astronauts study the stars.",
+    "zh": "宇航员研究星星。"
+   }
+  ],
+  "machine": {
+   "parts": [
+    {
+     "label": "主语",
+     "value": "The probe"
+    },
+    {
+     "label": "谓语",
+     "value": "collected"
+    },
+    {
+     "label": "宾语",
+     "value": "soil samples"
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "question": "The astronaut ___ the experiment yesterday.",
+    "options": [
+     "conducted",
+     "was conducted",
+     "conducted to",
+     "conducting"
+    ],
+    "answer": 0,
+    "explain": "conduct 是及物动词，直接接宾语 the experiment，主谓宾结构。"
+   },
+   {
+    "question": "Earth ___ around the sun once a year.",
+    "options": [
+     "orbits",
+     "is orbited",
+     "orbits to",
+     "orbit"
+    ],
+    "answer": 0,
+    "explain": "orbit 是及物动词\"环绕\"，后面直接跟宾语 the sun。"
+   },
+   {
+    "question": "She ___ a letter to her pen pal last night.",
+    "options": [
+     "wrote",
+     "wrote to a letter",
+     "was wrote",
+     "writing"
+    ],
+    "answer": 0,
+    "explain": "write 直接及物：wrote a letter 是动宾；to her pen pal 只是介词短语修饰，不算双宾。"
+   },
+   {
+    "question": "哪个句子的动词后带真正的宾语？",
+    "options": [
+     "He fixed the bike.",
+     "He slept the bed.",
+     "He arrived the station.",
+     "He discussed about the plan."
+    ],
+    "answer": 0,
+    "explain": "sleep/arrive 是不及物动词不能直接带宾语；discuss 本身及物不需 about；只有 fix the bike 是标准 SVO。"
+   },
+   {
+    "question": "___ the engineers test the engine yesterday?",
+    "options": [
+     "Do",
+     "Did",
+     "Was",
+     "Have"
+    ],
+    "answer": 1,
+    "explain": "对过去动作提问用 Did + 主语 + 动词原形：Did the engineers test...？"
+   },
+   {
+    "question": "She ___ her homework before dinner yesterday.",
+    "options": [
+     "finishing",
+     "finished to",
+     "finished",
+     "was finished"
+    ],
+    "answer": 2,
+    "explain": "finish 是及物动词，直接接宾语 her homework；不能用被动 was finished（她不是\"被完成\"的对象）。"
+   },
+   {
+    "question": "The storm ___ several houses last summer.",
+    "options": [
+     "was destroying",
+     "was destroyed",
+     "destroyed by",
+     "destroyed"
+    ],
+    "answer": 3,
+    "explain": "暴风是施动者、房屋是承受者，主动语态 destroyed + 宾语 several houses，标准 SVO。"
+   },
+   {
+    "question": "下列哪句的及物动词缺了宾语，句子不完整？",
+    "options": [
+     "He fixed.",
+     "He fixed the bike.",
+     "He listened carefully.",
+     "He slept well."
+    ],
+    "answer": 0,
+    "explain": "fix 是及物动词必须带宾语；listen/sleep 不及物，不带宾语反而完整。"
+   },
+   {
+    "question": "My little brother ___ the remote control under the sofa again.",
+    "options": [
+     "hiding",
+     "hid",
+     "hid to",
+     "was hid"
+    ],
+    "answer": 1,
+    "explain": "hide 及物：hid + 宾语 the remote control；was hid 不是正确被动形式（应为 was hidden）。"
+   }
+  ]
+ },
+ {
+  "title": "主系表结构（SVP）",
+  "category": "五大基本句型",
+  "formula": "主语 + 系动词 + 表语",
+  "explanation": "五大句型之三：说明主语\"是什么/怎么样\"。系动词不只是 be：become（变得）、look（看起来）、feel（感觉）、sound（听起来）、remain（保持）等都常作系动词，后面接形容词作表语，而不是副词。",
+  "examples": [
+   {
+    "en": "Space is silent.",
+    "zh": "太空是寂静的。"
+   },
+   {
+    "en": "The pilot seemed nervous before the launch.",
+    "zh": "发射前飞行员看起来很紧张。"
+   }
+  ],
+  "machine": {
+   "parts": [
+    {
+     "label": "主语",
+     "value": "Space"
+    },
+    {
+     "label": "系动词",
+     "value": "is"
+    },
+    {
+     "label": "表语",
+     "value": "silent"
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "question": "The moonlight looks ___ tonight.",
+    "options": [
+     "beautiful",
+     "beautifully",
+     "beauty",
+     "more beautiful than"
+    ],
+    "answer": 0,
+    "explain": "look 是系动词，后接形容词作表语，不能用副词 beautifully。"
+   },
+   {
+    "question": "Mars ___ red because of iron oxide.",
+    "options": [
+     "appears",
+     "appears to be red as",
+     "is appeared",
+     "appearing"
+    ],
+    "answer": 0,
+    "explain": "appear 作系动词\"看起来是\"，直接接形容词表语。"
+   },
+   {
+    "question": "The soup ___ delicious.",
+    "options": [
+     "tastes",
+     "tastes deliciously",
+     "is tasting goodly",
+     "taste"
+    ],
+    "answer": 0,
+    "explain": "感官动词 taste 在这里是系动词，后面接形容词 delicious 作表语，不接副词。"
+   },
+   {
+    "question": "He ___ a teacher for over ten years.",
+    "options": [
+     "has been",
+     "has become being",
+     "is being",
+     "was being"
+    ],
+    "answer": 0,
+    "explain": "be 动词表状态，延续用现在完成时 has been；系动词 be 一般不用进行体。"
+   },
+   {
+    "question": "The leaves ___ yellow in autumn.",
+    "options": [
+     "turns to",
+     "are turning by",
+     "turn",
+     "turn to be"
+    ],
+    "answer": 2,
+    "explain": "turn 是表状态变化的系动词，后直接接形容词 yellow 作表语。"
+   },
+   {
+    "question": "The milk ___ sour — don't drink it!",
+    "options": [
+     "has gone to",
+     "went sourly",
+     "is gone to",
+     "has gone"
+    ],
+    "answer": 3,
+    "explain": "go 作系动词表\"变质变得\"：has gone sour，sour 是形容词表语而非副词。"
+   },
+   {
+    "question": "___ the weather warm today?",
+    "options": [
+     "Is",
+     "Has",
+     "Do",
+     "Does"
+    ],
+    "answer": 0,
+    "explain": "系动词 be 构成疑问句直接把 be 提前：Is the weather warm？不需要助动词 does。"
+   },
+   {
+    "question": "The plan ___ practical after the revision.",
+    "options": [
+     "sound practically",
+     "sounds practical",
+     "sounds practically",
+     "sounds practice"
+    ],
+    "answer": 1,
+    "explain": "sound 系动词 + 形容词 practical 作表语；主语三单加 s，不能用副词 practically。"
+   },
+   {
+    "question": "The answer ___ correct, so he didn't change it.",
+    "options": [
+     "isn't being",
+     "doesn't",
+     "isn't",
+     "not is"
+    ],
+    "answer": 2,
+    "explain": "系动词的否定直接在 be 后加 not：isn't correct；系表结构不用 do 助动词否定。"
+   }
+  ]
+ },
+ {
+  "title": "主谓双宾结构（SVOO）",
+  "category": "五大基本句型",
+  "formula": "主语 + 动词 + 间接宾语(人) + 直接宾语(物)",
+  "explanation": "五大句型之四：一个动作涉及两个人和物——\"给某人某物\"。常见双宾动词：give、show、send、offer、tell、teach、buy。两种写法等价：give me a book = give a book to me；buy me a pen = buy a pen for me。",
+  "examples": [
+   {
+    "en": "The teacher showed the students a star map.",
+    "zh": "老师给学生们看了一张星图。"
+   },
+   {
+    "en": "Mission control sent the crew a message.",
+    "zh": "任务控制中心给机组人员发了一条消息。"
+   }
+  ],
+  "machine": {
+   "parts": [
+    {
+     "label": "主语",
+     "value": "Mission control"
+    },
+    {
+     "label": "谓语",
+     "value": "sent"
+    },
+    {
+     "label": "间接宾语（人）",
+     "value": "the crew"
+    },
+    {
+     "label": "直接宾语（物）",
+     "value": "a message"
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "question": "Grandpa told the children ___ last night.",
+    "options": [
+     "a story about the stars",
+     "to a story",
+     "story a",
+     "for a story"
+    ],
+    "answer": 0,
+    "explain": "tell 后接双宾：间接宾语 the children（人）在前，直接宾语 a story（物）在后。"
+   },
+   {
+    "question": "NASA offered the young engineer ___",
+    "options": [
+     "a job",
+     "to a job",
+     "a job to",
+     "job"
+    ],
+    "answer": 0,
+    "explain": "offer 是典型双宾动词：offer sb. sth.，人是间接宾语，物是直接宾语。"
+   },
+   {
+    "question": "The company ___ each employee a year-end bonus.",
+    "options": [
+     "gave",
+     "gave to",
+     "offered for",
+     "granted with"
+    ],
+    "answer": 0,
+    "explain": "give sb sth 双宾语结构：give + 间接宾语(each employee) + 直接宾语(bonus)，中间不加介词。"
+   },
+   {
+    "question": "Grandma ___ us wonderful stories every summer.",
+    "options": [
+     "told",
+     "said",
+     "spoke",
+     "talked"
+    ],
+    "answer": 0,
+    "explain": "tell sb sth 是标准双宾结构；say 只能 say sth to sb，speak/talk 后接 to/about。"
+   },
+   {
+    "question": "Mom ___ her a warm sweater last winter.",
+    "options": [
+     "buyed",
+     "bought to",
+     "bought for her a",
+     "bought"
+    ],
+    "answer": 3,
+    "explain": "buy sb sth 双宾结构：bought + her（人间接宾语）+ sweater（物直接宾语），不加介词。"
+   },
+   {
+    "question": "下列哪句是正确的双宾结构？",
+    "options": [
+     "The teacher explained the rule to us.",
+     "The teacher explained us.",
+     "The teacher explained to us it.",
+     "The teacher explained us the rule."
+    ],
+    "answer": 0,
+    "explain": "explain 不能接双宾，必须说 explain sth to sb；类似还有 suggest、describe、report。"
+   },
+   {
+    "question": "I'll ___ you the photos as soon as I get back.",
+    "options": [
+     "send for you",
+     "send",
+     "send with",
+     "send to"
+    ],
+    "answer": 1,
+    "explain": "send sb sth：send + you + the photos，双宾之间不加任何介词。"
+   },
+   {
+    "question": "The manager ___ the team a new project last week.",
+    "options": [
+     "assigned for",
+     "assigned with",
+     "assigned",
+     "assigned to"
+    ],
+    "answer": 2,
+    "explain": "assign sb sth 双宾：assigned + the team（人）+ a project（物）。"
+   },
+   {
+    "question": "He drew his niece ___ for her birthday.",
+    "options": [
+     "for a picture to her",
+     "picture",
+     "to a picture",
+     "a picture"
+    ],
+    "answer": 3,
+    "explain": "draw sb sth：drew his niece（人间接宾语）+ a picture（直接宾语）。"
+   }
+  ]
+ },
+ {
+  "title": "主谓宾补结构（SVOC）",
+  "category": "五大基本句型",
+  "formula": "主语 + 动词 + 宾语 + 宾语补足语",
+  "explanation": "五大句型之五：宾语后面还要\"补\"一句，说明宾语的状态或身份。常见结构：call it a day、find the room clean、keep the door open、make him happy。判断技巧：宾语和补语之间加个 be 仍然说得通（the door is open）。",
+  "examples": [
+   {
+    "en": "We call the planet the Red Planet.",
+    "zh": "我们把那颗行星叫做红色星球。"
+   },
+   {
+    "en": "Zero gravity keeps the food floating.",
+    "zh": "零重力让食物漂浮着。"
+   }
+  ],
+  "machine": {
+   "parts": [
+    {
+     "label": "主语",
+     "value": "Zero gravity"
+    },
+    {
+     "label": "谓语",
+     "value": "keeps"
+    },
+    {
+     "label": "宾语",
+     "value": "the food"
+    },
+    {
+     "label": "宾语补足语",
+     "value": "floating"
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "question": "The news made everyone ___.",
+    "options": [
+     "excited",
+     "excitedly",
+     "excite",
+     "exciting to"
+    ],
+    "answer": 0,
+    "explain": "make + 宾语 + 形容词作宾补：make everyone excited。"
+   },
+   {
+    "question": "Scientists named the new asteroid ___ after its discoverer.",
+    "options": [
+     "Bennu",
+     "to Bennu",
+     "is Bennu",
+     "Bennu's"
+    ],
+    "answer": 0,
+    "explain": "name + 宾语 + 名词作宾补：name the asteroid Bennu（把它命名为贝努）。"
+   },
+   {
+    "question": "The news made everyone ___ sad.",
+    "options": [
+     "feel",
+     "to feel",
+     "feeling to",
+     "felt"
+    ],
+    "answer": 0,
+    "explain": "make sb do sth：使役动词后接不带 to 的不定式作宾语补足语。"
+   },
+   {
+    "question": "We elected her ___ of the club.",
+    "options": [
+     "president",
+     "as president",
+     "the president",
+     "to president"
+    ],
+    "answer": 0,
+    "explain": "elect sb + 职位名词 作宾语补足语，表独一无二职位时不加冠词。"
+   },
+   {
+    "question": "Keep the door ___ while the heater is on.",
+    "options": [
+     "open",
+     "opened",
+     "openly",
+     "to open"
+    ],
+    "answer": 0,
+    "explain": "keep + 宾语 + 形容词作宾补：keep the door open（门保持开着的状态），过去分词 opened 强调动作而非状态。"
+   },
+   {
+    "question": "We found the box ___ after moving day.",
+    "options": [
+     "emptily",
+     "empty",
+     "emptied to be",
+     "to empty"
+    ],
+    "answer": 1,
+    "explain": "find + 宾语 + 形容词：found the box empty，宾语与补语之间可加 be（the box was empty）说得通。"
+   },
+   {
+    "question": "They painted the fence ___ to match the flowers.",
+    "options": [
+     "greenly",
+     "to green",
+     "green",
+     "greening"
+    ],
+    "answer": 2,
+    "explain": "paint + 宾语 + 颜色形容词作宾补：painted the fence green。"
+   },
+   {
+    "question": "The coach had us ___ five laps before practice.",
+    "options": [
+     "running five laps to",
+     "ran",
+     "to run",
+     "run"
+    ],
+    "answer": 3,
+    "explain": "have sb do sth：使役动词 have 后接不带 to 的不定式作宾补。"
+   },
+   {
+    "question": "I saw him ___ the street when the light turned red.",
+    "options": [
+     "cross",
+     "to cross",
+     "crosses",
+     "crossed"
+    ],
+    "answer": 0,
+    "explain": "see sb do sth：感官动词后接不带 to 的不定式，宾补用动词原形 cross。"
+   }
+  ]
+ },
+ {
+  "title": "一般现在时",
+  "category": "时态",
+  "formula": "主语 + 动词原形（第三人称单数加 -s/-es）",
+  "explanation": "表示经常性、习惯性的动作或客观事实。关键：三单主语（he/she/it/单数名词）动词加 s/es。地球绕太阳转这种永恒事实用一般现在时。",
+  "examples": [
+   {
+    "en": "The earth goes around the sun.",
+    "zh": "地球绕着太阳转。"
+   },
+   {
+    "en": "Light travels at about 300,000 km per second.",
+    "zh": "光以每秒约30万公里的速度传播。"
+   }
+  ],
+  "machine": {
+   "parts": [
+    {
+     "label": "主语",
+     "value": "The earth"
+    },
+    {
+     "label": "谓语（三单）",
+     "value": "goes"
+    },
+    {
+     "label": "宾语",
+     "value": "around the sun"
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "question": "He ___ to school every day.",
+    "options": [
+     "go",
+     "goes",
+     "going",
+     "went"
+    ],
+    "answer": 1,
+    "explain": "主语第三人称单数，一般现在时动词加 -s/-es。"
+   },
+   {
+    "question": "Water ___ at 100 degrees Celsius.",
+    "options": [
+     "boils",
+     "boil",
+     "is boiling",
+     "boiled"
+    ],
+    "answer": 0,
+    "explain": "客观事实用一般现在时；water 是三单，动词加 -s。"
+   },
+   {
+    "question": "The space station ___ the earth every 90 minutes.",
+    "options": [
+     "circles",
+     "circle",
+     "circled",
+     "is circle"
+    ],
+    "answer": 0,
+    "explain": "regular 常规动作 + 三单主语，用 circles。"
+   },
+   {
+    "question": "Water ___ at 100 degrees Celsius at sea level.",
+    "options": [
+     "boils",
+     "is boiling",
+     "boiled",
+     "boil"
+    ],
+    "answer": 0,
+    "explain": "科学事实与自然规律属于\"恒常现在\"，用一般现在时。"
+   },
+   {
+    "question": "He ___ like spicy food at all.",
+    "options": [
+     "not like",
+     "doesn't",
+     "don't",
+     "isn't"
+    ],
+    "answer": 1,
+    "explain": "三单主语的否定用 doesn't + 动词原形：doesn't like。"
+   },
+   {
+    "question": "___ your brother play the guitar?",
+    "options": [
+     "Has",
+     "Do",
+     "Does",
+     "Is"
+    ],
+    "answer": 2,
+    "explain": "主语 your brother 是第三人称单数，疑问句用 Does + 主语 + 动词原形。"
+   },
+   {
+    "question": "The museum ___ at nine every morning except Mondays.",
+    "options": [
+     "is opening to",
+     "open",
+     "opened",
+     "opens"
+    ],
+    "answer": 3,
+    "explain": "三单主语 the museum + 习惯性动作，一般现在时动词加 -s：opens。"
+   },
+   {
+    "question": "My grandparents ___ in the countryside and seldom come to the city.",
+    "options": [
+     "live",
+     "is living",
+     "lived",
+     "lives"
+    ],
+    "answer": 0,
+    "explain": "主语 grandparents 是复数，动词用原形 live；长期住处用一般现在时而非进行时。"
+   },
+   {
+    "question": "Sound ___ much slower than light.",
+    "options": [
+     "travel",
+     "travels",
+     "is travel",
+     "traveling"
+    ],
+    "answer": 1,
+    "explain": "客观事实用一般现在时；主语 sound 不可数名词按三单处理，动词加 -s。"
+   }
+  ]
+ },
+ {
+  "title": "现在进行时",
+  "category": "时态",
+  "formula": "主语 + am/is/are + 动词-ing",
+  "explanation": "表示此刻正在进行的动作。结构是\"be 动词 + 现在分词\"，两者缺一不可。常见偏误：漏掉 be（He studying ✗）或忘记动词加 -ing。",
+  "examples": [
+   {
+    "en": "The astronauts are conducting an experiment right now.",
+    "zh": "宇航员们此刻正在做实验。"
+   },
+   {
+    "en": "Look! The comet is passing close to Earth.",
+    "zh": "看！彗星正从近地经过。"
+   }
+  ],
+  "machine": {
+   "parts": [
+    {
+     "label": "主语",
+     "value": "The astronauts"
+    },
+    {
+     "label": "助动词 be",
+     "value": "are"
+    },
+    {
+     "label": "现在分词",
+     "value": "conducting"
+    },
+    {
+     "label": "宾语",
+     "value": "an experiment"
+    },
+    {
+     "label": "时间状语",
+     "value": "right now"
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "question": "Be quiet! The signal ___.",
+    "options": [
+     "is coming",
+     "comes",
+     "come",
+     "came"
+    ],
+    "answer": 0,
+    "explain": "\"此时此刻\"用进行时：is coming。"
+   },
+   {
+    "question": "They ___ a new space suit this week.",
+    "options": [
+     "are testing",
+     "test",
+     "tests",
+     "tested"
+    ],
+    "answer": 0,
+    "explain": "this week 正在进行的临时动作用现在进行时。"
+   },
+   {
+    "question": "Look! The astronauts ___ the hatch.",
+    "options": [
+     "are opening",
+     "open",
+     "opened",
+     "have opened"
+    ],
+    "answer": 0,
+    "explain": "Look! 是\"此刻正在发生\"的信号词，用现在进行时。"
+   },
+   {
+    "question": "These days I ___ for a marathon, so I'm always tired.",
+    "options": [
+     "am training",
+     "train",
+     "trained",
+     "have trained"
+    ],
+    "answer": 0,
+    "explain": "these days 表示\"现阶段持续进行的活动\"，用现在进行时表达临时习惯。"
+   },
+   {
+    "question": "They ___ waiting in line — they just left the hall.",
+    "options": [
+     "not waiting",
+     "isn't",
+     "aren't",
+     "don't wait"
+    ],
+    "answer": 2,
+    "explain": "进行时的否定在 be 后加 not：they aren't waiting，主语复数用 aren't。"
+   },
+   {
+    "question": "___ your parents watching the news right now?",
+    "options": [
+     "Did",
+     "Is",
+     "Do",
+     "Are"
+    ],
+    "answer": 3,
+    "explain": "进行时的疑问把 be 提前：Are your parents watching...？"
+   },
+   {
+    "question": "Listen! Someone ___ the piano downstairs.",
+    "options": [
+     "is playing",
+     "played",
+     "play",
+     "plays"
+    ],
+    "answer": 0,
+    "explain": "Listen! 表\"此刻正在发生\"，用现在进行时 is playing。"
+   },
+   {
+    "question": "The chef ___ the sauce right now, so keep the fire low.",
+    "options": [
+     "stirred",
+     "is stirring",
+     "stirs",
+     "stir"
+    ],
+    "answer": 1,
+    "explain": "right now 是进行时信号词：is stirring。"
+   },
+   {
+    "question": "I ___ for my final exams this month, so the library is my second home.",
+    "options": [
+     "prepared",
+     "have prepared to",
+     "am preparing",
+     "prepare always"
+    ],
+    "answer": 2,
+    "explain": "this month 表现阶段持续进行的活动，用现在进行时 am preparing。"
+   }
+  ]
+ },
+ {
+  "title": "现在完成时",
+  "category": "时态",
+  "formula": "主语 + have/has + 过去分词",
+  "explanation": "表示过去发生的动作对现在的影响，或从过去持续到现在的状态。标志词：already、yet、just、ever、never、so far、for + 时间段、since + 时间点。不要和\"具体的过去时间（yesterday 等）\"连用。",
+  "examples": [
+   {
+    "en": "Humans have landed on the moon six times.",
+    "zh": "人类已经登上过月球六次。"
+   },
+   {
+    "en": "She has studied English for ten years.",
+    "zh": "她已经学了十年英语。"
+   }
+  ],
+  "machine": {
+   "parts": [
+    {
+     "label": "主语",
+     "value": "Humans"
+    },
+    {
+     "label": "助动词",
+     "value": "have"
+    },
+    {
+     "label": "过去分词",
+     "value": "landed"
+    },
+    {
+     "label": "地点状语",
+     "value": "on the moon"
+    },
+    {
+     "label": "频度状语",
+     "value": "six times"
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "question": "The rover ___ on Mars since 2021.",
+    "options": [
+     "has worked",
+     "works",
+     "worked",
+     "is working"
+    ],
+    "answer": 0,
+    "explain": "since + 过去时间点 + 持续到现在的状态，用现在完成时。"
+   },
+   {
+    "question": "I ___ never seen a total solar eclipse before.",
+    "options": [
+     "have",
+     "has",
+     "am",
+     "did"
+    ],
+    "answer": 0,
+    "explain": "never/ever 等标志词要求现在完成时：have never seen。"
+   },
+   {
+    "question": "She ___ just ___ back from the space center.",
+    "options": [
+     "has; come",
+     "have; come",
+     "has; came",
+     "is; coming"
+    ],
+    "answer": 0,
+    "explain": "just 表\"刚刚完成\"，主语三单用 has + 过去分词 come（come 的过去分词是 come 不是 came）。"
+   },
+   {
+    "question": "I ___ this movie three times already.",
+    "options": [
+     "have seen",
+     "saw",
+     "have been seeing",
+     "am seeing"
+    ],
+    "answer": 0,
+    "explain": "already + 次数 three times，表示\"过去动作对现在的累计影响\"，是典型现在完成时。"
+   },
+   {
+    "question": "She ___ in Beijing since 2018.",
+    "options": [
+     "is living",
+     "lives",
+     "lived",
+     "has lived"
+    ],
+    "answer": 3,
+    "explain": "since 2018 + 延续性动词，从过去持续到现在的状态用现在完成时 has lived。"
+   },
+   {
+    "question": "___ you ever tried Japanese food?",
+    "options": [
+     "Have",
+     "Did",
+     "Do",
+     "Are"
+    ],
+    "answer": 0,
+    "explain": "ever 是现在完成时标志词：Have you ever tried...？"
+   },
+   {
+    "question": "He ___ his keys, so he can't open the door now.",
+    "options": [
+     "lost",
+     "has lost",
+     "is losing",
+     "loses"
+    ],
+    "answer": 1,
+    "explain": "丢钥匙的动作在过去，但\"现在进不了门\"是它对现在的影响 — 典型现在完成时 has lost。"
+   },
+   {
+    "question": "Tom isn't here — he ___ to the bank.",
+    "options": [
+     "goes",
+     "has been",
+     "has gone",
+     "went to and back"
+    ],
+    "answer": 2,
+    "explain": "has gone to 表示\"去了还没回来\"；has been to 表示\"去过已回来\"。人不在这里，用 has gone。"
+   },
+   {
+    "question": "The train ___ already left the station.",
+    "options": [
+     "have",
+     "is",
+     "did",
+     "has"
+    ],
+    "answer": 3,
+    "explain": "already 表已完成动作对现在的影响；主语 the train 三单，用 has + 过去分词。"
+   }
+  ]
+ },
+ {
+  "title": "一般过去时",
+  "category": "时态",
+  "formula": "主语 + 动词过去式（规则加 -ed，不规则需记忆）",
+  "explanation": "表示过去某个时间发生的动作或状态，与现在无关。规则动词加 -ed；常用不规则动词要单独记（go-went-gone、see-saw-seen）。常与 yesterday、last week、in 1969 等过去时间连用。",
+  "examples": [
+   {
+    "en": "Apollo 11 landed on the moon in 1969.",
+    "zh": "阿波罗11号于1969年登上月球。"
+   },
+   {
+    "en": "We saw a shooting star last night.",
+    "zh": "我们昨晚看到了一颗流星。"
+   }
+  ],
+  "machine": {
+   "parts": [
+    {
+     "label": "主语",
+     "value": "Apollo 11"
+    },
+    {
+     "label": "谓语（过去式）",
+     "value": "landed"
+    },
+    {
+     "label": "时间状语",
+     "value": "in 1969"
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "question": "The team ___ the signal two hours ago.",
+    "options": [
+     "lost",
+     "loses",
+     "has lost",
+     "is losing"
+    ],
+    "answer": 0,
+    "explain": "two hours ago 是明确过去时间，用一般过去时 lost。"
+   },
+   {
+    "question": "He ___ to the space museum last Sunday.",
+    "options": [
+     "went",
+     "goes",
+     "has gone",
+     "was going"
+    ],
+    "answer": 0,
+    "explain": "last Sunday 指明过去，go 的过去式是 went。"
+   },
+   {
+    "question": "I ___ my keys yesterday, so I couldn't get in.",
+    "options": [
+     "lost",
+     "have lost",
+     "lose",
+     "was losing"
+    ],
+    "answer": 0,
+    "explain": "yesterday 是明确的过去时间点；事件已结束并连锁影响过去的 couldn't，用一般过去时。"
+   },
+   {
+    "question": "— When ___ the package arrive? — This morning.",
+    "options": [
+     "did",
+     "has",
+     "was",
+     "does"
+    ],
+    "answer": 0,
+    "explain": "对过去时间提问：did + 主语 + 动词原形。"
+   },
+   {
+    "question": "We ___ any money on the trip because everything was free.",
+    "options": [
+     "didn't spend",
+     "don't spend",
+     "didn't spent",
+     "not spent"
+    ],
+    "answer": 0,
+    "explain": "过去否定：didn't + 动词原形 spend，不能写成 didn't spent。"
+   },
+   {
+    "question": "They ___ the summit before sunrise last Saturday.",
+    "options": [
+     "was reaching",
+     "reached",
+     "reach",
+     "have reached"
+    ],
+    "answer": 1,
+    "explain": "last Saturday 是明确过去时间，动作用一般过去时 reached。"
+   },
+   {
+    "question": "She ___ up at six and went jogging this morning.",
+    "options": [
+     "was waking",
+     "wakes",
+     "woke",
+     "has woken"
+    ],
+    "answer": 2,
+    "explain": "this morning（已过去的早晨）+ and 连接的并列动作用过去式 woke。"
+   },
+   {
+    "question": "— Who ___ the window? — Tom did, and he has apologized.",
+    "options": [
+     "breaks",
+     "has broken",
+     "was broken",
+     "broke"
+    ],
+    "answer": 3,
+    "explain": "提问过去的动作：Who broke...？过去事件本身用一般过去时 broke。"
+   },
+   {
+    "question": "The little boy ___ his first word when he was ten months old.",
+    "options": [
+     "said",
+     "was saying",
+     "speaks",
+     "spoken"
+    ],
+    "answer": 0,
+    "explain": "说（出）某句话用 say 的过去式 said；speak 后一般接语言而非具体的话。"
+   }
+  ]
+ },
+ {
+  "title": "被动语态",
+  "category": "语态",
+  "formula": "主语(受动者) + be + 过去分词（+ by 施动者）",
+  "explanation": "当\"受动者\"比\"施动者\"更重要时用被动。时态变化体现在 be 上：一般现在 is done、过去 was done、现在完成 has been done、将来 will be done。中文\"被、由、受到\"常对应英文被动。",
+  "examples": [
+   {
+    "en": "The satellite was launched by a heavy rocket.",
+    "zh": "这颗卫星是由一枚重型火箭发射的。"
+   },
+   {
+    "en": "The data is transmitted to Earth every hour.",
+    "zh": "数据每小时被传回地球。"
+   }
+  ],
+  "machine": {
+   "parts": [
+    {
+     "label": "主语（受动者）",
+     "value": "The satellite"
+    },
+    {
+     "label": "被动助动词",
+     "value": "was"
+    },
+    {
+     "label": "过去分词",
+     "value": "launched"
+    },
+    {
+     "label": "施动者",
+     "value": "by a heavy rocket"
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "question": "The telescope ___ into orbit next month.",
+    "options": [
+     "will be sent",
+     "will send",
+     "is sending",
+     "sends"
+    ],
+    "answer": 0,
+    "explain": "望远镜是\"被发射\"的对象，将来被动：will be sent。"
+   },
+   {
+    "question": "English ___ all over the world.",
+    "options": [
+     "is spoken",
+     "speaks",
+     "is speaking",
+     "spoken"
+    ],
+    "answer": 0,
+    "explain": "英语\"被说\"，一般现在被动：is spoken。"
+   },
+   {
+    "question": "The samples ___ already ___ to the lab.",
+    "options": [
+     "have; been sent",
+     "have; sent",
+     "has; been sent",
+     "are; sent"
+    ],
+    "answer": 0,
+    "explain": "现在完成被动 = have been + 过去分词；already 夹在中间。"
+   },
+   {
+    "question": "The bridge ___ by the storm last week.",
+    "options": [
+     "was destroyed",
+     "destroyed",
+     "has destroyed",
+     "was destroying"
+    ],
+    "answer": 0,
+    "explain": "桥是被毁的对象，last week 过去时：was + destroyed（过去分词）。"
+   },
+   {
+    "question": "The old temple ___ in the 1990s and still looks new.",
+    "options": [
+     "was rebuilding",
+     "was rebuilt",
+     "rebuilt",
+     "were rebuilt"
+    ],
+    "answer": 1,
+    "explain": "庙是被重建的对象，in the 1990s 过去时；主语 temple 单数，was + 过去分词 rebuilt。"
+   },
+   {
+    "question": "___ the letter sent yesterday?",
+    "options": [
+     "Were",
+     "Did",
+     "Was",
+     "Has"
+    ],
+    "answer": 2,
+    "explain": "被动语态的疑问把 be 提前：Was the letter sent...？letter 单数用 was。"
+   },
+   {
+    "question": "The machine ___ repaired by the engineer right now.",
+    "options": [
+     "must being",
+     "must",
+     "must repair",
+     "must be"
+    ],
+    "answer": 3,
+    "explain": "情态动词被动：must + be + 过去分词，机器是\"被修理\"的对象。"
+   },
+   {
+    "question": "A new bridge across the river ___ right now.",
+    "options": [
+     "is being built",
+     "has built",
+     "is building",
+     "is built"
+    ],
+    "answer": 0,
+    "explain": "现在进行被动 = is/are being + 过去分词：桥正在被建造，is being built。"
+   },
+   {
+    "question": "These photos ___ without permission, so the website took them down.",
+    "options": [
+     "didn't publish",
+     "were published",
+     "published",
+     "were publishing"
+    ],
+    "answer": 1,
+    "explain": "照片是被发布的一方，复数主语用 were + 过去分词 published。"
+   }
+  ]
+ },
+ {
+  "title": "情态动词",
+  "category": "情态动词",
+  "formula": "主语 + can/may/must/should/... + 动词原形",
+  "explanation": "can（能/会）、may（可以/可能）、must（必须）、should（应该）、need（需要）表示能力、许可、义务和推测。三条铁律：后面永远接动词原形；本身没有人称变化（he can，不是 he cans）；否定直接加 not（cannot、shouldn't）。must 表推测的否定是 can't（不可能），不是 mustn't。",
+  "examples": [
+   {
+    "en": "Astronauts must wear space suits outside the station.",
+    "zh": "宇航员在空间站外必须穿宇航服。"
+   },
+   {
+    "en": "You can see Venus with the naked eye tonight.",
+    "zh": "今晚你用肉眼就能看到金星。"
+   }
+  ],
+  "machine": {
+   "parts": [
+    {
+     "label": "主语",
+     "value": "Astronauts"
+    },
+    {
+     "label": "情态动词",
+     "value": "must"
+    },
+    {
+     "label": "动词原形",
+     "value": "wear"
+    },
+    {
+     "label": "宾语",
+     "value": "space suits"
+    },
+    {
+     "label": "地点状语",
+     "value": "outside the station"
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "question": "You ___ smoke in the space station. It is forbidden.",
+    "options": [
+     "mustn't",
+     "don't have to",
+     "may not have",
+     "needn't"
+    ],
+    "answer": 0,
+    "explain": "表示绝对禁止用 mustn't；needn't/don't have to 意思是\"不必\"，语气完全不同。"
+   },
+   {
+    "question": "He ___ play the piano when he was five.",
+    "options": [
+     "could",
+     "can",
+     "may",
+     "must"
+    ],
+    "answer": 0,
+    "explain": "过去的能力用 can 的过去式 could；情态动词后接动词原形不受时态影响，但主句讲过去要用 could。"
+   },
+   {
+    "question": "That ___ be Tom — he has flown to Beijing.",
+    "options": [
+     "can't",
+     "mustn't",
+     "shouldn't",
+     "needn't"
+    ],
+    "answer": 0,
+    "explain": "表否定推测\"不可能\"用 can't，mustn't 不表推测。"
+   },
+   {
+    "question": "You ___ be tired after the long flight—go rest.",
+    "options": [
+     "must",
+     "can't",
+     "shouldn't",
+     "needn't"
+    ],
+    "answer": 0,
+    "explain": "must 表\"有把握的推测\"（一定很累），否定推测用 can't（不可能）。"
+   },
+   {
+    "question": "You ___ finish the report today — tomorrow is fine.",
+    "options": [
+     "shouldn't",
+     "mustn't",
+     "don't have to",
+     "can't"
+    ],
+    "answer": 2,
+    "explain": "\"不必\"用 don't have to / needn't；mustn't 是\"绝对禁止\"，语气完全不同。"
+   },
+   {
+    "question": "___ I use your phone for a minute?",
+    "options": [
+     "Would",
+     "Should",
+     "Must",
+     "May"
+    ],
+    "answer": 3,
+    "explain": "请求许可用 May/Can I...？must 表义务不能用于请求许可。"
+   },
+   {
+    "question": "— Must I hand it in right now? — No, you ___.",
+    "options": [
+     "needn't",
+     "can't",
+     "couldn't",
+     "mustn't"
+    ],
+    "answer": 0,
+    "explain": "must 提问的否定回答是 needn't/don't have to（不必），不是 mustn't（禁止）。"
+   },
+   {
+    "question": "He ___ speak three languages by the age of ten.",
+    "options": [
+     "may",
+     "could",
+     "must",
+     "can"
+    ],
+    "answer": 1,
+    "explain": "过去的能力用 could；by the age of ten 指过去时间点。"
+   },
+   {
+    "question": "You ___ see a doctor if the pain continues for a week.",
+    "options": [
+     "could not",
+     "would",
+     "should",
+     "might not"
+    ],
+    "answer": 2,
+    "explain": "提出建议\"应该\"用 should；would 表意愿，might 表较小可能。"
+   }
+  ]
+ },
+ {
+  "title": "定语从句",
+  "category": "三大从句",
+  "formula": "名词 + 关系代词(who/which/that/whose) + 从句",
+  "explanation": "定语从句像形容词一样修饰前面的名词（先行词）。who 指人、which 指物、that 人物皆可、whose 表\"谁的\"。关系代词在从句中作宾语时可省略。注意：which/who 不指时间地点；先行词是时间用 when，地点用 where。",
+  "examples": [
+   {
+    "en": "The satellite that we built is still working.",
+    "zh": "我们造的那颗卫星仍在工作。"
+   },
+   {
+    "en": "He is the scientist who discovered the comet.",
+    "zh": "他就是发现那颗彗星的科学家。"
+   }
+  ],
+  "machine": {
+   "parts": [
+    {
+     "label": "先行词",
+     "value": "the scientist"
+    },
+    {
+     "label": "关系代词",
+     "value": "who"
+    },
+    {
+     "label": "从句谓语",
+     "value": "discovered"
+    },
+    {
+     "label": "从句宾语",
+     "value": "the comet"
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "question": "This is the rocket ___ carried the crew to the ISS.",
+    "options": [
+     "that",
+     "who",
+     "whose",
+     "where"
+    ],
+    "answer": 0,
+    "explain": "先行词 rocket 是物，用 that/which；who 只指人。"
+   },
+   {
+    "question": "Do you remember the day ___ we visited the observatory?",
+    "options": [
+     "when",
+     "which",
+     "that",
+     "who"
+    ],
+    "answer": 0,
+    "explain": "先行词是时间 the day，且关系词在从句中作时间状语，用 when。"
+   },
+   {
+    "question": "The engineer ___ design won the award works here.",
+    "options": [
+     "whose",
+     "who",
+     "which",
+     "that"
+    ],
+    "answer": 0,
+    "explain": "\"谁的（设计）\"用 whose 引导定语从句。"
+   },
+   {
+    "question": "The engineer ___ designed the bridge won an award.",
+    "options": [
+     "who",
+     "which",
+     "whom",
+     "whose"
+    ],
+    "answer": 0,
+    "explain": "先行词是人(engineer)且在从句中作主语，用 who；whom 只作宾语。"
+   },
+   {
+    "question": "This is the village ___ I spent my childhood.",
+    "options": [
+     "when",
+     "which",
+     "who",
+     "where"
+    ],
+    "answer": 3,
+    "explain": "先行词 village 是地点，且关系词在从句中作地点状语（spent my childhood in the village），用 where。"
+   },
+   {
+    "question": "The girl ___ umbrella was stolen is waiting at the lost-and-found.",
+    "options": [
+     "whose",
+     "which",
+     "whom",
+     "who"
+    ],
+    "answer": 0,
+    "explain": "\"谁的伞\"表所属关系，用 whose 引导定语从句。"
+   },
+   {
+    "question": "The colleague ___ I share an office is very kind.",
+    "options": [
+     "that",
+     "with whom",
+     "who",
+     "whom"
+    ],
+    "answer": 1,
+    "explain": "从句完整结构是 I share an office with the colleague，介词 with 提前用 with whom。"
+   },
+   {
+    "question": "The Great Wall, ___ attracts millions of visitors every year, is over 20,000 km long.",
+    "options": [
+     "where",
+     "that",
+     "which",
+     "who"
+    ],
+    "answer": 2,
+    "explain": "逗号隔开的非限制性定语从句不能用 that，先行词是物用 which。"
+   },
+   {
+    "question": "The movie ___ we watched last night was fantastic.",
+    "options": [
+     "what",
+     "who",
+     "whose",
+     "which"
+    ],
+    "answer": 3,
+    "explain": "先行词 movie 是物，关系代词在从句中作宾语，用 which/that（what 不能引导定语从句）。"
+   }
+  ]
+ },
+ {
+  "title": "宾语从句",
+  "category": "三大从句",
+  "formula": "主句 + that/if/whether/特殊疑问词 + 主语 + 谓语",
+  "explanation": "宾语从句作主句动词的宾语，核心规则是\"陈述语序\"：连接词后必须用\"主语 + 谓语\"，不能颠倒（不是 I don't know where is he，而是 I don't know where he is）。that 无实义常可省略；表\"是否\"用 if 或 whether。",
+  "examples": [
+   {
+    "en": "I believe that we will reach Mars one day.",
+    "zh": "我相信总有一天我们会登上火星。"
+   },
+   {
+    "en": "She asked whether the launch had been delayed.",
+    "zh": "她问发射是否被推迟了。"
+   }
+  ],
+  "machine": {
+   "parts": [
+    {
+     "label": "主句主语",
+     "value": "She"
+    },
+    {
+     "label": "主句谓语",
+     "value": "asked"
+    },
+    {
+     "label": "连接词",
+     "value": "whether"
+    },
+    {
+     "label": "从句主语",
+     "value": "the launch"
+    },
+    {
+     "label": "从句谓语",
+     "value": "had been delayed"
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "question": "I don't know ___.",
+    "options": [
+     "where he lives",
+     "where does he live",
+     "where he live",
+     "where lives he"
+    ],
+    "answer": 0,
+    "explain": "宾语从句用陈述语序：连接词 + 主语 + 谓语。"
+   },
+   {
+    "question": "The teacher asked ___ the earth moves around the sun.",
+    "options": [
+     "if",
+     "that",
+     "what",
+     "who"
+    ],
+    "answer": 0,
+    "explain": "表\"是否\"的一般疑问句作宾语从句，用 if/whether 引导。"
+   },
+   {
+    "question": "Could you tell me ___?",
+    "options": [
+     "when the train leaves",
+     "when does the train leave",
+     "when leaves the train",
+     "when the train does leave"
+    ],
+    "answer": 0,
+    "explain": "特殊疑问句变宾语从句要去掉助动词，改回陈述语序。"
+   },
+   {
+    "question": "I wonder ___ the store is still open.",
+    "options": [
+     "whether",
+     "that",
+     "what",
+     "which"
+    ],
+    "answer": 0,
+    "explain": "wonder 表示疑问，宾语从句用 whether/if 引导，不用 that。"
+   },
+   {
+    "question": "She said she ___ tired after the double shift.",
+    "options": [
+     "was",
+     "has been being",
+     "were",
+     "is"
+    ],
+    "answer": 0,
+    "explain": "主句 said 是过去时，宾语从句时态呼应用过去时 was（现在仍累才用 is）。"
+   },
+   {
+    "question": "I'm not sure ___ he will join us or not.",
+    "options": [
+     "that",
+     "whether",
+     "what",
+     "if"
+    ],
+    "answer": 1,
+    "explain": "与 or not 直接连用时用 whether，不用 if。"
+   },
+   {
+    "question": "Do you know ___ the nearest bank is?",
+    "options": [
+     "what",
+     "that",
+     "where",
+     "which"
+    ],
+    "answer": 2,
+    "explain": "从句缺地点状语，用 where 引导并保持陈述语序 where the nearest bank is。"
+   },
+   {
+    "question": "Nobody knows ___ broke the window.",
+    "options": [
+     "whom",
+     "that",
+     "which",
+     "who"
+    ],
+    "answer": 3,
+    "explain": "从句缺主语（谁打破了窗户），用主格 who；whom 只能作宾语。"
+   },
+   {
+    "question": "I don't think ___ the plan will work.",
+    "options": [
+     "that",
+     "what",
+     "which",
+     "whether"
+    ],
+    "answer": 0,
+    "explain": "think/believe 后接陈述内容用 that（常省略）；whether 只用于\"是否\"。"
+   }
+  ]
+ },
+ {
+  "title": "状语从句",
+  "category": "三大从句",
+  "formula": "主句 + when/if/because/although/so...that + 从句",
+  "explanation": "状语从句修饰动词，说明时间、条件、原因、让步、结果等。最重要的规则：\"主将从现\"——主句用将来时，时间/条件从句（when、if、as soon as、until）用一般现在时表将来。",
+  "examples": [
+   {
+    "en": "When the signal arrives, we will decode it.",
+    "zh": "信号一到我们就会解码它。"
+   },
+   {
+    "en": "Although the rocket is huge, it weighs less than you think.",
+    "zh": "虽然火箭很大，但它比你想象的要轻。"
+   }
+  ],
+  "machine": {
+   "parts": [
+    {
+     "label": "时间状语从句连词",
+     "value": "When"
+    },
+    {
+     "label": "从句主语",
+     "value": "the signal"
+    },
+    {
+     "label": "从句谓语",
+     "value": "arrives"
+    },
+    {
+     "label": "主句主语",
+     "value": "we"
+    },
+    {
+     "label": "主句谓语",
+     "value": "will decode"
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "question": "If it ___ tomorrow, the launch will be postponed.",
+    "options": [
+     "rains",
+     "will rain",
+     "rained",
+     "would rain"
+    ],
+    "answer": 0,
+    "explain": "if 引导条件从句遵循\"主将从现\"：主句 will be，从句用一般现在时。"
+   },
+   {
+    "question": "He stayed up late ___ he could watch the eclipse.",
+    "options": [
+     "so that",
+     "because",
+     "although",
+     "unless"
+    ],
+    "answer": 0,
+    "explain": "so that 表目的\"为了\"；because 表原因，逻辑不通。"
+   },
+   {
+    "question": "___ the task was difficult, nobody gave up.",
+    "options": [
+     "Although",
+     "Because",
+     "If",
+     "Until"
+    ],
+    "answer": 0,
+    "explain": "\"虽然难但没人放弃\"是让步关系，用 although。"
+   },
+   {
+    "question": "___ it rains tomorrow, the picnic will be canceled.",
+    "options": [
+     "If",
+     "Whether",
+     "Unless",
+     "Although"
+    ],
+    "answer": 0,
+    "explain": "真实条件句用 if：条件满足 → 主句结果发生（主将从现）。"
+   },
+   {
+    "question": "I'll call you as soon as I ___ the airport.",
+    "options": [
+     "will reach",
+     "reach",
+     "reached",
+     "am reaching to"
+    ],
+    "answer": 1,
+    "explain": "as soon as 时间从句遵循\"主将从现\"：主句 will call，从句用一般现在时 reach。"
+   },
+   {
+    "question": "The teacher spoke slowly ___ everyone could follow.",
+    "options": [
+     "as if",
+     "in case",
+     "so that",
+     "even if"
+    ],
+    "answer": 2,
+    "explain": "so that 表目的\"为了让大家都能跟上\"；as if 表\"好像\"，in case 表\"以防\"。"
+   },
+   {
+    "question": "He has been quiet ___ his dog died last month.",
+    "options": [
+     "unless",
+     "while",
+     "until",
+     "since"
+    ],
+    "answer": 3,
+    "explain": "since 表\"自从\"：自狗去世后他一直很安静，主句用完成时/延续状态。"
+   },
+   {
+    "question": "Take your umbrella ___ it rains on the way.",
+    "options": [
+     "in case",
+     "although",
+     "so that",
+     "because"
+    ],
+    "answer": 0,
+    "explain": "in case 表\"以防（万一）\"：带伞是为了防备下雨，雨还没下。"
+   },
+   {
+    "question": "___ hard he tried, he couldn't open the jar.",
+    "options": [
+     "Wherever",
+     "However",
+     "Whatever",
+     "Whenever"
+    ],
+    "answer": 1,
+    "explain": "however + 形容词/副词 = no matter how，表让步\"无论多努力\"。"
+   }
+  ]
+ },
+ {
+  "title": "形容词比较级与最高级",
+  "category": "比较",
+  "formula": "比较级 + than / the + 最高级 + (in/of 范围)",
+  "explanation": "两者比较用比较级（加 -er 或 more），三者以上用最高级（加 -est 或 most，前面加 the）。规则：单音节词加 -er/-est（big-bigger-biggest）；多音节词用 more/most（more expensive）；以 y 结尾双音节词变 y 为 ier（easy-easier）。注意 than 后接比较对象。",
+  "examples": [
+   {
+    "en": "Mars is smaller than Earth.",
+    "zh": "火星比地球小。"
+   },
+   {
+    "en": "Jupiter is the largest planet in the solar system.",
+    "zh": "木星是太阳系中最大的行星。"
+   }
+  ],
+  "machine": {
+   "parts": [
+    {
+     "label": "主语",
+     "value": "Jupiter"
+    },
+    {
+     "label": "系动词",
+     "value": "is"
+    },
+    {
+     "label": "最高级",
+     "value": "the largest"
+    },
+    {
+     "label": "被修饰名词",
+     "value": "planet"
+    },
+    {
+     "label": "范围状语",
+     "value": "in the solar system"
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "question": "This launch was ___ than the last one.",
+    "options": [
+     "more successful",
+     "successfuler",
+     "most successful",
+     "more successfully"
+    ],
+    "answer": 0,
+    "explain": "多音节形容词用 more 构成比较级，且 than 前后比较的是名词性质。"
+   },
+   {
+    "question": "The sun is ___ object in our sky.",
+    "options": [
+     "the brightest",
+     "brighter",
+     "the most bright",
+     "brightest"
+    ],
+    "answer": 0,
+    "explain": "范围内独一无二用最高级，bright 是单音节词加 -est，最高级前加 the。"
+   },
+   {
+    "question": "Travelling to Mars is far ___ than to the moon.",
+    "options": [
+     "more difficult",
+     "difficulter",
+     "most difficult",
+     "so difficult"
+    ],
+    "answer": 0,
+    "explain": "difficult 是多音节词，比较级用 more difficult；far 修饰比较级加强语气。"
+   },
+   {
+    "question": "This is ___ movie I have ever seen.",
+    "options": [
+     "the best",
+     "better",
+     "the better",
+     "best"
+    ],
+    "answer": 0,
+    "explain": "ever 划定比较范围（所有看过的电影），用最高级 the best。"
+   },
+   {
+    "question": "The weather is getting ___ and ___.",
+    "options": [
+     "more hot; more hot",
+     "hottest; hottest",
+     "hotter; hotter",
+     "hot; hot"
+    ],
+    "answer": 2,
+    "explain": "比较级 + and + 比较级表\"越来越…\"；hot 单音节双写 t 加 -er。"
+   },
+   {
+    "question": "I feel much ___ today than yesterday.",
+    "options": [
+     "best",
+     "more good",
+     "good",
+     "better"
+    ],
+    "answer": 3,
+    "explain": "well 的比较级是 better（不规则变化）；much 修饰比较级加强程度。"
+   },
+   {
+    "question": "This film is ___ exciting as that one.",
+    "options": [
+     "as",
+     "more",
+     "too",
+     "so"
+    ],
+    "answer": 0,
+    "explain": "同级比较用 as + 形容词原级 + as。"
+   },
+   {
+    "question": "Lucy is ___ of the two sisters.",
+    "options": [
+     "tallest",
+     "the taller",
+     "the tallest",
+     "taller"
+    ],
+    "answer": 1,
+    "explain": "两者中\"较…的那一个\"用 the + 比较级：the taller of the two；最高级用于三者以上。"
+   },
+   {
+    "question": "Of all the students, Tom writes ___.",
+    "options": [
+     "more carefully",
+     "most careful",
+     "most carefully",
+     "carefullest"
+    ],
+    "answer": 2,
+    "explain": "多音节副词最高级用 most + 副词：writes most carefully（修饰动作用副词）。"
+   }
+  ]
+ },
+ {
+  "title": "动词不定式",
+  "category": "非谓语动词",
+  "formula": "to + 动词原形（作目的/宾语/宾补/定语）",
+  "explanation": "不定式 to do 是\"非谓语\"——句子已经有一个谓语了，第二个动词要用非谓语形式。不定式常表目的（\"为了\"）和未发生的动作。固定搭配需记：want to do、decide to do、hope to do、tell sb. to do、it takes sb. time to do。",
+  "examples": [
+   {
+    "en": "She trained for years to become an astronaut.",
+    "zh": "她训练了多年，为的是成为宇航员。"
+   },
+   {
+    "en": "It takes eight months to reach Mars.",
+    "zh": "到达火星需要八个月。"
+   }
+  ],
+  "machine": {
+   "parts": [
+    {
+     "label": "形式主语",
+     "value": "It"
+    },
+    {
+     "label": "谓语",
+     "value": "takes"
+    },
+    {
+     "label": "宾语（时间）",
+     "value": "eight months"
+    },
+    {
+     "label": "不定式（真正主语）",
+     "value": "to reach Mars"
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "question": "He went to the observatory ___ the comet.",
+    "options": [
+     "to observe",
+     "observing",
+     "observe",
+     "observed"
+    ],
+    "answer": 0,
+    "explain": "表目的\"为了观测\"用不定式 to observe。"
+   },
+   {
+    "question": "We decided ___ the mission a second chance.",
+    "options": [
+     "to give",
+     "giving",
+     "give",
+     "gave"
+    ],
+    "answer": 0,
+    "explain": "decide 后固定接 to do，不接 doing。"
+   },
+   {
+    "question": "The captain told the crew ___ ready.",
+    "options": [
+     "to get",
+     "getting",
+     "get",
+     "got"
+    ],
+    "answer": 0,
+    "explain": "tell sb. to do sth.，宾补用不定式。"
+   },
+   {
+    "question": "He stopped ___ a break after three hours of coding.",
+    "options": [
+     "to take",
+     "taking",
+     "take",
+     "taken"
+    ],
+    "answer": 0,
+    "explain": "stop to do = 停下手头的事去做另一件事；stop doing = 停止正在做的事。"
+   },
+   {
+    "question": "It's important ___ a second language.",
+    "options": [
+     "learn",
+     "learnt",
+     "learning",
+     "to learn"
+    ],
+    "answer": 3,
+    "explain": "It's + 形容词 + to do：不定式作真正主语，it 是形式主语。"
+   },
+   {
+    "question": "I don't know ___ to solve the problem.",
+    "options": [
+     "how",
+     "what",
+     "which",
+     "that"
+    ],
+    "answer": 0,
+    "explain": "疑问词 + 不定式：how to solve（怎么解决），know 后不能接 that + 不定式。"
+   },
+   {
+    "question": "He is old enough ___ to school by himself.",
+    "options": [
+     "for going",
+     "to go",
+     "go",
+     "going"
+    ],
+    "answer": 1,
+    "explain": "enough + 名词/形容词 + to do：old enough to go，不定式表结果。"
+   },
+   {
+    "question": "My dream is ___ a pilot one day.",
+    "options": [
+     "become",
+     "became",
+     "to become",
+     "becoming to"
+    ],
+    "answer": 2,
+    "explain": "dream/goal/plan 等名词的表语多用不定式 to become，表示\"想要实现的\"。"
+   },
+   {
+    "question": "She was the first woman ___ that mountain.",
+    "options": [
+     "climb",
+     "climbing",
+     "climbed",
+     "to climb"
+    ],
+    "answer": 3,
+    "explain": "the first/last/only + 名词后用不定式作后置定语：the first woman to climb。"
+   }
+  ]
+ },
+ {
+  "title": "动名词",
+  "category": "非谓语动词",
+  "formula": "动词-ing（作主语/宾语/介词后）",
+  "explanation": "动名词 doing 把动作名词化，可以当名词用：作主语（Swimming is fun）、作宾语、介词后必须用动名词（be good at doing、instead of doing）。接动名词的动词口诀：enjoy、finish、mind、avoid、practice、suggest、keep（doing）。与不定式的区别：动名词偏\"已发生/一般性\"，不定式偏\"未发生/一次性\"。",
+  "examples": [
+   {
+    "en": "Floating in space is an amazing experience.",
+    "zh": "在太空中漂浮是一种奇妙的体验。"
+   },
+   {
+    "en": "He finished checking the engine at midnight.",
+    "zh": "他午夜时检查完了发动机。"
+   }
+  ],
+  "machine": {
+   "parts": [
+    {
+     "label": "动名词主语",
+     "value": "Floating in space"
+    },
+    {
+     "label": "系动词",
+     "value": "is"
+    },
+    {
+     "label": "表语",
+     "value": "an amazing experience"
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "question": "I look forward to ___ from you.",
+    "options": [
+     "hearing",
+     "hear",
+     "to hear",
+     "heard"
+    ],
+    "answer": 0,
+    "explain": "to 在这里是介词（look forward to），后面必须接动名词 hearing。"
+   },
+   {
+    "question": "Would you mind ___ the window? It is hot.",
+    "options": [
+     "opening",
+     "to open",
+     "open",
+     "opened"
+    ],
+    "answer": 0,
+    "explain": "mind 固定接 doing。"
+   },
+   {
+    "question": "___ up early is good for your health.",
+    "options": [
+     "Getting",
+     "To get",
+     "Get",
+     "Got"
+    ],
+    "answer": 0,
+    "explain": "句首作主语用动名词 Getting（表一般性习惯）。"
+   },
+   {
+    "question": "___ early is hard in winter.",
+    "options": [
+     "Getting up",
+     "Get up",
+     "To getting up",
+     "Got up"
+    ],
+    "answer": 0,
+    "explain": "动名词短语 Getting up 作主语，谓语 is 用单数。"
+   },
+   {
+    "question": "He is good at ___ problems quickly.",
+    "options": [
+     "solving",
+     "solve",
+     "solved",
+     "to solve"
+    ],
+    "answer": 0,
+    "explain": "介词 at 后必须用动名词：be good at solving。"
+   },
+   {
+    "question": "Thank you for ___ me the message in time.",
+    "options": [
+     "send",
+     "sending",
+     "sent",
+     "to send"
+    ],
+    "answer": 1,
+    "explain": "介词 for 后用动名词 sending。"
+   },
+   {
+    "question": "She avoided ___ about the accident.",
+    "options": [
+     "talked",
+     "to talk",
+     "talking",
+     "talk"
+    ],
+    "answer": 2,
+    "explain": "avoid 属于\"接动名词\"的动词：avoid doing sth。"
+   },
+   {
+    "question": "We're considering ___ to another city next year.",
+    "options": [
+     "moved",
+     "to move",
+     "move",
+     "moving"
+    ],
+    "answer": 3,
+    "explain": "consider 接动名词：consider moving，表示\"考虑做某事\"。"
+   },
+   {
+    "question": "Instead of ___ TV, he read a book every evening.",
+    "options": [
+     "watching",
+     "watched",
+     "watch",
+     "to watch"
+    ],
+    "answer": 0,
+    "explain": "instead of 是介词短语，of 后必须用动名词 watching。"
+   }
+  ]
+ },
+ {
+  "title": "现在分词与过去分词",
+  "category": "非谓语动词",
+  "formula": "doing（主动/进行）/ done（被动/完成）",
+  "explanation": "分词作定语或状语时，选 doing 还是 done 取决于它与被修饰词的关系：\"主动、进行\"用现在分词（the rising sun 正在升起的太阳）；\"被动、完成\"用过去分词（a launched satellite 已被发射的卫星）。一句话口诀：人 amusing、物 amused 不成立——英语用-ing 形容物（a boring book 令人无聊的书），用-ed 形容人（I am bored 我感到无聊）。",
+  "examples": [
+   {
+    "en": "Seen from space, the earth looks like a blue marble.",
+    "zh": "从太空看去，地球像一颗蓝色弹珠。"
+   },
+   {
+    "en": "The falling star lit up the sky.",
+    "zh": "那颗坠落的星星照亮了天空。"
+   }
+  ],
+  "machine": {
+   "parts": [
+    {
+     "label": "过去分词状语",
+     "value": "Seen from space"
+    },
+    {
+     "label": "主语",
+     "value": "the earth"
+    },
+    {
+     "label": "系动词",
+     "value": "looks"
+    },
+    {
+     "label": "表语",
+     "value": "like a blue marble"
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "question": "___ from the moon, the earth rises over the horizon.",
+    "options": [
+     "Seen",
+     "Seeing",
+     "To see",
+     "See"
+    ],
+    "answer": 0,
+    "explain": "地球是\"被看\"，分词逻辑主语与主句主语一致，用过去分词 Seen。"
+   },
+   {
+    "question": "The movie about black holes was really ___.",
+    "options": [
+     "exciting",
+     "excited",
+     "excite",
+     "excitedly"
+    ],
+    "answer": 0,
+    "explain": "修饰\"令人兴奋的事物\"用 -ing 形容词 exciting。"
+   },
+   {
+    "question": "The ___ audience stood up and cheered.",
+    "options": [
+     "excited",
+     "exciting",
+     "excite",
+     "excitement"
+    ],
+    "answer": 0,
+    "explain": "观众\"感到\"兴奋，修饰人用 -ed 形容词 excited。"
+   },
+   {
+    "question": "The children were ___ by the clown's tricks.",
+    "options": [
+     "amused",
+     "amusing",
+     "amusingly",
+     "amusement"
+    ],
+    "answer": 0,
+    "explain": "人\"被逗乐\"用过去分词 amused；amusing（令人发笑的）修饰事物。"
+   },
+   {
+    "question": "The ___ glass on the floor cut his finger.",
+    "options": [
+     "breaking",
+     "broken",
+     "break",
+     "broke"
+    ],
+    "answer": 1,
+    "explain": "玻璃是\"被打破的\"，过去分词 broken 作定语表被动完成。"
+   },
+   {
+    "question": "___ the bad news, she burst into tears.",
+    "options": [
+     "Heard",
+     "To hear",
+     "Hearing",
+     "Hear"
+    ],
+    "answer": 2,
+    "explain": "她主动\"听到\"消息，现在分词 Hearing 作原因状语，逻辑主语与主句一致。"
+   },
+   {
+    "question": "I had my bike ___ yesterday at the corner shop.",
+    "options": [
+     "repairs",
+     "repair",
+     "repairing",
+     "repaired"
+    ],
+    "answer": 3,
+    "explain": "have sth done：车是\"被修\"的，用过去分词 repaired 表被动。"
+   },
+   {
+    "question": "It was a ___ journey — everyone fell asleep on the way.",
+    "options": [
+     "tiring",
+     "tire",
+     "tiredly",
+     "tired"
+    ],
+    "answer": 0,
+    "explain": "旅程\"令人疲惫\"用 -ing 形容词 tiring 修饰物；tired 形容人\"感到疲惫\"。"
+   },
+   {
+    "question": "The coach's speech was so ___ that nobody dozed off.",
+    "options": [
+     "inspired",
+     "inspiring",
+     "inspire",
+     "inspiration"
+    ],
+    "answer": 1,
+    "explain": "演讲\"令人受鼓舞\"用 inspiring；inspired 形容人\"感到鼓舞\"。"
+   }
+  ]
+ },
+ {
+  "title": "虚拟语气",
+  "category": "虚拟语气",
+  "formula": "If + 过去式, would + 动词原形（与现在事实相反）",
+  "explanation": "表达\"不可能或与事实相反\"的假设。与现在事实相反：从句用过去式（be 一律用 were），主句用 would/could/might + 原形。与过去事实相反：从句用 had done，主句用 would have done。记住：if I were you 是固定说法，不说 was。",
+  "examples": [
+   {
+    "en": "If I were an astronaut, I would live on the space station.",
+    "zh": "如果我是宇航员，我就住在空间站上。"
+   },
+   {
+    "en": "If humans had better rockets, they would travel faster.",
+    "zh": "如果人类有更好的火箭，就能旅行得更快。"
+   }
+  ],
+  "machine": {
+   "parts": [
+    {
+     "label": "条件连词",
+     "value": "If"
+    },
+    {
+     "label": "从句主语",
+     "value": "I"
+    },
+    {
+     "label": "从句系动词（虚拟）",
+     "value": "were"
+    },
+    {
+     "label": "从句表语",
+     "value": "an astronaut"
+    },
+    {
+     "label": "主句谓语",
+     "value": "would live"
+    },
+    {
+     "label": "主句状语",
+     "value": "on the space station"
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "question": "If I ___ you, I would accept the offer.",
+    "options": [
+     "were",
+     "am",
+     "was",
+     "will be"
+    ],
+    "answer": 0,
+    "explain": "与现在事实相反的虚拟语气中，be 一律用 were。"
+   },
+   {
+    "question": "If he ___ the alarm, he would have missed the launch.",
+    "options": [
+     "had ignored",
+     "ignored",
+     "ignores",
+     "would ignore"
+    ],
+    "answer": 0,
+    "explain": "与过去事实相反：从句用 had + 过去分词。"
+   },
+   {
+    "question": "She would fly to Mars if she ___ enough money.",
+    "options": [
+     "had",
+     "has",
+     "would have",
+     "will have"
+    ],
+    "answer": 0,
+    "explain": "与现在事实相反：if 从句用过去式 had，主句用 would。"
+   },
+   {
+    "question": "If I ___ you, I would accept the offer.",
+    "options": [
+     "were",
+     "am",
+     "was being",
+     "would be"
+    ],
+    "answer": 0,
+    "explain": "与现在事实相反的虚拟：If I were you...（虚拟语气中 be 一律用 were）。"
+   },
+   {
+    "question": "If she had left earlier, she ___ the storm.",
+    "options": [
+     "would miss",
+     "will miss",
+     "would have missed",
+     "missed"
+    ],
+    "answer": 2,
+    "explain": "与过去事实相反：从句 had left，主句用 would have + 过去分词。"
+   },
+   {
+    "question": "I wish I ___ how to dance.",
+    "options": [
+     "will know",
+     "have known",
+     "know",
+     "knew"
+    ],
+    "answer": 3,
+    "explain": "wish 后的宾语从句用虚拟：与现在相反用过去式 knew。"
+   },
+   {
+    "question": "He talks as if he ___ everything about space.",
+    "options": [
+     "knew",
+     "has known",
+     "knows",
+     "know"
+    ],
+    "answer": 0,
+    "explain": "as if 表\"与事实相反的假设\"，从句用过去式 knew 虚拟。"
+   },
+   {
+    "question": "If it ___ for your help, we would have failed.",
+    "options": [
+     "wasn't",
+     "hadn't been",
+     "hasn't been",
+     "didn't be"
+    ],
+    "answer": 1,
+    "explain": "与过去相反的虚拟从句用 had + 过去分词：If it hadn't been for...（要不是…）。"
+   },
+   {
+    "question": "Without gravity, everything ___ off the ground.",
+    "options": [
+     "floats",
+     "floated",
+     "would float",
+     "will float"
+    ],
+    "answer": 2,
+    "explain": "without 引出隐含条件\"如果没有重力\"，与现在事实相反，主句用 would + 原形。"
+   }
+  ]
+ },
+ {
+  "title": "There be 句型",
+  "category": "特殊句型",
+  "formula": "There + be动词 + 名词（+ 地点/时间状语）",
+  "explanation": "表示\"某地/某时有某人某物\"。be 动词与它后面的名词保持数的一致：There is a star / There are two stars。时态可变：There was/will be/has been。否定在名词前加 no 或 not any。注意：There be 后不能再出现主语的同位重复（There is a man stands there ✗ → There is a man standing there）。",
+  "examples": [
+   {
+    "en": "There are billions of stars in our galaxy.",
+    "zh": "我们星系中有数十亿颗恒星。"
+   },
+   {
+    "en": "There is no air on the moon.",
+    "zh": "月球上没有空气。"
+   }
+  ],
+  "machine": {
+   "parts": [
+    {
+     "label": "引导词",
+     "value": "There"
+    },
+    {
+     "label": "be 动词",
+     "value": "are"
+    },
+    {
+     "label": "名词主语",
+     "value": "billions of stars"
+    },
+    {
+     "label": "地点状语",
+     "value": "in our galaxy"
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "question": "There ___ a rocket and two satellites on the launch pad.",
+    "options": [
+     "is",
+     "are",
+     "were",
+     "be"
+    ],
+    "answer": 0,
+    "explain": "There be 的就近原则：be 与最近的名词 a rocket 一致，用单数 is。"
+   },
+   {
+    "question": "There ___ many changes in space technology since 2000.",
+    "options": [
+     "have been",
+     "has been",
+     "was",
+     "will be"
+    ],
+    "answer": 0,
+    "explain": "since 2000 要求现在完成时，主语 changes 是复数：have been。"
+   },
+   {
+    "question": "___ a lot of changes in this city since 2010.",
+    "options": [
+     "There have been",
+     "There has",
+     "There are",
+     "There were being"
+    ],
+    "answer": 0,
+    "explain": "since 2010 与现在完成连用：there have been changes。"
+   },
+   {
+    "question": "There ___ two apples and an orange on the table.",
+    "options": [
+     "are",
+     "is",
+     "has",
+     "have"
+    ],
+    "answer": 0,
+    "explain": "there be 遵循就近原则：最近的名词 two apples 是复数 → are。"
+   },
+   {
+    "question": "There ___ a meeting in the main hall tomorrow afternoon.",
+    "options": [
+     "is going to have",
+     "has",
+     "will have",
+     "will be"
+    ],
+    "answer": 3,
+    "explain": "There be 的将来时是 there will be；不能说 there will have。"
+   },
+   {
+    "question": "There ___ any milk left in the fridge.",
+    "options": [
+     "isn't",
+     "hasn't",
+     "doesn't",
+     "aren't"
+    ],
+    "answer": 0,
+    "explain": "There be 否定：There isn't any milk（milk 不可数按单数），不用 has/have。"
+   },
+   {
+    "question": "There ___ a big tree here when I was a kid.",
+    "options": [
+     "were",
+     "was",
+     "has been",
+     "is"
+    ],
+    "answer": 1,
+    "explain": "过去某地有某物用 there was/were；a big tree 单数用 was。"
+   },
+   {
+    "question": "There ___ something wrong with my bike these days.",
+    "options": [
+     "seem to be",
+     "is seemed to be",
+     "seems to be",
+     "seems being"
+    ],
+    "answer": 2,
+    "explain": "There seems to be 表\"似乎有\"：seem 后接 to be，主语 something 单数加 s。"
+   },
+   {
+    "question": "There is little time left, ___?",
+    "options": [
+     "is it",
+     "isn't there",
+     "isn't it",
+     "is there"
+    ],
+    "answer": 3,
+    "explain": "反意疑问句遵循\"前否后肯\"：little 表否定，后半用肯定 is there。"
+   }
+  ]
+ },
+ {
+  "title": "祈使句与感叹句",
+  "category": "特殊句型",
+  "formula": "祈使句：动词原形开头 / 感叹句：What + 名词短语！How + 形容词/副词！",
+  "explanation": "祈使句以动词原形开头，主语 you 省略，表请求、命令、建议（否定：Don't + 动词原形）。感叹句两种框架：What + (a/an) + 形容词 + 名词（What a bright star!）；How + 形容词/副词（How fast it moves!）。注意 what 后接名词、how 后接形容词，别混。",
+  "examples": [
+   {
+    "en": "Don't touch the controls during the launch.",
+    "zh": "发射期间不要碰控制台。"
+   },
+   {
+    "en": "What a magnificent view of the galaxy!",
+    "zh": "多么壮丽的星系景象啊！"
+   }
+  ],
+  "machine": {
+   "parts": [
+    {
+     "label": "感叹词",
+     "value": "What"
+    },
+    {
+     "label": "冠词+形容词",
+     "value": "a magnificent"
+    },
+    {
+     "label": "名词",
+     "value": "view"
+    },
+    {
+     "label": "介词短语",
+     "value": "of the galaxy"
+    }
+   ]
+  },
+  "quiz": [
+   {
+    "question": "___ fast the rocket is climbing!",
+    "options": [
+     "How",
+     "What",
+     "What a",
+     "So"
+    ],
+    "answer": 0,
+    "explain": "感叹形容词 fast 用 How 引导。"
+   },
+   {
+    "question": "___ exciting news about the Mars mission!",
+    "options": [
+     "What",
+     "How",
+     "What a",
+     "How a"
+    ],
+    "answer": 0,
+    "explain": "news 是不可数名词，用 What + 形容词 + 名词，不加 a。"
+   },
+   {
+    "question": "___ forget to fasten your seat belt.",
+    "options": [
+     "Don't",
+     "Not",
+     "No",
+     "Doesn't"
+    ],
+    "answer": 0,
+    "explain": "祈使句的否定在动词原形前加 Don't。"
+   },
+   {
+    "question": "___ carefully before you cross the road!",
+    "options": [
+     "Look",
+     "To look",
+     "Looking",
+     "You look"
+    ],
+    "answer": 0,
+    "explain": "祈使句以动词原形开头，主语 you 省略。"
+   },
+   {
+    "question": "___ quiet in the reading room, please!",
+    "options": [
+     "Be",
+     "Is",
+     "Being",
+     "To be"
+    ],
+    "answer": 0,
+    "explain": "祈使句以动词原形开头：Be quiet!（系动词祈使也用原形 be）。"
+   },
+   {
+    "question": "___ a lovely baby she has!",
+    "options": [
+     "How",
+     "What a",
+     "So",
+     "What"
+    ],
+    "answer": 1,
+    "explain": "感叹可数名词单数用 What a + 形容词 + 名词：What a lovely baby!"
+   },
+   {
+    "question": "___ time flies!",
+    "options": [
+     "What a",
+     "So",
+     "How",
+     "What"
+    ],
+    "answer": 2,
+    "explain": "How + 主谓 结构感叹动词/副词快慢：How time flies!（时光飞逝）。"
+   },
+   {
+    "question": "Let's not ___ about it anymore.",
+    "options": [
+     "talked",
+     "to talk",
+     "talking",
+     "talk"
+    ],
+    "answer": 3,
+    "explain": "Let's + 动词原形；否定 Let's not + 动词原形 talk。"
+   },
+   {
+    "question": "___ an interesting story it is!",
+    "options": [
+     "What an",
+     "What",
+     "How an",
+     "How"
+    ],
+    "answer": 0,
+    "explain": "story 是可数名词单数且 interesting 以元音开头：What an interesting story!"
+   }
+  ]
+ }
+]

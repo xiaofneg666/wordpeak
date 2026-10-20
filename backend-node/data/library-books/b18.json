@@ -1,0 +1,610 @@
+{
+  "id": "lib-light-lecture",
+  "title": "光线讲义",
+  "en_title": "A Lecture on Light",
+  "author": "WordVerse Archive",
+  "region": "science",
+  "level": 3,
+  "one_line": "一份可以亲眼验证的光学讲义：影子、镜子、棱镜与人眼。",
+  "word_focus": [
+    "cept",
+    "flect"
+  ],
+  "chapters": [
+    {
+      "no": 1,
+      "title": "影子与直线",
+      "sentences": [
+        {
+          "en": "A proper lecture on light should begin in the dark, because darkness was humanity's first laboratory; in a cave, with the last fire dying, our ancestors noticed that a hand placed before a flame threw a sharp-edged copy of itself upon the stone wall.",
+          "zh": "一份正经的光学讲义应当从黑暗开始，因为黑暗是人类的第一间实验室；在洞穴里，当最后一堆火渐渐熄灭时，我们的祖先注意到，一只手挡在火焰之前，会在石壁上投出一个边缘清晰的自身影像。"
+        },
+        {
+          "en": "The earliest students of light noticed the simplest of facts: a shadow always has sharp edges, and sharp edges mean that light travels in straight lines, a truth so plain that children confirm it every afternoon with nothing but their own fingers and the sun.",
+          "zh": "光的最早研究者注意到一个最简单的事实：影子总有清晰的边缘，而清晰的边缘意味着光沿直线传播——这个道理如此浅白，孩子们每个下午都能用自己的手指和太阳加以验证。"
+        },
+        {
+          "en": "Around 300 BC, the Greek geometers formalized this observation into exact theorems, giving the study of light the vocabulary of geometry; from that moment on, every question about rays could be answered with a ruler, a compass, and the patient rules of proportion.",
+          "zh": "公元前300年前后，希腊几何学家把这个观察整理成精确的定理，让光学从此继承了几何学的词汇；从那一刻起，关于光线的每个问题都能用一把直尺、一只圆规和耐心的比例法则来回答。"
+        },
+        {
+          "en": "Euclid treated rays exactly like the lines of geometry, and optics was born as a daughter of mathematics; legend says he instructed a doubtful king with the famous words that there is no royal road to geometry, and the king, like every student after him, had to walk it.",
+          "zh": "欧几里得把光线当作几何里的直线来处理，光学于是作为数学的女儿诞生了；传说他曾用那句名言教导一位心存怀疑的国王——通往几何没有皇家大道——而这位国王，和他之后的所有学生一样，只能一步一步走下去。"
+        },
+        {
+          "en": "When a wall obstructs the sun's rays, the region behind it receives none — no ray, however eager, is granted an exception — and a shadow is the visible record of that simple arithmetic; nothing mysterious hides in the darkness of a shadow, which is merely the place where the straight lines of light were not permitted to land.",
+          "zh": "当一堵墙挡住阳光，墙后的区域便什么都收不到——无论多么急切的光线都不曾获准例外——影子就是这份简单算术的可见记录；影子的黑暗里没有藏着任何神秘，它不过是那些不被允许落下的光线原本要占据的地方。"
+        },
+        {
+          "en": "Straightness also explains why eclipses can be predicted, for they are shadows doing arithmetic on a cosmic scale; a Babylonian priest could warn his king, “The moon will be swallowed tomorrow at the third hour,” and the prediction always came true, because geometry never lies about where a thrown shadow will fall.",
+          "zh": "直线性还解释了日食为何可以推算，因为蚀影是影子在宇宙尺度上做的算术；一位巴比伦祭司可以警告他的国王：“明夜第三个时辰月亮将被吞掉”，而这预言总会应验，因为几何从不说谎，从不说错一道投下的影子会落在哪里。"
+        },
+        {
+          "en": "The camera obscura, a dark room constructed with one small hole, showed that light keeps its geometry even through a narrow gap; a traveler in Cairo called the experience standing inside an eye, with the busy street painted upside down upon the wall.",
+          "zh": "暗箱——一间只开一个小孔的暗室——证明光穿过窄缝时仍保持它的几何；开罗的一位旅行者把这种体验称作“站进一只眼睛里”，喧闹的街道被倒着画在对面的墙上。"
+        },
+        {
+          "en": "On the wall of such a room, an inverted image occupies exactly the space where light is permitted to land, and the structure of that image is so faithful that observers could count the buttons on a passerby's coat; the world had accidentally built a machine for copying reality.",
+          "zh": "在这样一间屋子的墙上，一幅倒立的影像恰好占据光被允许落下的那片地方，影像的结构忠实到观者能数清过路人外套上的纽扣；世界就这样无意间造出了一台复制现实的机器。"
+        },
+        {
+          "en": "Artists later used the darkened room to trace scenes, accepting its upside-down world as the honest price of geometry; one Venetian painter reportedly told his apprentice, “Draw what the hole gives you, not what you remember,” and the apprentice learned that memory bends a line while the hole never does.",
+          "zh": "画家们后来利用暗房描摹实景，把这颠倒的世界接受为几何诚实的代价；据说一位威尼斯画家曾对徒弟说：“洞给你什么就画什么，别画你记得的”，徒弟由此懂得，记忆会弄弯一条线，而小孔永远不会。"
+        },
+        {
+          "en": "Astronomers perceived a quieter lesson in all this: carefully done geometry could describe a sky nobody could touch, and an instrument as cheap as a stick and its shadow was enough to measure the height of a pyramid, the depth of a well, and eventually the distance to the moon.",
+          "zh": "天文学家从这一切中察觉到一个安静的启示：认真做的几何竟能描绘没人摸得着的天空；一根木棍加它的影子这样便宜的仪器，就足以丈量金字塔的高度、一口井的深度，乃至最终到月亮的距离。"
+        },
+        {
+          "en": "Early opticians liked to say that no eye could deceive you about where an edge falls, if the line was drawn correctly; they trusted the shadow because a shadow is honest, and they trusted the straight line because its predictions survive every test without suffering destruction by any rival theory.",
+          "zh": "早期的光学研究者常说，只要线画得对，任何眼睛都无法欺骗你边缘落在哪里；他们信任影子，因为影子诚实；他们信任直线，因为它的预言经得起每一次检验，从未被任何对手理论毁掉。"
+        },
+        {
+          "en": "Nor was light's gift only for the eyes, for every patch of sunlight carries thermal warmth that a bare cheek can feel; ancient builders understood this well enough to construct houses with windows facing the winter sun, letting straight rays warm a room in one afternoon.",
+          "zh": "光的馈赠也不只给眼睛，因为每一片阳光都携带着脸颊能感觉到的热；古代的建造者深谙此道，他们造房子时让窗户朝向冬天的太阳，让直进的射线用一个下午就暖起一间屋子。"
+        },
+        {
+          "en": "From shadows, humanity received its first scientific instrument: the straight line, free to anyone with a wall and the morning sun; no laboratory was ever needed, no royal permission, no expensive glass — only the patience to watch where the light stopped and the honesty to write it down.",
+          "zh": "人类从影子那里收到了第一件科学仪器：直线——凡有一堵墙和一轮晨光的人都能免费使用；不需要实验室，不需要御准，不需要昂贵的玻璃，只需要耐心看光在哪里停下，并诚实地把它记下来。"
+        },
+        {
+          "en": "Every later chapter of this lecture — reflection, bending, color, and finally the human eye — will lean on that first straight-line concept, because however far the argument climbs, it stands on the plain observation that a shadow's edge is sharp, and that sharpness is the signature of straightness.",
+          "zh": "本讲义后面的每一章——反射、弯折、颜色，直到人眼本身——都倚靠着这个最初的直线概念，因为无论论证攀得多高，它都立在那个朴素的观察之上：影子边缘锐利，而锐利正是直线的签名。"
+        }
+      ],
+      "questions": [
+        {
+          "q": "What does the sharp edge of a shadow prove?",
+          "options": [
+            "That light travels in straight lines.",
+            "That light can bend around corners.",
+            "That shadows are alive.",
+            "That the sun moves irregularly."
+          ],
+          "answer": 0,
+          "explain": "第2句 “sharp edges mean that light travels in straight lines”，影子边缘锐利正是光沿直线传播的证据。"
+        },
+        {
+          "q": "What is a camera obscura, according to the chapter?",
+          "options": [
+            "A polished metal mirror.",
+            "A sealed box for storing paintings.",
+            "A dark room constructed with one small hole.",
+            "A lens ground in northern Italy."
+          ],
+          "answer": 2,
+          "explain": "第7句 “a dark room constructed with one small hole”，暗箱就是只开一个小孔的暗室，光穿过后在对面墙上投出倒立影像。"
+        },
+        {
+          "q": "What does the author call humanity's first scientific instrument?",
+          "options": [
+            "The telescope.",
+            "The pocket mirror.",
+            "The camera obscura.",
+            "The straight line, free to anyone with a wall and the morning sun."
+          ],
+          "answer": 3,
+          "explain": "第13句 “humanity received its first scientific instrument: the straight line”，直线是人人可免费取用的第一件科学仪器。"
+        },
+        {
+          "q": "Why did the Babylonian priest's eclipse predictions always come true?",
+          "options": [
+            "Because the priests had secret telescopes.",
+            "Because geometry never lies about where a thrown shadow will fall.",
+            "Because the moon changes its path to match prophecy.",
+            "Because eclipses happen at random times."
+          ],
+          "answer": 1,
+          "explain": "第6句 “because geometry never lies about where a thrown shadow will fall”，可推断蚀影遵循可推算的几何规律，所以预言必然应验。"
+        },
+        {
+          "q": "The word “geometry” contains the root geo. What does this root mean?",
+          "options": [
+            "Light.",
+            "Earth — geometry began as the art of measuring land.",
+            "Shadow.",
+            "Glass."
+          ],
+          "answer": 1,
+          "explain": "第4句 “Euclid treated rays exactly like the lines of geometry”，词根 geo 意为“大地”，几何学最初就是丈量土地的学问。"
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "title": "反射之镜",
+      "sentences": [
+        {
+          "en": "The oldest law in optics says that the angle at which light strikes a mirror equals the angle at which it leaves, a rule so exact that it has survived twenty centuries of testing; every mirror in the world obeys it, from a king's silvered glass to a puddle on the road.",
+          "zh": "光学里最古老的一条定律说：光射向镜子的角度，等于它离开的角度；这条规则精确到经得起二十个世纪的检验，世上每一面镜子都服从它，从国王的镀银玻璃到路面上的一个水洼。"
+        },
+        {
+          "en": "Hero of Alexandria proved the law with plain geometry in the first century, and no experiment has broken it since; he instructed his students to test it themselves with any polished surface they liked, insisting that a truth this simple belonged to everyone, not only to philosophers with libraries.",
+          "zh": "公元一世纪，亚历山大里亚的希罗用朴素的几何证明了这条定律，此后没有任何实验推翻它；他要学生们用自己喜欢的任何抛光表面亲自检验，坚持说这样简单的真理属于所有人，而不仅仅属于坐拥藏书楼的哲人。"
+        },
+        {
+          "en": "With a pin and a small plane mirror, a patient student can reconstruct Hero's proof on a kitchen table: mark where the pin's image appears to sit, swap the mirror's position, and geometry will quietly confirm that both angles agree to the width of a fingernail.",
+          "zh": "用一枚大头针和一小块平面镜，耐心的学生就能在厨房桌上重演希罗的证明：标出针像所在的位置，再挪动镜面，几何会悄悄向你证实，两个角度的吻合可以精确到一枚指甲的宽度。"
+        },
+        {
+          "en": "Long before glass, craftsmen constructed mirrors from disks of polished bronze and copper, rubbing the metal for days until a face floated up out of the darkness; the Egyptians, the Romans, and the Chinese all left such mirrors in graves, as if a reflection were worth carrying into the next world.",
+          "zh": "在玻璃出现之前很久，工匠们就用抛光的青铜和铜盘来制作镜子，把金属连日打磨，直到一张脸从暗色里浮上来；埃及人、罗马人和中国人都曾把这样的镜子放进坟墓，仿佛一件映像值得带往来世。"
+        },
+        {
+          "en": "The moon is the mirror we all share: it makes no light of its own, only returning what it receives, and on a clear night its borrowed brightness is enough to walk by, though it carries almost no thermal warmth, which is why moonlight feels beautiful but never warms a cold hand.",
+          "zh": "月亮是我们共享的那面镜子：它自己不发光，只是把收到的东西送回来；晴夜里它借来的光亮足以照人走路，却几乎不带一丝热，所以月光显得很美，却永远暖不热一只寒冷的手。"
+        },
+        {
+          "en": "The lunar surface reflects only about twelve percent of arriving sunlight, yet that little is enough to read by; an astronaut standing on the moon would notice that the ground beneath his boots behaved like pale dust rather than glass, and the numbers confirmed what any shepherd already knew from the gentle light.",
+          "zh": "月球表面只反射约百分之十二的到达阳光，但那一点点已足够供人读书；站在月球上的宇航员会发现脚下的地面更像浅色的尘土而非玻璃，而这些数字也证实了任何牧羊人从那温柔光亮里早已知道的事。"
+        },
+        {
+          "en": "Calm water does the same work for free, laying a second, trembling sky beneath the trees; fishermen have watched herons mistake a reflected fish for a real one, and each confusion is proof that the law of reflection is obeyed as faithfully by a lake as by the costliest laboratory instrument.",
+          "zh": "平静的水面免费做着同样的工作，在树影之下铺开第二片微微颤抖的天空；渔夫见过鹭鸟把水里的倒影错当真鱼，每一次这样的小误会都证明，一面湖对反射定律的服从，不亚于实验室里最昂贵的仪器。"
+        },
+        {
+          "en": "A smooth surface gives a clear image because every ray obeys the same rule, while a rough wall scatters light into fog; in microscopic structure every bump obstructs some rays and throws them in new directions, so polished metal shows a face but concrete shows only a pale glow.",
+          "zh": "光滑的表面能给出清晰的像，因为每条光线遵守同一条规则；而粗糙的墙会把光散成一片雾——在微观结构里，每一个凸起都会挡住一部分光线并抛向新的方向，所以抛光金属照得出脸，混凝土只照出一片灰白微光。"
+        },
+        {
+          "en": "Reflection also turned inward on language: we say a thoughtful person reflects, turning ideas over as a mirror turns light, and in that borrowed word lies a whole philosophy, for to think well is to send a question out into the dark and wait patiently for what comes back changed.",
+          "zh": "“反射”这个词也向语言内部转折：我们说深思的人在 reflect，像镜子翻转光那样翻转想法；这个借来的词里藏着一整套哲学，因为好好思考，就是把一个问题送进黑暗，再耐心等待它带着改变归来。"
+        },
+        {
+          "en": "The reflex is the body's own reflecting mirror, an answer wired in before thought can participate; a hand pulls away from a hot stove long before the brain could reconstruct a sentence about danger, because in an emergency the body cannot afford the slow luxury of thinking.",
+          "zh": "本能反射是身体自带的镜子，一个在思考来得及参与之前就接好的答案；手从滚烫的炉边缩回，远早于大脑能重构出一句关于危险的话，因为在紧急关头，身体负担不起思考这种缓慢的奢侈。"
+        },
+        {
+          "en": "Not every shiny surface is honest, for a bent or deceptive curve can stretch your face into a stranger; a scratch across the glass causes a local destruction of the image, and the famous mirrors of amusement halls prove that a surface built to amuse can also be built to mislead.",
+          "zh": "并非每个发亮的表面都诚实，一条弯曲而具欺骗性的弧线能把你的脸拉成一个陌生人；玻璃上一道划痕会造成影像的局部毁坏，而游乐场里著名的哈哈镜证明，为逗乐而造的表面同样可以为误导而造。"
+        },
+        {
+          "en": "Seeing yourself as others see you remains impossible; the mirror, our one exception, still reverses left and right, and when a barber once asked why his reflection parted its hair on the wrong side, an old customer laughed that the mirror is honest about direction but silent about identity.",
+          "zh": "像别人看你那样看自己，仍然不可能；镜子是唯一的例外，可它连左右都反了。一位理发师曾问，为什么镜子里的像把头发分到了错误的一边，一位老顾客笑着说：镜子对方向很诚实，对身份却保持沉默。"
+        },
+        {
+          "en": "Keep a pocket mirror handy, for this chapter asks you to verify every claim with your own eyes; a concept you have tested yourself is yours forever, and a mirror is the cheapest scientific instrument most people will ever own, and unlike a telescope or a microscope, it waits for you in every handbag, every bathroom, and every quiet puddle after rain.",
+          "zh": "请随身带一面小镜子，本章要求你用自己的眼睛验证每一个论断；自己亲手验证过的概念将永远属于你，而镜子是大多数人能拥有的最便宜的科学仪器，而且不像望远镜或显微镜，它在每个手袋、每间浴室、每场雨后的安静水洼里等你。"
+        },
+        {
+          "en": "A reflection, finally, is light telling the truth about its own direction; the angle that comes in is the angle that goes out, and this stubborn fairness is the reason engineers trust mirrors inside telescopes, periscopes, and lighthouses, where a wrong angle would send ships onto the rocks.",
+          "zh": "说到底，倒影是光在陈述自己方向的真相：进来的角度就是出去的角度，这种固执的公正是工程师敢把镜子装进望远镜、潜望镜和灯塔的原因——在那里，一个错误的角度会把船送上礁石。"
+        }
+      ],
+      "questions": [
+        {
+          "q": "What does the oldest law in optics say about a mirror?",
+          "options": [
+            "The angle of arrival equals the angle of departure.",
+            "Light stops at the surface.",
+            "The angle doubles after reflection.",
+            "Every mirror reverses up and down."
+          ],
+          "answer": 0,
+          "explain": "第1句 “the angle at which light strikes a mirror equals the angle at which it leaves”，入射角等于反射角。"
+        },
+        {
+          "q": "About how much arriving sunlight does the lunar surface reflect?",
+          "options": [
+            "Nearly all of it.",
+            "About half.",
+            "About twelve percent.",
+            "Nothing at night."
+          ],
+          "answer": 2,
+          "explain": "第6句 “The lunar surface reflects only about twelve percent of arriving sunlight”，月球表面只反射约百分之十二的阳光。"
+        },
+        {
+          "q": "Why does a smooth mirror give a clear image while a rough wall does not?",
+          "options": [
+            "Because polished metal is darker in color.",
+            "Because mirrors are made of silver.",
+            "Because every ray obeys the same rule on a smooth surface, while every bump on a rough wall obstructs some rays and throws them in new directions.",
+            "Because rough walls absorb all colors."
+          ],
+          "answer": 2,
+          "explain": "第8句 “every bump obstructs some rays and throws them in new directions”，光滑面上每条光线遵守同一规则，粗糙面的凸起则把光线散向四面八方。"
+        },
+        {
+          "q": "What does the burial of bronze mirrors in graves suggest about how ancient people viewed reflections?",
+          "options": [
+            "That mirrors were worthless to them.",
+            "That a reflection was thought worth carrying into the next world.",
+            "That mirrors were used only by priests.",
+            "That bronze was cheaper than glass."
+          ],
+          "answer": 1,
+          "explain": "第4句 “as if a reflection were worth carrying into the next world”，可推断古人珍视映像，视其为来世也需要的物件。"
+        },
+        {
+          "q": "In the word “destruction”, what does the root struct mean?",
+          "options": [
+            "To shine.",
+            "Heat.",
+            "To build — destruction is the un-building of something.",
+            "An image."
+          ],
+          "answer": 2,
+          "explain": "第11句 “a scratch across the glass causes a local destruction of the image”，词根 struct 意为“建造”，destruction 即“毁掉已建造之物”。"
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "title": "弯折的玻璃",
+      "sentences": [
+        {
+          "en": "Light does not always travel straight; when it crosses from air into water, it bends at the boundary, and the bend is so obedient to law that a fisherman who aims his spear at a visible trout will always strike too low, because the eye reports the fish where it is not.",
+          "zh": "光并非永远走直线：当它从空气进入水中，会在边界处弯折；这种弯折对定律服从到如此地步，以至于渔夫把鱼叉对准看到的鳟鱼时，总会扎得太低，因为眼睛报告的鱼的位置，并不是它真正的位置。"
+        },
+        {
+          "en": "The bending is called refraction, and a spoon in a glass of water displays it at every breakfast table; the handle appears broken at the surface, yet nothing is broken at all, and the apparent destruction of the spoon is only an honest report of bent light arriving in the eye.",
+          "zh": "这种弯折叫折射，一杯水里的一把勺子在每张早餐桌上都演示着它；勺柄在水面处像是断了，其实什么也没断，勺子表面上的“毁坏”不过是折弯的光进入眼睛后的一份诚实报告。"
+        },
+        {
+          "en": "The beam deflects toward the slow side, much as a marching band turns when one flank hits a muddy field; the analogy delighted the scientists who first taught it, and it still instructs beginners today, because the mind perceives the whole rule at once in the turning band, and feels a truth that the eye can only watch.",
+          "zh": "光束向较慢的一侧偏转，很像行进中的乐队有一翼踩进泥地时的转弯；这个类比让最早讲它的科学家们大为欣喜，它至今仍在给初学者上课，因为头脑能从转弯的队列里一眼察觉整条规则，摸到一条眼睛只能旁观的原则。"
+        },
+        {
+          "en": "Grind glass into the right curve and the deflection can be aimed: parallel rays are focused to a single point, and the geometry of that curve can be calculated as exactly as the orbit of a planet, which is why lens-making became half craft and half mathematics.",
+          "zh": "把玻璃磨出合适的曲面，偏转就可以被瞄准：平行光线被汇聚到一点，而这条曲面的几何可以像行星轨道一样被精确计算，这就是磨镜术之所以一半是手艺、一半是数学的原因。"
+        },
+        {
+          "en": "A strong lens can also focus the sun into a spot of thermal heat fierce enough to light a fire, a trick known to the ancients; the light is unchanged in nature, merely gathered, yet concentrated it can light a fire or, in old stories, burn the sails of a fleet.",
+          "zh": "一块够强的透镜还能把太阳聚成一个灼热的光斑，烈得足以生火，这个把戏古人早就会；光的本性没有改变，只是被聚集起来，却就能点燃火绒，或者在老故事里烧掉一支舰队的帆。"
+        },
+        {
+          "en": "That humble trick, performed by a shaped piece of glass, is the entire concept behind the lens, and every lens since — from reading glasses to camera phones — is a constructed descendant of that first curved surface, ground by patient hands long before machines existed to do the work.",
+          "zh": "这个不起眼的把戏——一块有形状的玻璃——就是透镜背后的全部概念；此后的每一枚透镜，从老花镜到手机摄像头，都是那第一块曲面的建造出来的后裔，由机器出现之前无数耐心的手磨出来。"
+        },
+        {
+          "en": "Around 1290, craftsmen in northern Italy mounted such lenses in frames, and eyeglasses were born; a monk who had squinted at manuscripts for forty years could suddenly read again, and he wrote with astonishment that the little glass was worth more to him than a horse.",
+          "zh": "1290年前后，意大利北部的工匠把这样的透镜装进框里，眼镜诞生了；一位对着手稿眯眼四十年的修士忽然又能读书了，他带着惊奇写道，这枚小小的玻璃对他比一匹马还值钱。"
+        },
+        {
+          "en": "For the first time, aging scholars did not have to accept failing sight as the end of their reading lives; a Venetian guild soon regulated the making of spectacles, and masters instructed their apprentices in secret methods of grinding, passing on instruction that a family guarded as jealously as gold.",
+          "zh": "年迈的学者第一次不必把衰退的视力接受为阅读生涯的终点；威尼斯的行会很快管起眼镜的制作，师傅们把研磨的秘法传授给徒弟，这种传授被各个家族像金子一样严密看守。"
+        },
+        {
+          "en": "When printing arrived a century and a half later, a spectacle-wearing public was ready to receive it; the two inventions locked together like gears, for cheap books demanded reading eyes, and reading eyes demanded cheap lenses, and together they restructured the intellectual life of Europe.",
+          "zh": "一个半世纪后印刷术到来时，一个鼻梁上架着眼镜的公众已经准备好接收它；两项发明像齿轮一样咬合，因为便宜的书需要阅读的眼睛，阅读的眼睛需要便宜的镜片，二者一起重塑了欧洲的智识生活。"
+        },
+        {
+          "en": "Some suspected the new lenses were deceptive instruments that distorted the world; preachers warned that seeing through glass was seeing through a lie, and one old senator reportedly asked whether a tool that changed his vision might also change his memory, his judgment, and his soul.",
+          "zh": "有人怀疑新透镜是歪曲世界的欺骗性工具；传道士警告说，隔着玻璃看就是隔着谎言看，据说一位老参议员问过，一件改变了他视力的工具，会不会也改变他的记忆、他的判断和他的灵魂。"
+        },
+        {
+          "en": "Galileo later turned a better lens toward the sky, and the heavens were drawn into focus for the first time; with an instrument no longer than a child's arm, he saw the moons of Jupiter, and he understood at once that the old structure of the universe would have to be rebuilt.",
+          "zh": "伽利略后来把更好的透镜转向天空，天体第一次被拉进了焦点；用一件不比孩童手臂长的仪器，他看见了木星的卫星，并立刻明白宇宙的旧结构必须重建。"
+        },
+        {
+          "en": "The eye itself, we came to understand, is a lens of flesh, flexible and self-adjusting, older than any glass; its internal structure adjusts its curve thousands of times a day without any conscious order, doing quietly and for free what the finest watchmaker's mechanism could never do at all.",
+          "zh": "我们后来明白，眼睛本身就是一枚肉做的透镜——柔韧、自动调焦，比任何玻璃都古老；它的内部结构每天上千次地调整曲率，不需要任何有意识的指令，就安静而免费地完成了最好的钟表匠的机械根本做不到的事。"
+        },
+        {
+          "en": "A rainbow in a garden hose is the same law at play, each droplet bending sunlight by its own measure, so that an ordinary spray on an ordinary afternoon quietly reconstructs the full arc of colors; the garden becomes a laboratory, and the child holding the hose becomes a natural philosopher.",
+          "zh": "花园水管里的小彩虹是同一条定律在上演：每颗水滴按自己的分寸弯折阳光，于是一个普通的午后、一蓬普通的水雾，就悄悄重建出完整的彩色弧带；花园成了实验室，握着水管的孩子成了一位自然哲学家。"
+        },
+        {
+          "en": "Refraction is thus light persuaded rather than light stopped, the flexible middle path between shadow and mirror; where a wall obstructs and a mirror commands, water and glass merely negotiate, bending each ray gently on its way and returning it to the world slightly changed.",
+          "zh": "折射因此是被说服的光，而非被挡住的光——影子与镜子之间那条柔韧的中间道路；墙负责阻拦，镜子负责发令，而水与玻璃只负责协商，把每条射线在途中轻轻弯折，再把稍加改变的它送回世界。"
+        }
+      ],
+      "questions": [
+        {
+          "q": "Why does a fisherman aiming at a visible trout always strike too low?",
+          "options": [
+            "Because the fish moves faster than the spear.",
+            "Because water pushes the spear upward.",
+            "Because the eye reports the fish where it is not.",
+            "Because trout are nearly transparent."
+          ],
+          "answer": 2,
+          "explain": "第1句 “the eye reports the fish where it is not”，折射让眼睛看到的位置偏离鱼的真实位置，所以总是扎得太低。"
+        },
+        {
+          "q": "What happened around 1290 in northern Italy?",
+          "options": [
+            "Newton ran his prism experiment.",
+            "Galileo built his telescope.",
+            "Herschel discovered infrared.",
+            "Craftsmen mounted such lenses in frames, and eyeglasses were born."
+          ],
+          "answer": 3,
+          "explain": "第7句 “craftsmen in northern Italy mounted such lenses in frames, and eyeglasses were born”，1290年前后眼镜在意大利北部诞生。"
+        },
+        {
+          "q": "What did Galileo achieve with his better lens?",
+          "options": [
+            "It measured the speed of light.",
+            "It measured heat from the stars.",
+            "With it he saw the moons of Jupiter.",
+            "It corrected nearsightedness."
+          ],
+          "answer": 2,
+          "explain": "第11句 “he saw the moons of Jupiter”，伽利略用这件不比孩童手臂长的仪器看见了木星的卫星。"
+        },
+        {
+          "q": "What does the author mean by saying printing and spectacles locked together like gears?",
+          "options": [
+            "They were invented by the same man.",
+            "They competed until one destroyed the other.",
+            "Glassmakers forbade the printing of books.",
+            "Cheap books needed reading eyes, and reading eyes needed cheap lenses."
+          ],
+          "answer": 3,
+          "explain": "第9句 “cheap books demanded reading eyes, and reading eyes demanded cheap lenses”，可推断两项发明互相成就、共同重塑了欧洲的智识生活。"
+        },
+        {
+          "q": "In the phrase “thermal heat”, what does the root therm mean?",
+          "options": [
+            "Earth.",
+            "Heat.",
+            "To bend.",
+            "Light."
+          ],
+          "answer": 1,
+          "explain": "第5句 “a spot of thermal heat fierce enough to light a fire”，词根 therm 意为“热”，如 thermometer（温度计）。"
+        }
+      ]
+    },
+    {
+      "no": 4,
+      "title": "棱镜里的白光",
+      "sentences": [
+        {
+          "en": "In the plague year of 1666, while sickness worked its destruction through the streets of London, Isaac Newton went home to the countryside, darkened his room, and admitted a single beam of sunlight through a hole in the shutter, an experiment a child could copy with a knife and a board.",
+          "zh": "1666年瘟疫之年，当疾病在伦敦街头施展它的毁坏时，艾萨克·牛顿回到乡下的家中，把房间遮暗，只让一束阳光通过百叶窗上的小孔进来——一个孩子用一把小刀一块木板就能复制的实验。"
+        },
+        {
+          "en": "A triangular prism intercepted the beam, and on the far wall the light spread into a band of colors arranged with the orderliness of a painted fan; Newton sat in the half dark and stared at it, a young man watching a small rainbow that would overturn a very old idea.",
+          "zh": "一块三棱镜拦截了这束光，在远处的墙上，光摊开成一条排列得像画好的折扇一样的彩色带；牛顿坐在半暗中凝视着它，一个年轻人望着一道小小的彩虹，而它将推翻一个非常古老的想法。"
+        },
+        {
+          "en": "The received wisdom said the glass stained the light, tinting plain white with rainbows; Newton suspected otherwise, and he later wrote that a man of science must trust the experiment over the textbook, because the textbook is only the memory of older experiments, written down by people who never repeated them.",
+          "zh": "当时被接受的常识说，是玻璃给光染了色，把素白染成彩虹；牛顿起了疑心，他后来写道，科学之人必须相信实验胜过教科书，因为教科书不过是更早实验的记忆，由从未重复过它们的人写下来。"
+        },
+        {
+          "en": "He placed a second prism in the path, and the dispersed colors recombined into white light again; in modern language, the second prism reconstructed what the first had unfolded, proving that the colors were already inside the white, waiting like folded cloth inside a suitcase.",
+          "zh": "他在光路上放了第二块棱镜，被散开的颜色重新组合成了白光；用今天的语言说，第二块棱镜重建了第一块所展开的东西，证明那些颜色本来就藏在白色之中，像叠好的衣服藏进行李箱。"
+        },
+        {
+          "en": "White light, he concluded, was never simple: the spectrum was already inside it, hidden and waiting, and the discovery revealed a structure within light itself, an inner architecture that no eye had ever suspected, simply because no eye had ever been given the right instrument for looking.",
+          "zh": "他得出结论：白光从来不简单——光谱早已在它体内，藏着，等着；这一发现揭示了光自身内部的结构，一种没有任何眼睛曾怀疑过的内在建筑，只因为从没有眼睛得到过用来观看它的合适仪器。"
+        },
+        {
+          "en": "The colors we perceive are not decorations painted onto light; they are light itself, sorted by how strongly each ray bends, and the sorting is so exact that two different colors never swap places, no matter how many times the experiment is performed.",
+          "zh": "我们感知到的颜色不是涂在光上的装饰；它们就是光本身，按每一束光弯折的强弱被分拣，这种分拣精确到两种不同的颜色绝不会交换位置，无论这实验被重复多少次。"
+        },
+        {
+          "en": "Red deflects least and violet most, which is why a rainbow always arranges itself in the same order, from the outer red to the inner violet; the rules of geometry govern this quiet parade, for each color bends by an angle that can be measured, predicted, and written on paper.",
+          "zh": "红光偏转最少，紫光最多，这就是彩虹总以同一顺序排列的原因，从外圈的红到内圈的紫；几何的法则统帅着这场安静的游行，因为每种颜色偏转的角度都可以被测量、被预言、被写在纸上。"
+        },
+        {
+          "en": "Newton counted seven colors in the band, insisting on indigo to match the seven notes of the musical scale; a modern student, instructed to look with fresh eyes, usually finds six, and the gentle disagreement is a famous reminder that even the greatest observers carry their habits into the laboratory with them.",
+          "zh": "牛顿在光带里数出七种颜色，坚持算上靛蓝，以对应音阶上的七个音符；如今被要求用新鲜眼光去看的学生通常只找到六种，这场温和的分歧是著名的提醒：再伟大的观察者也会把自己的习惯带进实验室。"
+        },
+        {
+          "en": "A red apple absorbs most of the spectrum and reflects back only the part we name red; the apple is not a lamp, and its redness is a decision made by its skin, which spends the whole day silently destroying every color it dislikes and returning the one it keeps.",
+          "zh": "一只红苹果吸收光谱的绝大部分，只把我们叫做“红色”的那部分反射回来；苹果不是灯，它的红是果皮做出的决定——它整天沉默地销毁自己不喜欢的每种颜色，只送回它留下的那一种。"
+        },
+        {
+          "en": "The concept was not accepted at once, for scholars had long believed color lived in things rather than in light; in their picture of the world, the sky was blue the way a stone is heavy, and to move color into the light itself was to reconstruct the whole arrangement of nature.",
+          "zh": "这个概念没有被立刻接受，因为学者们长期相信颜色属于事物，而不属于光；在他们的世界图景里，天空是蓝的，就像石头是重的一样，而把颜色移进光本身，就等于重构整个自然的秩序。"
+        },
+        {
+          "en": "Only repeated experiments, sharp, public, and repeatable, could persuade a community trained to perceive otherwise; Newton constructed his little theater of prisms and holes again and again for skeptical visitors, letting each man's own eyes instruct him, since no argument is stronger than a demonstration a person performs upon himself.",
+          "zh": "只有反复的实验——锋利、公开、可重复——才能说服一群受训于另一种感知的学界；牛顿为满腹怀疑的访客们一次又一次搭起他那座由棱镜和小孔构成的小剧场，让每个人的眼睛亲自教导他，因为没有哪种论证强得过一个人亲手施加于自己的演示。"
+        },
+        {
+          "en": "One visitor, after seeing the colors recombine, admitted with a laugh that he had defended the old theory for twenty years; “Bring me any man who still believes the glass paints the light,” he told Newton, “and I will change his mind in one afternoon.”",
+          "zh": "一位访客在看完颜色重新合成之后大笑着承认，他为旧理论辩护了二十年；“把还相信玻璃会给光上色的人带来，”他对牛顿说，“我一个下午就能让他改变想法。”"
+        },
+        {
+          "en": "You can repeat the whole argument yourself with a cheap prism and a slit of sun on a white wall; the instrument costs less than a lunch, the laboratory is any room with a curtain, and the payoff is the rare pleasure of watching a famous truth arrive in your own hands.",
+          "zh": "你自己也能重演整套论证：一块便宜的棱镜、白墙上一道透缝的阳光；这台仪器比一顿午饭还便宜，实验室只需一间有窗帘的屋子，而回报是那种稀有的快乐——看着一个著名的真理在你自己手里出现。"
+        },
+        {
+          "en": "Every stained-glass window has been quietly performing this proof for centuries, colored not by pigment but by selection; the deep blue of a cathedral wall is blue for the same reason as the sky, and at noon the floor below the rose window grows warm with the thermal gift of the sun, for nothing except the colored glass itself is permitted to intercept the light on its way.",
+          "zh": "每一座教堂的花窗几百年来都在悄悄做这个证明：它的颜色不靠颜料，而靠拣选；教堂深蓝的墙之所以是蓝的，与天空是蓝的是同一个道理；正午时分，玫瑰窗下的地板因阳光携来的热而渐渐变暖，因为除了彩色的玻璃本身，再没有什么被允许在半路拦截那束光。"
+        }
+      ],
+      "questions": [
+        {
+          "q": "What did Newton do in the plague year of 1666?",
+          "options": [
+            "He published a dictionary of color.",
+            "He darkened his room and admitted a single beam of sunlight through a hole in the shutter.",
+            "He discovered infrared with a thermometer.",
+            "He built the first telescope in Italy."
+          ],
+          "answer": 1,
+          "explain": "第1句 “darkened his room, and admitted a single beam of sunlight through a hole in the shutter”，牛顿在瘟疫之年遮暗房间做棱镜实验。"
+        },
+        {
+          "q": "How did Newton prove that white light is not simple?",
+          "options": [
+            "By asking scholars to vote.",
+            "By holding a thermometer beyond the red.",
+            "By counting colors with a ruler.",
+            "By placing a second prism so the dispersed colors recombined into white light again."
+          ],
+          "answer": 3,
+          "explain": "第4句 “the dispersed colors recombined into white light again”，第二块棱镜让散开的颜色重新合成白光，证明颜色本在白光之中。"
+        },
+        {
+          "q": "Why did Newton insist on counting indigo as a seventh color?",
+          "options": [
+            "To match the seven notes of the musical scale.",
+            "Because indigo is the brightest color.",
+            "To honor a wealthy sponsor.",
+            "Because the prism produced it twice."
+          ],
+          "answer": 0,
+          "explain": "第8句 “insisting on indigo to match the seven notes of the musical scale”，牛顿坚持算上靛蓝是为了对应音阶的七个音符。"
+        },
+        {
+          "q": "What does the visitor's remark to Newton suggest?",
+          "options": [
+            "That he never understood the experiment.",
+            "That Newton refused to receive visitors.",
+            "That the old theory was actually correct.",
+            "That a public demonstration could change minds faster than any argument."
+          ],
+          "answer": 3,
+          "explain": "第12句 “I will change his mind in one afternoon”，可推断亲眼看过演示的访客相信，让人亲眼看比争辩更能改变想法。"
+        },
+        {
+          "q": "The word “instrument” contains the root struct. What kind of thing is an instrument?",
+          "options": [
+            "A tool built for a purpose.",
+            "A kind of mirror.",
+            "A unit of heat.",
+            "A color of light."
+          ],
+          "answer": 0,
+          "explain": "第13句 “the instrument costs less than a lunch”，instrument（仪器）源于词根 struct（建造），指为特定用途而建造的工具。"
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "title": "接受与感知",
+      "sentences": [
+        {
+          "en": "This closing lecture turns the instrument around and asks what it means to receive light at all; for four chapters we have watched what light does in the world, and now, at the end, we finally look at the little window through which the world does all its entering.",
+          "zh": "这最后一讲把仪器掉转过来，问一个根本问题：接收光，到底意味着什么；前四章我们看光在世界上做了什么，而如今在结尾，我们终于来看那扇世界赖以进来的小窗。"
+        },
+        {
+          "en": "The eye is a lens, a diaphragm, and a curved screen, occupied by roughly 126 million light-sensitive cells; the whole structure is small enough to rest in a socket of bone, yet it outperforms any camera its size, adjusting focus in milliseconds and washing itself clean while we sleep.",
+          "zh": "眼睛是一枚透镜、一片光圈和一面弧形屏幕，被大约一亿两千六百万个感光细胞占据；整个结构小到可以安放在骨窝里，却胜过任何同尺寸的相机，能在几毫秒内完成调焦，还会趁我们睡着时把自己洗净。"
+        },
+        {
+          "en": "Color is not delivered to the brain as a label; it is computed from millions of silent arrivals, each cell reporting only a shade of brightness, and out of that whispering crowd the brain reconstructs a world so convincing that we forget it is a reconstruction.",
+          "zh": "颜色并不是带着标签送到大脑的；它是由数百万次无声的抵达计算出来的——每个细胞只报告一种明暗，而大脑从这窃窃私语的人群里重构出一个世界，真实得让我们忘了它只是一件重构品。"
+        },
+        {
+          "en": "What we call seeing is perception, the brain's active interpretation of electrical messages, not passive reception; two instruments built to the same design can still disagree, and so can two eyes, which is why honest witnesses describe one accident in different colors.",
+          "zh": "我们称为“看见”的东西是感知——大脑对电信号的解释，而非被动的接收；两台按同一图纸建造的仪器仍可能意见不合，两只眼睛也一样，这正是诚实的证人们会用不同颜色描述同一场事故的原因。"
+        },
+        {
+          "en": "The eye is receptive only within a narrow band: beyond red lies infrared, beyond violet lies ultraviolet, and we perceive neither; the full spectrum runs wider than a piano, and our senses occupy barely one octave of it, a quiet fact that took science centuries to measure and humility to accept.",
+          "zh": "眼睛只在一窄段范围内保持敏感：红之外是红外，紫之外是紫外，两者我们都察觉不到；完整的谱比一架钢琴还宽，而我们的感官只占据其中差不多一个八度——这个安静的事实，科学用了几个世纪去测量，又用谦逊去接受。"
+        },
+        {
+          "en": "In 1800, William Herschel held a thermometer beyond the red edge of a spectrum and found warmth waiting there; the instrument rose where the eye saw nothing, and infrared — thermal radiation, the light of heat — entered the world through a column of mercury instead of a retina.",
+          "zh": "1800年，威廉·赫歇尔把一支温度计放到光谱红边之外，发现那里正有热度在等着；仪器在眼睛一无所见的地方升了温，红外——热辐射，热之光——就这样通过一柱水银、而非一层视网膜进入了世界。"
+        },
+        {
+          "en": "Bees, whose eyes accept the ultraviolet, find runway markings on flowers that are invisible to us; a plain yellow dandelion is, to a bee, a lit landing pad, and the flower constructed its advertisement for an audience our eyes cannot join.",
+          "zh": "蜜蜂的眼睛接受紫外，能在花朵上找到我们看不见的“跑道标线”；一朵朴素的黄色蒲公英，在蜜蜂眼里是一座点亮的降落坪，而这朵花为我们的眼睛无法加入的观众建造了它的广告。"
+        },
+        {
+          "en": "Snakes perceive the infrared glow of warm bodies in the dark, so their night is not our night; a mouse hiding in cool grass is, to the hunting snake, a small thermal beacon shining through the leaves, betrayed by the warmth of its own blood.",
+          "zh": "蛇能察觉黑暗中温热身体发出的红外辉光，所以它们的夜晚不是我们的夜晚；藏在凉草里的老鼠，在捕猎的蛇看来是透过树叶闪耀的一座小小的热信标，被自己血液的温暖出卖了。"
+        },
+        {
+          "en": "Illusions prove the same point: a deceived eye is still an honest eye, faithfully reporting an interpretation; the brain is instructed by evolution to guess quickly rather than to measure slowly, and a clever drawing can exploit those inherited guesses the way a pickpocket exploits a crowded street.",
+          "zh": "错觉证明的是同一件事：被欺骗的眼睛仍是诚实的眼睛，忠实报告着一种解释；演化教导大脑宁可猜得快、不要量得慢，而一幅聪明的图画可以利用这些与生俱来的猜测，就像扒手利用一条拥挤的街道。"
+        },
+        {
+          "en": "Two people can receive the same light and disagree about a dress, an argument the internet once had for real; thousands of strangers stared at the same photograph and fought, politely and then not so politely, about white and gold versus blue and black, each side certain that perception was reality.",
+          "zh": "两个人可以接收同样的光，却对一条裙子的颜色争执不下——互联网真上演过这场争论；成千上万陌生人盯着同一张照片，先是客气地、后来不那么客气地争论“白与金”对“蓝与黑”，双方都确信感知即现实。"
+        },
+        {
+          "en": "Perception, in other words, is a negotiation between the world and the perceiver, and the terms are flexible; no law of physics instructs the brain to see one color, only to make one useful decision, and usefulness is a standard that varies with the animal, the task, and the moment.",
+          "zh": "换句话说，感知是世界与感知者之间的谈判，而条款是可以变通的；没有任何物理定律教导大脑必须看见某一种颜色，只教导它做一个有用的决定，而“有用”的标准随动物、随任务、随时刻而变。"
+        },
+        {
+          "en": "The microscope and the telescope participate by bending light into ranges our bare eyes can finally receive; each is an instrument constructed to widen the keyhole, and through the widened door we have met bacteria, distant galaxies, and everything in between that the unaided eye was never permitted to see.",
+          "zh": "显微镜和望远镜参与这场谈判的方式，是把光弯折进我们肉眼终于能接收的范围；每一件都是为了加宽锁孔而建造的仪器，透过这扇被拓宽的门，我们认识了细菌、遥远的星系，以及裸眼从不被允许看见的一切。"
+        },
+        {
+          "en": "A lecture on light must therefore end with humility: we accept the universe through a keyhole and call it the whole house; the narrow geometry of that keyhole is set by the accident of evolution, and no amount of learning can widen it — only instruments can, and only a little.",
+          "zh": "一份光的讲义因此必须以谦逊收尾：我们透过锁孔接受宇宙，却称它是整座房子；那道锁孔狭窄的几何是演化的偶然定下的，多少学问都无法把它拓宽——只有仪器能，而且只能拓宽一点点。"
+        },
+        {
+          "en": "Yet the keyhole is real, the light is honest, and the eye that perceives it remains the most human of instruments; it was the first laboratory our species owned, it instructed every science that followed, and this lecture, like every lecture since Euclid, still enters through it.",
+          "zh": "然而锁孔是真实的，光是诚实的，而那只感知光的眼睛，仍然是最具人性的仪器；它是我们这个物种拥有的第一间实验室，它教导了此后的一切科学，而这份讲义，同欧几里得以来的每一份讲义一样，仍须经由它进入。"
+        }
+      ],
+      "questions": [
+        {
+          "q": "About how many light-sensitive cells occupy the eye?",
+          "options": [
+            "About one million.",
+            "Exactly seven.",
+            "Twelve percent.",
+            "Roughly 126 million."
+          ],
+          "answer": 3,
+          "explain": "第2句 “occupied by roughly 126 million light-sensitive cells”，眼睛被大约一亿两千六百万个感光细胞占据。"
+        },
+        {
+          "q": "What did Herschel find in 1800 beyond the red edge of a spectrum?",
+          "options": [
+            "A new planet.",
+            "Warmth waiting there, the sign of infrared.",
+            "Nothing at all.",
+            "Ultraviolet markings on flowers."
+          ],
+          "answer": 1,
+          "explain": "第6句 “held a thermometer beyond the red edge of a spectrum and found warmth waiting there”，温度计在红边之外升温，红外由此被发现。"
+        },
+        {
+          "q": "What can bees see that humans cannot?",
+          "options": [
+            "The infrared glow of warm bodies.",
+            "Colors through solid walls.",
+            "Runway markings on flowers, invisible to us.",
+            "The same colors as humans, only faster."
+          ],
+          "answer": 2,
+          "explain": "第7句 “find runway markings on flowers that are invisible to us”，蜜蜂接受紫外，能看见花朵上我们看不见的标线。"
+        },
+        {
+          "q": "What does the internet argument over a dress illustrate?",
+          "options": [
+            "That cameras deceive everyone equally.",
+            "That colors exist only in things.",
+            "That the internet is always right.",
+            "That two people can receive the same light and perceive it differently."
+          ],
+          "answer": 3,
+          "explain": "第10句 “Two people can receive the same light and disagree about a dress”，感知是大脑的解释，同样的光可以得出不同的结论。"
+        },
+        {
+          "q": "The word “thermometer” contains the root therm. What does a thermometer measure?",
+          "options": [
+            "Light.",
+            "Earth.",
+            "Heat.",
+            "Angles."
+          ],
+          "answer": 2,
+          "explain": "第6句 “William Herschel held a thermometer beyond the red edge of a spectrum”，词根 therm 意为“热”，thermometer 即测温的仪器。"
+        }
+      ]
+    }
+  ]
+}
